@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-exp-log-natural">
+
+	<statement>
+		<p>
+			Let <m>E(t) = e^t</m> and <m>N(y) = \ln(y)</m> be the natural exponential function and the natural logarithm function, respectively.
+		</p>
+
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						What are the domain and range of <m>E</m>?
+					</p>
+				</li>
+				<li>
+					<p>
+						What are the domain and range of <m>N</m>?
+					</p>
+				</li>
+				<li>
+					<p>
+						What can you say about <m>\ln(e^t)</m> for every real number <m>t</m>?
+					</p>
+				</li>
+				<li>
+					<p>
+						What can you say about <m>e^{\ln(y)}</m> for every positive real number <m>y</m>?
+					</p>
+				</li>
+				<li>
+					<p>
+						Complete <xref ref="T-act-natural-e">Table</xref> and <xref ref="T-act-natural-log">Table</xref> of with both exact and approximate of <m>E</m> and <m>N</m>.  Then, plot the corresponding ordered pairs from each table on the axes provided in <xref ref="F-axes-e-ln">Figure</xref> and connect the points in an intuitive way.  When you plot the ordered pairs on the axes, in both cases view the first line of the table as generating values on the horizontal axis and the second line of the table as producing values on the vertical axis<fn>Note that when we take this perspective, we are viewing <m>N</m> as a function of <m>t</m>, writing <m>N(t) = \ln(t)</m> in order to plot the function on the <m>t</m>-<m>y</m> axes</fn>; label each ordered pair you plot appropriately.
+					</p>
+
+					<sidebyside>
+						<p>
+							<table xml:id="T-act-natural-e">
+								<caption>Values of <m>y = E(t)</m>.</caption>
+								<tabular>
+									<row bottom="minor" halign="center">
+										<cell><m>t</m></cell>
+										<cell><m>-2</m></cell>
+										<cell><m>-1</m></cell>
+										<cell><m>0</m></cell>
+										<cell><m>1</m></cell>
+										<cell><m>2</m></cell>
+									</row>
+									<row>
+										<cell><m>E(t)=e^t</m></cell>
+										<cell><m>e^{-2} \approx 0.135</m></cell>
+										<cell></cell>
+										<cell></cell>
+										<cell></cell>
+										<cell></cell>
+									</row>
+								</tabular>
+							</table>
+
+							<table xml:id="T-act-natural-log">
+								<caption>Values of <m>t = N(y)</m>.</caption>
+								<tabular>
+									<row bottom="minor" halign="center">
+										<cell><m>y</m></cell>
+										<cell><m>e^{-2}</m></cell>
+										<cell><m>e^{-1}</m></cell>
+										<cell><m>1</m></cell>
+										<cell><m>e^1</m></cell>
+										<cell><m>e^2</m></cell>
+									</row>
+									<row>
+										<cell><m>N(y)=\ln(y)</m></cell>
+										<cell><m>-2</m></cell>
+										<cell></cell>
+										<cell></cell>
+										<cell></cell>
+										<cell></cell>
+									</row>
+								</tabular>
+							</table>
+						</p>
+
+						<figure xml:id="F-axes-e-ln">
+							<caption>Axes for plotting data from <xref ref="T-act-natural-e">Table</xref> and <xref ref="T-act-natural-log">Table</xref> along with the graphs of the natural exponential and natural logarithm functions.</caption>
+							<image source="images/exp-log-blank-axes" />
+						</figure>
+					</sidebyside>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

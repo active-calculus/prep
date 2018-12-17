@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-other">
+  
+<!--
+  <exercise xml:id="ez-0-0-WW1">
+    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  </exercise>
+  <exercise xml:id="ez-0-0-WW2">
+    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  </exercise>
+-->
+
+  <exercise xml:id="ez-trig-other-5">
+    <statement>
+      <p>
+        Let <m>\beta</m> be an angle in quadrant II that satisfies <m>\cos(\beta) = -\frac{12}{13}</m>.
+        Determine the values of the other five trigonometric functions evaluated at <m>\beta</m> exactly and without evaluating any trigonometric function on a computational device.
+      </p>
+
+      <p>
+        How do your answers change if <m>\beta</m> that lies in quadrant III?
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+
+  <exercise xml:id="ez-trig-other-transformations">
+    <statement>
+      <p>
+        For each of the following transformations of standard trigonometric functions, use your understanding of transformations to determine the domain, range, asymptotes, and period of the function, with careful justification.  Then, check your results using <em>Desmos</em> or another graphing utility.
+      </p>
+
+      <p>
+        <ol label="a.">
+          <li>
+            <p>
+              <m>f(t) = 5\sec(t-\frac{\pi}{2}) + 3</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>g(t) = -\frac{1}{3}\csc(2t) - 4</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>h(t) = -7\tan(t+\frac{\pi}{4}) + 1</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>j(t) = \frac{1}{2}\cot(4t) - 2</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-trig-other-x">
+    <statement>
+      <p>
+        In a right triangle with hypotenuse 1 and vertical leg <m>x</m>,
+        with angle <m>\theta</m> opposite <m>x</m>,
+        determine the simplest expression you can for each of the following quantities in terms of <m>x</m>.
+      </p>
+
+      <p>
+        <ol label="a." cols="2">
+          <li>
+            <p>
+              <m>\sin(\theta)</m>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>\sec(\theta)</m>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>\csc(\theta)</m>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>\tan(\theta)</m>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>\cos(\arcsin(x))</m>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>\cot(\arcsin(x))</m>
+            </p>
+          </li>
+        </ol>        
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+
+</exercises>

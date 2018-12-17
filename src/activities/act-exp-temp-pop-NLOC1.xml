@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-exp-temp-log-NLOC1">
+
+	<statement>
+		<p>
+			A can of soda is initially at room temperature, <m>72.3^\circ</m>, and at time <m>t = 0</m> is placed in a refrigerator set at <m>37.7^\circ</m>.  In addition, we know that after <m>30</m> minutes, the soda's temperature has dropped to <m>59.5^\circ</m>.
+		</p>
+
+		<p>
+			<ol label="a.">
+		        <li>
+		          <p>
+		            Use algebraic reasoning and your understanding of the physical situation to determine the exact values of <m>a</m>,
+		            <m>c</m>,
+		            and <m>k</m> in the model <m>F(t) = ae^{-kt}+c</m>.
+		            Write at least one careful sentence to explain your thinking.
+		          </p>
+		        </li>
+
+		        <li>
+		          <p>
+		            Determine the exact time the object's temperature is <m>42.4^\circ</m>.
+		            Clearly show your algebraic work and thinking.
+		          </p>
+		        </li>
+
+		        <li>
+		          <p>
+		            Find the average rate of change of <m>F</m> on the interval <m>[25,30]</m>.
+		            What is the meaning
+		            (with units)
+		            of this value?
+		          </p>
+		        </li>
+
+		        <li>
+		          <p>
+		            If everything stayed the same except the value of <m>F(0)</m>,
+		            and instead <m>F(0) = 65</m>,
+		            would the value of <m>k</m> be larger or smaller?
+		            Why?
+		          </p>
+		        </li>
+
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

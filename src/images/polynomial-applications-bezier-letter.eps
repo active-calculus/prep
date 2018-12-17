@@ -1,0 +1,121 @@
+%!PS-Adobe-2.0
+%%BoundingBox: 0 0 150 190
+
+/letter (S) def
+/seascape false def
+
+
+/Symbol findfont 11 scalefont setfont
+/Palatino-Roman findfont 11 20 mul scalefont setfont
+
+seascape {
+    0 792 translate
+    -90 rotate 36 396
+} {
+    300 308
+} ifelse
+
+20 20 translate
+
+/s 2 def
+0 0 moveto
+letter false charpath
+/box {
+  newpath
+  gsave
+  moveto
+  s neg dup rmoveto
+  s 2 mul 0 rlineto
+  0 s 2 mul rlineto
+  s -2 mul 0 rlineto
+  closepath
+  gsave 0.6 0.2 1.0 setrgbcolor fill
+  grestore
+  stroke
+  grestore
+} def
+
+%0 0 moveto
+%10 10 box
+
+/first true def
+
+%newpath
+%100 100 moveto
+%100 200 200 200 300 50 curveto
+%300 300 lineto
+%closepath
+
+%% moveto procedure
+  {
+  first {
+    /first false def
+    2 copy
+    /y0 exch def
+    /x0 exch def
+  } if moveto
+}
+
+%% lineto procedure
+  {
+  gsave
+  currentpoint 
+  4 2 roll 2 copy 
+  lineto 
+  0.6 0.2 0.8 setrgbcolor stroke 
+  grestore
+  2 copy 6 2 roll 
+  box box
+  moveto
+} 
+
+%% curveto procedure
+  {
+%  gsave
+%  currentpoint 
+%  8 2 roll 6 copy 
+%  curveto 0.8 0.2 1.0 setrgbcolor stroke 
+%  grestore
+%  8 copy 2 copy 18 2 roll 
+%  gsave
+%  newpath
+%  0.6 setgray
+%  moveto lineto stroke 
+%  moveto lineto stroke
+%  grestore
+%  box box box box 
+%  moveto
+%
+  currentpoint 8 2 roll 2 copy 
+  10 2 roll 8 copy 
+  newpath
+  gsave
+  0.6 setgray
+  moveto lineto stroke 
+  moveto lineto stroke
+  grestore
+  gsave
+  newpath
+  8 copy 8 -2 roll moveto
+  curveto 0.8 0.2 1.0 setrgbcolor stroke 
+  grestore
+  box box box box 
+  moveto
+}
+
+%% closepath procedure
+  {
+  gsave
+  currentpoint 
+  x0 y0 2 copy 
+  lineto 
+  0.6 0.2 0.8 setrgbcolor stroke 
+%  0.8 0.2 0.6 setrgbcolor stroke 
+  grestore
+  box box 
+  /first true def
+}
+
+pathforall
+
+showpage

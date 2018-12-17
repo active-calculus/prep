@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-changing-in-tandem">
+  	<title>Changing in Tandem</title>
+  	<objectives>
+	  	<ul>
+	  		<li>
+	  			<p>
+	  				If we have two quantities that are changing in tandem, how can we connect the quantities and understand how change in one affects the other?
+	  			</p>
+	  		</li>
+	  		<li>
+	  			<p>
+	  				When the amount of water in a tank is changing, what behaviors can we observe?
+	  			</p>
+	  		</li>
+	  	</ul>
+  	</objectives>
+
+	<introduction>
+		<p>
+			Mathematics is the art of making sense of patterns.  One way that patterns arise is when two quantities are changing in tandem.  In this setting, we may make sense of the situation by expressing the relationship between the changing quantities through words, through images, through data, or through a formula.
+		</p>
+
+		<xi:include href="./previews/PA-changing-tandem-aquarium.xml" />
+
+	</introduction>
+
+	<subsection xml:id="subsec-changing-tandem-graphs">
+		<title>Using Graphs to Represent Relationships</title>
+
+		<p>
+			In <xref ref="PA-changing-aquarium">Preview Activity</xref>, we saw how several changing quantities were related in the setting of an aquarium filling with water: time, the depth of the water, and the total amount of water in the tank are all changing, and any pair of these quantities changes in related ways.  One way that we can make sense of the situation is to record some data in a table.  For instance, observing that the tank is filling at a rate of <m>0.5</m> cubic feet per minute, this tells us that after <m>1</m> minute there will be <m>0.5</m> cubic feet of water in the tank, and after <m>2</m> minutes there will be <m>1</m> cubic foot of water in the tank, and so on.  If we let <m>t</m> denote the time in minutes and <m>V</m> the amount of water in the tank at time <m>t</m>, we can represent the relationship between these quantities through <xref ref="T-tandem-aquarium">Table</xref>.
+			
+			<table xml:id="T-tandem-aquarium">
+				<caption>How time and volume change in tandem in <xref ref="PA-changing-aquarium">Preview Activity</xref>.</caption>
+				<tabular>
+				    <row bottom="minor">
+				      <cell><m>t</m></cell>
+				      <cell><m>0</m></cell>
+				      <cell><m>1</m></cell>
+				      <cell><m>2</m></cell>
+				      <cell><m>3</m></cell>
+				      <cell><m>4</m></cell>
+				      <cell><m>5</m></cell>
+				    </row>
+				    <row>
+				      <cell><m>V</m></cell>
+				      <cell><m>0.0</m></cell>
+				      <cell><m>0.5</m></cell>
+				      <cell><m>1.0</m></cell>
+				      <cell><m>1.5</m></cell>
+				      <cell><m>2.0</m></cell>
+				      <cell><m>2.5</m></cell>
+				    </row>
+				</tabular>
+			</table>
+		</p>
+
+		<p>
+			We can also represent this data in a graph by plotting ordered pairs <m>(t,V)</m> on a system of coordinate axes, where <m>t</m> represents the horizontal distance of the point from the origin, <m>(0,0)</m>, and <m>V</m> represents the vertical distance from <m>(0,0)</m>.  Here we include the table of values from <xref ref="T-tandem-aquarium">Table</xref> on the left to compare the data and its visual representation in the graph in <xref ref="F-tandem-Volume-time">Figure</xref>.
+		</p>
+
+		<sidebyside width="50%" valign="middle">
+
+			<table xml:id="T-tandem-aquarium-redux">
+				<caption><xref ref="T-tandem-aquarium">Table</xref> repeated.</caption>
+				<tabular>
+				    <row bottom="minor">
+				      <cell><m>t</m></cell>
+				      <cell><m>V</m></cell>
+				    </row>
+				    <row>
+				      <cell><m>0</m></cell>
+				      <cell><m>0.0</m></cell>
+				    </row>
+				    <row>
+				      <cell><m>1</m></cell>
+				      <cell><m>0.5</m></cell>
+				    </row>
+				    <row>
+				      <cell><m>2</m></cell>
+				      <cell><m>1.0</m></cell>
+				    </row>
+				    <row>
+				      <cell><m>3</m></cell>
+				      <cell><m>1.5</m></cell>
+				    </row>
+				    <row>
+				      <cell><m>4</m></cell>
+				      <cell><m>2.0</m></cell>
+				    </row>
+				    <row>
+				      <cell><m>5</m></cell>
+				      <cell><m>2.5</m></cell>
+				    </row>				    
+				</tabular>
+			</table>			
+			<figure xml:id="F-tandem-Volume-time" width="50%" >
+				<caption>A visual representation of the data in <xref ref="T-tandem-aquarium-redux">Table</xref>.</caption>
+				<image source="images/tandem-aquarium-V-t" /> 	
+			</figure>
+		</sidebyside>
+
+		<p>
+			Sometimes it is possible to use variables and one or more equations to connect quantities that are changing in tandem.  In the aquarium example from the preview activity, we can observe that the volume, <m>V</m>, of a rectangular box that has length <m>l</m>, width <m>w</m>, and height <m>h</m> is given by 
+			<me>
+				V = l \cdot w \cdot h
+			</me>,
+			and thus, since the water in the tank will always have length <m>l = 4</m> feet and width <m>w = 2</m> feet, the volume of water in the tank is directly related to the depth of water in the tank by the equation
+			<me>
+				V = 4 \cdot 2 \cdot h = 8h
+			</me>.
+			Depending on which variable we solve for, we can either see how <m>V</m> depends on <m>h</m> through the equation <m>V = 8h</m>, or how <m>h</m> depends on <m>V</m> via the equation <m>h = \frac{1}{8}V</m>.  From either perspective, we observe that as depth or volume increases, so must volume or depth correspondingly increase.
+		</p>
+
+		<xi:include href="./activities/act-changing-tandem-conical-tank.xml" />
+
+	</subsection>
+
+	<subsection xml:id="subsec-changing-algebra-perspective">
+		<title>Using Algebra to Add Perspective</title>
+		<p>
+			One of the ways that we make sense of mathematical ideas is to view them from multiple perspectives.  Sometimes we use different means to establish a point of view:  words, numerical data, graphs, or symbols.  In addition, sometimes by changing our perspective within a particular approach we gain deeper insight.
+		</p>
+
+		<p>
+			If we consider the conical tank discussed in <xref ref="act-tandem-conical-tank">Activity</xref>, we can use algebra to better understand some of the relationships among changing quantities.  The volume of a cone <idx><h>volume</h><h>cone</h></idx> with radius <m>r</m> and height <m>h</m> is given by the formula 
+			<me>
+				V = \frac{1}{3}\pi r^2 h
+			</me>.
+		</p>
+		
+		<sidebyside width="50%">
+			<figure xml:id="F-tandem-empty-conical-tank">
+				<caption>The empty conical tank.</caption>
+				<image source="images/tandem-empty-conical-tank" width="50%" />
+			</figure>
+			<figure xml:id="F-tandem-filled-conical-tank">
+				<caption>The conical tank, partially filled.</caption>
+				<image source="images/tandem-filled-conical-tank"  width="50%" />
+			</figure>			
+		</sidebyside>
+
+		<p>
+			Note that at any time while the tank is being filled, <m>r</m> (the radius of the surface of the water), <m>h</m> (the depth of the water), and <m>V</m> (the volume of the water) are all changing; moreover, all are connected to one another.  Because of the constraints of the tank itself (with radius <m>2</m> feet and depth <m>4</m> feet), it follows that as the radius and height of the water change, they always do so in the proportion
+			<me>
+				\frac{r}{h} = \frac{2}{4}
+			</me>.
+			Solving this last equation for <m>r</m>, we see that <m>r = \frac{1}{2}h</m>; substituting this most recent result in the equation for volume, it follows that
+			<me>
+				V = \frac{1}{3}\pi \left( \frac{1}{2}h \right)^2 h = \frac{\pi}{12} h^3
+			</me>.
+		</p>
+
+		<p>
+			This most recent equation helps us understand how <m>V</m> and <m>h</m> change in tandem.  We know from our earlier work that the volume of water in the tank increases at a constant rate of <m>0.75</m> cubic feet per minute.  This leads to the data shown in <xref ref="T-tandem-cone-V-t">Table</xref>.
+
+			<table xml:id="T-tandem-cone-V-t">
+				<caption>How time and volume change in tandem in a conical tank.</caption>
+				<tabular>
+				    <row bottom="minor">
+				      <cell><m>t</m></cell>
+				      <cell><m>0</m></cell>
+				      <cell><m>1</m></cell>
+				      <cell><m>2</m></cell>
+				      <cell><m>3</m></cell>
+				      <cell><m>4</m></cell>
+				      <cell><m>5</m></cell>
+				    </row>
+				    <row>
+				      <cell><m>V</m></cell>
+				      <cell><m>0.0</m></cell>
+				      <cell><m>0.75</m></cell>
+				      <cell><m>1.5</m></cell>
+				      <cell><m>2.25</m></cell>
+				      <cell><m>3.0</m></cell>
+				      <cell><m>3.75</m></cell>
+				    </row>
+				</tabular>
+			</table>
+		</p>
+
+		<p>
+			With the equation <m>V = \frac{\pi}{12} h^3</m>, we can now also see how the height of the water changes in tandem with time.  Solving the equation for <m>h</m>, note that <m>h^3 = \frac{12}{\pi} V</m>, and therefore 
+			<men xml:id="eq-height-from-volume">
+				h = \sqrt[3]{\frac{12}{\pi} V}
+			</men>.  Thus, when <m>V = 0.75</m>, it follows that <m>h = \sqrt[3]{\frac{12}{\pi} 0.75} \approx 1.42</m>.  Executing similar computations with the other values of <m>V</m> in <xref ref="T-tandem-cone-V-t">Table</xref>, we get the following updated data that now includes <m>h</m>.
+		</p>
+
+			<table xml:id="T-tandem-cone-V-h-t">
+				<caption>How time, volume, and height change in concert in a conical tank.</caption>
+				<tabular>
+				    <row bottom="minor">
+				      <cell><m>t</m></cell>
+				      <cell><m>0</m></cell>
+				      <cell><m>1</m></cell>
+				      <cell><m>2</m></cell>
+				      <cell><m>3</m></cell>
+				      <cell><m>4</m></cell>
+				      <cell><m>5</m></cell>
+				    </row>
+				    <row bottom="minor">
+				      <cell><m>V</m></cell>
+				      <cell><m>0.0</m></cell>
+				      <cell><m>0.75</m></cell>
+				      <cell><m>1.5</m></cell>
+				      <cell><m>2.25</m></cell>
+				      <cell><m>3.0</m></cell>
+				      <cell><m>3.75</m></cell>
+				    </row>			    
+				    <row>
+				      <cell><m>h</m></cell>
+				      <cell><m>0.0</m></cell>
+				      <cell><m>1.42</m></cell>
+				      <cell><m>1.79</m></cell>
+				      <cell><m>2.05</m></cell>
+				      <cell><m>2.25</m></cell>
+				      <cell><m>2.43</m></cell>
+				    </row>
+				</tabular>
+			</table>
+
+		<p>
+			Plotting this data on two different sets of axes, we see the different ways that <m>V</m> and <m>h</m> change with <m>t</m>.  Whereas volume increases at a constant rate, as seen by the straight line appearance of the points in <xref ref="F-tandem-cone-V-t">Figure</xref>, we observe that the water's height increases in a way that it rises more slowly as time goes on, as shown by the way the curve the points lie on in <xref ref="F-tandem-cone-h-t">Figure</xref> <q>bends down</q> as time passes.
+
+			<sidebyside width="50%">
+				<figure xml:id="F-tandem-cone-V-t">
+					<caption>Plotting <m>V</m> versus <m>t</m>.</caption>
+			    	<image source="images/tandem-cone-V-t" width="50%"/> 
+				</figure>
+				<figure xml:id="F-tandem-cone-h-t">
+					<caption>Plotting <m>h</m> versus <m>t</m>.</caption>
+			    	<image source="images/tandem-cone-h-t" width="50%"/> 
+			    </figure>
+			</sidebyside>
+		</p>
+
+		<p>
+			These different behaviors make sense because of the shape of the tank.  Since at first there is less volume relative to depth near the cone's point, as water flows in at a constant rate, the water's height will rise quickly.  But as time goes on and more water is added at the same rate, there is more space for the water to fill in order to make the water level rise, and thus the water's heigh rises more and more slowly as time passes.
+		</p>
+
+		<xi:include href="./activities/act-changing-tandem-spherical-tank.xml" />
+
+	</subsection>
+
+	<subsection xml:id="subsec-changing-tandem-summary">
+		<title>Summary</title>
+		<p>
+			<ul>
+				<li>
+					<p>
+						When two related quantities are changing in tandem, we can better understand how change in one affects the other by using data, graphs, words, or algebraic symbols to express the relationship between them.  See, for instance, <xref ref="T-tandem-cone-V-t">Table</xref>,  <xref ref="F-tandem-cone-V-t">Figure</xref>, <xref ref="F-tandem-cone-h-t"/>, and <xref ref="eq-height-from-volume">Equation</xref> that together help explain how the height and volume of water in a conical tank change as time changes.
+					</p>
+				</li>
+				<li>
+					<p>
+						When the amount of water in a tank is changing, we can observe other quantities that change, depending on the shape of the tank.  For instance, if the tank is conical, we can consider both the changing height of the water and the changing radius of the surface of the water.  In addition, whenever we think about a quantity that is changing as time passes, we note that time itself is changing.
+					</p>
+				</li>
+			</ul>
+		</p>
+	</subsection>
+
+	<xi:include href="./exercises/ez-changing-tandem.xml" /> 
+
+  <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
+  <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
+</section>
+

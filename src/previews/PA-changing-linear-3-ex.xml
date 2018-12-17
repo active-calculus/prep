@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-changing-linear-3-ex">
+
+	<statement>
+		<p>
+			For each of the following functions, compute the average rate of change on the stated intervals.  What do you notice?
+		</p>
+
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						Let <m>y = f(x) = 7 - 3x</m>.  Determine <m>AV_{[-3,-1]}</m>, <m>AV_{[2,5]}</m>, and <m>AV_{[4,10]}</m> for the function <m>f</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Let <m>y = g(x)</m> be given by the data in <xref ref="T-PA-changing-linear-3-ex-2">Table</xref>.
+					</p>
+
+					<table xml:id="T-PA-changing-linear-3-ex-2">
+						<caption>A table that defines the function <m>y = g(x)</m>.</caption>
+							<tabular>
+								<row bottom="minor" align="center">
+									<cell><m>x</m></cell>
+									<cell><m>-5</m></cell>
+									<cell><m>-4</m></cell>
+									<cell><m>-3</m></cell>
+									<cell><m>-2</m></cell>
+									<cell><m>-1</m></cell>
+									<cell><m>0</m></cell>																		
+									<cell><m>1</m></cell>
+									<cell><m>2</m></cell>
+									<cell><m>3</m></cell>
+									<cell><m>4</m></cell>
+									<cell><m>5</m></cell>
+								</row>
+								<row align="center">
+									<cell><m>g(x)</m></cell>
+									<cell><m>-2.75</m></cell>
+									<cell><m>-2.25</m></cell>
+									<cell><m>-1.75</m></cell>
+									<cell><m>-1.25</m></cell>
+									<cell><m>-0.75</m></cell>
+									<cell><m>-0.25</m></cell>																	
+									<cell><m>0.25</m></cell>
+									<cell><m>0.75</m></cell>
+									<cell><m>1.25</m></cell>
+									<cell><m>1.75</m></cell>
+									<cell><m>2.25</m></cell>
+								</row>
+							</tabular>
+					</table>
+
+					<p>
+						Determine <m>AV_{[-5,-2]}</m>, <m>AV_{[-1,1]}</m>, and <m>AV_{[0,4]}</m> for the function <m>g</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Consider the function <m>y = h(x)</m> defined by the graph in <xref ref="F-PA-changing-linear-3-ex-3">Figure</xref>.
+					</p>
+
+					<figure xml:id="F-PA-changing-linear-3-ex-3">
+						<caption>The graph of <m>y = h(x)</m>.</caption>
+						<image width="50%" source="images/linear-PA-ex-3" />
+					</figure>
+
+					<p>
+						Determine <m>AV_{[-5,-2]}</m>, <m>AV_{[-1,1]}</m>, and <m>AV_{[0,4]}</m> for the function <m>g</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						What do all three examples above have in common?  How do they differ?
+					</p>
+				</li>
+				<li>
+					<p>
+						For the function <m>y = f(x) = 7 - 3x</m> from (a), find the simplest expression you can for 
+						<me>
+							AV_{[a,b]} = \frac{f(b)-f(a)}{b-a}
+						</me>
+						where <m>a \ne b</m>.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+
+</exploration>

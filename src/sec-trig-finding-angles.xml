@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-trig-finding-angles">
+  <title>Finding Angles</title>
+  <objectives>
+  	<ul>
+  		<li>
+  			<p>
+  				How can we use inverse trigonometric functions to determine missing angles in right triangles?
+  			</p>
+  		</li>
+      <li>
+        <p>
+          What situations require us to use technology to evaluate inverse trignometric functions?
+        </p>
+      </li>
+  	</ul>
+  </objectives>  
+
+  	<introduction>
+  		<p>
+  			In our earlier work in <xref ref="sec-trig-right">Section</xref> and <xref ref="sec-trig-tangent">Section</xref>, we observed that in any right triangle, if we know the measure of one additional angle and the length of one additional side, we can determine all of the other parts of the triangle.  With the inverse trigonometric functions that we developed in <xref ref="sec-trig-inverse">Section</xref>, we are now also able to determine the missing angles in any right triangle where we know the lengths of two sides.
+  		</p>
+
+      <p>
+        While the original trigonometric functions take a particular angle as input and provide an output that can be viewed as the ratio of two sides of a right triangle, the inverse trigonometric functions take an input that can be viewed as a ratio of two sides of a right triangle and produce the corresponding angle as output.  Indeed, it's imperative to remember that statements such as 
+        <me>
+          \arccos(x) = \theta \text{ and } \cos(\theta) = x
+        </me>
+        say the exact same thing from two different perspectives, and that we read <q><m>\arccos(x)</m></q> as <q>the angle whose cosine is <m>x</m></q>.
+      </p>
+
+      <xi:include href="./previews/PA-trig-finding-angles.xml" />
+
+  	</introduction>
+
+  <subsection xml:id="subsec-trig-finding-angles-evaluating">
+    <title>Evaluating inverse trigonometric functions</title>
+
+    <p>
+      Like the trigonometric functions themselves, there are a handful of important values of the inverse trigonometric functions that we can determine exactly without the aid of a computer.  For instance, we know from the unit circle (see <xref ref="F-circular-sine-all-16">Figure</xref>) that <m>\arcsin(-\frac{\sqrt{3}}{2}) = -\frac{\pi}{3}</m>, <m>\arccos(-\frac{\sqrt{3}}{2}) = \frac{5\pi}{6}</m>, and <m>\arctan(-\frac{1}{\sqrt{3}}) = -\frac{\pi}{6}</m>.  In these evaluations, we have to be careful to remember that the range of the arccosine function is <m>[0,\pi]</m>, while the range of the arcsine function is <m>[-\frac{\pi}{2},\frac{\pi}{2}]</m> and the range of the arctangent function is <m>(-\frac{\pi}{2},\frac{\pi}{2})</m>, in order to ensure that we choose the appropriate angle that results from the inverse trigonometric function.
+    </p>
+
+    <p>
+      In addition, there are many other values at which we may wish to know the angle that results from an inverse trigonometric function.  To determine such values, we use a computational device (such as <em>Desmos</em>) in order to evaluate the function.
+    </p>
+
+    <example>
+      <statement>
+        <sidebyside widths="35% 65%">
+          <p>
+            Consider the right triangle pictured in <xref ref="F-finding-angles-ex-1">Figure</xref> and assume we know that the vertical leg has length <m>1</m> and the hypotenuse has length <m>3</m>.  Let <m>\alpha</m> be the angle opposite the known leg.  Determine exact and approximate values for all of the remaining parts of the triangle.
+          </p>
+
+          <figure xml:id="F-finding-angles-ex-1">
+            <caption>A right triangle with one known leg and known hypotenuse.</caption>
+            <image source="images/finding-angles-ex-1" />
+          </figure>
+        </sidebyside>
+      </statement>
+
+      <solution>
+        <p>
+          Because we know the hypotenuse and the side opposite <m>\alpha</m>, we observe that <m>\sin(\alpha) = \frac{1}{3}</m>.  Rewriting this statement using inverse function notation, we have equivalently that <m>\alpha = \arcsin(\frac{1}{3})</m>, which is the exact value of <m>\alpha</m>.  Since this is not one of the known special angles on the unit circle, we can find a numerical estimate of <m>\alpha</m> using a computational device.  Entering <c>arcsin(1/3)</c> in <em>Desmos</em>, we find that <m>\alpha \approx 0.3398</m> radians.  Note well: whatever device we use, we need to be careful to use degree or radian mode as dictated by the problem we are solving.  We will always work in radians unless stated otherwise.
+        </p>
+
+        <p>
+          We can now find the remaining leg's length and the remaining angle's measure.  If we let <m>x</m> represent the length of the horizontal leg, by the Pythagorean Theorem we know that
+          <me>x^2 + 1^2 = 3^2</me>,
+          and thus <m>x^2 = 8</m> so <m>x = \sqrt{8} \approx 2.8284</m>.  Calling the remaining angle <m>\beta</m>, since <m>\alpha + \beta = \frac{\pi}{2}</m>, it follows that 
+          <me>
+            \beta = \frac{\pi}{2} - \arcsin(\frac{1}{3}) \approx 1.2310
+          </me>.
+        </p>
+      </solution>
+    </example>
+
+    <xi:include href="./activities/act-trig-finding-angles-exactly.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-trig-finding-angles-applied">
+    <title>Finding angles in applied contexts</title>
+    <p>
+      Now that we have developed the (restricted) sine, cosine, and tangent functions and their respective inverses, in any setting in which we have a right triangle together with one side length and any one additional piece of information (another side length or a non-right angle measurement), we can determine all of the remaining pieces of the triangle.  In the activities that follow, we explore these possibilities in a variety of different applied contexts.
+    </p>
+
+    <xi:include href="./activities/act-trig-finding-angles-roof.xml" />
+
+    <xi:include href="./activities/act-trig-finding-angles-baseball.xml" />
+
+    <xi:include href="./activities/act-trig-finding-angles-rocket.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-trig-finding-angles-summary">
+    <title>Summary</title>
+
+    <p>
+
+      <ul>
+        <li>
+          <sidebyside>
+            <p>
+              Anytime we know two side lengths in a right triangle, we can use one of the inverse trigonometric functions to determine the measure of one of the non-right angles.  For instance, if we know the values of <m>\text{opp}</m> and <m>\text{adj}</m> in <xref ref="F-finding-angles-SOH-CAH-TOA">Figure</xref>, then since 
+              <me>
+                \tan(\theta) = \frac{\text{opp}}{\text{adj}}
+              </me>,
+              it follows that <m>\theta = \arctan(\frac{\text{opp}}{\text{adj}})</m>.
+            </p>
+
+            <figure xml:id="F-finding-angles-SOH-CAH-TOA">
+              <caption>Finding an angle from knowing the legs in a right triangle.</caption>
+              <image source="images/right-triangle-SOH-CAH-TOA" />
+            </figure>
+          </sidebyside>
+
+          <p>
+            If we instead know the hypotenuse and one of the two legs, we can use either the arcsine or arccosine function accordingly.
+          </p>
+        </li>
+        <li>
+          <p>
+            For situations other than angles or ratios that involve the <m>16</m> special points on the unit circle, technology is required in order to evaluate inverse trignometric functions.  For instance, from the unit circle we know that <m>\arccos(\frac{1}{2}) = \frac{2\pi}{3}</m> (exactly), but if we want to know <m>\arccos(\frac{1}{3})</m>, we have to estimate this value using a computational device such as <em>Desmos</em>.  We note that <q><m>\arccos(\frac{1}{3})</m></q> is the exact value of the angle whose cosine is <m>1/3</m>.
+          </p>
+        </li>
+      </ul>
+      
+    </p>
+
+  </subsection>
+
+  <xi:include href="./exercises/ez-trig-finding-angles.xml" />
+
+  <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
+  <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
+</section>
+

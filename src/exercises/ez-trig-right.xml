@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-right">
+  
+<!--
+  <exercise xml:id="ez-0-0-WW1">
+    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  </exercise>
+  <exercise xml:id="ez-0-0-WW2">
+    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  </exercise>
+-->
+
+  <exercise xml:id="ez-trig-right-lamppost">
+    <statement>
+      <p>
+        A person standing <m>50</m> feet away from a streetlight observes that they cast a shadow that is <m>14</m> feet long.  If a ray of light from the streetlight to the tip of the person's shadow forms an angle of <m>27.5^\circ</m> with the ground, how tall is the person and how tall is the streetlight?  What other information about the situation can you determine?
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-trig-right-rocket">
+    <statement>
+      <p>
+        A person watching a rocket launch uses a laser range-finder to measure the distance from themselves to the rocket.  The range-finder also reports the angle at which the finder is being elevated from horizontal.  At a certain instant, the range-finder reports that it is elevated at an angle of <m>17.4^\circ</m> from horizontal and that the distance to the rocket is <m>1650</m> meters.  How high off the ground is the rocket?  Assuming a straight-line vertical path for the rocket that is perpendicular to the earth, how far away was the rocket from the range-finder at the moment it was launched? 
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-trig-right-trough">
+    <statement>
+      <p>
+        A trough is constructed by bending a <m>4' \times 24'</m> rectangular sheet of metal.  Two symmetric folds <m>2</m> feet apart are made parallel to the longest side of the rectangle so that the trough has cross-sections in the shape of a trapezoid, as pictured in <xref ref="F-right-triangle-trough">Figure</xref>.  Determine a formula for <m>V(\theta)</m>, the volume of the trough as a function of <m>\theta</m>.  (Hint:  the volume of the trough is the area of a cross-section times the length of the trough.)
+      </p>
+
+      <figure xml:id="F-right-triangle-trough">
+        <caption>A cross-section of the trough.</caption>
+        <image source="images/right-triangle-trough" />
+      </figure>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+</exercises>

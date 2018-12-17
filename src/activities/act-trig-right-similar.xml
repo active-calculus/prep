@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-trig-right-similar">
+
+	<statement>
+		<p>
+			Consider right triangle <m>OPQ</m> given in <xref ref="F-right-OPQ">Figure</xref>, and assume that the length of the hypotenuse is <m>OP = r</m> for some constant <m>r \gt 1</m>.  Let point <m>M</m> lie on <m>\overline{OP}</m> between <m>O</m> and <m>P</m> in such a way that <m>OM = 1</m>, and let point <m>N</m> lie on <m>\overline{OQ}</m> so that <m>\angle ONM</m> is a right angle, as pictured.  In addition, assume that  point <m>O</m> corresponds to <m>(0,0)</m>, point <m>Q</m> to <m>(x,0)</m>, and point <m>P</m> to <m>(x,y)</m> so that <m>OQ = x</m> and <m>PQ = y</m>.  Finally, let <m>\theta</m> be the measure of <m>\angle POQ</m>.
+		</p>
+
+		<figure xml:id="F-right-OPQ">
+			<caption>Two right triangles <m>\triangle OPQ</m> and <m>\triangle OMN</m>.</caption>
+			<image source="images/right-triangle-act-similar"/>
+		</figure>
+
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						Explain why <m>\triangle OPQ</m> and <m>\triangle OMN</m> are similar triangles.
+					</p>
+				</li>
+				<li>
+					<p>
+						What is the value of the ratio <m>\frac{OP}{OM}</m>?  What does this tell you about the ratios <m>\frac{OQ}{ON}</m> and <m>\frac{PQ}{MN}</m>?
+					</p>
+				</li>
+				<li>
+					<p>
+						What is the value of <m>ON</m> in terms of <m>\theta</m>?  What is the value of <m>MN</m> in terms of <m>\theta</m>?  
+					</p>
+				</li>
+				<li>
+					<p>
+						Use your conclusions in (b) and (c) to express the values of <m>x</m> and <m>y</m> in terms of <m>r</m> and <m>\theta</m>.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

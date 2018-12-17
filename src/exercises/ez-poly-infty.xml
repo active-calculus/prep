@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-poly-infty">
+  
+<!--
+  <exercise xml:id="ez-0-0-WW1">
+    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  </exercise>
+  <exercise xml:id="ez-0-0-WW2">
+    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  </exercise>
+-->
+
+
+
+  <exercise xml:id="ez-poly-infty-transformations">
+    <statement>
+      <p>
+        Consider the familiar graph of <m>f(x) = \frac{1}{x}</m>, which has a vertical asypmtote at <m>x = 0</m> and a horizontal asymptote at <m>y = 0</m>, as pictured in <xref ref="F-VA-0-HA-0">Figure</xref>.  In addition, consider the similarly-shaped function <m>g</m> shown in <xref ref="F-VA-1-HA-2">Figure</xref>, which has vertical asymptote <m>x = -1</m> and horizontal asymptote <m>y = -2</m>.
+      </p>
+
+      <sidebyside width="50%">
+        <figure xml:id="F-VA-0-HA-0">
+          <caption>A plot of <m>f(x) = \frac{1}{x}</m>.</caption>
+          <image source="images/infty-VA-0-HA-0" />
+        </figure>
+        <figure xml:id="F-VA-1-HA-2">
+          <caption>A plot of <m>f(x) = \frac{1}{x}</m>.</caption>
+          <image source="images/infty-VA-1-HA-2" />
+        </figure>
+      </sidebyside>
+
+      <p>
+        <ol label="a.">
+          <li>
+            <p>
+              How can we view <m>g</m> as a transformation of <m>f</m>?  Explain, and state how <m>g</m> can be expressed algebraically in terms of <m>f</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Find a formula for <m>g</m> as a function of <m>x</m>.  What is the domain of <m>g</m>?  
+            </p>
+          </li>
+          <li>
+            <p>
+              Explain algebraically (using the form of <m>g</m> from (b)) why <m>\lim_{x \to \infty} g(x) = -2</m> and <m>\lim_{x \to -1^+} g(x) = \infty</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              What if a function <m>h</m> (again of a similar shape as <m>f</m>) has vertical asymptote <m>x = 5</m> and horizontal asymtote <m>y = 10</m>.  What is a possible formula for <m>h(x)</m>?
+            </p>
+          </li>
+          <li>
+            <p>
+              Suppose that <m>r(x) = \frac{1}{x+35} - 27</m>.  <em>Without</em> using a graphing utility, how do you expect the graph of <m>r</m> to appear?  Does it have a horizontal asymptote?  A vertical asymptote?  What is its domain?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-poly-infty-comparisons">
+    <statement>
+      <p>
+        We've observed that several different familiar functions grow without bound as <m>x \to \infty</m>, including <m>f(x) = \ln(x)</m>, <m>g(x) = x^2</m>, and <m>h(x) = e^x</m>.  In this exercise, we compare and contrast how these three functions grow.
+      </p>
+
+      <p>
+        <ol label="a.">
+          <li>
+            <p>
+              Use a computational device to compute decimal expressions for <m>f(10)</m>, <m>g(10)</m>, and <m>h(10)</m>, as well as <m>f(100)</m>, <m>g(100)</m>, and <m>h(100)</m>.  What do you observe?
+            </p>
+          </li>
+          <li>
+            <p>
+              For each of <m>f</m>, <m>g</m>, and <m>h</m>, how large an input is needed in order to ensure that the function's output value is at least <m>10^{10}</m>?  What do these values tell us about how each function grows?
+            </p>
+          </li>
+          <li>
+            <p>
+              Consider the new function <m>r(x) = \frac{g(x)}{h(x)} = \frac{x^2}{e^x}</m>.  Compute <m>r(10)</m>, <m>r(100)</m>, and <m>r(1000)</m>.  What do the results suggest about the long-range behavior of <m>r</m>?  What is surprising about this, in light of the fact that both <m>x^2</m> and <m>e^x</m> grow without bound?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>  
+
+  <exercise xml:id="ez-poly-infty-frac-powers">
+    <statement>
+      <p>
+        Power functions can have powers that are not whole numbers.  For instance, we can consider such functions as 
+        <m>f(x)=x^{2.4}</m>, <m>g(x)=x^{2.5}</m>, and <m>h(x)=x^{2.6}</m>. 
+      </p>
+
+      <p>
+        <ol label="a.">
+          <li>
+            <p>
+              Compare and contrast the graphs of <m>f</m>, <m>g</m>, and <m>h</m>.  How are they similar?  How are they different?  (There is a lot you can discuss here.) 
+            </p>
+          </li>
+          <li>
+            <p>
+              Observe that we can think of <m>f(x) = x^{2.4}</m> as <m>f(x) = x^{24/10} = x^{12/5}</m>.  In addition, recall by exponent rules that we can also view <m>f</m> as having the form <m>f(x) = \sqrt[5]{x^{12}}</m>.  Write <m>g</m> and <m>h</m> in similar forms, and explain why <m>g</m> has a different domain than <m>f</m> and <m>h</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              How do the graphs of <m>f</m>, <m>g</m>, and <m>h</m> compare to the graphs of <m>y = x^2</m> and <m>y = x^3</m>?  Why are these natural functions to use for comparison?
+            </p>
+          </li>
+          <li>
+            <p>
+              Explore similar questions for the graphs of <m>p(x) = x^{-2.4}</m>, <m>q(x) = x^{-2.5}</m>, and <m>r(x) = x^{-2.6}</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+</exercises>

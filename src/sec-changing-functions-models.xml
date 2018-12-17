@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                   -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-changing-functions-models">
+  <title>Functions:  Modeling Relationships</title>
+  <objectives>
+  	<ul>
+  		<li>
+  			<p>
+  				How can we use the mathematical idea of a function to represent the relationship between two changing quantities?
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				What are some formal characteristics of an abstract mathematical function? how do we think differently about these characteristics in the context of a physical model?
+  			</p>
+  		</li>
+  	</ul>
+  </objectives>
+
+  <introduction>
+  	<p>
+  		A mathematical model is an abstract concept through which we use mathematical language and notation to describe a phenomenon in the world around us.  One example of a mathematical model is found in <em>Dolbear's Law</em><fn>You can read more in the <url href="https://en.wikipedia.org/wiki/Dolbear%27s_law">Wikipedia entry</url> for Dolbear's Law, which has proven to be remarkably accurate for the behavior of snowy tree crickets.  For even more of the story, including a reference to this phenomenon on the popular show <em>The Big Bang Theory</em>, see <url href="https://priceonomics.com/how-to-tell-the-temperature-using-crickets/">this article.</url></fn>. <idx>Dolbear's Law</idx>  In the late 1800s, the physicist Amos Dolbear was listening to crickets chirp and noticed a pattern: how frequently the crickets chirped seemed to be connected to the outside temperature.  If we let <m>T</m> represent the temperature in degrees Fahrenheit and <m>N</m> the number of chirps per minute, we can summarize Dolbear's observations in the following table.
+  	</p>
+
+	<p>
+		<table xml:id="T-functions-Dolbear">
+			<caption>Data for Dolbear's observations.</caption>
+				<tabular>
+					<row bottom="minor">
+					  <cell><m>N</m> (chirps per minute)</cell>
+				      <cell><m>40</m></cell>
+				      <cell><m>80</m></cell>
+				      <cell><m>120</m></cell>
+				      <cell><m>160</m></cell>
+				    </row>
+				    <row>
+				      <cell><m>T</m> (<m>^\circ</m> Fahrenheit)</cell>
+				      <cell><m>50^\circ</m></cell>
+				      <cell><m>60^\circ</m></cell>
+				      <cell><m>70^\circ</m></cell>
+				      <cell><m>80^\circ</m></cell>
+				    </row>				    			    
+				</tabular>
+			</table>		
+	</p>
+
+	<p>
+		For a mathematical model, we often seek an algebraic formula that captures observed behavior accurately and can be used to predict behavior not yet observed.  For the data in <xref ref="T-functions-Dolbear">Table</xref>, we observe that each of the ordered pairs in the table make the equation 
+		<men xml:id="eq-functions-Dolbear">
+			T = 40 + 0.25N
+		</men> 
+		true.  For instance, <m>70 = 40 + 0.25(120)</m>.  Indeed, scientists who made many additional cricket chirp observations following Dolbear's initial counts found that the formula in <xref ref="eq-functions-Dolbear">Equation</xref> holds with remarkable accuracy for the snowy tree cricket in temperatures ranging from about <m>50^\circ</m> F to <m>85^\circ</m> F. 
+	</p>
+
+	<xi:include href="./previews/PA-changing-functions-crickets.xml" />	
+
+  </introduction>
+
+  <subsection xml:id="subsec-changing-functions-models-functions">
+  	<title>Functions</title>
+
+  	<p>
+  		The mathematical concept of a <em>function</em> <idx><h>function</h><h>introduction to</h></idx> is one of the most central ideas in all of mathematics, in part since functions provide an important tool for representing and explaining patterns.  At its core, a function is a repeatable process that takes a collection of input values and generates a corresponding collection of output values with the property that if we use a particular single input, the process always produces exactly the same single output.  
+	</p>
+
+	<p>
+  		For instance, Dolbear's Law in <xref ref="eq-functions-Dolbear">Equation</xref> provides a process that takes a given number of chirps between <m>40</m> and <m>180</m> per minute and reliably produces the corresponding temperature that corresponds to the number of chirps, and thus this equation generates a function.  We often give functions shorthand names; using <q><m>D</m></q> for the <q>Dolbear</q> function, we can represent the process of taking inputs (observed chirp rates) to outputs (corresponding temperatures) using arrows:
+  		<md>
+  			<mrow>
+  				80 &amp;\xrightarrow{D} 60
+  			</mrow>
+  			<mrow>
+  				120 &amp;\xrightarrow{D} 70
+  			</mrow>
+   			<mrow>
+  				N &amp;\xrightarrow{D} 40 + 0.25 N
+  			</mrow> 			
+  		</md>
+  		Alternatively, for the relationship <q><m>80 \xrightarrow{D} 60</m></q> we can also use the equivalent notation <q><m>D(80) = 60</m></q> to indicate that Dolbear's Law takes an input of <m>80</m> chirps per minute and produces a corresponding output of <m>60</m> degrees Fahrenheit.  More generally, we write <q><m>T = D(N) = 40 + 0.25N</m></q> to indicate that a certain temperature, <m>T</m>, is determined by a given number of chirps per minute, <m>N</m>, according to the process <m>D(N) = 40 + 0.25N</m>.
+  	</p>
+
+	<p>
+		Tables and graphs are particularly valuable ways to characterize and represent functions.  For the current example, we summarize some of the data the Dolbear function generates in <xref ref="T-functions-Dolbear-data">Table</xref> and plot that data along with the underlying curve in <xref ref="F-functions-Dolbear-data">Figure</xref>.
+	</p>
+					
+		<sidebyside width="50%" valign="middle">
+			<table xml:id="T-functions-Dolbear-data">
+				<caption>Data for the function <m>T = D(N) = 40 + 0.25N</m>.</caption>
+				<tabular>
+					<row bottom="minor">
+						<cell><m>N</m></cell>
+						<cell><m>T</m></cell>
+					</row>
+					<row>
+						<cell><m>40</m></cell>
+						<cell><m>50</m></cell>
+					</row> 
+					<row>
+						<cell><m>80</m></cell>
+						<cell><m>60</m></cell>
+					</row>  
+					<row>
+						<cell><m>120</m></cell>
+						<cell><m>70</m></cell>
+					</row>
+					<row>
+						<cell><m>160</m></cell>
+						<cell><m>80</m></cell>
+					</row>
+					<row>
+						<cell><m>180</m></cell>
+						<cell><m>85</m></cell>
+					</row>
+				</tabular>
+			</table>		
+			<figure xml:id="F-functions-Dolbear-data">
+				<caption>Graph of data from the function <m>T = D(N) = 40 + 0.25N</m> and the underlying curve.</caption>
+				<image source="images/functions-Dolbears-Law" width="50%" />	
+			</figure>
+		</sidebyside>	
+
+		<p>
+			When a point such as <m>(120,70)</m> in <xref ref="F-functions-Dolbear-data">Figure</xref> lies on a function's graph, this indicates the correspondence between input and output:  when the value <m>120</m> chirps per minute is entered in the function <m>D</m>, the result is <m>70</m> degrees Fahrenheit.  More concisely, <m>D(120) = 70</m>.  Aloud, we read <q><m>D</m> of <m>120</m> is <m>70</m></q>.
+		</p>
+
+		<p>
+			For most important concepts in mathematics, the mathematical community decides on formal definitions to ensure that we have a shared language of understanding.  In this text, we will use the following definition of the term <q>function</q>.
+		</p>	
+
+		<definition xml:id="def-function-process">
+			<idx><h>function</h><h>definition</h></idx>
+			<statement>
+				<p>
+					A <term>function</term> is a process that may be applied to a collection of input values to produce a corresponding collection of output values in such a way that the process produces one and only one output value for any single input value.
+				</p>
+			</statement>
+		</definition>
+
+		<p>
+			If we name a given function <m>F</m> and call the collection of possible inputs to <m>F</m> the set <m>A</m> and the corresponding collection of potential outputs <m>B</m>, we say <q><m>F</m> is a function from <m>A</m> to <m>B</m>,</q> and sometimes write <q><m>F : A \to B</m>.</q>  When a particular input value to <m>F</m>, say <m>t</m>, produces a corresponding output <m>z</m>, we write <q><m>F(t) = z</m></q> and read this symbolic notation as <q><m>F</m> of <m>t</m> is <m>z</m>.</q>  <idx><h>function</h><h>notation</h></idx>  We often call <m>t</m> the <em>independent variable</em> <idx><h>function</h><h>independent variable</h></idx> and <m>z</m> the <em>dependent variable</em> <idx><h>function</h><h>dependent variable</h></idx>, since <m>z</m> is a function of <m>t</m>.
+		</p>
+
+		<definition xml:id="def-function-domain-codomain">
+			<idx><h>function</h><h>domain</h></idx> <idx><h>function</h><h>codomain</h></idx>
+			<statement>
+				<p>
+					Let <m>F</m> be a function from <m>A</m> to <m>B</m>.  The set <m>A</m> of possible inputs to <m>F</m> is called the <term>domain</term> of <m>F</m>; the set <m>B</m> of potential outputs from <m>F</m> is called the <term>codomain</term> of <m>F</m>.
+				</p>
+			</statement>
+		</definition>
+
+		<p>
+			For the Dolbear function <m>D(N) = 40 + 0.25N</m> in the context of modeling temperature as a function of the number of cricket chirps per minute, the domain of the function is <m>A = [40,180]</m><fn>The notation <q><m>[40,180]</m></q> means <q>the collection of all real numbers <m>x</m> that satisfy <m>40 \le x \le 80</m></q> and is sometimes called <q>interval notation</q>.</fn> and the codomain is <q>all Fahrenheit temperatures</q>.  The codomain of a function is the collection of <em>possible</em> outputs, which we distinguish from the collection of <em>actual</em> ouputs.
+		</p>
+
+		<definition xml:id="def-function-range">
+			<idx><h>function</h><h>range</h></idx> 
+			<statement>
+				<p>
+					Let <m>F</m> be a function from <m>A</m> to <m>B</m>.  The <term>range</term> of <m>F</m> is the collection of all actual outputs of the function.  That is, the range is the collection of all elements <m>y</m> in <m>B</m> for which it is possible to find an element <m>x</m> in <m>A</m> such that <m>F(x) = y</m>. 
+				</p>
+			</statement>
+		</definition>
+
+		<p>
+			In many situations, the range of a function is much more challenging to determine than its codomain.  For the Dolbear function, the range is straightforward to find by using the graph shown in <xref ref="F-functions-Dolbear-data">Figure</xref>:  since the actual outputs of <m>D</m> fall between <m>T = 50</m> and <m>T = 85</m> and include every value in that interval, the range of <m>D</m> is <m>[50,80]</m>.
+		</p>
+
+		<p>
+			The range of any function is always a subset of the codomain.  It is possible for the range to equal the codomain.
+		</p>
+
+		<xi:include href="./activities/act-changing-functions-spherical-tank.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-changing-functions-models-models">
+  	<title>Comparing models and abstract functions</title>
+
+	<p>
+		Again, a mathematical model is an abstract concept through which we use mathematical language and notation to describe a phenomenon in the world around us.  So far, we have considered two different examples:  the Dolbear function, <m>T = D(N) = 40 + 0.25N</m>, that models how Fahrenheit temperature is a function of the number of cricket chirps per minute and the function <m>V = f(h) = \frac{\pi}{3}h^2(12-h)</m> that models how the volume of water in a spherical tank of radius <m>4</m> m is a function of the depth of the water in the tank.  While often we consider a function in the physical setting of some model, there are also many occasions where we consider an abstract function for its own sake in order to study and understand it.
+	</p>
+
+	<example xml:id="ex-functions-falling-ball-model">
+		<title>A parabola and a falling ball</title>
+		<statement>
+			<p>
+				Calculus shows that for a tennis ball tossed vertically from a window <m>48</m> feet above the ground at an initial vertical velocity of <m>32</m> feet per second, the ball's height above the ground at time <m>t</m> (where <m>t = 0</m> is the instant the ball is tossed) can be modeled by the function <m>h = g(t) = -16t^2 + 32t + 48</m>.  Discuss the differences between the model <m>g</m> and the abstract function <m>f</m> determined by <m>y = f(x) = -16x^2 + 32x + 48</m>.
+			</p>
+		</statement>
+		<solution>
+			<p>
+				We start with the abstract function <m>y = f(x) = -16x^2 + 32x + 48</m>.  Absent a physical context, we can investigate the behavior of this function by computing function values, plotting points, and thinking about its overall behavior.  We recognize the function <m>f</m> as quadratic<fn>We will engage in a brief review of quadratic functions in <xref ref="sec-changing-quadratic">Section</xref></fn>, noting that it opens down because of the leading coefficient of <m>-16</m>, with vertex located at <m>x = \frac{-32}{2(-16)} = 1</m>, <m>y</m>-intercept at <m>(0,48)</m>, and with <m>x</m>-intercepts at <m>(-1,0)</m> and <m>(3,0)</m> because
+				<me>
+					-16x^2 + 32x + 48 = -16(x^2 - 2x - 3) = -16(x-3)(x+1)
+				</me>.  Computing some additional points to gain more information, we see both the data in <xref ref="T-functions-quadratic-example-data">Table</xref> and the corresponding graph in <xref ref="F-functions-quadratic-example-data">Figure</xref>. 
+			</p>
+
+			<sidebyside width="50%" valign="middle">
+				<table xml:id="T-functions-quadratic-example-data">
+					<caption>Data for the function <m>y = f(x) = -16x^2 + 32x + 48</m>.</caption>
+					<tabular halign="center">
+						<row bottom="minor">
+							<cell><m>x</m></cell>
+							<cell><m>f(x)</m></cell>
+						</row>
+						<row>
+							<cell><m>-2</m></cell>
+							<cell><m>-80</m></cell>
+						</row> 
+						<row>
+							<cell><m>-1</m></cell>
+							<cell><m>0</m></cell>
+						</row>  
+						<row>
+							<cell><m>0</m></cell>
+							<cell><m>48</m></cell>
+						</row>
+						<row>
+							<cell><m>1</m></cell>
+							<cell><m>64</m></cell>
+						</row>
+						<row>
+							<cell><m>2</m></cell>
+							<cell><m>48</m></cell>
+						</row>
+						<row>
+							<cell><m>3</m></cell>
+							<cell><m>0</m></cell>
+						</row>	
+						<row>
+							<cell><m>4</m></cell>
+							<cell><m>-80</m></cell>
+						</row>											
+					</tabular>
+				</table>		
+				<figure xml:id="F-functions-quadratic-example-data">
+					<caption>Graph of the function <m>y = f(x)</m> and some data from the table.</caption>
+					<image source="images/functions-quadratic-example-data" width="50%" />	
+				</figure>
+			</sidebyside>
+
+			<p>
+				For this abstract function, its domain is <q>all real numbers</q> since we may input any real number <m>x</m> we wish into the formula <m>f(x) = -16x^2 + 32x + 48</m> and have the result be defined.  Moreover, taking a real number <m>x</m> and processing it in the formula <m>f(x) = -16x^2 + 32x + 48</m> will produce another real number.  This tells us that the codomain of the abstract function <m>f</m> is also <q>all real numbers.</q>  Finally, from the graph and the data, we observe that the largest possible output of the function <m>f</m> is <m>y = 64</m>.  It is apparent that we can generate any <m>y</m>-value less than or equal to <m>64</m>, and thus the range of the abstract function <m>f</m> is all real numbers less than or equal to <m>64</m>.  We denote this collection of real numbers using the shorthand interval notation <m>(-\infty, 64]</m>.<fn>The notation <m>(-infty,64]</m> stands for all the real numbers that lie to the left of an including <m>64</m>.  The <q><m>-\infty</m></q> indicates that there is no left-hand bound on the interval.</fn> 
+			</p>
+
+			<p>
+				Next, we turn our attention to the model <m>h = g(t) = -16t^2 + 32t + 48</m> that represents the height of the ball, <m>h</m>, in feet <m>t</m> seconds after the ball in initially launched.  Here, the big difference is the domain, codomain, and range associated with the model.  Since the model takes effect once the ball is tossed, it only makes sense to consider the model for input values <m>t \ge 0</m>.  Moreover, because the model ceases to apply once the ball lands, it is only valid for <m>t \le 3</m>.  Thus, the domain of <m>g</m> is <m>[0,3]</m>.  For the codomain, it only makes sense to consider values of <m>h</m> that are nonnegative.  That is, as we think of <em>potential</em> outputs for the model, then can only be in the interval <m>[0, \infty)</m>.  Finally, we can consider the graph of the model on the given domain in <xref ref="F-functions-quadratic-model-data">Figure</xref> and see that the range of the model is <m>[0,64]</m>, the collection of all heights between its lowest (ground level) and its largest (at the vertex).
+			</p>
+
+			<sidebyside width="50%" valign="middle">
+				<table xml:id="T-functions-quadratic-model-data">
+					<caption>Data for the model <m>h = g(t) = -16t^2 + 32t + 48</m>.</caption>
+					<tabular halign="center">
+						<row bottom="minor">
+							<cell><m>t</m></cell>
+							<cell><m>g(t)</m></cell>
+						</row>
+						<row>
+							<cell><m>0</m></cell>
+							<cell><m>48</m></cell>
+						</row>
+						<row>
+							<cell><m>1</m></cell>
+							<cell><m>64</m></cell>
+						</row>
+						<row>
+							<cell><m>2</m></cell>
+							<cell><m>48</m></cell>
+						</row>
+						<row>
+							<cell><m>3</m></cell>
+							<cell><m>0</m></cell>
+						</row>											
+					</tabular>
+				</table>		
+				<figure xml:id="F-functions-quadratic-model-data">
+					<caption>Graph of the model <m>h = g(t)</m> and some data from the table.</caption>
+					<image source="images/functions-quadratic-model-data" width="50%" />	
+				</figure>
+			</sidebyside>
+
+		</solution>
+	</example>
+
+	<xi:include href="./activities/act-changing-functions-spherical-tank-draining.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-changing-functions-models-is-it">
+  	<title>Determining whether a relationship is a function or not</title>
+  	<p>
+  		To this point in our discussion of functions, we have mostly focused on what the function process may model and what the domain, codomain, and range of a model or abstract function are.  It is also important to take note of another part of <xref ref="def-function-process">Definition</xref>: <q><m>\ldots</m> the process produces one and only one output value for any single input value</q>.  Said differently, if a relationship or process ever associates a single input with two or more different outputs, the process cannot be a function. 
+  	</p>
+
+	<example xml:id="ex-functions-people-phone-numbers">
+		<statement>
+			<p>
+				Is the relationship between people and phone numbers a function?
+			</p>
+
+			<p>
+				<em>Solution</em>.  No, this relationship is not a function.  A given individual person can be associated with more than one phone number, such as their cell phone and their work telephone.  This means that we can't view phone numbers as a function of people:  one input (a person) can lead to two different outputs (phone numbers).  We also can't view people as a function of phone numbers, since more than one person can be associated with a phone number, such as when a family shares a single phone at home.
+			</p>
+		</statement>
+	</example>
+
+	<example xml:id="ex-functions-table-is-it-1">
+		<statement>
+			<p>
+				The relationship between <m>x</m> and <m>y</m> that is given in the following table where we attempt to view <m>y</m> as depending on <m>x</m>.
+			</p>
+
+			<table xml:id="T-functions-is-it-1">
+				<caption>A table that relates <m>x</m> and <m>y</m> values.</caption>
+					<tabular>
+						<row bottom="minor">
+							<cell><m>x</m></cell>
+							<cell><m>1</m></cell>
+							<cell><m>2</m></cell>
+							<cell><m>3</m></cell>
+							<cell><m>4</m></cell>
+							<cell><m>5</m></cell>
+						</row>
+						<row>
+							<cell><m>y</m></cell>
+							<cell><m>13</m></cell>
+							<cell><m>11</m></cell>
+							<cell><m>10</m></cell>
+							<cell><m>11</m></cell>
+							<cell><m>13</m></cell>
+						</row>
+					</tabular>
+				</table>
+
+				<p>
+					<em>Solution.</em> The relationship between <m>y</m> and <m>x</m> in <xref ref="T-functions-is-it-1">Table</xref> allows us to think of <m>y</m> as a function of <m>x</m> since each particular input is associated with one and only one output.  If we name the function <m>f</m>, we can say for instance that <m>f(4) = 11</m>.  Moreover, the domain of <m>f</m> is the set of inputs <m>\{1,2,3,4,5\}</m>, and the codomain (which is also the range) is the set of outputs <m>\{10,11,13\}</m>.  
+				</p>
+		</statement>
+	</example>
+
+	<xi:include href="./activities/act-changing-functions-is-it.xml" />
+
+	<p>
+		For a relationship or process to be a function, each individual input must be associated with one and only one output.  Thus, the usual way that we demonstrate a relationship or process is not a function is to find a particular input that is associated with two or more outputs.  When the relationship is given graphically, such as in <xref ref="F-functions-act-is-it-1">Figure</xref>, we can use the vertical line test to determine whether or not the graph represents a function.
+	</p>
+
+	<assemblage xml:id="asm-functions-V-L-test">
+		<title>Vertical Line Test</title>
+		<idx><h>vertical line test</h></idx>
+		<p>
+			A graph in the plane represents a function if and only if every vertical line intersects the graph at most once.  When the graph passes this test, the vertical coordinate of each point on the graph can be viewed as a function of the horizontal coordinate of the point.
+		</p>
+	</assemblage>
+
+	<p>
+		Since the vertical line <m>x = -3</m> passes through the circle in <xref ref="F-functions-act-is-it-1">Figure</xref> at both <m>y = -\sqrt{7}</m> and <m>y = \sqrt{7}</m>, the circle does not represent a relationship where <m>y</m> is a function of <m>x</m>.  However, since any vertical line we draw in <xref ref="F-functions-act-is-it-2">Figure</xref> intersects the blue curve at most one time, the graph indeed represents a function.
+	</p>
+
+	<p>
+		We conclude with a formal definition of the graph of a function.
+	</p>
+
+	<definition xml:id="def-function-graph">
+		<idx><h>function</h><h>graph</h></idx>
+		<p>
+			Let <m>F : A \to B</m>, where <m>A</m> and <m>B</m> are each collections of real numbers.  The <term>graph</term> of <m>F</m> is the collection of all ordered pairs <m>(x,y)</m> that satisfy <m>y = F(x)</m>.
+		</p>
+	</definition>
+
+	<p>
+		When we use a computing device such as <em>Desmos</em> to graph a function <m>g</m>, the program is generating a large collection of ordered pairs <m>(x,g(x))</m>, plotting them in the <m>x</m>-<m>y</m> plane, and connecting the points with short line segments. 
+	</p>
+
+  </subsection>
+
+  <subsection xml:id="subsec-changing-functions-models-summary">
+  	<title>Summary</title>
+	  	<ul>
+	  		<li>
+	  			<p>
+	  				A function is a process that generates a relationship between two collections of quantities.  The function associates each member of a collection of input values with one and only one member of the collection of output values.  A function can be described or defined by words, by a table of values, by a graph, or by a formula.
+	  			</p>
+	  		</li>
+	  		<li>
+	  			<p>
+	  				Functions may be viewed as mathematical objects worthy of study for their own sake and also as models that represent physical phenomena in the world around us.  Every function or model has a domain (the set of possible or allowable input values), a codomain (the set of possible output values), and a range (the set of all actual output values).  Both the codomain and range depend on the domain.  For an abstract function, the domain is usually viewed as the largest reasonable collection of input values; for a function that models a physical phenomenon, the domain is usually determined by the context of possibilities for the input in the phenomenon being considered.
+	  			</p>
+	  		</li>
+	  	</ul>
+  </subsection>
+
+  <xi:include href="./exercises/ez-changing-functions.xml" />
+
+  <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
+  <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
+</section>
+

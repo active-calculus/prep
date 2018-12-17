@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-trig-inverse-arcsin">
+
+	<statement>
+		<p>
+			The goal of this activity is to understand key properties of the arcsine function in a way similar to our discussion of the arccosine function in <xref ref="subsec-trig-inverse-arccos">Subsection</xref>.
+		</p>
+
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						Using <xref ref="def-inverse-trig-arcsine">Definition</xref>, what are the domain and range of the arcsine function?
+					</p>
+				</li>
+				<li>
+					<p>
+						Determine the following values exactly: <m>\arcsin(-1)</m>, <m>\arcsin(-\frac{\sqrt{2}}{2})</m>, <m>\arcsin(0)</m>, <m>\arcsin(\frac{1}{2})</m>, and <m>\arcsin(\frac{\sqrt{3}}{2})</m>.
+					</p>
+				</li>
+				<li>
+					<sidebyside>
+						<p>
+							On the axes provided in <xref ref="F-inverse-trig-act-arcsine-axes">Figure</xref>, sketch a careful plot of the restricted sine function on the interval <m>[-\frac{\pi}{2},\frac{\pi}{2}]</m> along with its corresponding inverse, the arcsine function.  Label at least three points on each curve so that each point on the sine graph corresponds to a point on the arcsine graph.  In addition, sketch the line <m>y = t</m> to demonstrate how the graphs are reflections of one another across this line.
+						</p>
+
+						<figure xml:id="F-inverse-trig-act-arcsine-axes">
+							<caption>Axes for plotting the restricted sine function and its inverse, the arcsine function.</caption>
+							<image source="images/inverse-trig-blank-axes-arcsin" />	
+						</figure>
+					</sidebyside>
+				</li>
+				<li>
+					<p>
+						True or false:  <m>\arcsin(\sin(5\pi)) = 5\pi</m>.  Write a complete sentence to explain your reasoning.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

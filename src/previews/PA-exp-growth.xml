@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-exp-growth">
+
+	<statement>
+		<p>
+			Suppose that at age <m>20</m> you have <dollar /><m>20000</m> and you can choose between one of two ways to use the money:  you can invest it in a mutual fund that will, on average, earn <m>8</m><percent /> interest annually, or you can purchase a new automobile that will, on average, depreciate <m>12</m><percent /> annually.  Let's explore how the <m>20000</m> changes over time.
+		</p>
+
+		<p>
+			Let <m>I(t)</m> denote the value of the <dollar /><m>20000</m> after <m>t</m> years if it is invested in the mutual fund, and let <m>V(t)</m> denote the value of the automobile <m>t</m> years after it is purchased.
+		</p>
+
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						Determine <m>I(0)</m>, <m>I(1)</m>, <m>I(2)</m>, and <m>I(3)</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Note that if a quantity depreciates <m>12</m><percent /> annually, after a given year, <m>88</m><percent /> of the quantity remains.  Compute <m>V(0)</m>, <m>V(1)</m>, <m>V(2)</m>, and <m>V(3)</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Based on the patterns in your computations in (a) and (b), determine formulas for <m>I(t)</m> and <m>V(t)</m>.
+					</p>
+				</li>
+				<li>
+					<sidebyside>
+						<p>
+							Use <em>Desmos</em> to define <m>I(t)</m> and <m>V(t)</m>.  Plot each function on the interval <m>0 \le t \le 20</m> and record your results on the axes in <xref ref="F-growth-PA-blank-axes">Figure</xref>, being sure to label the scale on the axes.  What trends do you observe in the graphs?  How do <m>I(20)</m> and <m>V(20)</m> compare?
+	 					</p>	
+	 					<figure xml:id="F-growth-PA-blank-axes">
+	 						<caption>Blank axes for plotting <m>I</m> and <m>V</m>.</caption>
+	 						<image source="images/growth-PA-blank-axes" />
+	 					</figure>				
+ 					</sidebyside>
+
+				</li>
+			</ol>
+		</p>
+	</statement>
+
+</exploration>

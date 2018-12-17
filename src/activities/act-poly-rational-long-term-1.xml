@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-poly-rational-long-term-1">
+
+	<statement>
+		<p>
+			Consider the rational function <m>r(x) = \frac{3x^2 - 5x + 1}{7x^2 + 2x - 11}</m>.
+		</p>
+
+		<p>
+			Observe that the largest power of <m>x</m> that's present in <m>r(x)</m> is <m>x^2</m>.  In addition, because of the dominant terms of <m>3x^2</m> in the numerator and <m>7x^2</m> in the denominator, both the numerator and denominator of <m>r</m> increase without bound as <m>x</m> increases without bound.  In order to understand the long-range behavior of <m>r</m>, we choose to write the function a different algebraic form.  
+		</p>
+
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						Note that we can multiply the formula for <m>r</m> by the form of <m>1</m> given by <m>1 = \frac{\frac{1}{x^2}}{\frac{1}{x^2}}</m>.  Do so, and distribute and simplify as much as possible in both the numerator and denominator.
+					</p>
+				</li>
+				<li>
+					<p>
+						Having rewritten <m>r</m>, we are in a better position to evaluate <m>\lim_{x \to \infty} r(x)</m>.
+            			Using our work from (a), we have
+			            <me>
+			              \lim_{x \to \infty} r(x) = \lim_{x \to \infty} \frac{3 - \frac{5}{x} + \frac{1}{x^2}}{7 + \frac{2}{x} - \frac{11}{x^2}}
+			            </me>.
+            			What is the exact value of this limit and why?
+					</p>
+				</li>
+				<li>
+					<p>
+						Next, determine
+						<me>
+              				\lim_{x \to -\infty} r(x) = \lim_{x \to -\infty} \frac{3 - \frac{5}{x} + \frac{1}{x^2}}{7 + \frac{2}{x} - \frac{11}{x^2}}
+            			</me>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Use <em>Desmos</em> to plot <m>r</m> on the interval <m>[-10,10]</m>.  In addition, plot the horizontal line <m>y = \frac{3}{7}</m>.  What is the meaning of the limits you found in (b) and (c)?
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

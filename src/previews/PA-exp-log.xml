@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-exp-log">
+
+	<statement>
+		<p>
+			Let <m>P(t)</m> be the <q>powers of 10</q> function, which is given by <m>P(t) = 10^t</m>.
+		</p>
+
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						Complete <xref ref="T-PA-exp-log-10s">Table</xref> to generate certain values of <m>P</m>.
+					</p>
+
+					<table xml:id="T-PA-exp-log-10s">
+					  <caption>Select values of the powers of <m>10</m> function.</caption>
+					  <tabular>
+					    <row bottom="minor">
+					      <cell><m>t</m></cell>
+					      <cell>-3</cell>
+					      <cell>-2</cell>
+					      <cell>-1</cell>
+					      <cell>0</cell>
+					      <cell>1</cell>
+					      <cell>2</cell>
+					      <cell>3</cell>
+					    </row>
+					    <row>
+					      <cell><m>y = P(t) = 10^t</m></cell>
+					      <cell><nbsp /></cell>
+					      <cell><nbsp /></cell>
+					      <cell><nbsp /></cell>
+					      <cell><nbsp /></cell>
+					      <cell><nbsp /></cell>
+					      <cell><nbsp /></cell>
+					      <cell></cell>
+					    </row>
+					  </tabular>						
+					</table>
+				</li>
+				<li>
+					<p>
+						Why does <m>P</m> have an inverse function?
+					</p>
+				</li>
+				<li>
+					<p>
+						Since <m>P</m> has an inverse function, we know there exists some other function, say <m>L</m>,
+    					such that writing <q><m>y = P(t)</m></q>
+    					says the exact same thing as writing <q><m>t = L(y)</m></q>.  In words, where <m>P</m> produces the result of raising <m>10</m> to a given power, the function <m>L</m> reverses this process and instead tells us the power to which we need to raise <m>10</m>, given a desired result.  Complete <xref ref="T-PA-exp-log-L">Table</xref> to generate a collection of values of <m>L</m>.
+					</p>
+
+					<table xml:id="T-PA-exp-log-L">
+					  <caption>Select values of the function <m>L</m> that is the inverse of <m>P</m>.</caption>
+					  <tabular>
+					    <row>
+					      <cell><m>y</m></cell>
+					      <cell><m>10^{-3}</m></cell>
+					      <cell><m>10^{-2}</m></cell>
+					      <cell><m>10^{-1}</m></cell>
+					      <cell><m>10^{0}</m></cell>
+					      <cell><m>10^{1}</m></cell>
+					      <cell><m>10^{2}</m></cell>
+					      <cell><m>10^{3}</m></cell>
+					    </row>
+					    <row bottom="minor">
+					      <cell></cell>
+					      <cell></cell>
+					      <cell></cell>
+					      <cell></cell>
+					      <cell></cell>
+					      <cell></cell>
+					      <cell></cell>
+					      <cell></cell>
+					    </row>
+					    <row>
+					      <cell><m>L(y)</m></cell>
+					      <cell><nbsp /></cell>
+					      <cell><nbsp /></cell>
+					      <cell><nbsp /></cell>
+					      <cell><nbsp /></cell>
+					      <cell><nbsp /></cell>
+					      <cell><nbsp /></cell>
+					      <cell></cell>
+					    </row>
+					  </tabular>						
+					</table>
+				</li>
+				<li>
+					<p>
+						What are the domain and range of the function <m>P</m>?  What are the domain and range of the function <m>L</m>?
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+
+</exploration>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-transformations-translations">
+
+	<statement>
+		<p>
+			Consider the functions <m>r</m> and <m>s</m> given in <xref ref="F-act-transformations-r">Figure</xref> and <xref ref="F-act-transformations-s">Figure</xref>.
+		</p>
+
+		<sidebyside width="50%">
+			<figure xml:id="F-act-transformations-r">
+				<caption>A parent function <m>r</m>.</caption>
+				<image source="images/transformations-act-r-translation" />
+			</figure>
+			<figure xml:id="F-act-transformations-s">
+				<caption>A parent function <m>s</m>.</caption>
+				<image source="images/transformations-act-s-translation" />
+			</figure>
+		</sidebyside>
+
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						 On the same axes as the plot of <m>y = r(x)</m>, sketch the following graphs:  <m>y = g(x) = r(x) + 2</m>, <m>y = h(x) = r(x+1)</m>, and <m>y = f(x) = r(x+1) + 2</m>.  Be sure to label the point on each of <m>g</m>, <m>h</m>, and <m>f</m> that corresponds to <m>(-2,-1)</m> on the original graph of <m>r</m>.  In addition, write one sentence to explain the overall transformations that have resulted in <m>g</m>, <m>h</m>, and <m>f</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Is it possible to view the function <m>f</m> in (a) as the result of composition of <m>g</m> and <m>h</m>?  If so, in what order should <m>g</m> and <m>h</m> be composed in order to produce <m>f</m>?
+					</p>
+				</li>
+				<li>
+					<p>
+						On the same axes as the plot of <m>y = s(x)</m>, sketch the following graphs:  <m>y = k(x) = s(x) - 1</m>, <m>y = j(x) = s(x-2)</m>, and <m>y = m(x) = s(x-2) - 1</m>.  Be sure to label the point on each of <m>k</m>, <m>j</m>, and <m>m</m> that corresponds to <m>(-2,-3)</m> on the original graph of <m>r</m>.  In addition, write one sentence to explain the overall transformations that have resulted in <m>k</m>, <m>j</m>, and <m>m</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Now consider the function <m>q(x) = x^2</m>.  Determine a formula for the function that is given by <m>p(x) = q(x+3) - 4</m>.  How is <m>p</m> a transformation of <m>q</m>?
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

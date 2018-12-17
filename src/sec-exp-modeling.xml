@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-exp-modeling">
+  <title>Modeling with exponential functions</title>
+
+  <objectives>
+  	<ul>
+  		<li>
+  			<p>
+  				What can we say about the behavior of an exponential function as the input gets larger and larger?
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				How do vertical stretches and shifts of an exponontial function affect its behavior?
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				Why is the temperature of a cooling or warming object modeled by a function of the form <m>F(t) = ab^t + c</m>?
+  			</p>
+  		</li>
+  	</ul>
+  </objectives>
+
+  <introduction>
+  	<p>
+		If a quantity changes so that its growth or decay occurs at a constant percentage rate with respect to time, the function is exponential.  This is because if the growth or decay rate is <m>r</m>, the total amount of the quantity at time <m>t</m> is given by
+		<me>
+			A(t) = a(1+r)^t
+		</me>,
+		where <m>a</m> is the amount present at time <m>t = 0</m>.  Many different natural quantities change according to exponential models:  money growth through compounding interest, the growth of a population of cells, and the decay of radioactive elements.   
+  	</p>
+
+	<p>
+		A related situation arises when an object's temperature changes in response to its surroundings.  For instance, if we have a cup of coffee at an initial temperature of <m>186^\circ</m> Fahrenheit and the cup is placed in a room where the surrounding temperature is <m>71^\circ</m>, our intuition and experience tell us that over time the coffee will cool and eventually tend to the <m>71^\circ</m> temperature of the surroundings.  From an experiment <fn>See <url ref="http://gvsu.edu/s/0SB">http://gvsu.edu/s/0SB</url> for this data.</fn> with an actual temperature probe, we have the data in <xref ref="T-modeling-exp-coffee">Table</xref> that is plotted in <xref ref="F-modeling-exp-coffee">Figure</xref>.
+	</p>
+
+	<sidebyside valign="middle">
+		<table xml:id="T-modeling-exp-coffee">
+			<caption>Data for cooling coffee, measured in degrees Fahrenheit at time <m>t</m> in minutes.</caption>
+			<tabular>
+				<row bottom="minor">
+					<cell><m>t</m></cell>
+					<cell><m>0</m></cell>
+					<cell><m>1</m></cell>
+					<cell><m>2</m></cell>
+					<cell><m>3</m></cell>
+					<cell><m>8</m></cell>
+					<cell><m>13</m></cell>
+				</row>
+				<row>
+					<cell><m>F(t)</m></cell>
+					<cell><m>186</m></cell>
+					<cell><m>179</m></cell>
+					<cell><m>175</m></cell>
+					<cell><m>171</m></cell>
+					<cell><m>156</m></cell>
+					<cell><m>144</m></cell>
+				</row>
+				<row>
+					<cell></cell>
+					<cell></cell>
+					<cell></cell>
+					<cell></cell>
+					<cell></cell>
+					<cell></cell>
+					<cell></cell>
+				</row>				
+				<row bottom="minor">
+					<cell><m>18</m></cell>
+					<cell><m>23</m></cell>
+					<cell><m>28</m></cell>
+					<cell><m>33</m></cell>
+					<cell><m>38</m></cell>
+					<cell><m>43</m></cell>
+					<cell><m>48</m></cell>
+				</row>
+				<row>
+					<cell><m>135</m></cell>
+					<cell><m>127</m></cell>
+					<cell><m>120</m></cell>
+					<cell><m>116</m></cell>
+					<cell><m>111</m></cell>
+					<cell><m>107</m></cell>
+					<cell><m>104</m></cell>
+				</row>
+			</tabular>
+		</table>
+		<figure xml:id="F-modeling-exp-coffee">
+			<caption>A plot of the data in <xref ref="T-modeling-exp-coffee">Table</xref>.</caption>
+			<image source="images/modeling-exp-coffee" />
+		</figure>
+	</sidebyside>
+
+	<p>
+		In one sense, the data looks exponential: the points appear to lie on a curve that is always decreasing and decreasing at an increasing rate.  However, we know that the function can't have the form <m>f(t) = ab^t</m> because such a function's range is the set of all positive real numbers, and it's impossible for the coffee's temperature to fall below room temperature (<m>71^\circ</m>).  It is natural to wonder if a function of the form <m>g(t) = ab^t + c</m> will work.  Thus, in order to find a function that fits the data in a situation such as <xref ref="F-modeling-exp-coffee">Figure</xref>, we begin by investigating and understanding the roles of <m>a</m>, <m>b</m>, and <m>c</m> in the behavior of <m>g(t) = ab^t + c</m>.	
+	</p>
+
+  	<xi:include href="./previews/PA-exp-modeling.xml" />
+
+  </introduction>
+
+  <subsection xml:id="subsec-exp-modeling-long-term">
+  	<title>Long-term behavior of exponential functions</title>
+  	<p>
+  		We have already established that any exponential function of the form <m>f(t) = ab^t</m> where <m>a</m> and <m>b</m> are positive real numbers with <m>b \ne 1</m> is always concave up and is either always increasing or always decreasing.  We next introduce precise language to describe the behavior of an exponential function's value as <m>t</m> gets bigger and bigger.  To start, let's consider the two basic exponential functions <m>p(t) = 2^t</m> and <m>q(t) = (\frac{1}{2})^t</m> and their respective values at <m>t = 10</m>, <m>t = 20</m>, and <m>t = 30</m>, as displayed in <xref ref="T-modeling-long-term-2t">Table</xref> and <xref ref="T-modeling-long-term-2-t">Table</xref>.
+  	</p>
+
+	<sidebyside>
+		<table xml:id="T-modeling-long-term-2t">
+			<caption>Data for <m>p(t) = 2^t</m>.</caption>
+			<tabular>
+				<row bottom="minor">
+					<cell><m>t</m></cell>
+					<cell><m>p(t)</m></cell>
+				</row>
+				<row>
+					<cell><m>10</m></cell>
+					<cell><m>2^{10} = 1026</m></cell>
+				</row>
+				<row>
+					<cell><m>20</m></cell>
+					<cell><m>2^{20} = 1048576</m></cell>
+				</row>
+				<row>
+					<cell><m>30</m></cell>
+					<cell><m>2^{30} = 1073741824</m></cell>
+				</row>
+			</tabular>
+		</table>
+		<table xml:id="T-modeling-long-term-2-t">
+			<caption>Data for <m>q(t) = (\frac{1}{2})^t</m>.</caption>
+			<tabular>
+				<row bottom="minor">
+					<cell><m>t</m></cell>
+					<cell><m>q(t)</m></cell>
+				</row>
+				<row>
+					<cell><m>10</m></cell>
+					<cell><m>(\frac{1}{2})^{10} = \frac{1}{1026} \approx 0.00097656</m></cell>
+				</row>
+				<row>
+					<cell><m>20</m></cell>
+					<cell><m>(\frac{1}{2})^{20} = \frac{1}{1048576} \approx 0.00000095367</m></cell>
+				</row>
+				<row>
+					<cell><m>30</m></cell>
+					<cell><m>(\frac{1}{2})^{30} = \frac{1}{1073741824} \approx 0.00000000093192</m></cell>
+				</row>
+			</tabular>
+		</table>
+	</sidebyside>
+
+	<p>
+		For the increasing function <m>p(t) = 2^t</m>, we see that the output of the function gets very large very quickly.  In addition, there is no upper bound to how large the function can be.  Indeed, we can make the value of <m>p(t)</m> as large as we'd like by taking <m>t</m> sufficiently big.  We thus say that as <m>t</m> increases, <m>p(t)</m> <term>increases without bound</term>. <idx><h>increasing</h><h>without bound</h></idx> 
+	</p>
+
+	<p>
+		For the decreasing function <m>q(t) = (\frac{1}{2})^t</m>, we see that the output <m>q(t)</m> is always positive but getting closer and closer to <m>0</m>.  Indeed, becasue we can make <m>2^t</m> as large as we like, it follows that we can make its reciprocal <m>\frac{1}{2^t} = (\frac{1}{2})^t</m> as small as we'd like.  We thus say that as <m>t</m> increases, <m>q(t)</m> <term>approaches <m>0</m></term>. <idx><h>approaching <m>0</m></h></idx>
+	</p>
+
+	<p>
+		To represent these two common phenomena with exponential functions <dash>the value increasing without bound or the value approaching <m>0</m></dash>, we will use shorthand notation.  First, it is natural to write <q><m>q(t) \to 0</m></q> as <m>t</m> increases without bound.  Moreover, since we have the notion of the infinite to represent quantities without bound, we use the symbol for infinity <idx><h>infinity</h></idx> (<m>\infty</m>) and write <q><m>p(t) \to \infty</m></q> as <m>t</m> increases without bound in order to indicate that <m>p(t)</m> increases without bound.  
+	</p>
+
+	<p>
+		In <xref ref="PA-exp-modeling">Preview Activity</xref>, we saw how the value of <m>b</m> affects the steepness of the graph of <m>f(t) = ab^t</m>, as well as how all graphs with <m>b \gt 1</m> have the similar increasing behavior, and all graphs with <m>0 \lt b \lt 1</m> have similar decreasing behavior.  For instance, by taking <m>t</m> sufficiently large, we can make <m>(1.01)^t</m> as large as we want; it just takes much larger <m>t</m> to make <m>(1.01)^t</m> big in comparison to <m>2^t</m>.  In the same way, we can make <m>(0.99)^t</m> as close to <m>0</m> as we wish by taking <m>t</m> sufficiently big, even though it takes longer for <m>(0.99)^t</m> to get close to <m>0</m> in comparison to <m>(\frac{1}{2})^t</m>.  For an arbitrary choice of <m>b</m>, we can say the following.
+	</p>
+
+	<assemblage xml:id="asm-modeling-long-term">
+		<title>Long-term behavior of exponential functions</title>
+		<p>
+			Let <m>f(t) = b^t</m> with <m>b \gt 0</m> and <m>b \ne 1</m>.
+
+			<ul>
+				<li>
+					<p>
+						If <m>0 \lt b \lt 1</m>, then <m>b^t \to 0</m> as <m>t \to \infty</m>.  We read this notation as <q><m>b^t</m> tends to <m>0</m> as <m>t</m> increases without bound.</q>
+					</p>
+				</li>
+				<li>
+					<p>
+						If <m>b \gt 1</m>, then <m>b^t \to \infty</m> as <m>t \to \infty</m>.  We read this notation as <q><m>b^t</m> increases without bound as <m>t</m> increases without bound.</q>
+					</p>
+				</li>
+			</ul>
+		</p>
+	</assemblage>
+
+	<p>
+		In addition, we make a key observation about the use of exponents.  For the function <m>q(t) = (\frac{1}{2})^t</m>, there are three equivalent ways we may write the function:
+		<me>
+			\left( \frac{1}{2} \right)^t = \frac{1}{2^t} = 2^{-t}
+		</me>.
+		In our work with transformations involving horizontal scaling in <xref ref="ez-circular-sinusoidal-horiz-reflection">Exercise</xref>, we saw that the graph of <m>y = h(-t)</m> is the reflection of the graph of <m>y = h(t)</m> across the <m>y</m>-axis.  Therefore, we can say that the graphs of <m>p(t) = 2^t</m> and <m>q(t) = (\frac{1}{2})^t = 2^{-t}</m> are reflections of one another in the <m>y</m>-axis since <m>p(-t) = 2^{-t} = q(t)</m>.  We see this fact verified in <xref ref="F-modeling-exp-reflection">Figure</xref>.
+	</p>
+
+	<figure xml:id="F-modeling-exp-reflection">
+		<caption>Plots of <m>p(t) = 2^t</m> and <m>q(t) = 2^{-t}</m>.</caption>
+		<image source="images/modeling-exp-reflection" width="50%" />
+	</figure>
+
+	<p>
+		Similar observations hold for the relationship between the graphs of <m>b^{t}</m> and <m>\frac{1}{b^t} = b^{-t}</m> for any positive <m>b \ne 1</m>.
+	</p>
+
+  </subsection>
+
+  <subsection xml:id="subsec-exp-modeling-transformations">
+  	<title>The role of <m>c</m> in <m>g(t) = ab^t + c</m></title>
+  	<p>
+  		The function <m>g(t) = ab^t + c</m> is a vertical translation of the function <m>f(t) = ab^t</m>.  We now have extensive understanding of the behavior of <m>f(t)</m> and how that behavior depends on <m>a</m> and <m>b</m>.  Since a vertical translation by <m>c</m> does not change the shape of any graph, we expect that <m>g</m> will exhibit very similar behavior to <m>f</m>.  Indeed, we can compare the two functions' graphs as shown in <xref ref="F-modeling-vert-transl-0">Figure</xref> and <xref ref="F-modeling-vert-transl-c">Figure</xref> and then make the following general observations.  
+	</p>
+
+	<sidebyside>
+		<figure xml:id="F-modeling-vert-transl-0">
+			<caption>Plot of <m>f(t) = ab^t</m>.</caption>
+			<image source="images/modeling-vert-transl-0" />
+		</figure>
+		<figure xml:id="F-modeling-vert-transl-c">
+			<caption>Plot of <m>g(t) = ab^t+c</m>.</caption>
+			<image source="images/modeling-vert-transl-c" />
+		</figure>
+	</sidebyside>
+
+	<assemblage xml:id="asm-modeling-vertical-shift">
+		<title>Behavior of vertically shifted exponential functions</title>
+		<p>
+			Let <m>g(t) = ab^t + c</m> with <m>a \gt 0</m>, <m>b \gt 0</m> and <m>b \ne 1</m>, and <m>c</m> any real number.
+
+			<ul>
+				<li>
+					<p>
+						If <m>0 \lt b \lt 1</m>, then <m>g(t) = ab^t + c \to c</m> as <m>t \to \infty</m>.  The function <m>g</m> is always decreasing, always concave up, and has <m>y</m>-intercept <m>(0,a+c)</m>.  The range of the function is all real numbers greater than <m>c</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						If <m>b \gt 1</m>, then <m>g(t) = ab^t + c \to \infty</m> as <m>t \to \infty</m>.  The function <m>g</m> is always increasing, always concave up, and has <m>y</m>-intercept <m>(0,a+c)</m>.  The range of the function is all real numbers greater than <m>c</m>.
+					</p>
+				</li>
+			</ul>
+		</p>
+	</assemblage>
+
+	<p>
+		It is also possible to have <m>a \lt 0</m>.  In this situation, because <m>g(t) = ab^t</m> is both a reflection of <m>f(t) = b^t</m> across the <m>x</m>-axis and a vertical stretch by <m>|a|</m>, the function <m>g</m> is always concave down.  If <m>0 \lt b \lt 1</m> so that <m>f</m> is always decreasing, then <m>g</m> is always increasing; if instead <m>b \gt 1</m> so <m>f</m> is increasing, then <m>g</m> is decreasing.  Moreover, instead of the range of the function <m>g</m> having a lower bound as when <m>a \gt 0</m>, in this setting the range of <m>g</m> has an upper bound.  These ideas are explored further in <xref ref="act-exp-modeling-behavior">Activity</xref>.
+	</p>
+
+	<p>
+  		It's an important skill to be able to look at an exponential function of the form <m>g(t) = ab^t + c</m> and form an accurate mental picture of the graph's main features in light of the values of <m>a</m>, <m>b</m>, and <m>c</m>.  
+  	</p>
+
+	<xi:include href="./activities/act-exp-modeling-behavior.xml" /> 
+
+  </subsection>
+
+  <subsection xml:id="subsec-exp-modeling-temperature">
+  	<title>Modeling temperature data</title>
+
+	<p>
+		Newton's Law of Cooling <idx><h>Newton's Law of Cooling</h></idx> states that the rate that an object warms or cools occurs in direct proportion to the difference between its own temperature and the temperature of its surroundings.  If we return to the coffee temperature data in <xref ref="T-modeling-exp-coffee">Table</xref> and recall that the room temperature in that experiment was <m>71^\circ</m>, we can see how to use a transformed exponential function to model the data.  In <xref ref="T-modeling-exp-coffee-revis">Table</xref>, we add a row of information to the table where we compute <m>F(t)-71</m> to subtract the room temperature from each reading.
+	</p>
+
+		<table xml:id="T-modeling-exp-coffee-revis">
+			<caption>Data for cooling coffee, measured in degrees Fahrenheit at time <m>t</m> in minutes, plus shifted to account for room temperature.</caption>
+			<tabular>
+				<row bottom="minor">
+					<cell><m>t</m></cell>
+					<cell><m>0</m></cell>
+					<cell><m>1</m></cell>
+					<cell><m>2</m></cell>
+					<cell><m>3</m></cell>
+					<cell><m>8</m></cell>
+					<cell><m>13</m></cell>
+					<cell><m>18</m></cell>
+					<cell><m>23</m></cell>
+					<cell><m>28</m></cell>
+					<cell><m>33</m></cell>
+					<cell><m>38</m></cell>
+					<cell><m>43</m></cell>
+					<cell><m>48</m></cell>
+				</row>
+				<row bottom="minor">
+					<cell><m>F(t)</m></cell>
+					<cell><m>186</m></cell>
+					<cell><m>179</m></cell>
+					<cell><m>175</m></cell>
+					<cell><m>171</m></cell>
+					<cell><m>156</m></cell>
+					<cell><m>144</m></cell>
+					<cell><m>135</m></cell>
+					<cell><m>127</m></cell>
+					<cell><m>120</m></cell>
+					<cell><m>116</m></cell>
+					<cell><m>111</m></cell>
+					<cell><m>107</m></cell>
+					<cell><m>104</m></cell>
+				</row>
+				<row>
+					<cell><m>f(t) = F(t) - 71</m></cell>
+					<cell><m>115</m></cell>
+					<cell><m>108</m></cell>
+					<cell><m>104</m></cell>
+					<cell><m>100</m></cell>
+					<cell><m>85</m></cell>
+					<cell><m>73</m></cell>
+					<cell><m>64</m></cell>
+					<cell><m>56</m></cell>
+					<cell><m>49</m></cell>
+					<cell><m>45</m></cell>
+					<cell><m>40</m></cell>
+					<cell><m>36</m></cell>
+					<cell><m>33</m></cell>
+				</row>
+
+			</tabular>
+		</table>
+
+		<p>
+			The data in the bottom row of <xref ref="T-modeling-exp-coffee-revis">Table</xref> appears exponential, and if we test the data by computing the quotients of output values that correspond to equally-spaced input, we see a nearly constant ratio.  In particular,
+			<me>
+				\frac{73}{85} \approx 0.86, \ \frac{64}{73} \approx 0.88, \ \frac{56}{64} \approx 0.88, \ \frac{49}{56} \approx 0.88, \ \frac{45}{49} \approx 0.92, \text{and} \frac{40}{45} \approx 0.89 <!--, \ \frac{36}{40} = 0.9,  \frac{33}{36} \approx 0.92 -->
+			</me>.
+			Of course there is some measurement error in the data (plus it is only recorded to accuracy of whole degrees), so these computations provide convincing evidence that the underlying function is exponential.  In addition, we expect that if the data continued in the bottom row of <xref ref="T-modeling-exp-coffee-revis">Table</xref>, the values would approach <m>0</m> because <m>F(t)</m> will approach <m>71</m>.
+		</p>
+
+		<p>
+			If we choose two of the data points, say <m>(18,64)</m> and <m>(23,56)</m>, and assume that <m>f(t) = ab^t</m>, we can determine the values of <m>a</m> and <m>b</m>.  Doing so, it turns out that <m>a \approx 103.503</m> and <m>b \approx 0.974</m>, so <m>f(t) = 103.503 ( 0.974)^t</m>.  Since <m>f(t) = F(t) - 71</m>, we see that <m>F(t) = f(t) + 71</m>, so <m>F(t) = 103.503 (0.974)^t + 71</m>.  Plotting <m>f</m> against the shifted data and <m>F</m> along with the original data in <xref ref="F-modeling-coffee-shifted">Figure</xref> and <xref ref="F-modeling-coffee-original">Figure</xref>, we see that the curves go exactly through the points where <m>t = 18</m> and <m>t = 23</m> as expected, but also that the function provides a reasonable model for the observed behavior at any time <m>t</m>.  If our data was even more accurate, we would expect that the curve's fit would be even better.
+		</p>
+
+		<sidebyside>
+			<figure xml:id="F-modeling-coffee-shifted">
+				<caption>Plot of <m>f(t) = 103.503 (0.974)^t</m>.</caption>
+				<image source="images/modeling-coffee-shifted" />
+			</figure>
+			<figure xml:id="F-modeling-coffee-original">
+				<caption>Plot of <m>F(t) = 103.503 (0.974)^t + 71</m>.</caption>
+				<image source="images/modeling-coffee-original" />
+			</figure>
+		</sidebyside>
+
+		<p>
+			Our preceding work with the coffee data can be done similarly with data for any cooling or warming object whose temperature initially differs from its surroundings.  Indeed, it is possible to show that Newton's Law of Cooling implies that the object's temperature is given by a function of the form <m>F(t) = ab^t + c</m>.
+		</p>
+
+	<xi:include href="./activities/act-exp-modeling-soda.xml" />
+
+	<xi:include href="./activities/act-exp-modeling-potato.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-exp-modeling-summary">
+  	<Title>Summary</Title>
+
+  	<ul>
+  		<li>
+  			<p>
+  				For an exponential function of the form <m>f(t) = b^t</m>, the function either approaches zero or grows without bound as the input gets larger and larger.  In particular, if <m>0 \lt b \lt 1</m>, then <m>f(t) = b^t \to 0</m> as <m>t \to \infty</m>, while if <m>b \gt 1</m>, then <m>f(t) = b^t \to \infty</m> as <m>t \to \infty</m>.  Scaling <m>f</m> by a positive value <m>a</m> (that is, the transformed function <m>ab^t</m>) does not affect the long-range behavior:  whether the function tends to <m>0</m> or increases without bound depends solely on whether <m>b</m> is less than or greater than <m>1</m>.
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				The function <m>f(t) = b^t</m> passes through <m>(0,1)</m>, is always concave up, is either always increasing or always decreasing, and its range is the set of all positive real numbers.  Among these properties, a vertical stretch by a positive value <m>a</m> only affects the <m>y</m>-intercept, which is instead <m>(0,a)</m>.  If we include a vertical shift and write <m>g(t) = ab^t + c</m>, the biggest changes is that the range of <m>g</m> is the set of all real numbers greater than <m>c</m>.  In addition, the <m>y</m>-intercept of <m>g</m> is <m>(0,a+c)</m>.
+  			</p>
+
+  			<p>
+  				In the situation where <m>a \lt 0</m>, several other changes are induced.  Here, because <m>g(t) = ab^t</m> is both a reflection of <m>f(t) = b^t</m> across the <m>x</m>-axis and a vertical stretch by <m>|a|</m>, the function <m>g</m> is now always concave down.  If <m>0 \lt b \lt 1</m> so that <m>f</m> is always decreasing, then <m>g</m> (the reflected function) is now always increasing; if instead <m>b \gt 1</m> so <m>f</m> is increasing, then <m>g</m> is decreasing.  Finally, if <m>a \lt 0</m>, then the range of <m>g(t) = ab^t + c</m> is the set of all real numbers <m>c</m>.
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				An exponential function can be thought of as a function that changes at a rate proportional to itself, like how money grows with compound interest or the amount of a radioactive quantity decays.  Newton's Law of Cooling says that the rate of change of an object's temperature is proportional to the <em>difference</em> between its own temperature and the temperature of its surroundings.  This leads to the function that measures the difference between the object's temperature and room temperature being exponential, and hence the object's temperature itself is a vertically-shifted exponential function of the form <m>F(t) = ab^t + c</m>.
+  			</p>
+  		</li>
+  	</ul>
+
+  </subsection>
+
+  <xi:include href="./exercises/ez-exp-modeling.xml" />
+
+  		
+  <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
+  <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
+</section>
+

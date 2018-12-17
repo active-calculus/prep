@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-trig-right-sine-cosine-ratio">
+
+	<statement>
+		<sidebyside widths="45% 50%" valign="middle">
+			<p>
+				We want to determine the distance between two points <m>A</m> and <m>B</m> that are directly across from one another on opposite sides of a river, as pictured in <xref ref="F-right-act-river">Figure</xref>.
+      			We mark the locations of those points and walk <m>50</m> meters downstream from <m>B</m> to point <m>P</m>
+      			and use a sextant to measure <m>\angle BPA</m>.  If the measure of <m>\angle BPA</m> is <m>56.4^{\circ}</m>, how wide is the river?
+      			What other information about the situation can you determine?
+			</p>
+
+			<figure xml:id="F-right-act-river">
+				<caption>Finding the width of the river.</caption>
+				<image source="images/right-act-river" />
+			</figure>
+		</sidebyside>
+
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

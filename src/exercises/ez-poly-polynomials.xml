@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-poly-polynomials">
+  
+<!--
+  <exercise xml:id="ez-0-0-WW1">
+    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  </exercise>
+  <exercise xml:id="ez-0-0-WW2">
+    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  </exercise>
+-->
+
+  <exercise xml:id="ez-poly-polynomials-1">
+    <statement>
+      <p>
+        Consider the polynomial function given by
+        <me>
+          p(x) = 0.0005(x+21.7)^3 (x-20.9)^2 (x-31.4)(x^2+100)
+        </me>.
+      </p>
+
+      <p>  
+        <ol>
+          <li>
+            <p>
+              What is the degree of <m>p</m>?
+            </p>
+          </li>
+
+          <li>
+            <p>
+              What are the real zeros of <m>p</m>?
+              State them with multiplicity.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Construct a carefully labeled sign chart for <m>p(x)</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Plot the function <m>p</m> in <em>Desmos</em>.
+              Are the zeros obvious from the graph?
+              How do you have to adjust the window in order to tell?
+              Even in an adjusted window, can you tell them exactly from the graph?
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Now consider the related but different polynomial
+              <me>
+                q(x) = -0.0005(x+21.7)^3 (x-20.9)^2 (x-31.4)(x^2+100)(x-92.3)
+              </me>.
+              What is the degree of <m>q</m>?
+              What are the zeros of <m>q</m>?
+              What is obvious from its graph and what is not?
+            </p>
+          </li>
+        </ol>
+      </p>  
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+<exercise xml:id="ez-poly-polynomials-2">
+    <statement>
+      <p>
+        Consider the (non-polynomial) function <m>r(x) = e^{-x^2}(x^2+1)(x-2)(x-3)</m>.
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              What are the zeros of <m>r(x)</m>? (Hint:
+              is <m>e^{\Box}</m> ever equal to zero?)
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Construct a sign chart for <m>r(x)</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Plot <m>r(x)</m> in <em>Desmos</em>.
+              Is the sign and overall behavior of <m>r</m> obvious from the plot?
+              Why or why not?
+            </p>
+          </li>
+
+          <li>
+            <p>
+              From the graph,
+              what appears to be the value of <m>\lim_{x \to \infty} r(x)</m>?
+              Why is this surprising in light of the behavior of
+              <m>f(x)=(x^2+1)(x-2)(x-3)</m> as <m>x \to \infty</m>?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-poly-polynomials-3">
+    <statement>
+      <p>
+        In each following question, find a formula for a polynomial with certain properties, generate a plot that demonstrates you’ve found a function with the given specifications, and write several sentences to explain your thinking.
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              A quadratic function <m>q</m> has zeros at <m>x = −7</m> and <m>x = 11</m> and its <m>y</m>-value at its vertex is <m>42</m>. 
+            </p>
+          </li>
+          <li>
+              <p>
+                A polynomial <m>r</m> of degree <m>4</m> has zeros at <m>x = −3</m> and <m>x = 5</m>, both of multiplicity <m>2</m>, and the function has a <m>y</m>-intercept at the point <m>(0, 28)</m>. 
+              </p>
+          </li>
+          <li>
+            <p>
+              A polynomial <m>f</m> has degree <m>11</m> and the following zeros: zeros of multiplicity <m>1</m> at <m>x = −3</m> and <m>x = 5</m>, zeros of multiplicity <m>2</m> at <m>x = −2</m> and <m>x = 3</m>, and a zero of multiplicity <m>3</m> at <m>x = 1</m>. In addition, <m>\lim_{x \to \infty} f(x) = -\infty</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              A polynomial <m>g</m> has its graph given in <xref ref="F-poly-ez-g">Figure</xref> below. Determine a possible formula for <m>g(x)</m> where the polynomial you find has the lowest possible degree to match the graph. What is the degree of the function you find?
+            </p>
+
+            <figure xml:id="F-poly-ez-g">
+              <caption>A polynomial function <m>g</m>.</caption>
+              <image source="images/poly-ez-g" width="50%" />
+            </figure>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-poly-polynomials-4">
+    <statement>
+      <p>
+        Like we have worked to understand families of functions that involve parameters such as
+        <m>p(t) = a\cos(k(t-b)) + c</m> and <m>F(t) = a + be^{-kt}</m>,
+        we are often interested in polynomials that involve one or more parameters and understanding how those parameters affect the function's behavior.
+      </p>
+
+      <p>
+        For example, let <m>a \gt 0</m> be a positive constant,
+        and consider <m>p(x) = x^3 - a^2x</m>.
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              What is the degree of <m>p</m>?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the long-term behavior of <m>p</m>?  State your responses using limit notation.
+            </p>
+          </li>
+          <li>
+            <p>
+              In terms of the constant <m>a</m>, what are the zeros of <m>p</m>?
+            </p>
+          </li>
+          <li>
+            <p>
+              Construct a carefully labeled sign chart for <m>p</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              How does changing the value of <m>a</m> affect the graph of <m>p</m>?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+</exercises>

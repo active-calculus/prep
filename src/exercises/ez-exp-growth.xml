@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2012-2018                                                   -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Calculus.                                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-growth">
+
+<!--
+  <exercise xml:id="ez-0-0-WW1">
+    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  </exercise>
+  <exercise xml:id="ez-0-0-WW2">
+    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  </exercise>
+-->
+
+  <exercise xml:id="ez-exp-growth-glacier">
+    <statement>
+      <p>
+        Grinnell Glacier in Glacier National Park in Montana covered about <m>142</m> acres in 2007 and was found to be shrinking at about <m>4.4</m><percent /> per year.<fn>See Exercise 34 on p. 146 of Connally's <em>Functions Modeling Change</em>.</fn>
+      </p>
+
+      <p>
+        <ol label="a.">
+          <li>
+            <p>
+              Let <m>G(t)</m> denote the area of Grinnell Glacier in acres in year <m>t</m>,
+              where <m>t</m> is the number of years since 2007.
+              Find a formula for <m>G(t)</m> and define the function in <em>Desmos</em>.
+            </p>
+          </li>
+          <li>
+            <p>
+              How many acres of ice were in the glacier in 1997?
+              In 2012?
+              What does the model predict for 2022?
+            </p>
+          </li>
+          <li>
+            <p>
+              How many total acres of ice were lost from 2007 to 2012?
+            </p>
+          </li>
+          <li>
+            <p>
+              What was the average rate of change of <m>G</m> from 2007 to 2012?
+              Write a sentence to explain the meaning of this number and include units on your answer.
+              In addition,
+              how does this compare to the average rate of change of <m>G</m> from 2012 to 2017?
+            </p>
+          </li>
+          <li>
+            <p>
+              How would you you describe the overall behavior of <m>G</m>, and thus what is happening to the Grinnell Glacier?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-exp-growth-find-f">
+    <statement>
+      <p>
+        Consider the exponential function <m>f</m> whose graph is given by <xref ref="F-growth-ez-find-a-b">Figure</xref>.  Note that <m>f</m> passes through the two noted points exactly.
+      </p>
+
+      <figure xml:id="F-growth-ez-find-a-b">
+        <caption>A plot of the exponential function <m>f</m>.</caption>
+        <image source="images/growth-ez-find-a-b" width="50%" />
+      </figure>
+
+      <p>
+        <ol labl="a.">
+          <li>
+            <p>
+              Determine the values of <m>a</m> and <m>b</m> exactly.
+            </p>
+          </li>
+          <li>
+            <p>
+              Determine the average rate of change of <m>f</m> on the intervals <m>[2,7]</m> and <m>[7,12]</m>.  Which average rate is greater?
+            </p>
+          </li>
+          <li>
+            <p>
+              Find the equation of the linear function <m>L</m> that passes through the points <m>(2,20)</m> and <m>(7,5)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Which average rate of change is greater?  The average rate of change of <m>f</m> on <m>[0,2]</m> or the average rate of change of <m>L</m> on <m>[0,2]</m>?
+            </p>
+          </li>
+        </ol>
+      </p>
+
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-exp-growth-data">
+    <statement>
+      <p>
+        A cup of hot coffee is brought outside on a cold winter morning in Winnipeg, Manitoba, where the surrounding temperature is <m>0</m> degrees Fahrenheit.  A temperature probe records the coffee's temperature (in degrees Fahrenheit) every minute and generates the data shown in <xref ref="T-ez-exp-growth-data">Table</xref>.
+      </p>
+
+      <table xml:id="T-ez-exp-growth-data">
+        <caption>The temperature, <m>F</m>, of the coffee at time <m>t</m>.</caption>
+        <tabular halign="center">
+          <row bottom="minor">
+            <cell><m>t</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>4</m></cell>
+            <cell><m>6</m></cell>
+            <cell><m>8</m></cell>
+            <cell><m>10</m></cell>
+          </row>
+          <row>
+            <cell><m>F(t)</m></cell>
+            <cell><m>175</m></cell>
+            <cell><m>129.64</m></cell>
+            <cell><m>96.04</m></cell>
+            <cell><m>71.15</m></cell>
+            <cell><m>52.71</m></cell>
+            <cell><m>39.05</m></cell>
+          </row>
+        </tabular>
+      </table>
+
+      <p>
+        <ol label="a.">
+          <li>
+            <p>
+              Assume that the data in the table represents the overall trend of the behavior of <m>F</m>.  Is <m>F</m> linear, exponential, or neither?  Why?
+            </p>
+          </li>
+          <li>
+            <p>
+              Is it possible to determine an exact formula for <m>F</m>?  If yes, do so and justify your formula; if not, explain why not.
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the average rate of change of <m>F</m> on <m>[4,6]</m>?  Write a sentence that explains the practical meaning of this value in the context of the overall exercise.
+            </p>
+          </li>
+          <li>
+            <p>
+              How do you think the data would appear if instead of being in a regular coffee cup, the coffee was contained in an insulated mug?
+            </p>
+          </li>
+        </ol>
+      </p>
+      
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-exp-growth-drug">
+    <statement>
+      <p>
+        The amount (in milligrams) of a drug in a person's body following one dose is given by an exponential decay function.  Let <m>A(t)</m> denote the amount of drug in the body at time <m>t</m> in hours after the dose was taken.  In addition, suppose you know that <m>A(3) = 22.7</m> and <m>A(6) = 15.2</m>.
+      </p>
+
+      <p>
+        <ol label="a.">
+          <li>
+            <p>
+              Find a formula for <m>A</m> in the form <m>A(t) = ab^t</m>, where you determine the values of <m>a</m> and <m>b</m> exactly.
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the size of the initial dose the person was given?
+            </p>
+          </li>
+          <li>
+            <p>
+              How much of the drug remains in the person's body <m>8</m> hours after the dose was taken?
+            </p>
+          </li>
+          <li>
+            <p>
+              Estimate how long it will take until there is less than <m>1</m> mg of the drug remaining in the body.
+            </p>
+          </li>
+          <li>
+            <p>
+              Compute the average rate of change of <m>A</m> on the intervals <m>[3,5]</m>, <m>[5,7]</m>, and <m>[7,9]</m>.  Write at least one careful sentence to explain the meaning of the values you found, including appropriate units.  Then write at least one additional sentence to explain any overall trend(s) you observe in the average rate of change.
+            </p>
+          </li>
+          <li>
+            <p>
+              Plot <m>A(t)</m> on an appropriate interval and label important points and features of the graph to highlight graphical interpretations of  your answers in (b), (c), (d), and (e).
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+</exercises>

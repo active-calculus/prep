@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-combining-context">
+
+	<statement>
+	    <p>
+	      Let <m>f</m> be a function that measures a car's fuel economy in the following way.
+	      Given an input velocity <m>v</m> in miles per hour,
+	      <m>f(v)</m> is the number of gallons of fuel that the car consumes per mile (i.e., <q>gallons per mile</q>).
+	      We know that <m>f(60) = 0.04</m>.
+	    </p>
+
+	    <p>
+	      <ol label="a.">
+	        <li>
+	          <p>
+	            What is the meaning of the statement
+	            <q><m>f(60) = 0.04</m></q>
+	            in the context of the problem?
+	            That is, what does this say about the car's fuel economy?
+	            Write a complete sentence.
+	          </p>
+	        </li>
+
+	        <li>
+	          <p>
+	            Consider the function <m>g(v) = \frac{1}{f(v)}</m>.
+	            What is the value of <m>g(60)</m>?
+	            What are the units on <m>g</m>?
+	            What does <m>g</m> measure?
+	          </p>
+	        </li>
+
+	        <li>
+	          <p>
+	            Consider the function <m>h(v) = v \cdot f(v)</m>.
+	            What is the value of <m>h(60)</m>?
+	            What are the units on <m>h</m>?
+	            What does <m>h</m> measure?
+	          </p>
+	        </li>
+
+	        <li>
+	        	<p>
+	        		Do <m>f(60)</m>, <m>g(60)</m>, and <m>h(60)</m> tell us fundamentally different information, or are they all essentially saying the same thing?  Explain.
+	        	</p>
+	        </li>
+
+	        <li>
+	          <p>
+	            Suppose we also know that <m>f(70) = 0.045</m>.
+	            Find the average rate of change of <m>f</m> on the interval <m>[60,70]</m>.
+	            What are the units on the average rate of change of <m>f</m>?
+	            What does this quantity measure?
+	            Write a complete sentence to explain.
+	          </p>
+	        </li>
+	      </ol>
+   	 	</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

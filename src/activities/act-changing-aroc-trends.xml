@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-aroc-trends">
+
+	<statement>
+		<p>
+			We consider three different functions and see how different computations of their average rate of change tells us about their respective behavior.  Plots of <m>q</m> and <m>h</m> are shown in <xref ref="F-act-aroc-trends-q">Figures</xref> and <xref ref="F-act-aroc-trends-h"/>.
+		</p>
+
+		<p>
+	      <ol label="a.">
+	        <li>
+	          <p>
+	            Consider the function <m>q(x) = 4-(x-2)^2</m>.
+	            Compute <m>AV_{[0,1]}</m>,
+	            <m>AV_{[1,2]}</m>, <m>AV_{[2,3]}</m>, and <m>AV_{[3,4]}</m>.
+	            What do your last two computations tell you about the behavior of the function <m>q</m> on <m>[2,4]</m>?
+	          </p>
+
+			<sidebyside width="50%">
+				<figure xml:id="F-act-aroc-trends-q">
+					<caption>Plot of <m>q</m> from part (a).</caption>
+					<image source="images/aroc-act-trends-q" />
+				</figure>
+				<figure xml:id="F-act-aroc-trends-h">
+					<caption>Plot of <m>h</m> from part (b).</caption>
+					<image source="images/aroc-act-trends-h" />
+				</figure>
+			</sidebyside>
+
+	        </li>
+
+	        <li>
+	          <p>
+	            Consider the function <m>h(t) = 3 - 2(0.95)^t</m>.
+	            Compute <m>AV_{[-1,1]}</m>,
+	            <m>AV_{[1,3]}</m>, and <m>AV_{[3,5]}</m>.
+	            What do your computations tell you about the behavior of the function <m>h</m> on <m>[-1,5]</m>?
+	          </p>
+	        </li>
+
+			<li>
+				<p>
+					On the graphs in <xref ref="F-act-aroc-trends-q">Figures</xref> and <xref ref="F-act-aroc-trends-h"/>, plot the line segments whose respective slopes are the average rates of change you computed in (a) and (b).
+				</p>
+			</li>
+
+			<li>
+				<p>
+					True or false: Since <m>AV_{[0,3]} = 1</m>, the function <m>q</m> is increasing on the interval <m>(0,3)</m>.  Justify your decision.
+				</p>
+			</li>
+
+	        <li>
+	          <p>
+	            Give an example of a function that has the same average rate of change no matter what interval you choose.
+	            You can provide your example through a table, a graph,
+	            or a formula;
+	            regardless of your choice, write a sentence to explain.
+	          </p>
+	        </li>
+	      </ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

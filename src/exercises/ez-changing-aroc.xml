@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2012-2018                                                   -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Calculus.                                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-aroc">
+
+
+<!-- THESE ALL WORK 
+  <exercise xml:id="ez-changing-aroc-WW1">
+    <webwork source="Library/Michigan/precalc/4e/Chap1Sec2/Q04.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-aroc-WW2">
+    <webwork source="Library/Michigan/precalc/4e/Chap1Sec2/Q15.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-aroc-WW3">
+    <webwork source="Library/Michigan/precalc/4e/Chap1Sec2/Q23.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-aroc-WW4">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Review/Q06.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-aroc-WW5">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q03.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-aroc-WW6">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q10.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-aroc-WW7">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q16.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-aroc-WW8">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q25.pg" />
+  </exercise>
+-->
+
+  <exercise xml:id="ez-changing-aroc-soda">
+    <statement>
+      <p>
+        A cold can of soda is removed from a refrigerator.  Its temperature <m>F</m> in degrees Fahrenheit is measured at <m>5</m>-minute intervals, as recorded in the following table.
+      </p>
+
+      <table xml:id="T-ez-changing-aroc-soda-table">
+        <caption>Data for the soda's temperature as a function of time.</caption>
+        <tabular>
+          <row bottom="minor">
+            <cell><m>t</m> (minutes)</cell>
+            <cell><m>0</m></cell>
+            <cell><m>5</m></cell>
+            <cell><m>10</m></cell>
+            <cell><m>15</m></cell>
+            <cell><m>20</m></cell>
+            <cell><m>25</m></cell>
+            <cell><m>30</m></cell>
+            <cell><m>35</m></cell>
+          </row>
+          <row>
+            <cell><m>F</m> (Fahrenheit temp)</cell>
+            <cell><m>37.00</m></cell>
+            <cell><m>44.74</m></cell>
+            <cell><m>50.77</m></cell>
+            <cell><m>55.47</m></cell>
+            <cell><m>59.12</m></cell>
+            <cell><m>61.97</m></cell>
+            <cell><m>64.19</m></cell>
+            <cell><m>65.92</m></cell>
+          </row>                      
+        </tabular>
+      </table>      
+
+      <p>
+        <ol label="a.">
+          <li>
+            <p>
+              Determine <m>AV_{[0,5]}</m>, <m>AV_{[5,10]}</m>, and <m>AV_{[10,15]}</m>, including appropriate units.  Choose one of these quantities and write a careful sentence to explain its meaning.  Your sentence might look something like <q>On the interval <m>\ldots</m>, the temperature of the soda is <m>\ldots</m> on average by <m>\ldots</m></q>.
+            </p>
+          </li>
+          <li>
+            <p>
+              On which interval is there more total change in the soda's temperature:  <m>[10,20]</m> or <m>[25,35]</m>?
+            </p>
+          </li>
+          <li>
+            <p>
+              What can you observe about when the soda's temperature appears to be changing most rapidly?
+            </p>
+          </li>
+          <li>
+            <p>
+              Estimate the soda's temperature when <m>t = 37</m> minutes.  Write at least one sentence to explain your thinking.
+            </p>
+          </li>
+        </ol>
+      </p>
+
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-changing-aroc-position-graph">
+    <statement>
+      <p>
+        The position of a car driving along a straight road at time <m>t</m> in minutes is given by the function
+        <m>y = s(t)</m> that is pictured in <xref ref="F-aroc-ez-position-graph">Figure</xref>.
+        The car's position function has units measured in thousands of feet.
+        For instance,
+        the point <m>(2,4)</m> on the graph indicates that after 2 minutes,
+        the car has traveled 4000 feet.
+      </p>
+
+      <figure xml:id="F-aroc-ez-position-graph">
+        <caption>The graph of <m>y = s(t)</m>, the position of the car (measured in thousands of feet from its starting location) at time <m>t</m> in minutes.</caption>
+        <image width="40%" source="images/aroc-ez-position-graph" />
+      </figure>
+
+      <p>
+        <ol label="a.">
+          <li>
+            <p>
+              In everyday language,
+              describe the behavior of the car over the provided time interval.
+              In particular,
+              carefully discuss what is happening on each of the time intervals <m>[0,1]</m>,
+              <m>[1,2]</m>, <m>[2,3]</m>,
+              <m>[3,4]</m>, and <m>[4,5]</m>,
+              plus provide commentary overall on what the car is doing on the interval <m>[0,12]</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Compute the average rate of change of <m>s</m> on the intervals <m>[3,4]</m>, <m>[4,6]</m>, and <m>[5,8]</m>.  Label your results using the notation <q><m>AV_{[a,b]}</m></q> appropriately, and include units each quantity.
+            </p>
+          </li>
+          <li>
+            <p>
+              On the graph of <m>s</m>, sketch the three lines whose slope corresponds to the values of <m>AV_{[3,4]}</m>, <m>AV_{[4,6]}</m>, and <m>AV_{[5,8]}</m> that you computed in (b). 
+            </p>
+          </li>
+          <li>
+            <p>
+              Is there a time interval on which the car's average velocity is <m>5000</m> feet per minute?  Why or why not?
+            </p>
+          </li>
+          <li>
+            <p>
+              Is there ever a time interval when the car is going in reverse?  Why or why not?
+            </p>
+          </li>
+        </ol>
+      </p>
+
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-changing-aroc-3">
+    <statement>
+      <p>
+        Consider an inverted conical tank (point down) whose top has a radius of <m>3</m> feet and that is <m>2</m> feet deep.  The tank is initially empty and then is filled at a constant rate of <m>0.75</m> cubic feet per minute.  Let <m>V=f(t)</m> denote the volume of water (in cubic feet) at time <m>t</m> in minutes, and let <m>h= g(t)</m> denote the depth of the water (in feet) at time <m>t</m>.  It turns out that the formula for the function <m>g</m> is <m>g(t) = \left( \frac{t}{\pi} \right)^{1/3}</m>.
+      </p>
+
+      <p>
+        <ol label="a.">
+          <li>
+            <p>
+              In everyday language, describe how you expect the height function <m>h = g(t)</m> to behave as time increases.
+            </p>
+          </li>
+          <li>
+            <p>
+              For the height function <m>h = g(t) = \left( \frac{t}{\pi} \right)^{1/3}</m>, compute <m>AV_{[0,2]}</m>, <m>AV_{[2,4]}</m>, and <m>AV_{[4,6]}</m>.  Include units on your results.
+            </p>
+          </li>
+          <li>
+            <p>
+              Again working with the height function, can you determine an interval <m>[a,b]</m> on which <m>AV_{[a,b]} = 2</m> feet per minute?  If yes, state the interval; if not, explain why there is no such interval.
+            </p>
+          </li>
+          <li>
+            <p>
+              Now consider the volume function, <m>V = f(t)</m>.  Even though we don't have a formula for <m>f</m>, is it possible to determine the average rate of change of the volume function on the intervals <m>[0,2]</m>, <m>[2,4]</m>, and <m>[4,6]</m>?  Why or why not?
+            </p>
+          </li>
+        </ol>
+      </p>
+
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+</exercises>

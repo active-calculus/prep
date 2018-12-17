@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-poly-infty-limit">
+
+	<statement>
+		<p>
+			Complete the <xref ref="T-familiar-infty-limits">Table</xref> by entering
+		    <q><m>\infty</m>,</q> <q><m>-\infty</m>,</q>
+		    <q><m>0</m>,</q> or <q>no limit</q>
+		    to identify how the function behaves as either <m>x</m> increases or decreases without bound.
+		    As much as possible, work to decide the behavior <em>without</em> using a graphing utility.
+		</p>
+
+		<table xml:id="T-familiar-infty-limits">
+			<caption>Some familiar functions and their limits as <m>x \to \infty</m> or <m>x \to -\infty</m>.</caption>
+			  <tabular>
+			    <row bottom="medium">
+			      <cell><m>f(x)</m></cell>
+			      <cell><m>\lim_{x \to \infty} f(x)</m></cell>
+			      <cell><m>\lim_{x \to -\infty} f(x)</m></cell>
+			    </row>
+			    <row bottom="minor">
+			      <cell><m>e^x</m></cell>
+			      <cell><nbsp /></cell>
+			      <cell><nbsp /></cell>
+			    </row>
+			    <row bottom="minor">
+			      <cell><m>e^{-x}</m></cell>
+			      <cell><nbsp /></cell>
+			      <cell><nbsp /></cell>
+			    </row>
+			    <row bottom="minor">
+			      <cell><m>\ln(x)</m></cell>
+			      <cell><nbsp /></cell>
+			      <cell><nbsp /></cell>
+			    </row>
+			    <row bottom="minor">
+			      <cell><m>x</m></cell>
+			      <cell><nbsp /></cell>
+			      <cell><nbsp /></cell>
+			    </row>
+			    <row bottom="minor">
+			      <cell><m>x^2</m></cell>
+			      <cell><nbsp /></cell>
+			      <cell><nbsp /></cell>
+			    </row>
+			    <row bottom="minor">
+			      <cell><m>x^3</m></cell>
+			      <cell><nbsp /></cell>
+			      <cell><nbsp /></cell>
+			    </row>
+			    <row bottom="minor">
+			      <cell><m>x^4</m></cell>
+			      <cell><nbsp /></cell>
+			      <cell><nbsp /></cell>
+			    </row>
+			    <row bottom="minor">
+			      <cell><m>\frac{1}{x}</m></cell>
+			      <cell><nbsp /></cell>
+			      <cell><nbsp /></cell>
+			    </row>
+			    <row bottom="minor">
+			      <cell><m>\frac{1}{x^2}</m></cell>
+			      <cell><nbsp /></cell>
+			      <cell><nbsp /></cell>
+			    </row>
+			    <row>
+			      <cell><m>\sin(x)</m></cell>
+			      <cell><nbsp /></cell>
+			      <cell><nbsp /></cell>
+			    </row>
+			  </tabular>
+		</table>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

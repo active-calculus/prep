@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-exp-modeling-soda">
+
+	<statement>
+		<p>
+			A can of soda (at room temperature) is placed in a refrigerator at time <m>t = 0</m> (in minutes)
+      		and its temperature, <m>F(t)</m>, in degrees Fahrenheit, is computed at regular intervals.
+			Based on the data, a model is formulated for the object's temperature, given by
+		      <me>
+		        F(t) = 42 + 30(0.95)^{t}
+		      </me>.
+		</p>
+
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						Consider the simpler (parent) function <m>p(t) = (0.95)^t</m>.
+            			How do you expect the graph of this function to appear?
+            			How will it behave as time increases?
+            			Without using graphing technology,
+            			sketch a rough graph of <m>p</m> and write a sentence of explanation.
+					</p>
+				</li>
+				<li>
+					<p>
+						For the slightly more complicated function <m>r(t) = 30 (0.95)^{t}</m>, how do you expect this function to look in comparison to <m>p</m>?  What is the long-range behavior of this function as <m>t</m> increases?
+            			Without using graphing technology, sketch a rough graph of <m>r</m> and write a sentence of explanation.
+					</p>
+				</li>
+				<li>
+					<p>
+						<sidebyside>
+							<p>
+								Finally, how do you expect the graph of <m>F(t) = 42 + 30(0.95)^{t}</m> to appear?
+            					Why?  First sketch a rough graph without graphing technology, and then use technology to check your thinking
+            					and report an accurate, labeled graph on the axes provided in <xref ref="F-modeling-act-blank-axes-soda">Figure</xref>.
+							</p>
+							<figure xml:id="F-modeling-act-blank-axes-soda">
+								<caption>Axes for plotting <m>F</m>.</caption>
+								<image source="images/modeling-F-t-blank-axes" />
+							</figure>
+						</sidebyside>
+					</p>
+				</li>
+				<li>
+					<p>
+						What is the temperature of the refrigerator?
+            			What is the room temperature of the surroundings outside the refrigerator?
+            			Why?
+					</p>
+				</li>
+				<li>
+					<p>
+						Determine the average rate of change of <m>F</m> on the intervals <m>[10,20]</m>,
+            			<m>[20,30]</m>, and <m>[30,40]</m>.
+			            Write at least two careful sentences that explain the meaning of the values you found, including units,
+            			and discuss any overall trend in how the average rate of change is changing.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

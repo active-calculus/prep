@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-poly-infty-natural-powers">
+
+	<statement>
+		<p>
+			Point your browser to the <em>Desmos</em> worksheet at <url href="http://gvsu.edu/s/0zu">http://gvsu.edu/s/0zu</url>.
+			In what follows, we explore the behavior of power functions of the form <m>y = x^n</m> where <m>n \ge 1</m>.
+		</p>
+
+		<p>
+			<ol label="a.">
+		        <li>
+		          <p>
+		            Press the <q>play</q> button next to the slider labeled <q><m>n</m>.</q>
+		            Watch at least two loops of the animation and then discuss the trends that you observe.
+		            Write a careful sentence each for at least two different trends.
+		          </p>
+		        </li>
+
+		        <li>
+		          <p>
+		            Click the icons next to each of the following 8 functions so that you can see all of <m>y = x</m>,
+		            <m>y = x^2</m>, <m>\ldots</m>,
+		            <m>y = x^8</m> graphed at once.
+		            On the interval <m>0 \lt x \lt 1</m>,
+		            how do the graphs of <m>x^a</m> and <m>x^b</m> compare if <m>a \lt b</m>?
+		          </p>
+		        </li>
+
+		        <li>
+		          <p>
+		            Uncheck the icons on each of the 8 functions to hide their graphs.
+		            Click the settings icon to change the domain settings for the axes,
+		            and change them to <m>-10 \le x \le 10</m> and <m>-10,000 \le y \le 10,000</m>.
+		            Play the animation through twice and then discuss the trends that you observe.
+		            Write a careful sentence each for at least two different trends.
+		          </p>
+		        </li>
+
+		        <li>
+		          <p>
+		            Click the icons next to each of the following 8 functions so that you can see all of <m>y = x</m>,
+		            <m>y = x^2</m>, <m>\ldots</m>,
+		            <m>y = x^8</m> graphed at once.
+		            On the interval <m>x \gt 1</m>,
+		            how do the graphs of <m>x^a</m> and <m>x^b</m> compare if <m>a \lt b</m>?
+		          </p>
+		        </li>
+
+		    </ol>
+		</p>
+
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-functions-spherical-tank-draining">
+
+	<statement>
+		<p>
+			Consider a spherical tank of radius <m>4</m> m that is completely full of water.  Suppose that the tank is being drained by regulating an exit valve in such a way that the height of the water in the tank is always decreasing at a rate of <m>0.5</m> meters per minute.  Let 
+			<m>V</m> be the volume of water in the tank (in cubic meters) at a given time <m>t</m> (in minutes), and
+			<m>h</m> the depth of the water (in meters) at the same time.  It can be shown using calculus 
+			that <m>V</m> is a function of <m>t</m> according to the model
+      		<me>
+        		V = p(t) = \frac{256\pi}{3} - \frac{\pi}{24} t^2(24-t)
+      		</me>.
+      		In addition, let <m>h = q(t)</m> be the function whose output is the depth of the water in the tank at time <m>t</m>. 
+		</p>
+
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						What is the height of the water when <m>t = 0</m>?  When <m>t = 1</m>? When <m>t = 2</m>?  How long will it take the tank to completely drain?  Why?
+					</p>
+				</li>
+				<li>
+					<p>
+						What is the domain of the model <m>h = q(t)</m>?  What is the domain of the model <m>V = p(t)</m>?
+					</p>
+				</li>
+				<li>
+					<p>
+						How much water is in the tank when the tank is full?  What is the range of the model <m>h = q(t)</m>?  What is the range of the model <m>V = p(t)</m>?
+					</p>
+				</li>
+				<li>
+					<p>
+						We will frequently use a graphing utility to help us understand function behavior, and strongly recommend <url href="https://www.desmos.com/"><em>Desmos</em></url> because it is intuitive, online, and free.<fn>To learn more about <em>Desmos</em>, see their <url href="http://learn.desmos.com/">outstanding online tutorials</url>.</fn>
+					</p>
+
+					<sidebyside>
+						<interactive desmos="irziheztmg" width="80%" aspect="2:1" />
+					</sidebyside>
+
+					<p>
+						In the interactive figure above, you can see how we enter the (abstract) function <m>V = p(t) = \frac{256\pi}{3} - \frac{\pi}{24} t^2(24-t)</m>, as well as the corresponding graph the program generates.  Make as many observations as you can about the model <m>V = p(t)</m>.  You should discuss its shape and overall behavior, its domain, its range, and more. 
+					</p>
+				</li>
+				<li>
+					<p>
+			            How does the model <m>V = p(t) = \frac{256\pi}{3} - \frac{\pi}{24} t^2(24-t)</m> differ from the abstract function <m>y = r(x) = \frac{256\pi}{3} - \frac{\pi}{24} x^2(24-x)</m>?  In particular, how do the domain and range of the model differ from those of the abstract function, if at all?
+					</p>
+				</li>
+				<li>
+					<p>
+						How should the graph of <m>h = q(t)</m> appear?  Can you determine a formula for <m>q</m>?  Explain your thinking.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-changing-combining">
+  <title>Combining Functions</title>
+
+  <objectives>
+  		<ul>
+  			<li>
+  				<p>
+  					How can we create new functions by adding, subtracting, multiplying, or dividing given functions? 
+  				</p>
+  			</li>
+  			<li>
+  				<p>
+  					What are piecewise functions and what are different ways we can represent them?
+  				</p>
+  			</li>
+  		</ul>
+  </objectives>
+
+  <introduction>
+
+	<p>
+		In arithmetic, we execute processes where we take two numbers to generate a new number.  For example, <m>2 + 3 = 5</m>:  the number <m>5</m> results from adding <m>2</m> and <m>3</m>.  Similarly, we can multiply two numbers to generate a new one:  <m>2 \cdot 3 = 6</m>.
+	</p>
+
+	<p>
+		We can work similarly with functions.  Indeed, we have already seen a sophisticated way to combine two functions to generate a new, related function through composition.  If <m>g : A \to B</m> and <m>f : B \to C</m>, then we know there's a new, related function <m>f \circ g : A \to C</m> defined by the process <m>(f \circ g)(x) = f(g(x))</m>.  Said differently, the new function <m>f \circ g</m> results from executing <m>g</m> first, followed by <m>f</m>. 
+	</p>
+
+	<p>
+		Just as we can add, subtract, multiply, and divide numbers, we can also add, subtract, multiply, and divide functions to create a new function from two or more given functions.
+	</p>
+
+	<xi:include href="./previews/PA-changing-combining.xml" />
+
+  </introduction>
+
+  <subsection xml:id="subsec-changing-combining-functions-algebra">
+  	  <title>Arithmetic with functions</title>
+	  <p>
+	    In most mathematics up until calculus,
+	    the main object we study is <em>numbers</em>.
+	    We ask questions such as
+	    <ul>
+	    	<li>
+	    		<p>
+	    			<q>what number(s) form solutions to the equation <m>x^2 - 4x - 5 = 0</m>?</q>
+	    		</p>
+	    	</li>
+	    	<li>
+	    		<p>
+	    			<q>what number is the slope of the line <m>3x - 4y = 7</m>?</q>
+	    		</p>
+	    	</li>
+	    	<li>
+	    		<p>
+	    			<q>what number is generated as output by the function
+	    			<m>f(x) = \sqrt{x^2 + 1}</m> by the input <m>x = -2</m>?</q>
+	    		</p>
+	    	</li>
+	    </ul> 
+	    Certainly we also study overall patterns as seen in functions and equations,
+	    but this usually occurs through an examination of numbers themselves,
+	    and we think of numbers as the main objects being acted upon.
+	  </p>
+
+	  <p>
+	    This changes in calculus.  In calculus, the fundamental objects being studied are
+	    functions themselves.  A function is a much more sophisticated mathematical object than a number,
+	    in part because a function can be thought of in terms of its graph, which is an infinite collection of ordered pairs of the form <m>(x,f(x))</m>.
+	  </p>
+
+	  <p>
+	  	It is often helpful to look at a function's formula and observe algebraic structure.  For instance, given the quadratic function
+	  	<me>
+	  		q(x) = -3x^2 + 5x - 7
+	  	</me>
+	  	we might benefit from thinking of this as the sum of three simpler functions:  the constant function <m>c(x) = -7</m>, the linear function <m>s(x) = 5x</m> that passes through <m>(0,0)</m> with slope <m>m = 5</m>, and the concave down basic quadratic function <m>w(x) = -3x^2</m>.  Indeed, each of the simpler functions <m>c</m>, <m>s</m>, and <m>w</m> contribute to making <m>q</m> be the function that it is.  Likewise, if we were interested in the function <m>p(x) = (3x^2 + 4)(9 - 2x^2)</m>, it might be natural to think about the two simpler functions <m>f(x) = 3x^2 + 4</m> and <m>g(x) = 9 - 2x^2</m> that are being multiplied to produce <m>p</m>.
+	  </p>
+
+	  <p>
+	  	We thus naturally arrive at the ideas of adding, subtracting, multiplying, or dividing two or more functions, and hence introduce the following definitions and notation.
+	  </p>
+
+	  <definition>
+	  	<idx><h>function arithmetic</h><h>sum of</h></idx>
+	  	<idx><h>function arithmetic</h><h>difference of</h></idx>	  	
+	  	<idx><h>function arithmetic</h><h>product of</h></idx>
+	  	<idx><h>function arithmetic</h><h>quotient of</h></idx>
+	  	<statement>
+	  		<p>
+	  			Let <m>f</m> and <m>g</m> be functions that share the same domain.  Then,
+		  		<ul>
+		  			<li>
+		  				<p>
+		  					The <term>sum of <m>f</m> and <m>g</m></term> is the function <m>f + g</m> defined by <m>(f+g)(x) = f(x) + g(x)</m>.
+		  				</p>
+		  			</li>
+		  			<li>
+		  				<p>
+		  					The <term>difference of <m>f</m> and <m>g</m></term> is the function <m>f - g</m> defined by <m>(f-g)(x) = f(x) - g(x)</m>.
+		  				</p>
+		  			</li>
+		  			<li>
+		  				<p>
+		  					The <term>product of <m>f</m> and <m>g</m></term> is the function <m>f \cdot g</m> defined by <m>(f \cdot g)(x) = f(x) \cdot g(x)</m>.
+		  				</p>
+		  			</li>
+		  			<li>
+		  				<p>
+		  					The <term>quotient of <m>f</m> and <m>g</m></term> is the function <m>\frac{f}{g}</m> defined by <m>\left( \frac{f}{g} \right)(x) = \frac{f(x)}{g(x)}</m> for all <m>x</m> such that <m>g(x) \ne 0</m>.
+		  				</p>
+		  			</li>
+		  		</ul>
+	  		</p>	  			
+	  	</statement>
+	  </definition>
+
+	  <xi:include href="./activities/act-changing-combining-arithmetic.xml" />
+
+  </subsection>		  
+
+  <subsection xml:id="subsec-changing-combining-functions-context">
+  	<title>Combining functions in context</title>
+  	<p>
+	    When we work in applied settings with functions that model phenomena in the world around us,
+	    it is often useful to think carefully about the units of various quantities.
+	    Analyzing units can help us both understand the algebraic structure of functions and the variables involved,
+	    as well as assist us in assigning meaning to quantities we compute.
+	    We have already seen this with the notion of average rate of change:
+	    if a function <m>P(t)</m> measures the population in a city in year <m>t</m> and we compute <m>AV_{[5, 11]}</m>,
+	    then the units on <m>AV_{[5, 11]}</m> are
+	    <q>people per year,</q>
+	    and the value of <m>AV_{[5, 11]}</m> is telling us the average rate at which the population changes in people per year on the time interval from year <m>5</m> to year <m>11</m>.
+  	</p>
+
+	<example xref="ex-combining-stock-value">
+		<statement>
+			<p>
+		      Say that an investor is regularly purchasing stock in a particular company.<fn>This example is taken from <url href="https://activecalculus.org/single/sec-2-3-prod-quot.html">Section 2.3</url> of <url href="https://activecalculus.org/single/">Active Calculus</url>.</fn>
+		      Let <m>N(t)</m> represent the number of shares owned on day <m>t</m>,
+		      where <m>t = 0</m> represents the first day on which shares were purchased.
+		      Let <m>S(t)</m> give the value of one share of the stock on day <m>t</m>;
+		      note that the units on <m>S(t)</m> are dollars per share.
+		      How is the total value, <m>V(t)</m>, of the held stock on day <m>t</m> determined?
+		    </p>
+
+		    <p>
+		    	<em>Solution</em>.  Observe that the units on <m>N(t)</m> are <q>shares</q> and the units on <m>S(t)</m> are <q>dollars per share</q>.  Thus when we compute the product
+		    	<me>
+		        	N(t) \, \text{shares}  \cdot S(t) \, \text{dollars per share}
+		      	</me>,
+		      	it follows that the resulting units are <q>dollars</q>, which is the total value of held stock.  Hence,
+		      	<me>
+		      		V(t) = N(t) \cdot S(t)
+		      	</me>.
+		    </p>
+		</statement>
+	</example>
+
+	<xi:include href="./activities/act-changing-combining-context.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-changing-combining-piecewise">
+  	<title>Piecewise functions</title>
+
+  	<p>
+  		In both abstract and applied settings,
+	    we sometimes have to use different formulas on different intervals in order to define a function of interest.
+  	</p>
+
+  	<sidebyside width="50%" >
+  		<p>
+			<p>
+				A familiar and important function that is defined <em>piecewise</em>
+			    is the absolute value function: <m>A(x) = |x|</m>.
+			    We know that if <m>x \ge 0</m>, <m>|x| = x</m>, whereas if <m>x \lt 0</m>, <m>|x| = -x</m>.  
+			</p>
+
+			<p>
+	  			<definition xml:id="def-combining-abs-val">
+	  				<idx><h>absolute value function</h></idx>
+					<statement>
+						<p>
+							The absolute value of a real number, denoted by <m>A(x) = |x|</m>, is defined by the rule
+			  				<me>
+			        			A(x) = 
+			        			\begin{cases}
+			        				-x, \amp  x \lt  0 \\
+			        				x, \amp x \ge 0
+			        			\end{cases}
+			  				</me>
+						</p>
+					</statement>
+	  			</definition>
+			</p>
+  		</p>
+
+  		<figure xml:id="F-combining-defn-abs-val">
+  			<caption>A plot of the absolute value function, <m>A(x) = |x|</m>.</caption>
+  			<image source="images/combining-piecewise-abs-val" />
+  		</figure>
+  	</sidebyside>
+
+	<p>
+		The absolute value function is one example of a piecewise-defined function.  The <q>bracket</q> notation in <xref ref="def-combining-abs-val">Definition</xref> is how we express which piece of the function applies on which interval.  As we can see in <xref ref="F-combining-defn-abs-val">Figure</xref>, for <m>x</m> values less than <m>0</m>, the function <m>y = -x</m> applies, whereas for <m>x</m> greater than or equal to <m>0</m>, the rule is determined by <m>y = x</m>.
+	</p>
+
+	<p>
+		As long as we are careful to make sure that each potential input has one and only one corresponding output, we can define a piecewise function using as many different functions on different intervals as we desire.
+	</p>
+
+	<xi:include href="./activities/act-changing-combining-piecewise.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-changing-combining-summary">
+  	<title>Summary</title>
+  	<p>
+  		<ul>
+  			<li>
+  				<p>
+  					Just as we can generate a new number by adding, subtracting, multiplying, or dividing two given numbers, we can generate a new function by adding, subtracting, multiplying, or dividing two given functions.  For instance, if we know formulas, graphs, or tables for functions <m>f</m> and <m>g</m> that share the same domain, we can create their product <m>p</m> according to the rule <m>p(x) = (f \cdot g)(x) = f(x) \cdot g(x)</m>. 
+  				</p>
+  			</li>
+  			<li>
+  				<p>
+  					A piecewise function is a function whose formula consists of at least two different formulas in such a way that which formula applies depends on where the input falls in the domain.  For example, given two functions <m>f</m> and <m>g</m> each defined on all real numbers, we can define a new piecewise function <m>P</m> according to the rule
+  					<me>
+  						P(x) = 
+	        			\begin{cases}
+	        				f(x), \amp  x \lt  a \\
+	        				g(x), \amp x \ge a
+	        			\end{cases}
+  					</me>
+  					This tells us that for any <m>x</m> to the left of <m>a</m>, we use the rule for <m>f</m>, whereas for any <m>x</m> to the right of or equal to <m>a</m>, we use the rule for <m>g</m>.  We can use as many different functions as we want on different intervals, provided the intervals don't overlap.
+  				</p>
+  			</li>
+  		</ul>
+  	</p>
+  </subsection>
+	
+  <xi:include href="./exercises/ez-changing-combining.xml" />
+
+  <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
+  <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
+</section>
+

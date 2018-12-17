@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-trig-other-cot">
+
+	<statement>
+		<p>
+			In this activity, we develop the standard properties of the cotangent function, <m>r(t) = \cot(t)</m>.
+		</p>
+
+		<figure xml:id="F-cotangent-plot">
+			<caption>Axes for plotting <m>r(t) = \cot(t)</m>.</caption>
+			<image source="images/other-cot-definition-graph" width="80%" />
+		</figure>
+
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						Complete <xref ref="T-cotangent-values">Table</xref> to determine the exact values of the cotangent function at the special points on the unit circle.  Enter <q><m>u</m></q> for any value at which <m>r(t) = \cot(t)</m> is undefined.
+					</p>						
+    				<table xml:id="T-cotangent-values">
+						<caption>Values of the sine function at special points on the unit circle.</caption>
+						<tabular>
+							<row bottom="minor" halign="center">
+								<cell><m>t</m></cell>
+								<cell><m>0</m></cell>
+								<cell><m>\frac{\pi}{6}</m></cell>
+								<cell><m>\frac{\pi}{4}</m></cell>
+								<cell><m>\frac{\pi}{3}</m></cell>
+								<cell><m>\frac{\pi}{2}</m></cell>
+								<cell><m>\frac{2\pi}{3}</m></cell>
+								<cell><m>\frac{3\pi}{4}</m></cell>
+								<cell><m>\frac{5\pi}{6}</m></cell>
+								<cell><m>\pi</m></cell>		
+								<cell><m>\frac{7\pi}{6}</m></cell>
+								<cell><m>\frac{5\pi}{4}</m></cell>
+								<cell><m>\frac{4\pi}{3}</m></cell>
+								<cell><m>\frac{3\pi}{2}</m></cell>
+								<cell><m>\frac{5\pi}{3}</m></cell>
+								<cell><m>\frac{7\pi}{4}</m></cell>
+								<cell><m>\frac{11\pi}{6}</m></cell>
+								<cell><m>2\pi</m></cell>						
+							</row>
+							<row bottom="minor" halign="center">
+								<cell><m>\sin(t)</m></cell>
+								<cell><m>0</m></cell>
+								<cell><m>\frac{1}{2}</m></cell>
+								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>1</m></cell>
+								<cell><m>\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>\frac{1}{2}</m></cell>
+								<cell><m>0</m></cell>
+								<cell><m>-\frac{1}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>-1</m></cell>
+								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>-\frac{1}{2}</m></cell>
+								<cell><m>0</m></cell>
+							</row>
+							<row bottom="minor" halign="center">
+								<cell><m>\cos(t)</m></cell>
+								<cell><m>1</m></cell>
+								<cell><m>\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>\frac{1}{2}</m></cell>
+								<cell><m>0</m></cell>
+								<cell><m>-\frac{1}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>-1</m></cell>
+								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>-\frac{1}{2}</m></cell>
+								<cell><m>0</m></cell>
+								<cell><m>\frac{1}{2}</m></cell>
+								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>0</m></cell>
+							</row>							
+							<row bottom="minor" halign="center">
+								<cell><m>\tan(t)</m></cell>
+								<cell><m>0</m></cell>
+								<cell><m>\frac{1}{\sqrt{3}}</m></cell>
+								<cell><m>1</m></cell>
+								<cell><m>\frac{3}{\sqrt{3}}</m></cell>
+								<cell><m>u</m></cell>
+								<cell><m>-\frac{3}{\sqrt{3}}</m></cell>
+								<cell><m>-1</m></cell>
+								<cell><m>-\frac{1}{\sqrt{3}}</m></cell>
+								<cell><m>0</m></cell>
+								<cell><m>\frac{1}{\sqrt{3}}</m></cell>
+								<cell><m>1</m></cell>
+								<cell><m>\frac{3}{\sqrt{3}}</m></cell>
+								<cell><m>u</m></cell>
+								<cell><m>-\frac{3}{\sqrt{3}}</m></cell>
+								<cell><m>-1</m></cell>
+								<cell><m>-\frac{1}{\sqrt{3}}</m></cell>
+								<cell><m>0</m></cell>
+							</row>	
+							<row halign="center">
+								<cell><m>\cot(t)</m></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+							</row>						
+						</tabular>
+					</table>
+				</li>
+				<li>
+					<p>
+						In which quadrants is <m>r(t) = \cot(t)</m> positive?  negative?
+					</p>
+				</li>
+				<li>
+					<p>
+						At what <m>t</m>-values does <m>r(t) = \cot(t)</m> have a vertical asymptote?  Why?
+					</p>
+				</li>
+				<li>
+					<p>
+						What is the domain of the cotangent function?  What is its range?
+					</p>
+				</li>
+				<li>
+					<p>
+						Sketch an accurate, labeled graph of <m>r(t) = \cot(t)</m> on the axes provided in <xref ref="F-cotangent-plot">Figure</xref>, including the special points that come from the unit circle.
+					</p>
+				</li>
+				<li>
+					<p>
+						On intervals where the function is defined at every point in the interval, is <m>r(t) = \cot(t)</m> increasing, decreasing, or neither?
+					</p>
+				</li>
+				<li>
+					<p>
+						What is the period of the cotangent function?
+					</p>
+				</li>
+				<li>
+					<p>
+						How would you describe the relationship between the graphs of the tangent and cotangent functions?
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

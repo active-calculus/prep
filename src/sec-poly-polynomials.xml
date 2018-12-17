@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-poly-polynomials">
+  <title>Polynomials</title>
+
+  <objectives>
+  	<ul>
+  		<li>
+  			<p>
+  				What properties of a polynomial function can we deduce from its algebraic structure?
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				What is a sign chart and how does it help us understand a polynomial function's behavior?
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				How do zeros of multiplicity other than <m>1</m> impact the graph of a polynomial function?
+  			</p>
+  		</li>
+  	</ul>
+  </objectives>
+
+  <introduction>
+  	<p>
+  		We know that linear functions are the simplest of all funcitons we can consider:  their graphs have the simplest shape, their average rate of change is always constant (regardless of the interval chosen), and their formula is elementary.  Moreover, computing the value of a linear function only requires multiplication and addition.
+  	</p>
+
+	<p>
+		If we think of a linear function as having formula <m>L(x) = b + mx</m>, and the next-simplest functions, quadratic functions, as having form <m>Q(x) = c + bx + ax^2</m>, we can see immediate parallels between their respective forms and realize that it's natural to consider slightly more complicated functions by adding additional power functions.
+	</p>
+
+	<p>
+		Indeed, if we instead view linear functions as having form
+	    <me>
+	      L(x) = a_0 + a_1 x
+	    </me>
+	    (for some constants <m>a_0</m> and <m>a_1</m>) and quadratic functions as having form
+	    <me>
+	      Q(x) = a_0 + a_1 x + a_2 x^2
+	    </me>,
+	    then it's natural to think about more general functions of this same form,
+	    but with additional power functions included.
+	</p>
+
+	<definition xml:id="def-polynomial-function">
+		<idx><h>polynomial function</h></idx>
+		<statement>
+			<p>
+        Given real numbers <m>a_0, a_1, \ldots, a_n</m> where <m>a_n \ne 0</m>, we say that the function
+        <me>
+          P(x) = a_0 + a_1 x + a_2 x^2 + \cdots + a_{n-1}x^{n-1} + a_n x^n, 
+        </me>
+        is a <term>polynomial of degree <m>n</m></term>. <idx><h>polynomial</h><h>degree</h></idx> In addition, we say that the value of <m>a_i</m> are the <term>coefficients</term> of the polynomial and the individual power functions <m>a_i x^i</m> are the <term>terms</term> of the polynomial.  <idx><h>polynomial</h><h>coefficients</h></idx> <idx><h>polynomial</h><h>terms</h></idx>  Any value of <m>x</m> for which <m>P(x) = 0</m> is called a <term>zero</term> of the polynomial.  <idx><h>polynomial</h><h>zero</h></idx>   
+      </p>
+		</statement>
+	</definition>
+
+    <example xml:id="ex-polynomial-terms">
+    	<statement>
+    		<p>
+    			The polyomial function <m>P(x) = 3 - 7x + 4x^2 - 2x^3 + 9x^5</m> has degree <m>5</m>, its constant term is <m>3</m>, and its linear term is <m>-7x</m>.
+    		</p>
+    	</statement>
+    </example>
+
+	  <p>
+	    Since a polynomial is simply a sum of constant multiples of various power functions with positive integer powers, we often refer to those individual terms by referring to their individual degrees:  the linear term, the quadratic term, and so on.  In addition, since the domain of any power function of the form <m>p(x) = x^n</m> where <m>n</m> is a positive whole number is the set of all real numbers, it's also true the the domain of any polynomial function is the set of all real numbers.
+	  </p>
+
+	<xi:include href="./previews/PA-poly-polynomials.xml" />
+
+  </introduction>
+
+  <subsection xml:id="subsec-poly-polynomials-results">
+  	<title>Key results about polynomial functions</title>
+  	<p>
+  		Our observations in <xref ref="PA-poly-polynomials">Preview Activity</xref> generalize to polynomials of any degree.  In particular, it is possible to prove the following general conclusions regarding the number of zeros, the long-range behavior, and the number of turning points any polynomial of degree <m>n</m>.
+  	</p>
+
+  	<assemblage xml:id="asm-polynomials-fundamental-theorem">
+  		<idx><h>Fundamental Theorem of Algebra</h></idx>
+  		<title>The Fundamental Theorem of Algebra</title>
+ 		<p>
+ 			For any degree <m>n</m> polynomial <m>p(x) = a_0 + a_1 x + \cdots + a_{n-1}x^{n-1} + a_n x^n</m>, has at most <m>n</m> real zeros.<fn>We can actually say even more:  if we allow the zeros to be complex numbers, then every degree <m>n</m> polynomial has <em>exactly</em> <m>n</m> zeros, provided we count zeros according to their multiplicity.  For example, the polynomial <m>p(x) = (x-1)^2 = x^2 - 2x + 1</m> because it has a zero of multiplicity two at <m>x = 1</m>.</fn>
+ 		</p>
+  	</assemblage>
+
+  	<p>
+  		We know that each of the power functions <m>x</m>, <m>x^2</m>, <m>\ldots</m>, <m>x^n</m> grow without bound as <m>x \to \infty</m>.  Intuitively, we sense that <m>x^5</m> grows faster than <m>x^4</m> (and likewise for any comparison of a higher power to a lower one).  This means that for large values of <m>x</m>, the most important term in any polynomial is its highest order term, as we saw in <xref ref="PA-poly-polynomials">Preview Activity</xref> when we compared <m>p(x) = a_0 + a_1 x + a_2 x^2 + a_3 x^3 + a_4 x^4</m> and <m>y = a_4 x^4</m>.  
+  	</p>
+
+  	<assemblage xml:id="asm-polynomials-long-range">
+  		<idx><h>polynomial</h><h>long-range behavior</h></idx>
+  		<title>The long-range behavior of a polynomial</title>
+ 		<p>
+ 			For any degree <m>n</m> polynomial <m>p(x) = a_0 + a_1 x + \cdots + a_{n-1}x^{n-1} + a_n x^n</m>, its long-range behavior is the same as its highest-order term <m>q(x) = a_n x^n</m>.  Thus, any polynomial of even degree appears <q>U-shaped</q> (<m>\cup</m> or <m>\cap</m>, like <m>x^2</m> or <m>-x^2</m>) when we zoom way out, and any polynomial of odd degree appears <q>chair-shaped</q> (like <m>x^3</m> or <m>-x^3</m>) when we zoom way out.
+ 		</p>
+  	</assemblage>
+
+  	<p>
+  		In <xref ref="F-poly-degree-7-far">Figure</xref>, we see how the degree <m>7</m> polynomial pictured there (and in <xref ref="F-poly-degree-7-near">Figure</xref> as well) appears to look like <m>q(x) = -x^7</m> as we zoom out.
+  	</p>
+
+	<sidebyside width="50%">
+		<figure xml:id="F-poly-degree-7-near">
+			<caption>Plot of a degree <m>7</m> polynomial function <m>p</m>.</caption>
+			<image source="images/poly-degree-7-near" />
+		</figure>
+		<figure xml:id="F-poly-degree-7-far">
+			<caption>Plot of the same degree <m>7</m> polynomial function <m>p</m>, but zoomed out.</caption>
+			<image source="images/poly-degree-7-far" />
+		</figure>
+	</sidebyside>
+
+	<p>
+		Finally, a key idea from calculus justifies the fact that the maximum number of turning points of a degree <m>n</m> polynomial is <m>n-1</m>, as we conjectured in the degree <m>4</m> case in <xref ref="PA-poly-polynomials">Preview Activity</xref>.  Moreover, the only possible numbers of turning points must have the same parity as <m>n-1</m>; that is, if <m>n-1</m> is even, then the number of turning points must be even, and if instead <m>n-1</m> is odd, the number of turning points must also be odd.  For instance, for the degree <m>7</m> polynomial in <xref ref="F-poly-degree-7-near">Figure</xref>, we know that it is chair-shaped, with one end up and one end down.  There could be zero turning points and the function could always decrease.  But if there is at least one, then there must be a second, since if there were only one the function would decrease and then increase without turning back, which would force the graph to appear U-shaped.
+	</p>
+
+  	<assemblage xml:id="asm-polynomials-turning-points">
+  		<idx><h>polynomial</h><h>number of turning points</h></idx>
+  		<title>The turning points of a polynomial</title>
+ 		<p>
+ 			For any degree <m>n</m> polynomial <m>p(x) = a_0 + a_1 x + \cdots + a_{n-1}x^{n-1} + a_n x^n</m>, if <m>n</m> is even, its number of turning points is exactly one of <m>n-1</m>, <m>n-3</m>, <m>\ldots</m>, <m>1</m>, and if <m>n</m> is odd, its number of turning points is exactly one of <m>n-1</m>, <m>n-3</m>, <m>\ldots</m>, <m>0</m>.
+ 		</p>
+  	</assemblage>
+
+  	<xi:include href="./activities/act-poly-polynomials-find.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-poly-polynomials-zeros-signs">
+  	<title>Using zeros and signs to understand polynomial behavior</title>
+
+  	<p>
+  		Just like a quadratic function can be written in different forms (standard: <m>q(x) = ax^2 + bx + c</m>, vertex: <m>q(x) = a(x-h)^2 + k</m>, and factored: <m>q(x) = a(x-r_1)(x-r_2)</m>), it's possible to write a polynomial function in different forms and to gain information about its behavior from those different forms.  In particular, if we know all of the zeros of a polynomial function, we can write its formula in factored form, which gives us a deeper understanding of its graph.
+  	</p>
+
+  	<p>
+  		The Zero Product Property <idx><h>Zero Product Property</h></idx> states that if two or more numbers are multiplied together and the result is <m>0</m>, then at least one of the numbers must be <m>0</m>.  We use the Zero Product Property regularly with polynomial functions.  If we can determine all <m>n</m> zeros of a degree <m>n</m> polynomial, and we call those zeros <m>r_1</m>, <m>r_2</m>, <m>\ldots</m>, <m>r_n</m>, we can write 
+  		<me>
+  			p(x) = a_n(x-r_1)(x-r_2) \cdots (x-r_2)
+  		</me>.  
+  		Moreover, if we are given a polynomial in this factored form, we can quickly determine its zeros.  For instance, if <m>p(x) = 2(x+7)(x+1)(x-2)(x-5)</m>, we know that the only way <m>p(x) = 0</m> is if at least one of the factors <m>(x+7)</m>, <m>(x+1)</m>, <m>(x-2)</m>, or <m>(x-5)</m> equals <m>0</m>, which implies that <m>x = -7</m>, <m>x = -1</m>, <m>x = 2</m>, or <m>x = 5</m>.  Hence, from the factored form of a polynomial, it is straightforward to identify the polynomial's zeros, the <m>x</m>-values at which its graph crosses the <m>x</m>-axis.  We can also use the factored form of a polynomial to develop what we call a <em>sign chart</em>, which we demonstrate in <xref ref="ex-polynomial-signs">Example</xref>. <idx><h>sign chart</h></idx> 
+  	</p>
+
+  	<example xml:id="ex-polynomial-signs">
+  		<statement>
+  			<p>
+  				Consider the polynomial function <m>p(x) = k(x-1)(x-a)(x-b)</m>.  Suppose we know that <m>1 \lt a \lt b</m> and that <m>k \lt 0</m>.  Fully describe the graph of <m>p</m> without the aid of a graphing utility.
+  			</p>
+  		</statement>
+  		<solution>
+  			<p>
+  				Since <m>p(x) = k(x-1)(x-a)(x-b)</m>, we immediately know that <m>p</m> is a degree <m>3</m> polynomial with <m>3</m> real zeros:  <m>x = 1, a, b</m>.  We are given that <m>1 \lt a \lt b</m> and in addition that <m>k \lt 0</m>.  If we expand the factored form of <m>p(x)</m>, it has form <m>p(x) = kx^3 + \cdots</m>, and since we know that when we zoom out, <m>p(x)</m> behaves like <m>kx^3</m>, we know that with <m>k \lt 0</m> it follows <m>\lim_{x \to -\infty} p(x) = +\infty</m> and <m>\lim_{x \to \infty} p(x) = -\infty</m>.
+  			</p>
+
+  			<p>
+  				Since <m>p</m> is degree <m>3</m> and we know it has zeros at <m>x = 1, a, b</m>, we know there are no other locations where <m>p(x) = 0</m>.  Thus, on any interval between two zeros (or to the left of the least or the right of the greatest), the polynomial cannot change sign.  We now investigate, interval by interval, the sign of the function.
+  			</p>
+
+  			<p>
+  				When <m>x \lt 1</m>, it follows that <m>x - 1 \lt 0</m>.  In addition, since <m>1 \lt a \lt b</m>, when <m>x \lt 1</m>, <m>x</m> lies to the left of <m>1</m>, <m>a</m>, and <m>b</m>, which also makes <m>x-a</m> and <m>x-b</m> negative.  Moreover, we know that the constant <m>k \lt 0</m>.  Hence, on the interval <m>x \lt 1</m>, all four terms in <m>p(x) = k(x-1)(x-a)(x-b)</m> are negative, which we indicate by writing <q><m>----</m></q> in that location on the sign chart pictured in <xref ref="F-polynomial-sign-chart-1">Figure</xref>.
+  			</p>
+
+  			<p>
+  				In addition, since there are an even number of negative terms in the product, the overall product's sign is positive, which we indicate by the single <m><q><m>+</m></q></m> beneath <q><m>----</m></q>, and by writing <q>POS</q> below the coordinate axis.
+  			</p>
+
+        <figure xml:id="F-polynomial-sign-chart-1">
+          <caption>A sign chart for the polynomial function <m>p(x) = k(x-1)(x-a)(x-b)</m>.</caption>
+          <image source="images/polynomial-sign-chart-1" width="80%" />
+        </figure>
+
+  			<p>
+  				We now proceed to the other intervals created by the zeros.  On <m>1 \lt x \lt a</m>, the term <m>(x-1)</m> has become positive, since <m>x \gt 1</m>.  But both <m>x-a</m> and <m>x-b</m> are negative, as is the constant <m>k</m>, and thus we write <q><m>-+--</m></q> for this interval, which has overall sign <q><m>-</m></q>, as noted in the figure.  Similar reasoning completes the diagram.
+  			</p>
+
+  			<p>
+  				From all of the information we have deduced about <m>p</m>, we conclude that regardless of the locations of <m>a</m> and <m>b</m>, the graph of <m>p</m> must look like the curve shown in <xref ref="F-polynomial-sign-chart-1-graph">Figure</xref>.
+  			</p>
+
+  			<figure xml:id="F-polynomial-sign-chart-1-graph">
+  				<caption>The graph of the polynomial function <m>p(x) = k(x-1)(x-a)(x-b)</m>.</caption>
+  				<image source="images/polynomial-sign-chart-1-graph" width="50%" />
+  			</figure>
+  		</solution>
+  	</example>
+
+	<xi:include href="./activities/act-poly-polynomials-sign-chart.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-poly-polynomials-multiplicity">
+  	<title>Multiplicity of polynomial zeros</title>
+  	<p>
+  		In <xref ref="act-poly-polynomials-sign-chart">Activity</xref>, we found that one of the zeros of the polynomial <m>p(x) = 4692(x+1520)(x^2+10000)(x−3471)^2(x−9738)</m> leads to different behavior of the function near that zero than we've seen in other situations.  We now consider the more general situation where a polynomial has a repeated factor of the form <m>(x-r)^n</m>.  When <m>(x-r)^n</m> is a factor of a polynomial <m>p</m>, we say that <m>p</m> has a <term>zero of multiplicity <m>n</m></term> at <m>x = r</m>.  <idx><h>polynomial</h><h>zero of multiplicity <m>n</m></h></idx>
+  	</p>
+
+  	<p>
+  		To see the impact of repeated factors, we examine a collection of degree <m>4</m> polynomials that each have <m>4</m> real zeros.  We start with the simplest of all, the function <m>f(x) = x^4</m>, whose zeros are <m>x = 0, 0, 0, 0</m>.  Because the factor <q><m>x-0</m></q> is repeated <m>4</m> times, the zero <m>x = 0</m> has multiplicity <m>4</m>. 
+  	</p>
+
+  	<p>
+  		Next we consider the degree <m>4</m> polynomial <m>g(x) = x^3 (x-1)</m>, which has a zero of multiplicity <m>3</m> at <m>x = 0</m> and a zero of multiplicity <m>1</m> at <m>x = 1</m>.
+  	</p>
+
+  	<sidebyside width="33%">
+  		<figure xml:id="F-polynomial-4A">
+  			<caption>A plot of <m>g(x) = x^3(x-1)</m> with zero <m>x = 0</m> of multiplicity <m>3</m> and <m>x = 1</m> of multiplicity <m>1</m>.</caption>
+  			<image source="images/polynomial-3-1" />
+  		</figure>
+  		<figure xml:id="F-polynomial-4A-mult-3">
+  			<caption>A plot of <m>g(x) = x^3(x-1)</m> zoomed in on the zero <m>x = 0</m> of multiplicity <m>3</m>.</caption>
+  			<image source="images/polynomial-3-1-3" />
+  		</figure>
+  		<figure  xml:id="F-polynomial-4A-mult-1">
+  			<caption>A plot of <m>g(x) = x^3(x-1)</m> zoomed in on the zero <m>x = 1</m> of multiplicity <m>1</m>.</caption>
+  			<image source="images/polynomial-3-1-1" />
+  		</figure>
+  	</sidebyside>
+
+	<p>
+		Observe that in <xref ref="F-polynomial-4A-mult-3">Figure</xref>, the up-close plot near the zero <m>x = 0</m> of multiplicity <m>3</m>, the polynomial function <m>g</m> looks similar to the basic cubic polynomial <m>-x^3</m>.  In addition, in <xref ref="F-polynomial-4A-mult-1">Figure</xref>, we observe that if we zoom in even futher on the zero of multiplicity <m>1</m>, the function <m>g</m> looks roughly linear, like a degree <m>1</m> polynomial.  This type of behavior near repeated zeros turns out to hold in other cases as well.
+	</p>
+
+	<p>
+		If we next let <m>h(x) = x^2 (x-1)^2</m>, we see that <m>h</m> has two distinct real zeros, each of multiplicity <m>2</m>.  The graph of <m>h</m> in <xref ref="F-polynomial-4B">Figure</xref> shows that <m>h</m> behaves similar to a basic quadratic function near each of those zeros and thus shows U-shaped behavior nearby.  If instead we let <m>k(x) = x^2(x-1)(x+1)</m>, we see approximately linear behavior near <m>x = -1</m> and <m>x = 1</m> (the zeros of multiplicity <m>1</m>), and quadratic (U-shaped) behavior near <m>x = 0</m> (the zero of multiplicity <m>2</m>), as seen in <xref ref="F-polynomial-4C">Figure</xref>.  Finally, if we consider <m>m(x) = (x+1)x(x-1)(x-2)</m>, which has <m>4</m> distinct real zeros each of multiplicity <m>1</m>, we observe in <xref ref="F-polynomial-4D">Figure</xref> that zooming in on each zero individually, the function demonstrates approximately linear behavior as it passes through the <m>x</m>-axis.
+	</p>
+
+  	<sidebyside width="33%">
+  		<figure xml:id="F-polynomial-4B">
+  			<caption>Plot of <m>h(x) = x^2 (x-1)^2</m> with zeros <m>x = 0</m> and <m>x = 1</m> of multiplicity <m>2</m>.</caption>
+  			<image source="images/polynomial-2-2" />
+  		</figure>
+  		<figure xml:id="F-polynomial-4C">
+  			<caption>Plot of <m>k(x) = x^2(x-1)(x+1)</m> with zeros <m>x = 0</m> of multiplicity <m>2</m> and <m>x = -1</m> and <m>x = 1</m> of multiplicity <m>1</m>.</caption>
+  			<image source="images/polynomial-2-1-1" />
+  		</figure>
+  		<figure  xml:id="F-polynomial-4D">
+  			<caption>Plot of <m>m(x) = (x+1)x(x-1)(x-2)</m> with <m>4</m> distinct zeros of multiplicity <m>1</m>.</caption>
+  			<image source="images/polynomial-1-1-1-1" />
+  		</figure>
+  	</sidebyside>
+
+  	<p>
+  		Our observations with polynomials of degree <m>4</m> in the various figures above generalize to polynomials of any degree.
+  	</p>
+
+  	<assemblage xml:id="asm-polynomials-multiple-zeros">
+  		<idx><h>polynomial</h><h>multiple zeros</h></idx>
+  		<title>Polynomial zeros of multiplicity <m>n</m></title>
+ 		<p>
+ 			If <m>(x-r)^n</m> is a factor of a polynomial <m>p</m>, then <m>x = r</m> is a zero of <m>p</m> of multiplicity <m>n</m>, and near <m>x = r</m> the graph of <m>p</m> looks like either <m>-x^n</m> or <m>x^n</m>.  That is, the shape of the graph near the zero is determined by the multiplicity of the zero.
+ 		</p>
+  	</assemblage>
+
+  	<xi:include href="./activities/act-poly-polynomials-multiple-zeros.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-poly-polynomials-summary">
+  	<title>Summary</title>
+  	  <ul>
+  		<li>
+  			<p>
+  				From a polynomial function's algebraic structure, we can deduce several key traits of the function.
+  			</p>
+
+  			<ul>
+  				<li>
+  					<p>
+  						If the function is in standard form, say <m>p(x) = a_0 + a_1 x + a_2 x^2 + \cdots + a_{n-1}x^{n-1} + a_n x^n</m>, we know that its degree is <m>n</m> and that when we zoom out, <m>p</m> looks like <m>a_n x^n</m> and thus has the same long-range behavior as <m>a_n x^n</m>.  Thus, <m>p</m> is chair-shaped if <m>n</m> is odd and U-shaped if <m>n</m> is even.  Whether <m>\lim_{n \to \infty} p(x)</m> is <m>+\infty</m> or <m>-\infty</m> depends on the sign of <m>a_n</m>.
+  					</p>
+  				</li>
+
+  				<li>
+  					<p>
+  						If the function is in factored form, say <m>p(x) = a_n(x-r_1)(x-r_2) \cdots (x-r_n)</m> (where the <m>r_i</m>'s are possibly not distinct and possibly complex), we can quickly determine both the degree of the polynomial (<m>n</m>) and the locations of its zeros, as well as their multiplicities.
+  					</p>
+  				</li>
+  			</ul>
+  		</li>
+  		<li>
+  			<p>
+  				A sign chart is a visual way to identify all of the locations where a function is zero along with the sign of the function on the various intervals the zeros create.  A sign chart gives us an overall sense of the graph of the function, but without concerning ourselves with any specific values of the function besides the zeros.  For a sample sign chart, see <xref ref="F-polynomial-sign-chart-1">Figure</xref>.
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				When a polynomial <m>p</m> has a repeated factor such as <m>(x-5)(x-5)(x-5) = (x-5)^3</m>, we way that <m>x = 5</m> is a zero of multiplicity <m>3</m>.  At the point <m>x = 5</m> where <m>p</m> will cross the <m>x</m>-axis, up close it will look like a cubic polynomial and thus be chair-shaped.  In general, if <m>(x-r)^n</m> is a factor of a polynomial <m>p</m> so that <m>x = r</m> is a zero of multiplicity <m>n</m>, the polynomial will behave near <m>x = r</m> like a polynomial of degree <m>n</m>.
+  			</p>
+  		</li>
+  	</ul>
+  </subsection>
+
+  <xi:include href="./exercises/ez-poly-polynomials.xml" />
+
+  <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
+  <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
+</section>
+
+ 

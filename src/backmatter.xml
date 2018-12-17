@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<backmatter xml:id="backmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Back Matter</title>
+  <!-- mostly for HTML sectioning -->
+
+  <!--
+
+  <appendix>
+    <title>Notation</title>
+    <p>
+      The following table defines the notation used in this book.
+      Page numbers or references refer to the first appearance of each symbol.
+    </p>
+
+    <notation-list />
+  </appendix>
+
+  <appendix>
+    <title>Hints and Solutions to Selected Exercises</title>
+    <solution-list />
+  </appendix>
+
+  -->
+
+  <!-- GFDL License text    <xi:include href="./gfdl-mathbook.xml" />            -->
+
+  <!-- Index follows appendices, preceded only colophon -->
+
+<!--
+  
+  <solutions project="answer">
+      <title>Answers to Activities</title>
+      <introduction>
+        <p>This appendix contains answers to all activities in the text. Answers for preview activities are not included.</p>
+      </introduction>
+  </solutions>
+
+    
+  <solutions divisional="answer">
+      <title>Answers to Selected Exercises</title>
+      <introduction>
+        <p>This appendix contains answers to all non-<webwork /> exercises in the text. For <webwork /> exercises, please use the <init>HTML</init> version of the text for access to answers and solutions.</p>
+      </introduction>
+  </solutions>
+
+-->
+  
+
+  <index>
+    <title>Index</title>
+    <index-list />
+  </index>
+
+  <colophon>
+    <p>
+      This book was authored in <pretext />.
+    </p>
+  </colophon>
+</backmatter>
+

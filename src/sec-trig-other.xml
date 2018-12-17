@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-trig-other">
+  <title>Other Trigonometric Functions and Identities</title>
+  <objectives>
+  	<ul>
+  		<li>
+  			<p>
+  				What are the other <m>3</m> trigonometric functions and how are they related to the cosine, sine, and tangent functions?
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				How do the graphs of the secant, cosecant, and cotangent functions behave and how do these graphs compare to the cosine, sine, and tangent functions' graphs?
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				What is a trigonometric identity and why are identities important?
+  			</p>
+  		</li>
+  	</ul>
+  </objectives>
+
+  <introduction>
+  	<p>
+  		The sine and cosine functions, originally defined in the context of a point traversing the unit circle, are also central in right triangle trigonometry.  They enable us to find missing information in right triangles in a straightforward way when we know one of the non-right angles and one of the three sides of the triangle, or two of the sides where one is the hypotenuse.  In addition, we define the tangent function in terms of the sine and cosine functions, and the tangent function offers additional options for finding missing information in right triangles.  We've also seeen how the inverses of the restricted sine, cosine, and tangent functions enable us to find missing angles in a wide variety of settings involving right triangles.
+  	</p>
+
+  	<p>
+  		One of the powerful aspects of trigonometry is that the subject offers us the opportunity to view the same idea from many different perspectives. As one example, we have observed that the functions <m>f(t) = \cos(t)</m> and <m>g(t) = \sin(t+\frac{\pi}{2})</m> are actually the same function; as another, for <m>t</m> values in the domain <m>(-\frac{\pi}{2}, \frac{\pi}{2})</m>, we know that writing <m>y = \tan(t)</m> is the same as writing <m>t = \arctan(y)</m>.  Which perspective we choose to take often depends on context and given information.
+  	</p>
+
+  	<p>
+  		While almost every question involving trigonometry can be answered using the sine, cosine, and tangent functions, sometimes it is convenient to use three related functions that are connected to the other three possible arrangements of ratios of sides in right triangles.
+  	</p>
+
+  	<definition xml:id="def-trig-other-3">
+  		<idx><h>secant function</h></idx> <idx><h>cosecant function</h></idx> <idx><h>cotangent function</h></idx>
+  		<title>The secant, cosecant, and cotangent functions</title>
+  		<statement>
+  			<p>
+  				<ul>
+  					<li>
+  						<p>
+  							For any real number <m>t</m> for which <m>\cos(t) \ne 0</m>, we define the secant of <m>t</m>, denoted <m>\sec(t)</m>, by the rule
+			  				<me>
+			  					\sec(t) = \frac{1}{\cos(t)}
+			  				</me>.  
+  						</p>
+  					</li>
+  					<li>
+  						<p>
+  							For any real number <m>t</m> for which <m>\sin(t) \ne 0</m>, we define the cosecant of <m>t</m>, denoted <m>\csc(t)</m>, by the rule
+			  				<me>
+			  					\csc(t) = \frac{1}{\sin(t)}
+			  				</me>. 
+  						</p>
+  					</li>
+  					<li>
+  						<p>
+  							For any real number <m>t</m> for which <m>\sin(t) \ne 0</m>, we define the cotangent of <m>t</m>, denoted <m>\cot(t)</m>, by the rule
+			  				<me>
+			  					\cot(t) = \frac{\cos(t)}{\sin(t)}
+			  				</me>.
+  						</p>
+  					</li>
+  				</ul>
+  			</p>
+  		</statement>
+  	</definition>
+
+  	<p>
+  		Note particularly that like the tangent function, the secant, cosecant, and cotangent are also defined completely in terms of the sine and cosine functions.  In the context of a right triangle with an angle <m>\theta</m>, we know how to think of <m>\sin(\theta)</m>,  <m>\cos(\theta)</m>, and <m>\tan(\theta)</m> as ratios of sides of the triangle.  We can now do likewise with the other trigonometric functions:
+  	</p>
+
+  	<sidebyside>
+  		<p>
+  			<ul>
+  				<li>
+  					<p>
+  						<me>
+  							\sec(\theta) = \frac{1}{\cos(\theta)} = \frac{1}{\frac{\text{adj}}{\text{hyp}}} = \frac{\text{hyp}}{\text{adj}}
+  						</me>
+  					</p>
+  				</li>
+  				<li>
+  					<p>
+  						<me>
+  							\csc(\theta) = \frac{1}{\sin(\theta)} = \frac{1}{\frac{\text{opp}}{\text{hyp}}} = \frac{\text{hyp}}{\text{opp}}
+  						</me>
+  					</p>
+  				</li>
+  				<li>
+  					<p>
+  						<me>
+  							\cot(\theta) = \frac{\cos(\theta)}{\sin(\theta)} = \frac{\frac{\text{adj}}{\text{hyp}}}{\frac{\text{opp}}{\text{hyp}}} = \frac{\text{adj}}{\text{opp}}
+  						</me>
+  					</p>
+  				</li>
+  			</ul>
+  		</p>
+  		<figure xml:id="F-other-trig-SOH-CAH-TOA">
+  			<caption>A right triangle with angle <m>\theta</m>.</caption>
+  			<image source="images/right-triangle-SOH-CAH-TOA" />
+  		</figure>
+  	</sidebyside>
+
+  	<p>
+  		With these three additional trigonometric functions, we now have expressions that address all six possible combinations of two sides of a right triangle in a ratio.
+  	</p>
+
+	<xi:include href="./previews/PA-trig-other.xml" />
+
+  </introduction>
+
+  <subsection xml:id="subsec-trig-other-triangles">
+  	<title>Ratios in right triangles</title>
+  	<p>
+  		Because the sine and cosine functions are used to define each of the other four trigonometric functions, it follows that we can translate information known about the other functions back to information about the sine and cosine functions.  For example, if we know that in a certain triangle <m>\csc(\alpha) = \frac{5}{3}</m>, it follows that <m>\sin(\alpha) = \frac{3}{5}</m>.  From there we can reason in the usual way to determine missing information in the given triangle.
+  	</p>
+
+  	<p>
+  		It's also often possible to view given information in the context of the unit circle.  With the earlier given information that <m>\csc(\alpha) = \frac{5}{3}</m>, it's natural to view <m>\alpha</m> as being the angle in a right triangle that lies opposite a leg of length <m>3</m> with the hypotenuse being <m>5</m>, since <m>\csc(\alpha) = \frac{\text{hyp}}{\text{opp}}</m>.  The Pythagorean Theorem then tells us the leg adjacent to <m>\alpha</m> has length <m>4</m>, as seen in <m>\triangle OPQ</m> in <xref ref="F-other-3-4-5">Figure</xref>.
+  	</p>
+
+  	<figure xml:id="F-other-3-4-5">
+  		<caption>A <m>3</m>-<m>4</m>-<m>5</m> right triangle.</caption>
+  		<image source="images/other-right-triangle-3-4-5" width="50%" />
+  	</figure>
+
+  	<p>
+  		But we could also view <m>\sin(\alpha) = \frac{3}{5}</m> as <m>\sin(\alpha) = \frac{\frac{3}{5}}{1}</m>, and thus think of the right triangle has having hypotenuse <m>1</m> and vertical leg <m>\frac{3}{5}</m>.  This triangle is similar to the originally considered <m>3</m>-<m>4</m>-<m>5</m> right triangle, but can be viewed as lying within the unit circle.  The perspective of the unit circle is particularly valuable when ratios such as <m>\frac{\sqrt{3}}{2}</m>, <m>\frac{\sqrt{2}}{2}</m>, and <m>\frac{1}{2}</m> arise in right triangles.  	
+  	</p>
+
+	<xi:include href="./activities/act-trig-other-special.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-trig-other-properties">
+  	<title>Properties of the secant, cosecant, and cotangent functions</title>
+  	<p>
+  		Like the tangent function, the secant, cosecant, and cotangent functions are defined in terms of the sine and cosine functions, so we can determine the exact values of these functions at each of the special points on the unit circle.  In addition, we can use our understanding of the unit circle and the properties of the sine and cosine functions to determine key properties of these other trigonometric functions.  We begin by investigating the secant function.
+  	</p>
+
+  	<p>
+  		Using the fact that <m>\sec(t) = \frac{1}{\cos(t)}</m>, we note that anywhere <m>\cos(t) = 0</m>, the value of <m>\sec(t)</m> is undefined.  We record such instances in the following table by writing <q><m>u</m></q>.  At all other points, the value of the secant function is simply the reciprocal of the cosine function's value.  Since <m>|\cos(t)| \le 1</m> for all <m>t</m>, it follows that <m>|\sec(t)| \ge 1</m> for all <m>t</m> (for which the secant's value is defined).
+	</p>
+
+    				<table xml:id="T-secant-values">
+						<caption>Values of the cosine and secant functions at special points on the unit circle.</caption>
+						<tabular>
+							<row bottom="minor" halign="center">
+								<cell><m>t</m></cell>
+								<cell><m>0</m></cell>
+								<cell><m>\frac{\pi}{6}</m></cell>
+								<cell><m>\frac{\pi}{4}</m></cell>
+								<cell><m>\frac{\pi}{3}</m></cell>
+								<cell><m>\frac{\pi}{2}</m></cell>
+								<cell><m>\frac{2\pi}{3}</m></cell>
+								<cell><m>\frac{3\pi}{4}</m></cell>
+								<cell><m>\frac{5\pi}{6}</m></cell>
+								<cell><m>\pi</m></cell>		
+								<cell><m>\frac{7\pi}{6}</m></cell>
+								<cell><m>\frac{5\pi}{4}</m></cell>
+								<cell><m>\frac{4\pi}{3}</m></cell>
+								<cell><m>\frac{3\pi}{2}</m></cell>
+								<cell><m>\frac{5\pi}{3}</m></cell>
+								<cell><m>\frac{7\pi}{4}</m></cell>
+								<cell><m>\frac{11\pi}{6}</m></cell>
+								<cell><m>2\pi</m></cell>						
+							</row>
+							<row bottom="minor" halign="center">
+								<cell><m>\cos(t)</m></cell>
+								<cell><m>1</m></cell>
+								<cell><m>\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>\frac{1}{2}</m></cell>
+								<cell><m>0</m></cell>
+								<cell><m>-\frac{1}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>-1</m></cell>
+								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>-\frac{1}{2}</m></cell>
+								<cell><m>0</m></cell>
+								<cell><m>\frac{1}{2}</m></cell>
+								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>0</m></cell>
+							</row>
+							<row halign="center">
+								<cell><m>\sec(t)</m></cell>
+								<cell><m>1</m></cell>
+								<cell><m>\frac{2}{\sqrt{3}}</m></cell>
+								<cell><m>\sqrt{2}</m></cell>
+								<cell><m>2</m></cell>
+								<cell><m>u</m></cell>
+								<cell><m>-2</m></cell>
+								<cell><m>-\sqrt{2}</m></cell>
+								<cell><m>-\frac{2}{\sqrt{3}}</m></cell>
+								<cell><m>-1</m></cell>
+								<cell><m>-\frac{2}{\sqrt{3}}</m></cell>
+								<cell><m>-\sqrt{2}</m></cell>
+								<cell><m>-2</m></cell>
+								<cell><m>u</m></cell>
+								<cell><m>2</m></cell>
+								<cell><m>\sqrt{2}</m></cell>
+								<cell><m>\frac{2}{\sqrt{3}}</m></cell>
+								<cell><m>1</m></cell>
+							</row>							
+						</tabular>
+					</table>
+
+		<p>
+			<xref ref="T-secant-values">Table</xref> helps us identify trends in the secant function.  The sign of <m>\sec(t)</m> matches the sign of <m>\cos(t)</m> and thus is positive in Quadrant I, negative in Quadrant II, negative in Quadrant III, and positive in Quadrant IV.    
+		</p>
+
+		<p>
+			In addition, we observe that as <m>t</m>-values in the first quadrant get closer to <m>\frac{\pi}{2}</m>, <m>\cos(t)</m> gets closer to <m>0</m> (while being always positive).  Since the numerator of the secant function is always <m>1</m>, having its denominator approach <m>0</m> means that <m>\sec(t)</m> increases without bound as <m>t</m> approaches <m>\frac{\pi}{2}</m> from the left side.  Once <m>t</m> is slightly greater than <m>\frac{\pi}{2}</m> in Quadrant II, the value of <m>\cos(t)</m> is negative (and close to zero).  This makes the value of <m>\sec(t)</m> decrease without bound (negative and getting further away from <m>0</m>) for <m>t</m> approaching <m>\frac{\pi}{2}</m> from the right side, and results in <m>p(t) = \sec(t)</m> having a vertical asymptote at <m>t = \frac{\pi}{2}</m>.  The periodicity and sign behavior of <m>\cos(t)</m> mean this asymptotic behavior of the secant function will repeat.
+		</p>
+
+		<p>	
+			Plotting the data in the table along with the expected asymptotes and connecting the points intuitively, we see the graph of the secant function in <xref ref="F-secant-plot">Figure</xref>.
+		</p>
+
+		<figure xml:id="F-secant-plot">
+			<caption>A plot of the secant function with special points that come from the unit circle, plus the cosine function (dotted, in light blue).</caption>
+			<image source="images/other-sec-definition-graph" width="80%" />
+		</figure>
+
+		<p>
+			We see from both the table and the graph that the secant function has period <m>P = 2\pi</m>.  We summarize our recent work as follows.
+		</p>
+
+		<assemblage xml:id="asm-secant-properties">
+			<title>Properties of the secant function</title>
+			<p>
+				For the function <m>p(t) = \sec(t)</m>, 
+				<ul>
+					<li>
+						<p>
+							its domain is the set of all real numbers except <m>t = \frac{\pi}{2} \pm k\pi</m> where <m>k</m> is any whole number;
+						</p>
+					</li>
+					<li>
+						<p>
+							its range is the set of all real numbers <m>y</m> such that <m>|y| \ge 1</m>;
+						</p>
+					</li>
+					<li>
+						<p>
+							its period is <m>P = 2\pi</m>.
+						</p>
+					</li>
+				</ul>
+			</p>
+		</assemblage>
+
+		<xi:include href="./activities/act-trig-other-csc.xml" />
+
+		<xi:include href="./activities/act-trig-other-cot.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-trig-other-identities">
+  	<title>A few important identities</title>
+  	<p>
+  		An <em>identity</em> is an equation that is true for all possible values of <m>x</m> for which the involved quantities are defined.  An example of a non-trigonometric identity is
+	    <me>
+	      (x+1)^2 = x^2 + 2x + 1
+	    </me>,
+    	since this equation is true for every value of <m>x</m>,
+    	and the left and right sides of the equation are simply two different-looking but entirely equivalent expressions.
+  	</p>
+
+	  <p>
+	    Trigonometric identities are simply identities that involve trigonometric functions.  While there are a large number of such identities one can study, we choose to focus on those that turn out to be useful in the study of calculus.  The most important trigonometric identity is the fundamental trigonometric identity,
+	    which is a trigonometric restatement of the Pythagorean Theorem.
+	  </p>
+
+	<assemblage xml:id="asm-other-trig-fundamental-identity">
+		<idx><h>fundamental trigonometric identity</h></idx>
+		<title>The fundamental trigonometric identity</title>
+		<p>
+			For any real angle <m>\theta</m>,
+			<men xml:id="eq-fund-trig-identity">
+				\cos^2(\theta) + \sin^2(\theta) = 1
+			</men>.
+		</p>
+		
+	</assemblage>
+
+	<p>
+		Identities are important because they enable us to view the same idea from multiple perspectives.  For example, the fundamental trigonometric identity allows us to think of <m>\cos^2(\theta) + \sin^2(\theta)</m> as simply <m>1</m>, or alternatively, to view <m>\cos^2(\theta)</m> as the same quantity as <m>1 - \sin^2(\theta)</m>.
+	</p>
+
+	  <p>
+	    There are two related Pythagorean identities that involve the tangent, secant,
+	    cotangent, and cosecant functions, which we can derive from the fundamental trigonometric identity by dividing both sides by either <m>\cos^2(\theta)</m> or <m>\sin^2(\theta)</m>.  If we divide both sides of <xref ref="eq-fund-trig-identity">Equation</xref> by <m>\cos^2(\theta)</m> (and assume that <m>\cos(\theta) \ne 0</m>, we see that
+	    <me>
+	    	1 + \frac{\sin^2(\theta)}{\cos^2(\theta)} = \frac{1}{\cos^2(\theta)} 
+	    </me>, or equivalently,
+	    <me>
+	    	1 + \tan^2(\theta) = \sec^2(\theta) 
+	    </me>.
+	    A similar argument dividing by <m>\sin^2(\theta)</m> (while assuming <m>\sin(\theta) \ne 0</m>) shows that
+	    <me>
+	    	\cot^2(\theta) + 1 = \csc^2(\theta) 
+	    </me>.  These identities prove useful in calculus when we develop the formulas for the derivatives of the tangent and cotangent functions.
+	  </p>
+
+	  <p>
+	    In calculus, it is also beneficial to know a couple of other standard identities for sums of angles or double angles. <idx><h>sum of two angles identity</h></idx> <idx><h>double angle identity</h></idx>  We simply state these identities without justification.  For more information about them, see a text such as <url href="https://scholarworks.gvsu.edu/books/12/">Trigonometry, by Sundstrom and Schlicker</url>.
+	  </p>
+
+	  <p>
+	  	<ul>
+	  		<li>
+	  			<p>
+	  				For all real numbers <m>\alpha</m> and <m>\beta</m>, <m>\cos(\alpha + \beta) = \cos(\alpha) \cos(\beta) - \sin(\alpha) \sin(\beta)</m>.
+	  			</p>
+	  		</li>
+	  		<li>
+	  			<p>
+	  				For all real numbers <m>\alpha</m> and <m>\beta</m>, <m>\sin(\alpha + \beta) = \sin(\alpha) \cos(\beta) + \cos(\alpha) \sin(\beta)</m>.
+	  			</p>
+	  		</li>
+	  		<li>
+	  			<p>
+	  				For any real number <m>\theta</m>, <m>\cos(2\theta) = \cos^2(\theta) - \sin^2(\theta)</m>.
+	  			</p>
+	  		</li>
+			<li>
+	  			<p>
+	  				For any real number <m>\theta</m>, <m>\sin(2\theta) = 2\sin(\theta)\cos(\theta)</m>.
+	  			</p>
+	  		</li>
+	  	</ul>
+	  </p>
+
+	<xi:include href="./activities/act-trig-other-aroc-sine.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-trig-other-summary">
+  	<title>Summary</title>
+  	<ul>
+  		<li>
+  			<p>
+  				The secant, cosecant, and cotangent functions are respectively defined as the reciprocals of the cosine, sine, and tangent functions.  That is, 
+  				<me>
+  					\sec(t) = \frac{1}{\cos(t)}, \csc(t) = \frac{1}{\sin(t)}, \text{ and } \cot(t) = \frac{1}{\tan(t)}
+  				</me>. 
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				The graph of the cotangent function is similar to the graph of the tangent function, except that it is decreasing on every interval on which it is defined at every point in the interval and has vertical asymptotes wherever <m>\tan(t) = 0</m> and is zero wherever <m>\tan(t)</m> has a vertical asymptote.
+  			</p>
+
+  			<p>
+  				The graphs of the secant and cosecant functions are different in that their range is the set of all real numbers <m>y</m> such that <m>y \ge 1</m> and they have vertical asymptotes wherever the cosine and sine function, respectively, are zero.
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				A trigonometric identity is an equation involving trigonometric functions that is true for every value of the variable for which the trigonometric functions are defined.  For instance, <m>\tan^2(t) + 1 = \sec^2(t)</m> for every real number <m>t</m> except <m>t = \frac{\pi}{2} \pm k\pi</m>.  Identities offer us alternate perspectives on the same function.  For instance, the function <m>f(t) = \sec^2(t) - \tan^2(t)</m> is the same (at all points where <m>f</m> is defined) as the function whose value is always <m>1</m>.
+  			</p>
+  		</li>
+  	</ul>
+  </subsection>
+
+	<xi:include href="./exercises/ez-trig-other.xml" />
+
+  <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
+  <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
+</section>
+

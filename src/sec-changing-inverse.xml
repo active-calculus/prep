@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-changing-inverse">
+  <title>Inverse Functions</title>
+
+  <objectives>
+  	<ul>
+  		<li>
+  			<p>
+  				What does it mean to say that a given function has an inverse function?
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				How can we determine whether or not a given function has a corresponding inverse function?
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				When a function has an inverse function, what important properties does the inverse function have in comparison to the original function?
+  			</p>
+  		</li>
+  	</ul>
+  </objectives>
+
+  <introduction>
+	<p>
+		Because every function is a process that converts a collection of inputs to a corresponding collection of outputs, a natural question is: for a particular function, can we change perspective and think of the outputs as a function of input?
+		If we phrase this question algebraically, it is analogous to asking: given an equation that defines <m>y</m> is a function of <m>x</m>, is it possible to find a corresponding equation where <m>x</m> is a function of <m>y</m>?
+	</p>
+
+	<xi:include href="./previews/PA-changing-inverse-F-C.xml" />
+
+  </introduction>
+
+  <subsection xml:id="changing-inverse-definition">
+  	<title>When a function has an inverse function</title>
+  	<p>
+  		In <xref ref="PA-changing-inverse-F-C">Preview Activity</xref>, we found that for the function <m>F = g(C) = \frac{9}{5}C + 32</m>, it's also possible to solve for <m>C</m> in terms of <m>F</m> and write <m>C = h(F) = \frac{5}{9}(C-32)</m>.  The first function, <m>g</m>, converts Celcius temperatures to Fahrenheit ones; the second function, <m>h</m>, converts Fahrenheit temperatures to Celcius ones.  Thus, the process <m>h</m> reverses the process of <m>g</m>, and likewise the process of <m>g</m> reverses the process of <m>h</m>.  This is also why it makes sense that <m>h(g(C)) = C</m> and <m>g(h(F)) = F</m>.  If, for instance, we take a Celcius temperature <m>C</m>, convert it to Fahrenheit, and convert the result back to Celcius, we arrive back at the Celcius temperature we started with:  <m>h(g(C)) = C</m>.
+  	</p>
+
+  	<p>
+  		Similar work is sometimes possible with other functions.  When we can find a new function that reverses the process of the original function, we say that the original function <q>has an inverse function</q> and make the following formal definition.
+  	</p>
+
+  	<definition xml:id="D-inverse-inverse-function">
+  		<idx><h>inverse function</h><h>definition</h></idx>
+  		<statement>
+  			<p>
+  				Let <m>f : A \to B</m> be a function.  If there exists a function <m>g : B \to A</m> such that 
+  				<me>
+  					g(f(a)) = a \text{ and } f(g(b)) = b
+  				</me>
+  				for each <m>a</m> in <m>A</m> and each <m>b</m> in <m>B</m>, then we say that <m>f</m> has an <term>inverse function</term> and that the function <m>g</m> is <term>the inverse of <m>f</m></term>.
+  			</p>
+  		</statement>
+  	</definition>
+
+	<p>
+		Note particularly what the equation <m>g(f(a)) = a</m> says:  for any input <m>a</m> in the domain of <m>f</m>, the function <m>g</m> will reverse the process of <m>f</m> (which converts <m>a</m> to <m>f(a)</m>) because <m>g</m> converts <m>f(a)</m> back to <m>a</m>.
+	</p>
+
+	<p>
+		When a given function <m>f</m> has a corresponding inverse function <m>g</m>, we usually rename <m>g</m> as <m>f^{-1}</m>, which we read aloud as <q><m>f</m>-inverse</q>. <idx><h>inverse function</h><h>notation</h></idx>  The equation <m>g(f(a))=a</m> now reads <m>f^{-1}(f(a)) = a</m>, which we interpret as saying <q><m>f</m>-inverse converts <m>f(a)</m> back to <m>a</m></q>.  We similarly write that <m>f(f^{-1}(b)) = b</m>.
+	</p>
+
+	<xi:include href="./activities/act-changing-inverse-Dolbear.xml" />
+
+	<p>
+		When a given function has an inverse function, it allows us to express the same relationship from two different points of view.  For instance, if <m>y = f(t) = 2t+1</m>, we can show<fn>Observe that <m>g(f(t)) = g(2t+1) = \frac{(2t+1)-1}{2} = \frac{2t}{2} = t</m>.  Similarly, <m>f(g(y)) = f\left(\frac{y-1}{2}\right) = 2\left(\frac{y-1}{2} \right) + 1 = y-1 + 1 = y</m>.</fn> that the function <m>t = g(y) = \frac{y-1}{2}</m> reverses the effect of <m>f</m> (and vice versa), and thus <m>g = f^{-1}</m>.  We observe that 
+		<me>
+			y = f(t) = 2t + 1 \text{ and } t = f^{-1}(y) = \frac{y-1}{2}
+		</me>
+		are equivalent forms of the same equation, and thus they say the same thing from two different perspectives.  The first version of the equation is solved for <m>y</m> in terms of <m>t</m>, while the second equation is solved for <m>t</m> in terms of <m>y</m>.  This important principle holds in general whenever a function has an inverse function.
+	</p>	
+
+	<assemblage xml:id="asm-inverse-two-perspectives">
+		<title>Two perspectives from a function and its inverse function</title>
+		<idx><h>inverse function</h><h>two perspectives</h></idx>
+		<p>
+			If <m>y = f(t)</m> has an inverse function, then the equations 
+			<me>
+				y = f(t)  \text{ and } t = f^{-1}(y) 
+			</me>
+			say the exact same thing but from two different perspectives.
+		</p>
+	</assemblage>
+	
+  </subsection>
+
+  <subsection xml:id="changing-inverse-does-it">
+  	<title>Determining whether a function has an inverse function</title>
+  	<p>
+  		It's important to note in <xref ref="D-inverse-inverse-function">Definition</xref> that we say <q><em>If</em> there exists <m>\ldots</m>.</q>  That is, we don't guarantee that an inverse function exists for a given function.  Thus, we might ask: how can we determine whether or not a given function has a corresponding inverse function?  As with many questions about functions, there are often three different possible ways to explore such a question:  through a table, through a graph, or through an algebraic formula.
+  	</p>
+
+	<example xml:id="ex-inverse-does-it-table">
+		<statement>
+
+			<p>
+				Do the functions <m>f</m> and <m>g</m> defined by <xref ref="T-inverse-does-it-1">Table</xref> and <xref ref="T-inverse-does-it-2">Table</xref> have corresponding inverse functions?  Why or why not?
+			</p>
+
+			<sidebyside>
+				<table xml:id="T-inverse-does-it-1">
+					<caption>The table that defines the function <m>f</m>.</caption>
+					<tabular>
+						<row bottom="minor">
+							<cell><m>x</m></cell>
+							<cell><m>0</m></cell>
+							<cell><m>1</m></cell>
+							<cell><m>2</m></cell>
+							<cell><m>3</m></cell>
+							<cell><m>4</m></cell>
+						</row>
+						<row>
+							<cell><m>f(x)</m></cell>
+							<cell><m>6</m></cell>
+							<cell><m>4</m></cell>
+							<cell><m>3</m></cell>
+							<cell><m>4</m></cell>
+							<cell><m>6</m></cell>
+						</row>
+					</tabular>
+				</table>
+				<table xml:id="T-inverse-does-it-2">
+					<caption>The table that defines the function <m>g</m>.</caption>
+					<tabular>
+						<row bottom="minor">
+							<cell><m>x</m></cell>
+							<cell><m>0</m></cell>
+							<cell><m>1</m></cell>
+							<cell><m>2</m></cell>
+							<cell><m>3</m></cell>
+							<cell><m>4</m></cell>
+						</row>
+						<row>
+							<cell><m>g(x)</m></cell>
+							<cell><m>3</m></cell>
+							<cell><m>1</m></cell>
+							<cell><m>4</m></cell>
+							<cell><m>2</m></cell>
+							<cell><m>0</m></cell>
+						</row>
+					</tabular>
+				</table>
+			</sidebyside>
+			
+		</statement>
+		<solution>
+			<p>
+				For any function, the question of whether or not it has an inverse comes down to whether or not the process of the function can be reliably reversed.  For functions given in table form such as <m>f</m> and <m>g</m>, we essentially ask if it's possible to swich the input and output rows and have the new resulting table also represent a function.
+			</p>
+
+			<p>
+				The function <m>f</m> does not have an inverse function because there are two different inputs that lead to the same output:  <m>f(0) = 6</m> and <m>f(4) = 6</m>.  If we attempt to reverse this process, we have a situation where the input <m>6</m> would correspond to <em>two</em> potential outputs, <m>4</m> and <m>6</m>.
+			</p>
+
+			<p>
+				However, the function <m>g</m> does have an inverse function because when we reverse the rows in <xref ref="T-inverse-does-it-2">Table</xref>, each input (in order, <m>3</m>, <m>1</m>, <m>4</m>, <m>2</m>, <m>0</m>) indeed corresponds to one and only one output (in order, <m>0</m>, <m>1</m>, <m>2</m>, <m>3</m>, <m>4</m>).  We can thus make observations such as <m>g^{-1}(4) = 2</m>, which is the same as saying that <m>g(2) = 4</m>, just from a different perspective.
+			</p>
+		</solution>
+	</example>
+
+	<p>
+		In <xref ref="ex-inverse-does-it-table">Example</xref>, we see that if we can identify one pair of distinct inputs that lead to the same output (such as <m>f(0) = f(4) = 6</m> in <xref ref="T-inverse-does-it-1">Table</xref>), then the process of the function cannot be reversed and the function does not have an inverse.
+	</p>
+
+	<example xml:id="ex-inverse-does-it-graph">
+		<statement>
+
+			<p>
+				Do the functions <m>p</m> and <m>q</m> defined by <xref ref="F-inverse-does-it-1">Figure</xref> and <xref ref="F-inverse-does-it-2">Figure</xref> have corresponding inverse functions?  Why or why not?
+			</p>
+
+			<sidebyside>
+				<figure xml:id="F-inverse-does-it-1">
+					<caption>
+						The graph that defines function <m>p</m>.
+					</caption>
+					<image source="images/inverse-does-it-1" />
+				</figure>
+				<figure xml:id="F-inverse-does-it-2">
+					<caption>
+						The graph that defines function <m>p</m>.
+					</caption>
+					<image source="images/inverse-does-it-2" />
+				</figure>
+			</sidebyside>
+
+		</statement>
+		<solution>
+			<p>
+				Recall that when a point such as <m>(a,c)</m> lies on the graph of a function <m>p</m>, this means that the input <m>x = a</m>, which represents to a value on the horizontal axis, corresponds with the output <m>y = c</m> that is represented by a value on the vertical axis.  In this situation, we write <m>p(a) = c</m>.  We note explicitly that <m>p</m> is a function because its graph passes the <xref ref="asm-functions-V-L-test">Vertical Line Test</xref>: any vertical line intersects the graph of <m>p</m> exactly, and thus each input from the domain corresponds to one and only one output.
+			</p>
+
+			<p>
+				If we attempt to change perspective and use the graph of <m>p</m> to view <m>x</m> as a function of <m>y</m>, we see that this fails because the output value <m>c</m> is associated with two different inputs, <m>a</m> and <m>b</m>.  Said differently, because the horizontal line <m>y = c</m> intersects the graph of <m>p</m> at both <m>(a,c)</m> and <m>(b,c)</m> (as shown in <xref ref="F-inverse-does-it-1">Figure</xref>), we cannot view <m>y</m> as the input to a function process that produces the corresonding <m>x</m>-value.  Therefore, <m>p</m> does not have an inverse function.
+			</p>
+
+			<p>
+				On the other hand, provided that the behavior seen in the figure continues, the function <m>q</m> does have an inverse because we can view <m>x</m> as a function of <m>y</m> via the graph given in <xref ref="F-inverse-does-it-2">Figure</xref>.  This is because for any choice of <m>y</m>, there corresponds one and only one <m>x</m> that results from <m>y</m>.  We can think of this visually by starting at a value such as <m>y = c</m> on the <m>y</m>-axis, moving horizontally to where the line intersects the graph of <m>p</m>, and then moving down to the corresonding location (here <m>x = a</m>) on the horizontal axis.  From the behavior of the graph of <m>q</m> (a straight line that is always increasing), we see that this correspondence will hold for any choice of <m>y</m>, and thus indeed <m>x</m> is a function of <m>y</m>.  From this, we can say that <m>q</m> indeed has an inverse function.  We thus can write that <m>q^{-1}(c) = a</m>, which is a different way to express the equivalent fact that <m>q(a) = c</m>.
+			</p>
+		</solution>
+	</example>
+
+	<p>
+		The graphical observations that we made for the function <m>q</m> in <xref ref="ex-inverse-does-it-graph">Example</xref> provide a general test for whether or not a function given by a graph has a corresponding inverse function.
+	</p>
+
+	<assemblage xml:id="asm-inverse-H-L-test">
+		<title>Horizontal Line Test</title>
+		<idx><h>inverse function</h><h>horizontal line test</h></idx>
+		<p>
+			A function whose graph lies in the <m>x</m>-<m>y</m> plane has a corresponding inverse function if and only if every horizontal line intersects the graph at most once.  When the graph passes this test, the horizontal coordinate of each point on the graph can be viewed as a function of the vertical coordinate of the point.
+		</p>
+	</assemblage>
+
+	<example xml:id="ex-inverse-does-it-formula">
+		<statement>
+			<p>
+				Do the functions <m>r</m> and <m>s</m> defined by
+				<me>
+					y = r(t) = 3 - \frac{1}{5}(t-1)^3 \text{ and } y = s(t) = 3 - \frac{1}{5}(t-1)^2
+				</me>
+				have corresponding inverse functions?  If not, use algebraic reasoning to explain why; if so, demonstrate by using algebra to find a formula for the inverse function.
+			</p>
+		</statement>
+		<solution>
+			<p>
+				For any function of the form <m>y = f(t)</m>, one way to determine if we can view the original input variable <m>t</m> as a function of the original output variable <m>y</m> is to attempt to solve the equation <m>y = f(t)</m> for <m>t</m> in terms of <m>y</m>.
+			</p>
+
+			<p>
+				Taking <m>y = 3 - \frac{1}{5}(t-1)^3</m>, we try to solve for <m>t</m> by first subtracting <m>3</m> from both sides to get 
+				<me>
+					y - 3 = -\frac{1}{5}(t-1)^3
+				</me>.
+				Next, multiplying both sides by <m>-5</m>, it follows that
+				<me>
+					(t-1)^3 = -5(y-3)
+				</me>.
+				Because the cube root function has the property<fn>Here we are using a nontrival fact about cube roots:  that the cube root function is the inverse function for the cubing function, and each function has both a domain and range of all real numbers.</fn> that <m>\sqrt[3]{z^3} = z</m> for every real number <m>z</m>, we can take the cube root of both sides of the preceding equation to get
+				<me>
+					t - 1 = \sqrt[3]{-5(y-3)}
+				</me>.
+				Finally, adding <m>1</m> to both sides, we have determined that
+				<me>
+					t = 1 + \sqrt[3]{-5(y-3)}
+				</me>.
+				Because we have been able to express <m>t</m> as a single function of <m>y</m> for every possible value of <m>y</m>, this shows that <m>r</m> indeed has an inverse and that <m>t = r^{-1}(y) = 1 + \sqrt[3]{-5(y-3)}</m>.
+			</p>
+
+			<p>
+				We attempt similar reasoning for the second function, <m>y = 3 - \frac{1}{5}(t-1)^2</m>.  To solve for <m>t</m>, we first subtract <m>3</m> from both sides, so that
+				<me>
+					y - 3 = -\frac{1}{5}(t-1)^2
+				</me>.
+				After multiplying both sides by <m>-5</m>, we have 
+				<me>
+					(t-1)^2 = -5(y-3)
+				</me>.
+				Next, it's necessary to take the square root of both sides in an effort to isolate <m>t</m>.  Here, however, we encounter a crucial issue.  Because the function <m>g(x) = x^2</m> takes any nonzero number and its opposite to the same output (e.g. <m>(-5)^2 = 25 = (5)^2</m>), this means that we have to account for <em>both</em> possible inputs that result in the same output.  Based on our last equation, this means that either
+				<me>
+					t-1 = \sqrt{-5(y-3)} \text{ or } t-1 = -\sqrt{-5(y-3)}
+				</me>.
+				As such, we find not a single equation that expresses <m>t</m> as a function of <m>y</m>, but rather two:
+				<me>
+					t = 1 + \sqrt{-5(y-3)} \text{ or } t = 1 -\sqrt{-5(y-3)}
+				</me>.
+				Since it appears that <m>t</m> can't be expressed as a single function of <m>y</m>, it seems to follow that <m>y = s(t) = 3 - \frac{1}{5}(t-1)^2</m> does not have an inverse function.
+			</p>
+		</solution>
+	</example>
+
+	<p>
+		The graphs of <m>y = r(t) = 3 - \frac{1}{5}(t-1)^3</m> and <m>y = s(t) = 3 - \frac{1}{5}(t-1)^2</m> provide a different perspective to confirm the results of <xref ref="ex-inverse-does-it-formula">Example</xref>.  Indeed, in <xref ref="F-inverse-cubic">Figure</xref>, we see that <m>r</m> appears to pass the horizontal line test because it is decreasing<fn>Calculus provides one way to fully justify that the graph of <m>s</m> is indeed always decreasing (except at the instant where <m>t = 1</m>).</fn>, and thus has an inverse function.  On the other hand, the graph of <m>s</m> fails the horizontal line test (picture the line <m>y = 2</m> in <xref ref="F-inverse-quadratic">Figure</xref>) and therefore <m>s</m> does not have an inverse function.
+	</p>
+
+	<sidebyside width="50%">
+		<figure xml:id="F-inverse-cubic">
+			<caption>A plot of <m>y = r(t) = 3 - \frac{1}{5}(t-1)^3</m>.</caption>
+			<image source="images/inverse-cubic" />
+		</figure>
+		<figure xml:id="F-inverse-quadratic">
+			<caption>A plot of <m>y = s(t) = 3 - \frac{1}{5}(t-1)^2</m>.</caption>
+			<image source="images/inverse-quadratic" />
+		</figure>
+	</sidebyside>
+
+	<xi:include href="./activities/act-changing-inverse-does-it.xml" />
+
+  </subsection>
+
+  <subsection xml:id="changing-inverse-properties">
+  	<title>Properties of an inverse function</title>
+  	<p>
+  		When a function has an inverse function, we have observed several important relationships that hold between the original function and the corresponding inverse function.
+  	</p>
+
+  	<assemblage xml:id="asm-inverse-properties">
+  		<title>Properties of an inverse function</title>
+  		<p>
+  			Let <m>f  : A \to B</m> be a function whose domain is <m>A</m> and whose range is <m>B</m> be such that <m>f</m> has an inverse function, <m>f^{-1}</m>.  Then:
+  		</p>
+
+  		<p>
+  			<ul>
+  				<li>
+  					<p>
+  						<m>f^{-1} : B \to A</m>, so <m>f^{-1} : B \to A</m>, and thus the domain of <m>f^{-1}</m> is <m>B</m> and its range is <m>A</m>.
+  					</p>
+  				</li>
+				<li>
+					<p>
+						The functions <m>f</m> and <m>f^{-1}</m> reverse one anothers' processes.  Symbolically, 
+						<m>f^{-1}(f(a)) = a</m> for every input <m>a</m> in the domain of <m>f</m>, and similarly, 
+						<m>f(f^{-1}(b)) = b</m> for every input <m>b</m> in the domain of <m>f^{-1}</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						If <m>y = f(t)</m>, then we can express the exact same relationship from a different perspective by writing <m>t = f^{-1}(y)</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						If a point <m>(x,y)</m> lies on the graph of <m>f</m>, then <m>y = f(x)</m>.  It follows that we can equivalently say that <m>x = f^{-1}(y)</m>.  In the setting where <m>A</m> and <m>B</m> are collections of real numbers, it thus follows that the point <m>(x,y)</m> lies on the graph of <m>x = f^{-1}(y)</m>.
+					</p>
+				</li>
+  			</ul>
+  		</p>
+  	</assemblage>
+
+  	<p>
+  		The last item above leads to a special relationship between the graphs of <m>f</m> and <m>f^{-1}</m> when viewed on the same coordinate axes.  In that setting, we need to view <m>x</m> as the input of each function (since it's the horizontal coordinate) and <m>y</m> as the output.  If we know a particular input-output relationship for <m>f</m>, say <m>f(-1) = \frac{1}{2}</m>, then it follows that <m>f^{-1} \left( \frac{1}{2} \right) = -1</m>.  We observe that the points <m>\left(-1, \frac{1}{2} \right)</m> and <m>\left(\frac{1}{2}, -1 \right)</m> are reflections of each other across the line <m>y = x</m>.  Because such a relationship holds for every point <m>(x,y)</m> on the graph of <m>f</m>, this means that the graphs of <m>f</m> and <m>f^{-1}</m> are reflections of one another across the line <m>y = x</m>, as seen in <xref ref="F-inverse-plot-reflection">Figure</xref>.
+  	</p>
+
+  	<figure xml:id="F-inverse-plot-reflection">
+  		<caption>The graph of a function <m>f</m> along with its inverse, <m>f^{-1}</m>.</caption>
+  		<image width="50%" source="images/inverse-plot-reflection" />
+  	</figure>
+
+  	<xi:include href="./activities/act-changing-inverse-rainfall.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-changing-inverse-summary">
+  	<title>Summary</title>
+  	<ul>
+  		<li>
+  			<p>
+  				A given function <m>f : A \to B</m> has an inverse function whenever there exists a related function <m>g : B \to A</m> that reverses the process of <m>f</m>.  Formally, this means that <m>g</m> must satisfy <m>g(f(a)) = a</m> for every <m>a</m> in the domain of <m>f</m>, and <m>f(g(b)) = b</m> for every <m>b</m> in the range of <m>f</m>.
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				We determine whether or not a given function <m>f</m> has a corresponding inverse function by determining if the process that defines <m>f</m> can be reversed so that we can also think of the outputs as a function of the inputs.  If we have a graph of the function <m>f</m>, we know <m>f</m> has an inverse function if the graph passes the horizontal line test.  If we have a formula for the function <m>f</m>, say <m>y = f(t)</m>, we know <m>f</m> has an inverse function if we can solve for <m>t</m> and write <m>t = f^{-1}(y)</m>.
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				A good summary of the properties of an inverse function is provided in <xref ref="asm-inverse-properties">this list.</xref>
+  			</p>
+  		</li>
+  	</ul>
+  </subsection>
+
+	<xi:include href="./exercises/ez-changing-inverse.xml" />
+
+  <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
+  <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
+</section>
+

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-exp-log">
+  <title>What a logarithm is</title>
+
+  <objectives>
+  	<ul>
+  		<li>
+  			<p>
+  				How is the base-<m>10</m> logarithm defined?
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				What is the <q>natural logarithm</q> and how is it different from the base-<m>10</m> logarithm?
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				How can we solve an equation that involves <m>e</m> to some unknown quantity?
+  			</p>
+  		</li>
+  	</ul>
+  </objectives>
+
+  <introduction>
+  	<p>
+  		In <xref ref="sec-changing-inverse">Section</xref>, we introduced the idea of an inverse function.  The fundamental idea is that <m>f</m> has an inverse function if and only if there exists another function <m>g</m> such that <m>f</m> and <m>g</m> <q>undo</q> one another's respective processes.  In other words, the process of the function <m>f</m> is reversible to generate a related function <m>g</m>.
+  	</p> 
+
+  	<p>	
+  		More formally, recall that a function <m>y = f(x)</m> (where <m>f : A \to B</m>) has an inverse function if and only if there exists another function <m>g : B \to A</m> such that <m>g(f(x)) = x</m> for every <m>x</m> in the domain of <m>f</m> and <m>f(g(y)) = y</m>.    We know that given a function <m>f</m>, we can use the <xref ref="asm-inverse-H-L-test">Horizontal Line Test</xref> to determine whether or not <m>f</m> has an inverse function.  Finally, whenever a function <m>f</m> has an inverse function, we call its inverse function <m>f^{-1}</m> and know that the two equations <m>y = f(x)</m> and <m>x = f^{-1}(y)</m> say the same thing from different perspectives.
+  	</p>
+
+  	<xi:include href="./previews/PA-exp-log.xml" />
+
+  </introduction>
+
+  <subsection xml:id="subsec-exp-log-base-10">
+  	<title>The base-<m>10</m> logarithm</title>
+	<p>
+		The powers-of-<m>10</m> function <m>P(t) = 10^t</m> is an exponential function with base <m>b \gt 1</m>.  As such, <m>P</m> is always increasing, and thus its graph passes the <xref ref="asm-inverse-H-L-test">Horizontal Line Test</xref>, so <m>P</m> has an inverse function.  We therefore know there exists some other function, <m>L</m>, such that writing <m>y = P(t)</m> is equivalent to writing <m>t = L(y)</m>.  For instance, we know that <m>P(2)=100</m> and <m>P(-3)=\frac{1}{1000}</m>, so it's equivalent to say that <m>L(100) = 2</m> and <m>L(\frac{1}{1000}) = -3</m>.  This new function <m>L</m> we call the <em>base <m>10</m> logarithm</em>, which is formally defined as follows.
+	</p>
+
+	<definition xml:id="D-log-base-10">
+		<idx><h>logarithm</h><h>base <m>10</m></h><h>definition</h></idx>
+		<statement>
+			<p>
+        Given a positive real number <m>y</m>, the <term>base-<m>10</m> logarithm of <m>y</m></term> is the power to which we raise <m>10</m> to get <m>y</m>.  We use the notation <q><m>\log_{10}(y)</m></q> to denote the base-<m>10</m> logarithm of <m>y</m>.   
+      </p>
+		</statement>
+	</definition>
+
+	<p>
+		The base-<m>10</m> logarithm is therefore the inverse of the powers of <m>10</m> function.  Whereas <m>P(t) = 10^t</m> takes an input whose value is an exponent and produces the result of taking <m>10</m> to that power, the base-<m>10</m> logarithm takes an input number we view as a power of <m>10</m> and produces the corresponding exponent such that <m>10</m> to that exponent is the input number.  
+	</p>
+		
+	<p>
+		In the notation of logarithms, we can now update our earlier observations with the functions <m>P</m> and <m>L</m> and see how exponential equations can be written in two equivalent ways.  For instance, 
+		<men xml:id="eq-exp-log-base-10-2">
+			10^2 = 100 \text{ and } \log_{10}(100) = 2
+		</men>
+		each say the same thing from two different perspectives.  The first says <m>100</m> is <m>10</m> to the power <m>2</m> , while the second says <m>2</m> is the power to which we raise <m>10</m> to get <m>100</m>.  Similarly, 
+		<men xml:id="eq-exp-log-base-10-minus-3">
+			10^{-3} = \frac{1}{1000} \text{ and } \log_{10} \left( \frac{1}{1000} \right) = -3
+		</men>.
+	</p>
+
+	<p>
+		If we rearrange the statements of the facts in <xref ref="eq-exp-log-base-10-2">Equation</xref>, we can see yet another important relationship between the powers of <m>10</m> and base-<m>10</m> logarithm function.  Noting that <m>\log_{10}(100) = 2</m> and <m>100 = 10^2</m> are equivalent statements, and substituting the former equation into the latter shows, we see that
+		<men xml:id="eq-exp-log-base-10-2-undo">
+			\log_{10}(10^2) = 2
+		</men>.
+		In words, <xref ref="eq-exp-log-base-10-2-undo">Equation</xref> says that <q>the power to which we raise <m>10</m> to get <m>10^2</m>, is <m>2</m></q>.  That is, the base-<m>10</m> logarithm function undoes the work of the powers of <m>10</m> function. 
+	</p>
+
+	<p>
+		In a similar way, if we rearrange the statements in <xref ref="eq-exp-log-base-10-minus-3">Equation</xref>, we can observe that by replacing <m>-3</m> with <m>\log_{10}(\frac{1}{1000})</m> we have
+		<men xml:id="eq-exp-log-base-10-minus-3-undo">
+			10^{\log_{10}(\frac{1}{1000})} = \frac{1}{1000}
+		</men>.
+		In words, <xref ref="eq-exp-log-base-10-minus-3-undo">Equation</xref> says that <q>when <m>10</m> is raised to the power to which we raise <m>10</m> in order to get <m>\frac{1}{1000}</m>, we get <m>\frac{1}{1000}</m></q>.
+	</p>
+
+	<p>
+		We summarize the key relationships between the powers-of-<m>10</m> function and its inverse, the base-<m>10</m> logarithm function, more generally as follows.
+	</p>
+
+	<assemblage xml:id="asm-exp-log-base-10">
+		<title><m>P(t) = 10^t</m> and <m>L(y) = \log_{10}(y)</m></title>
+		<p>
+			<ul>
+				<li>
+					<p>
+						The domain of <m>P</m> is the set of all real numbers and the range of <m>P</m> is the set of all positive real numbers.
+					</p>
+				</li>
+				<li>
+					<p>
+						The domain of <m>L</m> is the set of all positive real numbers and the range of <m>L</m> is the set of all real numbers.
+					</p>
+				</li>
+				<li>
+					<p>
+						For any real number <m>t</m>, <m>\log_{10}(10^t) = t</m>.  That is, <m>L(P(t)) = t</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						For any positive real number <m>y</m>, <m>10^{\log_{10}(y)} = y</m>.  That is, <m>P(L(y)) = y</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>10^0 = 1</m> and <m>\log_{10}(1) = 0</m>.
+					</p>
+				</li>
+			</ul>
+		</p>
+	</assemblage>
+
+	<p>
+		The base-<m>10</m> logarithm function is like the sine or cosine function in this way:  for certain special values, it's easy to know by heart the value of the logarithm function.  While for sine and cosine the familiar points come from specially placed points on the unit circle, for the base-<m>10</m> logarithm function, the familiar points come from powers of <m>10</m>.
+		In addition, like sine and cosine, for all other input values, (a) calculus ultimately determines the value of the base-<m>10</m> logarithm function at other values, and (b) we use computational technology in order to compute these values.  For most computational devices, the command <c>log(y)</c> produces the result of the base-<m>10</m> logarithm of <m>y</m>.
+	</p>
+
+	<p>
+		It's important to note that the logarithm function produces exact values.  For instance, if we want to solve the equation <m>10^t = 5</m>, then it follows that <m>t = \log_{10}(5)</m> is the exact solution to the equation.  Like <m>\sqrt{2}</m> or <m>\cos(1)</m>, <m>\log_{10}(5)</m> is a number that is an exact value.  A computational device can give us a decimal approximation, and we normally want to distinguish between the exact value and the approximate one.  For the three different numbers here, <m>\sqrt{2} \approx 1.414</m>, <m>\cos(1) \approx 0.540</m>, and <m>\log_{10}(5) \approx 0.699</m>.
+	</p>
+
+	<xi:include href="./activities/act-exp-log-base-10.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-exp-log-base-e">
+  	<title>The natural logarithm</title>
+  	<p>
+  		The base-<m>10</m> logarithm is a good starting point for understanding how logarithmic functions work because powers of <m>10</m> are easy to mentally compute.  We could similarly consider the powers of <m>2</m> or powers of <m>3</m> function and develop a corresponding logarithm of base <m>2</m> or <m>3</m>.  But rather than have a whole collection of different logarithm functions, in the same way that we now use the function <m>e^t</m> and appropriate scaling to represent any exponential function, we develop a single logarithm function that we can use to represent any other logarithmic function through scaling.  In correspondence with the natural exponential function, <m>e^t</m>, we now develop its inverse function, and call this inverse function the <term>natural logarithm</term>.
+  	</p>
+
+	<definition xml:id="D-log-natural">
+		<idx><h>logarithm</h><h>natural</h><h>definition</h></idx>
+		<statement>
+			<p>
+        Given a positive real number <m>y</m>, the <term>natural logarithm of <m>y</m></term> is the power to which we raise <m>e</m> to get <m>y</m>.  We use the notation <q><m>\ln(y)</m></q> to denote the natural logarithm of <m>y</m>.   
+      </p>
+		</statement>
+	</definition>
+
+  	<p>
+  		We can think of the natural logarithm, <m>\ln(y)</m>, as the <q>base-<m>e</m> logarithm</q>.  For instance,
+  		<me>
+  			\ln(e^2) = 2
+  		</me>
+  		and
+  		<me>
+  			e^{\ln(-1)} = -1
+  		</me>.
+  		The former equation is true because <q>the power to which we raise <m>e</m> to get <m>e^2</m> is <m>2</m></q>; the latter equation is true since <q>when we raise <m>e</m> to the power to which we raise <m>e</m> to get <m>-1</m>, we get <m>-1</m></q>.  The key relationships between the natural exponential and the natural logarithm function are investigated in <xref ref="act-exp-log-natural">Activity</xref>.
+  	</p>
+
+  	<xi:include href="./activities/act-exp-log-natural.xml" />
+
+  </subsection>
+
+  <subsection>
+  	<title><m>f(t) = b^t</m> revisited</title>
+  	<p>
+  		In <xref ref="sec-exp-growth">Section</xref> and <xref ref="sec-exp-modeling">Section</xref>, we saw that that function <m>f(t) = b^t</m> plays a key role in modeling exponential growth and decay, and that the value of <m>b</m> not only determines whether the function models growth (<m>b \gt 1</m>) or decay (<m>0 \lt b \lt 1</m>), but also how fast the growth or decay occurs.  Furthermore, once we introduced the natural base <m>e</m> in <xref ref="sec-exp-e">Section</xref>, we realized that we could write every exponential function of form <m>f(t) = b^t</m> as a horizontal scaling of the function <m>E(t) = e^t</m> by writing 
+  		<me>
+  			b^t = f(t) = E(kt) = e^{kt}
+  		</me>
+  		for some value <m>k</m>.  Our development of the natural logarithm function in the current section enables us to now determine <m>k</m> exactly.
+  	</p>
+
+  	<example xml:id="ex-log-find-k">
+  		<statement>
+  			<p>
+  				Determine the exact value of <m>k</m> for which <m>f(t) = 3^t = e^{kt}</m>.
+  			</p> 
+
+  			<p>
+  				<em>Solution</em>.  Since we want <m>3^t = e^{kt}</m> to hold for every value of <m>t</m> and <m>e^{kt} = (e^k)^t</m>, we need to have <m>3^t = (e^k)^t</m>, and thus <m>3 = e^k</m>.  Therefore, <m>k</m> is the power to which we raise <m>e</m> to get <m>3</m>, which by definition means that <m>k = \ln(3)</m>.
+  			</p>
+  		</statement>
+  	</example>
+
+  	<p>
+  		In modeling important phenomena using exponential functions, we will frequently encounter equations where the variable is in the exponent, like in <xref ref="ex-log-find-k">Example</xref> where we had to solve <m>e^k = 3</m>.  It is in this context where logarithms find one of their most powerful applications.  <xref ref="act-exp-log-equations">Activity</xref> provides some opportunities to practice solving equations involving the natural base, <m>e</m>, and the natural logarithm.
+  	</p>
+
+	<xi:include href="./activities/act-exp-log-equations.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-exp-log-summary">
+  	<title>Summary</title>
+
+  	<ul>
+  		<li>
+  			<p>
+  				The base-<m>10</m> logarithm of <m>y</m>, denoted <m>\log_{10}(y)</m> is defined to be the power to which we raise <m>10</m>  to get <m>y</m>.  For instance, <m>\log_{10}(1000) = 3</m>, since <m>10^3 = 1000</m>.  The function <m>L(y) = \log_{10}(y)</m> is thus the inverse of the powers-of-<m>10</m> function, <m>P(t) = 10^t</m>.
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				The natural logarithm <m>N(y) = \ln(y)</m>  differs from the base-<m>10</m> logarithm in that it is the logarithm with base <m>e</m> instead of <m>10</m>, and thus <m>\ln(y)</m> is the power to which we raise <m>e</m> to get <m>y</m>.  The function <m>N(y) = \ln(y)</m> is the inverse of the natural exponential function <m>E(t) = e^t</m>.
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				The natural logarithm often enables us solve an equation that involves <m>e</m> to some unknown quantity.  For instance, to solve <m>2e^{3t-4} + 5 = 13</m>, we can first solve for <m>e^{3t-4}</m> by subtracting <m>5</m> from each side and dividing by <m>2</m> to get
+  				<me>
+  					e^{3t-4} = 4
+  				</me>.
+  				This last equation says <q><m>e</m> to some power is <m>4</m></q>.  We know that it is equivalent to say 
+  				<me>
+  					\ln(4) = 3t-4
+  				</me>.
+  				Since <m>\ln(4)</m> is a number, we can solve this most recent linear equation for <m>t</m>.  In particular, <m>3t = 4 + \ln(4)</m>, so
+  				<me>
+  					t = \frac{1}{3}(4 + \ln(4))
+  				</me>.
+  			</p>
+  		</li>
+  	</ul>
+
+  </subsection>
+
+  <xi:include href="./exercises/ez-exp-log.xml" />
+
+  <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
+  <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
+</section>
+

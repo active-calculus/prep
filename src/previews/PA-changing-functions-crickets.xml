@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-crickets">
+
+	<statement>
+		<p>
+			Use <xref ref="eq-functions-Dolbear">Equation</xref> to respond to the questions below.
+		</p>
+
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						If we hear snowy tree crickets chirping at a rate of <m>92</m> chirps per minute, what does Dolbear's model suggest should be the outside temperature?
+					</p>
+				</li>
+				<li>
+					<p>
+						If the outside temperature is <m>77^\circ</m> F, how many chirps per minute should we expect to hear?
+					</p>
+				</li>
+				<li>
+					<p>
+						Is the model valid for determining the number of chirps one should hear when the outside temperature is <m>35^\circ</m> F?  Why or why not?
+					</p>
+				</li>
+				<li>
+					<p>
+						Suppose that in the morning an observer hears <m>65</m> chirps per minute, and several hours later hears <m>75</m> chirps per minute.  How much has the temperature risen between observations?
+					</p>
+				</li>
+				<li>
+					<p>
+						Dolbear's Law is known to be accurate for temperatures from <m>50^\circ</m> to <m>85^\circ</m>.  What is the fewest number of chirps per minute an observer could expect to hear?  the greatest number of chirps per minute?
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+
+</exploration>

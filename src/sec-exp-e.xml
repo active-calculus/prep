@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-exp-e">
+  <title>The special number <m>e</m></title>
+  <objectives>
+  	<ul>
+  		<li>
+  			<p>
+  				Why can every exponential function of form <m>f(t) = b^t</m> (where <m>b \gt 0</m> and <m>b \ne 1</m>) be thought of as a horizontal scaling of a single special exponential function?
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				What is the natural base <m>e</m> and what makes this number special?
+  			</p>
+  		</li>
+  	</ul>
+  </objectives>
+
+  <introduction>
+  	<p>
+  		We have observed that the behavior of functions of the form <m>f(t) = b^t</m> is very consistent, where the only major differences depend on whether <m>b \lt 1</m> or <m>b \gt 1</m>.  Indeed, if we stipulate that <m>b \gt 1</m>, the graphs of functions with different bases <m>b</m> look nearly identical, as seen in the plots of <m>p</m>, <m>q</m>, <m>r</m>, and <m>s</m> in <xref ref="F-e-4-b-t">Figure</xref>.
+  	</p>
+
+  	<figure xml:id="F-e-4-b-t">
+  		<caption>Plots of four different exponential functions of form <m>b^t</m> with <m>b \gt 1</m>.</caption>
+  		<image source="images/e-base-compression" width="50%" />
+  	</figure>
+
+	<p>
+		Because the point <m>(0,1)</m> lies on the graph of each of the four functions in <xref ref="F-e-4-b-t">Figure</xref>, the functions cannot be vertical scalings of one another.  However, it is possible that the functions are <em>horizontal</em> scalings of one another.  This leads us to a natural question:  might it be possible to find a single exponential function with a special base, say <m>e</m>, for which every other exponential function <m>f(t) = b^t</m> can be expressed as a horizontal scaling of <m>E(t) = e^t</m>?
+	</p>
+
+     <xi:include href="./previews/PA-exp-e.xml" />
+
+  </introduction>
+
+  <subsection xml:id="subsec-exp-e-definition">
+  	<title>The natural base <m>e</m></title>
+  	<p>
+  		In <xref ref="PA-exp-e">Preview Activity</xref>, we found that it appears possible to find a value of <m>k</m> so that given any base <m>b</m>, we can write the function <m>b^t</m> as the horizontal scaling of <m>2^t</m> given by
+  		<me>
+  			b^t = 2^{kt}
+  		</me>.
+  		It's also apparent that there's nothing particularly special about <q><m>2</m></q>: we could similarly write any function <m>b^t</m> as a horizontal scaling of <m>3^t</m> or <m>4^t</m>, albeit with a different scaling factor <m>k</m> for each.  Thus, we might also ask:  is there a <em>best</em> possible single base to use?
+  	</p>
+
+  	<p>
+  		Through the central topic of the <em>rate of change</em> of a function, calculus helps us decide which base is best to use to represent all exponential functions.  While we study <em>average</em> rate of change extensively in this course, in calculus there is more emphasis on the <em>instantaneous</em> rate of change.  In that context, a natural question arises: is there a nonzero function that grows in such a way that its <em>height</em> is exactly how <em>fast</em> its height is increasing?
+  	</p>
+
+  	<p>
+  		Amazingly, it turns out that the answer to this questions is <q>yes,</q> and the function with this property is
+    	<term>the exponential function with the natural base</term>, denoted <m>e^t</m>. The number <m>e</m> (named in homage to the great Swiss mathematician Leonard Euler (1707-1783)) is complicated to define.  Like <m>\pi</m>, <m>e</m> is an irrational number that cannot be represented exactly by a ratio of integers and whose decimal expansion never repeats.  Advanced mathematics is needed in order to make the following formal definition of <m>e</m>.
+  	</p>
+
+  	<definition xml:id="def-exp-natural-base-e">
+  		<title>The natural base, <m>e</m></title>
+  		<idx><h>exponential function</h><h>with the natural base, <m>e</m></h></idx>
+  		<idx><h>natural base, <m>e</m></h></idx>
+  		<idx><h>e</h></idx>
+  		<p>
+  			The number <m>e</m> is the infinite sum<fn>Infinite sums are usually studied in second semester calculus.</fn>
+  			<me>
+  				e = 1 + \frac{1}{1!} + \frac{1}{2!} + \frac{1}{3!} + \frac{1}{4!} + \cdots
+  			</me>
+  			From this, <m>e \approx 2.718281828</m>.  
+  		</p>
+  	</definition>
+
+	<p>
+		For instance, <m>1 + \frac{1}{1} + \frac{1}{2} + \frac{1}{6} + \frac{1}{24} + \frac{1}{120} = \frac{163}{60} \approx 2.7167</m> is an approximation of <m>e</m> generated by taking the first <m>6</m> terms in the infinite sum that defines it.  Every computational device knows the number <m>e</m> and we will normally work with this number by using technology appropriately.  
+	</p>
+
+	<p>
+	 	Initially, it's important to note that <m>2 \lt e \lt 3</m>, and thus we expect the function <m>e^t</m> to lie between <m>2^t</m> and <m>3^t</m>.  
+	</p>
+
+	<sidebyside valign="middle">
+		<table xml:id="T-e-2-e-3">
+			<caption>Select outputs of <m>2^t</m>, <m>e^t</m>, and <m>3^t</m> reported to <m>3</m> decimal places.</caption>
+			<tabular halign="center">
+				<row bottom="minor">
+					<cell><m>t</m></cell>
+					<cell><m>-2</m></cell>
+					<cell><m>-1</m></cell>
+					<cell><m>0</m></cell>
+					<cell><m>1</m></cell>
+					<cell><m>2</m></cell>
+				</row>
+				<row>
+					<cell><m>2^t</m></cell>
+					<cell><m>0.25</m></cell>
+					<cell><m>0.5</m></cell>
+					<cell><m>1</m></cell>
+					<cell><m>2</m></cell>
+					<cell><m>4</m></cell>
+				</row>
+				<row>
+					<cell></cell>
+					<cell></cell>
+					<cell></cell>
+					<cell></cell>
+					<cell></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell><m>t</m></cell>
+					<cell><m>-2</m></cell>
+					<cell><m>-1</m></cell>
+					<cell><m>0</m></cell>
+					<cell><m>1</m></cell>
+					<cell><m>2</m></cell>
+				</row>
+				<row>
+					<cell><m>e^t</m></cell>
+					<cell><m>0.135</m></cell>
+					<cell><m>0.368</m></cell>
+					<cell><m>1</m></cell>
+					<cell><m>2.718</m></cell>
+					<cell><m>7.389</m></cell>
+				</row>
+				<row>
+					<cell></cell>
+					<cell></cell>
+					<cell></cell>
+					<cell></cell>
+					<cell></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell><m>t</m></cell>
+					<cell><m>-2</m></cell>
+					<cell><m>-1</m></cell>
+					<cell><m>0</m></cell>
+					<cell><m>1</m></cell>
+					<cell><m>2</m></cell>
+				</row>
+				<row>
+					<cell><m>3^t</m></cell>
+					<cell><m>0.111</m></cell>
+					<cell><m>0.333</m></cell>
+					<cell><m>1</m></cell>
+					<cell><m>3</m></cell>
+					<cell><m>9</m></cell>
+				</row>
+			</tabular>
+		</table>
+		<figure xml:id="F-e-2-e-3">
+			<caption>Plot of <m>e^t</m> along with <m>2^t</m> and <m>3^t</m>.</caption>
+			<image source="images/e-2-e-3" />
+		</figure>
+	</sidebyside>
+
+	<p>
+		If we compare the graphs and some selected outputs of each function, as in <xref ref="T-e-2-e-3">Table</xref> and <xref ref="F-e-2-e-3">Figure</xref>, we see that the function <m>e^t</m> satisfies the inequality 
+		<me>
+			2^t \lt e^t \lt 3^t
+		</me>
+		for all positive values of <m>t</m>.  When <m>t</m> is negative, we can view the values of each function as being reciprocals of powers of <m>2</m>, <m>e</m>, and <m>3</m>.  For instance, since <m>2^2 \lt e^2 \lt 3^2</m>, it follows <m>\frac{1}{3^2} \lt \frac{1}{e^2} \lt \frac{1}{2^2}</m>, or 
+		<me>
+			3^{-2} \lt e^{-2} \lt 2^{-2}
+		</me>.  Thus, for any <m>t \lt 0</m>,
+		<me>
+			3^t \lt e^t \lt 2^t
+		</me>
+		Like <m>2^t</m> and <m>3^t</m>, the function <m>e^t</m> passes through <m>(0,1)</m> is always increasing and always concave up, and its range is the set of all positive real numbers.
+	</p>
+
+	<xi:include href="./activities/act-exp-e-aroc-e.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-exp-e-inverse">
+  	<title>Why any exponential function can be written in terms of <m>e</m></title>
+
+	<p>
+		In <xref ref="PA-exp-e">Preview Activity</xref>, we saw graphical evidence that any exponential function <m>f(t) = b^t</m> can be written as a horizontal scaling of the function <m>g(t) = 2^t</m>, plus we observed that there wasn't anything particularly special about <m>2^t</m>.    Because of the importance of <m>e^t</m> in calculus, we will choose instead to use the natural exponential function, 	<m>E(t) = e^t</m> as the function we scale to generate any other exponential function <m>f(t) = b^t</m>.  We claim that for any choice of <m>b \gt 0</m> (with <m>b \ne 1</m>), there exists a horizontal scaling factor <m>k</m> such that <m>b^t = f(t) = E(kt) = e^{kt}</m>.
+	</p>
+
+	<p>
+		By the rules of exponents, we can rewrite this last equation equivalently as
+		<me>
+			b^t = (e^k)^t
+		</me>.
+		Since this equation has to hold for every value of <m>t</m>, it follows that <m>b = e^k</m>.  Thus, our claim that we can scale <m>E(t)</m> to get <m>f(t)</m> requires us to show that regardless of the choice of the positive number <m>b</m>, there exists a single corresponding value of <m>k</m> such that <m>b = e^k</m>.
+	</p>
+
+	<p>
+		Given <m>b \gt 0</m>, we can always find a corresponding value of <m>k</m> such that <m>e^k = b</m> because the function <m>f(t) = e^t</m> passes the <xref ref="asm-inverse-H-L-test">Horizontal Line Test</xref>, as seen in <xref ref="F-e-b-k">Figure</xref>.
+	</p>
+
+	<figure xml:id="F-e-b-k">
+		<caption>A plot of <m>f(t) = e^t</m> along with several choices of positive constants <m>b</m> viewed on the vertical axis.</caption>
+		<image source="images/e-b-k" width="50%"/>
+	</figure>
+
+	<p>
+		In <xref ref="F-e-b-k">Figure</xref>, we can think of <m>b</m> as a point on the positive vertical axis.  From there, we draw a horizontal line over to the graph of <m>f(t) = e^t</m>, and then from the (unique) point of intersection we drop a vertical line to the <m>x</m>-axis.  At that corresponding point on the <m>x</m>-axis we have found the input value <m>k</m> that corresponds to <m>b</m>.  We see that there is always exactly one such <m>k</m> value that corresponds to each chosen <m>b</m> because <m>f(t) = e^t</m> is always increasing, and any always increasing function passes the Horizontal Line Test.
+	</p>
+
+	<p>
+		It follows that the function <m>f(t) = e^t</m> has an inverse function, and hence there must be some other function <m>g</m> such that writing <m>y = f(t)</m> is the same as writing <m>t = g(y)</m>.  This important function <m>g</m> will be developed in <xref ref="sec-exp-log">Section</xref> and will enable us to find the value of <m>k</m> exactly for a given <m>b</m>.  For now, we are content to work with these observations graphically and to hence find estimates for the value of <m>k</m>.  
+	</p>
+
+	<xi:include href="./activities/act-exp-e-graph-solve.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-exp-e-summary">
+  	<title>Summary</title>
+  	  <ul>
+  		<li>
+  			<p>
+  				Any exponential function <m>f(t) = b^t</m> can be viewed as a horizontal scaling of <m>E(t) = e^t</m> because there exists a unique constant <m>k</m> such that <m>E(kt) = e^{kt} = b^t = f(t)</m> is true for every value of <m>t</m>.  This holds since the exponential function <m>e^t</m> is always increasing, so given an output <m>b</m> there exists a unique input <m>k</m> such that <m>e^k = b</m>, from which it follows that <m>e^{kt} = b^t</m>.
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				The natural base <m>e</m> is the special number that defines an increasing exponential function whose rate of change at any point is the same as its height at that point, a fact that is established using calculus.  The number <m>e</m> turns out to be given exactly by an infinite sum and approximately by <m>e \approx 2.7182818</m>.
+  			</p>
+  		</li>
+  	</ul>
+  </subsection>
+
+  <xi:include href="./exercises/ez-exp-e.xml" />
+
+  <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
+  <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
+</section>
+

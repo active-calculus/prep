@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-functions-is-it">
+
+	<statement>
+		<p>
+			Each of the following prompts describes a relationship between two quantities.  For each, your task is to decide whether or not the relationship can be thought of as a function.  If not, explain why.  If so, state the domain and codomain of the function and write at least one sentence to explain the process that leads from the collection of inputs to the collection of outputs.  
+		</p>
+
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						The relationship between the day of the year and the value of the S<ampersand />P500 stock index (at the close of trading on a given day), where we attempt to consider the index's value (at the close of trading) as a function of the day of the year.
+					</p>
+				</li>
+				<li>
+					<p>
+						The relationship between a car's velocity and its odometer, where we attempt to view the car's odometer reading as a function of its velocity.
+					</p>
+				</li>
+				<li>
+					<p>
+						The relationship between <m>x</m> and <m>y</m> that is given in the following table where we attempt to view <m>y</m> as depending on <m>x</m>.
+					</p>
+
+					<table xml:id="T-act-functions-is-it-2">
+						<caption>A table that relates <m>x</m> and <m>y</m> values.</caption>
+							<tabular>
+								<row bottom="minor">
+									<cell><m>x</m></cell>
+									<cell><m>1</m></cell>
+									<cell><m>2</m></cell>
+									<cell><m>3</m></cell>
+									<cell><m>2</m></cell>
+									<cell><m>1</m></cell>
+								</row>
+								<row>
+									<cell><m>y</m></cell>
+									<cell><m>11</m></cell>
+									<cell><m>12</m></cell>
+									<cell><m>13</m></cell>
+									<cell><m>14</m></cell>
+									<cell><m>15</m></cell>
+								</row>
+							</tabular>
+					</table>
+				</li>
+
+				<li>
+					<p>
+						The relationship between <m>x</m> and <m>y</m> in each of the graphs below (address each graph separately as a potential situation where <m>y</m> is a function of <m>x</m>).  In <xref ref="F-functions-act-is-it-1">Figure</xref>, any point on the circle relates <m>x</m> and <m>y</m>.  For instance, the <m>y</m>-value <m>\sqrt{7}</m> is related to the <m>x</m>-value <m>-3</m>.  In <xref ref="F-functions-act-is-it-2">Figure</xref>, any point on the blue curve relates <m>x</m> and <m>y</m>.  For instance, when <m>x = -1</m>, the corresponding <m>y</m>-value is <m>y = 3</m>.  An unfilled circle indicates that there is not a point on the graph at that specific location.
+					</p>
+					<sidebyside width="50%">
+						<figure xml:id="F-functions-act-is-it-1">
+							<caption>A circle of radius <m>4</m> centered at <m>(0,0)</m>.</caption>
+							<image source="images/functions-act-is-it-1" />	
+						</figure>	
+						<figure xml:id="F-functions-act-is-it-2">
+							<caption>A graph of a possible function <m>g</m>.</caption>
+							<image source="images/functions-act-is-it-2" />
+						</figure>						
+					</sidebyside>
+				</li>
+
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

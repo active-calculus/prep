@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-finding-angles-roof">
+
+	<statement>
+		<p>
+			A roof is being built with a <q>7-12 pitch.</q>
+		      This means that the roof rises <m>7</m> inches vertically for every <m>12</m> inches of horizontal span;
+		      in other words, the slope of the roof is <m>\frac{7}{12}</m>.
+		      What is the exact measure (in degrees)
+		      of the angle the roof makes with the horizontal?
+		      What is the approximate measure?
+		      What are the exact and approximate measures of the angle at the peak of the roof (made by the front and back portions of the roof that meet to form the ridge)?
+		</p>
+
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-poly-rational">
+  
+<!--
+  <exercise xml:id="ez-0-0-WW1">
+    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  </exercise>
+  <exercise xml:id="ez-0-0-WW2">
+    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  </exercise>
+-->
+
+  <exercise xml:id="ez-poly-rational-domain-asymptote">
+    <statement>
+      <p>
+        For each rational function below, determine the function's domain as well as the exact value of any horizontal asymptote.
+      </p>
+
+      <p>
+        <ol label="a." cols="2">
+          <li>
+            <p>
+              <m>f(x) = \frac{17x^2 + 34}{19x^2 - 76}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>g(x) = \frac{29}{53} + \frac{1}{x-2}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>h(x) = \frac{4-31x}{11x - 7}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>r(x) = \frac{151(x-4)(x+5)^2(x-2)}{537(x+5)(x+1)(x^2+1)(x-15)}</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-poly-rational-applications-box">
+    <statement>
+      <p>
+        A rectangular box is being constructed so that its base is <m>1.5</m> times as long as it is wide.  In addition, suppose that material for the base and top of the box costs <dollar /><m>3.75</m> per square foot, while material for the sides costs <dollar /><m>2.50</m> per square foot.  Finally, we want the box to hold <m>8</m> cubic feet of volume.
+      </p>
+
+      <p>
+        <ol label="a.">
+          <li>
+            <p>
+              Draw a labeled picture of the box with <m>x</m> as the length of the shorter side of the box's base and <m>h</m> as its height.
+            </p>
+          </li>
+          <li>
+            <p>
+              Determine a formula involving <m>x</m> and <m>h</m> for the total surface area, <m>S</m>, of the box.
+            </p>
+          </li>
+          <li>
+            <p>
+              Use your work from (b) along with the given information about cost to determine a formula for the total cost, <m>C</m>, oif the box in terms of <m>x</m> and <m>h</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Use the volume constraint given in the problem to write an equation that relates <m>x</m> and <m>h</m>, and solve that equation for <m>h</m> in terms of <m>x</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Combine your work in (c) and (d) to write the cost, <m>C</m>, of the box as a function solely of <m>x</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the domain of the cost function?  How does a graph of the cost function appear?  What does this suggest about the ideal box for the given constraints?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise> 
+
+  <exercise xml:id="ez-poly-rational-applications-can">
+    <statement>
+      <p>
+        A cylindrical can is being constructed so that its volume is <m>16</m> cubic inches.  Suppose that material for the lids (the top and bottom) cost <dollar /><m>0.11</m> per square inch and material for the <q>side</q> of the can costs <dollar /><m>0.07</m> per square inch.  Determine a formula for the total cost of the can as a function of the can's radius.  What is the domain of the function and why?  (Hint: you may find it helpful to ask yourslef a sequence of questions like those stated in <xref ref="ez-poly-rational-applications-box">Exercise</xref>).
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>   
+</exercises>

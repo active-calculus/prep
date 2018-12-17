@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2012-2018                                                   -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Calculus.                                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-circular-sine-cosine">
+
+<!--
+  <exercise xml:id="ez-0-0-WW1">
+    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  </exercise>
+  <exercise xml:id="ez-0-0-WW2">
+    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  </exercise>
+-->
+
+  <exercise>
+    <statement>
+      <p>
+        Without using a computational device, determine the exact value of each of the following quantities.
+      </p>
+
+      <p>
+        <ol label="a." cols="3">
+          <!-- WHY WILL THIS NOT DISPLAY IN TWO COLUMNS?  BIZARRE -->
+          <li>
+            <p>
+              <m>\sin(-\frac{11\pi}{4})</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\cos(\frac{29\pi}{6})</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\sin(47\pi)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\cos(-113\pi)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>t</m> in quadrant III such that <m>\cos(t) = -\frac{\sqrt{3}}{2}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>t</m> in quadrant IV such that <m>\sin(t) = -\frac{\sqrt{3}}{2}</m>
+            </p>
+          </li>          
+        </ol>
+      </p>
+
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        We now know three different identities involving the sine and cosine functions: <m>\sin(t+\frac{\pi}{2}) = \cos(t)</m>, <m>\cos(t-\frac{\pi}{2}) = \sin(t)</m>, and <m>\cos^2(t) + \sin^2(t) = 1</m>.  Following are several proposed identities.  For each, your task is to decide whether the identity is true or false.  If true, give a convincing argument for why it is true; if false, give an example of a <m>t</m>-value for which the equation fails to hold.
+      </p>
+
+      <p>
+        <ol label="a." cols="2">
+          <li>
+            <p>
+              <m>\cos(t + 2\pi) = \cos(t)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\sin(t-\pi) = -\sin(t)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\cos(t - \frac{3\pi}{2}) = \sin(t)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\sin^2(t) = 1 - \cos^2(t)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\sin(t) + \cos(t) = 1</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\sin(t) + \sin(\frac{\pi}{2}) = \cos(t)</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+<!--
+  <exercise>
+    <statement>
+      <p>
+        Exercise Statement
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>  
+-->
+
+</exercises>

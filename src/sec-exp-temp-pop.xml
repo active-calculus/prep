@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-exp-temp-pop">
+  <title>Modeling temperature and population</title>
+
+  <objectives>
+  	<ul>
+  		<li>
+  			<p>
+  				What roles do the parameters <m>a</m>, <m>k</m>, and <m>c</m> play in how the function <m>F(t) = c + ae^{-kt}</m> models the temperature of an object that is cooling or warming in its surroundings?
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				How can we use an exponential function to more realistically model a population whose growth levels off?
+  			</p>
+  		</li>
+  	</ul>
+  </objectives>
+
+  <introduction>
+  	
+	<p>
+		We've seen that exponential functions can be used to model several different important phenomena, such as the growth of money due to continuously compounded interest, the decay of radioactive quanitities, and the temperature of an object that is cooling or warming due to its surroundings.  From initial work with functions of the form <m>f(t) = ab^t</m> where <m>b \gt 0</m> and <m>b \ne 1</m>, we found that shifted exponential functions of form <m>g(t) = ab^t + c</m> are also important.  Moreover, the special base <m>e</m> allows us to represent all of these functions through horizontal scaling by writing
+		<men xml:id="eq-temp-pop-gen-exp-model">
+			g(t) = ae^{kt} + c
+		</men>
+		where <m>k</m> is the constant such that <m>e^k = b</m>.
+		Functions of the form of <xref ref="eq-temp-pop-gen-exp-model">Equation</xref> are either always increasing or always decreasing, always have the same concavity, are defined on the set of all real numbers, and have their range as the set of all real numbers greater than <m>c</m> or all real numbers less than <m>c</m>.  In whatever setting we are using a model of this form, the crucial task is to identify the values of <m>a</m>, <m>k</m>, and <m>c</m>; that endeavor is the focus of this section.
+	</p>
+
+	<p>
+		We have also begun to see the important role that logarithms play in work with exponential models.  The natural logarithm is the inverse of the natural exponential function and satisfies the important rule that <m>\ln(b^k) = k\ln (b)</m>.  This rule enables us to solve equations with the structure <m>a^k = b</m> for <m>k</m> in the context where <m>a</m> and <m>b</m> are known but <m>k</m> is not.  Indeed, we can first take the natural log of both sides of the equation to get
+		<me>
+			\ln(a^k) = \ln(b)
+		</me>,
+		from which it follows that <m>k \ln(a) = \ln(b)</m>, and therefore
+		<me>
+			k = \frac{\ln(b)}{\ln(a)}
+		</me>.
+		Finding <m>k</m> is often central to determining an exponential model, and logarithms make finding the exact value of <m>k</m> possible.
+	</p>
+
+	<p>
+		In <xref ref="PA-exp-temp-pop">Preview Activity</xref>, we revisit some key algebraic ideas with exponential and logarithmic equations in preparation for using these concepts in models for temperature and population.
+	</p>
+
+	<xi:include href="./previews/PA-exp-temp-pop.xml" />
+
+  </introduction>
+
+  <subsection xml:id="subsec-exp-temp-pop-Newton">
+  	<title>Newton's Law of Cooling revisited</title>
+  	<p>
+  		In <xref ref="sec-exp-modeling">Section</xref>, we learned that Newton's Law of Cooling, which states that an object's temperature changes at a rate proportional to the difference between its own temperature and the surrounding temperature, results in the object's temperature being modeled by functions of the form <m>F(t) = ab^t + c</m>.  In light of our subsequent work in <xref ref="sec-exp-e">Section</xref> with the natural base <m>e</m>, as well as the fact that <m>0 \lt b \lt 1</m> in this model, we know that Newton's Law of Cooling implies that the object's temperature is modeled by a function of the form
+  		<men xml:id="eq-temp-pop-NLOC">
+  			F(t) = ae^{-kt} + c
+  		</men>
+  		for some constants <m>a</m>, <m>c</m>, and <m>k</m>, where <m>k \gt 0</m>.
+  	</p>
+
+  	<p>
+  		From <xref ref="eq-temp-pop-NLOC">Equation</xref>, we can determine several different characteristics of how the constants <m>a</m>, <m>b</m>, and <m>k</m> are connected to the behavior of <m>F</m> by thinking about what happens at <m>t = 0</m>, at one additional value of <m>t</m>, and as <m>t</m> increases without bound.  In particular, note that <m>e^{-kt}</m> will tend to <m>0</m> as <m>t</m> increases without bound.
+  	</p>
+
+  	<assemblage>
+  		<title>Modeling temperature with Newton's Law of Cooling</title>
+  		<p>
+  			For the function <m>F(t) = ae^{-kt} + c</m> that models the temperature of a cooling or warming object, the constants <m>a</m>, <m>c</m>, and <m>k</m> play the following roles.
+  			<ul>
+  				<li>
+  					<p>
+  						Since <m>e^{-kt}</m> tends to <m>0</m> as <m>t</m> increases without bound, <m>F(t)</m> tends to <m>c</m> as <m>t</m> increases without bound, and thus <m>c</m> represents the temperature of the object's surroundings.
+  					</p>
+  				</li>
+  				<li>
+  					<p>
+  						Since <m>e^0 = 1</m>, <m>F(0) = a + c</m>, and thus the object's initial temperature is <m>a + c</m>.  Said differently, <m>a</m> is the difference between the object's initial temperature and the temperature of the surroundings.
+  					</p>
+  				</li>
+  				<li>
+  					<p>
+  						Once we know the values of <m>a</m> and <m>c</m>, the value of <m>k</m> is determined by knowing the value of the temperature function <m>F(t)</m> at one nonzero value of <m>t</m>.
+  					</p>
+  				</li>
+  			</ul> 
+  		</p>
+  	</assemblage>
+
+	<xi:include href="./activities/act-exp-temp-pop-NLOC1.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-exp-temp-pop-logistic">
+  	<title>A more realistic model for population growth</title>
+  	<p>
+  		If we assume that a population grows at a rate that is proportionate to the size of the population, it follows that the population grows exponentially according to the model
+  		<me>
+  			P(t) = Ae^{kt}
+  		</me>
+  		where <m>A</m> is the initial population and <m>k</m> is tied to the rate at which the population grows.  Since <m>k \gt 0</m>, we know that <m>e^{kt}</m> is an always increasing, always concave up function that grows without bound.  While <m>P(t) = Ae^{kt}</m> may be a reasonable model for how a population grows when it is relatively small small, because the function grows without bound as time increases, it can't be a realistic long-term representation of what happens in reality.  Indeed, whether it is the number of fish who can survive in a lake, the number of cells in a petri dish, or the number of human beings on earth, the size of the surroundings and the limitations of resources will keep the population from being able to grow without bound.
+  	</p>
+
+  	<p>
+  		In light of these observations, a different model is needed for population, one that grows exponentially at first, but that levels off later.  Calculus can be used to develop such a model, and the resulting function is usually called the
+    	<term>logistic function</term>, <idx><h>logistic function</h></idx> which has form
+	    <men xml:id="eq-temp-pop-logistic">
+	      P(t) = \frac{A}{1 + Me^{-kt}}
+	    </men>,
+    	where <m>A</m>, <m>M</m>, and <m>k</m> are positive constants.
+    	Since <m>k \gt 0</m>, it follows that <m>e^{-kt} \to 0</m> as <m>t</m> increases without bound, and thus the denominator of <m>P</m> approaches <m>1</m> as time goes on.  Thus, we observe that <m>P(t)</m> tends to <m>A</m> as <m>t</m> increases without bound.  We sometimes refer to <m>A</m> as the <em>carrying capacity</em> of the population.
+  	</p>
+
+	<xi:include href="./activities/act-exp-temp-pop-logistic-Desmos.xml" />
+
+	<xi:include href="./activities/act-exp-temp-pop-logistic-exact.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-exp-temp-pop-summary">
+  	<Title>Summary</Title>
+  	  <ul>
+  		<li>
+  			<p>
+  				When a function of form <m>F(t) = c + ae^{-kt}</m> models the temperature of an object that is cooling or warming in its surroundings, the temperature of the surroundings is <m>c</m> because <m>e^{-kt} \to 0</m> as time goes on, the object's initial temperature is <m>a+c</m>, and the constant <m>k</m> is connected to how rapidly the object's temperature changes.  Once <m>a</m> and <m>c</m> are known, the constant <m>k</m> can be determined by knowing the temperature at one additional time, <m>t</m>.
+  			</p>
+  		</li>
+  		<li>
+  			<p>
+  				Because the exponential function <m>P(t) = Ae^{kt}</m> grows without bound as <m>t</m> increases, such a function is not a realistic model of a population that we expect to level off as time goes on.  The logistic function,
+  				<me>
+  					P(t) = \frac{A}{1 + Me^{-kt}}
+  				</me> 
+  				more appropriately models a population that grows roughly exponentially when <m>P</m> is small but whose size levels off as it approaches the carrying capacity of the surrounding environment, which is the value of the constant <m>A</m>.
+  			</p>
+  		</li>
+  	</ul>
+  </subsection>
+
+  <xi:include href="./exercises/ez-exp-temp-pop.xml" /> 
+
+  <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
+  <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
+</section>
+

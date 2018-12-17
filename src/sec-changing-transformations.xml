@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-changing-transformations">
+  <title>Transformations of Functions</title>
+
+  <objectives>
+  		<ul>
+  			<li>
+  				<p>
+  					How is the graph of <m>y = g(x) = af(x-b) + c</m> related to the graph of <m>y = f(x)</m>?
+  				</p>
+  			</li>
+  			<li>
+  				<p>
+  					What do we mean by <q>transformations</q> of a given function <m>f</m>?  How are translations and vertical stretches of a function examples of transformations?
+  				</p>
+  			</li>
+  		</ul>
+  </objectives>
+
+  <introduction>
+  	<p>
+  		In our preparation for calculus, we aspire to understand functions from a wide range of perspectives and to become familiar with a library of basic functions.  So far, two basic functions we have considered are linear functions and quadratic functions, the simplest of which are <m>L(x) = x</m> and <m>Q(x) = x^2</m>.  As we progress further, we will endeavor to understand a <q>parent</q> function  as the most fundamental member of a family of functions, as well as how other similar but more complicated functions are the result of transforming the parent function.  
+  	</p>
+
+	<p>
+		Informally, a transformation <idx><h>transformation of a function</h></idx> of a given function is an algebraic process by which we change the function to a related function that has the same fundamental shape, but may be shifted, reflected, and/or stretched in a systematic way.  For example, among all quadratic functions, the simplest is the parent function <m>Q(x) = x^2</m>, but any other quadratic function such as <m>g(x) = -3(x-5)^2 + 4</m> can also be understood in relation to the parent function.  We say that <q><m>g</m> is a transformation of <m>f</m>.</q>
+	</p>
+
+	<p>	
+  		In <xref ref="PA-changing-transformations-quadratic">Preview Activity</xref>, we investigate the effects of the constants <m>a</m>, <m>b</m>, and <m>c</m> in generating the function <m>g(x) = af(x-b) + c</m> in the context of already knowing the function <m>f</m>.
+  	</p>
+
+	<xi:include href="./previews/PA-changing-transformations-quadratic.xml" />
+
+  </introduction>
+
+  <subsection xml:id="subsec-changing-transformations-translation">
+  	<title>Translations of Functions</title>
+  	<p>
+  		We begin by summarizing two of our findings in <xref ref="PA-changing-transformations-quadratic">Preview Activity</xref>.  
+  	</p>
+
+	<assemblage xml:id="asm-transformations-vertical">
+		<title>Vertical Translation</title>
+		<idx><h>transformation of a function</h><h>vertical translation</h></idx>
+		<p>
+			Given a function <m>y = f(x)</m> and a real number <m>a</m>, the transformed function <m>y = g(x) = f(x) + a</m> is a <em>vertical translation</em> of the graph of <m>f</m>.  That is, every point <m>(x,f(x))</m> on the graph of <m>f</m> gets shifted vertically to the corresponding point <m>(x,f(x)+a)</m> on the graph of <m>g</m>.
+		</p>
+	</assemblage>
+
+	<p>
+		As we found in our <em>Desmos</em> explorations in the preview activity, is especially helpful to see the effects of vertical translation dynamically.  
+	</p>
+
+	<figure xml:id="F-transformations-vertical-translation">
+		<caption>Interactive vertical translations demonstration (in the HTML version only).</caption>
+
+		<interactive xml:id="I-transformations-vertical-translation" platform="javascript" width="75%" aspect="4:5" source = "interactives/figures.js interactives/transformationsV.js" preview="images/transformations-interactive-V-static.jpg">
+			<slate xml:id="vslider" aspect="4:1" surface="canvas" />
+			<slate xml:id="vtranslations" aspect="4:4" surface="canvas" />
+			<instructions>
+				<p>
+					Move the slider<fn>Huge thanks to the amazing <url href="http://merganser.math.gvsu.edu/david/">David Austin</url> for making these interactive javascript graphics for the text.</fn> by clicking and dragging on the red point to see how changing <m>a</m> affects the graph of <m>y = f(x) + a</m>, which appears in blue.  The graph of <m>y = f(x)</m> will appear in grey and remain fixed.  
+				</p>
+			</instructions>
+		</interactive>
+	</figure> 
+	
+	<p>
+		In a vertical translation, the graph of <m>g</m> lies above the graph of <m>f</m> whenever <m>a \gt 0</m>, while the graph of <m>g</m> lies below the graph of <m>f</m> whenever <m>a \lt 0</m>.  In <xref ref="F-transformations-vert">Figure</xref>, we see the original parent function <m>f(x) = |x|</m> along with the resulting transformation <m>g(x) = f(x)-3</m>, which is a downward vertical shift of <m>3</m> units.  Note particularly that every point on the original graph of <m>f</m> is moved <m>3</m> units down; we often indicate this by an arrow and labeling at least one key point on each graph.
+	</p>
+
+	<sidebyside width="50%">
+		<figure xml:id="F-transformations-vert">
+			<caption>A vertical translation, <m>g</m>, of the function <m>y = f(x) = |x|</m>.</caption>
+			<image source="images/transformations-vert" />
+		</figure>
+		<figure xml:id="F-transformations-horiz">
+			<caption>A horizontal translation, <m>h</m>, of a different function <m>y = f(x)</m>.</caption>
+			<image source="images/transformations-horiz" />
+		</figure>
+	</sidebyside>
+
+	<p>
+		In <xref ref="F-transformations-horiz">Figure</xref>, we see a horizontal translation of the original function <m>f</m> that shifts its graph <m>2</m> units to the right to form the function <m>h</m>.  Observe that <m>f</m> is not a familiar basic function; transformations may be applied to any original function we desire.	
+	</p>
+
+	<p>
+		From an algebraic point of view, horizontal translations are slightly more complicated than vertical ones.  Given <m>y = f(x)</m>, if we define the transformed function <m>y = h(x) = f(x-b)</m>, observe that
+		<me>
+			h(x+b) = f( (x+b) - b ) = f(x)
+		</me>.
+		This shows that for an input of <m>x+b</m>, the output of <m>h</m> is equal to the output of <m>f</m> that corresponds to an input of simply <m>x</m>.  Hence, in <xref ref="F-transformations-horiz">Figure</xref>, the formula for <m>h</m> in terms of <m>f</m> is <m>h(x) = f(x-2)</m>, since an input of <m>x+2</m> in <m>h</m> will result in the same output as an input of <m>x</m> in <m>f</m>.  Overall, we have the following general principle.
+	</p>
+
+	<p>
+		Again, it's instructive to see the effects of horizontal translation dynamically.  
+	</p>
+
+	<figure xml:id="F-transformations-horizontal-translation">
+		<caption>Interactive horizontal translations demonstration (in the HTML version only).</caption>
+
+		<interactive xml:id="I-transformations-horizontal-translation" platform="javascript" width="75%" aspect="4:5" source = "interactives/figures.js interactives/transformationsH.js" preview="images/transformations-interactive-H-static.jpg">
+			<slate xml:id="hslider" aspect="4:1" surface="canvas" />
+			<slate xml:id="htranslations" aspect="4:4" surface="canvas" />
+			<instructions>
+				<p>
+					Move the slider by clicking and dragging on the red point to see how changing <m>b</m> affects the graph of <m>y = f(x-b)</m>, which appears in blue.  The graph of <m>y = f(x)</m> will appear in grey and remain fixed. 
+				</p>
+			</instructions>
+		</interactive>
+	</figure> 	
+
+	<assemblage xml:id="asm-transformations-horizontal">
+		<title>Horizontal Translation</title>
+		<idx><h>transformation of a function</h><h>horizontal translation</h></idx>
+		<p>
+			Given a function <m>y = f(x)</m> and a real number <m>b</m>, the transformed function <m>y = h(x) = f(x-b)</m> is a <em>horizontal translation</em> of the graph of <m>f</m>.  That is, every point <m>(x,f(x))</m> on the graph of <m>f</m> gets shifted horizontally to the corresponding point <m>(x+b,f(x))</m> on the graph of <m>g</m>.
+		</p>
+	</assemblage>	
+
+	<p>
+		We emphasize that in the horizontal translation <m>h(x) = f(x-b)</m>, if <m>b \gt 0</m> the graph of <m>h</m> lies <m>b</m> units to the right of <m>f</m>, while if <m>b \lt 0</m>, <m>h</m> lies <m>b</m> units to the lft of <m>f</m>.
+	</p>
+
+	<xi:include href="./activities/act-changing-transformations-translations.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-changing-transformations-vert-stretch">
+  	<title>Vertical stretches and reflections</title>
+
+  	<p>
+  		So far, we have seen the possible effects of adding a constant value to function output <dash><m>f(x)+a</m></dash> and adding a constant value to function input <dash /> <m>f(x+b)</m>.  Each of these actions results in a translation of the function's graph (either vertically or horizontally), but otherwise leaving the graph the same.  Next, we investigate the effects of multiplication the function's output by a constant.
+  	</p>
+
+  	<example xml:id="ex-transformations-vert-stretch">
+  		<statement>
+  			<p>
+  				Given the parent function <m>y = f(x)</m> pictured in <xref ref="F-transformations-vert-stretch-1">Figure</xref>, what are the effects of the transformation <m>y = v(x) = cf(x)</m> for various values of <m>c</m>?
+  			</p>
+  		</statement>
+
+  		<solution>
+			<p>
+				We first investigate the effects of <m>c = 2</m> and <m>c = \frac{1}{2}</m>.  For <m>v(x) = 2f(x)</m>, the algebraic impact of this transformation is that every output of <m>f</m> is multiplied by <m>2</m>.  This means that the only output that is unchanged is when <m>f(x) = 0</m>, while any other point on the graph of the original function <m>f</m> will be stretched vertically away from the <m>x</m>-axis by a factor of <m>2</m>.  We can see this in <xref ref="F-transformations-vert-stretch-1">Figure</xref> where each point on the original dark blue graph is transformed to a corresponding point whose <m>y</m>-coordinate is twice as large, as partially indicated by the red arrows.
+			</p>
+
+		  	<sidebyside width="50%">
+				<figure xml:id="F-transformations-vert-stretch-1">
+					<caption>The parent function <m>y = f(x)</m> along with two different vertical stretches, <m>v</m> and <m>u</m>.</caption>
+					<image source="images/transformations-vert-stretch-1" />
+				</figure>
+				<figure xml:id="F-transformations-vert-stretch-2">
+					<caption>The parent function <m>y = f(x)</m> along with a vertical reflection, <m>z</m>, and a corresponding stretch, <m>w</m>.</caption>
+					<image source="images/transformations-vert-stretch-2" />
+				</figure>
+			</sidebyside>
+
+			<p>
+				In contrast, the transformation <m>u(x) = \frac{1}{2}f(x)</m> is stretched vertically by a factor of <m>\frac{1}{2}</m>, which has the effect of compressing the graph of <m>f</m> towards the <m>x</m>-axis, as all function outputs of <m>f</m> are multiplied by <m>\frac{1}{2}</m>.  For instance, the point <m>(0,-2)</m> on the graph of <m>f</m> is transformed to the graph of <m>(0,-1)</m> on the graph of <m>u</m>, and others are transformed as indicated by the purple arrows.
+			</p>
+
+			<p>
+				To consider the situation where <m>c \lt 0</m>, we first consider the simplest case where <m>c = -1</m> in the transformation <m>z(x) = -f(x)</m>.  Here the impact of the transformation is to multiply every output of the parent function <m>f</m> by <m>-1</m>; this takes any point of form <m>(x,y)</m> and transforms it to <m>(x,-y)</m>, which means we are reflecting each point on the original function's graph across the <m>x</m>-axis to generate the resulting function's graph.  This is demonstrated in <xref ref="F-transformations-vert-stretch-2">Figure</xref> where <m>y = z(x)</m> is the reflection of <m>y = f(x)</m> across the <m>x</m>-axis.
+			</p>
+
+			<p>
+				Finally, we also investigate the case where <m>c = -2</m>, which generates <m>y = w(x) = -2f(x)</m>.  Here we can think of <m>-2</m> as <m>-2 = 2(-1)</m>: the effect of multiplying by <m>-1</m> first reflects the graph of <m>f</m> across the <m>x</m>-axis (resulting in <m>w</m>), and then multiplying by <m>2</m> stretches the graph of <m>z</m> vertically to result in <m>w</m>, as shown in <xref ref="F-transformations-vert-stretch-2">Figure</xref>.
+			</p>
+
+  		</solution>
+  	</example>
+
+	<p>
+		As with vertical and horizontal translation, it's particularly instructive to see the effects of vertical scaling in a dynamic way.  
+	</p>
+
+	<figure xml:id="F-transformations-vertical-scaling">
+		<caption>Interactive vertical scaling demonstration (in the HTML version only).</caption>
+
+		<interactive xml:id="I-transformations-vertical-scaling" platform="javascript" width="75%" aspect="4:5" source = "interactives/figures.js interactives/transformationsS.js" preview="images/transformations-interactive-S-static.jpg">
+			<slate xml:id="sslider" aspect="4:1" surface="canvas" />
+			<slate xml:id="stretching" aspect="4:4" surface="canvas" />
+			<instructions>
+				<p>
+					Move the slider by clicking and dragging on the red point to see how changing <m>c</m> affects the graph of <m>y = cf(x)</m>, which is shown in blue.  The graph of <m>y = f(x)</m> will appear in grey and remain fixed. 
+				</p>
+			</instructions>
+		</interactive>
+	</figure> 
+
+  	<p>
+  		We summarize and generalize our observations from <xref ref="ex-transformations-vert-stretch">Example</xref> and <xref ref="F-transformations-vertical-scaling">Figure</xref> as follows.
+  	</p>
+
+  	<assemblage xref="asm-transformations-vertical-stretch">
+  		<title>Vertical scaling</title>
+  		<idx><h>transformation of a function</h><h>vertical scaling</h></idx>
+  		<p>
+  			Given a function <m>y = f(x)</m> and a real number <m>c \gt 0</m>, the transformed function <m>y = v(x) = cf(x)</m> is a <em>vertical stretch</em> of the graph of <m>f</m>.  Every point <m>(x,f(x))</m> on the graph of <m>f</m> gets stretched vertically to the corresponding point <m>(x,cf(x))</m> on the graph of <m>v</m>.  If <m>0 \lt c \lt 1</m>, the graph of <m>v</m> is a compression of <m>f</m> toward the <m>x</m>-axis; if <m>c \gt 1</m>, the graph of <m>v</m> is a stretch of <m>f</m> away from the <m>x</m>-axis.  Points where <m>f(x) = 0</m> are unchanged by the transformation.
+  		</p>
+
+  		<p>
+  			Given a function <m>y = f(x)</m> and a real number <m>c \lt 0</m>, the transformed function <m>y = v(x) = cf(x)</m> is a reflection of the graph of <m>f</m> across the <m>x</m>-axis followed by a vertical stretch by a factor of <m>|c|</m>.
+  		</p>
+  	</assemblage>
+  	
+	<xi:include href="./activities/act-changing-transformations-vert-stretch.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-changing-transformations-combining">
+  	<title>Combining shifts and stretches: why order sometimes matters</title>
+
+	<p>
+		In the final question of <xref ref="act-changing-transformations-vert-stretch">Activity</xref>, we considered the transformation <m>y = m(x) = 2r(x+1)-1</m> of the original function <m>r</m>.  There are three different basic transformations involved: a vertical shift of <m>1</m> unit down, a horizontal shift of <m>1</m> unit left, and a vertical stretch by a factor of <m>2</m>.  To understand the order in which these transformations are applied, it's essential to remember that a function is a <em>process</em> that converts inputs to outputs.
+	</p>
+
+	<p>
+		By the algebraic rule for <m>m</m>, <m>m(x) = 2r(x+1)-1</m>.  In words, this means that given an input <m>x</m> for <m>m</m>, we do the following processes in this particular order:
+
+		<ol>
+			<li>
+				<p>
+					add <m>1</m> to <m>x</m> and then 
+					apply the function <m>r</m> to the quantity <m>x+1</m>;
+				</p>
+			</li>
+			<li>
+				<p>
+					multiply the output of <m>r(x+1)</m> by <m>2</m>;
+				</p>
+			</li>
+			<li>
+				<p>
+					subtract <m>1</m> from the output of <m>2r(x+1)</m>.
+				</p>
+			</li>
+		</ol>
+
+		These three steps correspond to three basic transformations:  (1) shift the graph of <m>r</m> to the left by <m>1</m> unit; (2) stretch the resulting graph vertically by a factor of <m>2</m>; (3) shift the resulting graph vertically by <m>-1</m> units.  We can see the graphical impact of these algebraic steps by taking them one at a time.  In <xref ref="F-transformations-combined-order-2">Figure</xref>, we see the function <m>p</m> that results from a shift <m>1</m> unit left of the parent function in <xref ref="F-transformations-combined-order-1">Figure</xref>.  (Each time we take an additional step, we will de-emphasize the preceding function by having it appear in lighter color and dashed.)
+	</p>
+
+			<sidebyside width="50%">
+				<figure xml:id="F-transformations-combined-order-1">
+					<caption>The parent function <m>y = r(x)</m>.</caption>
+					<image source="images/transformations-combined-order-1" />
+				</figure>
+				<figure xml:id="F-transformations-combined-order-2">
+					<caption>The parent function <m>y = r(x)</m> along with the horizontal shift <m>y = p(x) = r(x+1)</m>.</caption>
+					<image source="images/transformations-combined-order-2" />
+				</figure>
+			</sidebyside>
+
+	<p>
+		Continuing, we now consider the function <m>q(x) = 2p(x) = 2r(x+1)</m>, which results in a vertical stretch of <m>p</m> away from the <m>x</m>-axis by a factor of <m>2</m>, as seen in <xref ref="F-transformations-combined-order-3">Figure</xref>. 
+	</p>
+
+			<sidebyside width="50%">
+				<figure xml:id="F-transformations-combined-order-3">
+					<caption>The function <m>y = q(x) = 2p(x) = 2r(x+1)</m> along with graphs of <m>p</m> and <m>r</m>.</caption>
+					<image source="images/transformations-combined-order-3" />
+				</figure>
+				<figure xml:id="F-transformations-combined-order-4">
+					<caption>The function <m>y = m(x) = q(x)-1 = 2r(x+1) - 1</m> along with graphs of <m>q</m>, <m>p</m> and <m>r</m>.</caption>
+					<image source="images/transformations-combined-order-4" />
+				</figure>
+			</sidebyside>
+
+	<p>
+		Finally, we arrive at <m>y = m(x) = 2r(x+1) - 1</m> by subtracting <m>1</m> from <m>q(x) = 2r(x+1)</m>; this of course is a vertical shift of <m>-1</m> units, and produces the graph of <m>m</m> shown in red in <xref ref="F-transformations-combined-order-4">Figure</xref>.  We can also track the point <m>(2,-1)</m> on the original parent function:  it first moves left <m>1</m> unit to <m>(1,-1)</m>, then it is stretched vertically by a factor of <m>2</m> away from the <m>x</m>-axis to <m>(1,-2)</m>, and lastly is shifted <m>1</m> unit down to the point <m>(1,-3)</m>, which we see on the graph of <m>m</m>.
+	</p>
+
+	<p>
+		While there are some transformations that can be executed in either order (such as a combination of a horizontal translation and a vertical translation, as seen in part (b) of <xref ref="act-changing-transformations-translations">Activity</xref>), in other situations order matters.  For instance, in our preceding discussion, we have to apply the vertical stretch <em>before</em> applying the vertical shift.  Algebraically, this is because 
+		<me>
+			2r(x+1) - 1 \ne 2[r(x+1)-1]
+		</me>.
+		The quantity <m>2r(x+1) - 1</m> multiplies the function <m>r(x+1)</m> by <m>2</m> first (the stretch) and then the vertical shift follows; the quantity <m>2[r(x+1) - 1]</m> shifts the function <m>r(x+1)</m> down <m>1</m> unit first, and then executes a vertical stretch by a factor of <m>2</m>.  In the latter scenario, the point <m>(1,-1)</m> that lies on <m>r(x+1)</m> gets transformed first to <m>(1,-2)</m> and then to <m>(1,-4)</m>, which is not the same as the point <m>(1,-3)</m> that lies on <m>m(x) = 2r(x+1) - 1</m>.
+	</p>
+
+	<xi:include href="./activities/act-changing-transformations-combined.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-changing-transformations-summary">
+  	<title>Summary</title>
+  	<p>
+  		<ul>
+  			<li>
+  				<p>
+  					The graph of <m>y = g(x) = af(x-b) + c</m> is related to the graph of <m>y = f(x)</m> by a sequence of transformations.  First, there is horizontal shift of <m>|b|</m> units to the right (<m>b \gt 0</m>) or left (<m>b \lt 0</m>).  Next, there is a vertical stretch by a factor of <m>|a|</m> (along with a reflection across <m>y = 0</m> in the case where <m>a \lt 0</m>).  Finally, there's a vertical shift of <m>c</m> units.
+  				</p>
+  			</li>
+  			<li>
+  				<p>
+  					A transformation of a given function <m>f</m> is a process by which the graph may be shifted or stretched to generate a new, related function with fundamentally the same shape.  In this section we considered four different ways this can occur: through a horizontal translation (shift), through a reflection across the line <m>y = 0</m> (the <m>x</m>-axis), through a vertical scaling (stretch) that multiplies every output of a function by the same constant, and through a vertical translation (shift).  Each of these individual processes is itself a transformation, and they may be combined in various ways to create more complicated transformations.
+  				</p>
+  			</li>
+  		</ul>
+  	</p>
+  </subsection>
+
+  <xi:include href="./exercises/ez-changing-transformations.xml" />
+
+  <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
+  <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
+</section>
+

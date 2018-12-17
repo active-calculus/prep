@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-poly-polynomial-applications">
+  <title>Modeling with polynomial functions</title>
+
+  <objectives>
+  	<ul>
+  		<li>
+  			<p>
+  				Why do polynomials arise naturally in the study of problems involving the volume and surface area of three-dimensional containers such as boxes and cylinders?
+  			</p>
+  		</li>
+      <li>
+        <p>
+          How can polynomial functions be used to approximate non-polynomial curves and functions?
+        </p>
+      </li>
+  	</ul>
+  </objectives>
+
+  <introduction>
+  	<p>
+  		Polynomial functions are the simplest of all functions in mathematics in part because they only involve multiplication and addition.  In any applied setting where we can formulate key ideas using only those arithmetic operations, it's natural that polynomial functions model the corresponding phenomena.  For example, in <xref ref="act-changing-functions-spherical-tank">Activity</xref>, we saw that for a spherical tank of radius <m>4</m> m filling with water, the volume of water in the tank at a given instant, <m>V</m>, is a function of the depth, <m>h</m>, of the water in the tank at the same moment according to the formula
+  		<me>
+        	V = f(h) = \frac{\pi}{3} h^2(12-h)
+      	</me>.
+      	The function <m>f</m> is a polynomial of degree <m>3</m> with a repeated zero at <m>h = 0</m> and an additional zero at <m>h = 12</m>.  Because the tank has a radius of <m>4</m>, its total height is <m>h</m>, and thus the model <m>V = f(h) = \frac{\pi}{3} h^2(12-h)</m> is only valid on the domain <m>0 \le h \le 8</m>.  This polynomial function tells us how the volume of water in the tank changes as <m>h</m> changes.
+  	</p>
+
+  	<p>
+  		In other similar situations where we consider the volume of a box, tank, or other three-dimensional container, polynomial functions frequently arise.  To develop a model function that represents a physical situation, we almost always begin by drawing one or more diagrams of the situation and then introduce one or more variables to represent quantities that are changing.  From there, we explore relationships that are present and work to express one of the quantities in terms of the other(s).
+  	</p>
+
+  	<xi:include href="./previews/PA-poly-polynomial-applications.xml" />
+
+  </introduction>
+
+  <subsection xml:id="subsec-poly-polynomial-applications-volume">
+  	<title>Volume, surface area, and constraints</title>
+  	<p>
+  		In <xref ref="PA-poly-polynomial-applications">Preview Activity</xref>, we worked with a rectangular box being built by folding cardboard.  One of the key principles we needed to use was the fact that the volume of a rectangular box of length <m>l</m>, width <m>w</m>, and height <m>h</m> is
+      <men xml:id="eq-polynomial-applications-volume-box">
+        V = lwh
+      </men>.  <idx><h>rectangular box</h><h>volume</h></idx>  <idx><h>volume</h><h>box</h></idx>
+    </p>
+
+    <sidebyside valign="bottom">
+      <figure xml:id="F-polynomial-applications-box">
+        <caption>A rectangular box.</caption>
+        <image source="images/polynomial-applications-box" />
+      </figure>
+      <figure xml:id="F-polynomial-applications-cylinder">
+        <caption>A circular cylinder.</caption>
+        <image source="images/polynomial-applications-cylinder" />
+      </figure>
+    </sidebyside>
+
+    <p>
+      One way to remember the formula for the area of a rectangular box is <q>area of the base times the height</q>.  This principle extends to other three-dimensional shapes that have constant cross-sectional area.  For instance, the volume of a circular cylinder with radius <m>r</m> and height <m>h</m> is
+      <men xml:id="eq-polynomial-applications-volume-cylinder">
+        V = \pi r^2 h
+      </men> <idx><h>circular cylinder</h><h>volume</h></idx>  <idx><h>volume</h><h>cylinder</h></idx>
+      since the area of the base is <m>\pi r^2</m>.
+  	</p>
+
+    <p>
+      We'll also often consider the surface area of a three-dimensional container.  For a rectangular box with side lengths of <m>l</m>, <m>w</m>, and <m>h</m>, its surface area consists of <m>3</m> pairs of rectangles:  the top and bottom, each of area <m>lw</m>, the two sides that are the front and back when we look right at the box, each of area <m>lh</m>, and the remaining two sides of area <m>wh</m>.  Thus the total surface area of the box is 
+      <men xml:id="eq-polynomial-applications-SA-box"> <idx><h>rectangular box</h><h>surface area</h></idx>  <idx><h>surface area</h><h>box</h></idx>
+        SA = 2lw + 2lh + 2wh
+      </men>.  
+      For a circular cylinder, its surface area is the sum of the areas of the top and bottom (<m>\pi r^2</m> each), plus the area of the <q>sides</q>.  If we think of cutting the cylinder vertically and unfurling it, the resulting figure is a rectangle whose dimensions are the height of the cylinder, <m>h</m>, by the circumference of the base, <m>2\pi r</m>.  The rectangle's area is therefore <m>2\pi r \cdot h</m>, and hence the total surface area of a cylinder is
+      <men xml:id="eq-polynomial-applications-SA-cylinder">
+        SA = 2\pi r^2 + 2\pi r h
+      </men>. <idx><h>circular cylinder</h><h>surface area</h></idx> <idx><h>surface area</h><h>cylinder</h></idx>
+    </p>
+
+    <p>
+      Each of the volume and surface area equations (<xref ref="eq-polynomial-applications-volume-box">Equation</xref>, <xref ref="eq-polynomial-applications-volume-cylinder">Equation</xref>, <xref ref="eq-polynomial-applications-SA-box">Equation</xref>, and <xref ref="eq-polynomial-applications-SA-cylinder">Equation</xref>) involve only multiplication and addition, and thus have the potential to result in polynomial functions.  At present, however, each of these equations involves at least two variables.  The inclusion of additional constraints can enable us to use these formulas to generate polynomial functions of a single variable.
+    </p>
+
+    <xi:include href="./activities/act-poly-polynomial-applications-postal.xml" />
+
+    <xi:include href="./activities/act-poly-polynomial-applications-soup.xml" />
+    
+  </subsection>
+
+  <subsection xml:id="subsec-poly-polynomial-applications-other">
+    <title>Other applications of polynomial functions</title>
+
+    <p>
+      A different use of polynomial functions arises with <em>Bezier curves</em>.  <idx><h>Bezier curves</h></idx>  The most common type of Bezier curve used in applications is the cubic Bezier curve, which is a curve given parametrically by a formula of the form <m>(x(t), y(t))</m>, where
+      <me>
+        x(t) = (1-t)^3 x_0 + 3(1-t^2)t x_1 + 3(1-t^2)t x_2 + t^3 x_3
+      </me>
+      and
+      <me>
+        y(t) = (1-t)^3 y_0 + 3(1-t^2)t y_1 + 3(1-t)t^2 y_2 + t^3 y_3 )
+      </me>.
+      The curve passes through the points <m>A = (x_0,y_0)</m> and <m>B = (x_3, y_3)</m> and the points <m>C = (x_1, y_1)</m> and <m>D = (x_2, y_2)</m> are called <em>control points</em>.  At <url href="http://gvsu.edu/s/0zC">http://gvsu.edu/s/0zC</url>, you can explore the effects of moving the control points (in gray) and the points on the curve (in black) to generate different curves in the plane, similar to the one shown in <xref ref="F-polynomial-applications-Bezier">Figure</xref>.  
+    </p>
+
+    <sidebyside widths="60% 40%">
+      <figure xml:id="F-polynomial-applications-Bezier">
+        <caption>A cubic Bezier curve with control points in gray.</caption>
+        <image source="images/polynomial-applications-bezier" width="125%" />
+      </figure>
+      <figure xml:id="F-polynomial-applications-Bezier-letter">
+        <caption>The letter S in Palatino font, generated by Bezier curves.</caption>
+        <image source="images/polynomial-applications-bezier-letter" width="50%" />
+      </figure>
+    </sidebyside>
+    
+    <p>
+      The main issue to realize is that the form of the curve depends on a special family of cubic polynomials:
+      <me>
+        (1-t)^3, 3(1-t^2)t, 3(1-t^2)t, \text{ and } t^3
+      </me>.
+      These four cubic polynomials play a key role in graphic design and are used in all sorts of important ways, including in font design, as seen in <xref ref="F-polynomial-applications-Bezier-letter">Figure</xref>.
+    </p>
+
+    <p>
+      Another important application of polynomial functions is found in how they can be used to approximate the sine and cosine functions.
+    </p>
+
+    <xi:include href="./activities/act-poly-polynomial-applications-Taylor.xml" />
+
+  </subsection>
+
+  <subsection xml:id="subsec-poly-polynomial-applications-summary">
+    <title>Summary</title>
+    <ul>
+      <li>
+        <p>
+          Polynomials arise naturally in the study of problems involving the volume and surface area of three-dimensional containers such as boxes and cylinders because these formulas fundamentally involve sums and products of variables.  For instance, the volume of a cylinder is <m>V = \pi r^2 h</m>.  In the presence of a surface area constraint that tells us that <m>h = \frac{100-2\pi r^2}{2\pi r}</m>, it follows that 
+          <me>
+            V = \pi r^2 \frac{100-2\pi r^2}{2\pi r} = r(50-\pi r^2)
+          </me>,
+          which is a cubic polynomial.
+        </p>
+      </li>
+      <li>
+        <p>
+          Polynomial functions be used to approximate non-polynomial curves and functions in many different ways.  One example is found in cubic Bezier curves which use a collection of <em>control points</em> to enable the user to manipulate curves to pass through select points in such a way that the curve first travels in a certain direction.  Another example is in the remarkable approximation of non-polynomial functions like the sine function, as given by
+          <me>
+            \sin(x) \approx x - \frac{1}{3!}x^3 + \frac{1}{5!}x^5 - \frac{1}{7!}x^7 
+          </me>,
+          where the approximation is good for <m>x</m>-values near <m>x = 0</m>.
+        </p>
+      </li>
+    </ul>
+  </subsection>
+
+  <xi:include href="./exercises/ez-poly-polynomial-applications.xml" />
+
+  <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
+  <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
+</section>
+

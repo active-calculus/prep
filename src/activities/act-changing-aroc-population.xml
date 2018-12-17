@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-aroc-population">
+
+	<statement>
+		<p>
+	      	According to the US census,
+      		the populations of Kent and Ottawa Counties (Grand Rapids is in Kent, Allenale in Ottawa) from 1960 to 2010 measured in <m>10</m>-year intervals are given in the following tables.
+    	</p>
+
+    		<table xml:id="T-act-changing-aroc-population-Kent">
+    			<caption>Kent County population data.</caption>
+    			<tabular>
+			      <row bottom="minor">
+			        <cell>1960</cell>
+			        <cell>1970</cell>
+			        <cell>1980</cell>
+			        <cell>1990</cell>
+			        <cell>2000</cell>
+			        <cell>2010</cell>
+			      </row>
+			      <row>
+			        <cell>363,187</cell>
+			        <cell>411,044</cell>
+			        <cell>444,506</cell>
+			        <cell>500,631</cell>
+			        <cell>574,336</cell>
+			        <cell>602,622</cell>
+			      </row>
+    			</tabular>
+    		</table>
+
+    		<table xml:id="T-act-changing-aroc-population-Ottawa">
+    			<caption>Ottawa county population data.</caption>
+    			<tabular>
+			      <row bottom="minor">
+			        <cell>1960</cell>
+			        <cell>1970</cell>
+			        <cell>1980</cell>
+			        <cell>1990</cell>
+			        <cell>2000</cell>
+			        <cell>2010</cell>
+			      </row>
+			      <row>
+			        <cell>98,719</cell>
+			        <cell>128,181</cell>
+			        <cell>157,174</cell>
+			        <cell>187,768</cell>
+			        <cell>238,313</cell>
+			        <cell>263,801</cell>
+			      </row>
+			    </tabular>
+    		</table>
+
+		<p>
+			Let <m>K(Y)</m> represent the population of Kent County in year <m>Y</m> and <m>W(Y)</m> the population of Ottawa County in year Y.
+		</p>
+
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						Compute <m>AV_{[1990,2010]}</m> for both <m>K</m> and <m>O</m>.
+					</p>
+				</li>
+				<li>
+			        <p>
+			            What are the units on each of the quantities you computed in (a.)?
+			        </p>
+			    </li>
+			    <li>
+			    	<p>
+			    		Write a careful sentence that explains the meaning of the average rate of change of the Ottawa county population on the time interval <m>[1990,2010]</m>.  Your sentence should begin something like
+            			<q>In an average year between 1990 and 2010, the population of Ottawa County was <m>\ldots</m></q>
+			    	</p>
+			    </li>
+			    <li>
+			    	<p>
+			    		Which county had a greater average rate of change during the time interval <m>[2000,2010]</m>?
+            			Were there any intervals in which one of the counties had a negative average rate of change?
+			    	</p>
+			    </li>
+			    <li>
+			    	<p>
+			    		Using the given data, what do you predict will be the population of Ottawa County in 2018? Why?
+			    	</p>
+			    </li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

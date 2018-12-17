@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-finding-angles-rocket">
+
+	<statement>
+	    <p>
+	      A camera is tracking the launch of a SpaceX rocket.
+	      The camera is located <m>4000</m>' from the rocket's launching pad,
+	      and the camera elevates in order to keep the rocket in focus.
+	      At what angle, <m>\theta</m>
+	      (in radians),
+	      is the camera tilted when the rocket is <m>3000</m>' off the ground?
+	      Answer both exactly and approximately.
+	    </p>
+
+	    <p>
+	      Now, rather than considering the rocket at a fixed height of <m>3000</m>', let its height vary and call the rocket's height <m>h</m>.
+	      Determine the camera's angle,
+	      <m>\theta</m> as a function of <m>h</m>,
+	      and compute the average rate of change of <m>\theta</m> on the intervals <m>[3000,3500]</m>,
+	      <m>[5000,5500]</m>, and <m>[7000,7500]</m>.
+	      What do you observe about how the camera angle is changing?
+	    </p>
+
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

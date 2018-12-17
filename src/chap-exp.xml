@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="C-exp">
+  	<title>Exponential and Logarithmic Functions</title>
+  
+  	<xi:include  href="./sec-exp-growth.xml" />
+  	<xi:include  href="./sec-exp-modeling.xml" />
+  	<xi:include  href="./sec-exp-e.xml" />
+  	<xi:include  href="./sec-exp-log.xml" />
+  	<xi:include  href="./sec-exp-log-properties.xml" />
+  	<xi:include  href="./sec-exp-temp-pop.xml" />
+
+</chapter>
+
