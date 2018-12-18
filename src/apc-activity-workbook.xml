@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2018                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Preparation for Calculus.                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+<mathbook xmlns:xi="http://www.w3.org/2001/XInclude">
+    <!-- Has LaTeX macros, which may be needed       -->
+    <!-- May have some unnecessary stuff, but OK now -->
+  <xi:include href="./bookinfo.xml" />
+    <!-- a small hack until "line" element is available -->
+    <!-- the use of \\ assumes LaTeX output only        -->
+    <!-- https://github.com/rbeezer/mathbook/issues/640 -->
+  <book xml:id="apc-activity-workbook">
+      <!--    <title>Activities Workbook\\for\\[0.3\baselineskip]Active Preparation for Calculus</title>-->
+               <title>Activities Workbook for Active Preparation for Calculus</title>
+    <frontmatter>
+      <xi:include href="./titlepage.xml" />
+      <xi:include href="./colophon.xml" />
+
+      <preface>
+        <p>
+          This Activities Workbook for <pubtitle>Active Preparation for Calculus</pubtitle> collects all the Preview Activities and Activities in a way that each starts on a new page.
+          The Activities Workbook is designed to be used by students who wish to have a complete set of the activities to work through as they read the book in an electronic format and for instructors who wish to have a one activity per page format to make printing for distribution in class easier.
+        </p>
+
+        <p>
+          The design of this workbook is such that each Preview Activity and Activity starts on a right-hand page.
+          As a result,
+          most left-hand pages in this workbook are intentionally left blank as a place for student work associated with one of the adjacent activities.
+        </p>
+      </preface>
+    </frontmatter>
+
+    <xi:include href="./chap-changing.xml" />
+    <xi:include href="./chap-circular.xml" />
+    <xi:include href="./chap-exp.xml" />
+    <xi:include href="./chap-trig.xml" />
+    <xi:include href="./chap-poly.xml" />
+    <xi:include href="./backmatter.xml" />
+  </book>
+</mathbook>
+
