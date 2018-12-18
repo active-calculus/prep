@@ -1,8 +1,8 @@
 ## ********************************************************************* ##
-## Copyright 2016--2018                                                  ##
+## Copyright 2018                                                        ##
 ## Matt Boelkins                                                         ##
 ##                                                                       ##
-## This file is part of Active Calculus                                  ##
+## This file is part of Active Preparation for Calculu                   ##
 ##                                                                       ##
 ## ********************************************************************* ##
 
@@ -38,7 +38,7 @@ MB =
 
 # Directory for HTML version
 # Example:
-#HTMLOUT = /Users/alex.jordan/active-calculus-single-mbx/html
+#HTMLOUT = /Users/alex.jordan/prep/output/html
 HTMLOUT =
 
 # Directory for Jing-Trang validator

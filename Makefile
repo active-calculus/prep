@@ -1,8 +1,8 @@
 ## ********************************************************************* ##
-## Copyright 2016--2018                                                  ##
+## Copyright 2018                                                        ##
 ## Matt Boelkins                                                         ##
 ##                                                                       ##
-## This file is part of Active Calculus                                  ##
+## This file is part of Active Preparation for Calculus                  ##
 ##                                                                       ##
 ## ********************************************************************* ##
 
@@ -69,8 +69,8 @@ IMAGESSRC = $(PRJSRC)/images
 
 # The project's main hub file
 MAINFILE  = $(PRJSRC)/index.xml
-SOLNMAIN = $(PRJSRC)/acs-solution-manual.xml
-WKBKMAIN = $(PRJSRC)/acs-activity-workbook.xml
+SOLNMAIN = $(PRJSRC)/apc-solution-manual.xml
+WKBKMAIN = $(PRJSRC)/apc-activity-workbook.xml
 
 # These paths are subdirectories of
 # the Mathbook XML distribution
@@ -177,6 +177,7 @@ pdf: #acs-merge
 	-cp -a $(WWOUT)/*.png $(PDFOUT)/images
 	install -d $(MBUSR)
 	install -b xsl/apc-latex.xsl $(MBUSR)
+	install -b xsl/apc-common.xsl $(MBUSR)
 	cp -a $(IMAGESSRC) $(PDFOUT)
 	cd $(PDFOUT); \
 	xsltproc -xinclude $(MBUSR)/apc-latex.xsl $(MAINFILE); \
@@ -192,19 +193,19 @@ pdf: #acs-merge
 soln-latex:
 	install -d $(SOLNOUT)
 	install -d $(MBUSR)
-	install -b xsl/acs-solution-manual.xsl $(MBUSR)
+	install -b xsl/apc-solution-manual.xsl $(MBUSR)
+	install -b xsl/apc-common.xsl $(MBUSR)
 	-rm $(SOLNOUT)/*.tex
 	cp -a $(IMAGESSRC) $(SOLNOUT)
 	cd $(SOLNOUT); \
-	xsltproc -xinclude $(MBUSR)/acs-solution-manual.xsl $(SOLNMAIN) \
+	xsltproc -xinclude $(MBUSR)/apc-solution-manual.xsl $(SOLNMAIN) \
 
 # Solutions manual for PDF
 # Automatically builds LaTeX source for solutions manual
 soln-pdf: soln-latex
 	cd $(SOLNOUT); \
-	sed -i ".bak" -f ../../change-documentclass-soln-man.sed acs-solution-manual.tex; \
-	xelatex acs-solution-manual; \
-	xelatex acs-solution-manual
+	xelatex apc-solution-manual; \
+	xelatex apc-solution-manual
 
 
 # Activity workbook (LaTeX only for PDF)
@@ -215,19 +216,19 @@ soln-pdf: soln-latex
 workbook-latex:
 	install -d $(WKBKOUT)
 	install -d $(MBUSR)
-	install -b xsl/acs-activity-workbook.xsl $(MBUSR)
+	install -b xsl/apc-activity-workbook.xsl $(MBUSR)
+	install -b xsl/apc-common.xsl $(MBUSR)
 	-rm $(WKBKOUT)/*.tex
 	cp -a $(IMAGESSRC) $(WKBKOUT)
 	cd $(WKBKOUT); \
-	xsltproc -xinclude $(MBUSR)/acs-activity-workbook.xsl $(WKBKMAIN) \
+	xsltproc -xinclude $(MBUSR)/apc-activity-workbook.xsl $(WKBKMAIN) \
 
 # Activity workbook for PDF
 # Automatically builds LaTeX source for solutions manual
 workbook-pdf: workbook-latex
 	cd $(WKBKOUT); \
-	sed -i ".bak" -f ../../change-documentclass-soln-man.sed acs-activity-workbook.tex; \
-	xelatex acs-activity-workbook; \
-	xelatex acs-activity-workbook
+	xelatex apc-activity-workbook; \
+	xelatex apc-activity-workbook
 
 
 ###########
