@@ -191,13 +191,13 @@
 					\frac{18}{11} = \frac{ab^5}{ab^2}
 				</me>.
 				Simplifying the fraction on the right, we see that 
-				<me>
+				<m>
 					\frac{18}{11} = b^3
-				</me>.
+				</m>.
 				Solving for <m>b</m>, we find that <m>b = \sqrt[3]{\frac{18}{11}}</m> is the exact value of <m>b</m>.  Substituting this value for <m>b</m> in <xref ref="eq-growth-p-2">Equation</xref>, it then follows that <m>a \left( \sqrt[3]{\frac{18}{11}} \right)^2 = 11</m>, so 
-				<me>
+				<m>
 					a = \frac{11}{\left( \frac{18}{11} \right)^{2/3}}
-				</me>.  Therefore,
+				</m>.  Therefore,
 				<me>
 					p(t) = \frac{11}{\left( \frac{18}{11} \right)^{2/3}} \left( \sqrt[3]{\frac{18}{11}} \right)^t \approx 7.9215 \cdot 1.1784^t
 				</me>, and a plot of <m>y = p(t)</m> confirms that the function indeed passes through <m>(2,11)</m> and <m>(5,18)</m> as shown in <xref ref="F-ex-growth-find-a-b">Figure</xref>.
@@ -205,7 +205,7 @@
 
 			<figure xml:id="F-ex-growth-find-a-b">
 				<caption>Plot of <m>p(t) = ab^t</m> that passes through <m>(2,11)</m> and <m>(5,18)</m>.</caption>
-				<image source="images/growth-find-a-b" width="50%" />
+				<image source="images/growth-find-a-b" width="45%" />
 			</figure>
 		</solution>
 	</example>

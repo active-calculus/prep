@@ -24,7 +24,43 @@
   </exercise>
 -->
 
+  <exercise xml:id="ez-poly-infty-comparisons">
+    <statement>
+      <p>
+        We've observed that several different familiar functions grow without bound as <m>x \to \infty</m>, including <m>f(x) = \ln(x)</m>, <m>g(x) = x^2</m>, and <m>h(x) = e^x</m>.  In this exercise, we compare and contrast how these three functions grow.
+      </p>
 
+      <p>
+        <ol label="a.">
+          <li>
+            <p>
+              Use a computational device to compute decimal expressions for <m>f(10)</m>, <m>g(10)</m>, and <m>h(10)</m>, as well as <m>f(100)</m>, <m>g(100)</m>, and <m>h(100)</m>.  What do you observe?
+            </p>
+          </li>
+          <li>
+            <p>
+              For each of <m>f</m>, <m>g</m>, and <m>h</m>, how large an input is needed in order to ensure that the function's output value is at least <m>10^{10}</m>?  What do these values tell us about how each function grows?
+            </p>
+          </li>
+          <li>
+            <p>
+              Consider the new function <m>r(x) = \frac{g(x)}{h(x)} = \frac{x^2}{e^x}</m>.  Compute <m>r(10)</m>, <m>r(100)</m>, and <m>r(1000)</m>.  What do the results suggest about the long-range behavior of <m>r</m>?  What is surprising about this, in light of the fact that both <m>x^2</m> and <m>e^x</m> grow without bound?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise> 
 
   <exercise xml:id="ez-poly-infty-transformations">
     <statement>
@@ -85,43 +121,7 @@
     </solution>
   </exercise>
 
-  <exercise xml:id="ez-poly-infty-comparisons">
-    <statement>
-      <p>
-        We've observed that several different familiar functions grow without bound as <m>x \to \infty</m>, including <m>f(x) = \ln(x)</m>, <m>g(x) = x^2</m>, and <m>h(x) = e^x</m>.  In this exercise, we compare and contrast how these three functions grow.
-      </p>
-
-      <p>
-        <ol label="a.">
-          <li>
-            <p>
-              Use a computational device to compute decimal expressions for <m>f(10)</m>, <m>g(10)</m>, and <m>h(10)</m>, as well as <m>f(100)</m>, <m>g(100)</m>, and <m>h(100)</m>.  What do you observe?
-            </p>
-          </li>
-          <li>
-            <p>
-              For each of <m>f</m>, <m>g</m>, and <m>h</m>, how large an input is needed in order to ensure that the function's output value is at least <m>10^{10}</m>?  What do these values tell us about how each function grows?
-            </p>
-          </li>
-          <li>
-            <p>
-              Consider the new function <m>r(x) = \frac{g(x)}{h(x)} = \frac{x^2}{e^x}</m>.  Compute <m>r(10)</m>, <m>r(100)</m>, and <m>r(1000)</m>.  What do the results suggest about the long-range behavior of <m>r</m>?  What is surprising about this, in light of the fact that both <m>x^2</m> and <m>e^x</m> grow without bound?
-            </p>
-          </li>
-        </ol>
-      </p>
-    </statement>
-    <answer>
-      <p>
-        Exercise Answer
-      </p>
-    </answer>
-    <solution>
-      <p>
-        Exercise Solution
-      </p>
-    </solution>
-  </exercise>  
+ 
 
   <exercise xml:id="ez-poly-infty-frac-powers">
     <statement>

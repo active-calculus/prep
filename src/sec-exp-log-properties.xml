@@ -144,17 +144,17 @@
 		<solution>
 			<p>
 				To solve for <m>t</m>, we first solve for <m>e^t</m>.  Adding <m>1</m> to both sides and dividing by <m>7</m>, we find that
-				<me>
+				<m>
 					3^t = \frac{6}{7}
-				</me>.
+				</m>.
 				Next, we take the natural logarithm of both sides of the equation.  Doing so, we have
 				<me>
 					\ln \left( 3^t \right) =  \ln \left( \frac{6}{7} \right)
 				</me>.
 				Applying the rule for the logarithm of an exponential expression on the left, we see that
-				<me>
+				<m>
 					t \ln(3) = \ln \left( \frac{6}{7} \right)
-				</me>.
+				</m>.
 				Both <m>\ln(3)</m> and <m>\ln \left( \frac{6}{7} \right)</m> are simply numbers, and thus we conclude that
 				<me>
 					t = \frac{\ln(3)}{\ln \left( \frac{6}{7} \right)}

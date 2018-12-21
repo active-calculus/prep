@@ -209,7 +209,7 @@
   <subsection xml:id="subsec-poly-polynomials-multiplicity">
   	<title>Multiplicity of polynomial zeros</title>
   	<p>
-  		In <xref ref="act-poly-polynomials-sign-chart">Activity</xref>, we found that one of the zeros of the polynomial <m>p(x) = 4692(x+1520)(x^2+10000)(x−3471)^2(x−9738)</m> leads to different behavior of the function near that zero than we've seen in other situations.  We now consider the more general situation where a polynomial has a repeated factor of the form <m>(x-r)^n</m>.  When <m>(x-r)^n</m> is a factor of a polynomial <m>p</m>, we say that <m>p</m> has a <term>zero of multiplicity <m>n</m></term> at <m>x = r</m>.  <idx><h>polynomial</h><h>zero of multiplicity <m>n</m></h></idx>
+  		In <xref ref="act-poly-polynomials-sign-chart">Activity</xref>, we found that one of the zeros of the polynomial <m>p(x) = 4692(x + 1520)(x^2 + 10000)(x − 3471)^2 (x − 9738)</m> leads to different behavior of the function near that zero than we've seen in other situations.  We now consider the more general situation where a polynomial has a repeated factor of the form <m>(x-r)^n</m>.  When <m>(x-r)^n</m> is a factor of a polynomial <m>p</m>, we say that <m>p</m> has a <term>zero of multiplicity <m>n</m></term> at <m>x = r</m>.  <idx><h>polynomial</h><h>zero of multiplicity <m>n</m></h></idx>
   	</p>
 
   	<p>
@@ -220,43 +220,50 @@
   		Next we consider the degree <m>4</m> polynomial <m>g(x) = x^3 (x-1)</m>, which has a zero of multiplicity <m>3</m> at <m>x = 0</m> and a zero of multiplicity <m>1</m> at <m>x = 1</m>.
   	</p>
 
-  	<sidebyside width="33%">
-  		<figure xml:id="F-polynomial-4A">
-  			<caption>A plot of <m>g(x) = x^3(x-1)</m> with zero <m>x = 0</m> of multiplicity <m>3</m> and <m>x = 1</m> of multiplicity <m>1</m>.</caption>
-  			<image source="images/polynomial-3-1" />
-  		</figure>
-  		<figure xml:id="F-polynomial-4A-mult-3">
-  			<caption>A plot of <m>g(x) = x^3(x-1)</m> zoomed in on the zero <m>x = 0</m> of multiplicity <m>3</m>.</caption>
-  			<image source="images/polynomial-3-1-3" />
-  		</figure>
-  		<figure  xml:id="F-polynomial-4A-mult-1">
-  			<caption>A plot of <m>g(x) = x^3(x-1)</m> zoomed in on the zero <m>x = 1</m> of multiplicity <m>1</m>.</caption>
-  			<image source="images/polynomial-3-1-1" />
-  		</figure>
-  	</sidebyside>
+      <figure xml:id="F-polynomial-4A">
+        <caption>A plot of <m>g(x) = x^3(x-1)</m> with zero <m>x = 0</m> of multiplicity <m>3</m> and <m>x = 1</m> of multiplicity <m>1</m>.</caption>
+        <image source="images/polynomial-3-1" width="50%" />
+      </figure>
+
 
 	<p>
 		Observe that in <xref ref="F-polynomial-4A-mult-3">Figure</xref>, the up-close plot near the zero <m>x = 0</m> of multiplicity <m>3</m>, the polynomial function <m>g</m> looks similar to the basic cubic polynomial <m>-x^3</m>.  In addition, in <xref ref="F-polynomial-4A-mult-1">Figure</xref>, we observe that if we zoom in even futher on the zero of multiplicity <m>1</m>, the function <m>g</m> looks roughly linear, like a degree <m>1</m> polynomial.  This type of behavior near repeated zeros turns out to hold in other cases as well.
 	</p>
 
-	<p>
-		If we next let <m>h(x) = x^2 (x-1)^2</m>, we see that <m>h</m> has two distinct real zeros, each of multiplicity <m>2</m>.  The graph of <m>h</m> in <xref ref="F-polynomial-4B">Figure</xref> shows that <m>h</m> behaves similar to a basic quadratic function near each of those zeros and thus shows U-shaped behavior nearby.  If instead we let <m>k(x) = x^2(x-1)(x+1)</m>, we see approximately linear behavior near <m>x = -1</m> and <m>x = 1</m> (the zeros of multiplicity <m>1</m>), and quadratic (U-shaped) behavior near <m>x = 0</m> (the zero of multiplicity <m>2</m>), as seen in <xref ref="F-polynomial-4C">Figure</xref>.  Finally, if we consider <m>m(x) = (x+1)x(x-1)(x-2)</m>, which has <m>4</m> distinct real zeros each of multiplicity <m>1</m>, we observe in <xref ref="F-polynomial-4D">Figure</xref> that zooming in on each zero individually, the function demonstrates approximately linear behavior as it passes through the <m>x</m>-axis.
-	</p>
+    <sidebyside width="45%">
+      <figure xml:id="F-polynomial-4A-mult-3">
+        <caption>A plot of <m>g(x) = x^3(x-1)</m> zoomed in on the zero <m>x = 0</m> of multiplicity <m>3</m>.</caption>
+        <image source="images/polynomial-3-1-3" width="50%" />
+      </figure>
+      <figure  xml:id="F-polynomial-4A-mult-1">
+        <caption>A plot of <m>g(x) = x^3(x-1)</m> zoomed in on the zero <m>x = 1</m> of multiplicity <m>1</m>.</caption>
+        <image source="images/polynomial-3-1-1" width="50%" />
+      </figure>
+    </sidebyside>
 
-  	<sidebyside width="33%">
+	<p>
+		If we next let <m>h(x) = x^2 (x-1)^2</m>, we see that <m>h</m> has two distinct real zeros, each of multiplicity <m>2</m>.  The graph of <m>h</m> in <xref ref="F-polynomial-4B">Figure</xref> shows that <m>h</m> behaves similar to a basic quadratic function near each of those zeros and thus shows U-shaped behavior nearby.  If instead we let <m>k(x) = x^2(x-1)(x+1)</m>, we see approximately linear behavior near <m>x = -1</m> and <m>x = 1</m> (the zeros of multiplicity <m>1</m>), and quadratic (U-shaped) behavior near <m>x = 0</m> (the zero of multiplicity <m>2</m>), as seen in <xref ref="F-polynomial-4C">Figure</xref>.  
+  </p>  
+
+  	<sidebyside width="45%">
   		<figure xml:id="F-polynomial-4B">
   			<caption>Plot of <m>h(x) = x^2 (x-1)^2</m> with zeros <m>x = 0</m> and <m>x = 1</m> of multiplicity <m>2</m>.</caption>
-  			<image source="images/polynomial-2-2" />
+  			<image source="images/polynomial-2-2" width="50%" />
   		</figure>
   		<figure xml:id="F-polynomial-4C">
   			<caption>Plot of <m>k(x) = x^2(x-1)(x+1)</m> with zeros <m>x = 0</m> of multiplicity <m>2</m> and <m>x = -1</m> and <m>x = 1</m> of multiplicity <m>1</m>.</caption>
-  			<image source="images/polynomial-2-1-1" />
-  		</figure>
-  		<figure  xml:id="F-polynomial-4D">
-  			<caption>Plot of <m>m(x) = (x+1)x(x-1)(x-2)</m> with <m>4</m> distinct zeros of multiplicity <m>1</m>.</caption>
-  			<image source="images/polynomial-1-1-1-1" />
+  			<image source="images/polynomial-2-1-1" width="50%" />
   		</figure>
   	</sidebyside>
+
+  <p>
+    Finally, if we consider <m>m(x) = (x+1)x(x-1)(x-2)</m>, which has <m>4</m> distinct real zeros each of multiplicity <m>1</m>, we observe in <xref ref="F-polynomial-4D">Figure</xref> that zooming in on each zero individually, the function demonstrates approximately linear behavior as it passes through the <m>x</m>-axis.
+  </p>
+
+      <figure  xml:id="F-polynomial-4D">
+        <caption>Plot of <m>m(x) = (x+1)x(x-1)(x-2)</m> with <m>4</m> distinct zeros of multiplicity <m>1</m>.</caption>
+        <image source="images/polynomial-1-1-1-1" width="50%" />
+      </figure>
 
   	<p>
   		Our observations with polynomials of degree <m>4</m> in the various figures above generalize to polynomials of any degree.

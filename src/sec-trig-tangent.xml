@@ -77,20 +77,20 @@
   <subsection xml:id="subsec-trig-tangent-two-persp">
   	<title>Two perspectives on the tangent function</title>
 
-  	<p>
-  		Because the tangent function is defined in terms of the two fundamental circular functions by the rule <m>\tan(t) = \frac{\sin(t)}{\cos(t)}</m>, we can use our understanding of the sine and cosine functions to make sense of the tangent function.  In particular, we can think of the tangent of an angle from two different perspectives: as an angle in standard position in the unit circle, or as an angle in a right triangle.
-  	</p>
-
   	<sidebyside>
   		<figure xml:id="F-tan-defn-unit-circle">
   			<caption>An angle <m>t</m> in standard position in the unit circle that intercepts an arc from <m>(1,0)</m> to <m>(a,b).</m></caption>
-  			<image source="images/tan-defn-unit-circle" width="50%"/>
+  			<image source="images/tan-defn-unit-circle" width="45%"/>
   		</figure>
   		<figure xml:id="F-tan-right-triangle-TOA">
   			<caption>A right triangle with legs adjacent and opposite angle <m>\theta</m>.</caption>
-  			<image source="images/right-triangle-SOH-CAH-TOA" width="50%" />
+  			<image source="images/right-triangle-SOH-CAH-TOA" width="45%" />
   		</figure>
   	</sidebyside>
+
+  	<p>
+  		Because the tangent function is defined in terms of the two fundamental circular functions by the rule <m>\tan(t) = \frac{\sin(t)}{\cos(t)}</m>, we can use our understanding of the sine and cosine functions to make sense of the tangent function.  In particular, we can think of the tangent of an angle from two different perspectives: as an angle in standard position in the unit circle, or as an angle in a right triangle.
+  	</p>
 
   	<p>
   		From the viewpoint of <xref ref="F-tan-defn-unit-circle">Figure</xref>, as the point corresponding to angle <m>t</m> traverses the circle and generates the point <m>(a,b)</m>, we know <m>\cos(t) = a</m> and <m>\sin(t) = b</m>, and therefore the tangent function tracks the ratio of these two quantities, given by
@@ -117,13 +117,13 @@
 	  	<me>
 	  		\tan \left( \frac{\pi}{6} \right) = \frac{ \sin \left( \frac{\pi}{6} \right) }{ \cos \left( \frac{\pi}{6} \right) } = \frac{ \frac{1}{2} }{ \frac{\sqrt{3}}{2} } = \frac{1}{\sqrt{3}}
 	  	</me>.
-	  	Executing similar computations for every familiar special angle on the unit circle, we find the results shown in <xref ref="T-tangent-values">Table</xref>.  We also note that anywhere <m>\cos(t) = 0</m>, the value of <m>\tan(t)</m> is undefined.  We record such instances in the table by writing <q><m>u</m></q>.
+	  	Executing similar computations for every familiar special angle on the unit circle, we find the results shown in <xref ref="T-tangent-values">Table</xref> and <xref ref="T-tangent-values-2">Table</xref>.  We also note that anywhere <m>\cos(t) = 0</m>, the value of <m>\tan(t)</m> is undefined.  We record such instances in the table by writing <q><m>u</m></q>.
 	  </p>
 
     				<table xml:id="T-tangent-values">
 						<caption>Values of the sine, cosine, and tangent functions at special points on the unit circle.</caption>
 						<tabular>
-							<row halign="center">
+							<row halign="center" bottom="minor">
 								<cell><m>t</m></cell>
 								<cell><m>0</m></cell>
 								<cell><m>\frac{\pi}{6}</m></cell>
@@ -133,37 +133,9 @@
 								<cell><m>\frac{2\pi}{3}</m></cell>
 								<cell><m>\frac{3\pi}{4}</m></cell>
 								<cell><m>\frac{5\pi}{6}</m></cell>
-								<cell><m>\pi</m></cell>		
-								<cell><m>\frac{7\pi}{6}</m></cell>
-								<cell><m>\frac{5\pi}{4}</m></cell>
-								<cell><m>\frac{4\pi}{3}</m></cell>
-								<cell><m>\frac{3\pi}{2}</m></cell>
-								<cell><m>\frac{5\pi}{3}</m></cell>
-								<cell><m>\frac{7\pi}{4}</m></cell>
-								<cell><m>\frac{11\pi}{6}</m></cell>
-								<cell><m>2\pi</m></cell>						
+								<cell><m>\pi</m></cell>								
 							</row>
-							<row bottom="minor">
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-							<row halign="center">
+							<row halign="center" bottom="minor">
 								<cell><m>\sin(t)</m></cell>
 								<cell><m>0</m></cell>
 								<cell><m>\frac{1}{2}</m></cell>
@@ -174,36 +146,8 @@
 								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
 								<cell><m>\frac{1}{2}</m></cell>
 								<cell><m>0</m></cell>
-								<cell><m>-\frac{1}{2}</m></cell>
-								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
-								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
-								<cell><m>-1</m></cell>
-								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
-								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
-								<cell><m>-\frac{1}{2}</m></cell>
-								<cell><m>0</m></cell>
 							</row>
-							<row bottom="minor">
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-							<row halign="center">
+							<row halign="center" bottom="minor">
 								<cell><m>\cos(t)</m></cell>
 								<cell><m>1</m></cell>
 								<cell><m>\frac{\sqrt{3}}{2}</m></cell>
@@ -214,45 +158,9 @@
 								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
 								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
 								<cell><m>-1</m></cell>
-								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
-								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
-								<cell><m>-\frac{1}{2}</m></cell>
-								<cell><m>0</m></cell>
-								<cell><m>\frac{1}{2}</m></cell>
-								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
-								<cell><m>\frac{\sqrt{3}}{2}</m></cell>
-								<cell><m>0</m></cell>
 							</row>
-							<row bottom="minor">
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-								<cell></cell>
-							</row>
-							<row halign="center">
+							<row halign="center" bottom="minor">
 								<cell><m>\tan(t)</m></cell>
-								<cell><m>0</m></cell>
-								<cell><m>\frac{1}{\sqrt{3}}</m></cell>
-								<cell><m>1</m></cell>
-								<cell><m>\frac{3}{\sqrt{3}}</m></cell>
-								<cell><m>u</m></cell>
-								<cell><m>-\frac{3}{\sqrt{3}}</m></cell>
-								<cell><m>-1</m></cell>
-								<cell><m>-\frac{1}{\sqrt{3}}</m></cell>
 								<cell><m>0</m></cell>
 								<cell><m>\frac{1}{\sqrt{3}}</m></cell>
 								<cell><m>1</m></cell>
@@ -266,8 +174,58 @@
 						</tabular>
 					</table>
 
+    				<table xml:id="T-tangent-values-2">
+						<caption>Values of the sine, cosine, and tangent functions at special points on the unit circle.</caption>
+						<tabular>
+							<row halign="center" bottom="minor">
+								<cell><m>t</m></cell>		
+								<cell><m>\frac{7\pi}{6}</m></cell>
+								<cell><m>\frac{5\pi}{4}</m></cell>
+								<cell><m>\frac{4\pi}{3}</m></cell>
+								<cell><m>\frac{3\pi}{2}</m></cell>
+								<cell><m>\frac{5\pi}{3}</m></cell>
+								<cell><m>\frac{7\pi}{4}</m></cell>
+								<cell><m>\frac{11\pi}{6}</m></cell>
+								<cell><m>2\pi</m></cell>						
+							</row>
+							<row halign="center" bottom="minor">
+								<cell><m>\sin(t)</m></cell>
+								<cell><m>-\frac{1}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>-1</m></cell>
+								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>-\frac{1}{2}</m></cell>
+								<cell><m>0</m></cell>
+							</row>
+							<row halign="center" bottom="minor">
+								<cell><m>\cos(t)</m></cell>
+								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>-\frac{1}{2}</m></cell>
+								<cell><m>0</m></cell>
+								<cell><m>\frac{1}{2}</m></cell>
+								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>0</m></cell>
+							</row>
+							<row halign="center">
+								<cell><m>\tan(t)</m></cell>
+								<cell><m>\frac{1}{\sqrt{3}}</m></cell>
+								<cell><m>1</m></cell>
+								<cell><m>\frac{3}{\sqrt{3}}</m></cell>
+								<cell><m>u</m></cell>
+								<cell><m>-\frac{3}{\sqrt{3}}</m></cell>
+								<cell><m>-1</m></cell>
+								<cell><m>-\frac{1}{\sqrt{3}}</m></cell>
+								<cell><m>0</m></cell>
+							</row>							
+						</tabular>
+					</table>					
+
 		<p>
-			<xref ref="T-tangent-values">Table</xref> helps us identify trends in the tangent function.  For instance, we observe that the sign of <m>\tan(t)</m> is positive in Quadrant I, negative in Quadrant II, positive in Quadrant III, and negative in Quadrant IV.  This holds because the sine and cosine functions have the same sign in the first and third quadrants, and opposite signs in the other two quadrants.  
+			<xref ref="T-tangent-values">Table</xref> and <xref ref="T-tangent-values-2">Table</xref> helps us identify trends in the tangent function.  For instance, we observe that the sign of <m>\tan(t)</m> is positive in Quadrant I, negative in Quadrant II, positive in Quadrant III, and negative in Quadrant IV.  This holds because the sine and cosine functions have the same sign in the first and third quadrants, and opposite signs in the other two quadrants.  
 		</p>
 
 		<p>

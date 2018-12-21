@@ -43,7 +43,7 @@
 
 	<figure xml:id="F-circular-sine-all-16">
 		<caption>The unit circle with <m>16</m> labeled special points.</caption>
-		<image source="images/unit-circle-16-all-labeled" />
+		<image source="images/unit-circle-16-all-labeled" width="80%"/>
 	</figure>
   	
 	<p>
@@ -239,7 +239,7 @@
 
 	<figure xml:id="F-sine-cosine-both">
 		<caption>Graphs of the sine and cosine functions.</caption>
-		<image source="images/sine-and-cosine-graphs" />
+		<image source="images/sine-and-cosine-graphs" width="80%" />
 	</figure>
 
 	<p>

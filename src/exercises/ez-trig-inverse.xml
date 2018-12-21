@@ -164,15 +164,22 @@
             </p>
           </li>
           <li>
-            <sidebyside>
               <p>
                 Since the arcsine function produces an angle, let's say that <m>\theta = \arcsin(x)</m>,  so that <m>\theta</m> is the angle whose sine is <m>x</m>.  By definition, we can picture <m>\theta</m> as an angle in a right triangle with hypotenuse <m>1</m> and a vertical leg of length <m>x</m>, as shown in <xref ref="F-inv-trig-cosarcsin">Figure</xref>.  Use the Pythagorean Theorem to determine the length of the horizontal leg as a function of <m>x</m>.
               </p>
 
+            <sidebyside width="45%">
+
               <figure xml:id="F-inv-trig-cosarcsin">
                 <caption>The right triangle that corresponds to the angle <m>\theta = \arcsin(x)</m>.</caption>
-                <image source="images/inv-trig-cosarcsin" />
+                <image source="images/inv-trig-cosarcsin" width="50%" />
               </figure>
+
+              <figure xml:id="F-inv-trig-cosarctan">
+                  <caption>The right triangle that corresponds to the angle <m>\alpha = \arctan(x)</m>.</caption>
+                  <image source="images/inv-trig-cosarctan" width="50%" />
+              </figure>
+
             </sidebyside>
           </li>
           <li>
@@ -182,16 +189,9 @@
           </li>
 
           <li>
-            <sidebyside>
               <p>
                 How about the function <m>p(x) = \cos(\arctan(x))</m>?  How can you reason similarly to write <m>p</m> in a way that doesn't involve any trigonometric functions at all?  (Hint:  let <m>\alpha = \arctan(x)</m> and consider the right triangle in <xref ref="F-inv-trig-cosarctan">Figure</xref>.)
               </p>
-
-              <figure xml:id="F-inv-trig-cosarctan">
-                  <caption>The right triangle that corresponds to the angle <m>\alpha = \arctan(x)</m>.</caption>
-                  <image source="images/inv-trig-cosarctan" width="50%" />
-              </figure>
-            </sidebyside>
           </li>
         </ol>
       </p>

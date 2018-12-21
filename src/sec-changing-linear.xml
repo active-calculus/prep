@@ -140,6 +140,10 @@
 		Indeed, writing <m>m = \frac{y-y_0}{x-x_0}</m> is a rearrangement of the point-slope form of the line, <m>y = y_0 + m(x-x_0)</m>.	
 	</p>
 
+	<p>
+		We naturally use the terms <q>increasing</q> and <q>decreasing</q> as from <xref ref="D-aroc-increasing-decreasing">Definition</xref> to describe lines based on whether their slope is positive or negative.  A line with positive slope, such as the one in <xref ref="F-linear-point-slope">Figure</xref>, is increasing because its constant rate of change is positive, while a line with negative slope, such as in <xref ref="F-linear-slope-intercept">Figure</xref> is decreasing because of its negative rate of change.  We say that a horizontal line (one whose slope is <m>m = 0</m>) is neither increasing nor decreasing.
+	</p>
+
 	<sidebyside width="50%">
 		<figure xml:id="F-linear-point-slope">
 			<caption>The point-slope form of a line's equation.</caption>
@@ -150,10 +154,6 @@
 			<image source="images/linear-slope-intercept" width="50%"/>
 		</figure>		
 	</sidebyside>
-
-	<p>
-		We naturally use the terms <q>increasing</q> and <q>decreasing</q> as from <xref ref="D-aroc-increasing-decreasing">Definition</xref> to describe lines based on whether their slope is positive or negative.  A line with positive slope, such as the one in <xref ref="F-linear-point-slope">Figure</xref>, is increasing because its constant rate of change is positive, while a line with negative slope, such as in <xref ref="F-linear-slope-intercept">Figure</xref> is decreasing because of its negative rate of change.  We say that a horizontal line (one whose slope is <m>m = 0</m>) is neither increasing nor decreasing.
-	</p>
 
 	<p>	
 		A special case arises when the known point on a line satisfies <m>x_0 = 0</m>.  In this situation, the known point lies on the <m>y</m>-axis, and thus we call the point the <q><m>y</m>-intercept</q> of the line. <idx><h>line</h><h><m>y</m>-intercept</h></idx>  The resulting form of the line's equation is called <em>slope-intercept form</em>, which is also demonstrated in <xref ref="F-linear-slope-intercept">Figure</xref>.
@@ -222,12 +222,9 @@
   				Recall that <m>T</m> is measured in degrees Fahrenheit and <m>N</m> in chirps per minute.  We know that <m>m = AV_{[a,b]} = 0.25</m> is the constant average rate of change of <m>D</m>.  Its units are <q>units of output per unit of input</q>, and thus <q>degrees Fahrenheit per chirp per minute</q>.  This tells us that the average rate of change of the temperature function is <m>0.25</m> degrees Fahrenheit per chirp per minute, which means that for each additional chirp per minute observed, we expect the temperature to rise by <m>0.25</m> degrees Fahrenheit.
   			</p>
 
-  			<p>
-  				Indeed, we can observe this through function values.  We note that <m>T(60) = 55</m> and <m>T(61) = 55.25</m>:  one additional observed chirp per minute corresponds to a <m>0.25</m> degree increase in temperature.  We also see this in the graph of the line, as seen in <xref ref="F-linear-ex-Dolbear-slope">Figure</xref>:  
-  			</p>
-
-			<sidebyside>
+			<sidebyside width="50%">
 				<p>
+					Indeed, we can observe this through function values.  We note that <m>T(60) = 55</m> and <m>T(61) = 55.25</m>:  one additional observed chirp per minute corresponds to a <m>0.25</m> degree increase in temperature.  We also see this in the graph of the line, as seen in <xref ref="F-linear-ex-Dolbear-slope">Figure</xref>:
 					the slope between the points <m>(40,50)</m> and <m>(120,70)</m> is
 	  				<md>
 	  					<mrow>m &amp;= \frac{70-50}{120-40}</mrow>
@@ -238,7 +235,7 @@
 				
 				<figure xml:id="F-linear-ex-Dolbear-slope">
   					<caption>The linear Dolbear function with slope <m>m = 0.25</m> degrees Fahrenheit per chirp per minute.</caption>
-  					<image width="50%" source="images/linear-Dolbears-Law-slope" />
+  					<image width="45%" source="images/linear-Dolbears-Law-slope" />
   				</figure>
 			</sidebyside>
 

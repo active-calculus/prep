@@ -261,35 +261,37 @@
   				To discuss the properties of the three inverse trigonometric functions, we plot them on the same axes as their corresponding restricted trigonometric functions.  When we do so, we use <m>t</m> as the input variable for both functions simultaneously so that we can plot them on the same coordinate axes.
   			</p>
 
+          <p>
+            The domain of <m>y = g^{-1}(t) = \arccos(t)</m> is <m>[-1,1]</m> with corresponding range <m>[0,\pi]</m>, and the arccosine function is always decreasing.  These facts correspond to the domain and range of the restricted cosine function and the fact that the restricted cosine function is decreasing on <m>[0,\pi]</m>.
+          </p>
+
   			<sidebyside valign="middle">
-  				<p>
-  					The domain of <m>y = g^{-1}(t) = \arccos(t)</m> is <m>[-1,1]</m> with corresponding range <m>[0,\pi]</m>, and the arccosine function is always decreasing.  These facts correspond to the domain and range of the restricted cosine function and the fact that the restricted cosine function is decreasing on <m>[0,\pi]</m>.
-  				</p>
+
   				<figure xml:id="F-inverse-trig-arccosine-graph">
   					<caption>The restricted cosine function (in light blue) and its inverse, <m>y = g^{-1}(t) = \arccos(t)</m> (in dark blue).</caption>
-  					<image source="images/inverse-trig-arccos-graph" />
+  					<image source="images/inverse-trig-arccos-graph" width="50%" />
   				</figure>
+
+          <figure xml:id="F-inverse-trig-arcsine-graph">
+            <caption>The restricted sine function (in light blue) and its inverse, <m>y = f^{-1}(t) = \arcsin(t)</m> (in dark blue).</caption>
+            <image source="images/inverse-trig-arcsin-graph" width="50%" />
+          </figure>
+
  			</sidebyside>
 
- 			<sidebyside valign="middle">
   				<p>
   					The domain of <m>y = f^{-1}(t) = \arcsin(t)</m> is <m>[-1,1]</m> with corresponding range <m>[-\frac{\pi}{2}, \frac{\pi}{2}]</m>, and the arcsine function is always increasing.  These facts correspond to the domain and range of the restricted sine function and the fact that the restricted sine function is increasing on <m>[-\frac{\pi}{2},\frac{\pi}{2}]</m>.
   				</p>
-  				<figure xml:id="F-inverse-trig-arcsine-graph">
-  					<caption>The restricted sine function (in light blue) and its inverse, <m>y = f^{-1}(t) = \arcsin(t)</m> (in dark blue).</caption>
-  					<image source="images/inverse-trig-arcsin-graph" />
-  				</figure>
- 			</sidebyside>
-
- 			<sidebyside valign="middle">
+  				
   				<p>
   					The domain of <m>y = f^{-1}(t) = \arctan(t)</m> is the set of all real numbers with corresponding range <m>(-\frac{\pi}{2}, \frac{\pi}{2})</m>, and the arctangent function is always increasing.  These facts correspond to the domain and range of the restricted tangent function and the fact that the restricted tangent function is increasing on <m>(-\frac{\pi}{2},\frac{\pi}{2})</m>.
   				</p>
+
   				<figure xml:id="F-inverse-trig-arctangent-graph">
   					<caption>The restricted tangent function (in light blue) and its inverse, <m>y = h^{-1}(t) = \arctan(t)</m> (in dark blue).</caption>
-  					<image source="images/inverse-trig-arctan-graph" />
+  					<image source="images/inverse-trig-arctan-graph" width="50%" />
   				</figure>
- 			</sidebyside>
+
   		</li>
   	</ul>
   </subsection>

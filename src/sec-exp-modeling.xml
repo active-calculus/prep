@@ -39,9 +39,9 @@
   <introduction>
   	<p>
 		If a quantity changes so that its growth or decay occurs at a constant percentage rate with respect to time, the function is exponential.  This is because if the growth or decay rate is <m>r</m>, the total amount of the quantity at time <m>t</m> is given by
-		<me>
+		<m>
 			A(t) = a(1+r)^t
-		</me>,
+		</m>,
 		where <m>a</m> is the amount present at time <m>t = 0</m>.  Many different natural quantities change according to exponential models:  money growth through compounding interest, the growth of a population of cells, and the decay of radioactive elements.   
   	</p>
 
@@ -211,7 +211,7 @@
 
 	<figure xml:id="F-modeling-exp-reflection">
 		<caption>Plots of <m>p(t) = 2^t</m> and <m>q(t) = 2^{-t}</m>.</caption>
-		<image source="images/modeling-exp-reflection" width="50%" />
+		<image source="images/modeling-exp-reflection" width="45%" />
 	</figure>
 
 	<p>
@@ -229,11 +229,11 @@
 	<sidebyside>
 		<figure xml:id="F-modeling-vert-transl-0">
 			<caption>Plot of <m>f(t) = ab^t</m>.</caption>
-			<image source="images/modeling-vert-transl-0" />
+			<image source="images/modeling-vert-transl-0" width="45%" />
 		</figure>
 		<figure xml:id="F-modeling-vert-transl-c">
 			<caption>Plot of <m>g(t) = ab^t+c</m>.</caption>
-			<image source="images/modeling-vert-transl-c" />
+			<image source="images/modeling-vert-transl-c" width="45%" />
 		</figure>
 	</sidebyside>
 
@@ -339,10 +339,6 @@
 			Of course there is some measurement error in the data (plus it is only recorded to accuracy of whole degrees), so these computations provide convincing evidence that the underlying function is exponential.  In addition, we expect that if the data continued in the bottom row of <xref ref="T-modeling-exp-coffee-revis">Table</xref>, the values would approach <m>0</m> because <m>F(t)</m> will approach <m>71</m>.
 		</p>
 
-		<p>
-			If we choose two of the data points, say <m>(18,64)</m> and <m>(23,56)</m>, and assume that <m>f(t) = ab^t</m>, we can determine the values of <m>a</m> and <m>b</m>.  Doing so, it turns out that <m>a \approx 103.503</m> and <m>b \approx 0.974</m>, so <m>f(t) = 103.503 ( 0.974)^t</m>.  Since <m>f(t) = F(t) - 71</m>, we see that <m>F(t) = f(t) + 71</m>, so <m>F(t) = 103.503 (0.974)^t + 71</m>.  Plotting <m>f</m> against the shifted data and <m>F</m> along with the original data in <xref ref="F-modeling-coffee-shifted">Figure</xref> and <xref ref="F-modeling-coffee-original">Figure</xref>, we see that the curves go exactly through the points where <m>t = 18</m> and <m>t = 23</m> as expected, but also that the function provides a reasonable model for the observed behavior at any time <m>t</m>.  If our data was even more accurate, we would expect that the curve's fit would be even better.
-		</p>
-
 		<sidebyside>
 			<figure xml:id="F-modeling-coffee-shifted">
 				<caption>Plot of <m>f(t) = 103.503 (0.974)^t</m>.</caption>
@@ -355,6 +351,10 @@
 		</sidebyside>
 
 		<p>
+			If we choose two of the data points, say <m>(18,64)</m> and <m>(23,56)</m>, and assume that <m>f(t) = ab^t</m>, we can determine the values of <m>a</m> and <m>b</m>.  Doing so, it turns out that <m>a \approx 103.503</m> and <m>b \approx 0.974</m>, so <m>f(t) = 103.503 ( 0.974)^t</m>.  Since <m>f(t) = F(t) - 71</m>, we see that <m>F(t) = f(t) + 71</m>, so <m>F(t) = 103.503 (0.974)^t + 71</m>.  Plotting <m>f</m> against the shifted data and <m>F</m> along with the original data in <xref ref="F-modeling-coffee-shifted">Figure</xref> and <xref ref="F-modeling-coffee-original">Figure</xref>, we see that the curves go exactly through the points where <m>t = 18</m> and <m>t = 23</m> as expected, but also that the function provides a reasonable model for the observed behavior at any time <m>t</m>.  If our data was even more accurate, we would expect that the curve's fit would be even better.
+		</p>
+
+		<p>
 			Our preceding work with the coffee data can be done similarly with data for any cooling or warming object whose temperature initially differs from its surroundings.  Indeed, it is possible to show that Newton's Law of Cooling implies that the object's temperature is given by a function of the form <m>F(t) = ab^t + c</m>.
 		</p>
 
@@ -365,7 +365,7 @@
   </subsection>
 
   <subsection xml:id="subsec-exp-modeling-summary">
-  	<Title>Summary</Title>
+  	<title>Summary</title>
 
   	<ul>
   		<li>

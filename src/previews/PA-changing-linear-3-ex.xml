@@ -16,9 +16,6 @@
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-changing-linear-3-ex">
 
 	<statement>
-		<p>
-			For each of the following functions, compute the average rate of change on the stated intervals.  What do you notice?
-		</p>
 
 		<p>
 			<ol label="a.">
@@ -77,7 +74,7 @@
 
 					<figure xml:id="F-PA-changing-linear-3-ex-3">
 						<caption>The graph of <m>y = h(x)</m>.</caption>
-						<image width="50%" source="images/linear-PA-ex-3" />
+						<image width="45%" source="images/linear-PA-ex-3" />
 					</figure>
 
 					<p>
