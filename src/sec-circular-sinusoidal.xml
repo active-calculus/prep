@@ -149,21 +149,21 @@
 
   	<figure xml:id="F-sinusoidal-sine-compressed">
   		<caption>A plot of the parent function, <m>f(t) = \sin(t)</m> (dashed, in gray), and the transformed function <m>g(t) = f(2t) = \sin(2t)</m> (in blue).</caption>
-  		<image source="images/sinusoidal-sine-horiz-scaling" />
+  		<image source="images/sinusoidal-sine-horiz-scaling" width="75%" />
   	</figure>
 
   	<p>
   		From the graph, we see that <m>g(t) = \sin(2t)</m> oscillates twice as frequently as <m>f(t) = \sin(t)</m>, and that <m>g</m> completes a full cycle on the interval <m>[0,\pi]</m>, which is half the length of the period of <m>f</m>.  Thus, the  <q><m>2</m></q> in <m>f(2t)</m> causes the period of <m>f</m> to be <m>\frac{1}{2}</m> as long; specifially, the period of <m>g</m> is <m>P = \frac{1}{2} (2\pi) = \pi</m>.
   	</p>
 
-  	<p>
-  		On the other hand, if we let <m>h(t) = f(\frac{1}{2}t) = \sin(\frac{1}{2}t)</m>, the transformed graph <m>h</m> is stretched away from the <m>y</m>-axis by a factor of <m>2</m>.  This has the effect of doubling the period of <m>f</m>, so that the period of <m>h</m> is <m>P = 2 \cdot 2\pi = 4\pi</m>, as seen in <xref ref="F-sinusoidal-sine-stretched">Figure</xref>.
-  	</p>
-
   	<figure xml:id="F-sinusoidal-sine-stretched">
   		<caption>A plot of the parent function, <m>f(t) = \sin(t)</m> (dashed, in gray), and the transformed function <m>h(t) = f(\frac{1}{2}t) = \sin(\frac{1}{2}t)</m> (in blue).</caption>
-  		<image source="images/sinusoidal-sine-horiz-scaling-2" />
+  		<image source="images/sinusoidal-sine-horiz-scaling-2" width="75%" />
   	</figure>
+
+    <p>
+      On the other hand, if we let <m>h(t) = f(\frac{1}{2}t) = \sin(\frac{1}{2}t)</m>, the transformed graph <m>h</m> is stretched away from the <m>y</m>-axis by a factor of <m>2</m>.  This has the effect of doubling the period of <m>f</m>, so that the period of <m>h</m> is <m>P = 2 \cdot 2\pi = 4\pi</m>, as seen in <xref ref="F-sinusoidal-sine-stretched">Figure</xref>.
+    </p>
 
   <p>
   	Our observations generalize for any positive constant <m>k \gt 0</m>.  In the case where <m>k = 2</m>, we saw that the period of <m>g(t) = \sin(2t)</m> is <m>P = \frac{1}{2} \cdot 2\pi</m>, whereas in the case where <m>k = \frac{1}{2}</m>, the period of <m>h(t) = \sin(\frac{1}{2}t)</m> is <m>P = 2 \cdot 2\pi = \frac{1}{\frac{1}{2}} \cdot 2\pi</m>.  Identical reasoning holds if we are instead working with the cosine function.  In general, we can say the following.

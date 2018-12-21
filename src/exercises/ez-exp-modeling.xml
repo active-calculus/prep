@@ -23,6 +23,49 @@
   </exercise>
 -->
 
+  <exercise xml:id="ez-exp-modeling-soda">
+    <statement>
+      <p>
+        A can of soda has been in a refrigerator for several days; the refrigerator has temperature <m>41^\circ</m> Fahrenheit.  Upon removal, the soda is placed on a kitchen table in a room with surrounding temperature <m>72^\circ</m>.  Let <m>F(t)</m> represent the soda's temperature in degrees Fahrenheit at time <m>t</m> in minutes, where <m>t = 0</m> corresponds to the time the can is removed from the refrigerator.  We know from Newton's Law of Cooling that <m>F</m> has form <m>F(t) = ab^t + c</m> for some constants <m>a</m>, <m>b</m>, and <m>c</m>, where <m>0 \lt b \lt 1</m>.
+      </p>
+
+      <p>
+        <ol label="a.">
+          <li>
+            <p>
+              What is the numerical value of the soda's initial temperature?  What is the value of <m>F(0)</m> in terms of <m>a</m>, <m>b</m>, and <m>c</m>?  What do these two observations tell us?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the numerical value of the soda's long-term temperature?  What is the long-term value of <m>F(t)</m> in terms of <m>a</m>, <m>b</m>, and <m>c</m>?  What do these two observations tell us?
+            </p>
+          </li>
+          <li>
+            <p>
+              Using your work in (a) and (b), determine the numerical values of <m>a</m> and <m>c</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Suppose it can be determined that <m>b = 0.931</m>.  What is the soda's temperature after <m>10</m> minutes?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
   <exercise xml:id="ez-exp-modeling-4-graphs">
     <statement>
       <p>
@@ -63,49 +106,6 @@
           </li>
         </ul>
       </p>      
-    </statement>
-    <answer>
-      <p>
-        Exercise Answer
-      </p>
-    </answer>
-    <solution>
-      <p>
-        Exercise Solution
-      </p>
-    </solution>
-  </exercise>
-
-  <exercise xml:id="ez-exp-modeling-soda">
-    <statement>
-      <p>
-        A can of soda has been in a refrigerator for several days; the refrigerator has temperature <m>41^\circ</m> Fahrenheit.  Upon removal, the soda is placed on a kitchen table in a room with surrounding temperature <m>72^\circ</m>.  Let <m>F(t)</m> represent the soda's temperature in degrees Fahrenheit at time <m>t</m> in minutes, where <m>t = 0</m> corresponds to the time the can is removed from the refrigerator.  We know from Newton's Law of Cooling that <m>F</m> has form <m>F(t) = ab^t + c</m> for some constants <m>a</m>, <m>b</m>, and <m>c</m>, where <m>0 \lt b \lt 1</m>.
-      </p>
-
-      <p>
-        <ol label="a.">
-          <li>
-            <p>
-              What is the numerical value of the soda's initial temperature?  What is the value of <m>F(0)</m> in terms of <m>a</m>, <m>b</m>, and <m>c</m>?  What do these two observations tell us?
-            </p>
-          </li>
-          <li>
-            <p>
-              What is the numerical value of the soda's long-term temperature?  What is the long-term value of <m>F(t)</m> in terms of <m>a</m>, <m>b</m>, and <m>c</m>?  What do these two observations tell us?
-            </p>
-          </li>
-          <li>
-            <p>
-              Using your work in (a) and (b), determine the numerical values of <m>a</m> and <m>c</m>.
-            </p>
-          </li>
-          <li>
-            <p>
-              Suppose it can be determined that <m>b = 0.931</m>.  What is the soda's temperature after <m>10</m> minutes?
-            </p>
-          </li>
-        </ol>
-      </p>
     </statement>
     <answer>
       <p>

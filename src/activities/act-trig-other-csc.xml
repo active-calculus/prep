@@ -29,8 +29,9 @@
 			<ol label="a.">
 				<li>
 					<p>
-						Complete <xref ref="T-cosecant-values">Table</xref> to determine the exact values of the cosecant function at the special points on the unit circle.  Enter <q><m>u</m></q> for any value at which <m>q(t) = \csc(t)</m> is undefined.
-					</p>						
+						Complete <xref ref="T-cosecant-values">Table</xref> and <xref ref="T-cosecant-values-2">Table</xref> to determine the exact values of the cosecant function at the special points on the unit circle.  Enter <q><m>u</m></q> for any value at which <m>q(t) = \csc(t)</m> is undefined.
+					</p>
+
     				<table xml:id="T-cosecant-values">
 						<caption>Values of the sine function at special points on the unit circle.</caption>
 						<tabular>
@@ -44,15 +45,7 @@
 								<cell><m>\frac{2\pi}{3}</m></cell>
 								<cell><m>\frac{3\pi}{4}</m></cell>
 								<cell><m>\frac{5\pi}{6}</m></cell>
-								<cell><m>\pi</m></cell>		
-								<cell><m>\frac{7\pi}{6}</m></cell>
-								<cell><m>\frac{5\pi}{4}</m></cell>
-								<cell><m>\frac{4\pi}{3}</m></cell>
-								<cell><m>\frac{3\pi}{2}</m></cell>
-								<cell><m>\frac{5\pi}{3}</m></cell>
-								<cell><m>\frac{7\pi}{4}</m></cell>
-								<cell><m>\frac{11\pi}{6}</m></cell>
-								<cell><m>2\pi</m></cell>						
+								<cell><m>\pi</m></cell>								
 							</row>
 							<row bottom="minor" halign="center">
 								<cell><m>\sin(t)</m></cell>
@@ -64,14 +57,6 @@
 								<cell><m>\frac{\sqrt{3}}{2}</m></cell>
 								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
 								<cell><m>\frac{1}{2}</m></cell>
-								<cell><m>0</m></cell>
-								<cell><m>-\frac{1}{2}</m></cell>
-								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
-								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
-								<cell><m>-1</m></cell>
-								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
-								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
-								<cell><m>-\frac{1}{2}</m></cell>
 								<cell><m>0</m></cell>
 							</row>
 							<row halign="center">
@@ -85,6 +70,37 @@
 								<cell><m></m></cell>
 								<cell><m></m></cell>
 								<cell><m></m></cell>
+							</row>							
+						</tabular>
+					</table>
+
+    				<table xml:id="T-cosecant-values-2">
+						<caption>Values of the sine function at special points on the unit circle.</caption>
+						<tabular>
+							<row bottom="minor" halign="center">
+								<cell><m>t</m></cell>		
+								<cell><m>\frac{7\pi}{6}</m></cell>
+								<cell><m>\frac{5\pi}{4}</m></cell>
+								<cell><m>\frac{4\pi}{3}</m></cell>
+								<cell><m>\frac{3\pi}{2}</m></cell>
+								<cell><m>\frac{5\pi}{3}</m></cell>
+								<cell><m>\frac{7\pi}{4}</m></cell>
+								<cell><m>\frac{11\pi}{6}</m></cell>
+								<cell><m>2\pi</m></cell>						
+							</row>
+							<row bottom="minor" halign="center">
+								<cell><m>\sin(t)</m></cell>
+								<cell><m>-\frac{1}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>-1</m></cell>
+								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>-\frac{1}{2}</m></cell>
+								<cell><m>0</m></cell>
+							</row>
+							<row halign="center">
+								<cell><m>\csc(t)</m></cell>
 								<cell><m></m></cell>
 								<cell><m></m></cell>
 								<cell><m></m></cell>

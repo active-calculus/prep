@@ -173,15 +173,7 @@
 								<cell><m>\frac{2\pi}{3}</m></cell>
 								<cell><m>\frac{3\pi}{4}</m></cell>
 								<cell><m>\frac{5\pi}{6}</m></cell>
-								<cell><m>\pi</m></cell>		
-								<cell><m>\frac{7\pi}{6}</m></cell>
-								<cell><m>\frac{5\pi}{4}</m></cell>
-								<cell><m>\frac{4\pi}{3}</m></cell>
-								<cell><m>\frac{3\pi}{2}</m></cell>
-								<cell><m>\frac{5\pi}{3}</m></cell>
-								<cell><m>\frac{7\pi}{4}</m></cell>
-								<cell><m>\frac{11\pi}{6}</m></cell>
-								<cell><m>2\pi</m></cell>						
+								<cell><m>\pi</m></cell>								
 							</row>
 							<row bottom="minor" halign="center">
 								<cell><m>\cos(t)</m></cell>
@@ -194,14 +186,6 @@
 								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
 								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
 								<cell><m>-1</m></cell>
-								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
-								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
-								<cell><m>-\frac{1}{2}</m></cell>
-								<cell><m>0</m></cell>
-								<cell><m>\frac{1}{2}</m></cell>
-								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
-								<cell><m>\frac{\sqrt{3}}{2}</m></cell>
-								<cell><m>0</m></cell>
 							</row>
 							<row halign="center">
 								<cell><m>\sec(t)</m></cell>
@@ -214,6 +198,37 @@
 								<cell><m>-\sqrt{2}</m></cell>
 								<cell><m>-\frac{2}{\sqrt{3}}</m></cell>
 								<cell><m>-1</m></cell>
+							</row>							
+						</tabular>
+					</table>
+
+					<table xml:id="T-secant-values-2">
+						<caption>Values of the cosine and secant functions at special points on the unit circle (continued).</caption>
+						<tabular>
+							<row bottom="minor" halign="center">
+								<cell><m>t</m></cell>		
+								<cell><m>\frac{7\pi}{6}</m></cell>
+								<cell><m>\frac{5\pi}{4}</m></cell>
+								<cell><m>\frac{4\pi}{3}</m></cell>
+								<cell><m>\frac{3\pi}{2}</m></cell>
+								<cell><m>\frac{5\pi}{3}</m></cell>
+								<cell><m>\frac{7\pi}{4}</m></cell>
+								<cell><m>\frac{11\pi}{6}</m></cell>
+								<cell><m>2\pi</m></cell>						
+							</row>
+							<row bottom="minor" halign="center">
+								<cell><m>\cos(t)</m></cell>
+								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>-\frac{1}{2}</m></cell>
+								<cell><m>0</m></cell>
+								<cell><m>\frac{1}{2}</m></cell>
+								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>0</m></cell>
+							</row>
+							<row halign="center">
+								<cell><m>\sec(t)</m></cell>
 								<cell><m>-\frac{2}{\sqrt{3}}</m></cell>
 								<cell><m>-\sqrt{2}</m></cell>
 								<cell><m>-2</m></cell>
@@ -227,7 +242,7 @@
 					</table>
 
 		<p>
-			<xref ref="T-secant-values">Table</xref> helps us identify trends in the secant function.  The sign of <m>\sec(t)</m> matches the sign of <m>\cos(t)</m> and thus is positive in Quadrant I, negative in Quadrant II, negative in Quadrant III, and positive in Quadrant IV.    
+			<xref ref="T-secant-values">Table</xref> and <xref ref="T-secant-values-2">Table</xref> help us identify trends in the secant function.  The sign of <m>\sec(t)</m> matches the sign of <m>\cos(t)</m> and thus is positive in Quadrant I, negative in Quadrant II, negative in Quadrant III, and positive in Quadrant IV.    
 		</p>
 
 		<p>

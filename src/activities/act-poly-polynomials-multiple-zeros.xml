@@ -32,6 +32,13 @@
 						A polynomial <m>p</m> of degree <m>9</m> that satisfies <m>p(0) = -2</m> and <m>p</m> has the graph shown in <xref ref="F-polynomial-degree-9">Figure</xref>.  Assume that all of the zeros of <m>p</m> are shown in the figure.
 					</p>
 
+					
+				</li>
+				<li>
+					<p>
+						A polynomial <m>q</m> of degree <m>8</m> with <m>3</m> distinct real zeros (possibly of different multiplicities) such that <m>q</m> has the sign chart in <xref ref="F-polynomial-sign-chart-2">Figure</xref> and satisfies <m>q(0) = -10</m>. 
+					</p>
+
 					<sidebyside valign="middle">
 						<figure xml:id="F-polynomial-degree-9">
 							<caption>
@@ -44,11 +51,7 @@
 							<image source="images/poly-sign-chart-2" width="50%" />
 						</figure>
 					</sidebyside>
-				</li>
-				<li>
-					<p>
-						A polynomial <m>q</m> of degree <m>8</m> with <m>3</m> distinct real zeros (possibly of different multiplicities) such that <m>q</m> has the sign chart in <xref ref="F-polynomial-sign-chart-2">Figure</xref> and satisfies <m>q(0) = -10</m>. 
-					</p>
+					
 				</li>
 				<li>
 					<p>

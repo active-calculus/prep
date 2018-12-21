@@ -253,7 +253,7 @@
 				<me>
 					(t-1)^3 = -5(y-3)
 				</me>.
-				Because the cube root function has the property<fn>Here we are using a nontrival fact about cube roots:  that the cube root function is the inverse function for the cubing function, and each function has both a domain and range of all real numbers.</fn> that <m>\sqrt[3]{z^3} = z</m> for every real number <m>z</m>, we can take the cube root of both sides of the preceding equation to get
+				Because the cube root function has the property that <m>\sqrt[3]{z^3} = z</m> for every real number <m>z</m> (since the cube root function is the inverse function for the cubing function, and each function has both a domain and range of all real numbers), we can take the cube root of both sides of the preceding equation to get
 				<me>
 					t - 1 = \sqrt[3]{-5(y-3)}
 				</me>.
@@ -290,7 +290,7 @@
 		The graphs of <m>y = r(t) = 3 - \frac{1}{5}(t-1)^3</m> and <m>y = s(t) = 3 - \frac{1}{5}(t-1)^2</m> provide a different perspective to confirm the results of <xref ref="ex-inverse-does-it-formula">Example</xref>.  Indeed, in <xref ref="F-inverse-cubic">Figure</xref>, we see that <m>r</m> appears to pass the horizontal line test because it is decreasing<fn>Calculus provides one way to fully justify that the graph of <m>s</m> is indeed always decreasing (except at the instant where <m>t = 1</m>).</fn>, and thus has an inverse function.  On the other hand, the graph of <m>s</m> fails the horizontal line test (picture the line <m>y = 2</m> in <xref ref="F-inverse-quadratic">Figure</xref>) and therefore <m>s</m> does not have an inverse function.
 	</p>
 
-	<sidebyside width="50%">
+	<sidebyside width="45%">
 		<figure xml:id="F-inverse-cubic">
 			<caption>A plot of <m>y = r(t) = 3 - \frac{1}{5}(t-1)^3</m>.</caption>
 			<image source="images/inverse-cubic" />
@@ -321,7 +321,7 @@
   			<ul>
   				<li>
   					<p>
-  						<m>f^{-1} : B \to A</m>, so <m>f^{-1} : B \to A</m>, and thus the domain of <m>f^{-1}</m> is <m>B</m> and its range is <m>A</m>.
+  						<m>f^{-1} : B \to A</m>, so <m>f^{-1} : B \to A</m>, and the domain of <m>f^{-1}</m> is <m>B</m> and its range is <m>A</m>.
   					</p>
   				</li>
 				<li>

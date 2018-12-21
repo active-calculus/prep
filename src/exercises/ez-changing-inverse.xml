@@ -90,16 +90,16 @@
         Consider an inverted conical tank that is being filled with water.  The tank's radius is <m>2</m> m and its depth is <m>4</m> m.  Suppose the tank is initially empty and is being filled in such a way that the height of the water is always rising at a rate of <m>0.25</m> meters per minute.
       </p>
 
-      <sidebyside width="50%">
-        <figure xml:id="F-inverse-ez-conical-tank">
-          <caption>The conical tank.</caption>
-          <image source="images/tandem-filled-conical-tank" />
-        </figure>
-        <figure xml:id="F-inverse-ez-blank-axes-V-t">
-          <caption>Axes to plot <m>V = g(t)</m>.</caption>
-          <image source="images/tandem-V-t-blank-axes" />
-        </figure>
-      </sidebyside>
+          <sidebyside width="50%">
+            <figure xml:id="F-inverse-ez-conical-tank">
+              <caption>The conical tank.</caption>
+              <image source="images/tandem-filled-conical-tank" />
+            </figure>
+            <figure xml:id="F-inverse-ez-blank-axes-V-t">
+              <caption>Axes to plot <m>V = g(t)</m>.</caption>
+              <image source="images/tandem-V-t-blank-axes" />
+            </figure>
+          </sidebyside>
 
       <p>
         <ol label="a.">
@@ -129,6 +129,9 @@
             <p>
               Use the fact that <m>h = f(t) = 0.25t</m> along with <xref ref="E-ez-changing-inverse-V-h">Equation</xref> to find a formula for <m>V = g(t)</m>.  Sketch a plot of <m>V = g(t)</m> on the blank axes provided in <xref ref="F-inverse-ez-blank-axes-V-t">Figure</xref>.  Write at least one sentence to explain why <m>V = g(t)</m> has the shape that it does.
             </p>
+
+
+            
           </li>
           <li>
             <p>

@@ -60,8 +60,6 @@
 	<p>
 		The natural phenomenon of a point moving around a circle leads to interesting relationships.  For easier arithmetic, let's consider a point traversing a circle of circumference <m>24</m> and examine how the point's height, <m>h</m>, changes as the distance traversed, <m>d</m>, changes.  Note particularly that each time the point traverses <m>\frac{1}{8}</m> of the circumference of the circle, it travels a distance of <m>24 \cdot \frac{1}{8} = 3</m> units, as seen in <xref ref="F-traversing-first-example">Figure</xref> where each noted point lies <m>3</m> additional units along the circle beyond the preceding one.
 	</p>
-	<sidebyside width="50%" valign="middle">
-		<p>
 			<table xml:id="T-traversing-first-example-1">
 				<caption>
 					Data for height, <m>h</m>, as a function of distance traversed, <m>d</m>.
@@ -126,26 +124,23 @@
 				</tabular>
 			</table>
 
-		</p>
-
 		<figure xml:id="F-traversing-first-example">
 			<caption>A point traversing a circle with circumference <m>C = 24</m>.</caption>
-			<image source="images/traversing-first-example" />
+			<image source="images/traversing-first-example" width="45%" />
 		</figure>
-	</sidebyside>
 
 	<p>
 		Note that we know the exact heights of certain points.  Since the circle has circumference <m>C = 24</m>, we know that <m>24 = 2\pi r</m> and therefore <m>r = \frac{12}{\pi} \approx 3.82</m>.  Hence, the point where <m>d = 6</m> (located <m>1/4</m> of the way along the circle) is at a height of <m>h = \frac{12}{\pi} \approx 3.82</m>.  Doubling this value, the point where <m>d = 12</m> has height <m>h = \frac{24}{\pi} \approx 7.64</m>.  Other heights, such as those that correspond to <m>d = 3</m> and <m>d = 15</m> (identified on the figure by the green line segments) are not obvious from the circle's radius, but can be estimated from the grid in <xref ref="F-traversing-first-example">Figure</xref> as <m>h \approx 1.1</m> (for <m>d = 3</m>) and <m>h \approx 6.5</m> (for <m>d = 15</m>).  Using all of these observations along with the symmetry of the circle, we can determine the other entries in <xref ref="T-traversing-first-example-1">Table</xref>.   
 	</p>
 
+	<figure xml:id="F-traversing-first-example-graph">
+		<caption>The height, <m>h</m>, of a point traversing a circle of radius <m>24</m> as a function of distance, <m>d</m>, traversed around the circle.</caption>
+		<image source="images/traversing-first-example-graph" width="80%" />
+	</figure>
+
 	<p>
 		Moreover, if we now let the point continue traversing the circle, we observe that the <m>d</m>-values will increase accordingly, but the <m>h</m>-values will repeat according to the already-established pattern, resulting in the data in <xref ref="T-traversing-first-example-2">Table</xref>.  It is apparent that each point on the circle corresponds to one and only one height, and thus we can view the height of a point as a function of the distance the point has traversed around the circle, say <m>h = f(d)</m>.  Using the data from the two tables and connecting the points in an intuitive way, we get the graph shown in <xref ref="F-traversing-first-example-graph">Figure</xref>.
 	</p>
-
-	<figure xml:id="F-traversing-first-example-graph">
-		<caption>The height, <m>h</m>, of a point traversing a circle of radius <m>24</m> as a function of distance, <m>d</m>, traversed around the circle.</caption>
-		<image source="images/traversing-first-example-graph" />
-	</figure>
 
 	<p>
 		The function <m>h = f(d)</m> we have been discussing is an example of what we will call a <em>circular function</em>.  <idx><h>circular function</h></idx> Indeed, it is apparent that if we 
@@ -185,10 +180,6 @@
 		Every circular function has several important features that are connected to the circle that defines the function.  For the discussion that follows, we focus on circular functions that result from tracking the <m>y</m>-coordinate of a point traversing counterclockwise a circle of radius <m>a</m> centered at the point <m>(k,m)</m>.  Further, we will denote the circumference of the circle by the letter <m>p</m>.
 	</p>
 
-	<p>
-		We assume that the point traversing the circle starts at <m>P</m> in <xref ref="F-circular-functions-properties-circle">Figure</xref>.  Its height is initially <m>y = m + a</m>, and then its height decreases to <m>y = m</m> as we traverse to <m>Q</m>.  Continuing, the point's height falls to <m>y = m - a</m> at <m>R</m>, and then rises back to <m>y = m</m> at <m>S</m>, and eventually back up to <m>y = m+a</m> at the top of the circle.  If we plot these heights continuously as a function of distance, <m>d</m>, traversed around the circle, we get the curve shown at right in <xref ref="F-act-circular-functions-properties-graph">Figure</xref>.  This curve has several important features for which we introduce important terminology. 
-	</p>
-
 		<sidebyside widths="33% 66%">
 			<figure xml:id="F-circular-functions-properties-circle">
 				<caption>A point traversing the circle.</caption>
@@ -199,6 +190,12 @@
 				<image source="images/traversing-circular-properties-graph"/>
 			</figure>
 		</sidebyside>
+
+	<p>
+		We assume that the point traversing the circle starts at <m>P</m> in <xref ref="F-circular-functions-properties-circle">Figure</xref>.  Its height is initially <m>y = m + a</m>, and then its height decreases to <m>y = m</m> as we traverse to <m>Q</m>.  Continuing, the point's height falls to <m>y = m - a</m> at <m>R</m>, and then rises back to <m>y = m</m> at <m>S</m>, and eventually back up to <m>y = m+a</m> at the top of the circle.  If we plot these heights continuously as a function of distance, <m>d</m>, traversed around the circle, we get the curve shown at right in <xref ref="F-act-circular-functions-properties-graph">Figure</xref>.  This curve has several important features for which we introduce important terminology. 
+	</p>
+
+
 
 	<p>
 		The <term>midline</term> <idx><h>circular function</h><h>midline</h></idx> of a circular function is the horizontal line <m>y = m</m> for which half the curve lies above the line and half the curve lies below.  If the circular function results from tracking the <m>y</m>-coordinate of a point traversing a circle, <m>y = m</m> corresponds to the <m>y</m>-coordinate of the center of the circle.  In addition, the <term>amplitude</term> <idx><h>circular function</h><h>amplitude</h></idx> of a circular function is the maximum deviation of the curve from the midline.  Note particularly that the value of the amplitude, <m>a</m>, corresponds to the radius of the circle that generates the curve.

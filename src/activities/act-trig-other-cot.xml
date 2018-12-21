@@ -29,7 +29,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						Complete <xref ref="T-cotangent-values">Table</xref> to determine the exact values of the cotangent function at the special points on the unit circle.  Enter <q><m>u</m></q> for any value at which <m>r(t) = \cot(t)</m> is undefined.
+						Complete <xref ref="T-cotangent-values">Table</xref> and <xref ref="T-cotangent-values-2">Table</xref> to determine the exact values of the cotangent function at the special points on the unit circle.  Enter <q><m>u</m></q> for any value at which <m>r(t) = \cot(t)</m> is undefined.
 					</p>						
     				<table xml:id="T-cotangent-values">
 						<caption>Values of the sine function at special points on the unit circle.</caption>
@@ -44,15 +44,7 @@
 								<cell><m>\frac{2\pi}{3}</m></cell>
 								<cell><m>\frac{3\pi}{4}</m></cell>
 								<cell><m>\frac{5\pi}{6}</m></cell>
-								<cell><m>\pi</m></cell>		
-								<cell><m>\frac{7\pi}{6}</m></cell>
-								<cell><m>\frac{5\pi}{4}</m></cell>
-								<cell><m>\frac{4\pi}{3}</m></cell>
-								<cell><m>\frac{3\pi}{2}</m></cell>
-								<cell><m>\frac{5\pi}{3}</m></cell>
-								<cell><m>\frac{7\pi}{4}</m></cell>
-								<cell><m>\frac{11\pi}{6}</m></cell>
-								<cell><m>2\pi</m></cell>						
+								<cell><m>\pi</m></cell>								
 							</row>
 							<row bottom="minor" halign="center">
 								<cell><m>\sin(t)</m></cell>
@@ -64,14 +56,6 @@
 								<cell><m>\frac{\sqrt{3}}{2}</m></cell>
 								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
 								<cell><m>\frac{1}{2}</m></cell>
-								<cell><m>0</m></cell>
-								<cell><m>-\frac{1}{2}</m></cell>
-								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
-								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
-								<cell><m>-1</m></cell>
-								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
-								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
-								<cell><m>-\frac{1}{2}</m></cell>
 								<cell><m>0</m></cell>
 							</row>
 							<row bottom="minor" halign="center">
@@ -85,25 +69,9 @@
 								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
 								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
 								<cell><m>-1</m></cell>
-								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
-								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
-								<cell><m>-\frac{1}{2}</m></cell>
-								<cell><m>0</m></cell>
-								<cell><m>\frac{1}{2}</m></cell>
-								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
-								<cell><m>\frac{\sqrt{3}}{2}</m></cell>
-								<cell><m>0</m></cell>
 							</row>							
 							<row bottom="minor" halign="center">
 								<cell><m>\tan(t)</m></cell>
-								<cell><m>0</m></cell>
-								<cell><m>\frac{1}{\sqrt{3}}</m></cell>
-								<cell><m>1</m></cell>
-								<cell><m>\frac{3}{\sqrt{3}}</m></cell>
-								<cell><m>u</m></cell>
-								<cell><m>-\frac{3}{\sqrt{3}}</m></cell>
-								<cell><m>-1</m></cell>
-								<cell><m>-\frac{1}{\sqrt{3}}</m></cell>
 								<cell><m>0</m></cell>
 								<cell><m>\frac{1}{\sqrt{3}}</m></cell>
 								<cell><m>1</m></cell>
@@ -125,6 +93,58 @@
 								<cell></cell>
 								<cell></cell>
 								<cell></cell>
+							</row>						
+						</tabular>
+					</table>
+					<table xml:id="T-cotangent-values-2">
+						<caption>Values of the sine function at special points on the unit circle.</caption>
+						<tabular>
+							<row bottom="minor" halign="center">
+								<cell><m>t</m></cell>		
+								<cell><m>\frac{7\pi}{6}</m></cell>
+								<cell><m>\frac{5\pi}{4}</m></cell>
+								<cell><m>\frac{4\pi}{3}</m></cell>
+								<cell><m>\frac{3\pi}{2}</m></cell>
+								<cell><m>\frac{5\pi}{3}</m></cell>
+								<cell><m>\frac{7\pi}{4}</m></cell>
+								<cell><m>\frac{11\pi}{6}</m></cell>
+								<cell><m>2\pi</m></cell>						
+							</row>
+							<row bottom="minor" halign="center">
+								<cell><m>\sin(t)</m></cell>
+								<cell><m>-\frac{1}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>-1</m></cell>
+								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>-\frac{1}{2}</m></cell>
+								<cell><m>0</m></cell>
+							</row>
+							<row bottom="minor" halign="center">
+								<cell><m>\cos(t)</m></cell>
+								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>-\frac{1}{2}</m></cell>
+								<cell><m>0</m></cell>
+								<cell><m>\frac{1}{2}</m></cell>
+								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
+								<cell><m>\frac{\sqrt{3}}{2}</m></cell>
+								<cell><m>0</m></cell>
+							</row>							
+							<row bottom="minor" halign="center">
+								<cell><m>\tan(t)</m></cell>
+								<cell><m>\frac{1}{\sqrt{3}}</m></cell>
+								<cell><m>1</m></cell>
+								<cell><m>\frac{3}{\sqrt{3}}</m></cell>
+								<cell><m>u</m></cell>
+								<cell><m>-\frac{3}{\sqrt{3}}</m></cell>
+								<cell><m>-1</m></cell>
+								<cell><m>-\frac{1}{\sqrt{3}}</m></cell>
+								<cell><m>0</m></cell>
+							</row>	
+							<row halign="center">
+								<cell><m>\cot(t)</m></cell>
 								<cell></cell>
 								<cell></cell>
 								<cell></cell>

@@ -30,17 +30,6 @@
 	            What do your last two computations tell you about the behavior of the function <m>q</m> on <m>[2,4]</m>?
 	          </p>
 
-			<sidebyside width="50%">
-				<figure xml:id="F-act-aroc-trends-q">
-					<caption>Plot of <m>q</m> from part (a).</caption>
-					<image source="images/aroc-act-trends-q" />
-				</figure>
-				<figure xml:id="F-act-aroc-trends-h">
-					<caption>Plot of <m>h</m> from part (b).</caption>
-					<image source="images/aroc-act-trends-h" />
-				</figure>
-			</sidebyside>
-
 	        </li>
 
 	        <li>
@@ -56,6 +45,17 @@
 				<p>
 					On the graphs in <xref ref="F-act-aroc-trends-q">Figures</xref> and <xref ref="F-act-aroc-trends-h"/>, plot the line segments whose respective slopes are the average rates of change you computed in (a) and (b).
 				</p>
+				<sidebyside width="50%">
+					<figure xml:id="F-act-aroc-trends-q">
+						<caption>Plot of <m>q</m> from part (a).</caption>
+						<image source="images/aroc-act-trends-q" />
+					</figure>
+					<figure xml:id="F-act-aroc-trends-h">
+						<caption>Plot of <m>h</m> from part (b).</caption>
+						<image source="images/aroc-act-trends-h" />
+					</figure>
+				</sidebyside>
+								
 			</li>
 
 			<li>

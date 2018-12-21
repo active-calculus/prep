@@ -37,21 +37,21 @@
   </objectives>
 
   <introduction>
-  	
+
+	<sidebyside width="45%">
+		<figure xml:id="F-right-sine-cosine-unit">
+			<caption>The values of <m>\cos(t)</m> and <m>\sin(t)</m> as coordinates on the unit circle.</caption>
+			<image source="images/sine-cosine-unit-circle" width="45%"/>
+		</figure>
+		<figure xml:id="F-right-sine-cosine-right">
+			<caption>The values of <m>\cos(\theta)</m> and <m>\sin(\theta)</m> as the lengths of the legs of a right triangle.</caption>
+			<image source="images/sine-cosine-right-triangle" width="45%"/>
+		</figure>
+	</sidebyside>
+
 	<p>
 		In <xref ref="sec-circular-sine-cosine">Section</xref>, we defined the cosine and sine functions as the functions that track the location of a point traversing the unit circle counterclockwise from <m>(1,0)</m>.  In particular, for a central angle of radian measure <m>t</m> that passes through the point <m>(1,0)</m>, we define <m>\cos(t)</m> as the <m>x</m>-coordinate of the point where the other side of the angle intersects the unit circle, and <m>\sin(t)</m> as the <m>y</m>-coordinate of that same point, as pictured in <xref ref="F-right-sine-cosine-unit">Figure</xref>.
 	</p>
-
-	<sidebyside>
-		<figure xml:id="F-right-sine-cosine-unit">
-			<caption>The values of <m>\cos(t)</m> and <m>\sin(t)</m> viewed as the coordinates of a point on the unit circle.</caption>
-			<image source="images/sine-cosine-unit-circle"/>
-		</figure>
-		<figure xml:id="F-right-sine-cosine-right">
-			<caption>The values of <m>\cos(\theta)</m> and <m>\sin(\theta)</m> viewed as the lengths of the legs of a right triangle with hypotenuse <m>1</m>.</caption>
-			<image source="images/sine-cosine-right-triangle"/>
-		</figure>
-	</sidebyside>
 
 	<p>
 		By changing our perspective slightly, we can see that it is equivalent to think of the values of the sine and cosine function as representing the lengths of legs in right triangles.  Specifically, given a central angle<fn>In our work with right triangles, we'll often represent the angle by <m>\theta</m> and think of this angle as fixed, as opposed to our previous use of <m>t</m> where we frequently think of <m>t</m> as changing.</fn> <m>\theta</m>, if we think of the right triangle with vertices <m>(\cos(\theta),0)</m>, <m>(0,0)</m>, and <m>(\cos(\theta), \sin(\theta))</m>, then the length of the horizontal leg is <m>\cos(\theta)</m> and the length of the vertical leg is <m>\sin(\theta)</m>, as seen in <xref ref="F-right-sine-cosine-right">Figure</xref>.  
@@ -99,7 +99,7 @@
 
 		<figure xml:id="F-right-triangle-5">
 			<caption>The <m>5</m> potential unknowns in a right triangle.</caption>
-			<image source="images/right-triangle-5"/>
+			<image source="images/right-triangle-5" width="80%"/>
 		</figure>
 
 	<p>
@@ -172,12 +172,11 @@
 
 	<assemblage xml:id="asm-trig-right-missing-info">
 		<title>Missing information in right triangles</title>
-		<p>
-			<sidebyside widths="60% 40%">
-				<p>
+			<p>
 					In any right triangle,
-				</p>
+			</p>
 
+			<p>
 		  		<ol>
 		  			<li>
 		  				<p>
@@ -195,9 +194,7 @@
 		  				</p>
 		  			</li>
 		  		</ol>
-
-			</sidebyside>
-		</p>
+			</p>
 	</assemblage>
 
   	<p>
@@ -213,9 +210,14 @@
 			<p>
 				Consider a right triangle in which one of the non-right angles is <m>\beta = \frac{\pi}{5}</m> and the leg opposite <m>\beta</m> has length <m>4</m>.  Determine all of the remaining sides and angles in the triangle.
 			</p>
+
+				<figure xml:id="F-right-triangle-ex-ratio">
+					<caption>The given right triangle.</caption>
+					<image source="images/right-triangle-ex-ratio" width="35%"/>
+				</figure>
+
 		</statement>
 		<solution>
-			<sidebyside>
 				<p>
 					From the fact that <m>\beta = \frac{\pi}{5}</m>, it follows that <m>\alpha = \frac{\pi}{2} - \frac{\pi}{5} = \frac{3\pi}{10}</m>.  In addition, we know that
 					<men xml:id="eq-right-sin-ratio">
@@ -226,12 +228,6 @@
 						\cos\left(\frac{\pi}{5}\right) = \frac{x}{h}
 					</men>
 				</p>
-
-				<figure xml:id="F-right-triangle-ex-ratio">
-					<caption>The given right triangle.</caption>
-					<image source="images/right-triangle-ex-ratio" width="50%"/>
-				</figure>
-			</sidebyside>
 
 			<p>
 				Solving <xref ref="eq-right-sin-ratio">Equation</xref> for <m>h</m>, we see that

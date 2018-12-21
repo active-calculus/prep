@@ -138,10 +138,6 @@
         The car's position<fn>You can think of the car's position like mile-markers on a highway.  Saying that <m>s = 500</m> means that the car is located <m>500</m> feet from <q>marker zero</q> on the road.</fn> has units measured in thousands of feet while time is measured in minutes.
         For instance, the point <m>(4,6)</m> on the graph indicates that after <m>4</m> minutes,
         the car has traveled <m>6000</m> feet from its starting location.
-        <sidebyside width="50%">
-          <image source="images/tandem-ez-position-time" />
-          <image source="images/tandem-ez-position-time-blank-axes" />
-        </sidebyside>
       </p>
 
       <p>
@@ -163,8 +159,14 @@
           </li>
           <li>
             <p>
-              On the blank axes at right above, plot points or sketch a curve to describe the behavior of a car that is driven in the following way:  from <m>t = 0</m> to <m>t = 5</m> the car travels straight down the road at a constant rate of <m>1000</m> feet per minute.  At <m>t = 5</m>, the car pulls over and parks for <m>2</m> full minutes.  Then, at <m>t = 7</m>, the car does an abrupt U-turn and returns in the opposite direction at a constant rate of <m>800</m> feet per minute for <m>5</m> additional minutes.  As part of your work, determine (and label) the car's location at several additional points in time beyond <m>t = 0, 5, 7, 12</m>.
+              On the blank axes at above, plot points or sketch a curve to describe the behavior of a car that is driven in the following way:  from <m>t = 0</m> to <m>t = 5</m> the car travels straight down the road at a constant rate of <m>1000</m> feet per minute.  At <m>t = 5</m>, the car pulls over and parks for <m>2</m> full minutes.  Then, at <m>t = 7</m>, the car does an abrupt U-turn and returns in the opposite direction at a constant rate of <m>800</m> feet per minute for <m>5</m> additional minutes.  As part of your work, determine (and label) the car's location at several additional points in time beyond <m>t = 0, 5, 7, 12</m>.
             </p>
+
+        <sidebyside width="50%">
+          <image source="images/tandem-ez-position-time" />
+          <image source="images/tandem-ez-position-time-blank-axes" />
+        </sidebyside>
+
           </li>
         </ol>
       </p>
