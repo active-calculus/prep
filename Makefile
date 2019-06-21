@@ -113,7 +113,7 @@ pg:
 #  webwork-extraction.xml which holds multiple versions of each problem.
 #  Also locally store images from the WeBWorK server.
 
-acs-extraction:
+apc-extraction:
 	install -d $(WWOUT)
 	-rm $(WWOUT)/webwork-extraction.xml
 	$(MB)/script/mbx -v -c webwork -d $(WWOUT) -s $(SERVER) $(MAINFILE)
@@ -122,15 +122,15 @@ acs-extraction:
 #  by the webwork-reps from webwork-extraction.xml. (So run the above at
 #  least once first.) Subsequent templates are applied to the result.
 
-acs-merge:
+apc-merge:
 	cd $(WWOUT); \
-	xsltproc -xinclude  --stringparam webwork.extraction $(WWOUT)/webwork-extraction.xml $(MBXSL)/pretext-merge.xsl $(MAINFILE) > acs-merge.ptx
+	xsltproc -xinclude  --stringparam webwork.extraction $(WWOUT)/webwork-extraction.xml $(MBXSL)/pretext-merge.xsl $(MAINFILE) > apc-merge.ptx
 
 #  HTML output 
 #  Output lands in the subdirectory:  $(HTMLOUT)
 #    Remove the entire $(HTMLOUT)/knowl directory because of how PTX now
 #    seems to make a knowl for everything and rm throws an error.
-html: # acs-merge 
+html:  apc-merge 
 	install -d $(HTMLOUT)
 	-rm -rf $(HTMLOUT)/knowl
 	install -d $(HTMLOUT)/knowl
@@ -143,7 +143,7 @@ html: # acs-merge
 	cp -a $(IMAGESOUT) $(HTMLOUT)
 	cp -a $(IMAGESSRC) $(HTMLOUT)
 	cd $(HTMLOUT); \
-	xsltproc -xinclude $(MBUSR)/apc-html.xsl $(MAINFILE)
+	xsltproc -xinclude $(MBUSR)/apc-html.xsl $(WWOUT)/apc-merge.ptx
 
 # make all the image files in svg format
 images:
@@ -169,7 +169,7 @@ webwork-server-tex:
 # LaTeX and PDF versions,
 # see prerequisite just above about merge files.
 # xsltproc may be passed --stringparam latex.fillin.style box for box answer blanks
-pdf: #acs-merge
+pdf: apc-merge
 	install -d $(PDFOUT)
 	install -d $(PDFOUT)/images
 	-rm $(PDFOUT)/*.*
@@ -180,10 +180,10 @@ pdf: #acs-merge
 	install -b xsl/apc-common.xsl $(MBUSR)
 	cp -a $(IMAGESSRC) $(PDFOUT)
 	cd $(PDFOUT); \
-	xsltproc -xinclude $(MBUSR)/apc-latex.xsl $(MAINFILE); \
-	xelatex index; \
-	xelatex index; \
-	xelatex index
+	xsltproc -o apc.tex -xinclude $(MBUSR)/apc-latex.xsl $(WWOUT)/apc-merge.ptx; \
+	xelatex apc; \
+	xelatex apc; \
+	xelatex apc
 
 # Solutions manual (LaTeX only for PDF)
 # see prerequisite just above
