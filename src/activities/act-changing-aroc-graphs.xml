@@ -35,7 +35,7 @@
 				</li>
 				<li>
 					<p>
-						<m>g</m> is a function defined on <m>[-1,7]</m> such that <m>g(4) = 3</m>, <m>AV_{[0,4]}</m>, and <m>g</m> is not always increasing on <m>(0,4)</m>.
+						<m>g</m> is a function defined on <m>[-1,7]</m> such that <m>g(4) = 3</m>, <m>AV_{[0,4]} = 0.5</m>, and <m>g</m> is not always increasing on <m>(0,4)</m>.
 					</p>
 
 					<sidebyside width="40%">

@@ -372,7 +372,7 @@
 		<idx><h>function trends</h><h>concave up</h></idx> <idx><h>function trends</h><h>concave down</h></idx>
 		<statement>
 			<p>
-				If a function <m>f</m> always bends upward on an interval <m>(a,b)</m>, we say that <m>f</m> is <term>concave up on <m>(a,b)</m></term>.  Similarly, if <m>f</m> always bends downward on an interval <m>(a,b)</m>, we say that <m>f</m> is <term>concave up on <m>(a,b)</m></term>.
+				If a function <m>f</m> always bends upward on an interval <m>(a,b)</m>, we say that <m>f</m> is <term>concave up on <m>(a,b)</m></term>.  Similarly, if <m>f</m> always bends downward on an interval <m>(a,b)</m>, we say that <m>f</m> is <term>concave down on <m>(a,b)</m></term>.
 			</p>
 		</statement>
 	</definition>

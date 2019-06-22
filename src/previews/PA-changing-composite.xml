@@ -34,7 +34,7 @@
 				</li>
 				<li>
 					<p>
-						Let <m>t = s(z) = \frac{1}{t+4}</m> and recall that <m>x = q(t) = t^2</m>.  Determine a formula for <m>x = q(s(z))</m> that depends only on <m>z</m>.
+						Let <m>t = s(z) = \frac{1}{z+4}</m> and recall that <m>x = q(t) = t^2</m>.  Determine a formula for <m>x = q(s(z))</m> that depends only on <m>z</m>.
 					</p>
 				</li>				
 				<li>

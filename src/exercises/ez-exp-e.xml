@@ -26,7 +26,7 @@
   <exercise xml:id="ez-exp-e-continously-compounded">
     <statement>
       <p>
-        When a single investment of principal, <dollar /><m>P</m>, is invested in an account that returns interest at an annual rate of <m>r</m> (a decimal that corresponds to the percentage rate, such as <m>r = 0.05</m> corresponding to <m>5</m><percent />) that is compounded <m>n</m> times per year, the amount of money in the account after <m>t</m> years is given by <m>A(t) = P(1 + \frac{r}{n})^{nt}</m>.
+        When a single investment of principal, <dollar /><m>P</m>, is invested in an account that returns interest at an annual rate of <m>r</m> (a decimal that corresponds to the percentage rate, such as <m>r = 0.05</m> corresponding to <m>5</m>%) that is compounded <m>n</m> times per year, the amount of money in the account after <m>t</m> years is given by <m>A(t) = P(1 + \frac{r}{n})^{nt}</m>.
       </p>
 
       <p>
