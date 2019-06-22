@@ -18,7 +18,7 @@
     <!-- ISBN, website, other metadata -->
 
     <book>
-		<title>Active Preparation for Calculus</title>
+		<title>Active Prelude to Calculus</title>
 		<xi:include href="./frontmatter.xml" />  
 
         <xi:include href="./chap-changing.xml" />

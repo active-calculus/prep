@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2018                                                   -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Calculus.                                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -14,13 +14,13 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-tandem">
 
-<!-- THIS ONE WORKS
+<!-- THIS ONE WORKS -->
   <exercise xml:id="ez-changing-tandem-WW0">
     <webwork source="Library/LoyolaChicago/Precalc/Chap1Review/Q37.pg" />
   </exercise>
--->
 
-<!-- doesn't render in PDF
+
+<!-- doesn't render in PDF bc no statement tag
   <exercise xml:id="ez-changing-tandem-WW1">
     <webwork source="Library/Rochester/setAlgebra16FunctionGraphs/c0s1p8/c0s1p8.pg" />
   </exercise>
