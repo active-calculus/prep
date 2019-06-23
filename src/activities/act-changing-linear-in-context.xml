@@ -45,7 +45,7 @@
 				</li>
 				<li>
 					<p>
-						Suppose we know that a <m>5</m>-year old car's value is <dollar /><m>10200</m>, and that after <m>10</m> years its value is <dollar /><m>4600</m>.  Find a linear function <m>C = L(t)</m> whose output is the value of the car in year <m>t</m>.  What is a reasonable domain for the model?  What is the value and meaning of the slope of the line?  Write at least one careful sentence to explain.
+						Suppose we know that a <m>5</m>-year old car's value is $<m>10200</m>, and that after <m>10</m> years its value is $<m>4600</m>.  Find a linear function <m>C = L(t)</m> whose output is the value of the car in year <m>t</m>.  What is a reasonable domain for the model?  What is the value and meaning of the slope of the line?  Write at least one careful sentence to explain.
 					</p>
 				</li>
 			</ol>
