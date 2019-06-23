@@ -14,8 +14,6 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-aroc">
 
-
-<!-- THESE ALL WORK 
   <exercise xml:id="ez-changing-aroc-WW1">
     <webwork source="Library/Michigan/precalc/4e/Chap1Sec2/Q04.pg" />
   </exercise>
@@ -40,7 +38,7 @@
   <exercise xml:id="ez-changing-aroc-WW8">
     <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q25.pg" />
   </exercise>
--->
+
 
   <exercise xml:id="ez-changing-aroc-soda">
     <statement>
@@ -80,7 +78,7 @@
         <ol label="a.">
           <li>
             <p>
-              Determine <m>AV_{[0,5]}</m>, <m>AV_{[5,10]}</m>, and <m>AV_{[10,15]}</m>, including appropriate units.  Choose one of these quantities and write a careful sentence to explain its meaning.  Your sentence might look something like <q>On the interval <m>\ldots</m>, the temperature of the soda is <m>\ldots</m> on average by <m>\ldots</m></q>.
+              Determine <m>AV_{[0,5]}</m>, <m>AV_{[5,10]}</m>, and <m>AV_{[10,15]}</m>, including appropriate units.  Choose one of these quantities and write a careful sentence to explain its meaning.  Your sentence might look something like <q>On the interval <m>\ldots</m>, the temperature of the soda is <m>\ldots</m> on average by <m>\ldots</m> for each <m>1</m>-unit increase in <m>\ldots</m></q>.
             </p>
           </li>
           <li>
@@ -145,7 +143,7 @@
           </li>
           <li>
             <p>
-              Compute the average rate of change of <m>s</m> on the intervals <m>[3,4]</m>, <m>[4,6]</m>, and <m>[5,8]</m>.  Label your results using the notation <q><m>AV_{[a,b]}</m></q> appropriately, and include units each quantity.
+              Compute the average rate of change of <m>s</m> on the intervals <m>[3,4]</m>, <m>[4,6]</m>, and <m>[5,8]</m>.  Label your results using the notation <q><m>AV_{[a,b]}</m></q> appropriately, and include units on each quantity.
             </p>
           </li>
           <li>

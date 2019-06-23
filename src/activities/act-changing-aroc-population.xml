@@ -18,7 +18,10 @@
 	<statement>
 		<p>
 	      	According to the US census,
-      		the populations of Kent and Ottawa Counties (Grand Rapids is in Kent, Allendale in Ottawa) from 1960 to 2010 measured in <m>10</m>-year intervals are given in the following tables.
+      		the populations of Kent and Ottawa Counties in Michigan where GVSU is located<fn>
+      			Grand Rapids is in Kent, Allendale in Ottawa.
+      		</fn>
+      		 from 1960 to 2010 measured in <m>10</m>-year intervals are given in the following tables.
     	</p>
 
     		<table xml:id="T-act-changing-aroc-population-Kent">
