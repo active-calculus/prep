@@ -29,11 +29,16 @@
   <exercise xml:id="ez-tandem-spherical-tank-conical-chimney">
     <statement>
       <p>
-        Suppose we have an unusual tank whose base is a perfect sphere with radius <m>3</m> feet, and then atop the spherical base is a cylindrical <q>chimney</q> that is a circular cylinder of radius <m>1</m> foot and height <m>2</m> feet.  The tank is initially empty, but then a spigot is turned on that pumps water into the tank at a constant rate of <m>1.25</m> cubic feet per minute.
+        Suppose we have an unusual tank whose base is a perfect sphere with radius <m>3</m> feet, and then atop the spherical base is a cylindrical <q>chimney</q> that is a circular cylinder of radius <m>1</m> foot and height <m>2</m> feet, as shown in <xref ref="F-ez-chiminea">Figure</xref>.  The tank is initially empty, but then a spigot is turned on that pumps water into the tank at a constant rate of <m>1.25</m> cubic feet per minute.
       </p>
 
+      <figure xml:id="F-ez-chiminea"  >
+        <caption>A spherical tank with a cylindrical chimney.</caption>
+        <image width="50%" source="images/tandem-ez-chiminea" />   
+      </figure>
+
       <p>
-        Let <m>V</m> denote the total volume of water (in cubic feet) in the tank at any time <m>t</m> (in minutes), and <m>h</m> the depth of the water (in feet) at given time <m>t</m>.
+        Let <m>V</m> denote the total volume of water (in cubic feet) in the tank at any time <m>t</m> (in minutes), and <m>h</m> the depth of the water (in feet) at time <m>t</m>.
       </p> 
   
       <p>
