@@ -14,7 +14,6 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-composite">
  
-<!-- THESE ALL WORK
   <exercise xml:id="ez-changing-composite-WW1">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-01-Composition-inverse.pg" />
   </exercise>
@@ -24,13 +23,31 @@
   <exercise xml:id="ez-changing-composite-WW3">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-33-Composition-inverse.pg" />
   </exercise>
+
+  <!-- no statement tag
   <exercise xml:id="ez-changing-composite-WW4">
-    <webwork source="Library/UVA-Stew5e/setUVA-Stew5e-C01S01-Functions/1-1-47.pg" />
+    <webwork source="Library/Rochester/setAlgebra15Functions/s0_1_2a.pg" />
   </exercise>
   <exercise xml:id="ez-changing-composite-WW5">
-    <webwork source="Library/UVA-Stew5e/setUVA-Stew5e-C01S01-Functions/1-1-51.pg" />
+    <webwork source="Library/Rochester/setAlgebra15Functions/srw2_1_29.pg" />
   </exercise>  
--->  
+  -->
+  
+  <exercise xml:id="ez-changing-composite-WW6">
+    <webwork source="Library/Rochester/setAlgebra17FunComposition/beth3algfun.pg" />
+  </exercise> 
+  <exercise xml:id="ez-changing-composite-WW7">
+    <webwork source="Library/Rochester/setAlgebra17FunComposition/c0s1p9.pg" />
+  </exercise> 
+  <exercise xml:id="ez-changing-composite-WW8">
+    <webwork source="Library/Rochester/setAlgebra17FunComposition/faris1.pg" />
+  </exercise> 
+  <exercise xml:id="ez-changing-composite-WW9">
+    <webwork source="Library/Rochester/setAlgebra17FunComposition/srw2_8_23.pg" />
+  </exercise> 
+  <exercise xml:id="ez-changing-composite-WW10">
+    <webwork source="Library/Rochester/setAlgebra17FunComposition/ur_fn_2_6.pg" />
+  </exercise> 
 
   <exercise xml:id="ez-composite-tables-graphs-formulas">
     <statement>
@@ -202,6 +219,41 @@
         Exercise Solution
       </p>
     </solution>
+  </exercise>
+
+  <exercise xml:id="ez-composite-undo">
+    <statement>
+      <p>
+        For each of the following functions, find two simpler functions <m>f</m> and <m>g</m> such that the given function can be written as the composite function <m>g \circ f</m>.
+      </p>
+      <p>
+        <ol label="a." cols="2">
+          <li>
+            <p>
+              <m>h(x) = (x^2 + 7)^3</m>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>r(x) = \sqrt{5-x^3}</m>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>m(x) = \frac{1}{x^4 + 2x^2 + 1}</m>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>w(x) = 2^{3-x^2}</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
   </exercise>  
 
   <exercise xml:id="ez-composite-spherical-tank">

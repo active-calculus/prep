@@ -14,7 +14,6 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-quadratic">
 
-<!-- THESE ALL WORK
   <exercise xml:id="ez-changing-quadratic-WW1">
     <webwork source="Library/Rochester/setAlgebra20QuadraticFun/lh3-1_19-20.pg" />
   </exercise>
@@ -27,7 +26,10 @@
   <exercise xml:id="ez-changing-quadratic-WW4">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec6/Q14.pg" />
   </exercise>
--->
+  <exercise xml:id="ez-changing-quadratic-WW5">
+    <webwork source="Library/ASU-topics/setRateChange/s1_1_5.pg" />
+  </exercise>
+
 
 <!--  THESE ONES DON'T
   <exercise xml:id="ez-changing-quadratic-WW5">
