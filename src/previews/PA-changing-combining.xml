@@ -22,7 +22,7 @@
 
 		<sidebyside width="50%" valign="middle">
 			<table xml:id="T-PA-changing-combining">
-				<caption>Tables defining functions <m>f</m> and <m>g</m>.</caption>
+				<caption>Table defining functions <m>f</m> and <m>g</m>.</caption>
 			    <tabular>
 			      <row bottom="minor">
 			        <cell><m>x</m></cell>

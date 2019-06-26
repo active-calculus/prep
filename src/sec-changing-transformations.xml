@@ -33,7 +33,7 @@
 
   <introduction>
   	<p>
-  		In our preparation for calculus, we aspire to understand functions from a wide range of perspectives and to become familiar with a library of basic functions.  So far, two basic functions we have considered are linear functions and quadratic functions, the simplest of which are <m>L(x) = x</m> and <m>Q(x) = x^2</m>.  As we progress further, we will endeavor to understand a <q>parent</q> function  as the most fundamental member of a family of functions, as well as how other similar but more complicated functions are the result of transforming the parent function.  
+  		In our preparation for calculus, we aspire to understand functions from a wide range of perspectives and to become familiar with a library of basic functions.  So far, two basic families functions we have considered are linear functions and quadratic functions, the simplest of which are <m>L(x) = x</m> and <m>Q(x) = x^2</m>.  As we progress further, we will endeavor to understand a <q>parent</q> function  as the most fundamental member of a family of functions, as well as how other similar but more complicated functions are the result of transforming the parent function.  
   	</p>
 
 	<p>
@@ -55,7 +55,7 @@
   	</p>
 
 	<assemblage xml:id="asm-transformations-vertical">
-		<title>Vertical Translation</title>
+		<title>Vertical Translation of a Function</title>
 		<idx><h>transformation of a function</h><h>vertical translation</h></idx>
 		<p>
 			Given a function <m>y = f(x)</m> and a real number <m>a</m>, the transformed function <m>y = g(x) = f(x) + a</m> is a <em>vertical translation</em> of the graph of <m>f</m>.  That is, every point <m>(x,f(x))</m> on the graph of <m>f</m> gets shifted vertically to the corresponding point <m>(x,f(x)+a)</m> on the graph of <m>g</m>.
@@ -104,7 +104,7 @@
 		<me>
 			h(x+b) = f( (x+b) - b ) = f(x)
 		</me>.
-		This shows that for an input of <m>x+b</m>, the output of <m>h</m> is equal to the output of <m>f</m> that corresponds to an input of simply <m>x</m>.  Hence, in <xref ref="F-transformations-horiz">Figure</xref>, the formula for <m>h</m> in terms of <m>f</m> is <m>h(x) = f(x-2)</m>, since an input of <m>x+2</m> in <m>h</m> will result in the same output as an input of <m>x</m> in <m>f</m>.  Overall, we have the following general principle.
+		This shows that for an input of <m>x+b</m>, the output of <m>h</m> is equal to the output of <m>f</m> that corresponds to an input of simply <m>x</m>.  Hence, in <xref ref="F-transformations-horiz">Figure</xref>, the formula for <m>h</m> in terms of <m>f</m> is <m>h(x) = f(x-2)</m>, since an input of <m>x+2</m> in <m>h</m> will result in the same output as an input of <m>x</m> in <m>f</m>.  
 	</p>
 
 	<p>
@@ -125,8 +125,12 @@
 		</interactive>
 	</figure> 	
 
+	<p>
+		Overall, we have the following general principle.
+	</p>
+
 	<assemblage xml:id="asm-transformations-horizontal">
-		<title>Horizontal Translation</title>
+		<title>Horizontal Translation of a Function</title>
 		<idx><h>transformation of a function</h><h>horizontal translation</h></idx>
 		<p>
 			Given a function <m>y = f(x)</m> and a real number <m>b</m>, the transformed function <m>y = h(x) = f(x-b)</m> is a <em>horizontal translation</em> of the graph of <m>f</m>.  That is, every point <m>(x,f(x))</m> on the graph of <m>f</m> gets shifted horizontally to the corresponding point <m>(x+b,f(x))</m> on the graph of <m>g</m>.
@@ -209,7 +213,7 @@
   	</p>
 
   	<assemblage xref="asm-transformations-vertical-stretch">
-  		<title>Vertical scaling</title>
+  		<title>Vertical Scaling of a Function</title>
   		<idx><h>transformation of a function</h><h>vertical scaling</h></idx>
   		<p>
   			Given a function <m>y = f(x)</m> and a real number <m>c \gt 0</m>, the transformed function <m>y = v(x) = cf(x)</m> is a <em>vertical stretch</em> of the graph of <m>f</m>.  Every point <m>(x,f(x))</m> on the graph of <m>f</m> gets stretched vertically to the corresponding point <m>(x,cf(x))</m> on the graph of <m>v</m>.  If <m>0 \lt c \lt 1</m>, the graph of <m>v</m> is a compression of <m>f</m> toward the <m>x</m>-axis; if <m>c \gt 1</m>, the graph of <m>v</m> is a stretch of <m>f</m> away from the <m>x</m>-axis.  Points where <m>f(x) = 0</m> are unchanged by the transformation.

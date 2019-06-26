@@ -14,7 +14,6 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-transformations">
 
-<!-- THESE ONES WORK
   <exercise xml:id="ez-changing-transformations-WW1">
     <webwork source="Library/Rochester/setAlgebra19FunTransforms/p1.pg" />
   </exercise>
@@ -30,26 +29,23 @@
   <exercise xml:id="ez-changing-transformations-WW4">
     <webwork source="Library/Michigan/Chap1Sec3/Q05.pg" />
   </exercise>
--->
 
+  <exercise xml:id="ez-changing-transformations-WW6">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap5Sec1/Q09.pg" />
+  </exercise>  
 
 <!--  THESE ONES DON'T
   <exercise xml:id="ez-changing-transformations-WW5">
     <webwork source="Library/LoyolaChicago/Precalc/Chap5Sec1/Q18.pg" />
   </exercise>
 
-  <exercise xml:id="ez-changing-transformations-WW6">
-    <webwork source="Library/Rochester/setAlgebra19FunTransforms/beth1algfun.pg" />
-  </exercise>
--->
-
-<!-- WW extraction issues here  
   <exercise xml:id="ez-changing-transformations-WW5">
     <webwork source="Library/LoyolaChicago/Precalc/Chap5Sec1/Q08.pg" />
   </exercise>
+
   <exercise xml:id="ez-changing-transformations-WW6">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap5Sec1/Q09.pg" />
-  </exercise>  
+    <webwork source="Library/Rochester/setAlgebra19FunTransforms/beth1algfun.pg" />
+  </exercise>
 -->
 
 
