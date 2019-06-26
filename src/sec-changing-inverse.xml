@@ -38,7 +38,7 @@
 
   <introduction>
 	<p>
-		Because every function is a process that converts a collection of inputs to a corresponding collection of outputs, a natural question is: for a particular function, can we change perspective and think of the outputs as a function of input?
+		Because every function is a process that converts a collection of inputs to a corresponding collection of outputs, a natural question is: for a particular function, can we change perspective and think of the original function's outputs as the inputs for a reverse process?
 		If we phrase this question algebraically, it is analogous to asking: given an equation that defines <m>y</m> is a function of <m>x</m>, is it possible to find a corresponding equation where <m>x</m> is a function of <m>y</m>?
 	</p>
 
@@ -49,7 +49,7 @@
   <subsection xml:id="changing-inverse-definition">
   	<title>When a function has an inverse function</title>
   	<p>
-  		In <xref ref="PA-changing-inverse-F-C">Preview Activity</xref>, we found that for the function <m>F = g(C) = \frac{9}{5}C + 32</m>, it's also possible to solve for <m>C</m> in terms of <m>F</m> and write <m>C = h(F) = \frac{5}{9}(C-32)</m>.  The first function, <m>g</m>, converts Celcius temperatures to Fahrenheit ones; the second function, <m>h</m>, converts Fahrenheit temperatures to Celcius ones.  Thus, the process <m>h</m> reverses the process of <m>g</m>, and likewise the process of <m>g</m> reverses the process of <m>h</m>.  This is also why it makes sense that <m>h(g(C)) = C</m> and <m>g(h(F)) = F</m>.  If, for instance, we take a Celcius temperature <m>C</m>, convert it to Fahrenheit, and convert the result back to Celcius, we arrive back at the Celcius temperature we started with:  <m>h(g(C)) = C</m>.
+  		In <xref ref="PA-changing-inverse-F-C">Preview Activity</xref>, we found that for the function <m>F = g(C) = \frac{9}{5}C + 32</m>, it's also possible to solve for <m>C</m> in terms of <m>F</m> and write <m>C = h(F) = \frac{5}{9}(C-32)</m>.  The first function, <m>g</m>, converts Celsius temperatures to Fahrenheit ones; the second function, <m>h</m>, converts Fahrenheit temperatures to Celsius ones.  Thus, the process <m>h</m> reverses the process of <m>g</m>, and likewise the process of <m>g</m> reverses the process of <m>h</m>.  This is also why it makes sense that <m>h(g(C)) = C</m> and <m>g(h(F)) = F</m>.  If, for instance, we take a Celsius temperature <m>C</m>, convert it to Fahrenheit, and convert the result back to Celsius, we arrive back at the Celsius temperature we started with:  <m>h(g(C)) = C</m>.
   	</p>
 
   	<p>
@@ -275,11 +275,11 @@
 				</me>.
 				Next, it's necessary to take the square root of both sides in an effort to isolate <m>t</m>.  Here, however, we encounter a crucial issue.  Because the function <m>g(x) = x^2</m> takes any nonzero number and its opposite to the same output (e.g. <m>(-5)^2 = 25 = (5)^2</m>), this means that we have to account for <em>both</em> possible inputs that result in the same output.  Based on our last equation, this means that either
 				<me>
-					t-1 = \sqrt{-5(y-3)} \text{ or } t-1 = -\sqrt{-5(y-3)}
+					t-1 = \sqrt{-5(y-3)} \ \text{ or } \ t-1 = -\sqrt{-5(y-3)}
 				</me>.
 				As such, we find not a single equation that expresses <m>t</m> as a function of <m>y</m>, but rather two:
 				<me>
-					t = 1 + \sqrt{-5(y-3)} \text{ or } t = 1 -\sqrt{-5(y-3)}
+					t = 1 + \sqrt{-5(y-3)} \ \text{ or } \ t = 1 -\sqrt{-5(y-3)}
 				</me>.
 				Since it appears that <m>t</m> can't be expressed as a single function of <m>y</m>, it seems to follow that <m>y = s(t) = 3 - \frac{1}{5}(t-1)^2</m> does not have an inverse function.
 			</p>
@@ -287,7 +287,7 @@
 	</example>
 
 	<p>
-		The graphs of <m>y = r(t) = 3 - \frac{1}{5}(t-1)^3</m> and <m>y = s(t) = 3 - \frac{1}{5}(t-1)^2</m> provide a different perspective to confirm the results of <xref ref="ex-inverse-does-it-formula">Example</xref>.  Indeed, in <xref ref="F-inverse-cubic">Figure</xref>, we see that <m>r</m> appears to pass the horizontal line test because it is decreasing<fn>Calculus provides one way to fully justify that the graph of <m>s</m> is indeed always decreasing (except at the instant where <m>t = 1</m>).</fn>, and thus has an inverse function.  On the other hand, the graph of <m>s</m> fails the horizontal line test (picture the line <m>y = 2</m> in <xref ref="F-inverse-quadratic">Figure</xref>) and therefore <m>s</m> does not have an inverse function.
+		The graphs of <m>y = r(t) = 3 - \frac{1}{5}(t-1)^3</m> and <m>y = s(t) = 3 - \frac{1}{5}(t-1)^2</m> provide a different perspective to confirm the results of <xref ref="ex-inverse-does-it-formula">Example</xref>.  Indeed, in <xref ref="F-inverse-cubic">Figure</xref>, we see that <m>r</m> appears to pass the horizontal line test because it is decreasing<fn>Calculus provides one way to fully justify that the graph of <m>s</m> is indeed always decreasing.</fn>, and thus has an inverse function.  On the other hand, the graph of <m>s</m> fails the horizontal line test (picture the line <m>y = 2</m> in <xref ref="F-inverse-quadratic">Figure</xref>) and therefore <m>s</m> does not have an inverse function.
 	</p>
 
 	<sidebyside width="45%">
@@ -321,7 +321,7 @@
   			<ul>
   				<li>
   					<p>
-  						<m>f^{-1} : B \to A</m>, so <m>f^{-1} : B \to A</m>, and the domain of <m>f^{-1}</m> is <m>B</m> and its range is <m>A</m>.
+  						<m>f^{-1} : B \to A</m>, so the domain of <m>f^{-1}</m> is <m>B</m> and its range is <m>A</m>.
   					</p>
   				</li>
 				<li>
@@ -338,7 +338,7 @@
 				</li>
 				<li>
 					<p>
-						If a point <m>(x,y)</m> lies on the graph of <m>f</m>, then <m>y = f(x)</m>.  It follows that we can equivalently say that <m>x = f^{-1}(y)</m>.  In the setting where <m>A</m> and <m>B</m> are collections of real numbers, it thus follows that the point <m>(x,y)</m> lies on the graph of <m>x = f^{-1}(y)</m>.
+						Consider the setting where <m>A</m> and <m>B</m> are collections of real numbers. If a point <m>(x,y)</m> lies on the graph of <m>f</m>, then it follows <m>y = f(x)</m>.  From this, we can equivalently say that <m>x = f^{-1}(y)</m>.  Hence, the point <m>(y,x)</m> lies on the graph of <m>x = f^{-1}(y)</m>.
 					</p>
 				</li>
   			</ul>
@@ -368,12 +368,12 @@
   		</li>
   		<li>
   			<p>
-  				We determine whether or not a given function <m>f</m> has a corresponding inverse function by determining if the process that defines <m>f</m> can be reversed so that we can also think of the outputs as a function of the inputs.  If we have a graph of the function <m>f</m>, we know <m>f</m> has an inverse function if the graph passes the horizontal line test.  If we have a formula for the function <m>f</m>, say <m>y = f(t)</m>, we know <m>f</m> has an inverse function if we can solve for <m>t</m> and write <m>t = f^{-1}(y)</m>.
+  				We determine whether or not a given function <m>f</m> has a corresponding inverse function by determining if the process that defines <m>f</m> can be reversed so that we can also think of the outputs as a function of the inputs.  If we have a graph of the function <m>f</m>, we know <m>f</m> has an inverse function if the graph passes the <xref text="title" ref="asm-inverse-H-L-test"></xref>.  If we have a formula for the function <m>f</m>, say <m>y = f(t)</m>, we know <m>f</m> has an inverse function if we can solve for <m>t</m> and write <m>t = f^{-1}(y)</m>.
   			</p>
   		</li>
   		<li>
   			<p>
-  				A good summary of the properties of an inverse function is provided in the box <xref text="title" ref="asm-inverse-properties" />.
+  				A good summary of the properties of an inverse function is provided in the <xref text="title" ref="asm-inverse-properties" />.
   			</p>
   		</li>
   	</ul>

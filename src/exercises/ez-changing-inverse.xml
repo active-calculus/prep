@@ -14,8 +14,6 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-inverse">
 
-<!-- THESE ALL WORK
-
   <exercise xml:id="ez-changing-inverse-WW1">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-13-Composition-inverse.pg" />
   </exercise>
@@ -39,7 +37,7 @@
   <exercise xml:id="ez-changing-inverse-WW7">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Q32.pg" />
   </exercise>
--->
+
 
   <exercise xml:id="ez-changing-inverse-p-q">
     <statement>
@@ -161,7 +159,7 @@
   <exercise xml:id="ez-changing-inverse-Dolbear-C">
     <statement>
       <p>
-        Recall that in <xref ref="act-changing-composite-crickets-celcius">Activity</xref>, we showed that Celcius temperature is a function of the number of chirps per minute from a snowy tree cricket according to the formula 
+        Recall that in <xref ref="act-changing-composite-crickets-celcius">Activity</xref>, we showed that Celsius temperature is a function of the number of chirps per minute from a snowy tree cricket according to the formula 
         <men xml:id="E-ez-changing-inverse-Dolbear-C">
           C = H(N) = \frac{40}{9} + \frac{5}{36}N
         </men>.

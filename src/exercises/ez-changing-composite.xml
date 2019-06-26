@@ -194,7 +194,7 @@
 
           <li>
             <p>
-              Recall that the function that converts Fahrenheit to Celcius is
+              Recall that the function that converts Fahrenheit to Celsius is
               <m>C = G(F) = \frac{5}{9}(F-32)</m>.
               Solve the equation <m>C = \frac{5}{9}(F-32)</m> for <m>F</m> in terms of <m>C</m>.  Call the resulting function <m>F = p(C)</m>.  What is the meaning of this function?
             </p>
