@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude for Calculus.                     -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -17,7 +17,7 @@
 
 	<statement>
 		<p>
-			Consider the same setting as <xref ref="act-circular-traversing-oscillator">Activity</xref>: a oscillates back and forth on a frictionless table with distance from the wall given by, <m>h = f(t)</m> (in inches) at any given time, <m>t</m> (in seconds).
+			Consider the same setting as <xref ref="act-circular-traversing-oscillator">Activity</xref>: a mass oscillates back and forth on a frictionless table with distance from the wall given by, <m>h = f(t)</m> (in inches) at any given time, <m>t</m> (in seconds).
       		A graph of <m>f</m> and a table of select values are given below.
 		</p>
 
@@ -116,12 +116,12 @@
 				</li>
 				<li>
 					<p>
-						Give an example of an interval of length <m>0.25</m> units on which <m>f</m> has its most negative average rate of change.  Explain your choice.
+						Give an example of an interval of length <m>0.25</m> units on which <m>f</m> has its most negative average rate of change.  Justify your choice.
 					</p>
 				</li>
 				<li>
 					<p>
-						Give the largest example you can of an interval on which <m>f</m> is decreasing.
+						Give an example of the longest interval you can find on which <m>f</m> is decreasing.
 					</p>
 				</li>
 				<li>
