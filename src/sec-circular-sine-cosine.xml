@@ -283,11 +283,11 @@
   	</p>
 
   	<p>
-  		Any standard computing device <dash>a scientific calculator, <em>Desmos</em>, <em>Geogebra</em>, <em>WolframAlpha</em>, etc.</dash> has the ability to evaluate the sine and cosine functions at any input we desire.  Because the input is viewed as an angle, each computing device has the option to consider the angle in radians or degrees.  <em>It is always essential that you are sure which type of input your device is expecting.</em>  Our computational device of choice is <em>Desmos</em>.  In <em>Desmos</em>, you can change the input type between radians and degrees by clicking the wrench icon in the upper right and choosing the desired units.  Radians is the default.
+  		Any standard computing device such as a scientific calculator, <em>Desmos</em>, <em>Geogebra</em>, or <em>WolframAlpha</em>, has the ability to evaluate the sine and cosine functions at any input we desire.  Because the input is viewed as an angle, each computing device has the option to consider the angle in radians or degrees.  <em>It is always essential that you are sure which type of input your device is expecting.</em>  Our computational device of choice is <em>Desmos</em>.  In <em>Desmos</em>, you can change the input type between radians and degrees by clicking the wrench icon in the upper right and choosing the desired units.  Radian measure is the default.
   	</p>
 
   	<p>
-  		It take substantial and sophisticated mathematics to enable a computational device to evaluate the sine and cosine functions at any value we want; the algorithms involve an idea from calculus known as an infinite series.  While your computational device is powerful, it's both helpful and important to understand the meaning of these values on the unit circle and to remember the special points for which we know the outputs of the sine and cosine functions exactly.
+  		It takes substantial and sophisticated mathematics to enable a computational device to evaluate the sine and cosine functions at any value we want; the algorithms involve an idea from calculus known as an infinite series.  While your computational device is powerful, it's both helpful and important to understand the meaning of these values on the unit circle and to remember the special points for which we know the outputs of the sine and cosine functions exactly.
   	</p>
 
   	<xi:include href="./activities/act-circular-sine-cosine-computing.xml" />

@@ -21,7 +21,7 @@
 		</p>
 
 		<figure xml:id="F-circular-sine-first-graph">
-			<caption>Plot of a circular function that </caption>
+			<caption>Plot of the circular function that tracks the height of a point traversing the unit circle.</caption>
 			<image source="images/sine-labeling-graph" />
 		</figure>
 
@@ -29,7 +29,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						What is the exact value of <m>h( \frac{\pi}{4} )</m>? of <m>h( \frac{\pi}{3} )</m>?
+						What is the exact value of <m>f( \frac{\pi}{4} )</m>? of <m>f( \frac{\pi}{3} )</m>?
 					</p>
 				</li>
 				<li>
@@ -84,12 +84,12 @@
 				</li>
 				<li>
 					<p>
-						What is the exact value of <m>h( \frac{11\pi}{4} )</m>? of <m>h( \frac{14\pi}{3} )</m>?
+						What is the exact value of <m>f( \frac{11\pi}{4} )</m>? of <m>f( \frac{14\pi}{3} )</m>?
 					</p>
 				</li>
 				<li>
 					<p>
-						Give four different values of <m>t</m> for which <m>h(t) = -\frac{\sqrt{3}}{2}</m>.
+						Give four different values of <m>t</m> for which <m>f(t) = -\frac{\sqrt{3}}{2}</m>.
 					</p>
 				</li>
 			</ol>

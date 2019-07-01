@@ -40,12 +40,12 @@
 				</li>
 				<li>
 					<p>
-						Label the subsequent points in the figure <m>P_2</m>, <m>P_3</m>, <m>\ldots</m> as we move counterclockwise around the circle.  What are the exact coordinates of <m>P_2</m>?  of <m>P_4</m>?  Why?
+						Label the subsequent points in the figure <m>P_2</m>, <m>P_3</m>, <m>\ldots</m> as we move counterclockwise around the circle.  What is the exact <m>y</m>-coordinate of the point <m>P_2</m>?  of <m>P_4</m>?  Why?
 					</p>
 				</li>
 				<li>
 					<p>
-						Determine the coordinates of the remaining points on the circle (exactly where possible, otherwise approximately) and hence complete the entries in <xref ref="T-act-circular-traversing-2nd-ex">Table</xref> that track the height, <m>h</m>, of the point traversing the circle as a function of distance traveled, <m>d</m>.
+						Determine the <m>y</m>-coordinates of the remaining points on the circle (exactly where possible, otherwise approximately) and hence complete the entries in <xref ref="T-act-circular-traversing-2nd-ex">Table</xref> that track the height, <m>h</m>, of the point traversing the circle as a function of distance traveled, <m>d</m>.
 					</p>
 
 					<table xml:id="T-act-circular-traversing-2nd-ex">

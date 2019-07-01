@@ -43,7 +43,7 @@
 		        <li>
 		          <p>
 		            Give an example of the largest interval you can find on which
-		            <m>g(t) = \sin(t)</m> is increasing and concave up.
+		            <m>g(t) = \cos(t)</m> is increasing and concave up.
 		          </p>
 		        </li>
 		        <li>
@@ -58,7 +58,7 @@
 		        </li>
 		        <li>
 		        	<p>
-		        		For which quadrants of the <m>x</m>-<m>y</m> plane is <m>\cos(t)</m> negative for an angle in that quadrant?
+		        		For which quadrants of the <m>x</m>-<m>y</m> plane is <m>\cos(t)</m> negative for an angle <m>t</m>in that quadrant?
 		        	</p>
 		        </li>
 			</ol>

@@ -267,7 +267,7 @@
   			<image source="images/traversing-circular-aroc-circle-eighth" />
   		</figure>
   		<figure xml:id="F-circular-traversing-aroc-20th">
-  			<caption>Comparing the average rate of change over <m>1/8</m> the circumference.</caption>
+  			<caption>Comparing the average rate of change over <m>1/20</m> the circumference.</caption>
   			<image source="images/traversing-circular-aroc-circle-20th" />
   		</figure>
   	</sidebyside>

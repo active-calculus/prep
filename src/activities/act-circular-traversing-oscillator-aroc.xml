@@ -17,7 +17,7 @@
 
 	<statement>
 		<p>
-			Consider the same setting as <xref ref="act-circular-traversing-oscillator">Activity</xref>: a mass oscillates back and forth on a frictionless table with distance from the wall given by, <m>h = f(t)</m> (in inches) at any given time, <m>t</m> (in seconds).
+			Consider the same setting as <xref ref="act-circular-traversing-oscillator">Activity</xref>: a weight oscillates back and forth on a frictionless table with distance from the wall given by, <m>h = f(t)</m> (in inches) at any given time, <m>t</m> (in seconds).
       		A graph of <m>f</m> and a table of select values are given below.
 		</p>
 
