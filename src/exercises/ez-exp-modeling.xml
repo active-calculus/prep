@@ -13,15 +13,20 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-modeling">
-
-<!--  
-  <exercise xml:id="ez-0-0-WW1">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+<!--
+  <exercise xml:id="ez-exp-modeling-WW1">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Q15.pg" />
   </exercise>
-  <exercise xml:id="ez-0-0-WW2">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+-->  
+  <exercise xml:id="ez-exp-modeling-WW2">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q14.pg" />
   </exercise>
--->
+  <exercise xml:id="ez-exp-modeling-WW3">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q33.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-modeling-WW4">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q22.pg" />
+  </exercise>
 
   <exercise xml:id="ez-exp-modeling-soda">
     <statement>

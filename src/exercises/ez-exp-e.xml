@@ -15,22 +15,45 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-e">
 
 <!--
-  <exercise xml:id="ez-0-0-WW1">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-exp-e-WW1">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q04.pg" />
   </exercise>
-  <exercise xml:id="ez-0-0-WW2">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-exp-e-WW2">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q06.pg" />
   </exercise>
+-->
+
+  <exercise xml:id="ez-exp-e-WW0">
+    <webwork source="Library/Rochester/setAlgebra28ExpFunctions/sw6_2_27.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-e-WW1">
+    <webwork source="Library/Rochester/setAlgebra28ExpFunctions/sw6_2_3.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-e-WW2">
+    <webwork source="Library/Rochester/setAlgebra28ExpFunctions/sw6_2_5.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-e-WW3">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q12.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-e-WW4">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q13.pg" />
+  </exercise>
+
+<!--  
+  <exercise xml:id="ez-exp-e-WW5">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q24.pg" />
+  </exercise>
+
 -->
 
   <exercise xml:id="ez-exp-e-continously-compounded">
     <statement>
       <p>
-        When a single investment of principal, <dollar /><m>P</m>, is invested in an account that returns interest at an annual rate of <m>r</m> (a decimal that corresponds to the percentage rate, such as <m>r = 0.05</m> corresponding to <m>5</m>%) that is compounded <m>n</m> times per year, the amount of money in the account after <m>t</m> years is given by <m>A(t) = P(1 + \frac{r}{n})^{nt}</m>.
+        When a single investment of principal, $<m>P</m>, is invested in an account that returns interest at an annual rate of <m>r</m> (a decimal that corresponds to the percentage rate, such as <m>r = 0.05</m> corresponding to <m>5</m>%) that is compounded <m>n</m> times per year, the amount of money in the account after <m>t</m> years is given by <m>A(t) = P(1 + \frac{r}{n})^{nt}</m>.
       </p>
 
       <p>
-        Suppose we invest <dollar /><m>P</m> in an account that earns <m>8</m> <percent></percent> annual interest.  We investigate the effects of different rates of compounding.  
+        Suppose we invest $<m>P</m> in an account that earns <m>8</m> <percent></percent> annual interest.  We investigate the effects of different rates of compounding.  
       </p>
 
       <p>
@@ -57,7 +80,7 @@
           </li>
           <li>
             <p>
-              If we let the number of times that interest is compounded increase without bound, we say that the interest is <q>compounded continuously</q>.  <idx><h>continuously compounded interest</h></idx>  When interest is compounded continuously, it turns out that the amount of money an account with initial investment <dollar /><m>P</m> after <m>t</m> years at an annual interest rate of <m>r</m> is <m>A(t) = Pe^{rt}</m>, where <m>e</m> is the natural base.  Compute <m>A(1)</m> in the same context as the preceding questions but where interest is compounded continuously.
+              If we let the number of times that interest is compounded increase without bound, we say that the interest is <q>compounded continuously</q>.  <idx><h>continuously compounded interest</h></idx>  When interest is compounded continuously, it turns out that the amount of money an account with initial investment $<m>P</m> after <m>t</m> years at an annual interest rate of <m>r</m> is <m>A(t) = Pe^{rt}</m>, where <m>e</m> is the natural base.  Compute <m>A(1)</m> in the same context as the preceding questions but where interest is compounded continuously.
             </p>
           </li>
           <li>
