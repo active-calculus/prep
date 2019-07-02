@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -45,7 +45,7 @@
 				</li>
 				<li>
 					<p>
-						Determine the <m>y</m>-coordinates of the remaining points on the circle (exactly where possible, otherwise approximately) and hence complete the entries in <xref ref="T-act-circular-traversing-2nd-ex">Table</xref> that track the height, <m>h</m>, of the point traversing the circle as a function of distance traveled, <m>d</m>.
+						Determine the <m>y</m>-coordinates of the remaining points on the circle (exactly where possible, otherwise approximately) and hence complete the entries in <xref ref="T-act-circular-traversing-2nd-ex">Table</xref> that track the height, <m>h</m>, of the point traversing the circle as a function of distance traveled, <m>d</m>.  Note that the <m>d</m>-values in the table correspond to the point traversing the circle more than once.
 					</p>
 
 					<table xml:id="T-act-circular-traversing-2nd-ex">

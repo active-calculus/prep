@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus                       -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -40,7 +40,7 @@
 				</li>
 				<li>
 					<p>
-						On the same axes as the plot of <m>y = s(x)</m>, sketch the following graphs:  <m>y = k(x) = -s(x)</m> and <m>y = j(x) = -\frac{1}{2}s(x)</m>.  Be sure to label several points on each of <m>r</m>, <m>g</m>, and <m>h</m> with arrows to indicate their correspondence.  In addition, write one sentence to explain the overall transformations that have resulted in <m>g</m> and <m>h</m> from <m>r</m>.
+						On the same axes as the plot of <m>y = s(x)</m>, sketch the following graphs:  <m>y = k(x) = -s(x)</m> and <m>y = j(x) = -\frac{1}{2}s(x)</m>.  Be sure to label several points on each of <m>s</m>, <m>k</m>, and <m>j</m> with arrows to indicate their correspondence.  In addition, write one sentence to explain the overall transformations that have resulted in <m>k</m> and <m>j</m> from <m>s</m>.
 					</p>
 				</li>
 				<li>

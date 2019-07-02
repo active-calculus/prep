@@ -224,7 +224,7 @@
 	  </assemblage>
 
 	  <p>
-	  	If height is measured instead in meters and velocity in meters per second, the gravitational constant is <m>g = 9.8</m> and the function <m>h</m> has form <m>h(t) = -4.9t^2 + v_0t + s_0</m>. <idx><h>gravity</h><h>gravitational constant</h></idx>
+	  	If height is measured instead in meters and velocity in meters per second, the gravitational constant is <m>g = 9.8</m> and the function <m>h</m> has form <m>h(t) = -4.9t^2 + v_0t + s_0</m>. <idx><h>gravity</h><h>gravitational constant</h></idx>  (When height is measured in feet, the gravitational constant is <m>g = 32</m>.)
 	  </p>
 
 	  <xi:include href="./activities/act-changing-quadratic-falling-ball.xml" />

@@ -104,7 +104,7 @@
 		<me>
 			h(x+b) = f( (x+b) - b ) = f(x)
 		</me>.
-		This shows that for an input of <m>x+b</m>, the output of <m>h</m> is equal to the output of <m>f</m> that corresponds to an input of simply <m>x</m>.  Hence, in <xref ref="F-transformations-horiz">Figure</xref>, the formula for <m>h</m> in terms of <m>f</m> is <m>h(x) = f(x-2)</m>, since an input of <m>x+2</m> in <m>h</m> will result in the same output as an input of <m>x</m> in <m>f</m>.  
+		This shows that for an input of <m>x+b</m> in <m>h</m>, the output of <m>h</m> is the same as the output of <m>f</m> that corresponds to an input of simply <m>x</m>.  Hence, in <xref ref="F-transformations-horiz">Figure</xref>, the formula for <m>h</m> in terms of <m>f</m> is <m>h(x) = f(x-2)</m>, since an input of <m>x+2</m> in <m>h</m> will result in the same output as an input of <m>x</m> in <m>f</m>.    For example, <m>h(2) = f(0)</m>, which aligns with the graph of <m>h</m> being a shift of the graph of <m>f</m> to the right by <m>2</m> units.
 	</p>
 
 	<p>
@@ -138,7 +138,7 @@
 	</assemblage>	
 
 	<p>
-		We emphasize that in the horizontal translation <m>h(x) = f(x-b)</m>, if <m>b \gt 0</m> the graph of <m>h</m> lies <m>b</m> units to the right of <m>f</m>, while if <m>b \lt 0</m>, <m>h</m> lies <m>b</m> units to the lft of <m>f</m>.
+		We emphasize that in the horizontal translation <m>h(x) = f(x-b)</m>, if <m>b \gt 0</m> the graph of <m>h</m> lies <m>b</m> units to the right of <m>f</m>, while if <m>b \lt 0</m>, <m>h</m> lies <m>b</m> units to the left of <m>f</m>.
 	</p>
 
 	<xi:include href="./activities/act-changing-transformations-translations.xml" />
