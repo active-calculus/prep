@@ -17,7 +17,7 @@
 
 	<statement>
 		<p>
-			In <em>Desmos</em>, define the function <m>g(t) = ab^t</m> and create sliders for both <m>a</m> and <m>b</m> when prompted.  Click on the sliders to set the minimum value for each to <m>0.1</m> and the maximum value to <m>10</m>.  Note that to be an exponential function <m>b \ne 1</m>, even though the slider for <m>b</m> will allow this value.
+			In <em>Desmos</em>, define the function <m>g(t) = ab^t</m> and create sliders for both <m>a</m> and <m>b</m> when prompted.  Click on the sliders to set the minimum value for each to <m>0.1</m> and the maximum value to <m>10</m>.  Note that for <m>g</m> to be an exponential function, we require <m>b \ne 1</m>, even though the slider for <m>b</m> will allow this value.
 		</p>
 
 		<p>
