@@ -15,14 +15,26 @@
 
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-log">
 
-<!--
-  <exercise xml:id="ez-0-0-WW1">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-exp-log-WW1">
+    <webwork source="Library/Rochester/setAlgebra29LogFunctions/srw4_2_5.pg" />
   </exercise>
-  <exercise xml:id="ez-0-0-WW2">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-exp-log-WW2">
+    <webwork source="Library/Rochester/setAlgebra29LogFunctions/problem4.pg" />
   </exercise>
--->
+  <exercise xml:id="ez-exp-log-WW3">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/beth2logfun.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-log-WW4">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_17.pg" />
+  </exercise>
+<!--  
+  <exercise xml:id="ez-exp-log-WW5">
+    <webwork source="Library/Michigan/skills_questions/topic_solving_exp_log/prob01.pg" />
+  </exercise>
+-->  
+  <exercise xml:id="ez-exp-log-WW6">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg" />
+  </exercise>
 
   <exercise xml:id="ez-exp-log-find-inverse">
     <statement>
