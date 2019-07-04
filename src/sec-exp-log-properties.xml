@@ -53,7 +53,7 @@
 	<p>
 		Let <m>a</m> and <m>b</m> be any positive real numbers so that <m>x = \ln(a)</m> and <m>y = \ln(b)</m> are both defined.  Observe that we can rewrite these two equations using the definition of the natural logarithm so that
 		<me>
-			a = e^x \text{ and } b = e^y
+			a = e^x \ \text{ and } \ b = e^y
 		</me>.
 		Using substitution, we can now say that
 		<me>
@@ -132,7 +132,7 @@
 	</assemblage>
 
 	<p>
-		The rule that <m>\ln(a^t) = t\ln(a)</m> is extremely powerful:  by working with logarithms appropriately, it enables us to move from having a variable being in an exponent to the variable being part of a linear expression.  Moreover, it enables us to solve exponential equations exactly, regardless of the base involved.
+		The rule that <m>\ln(a^t) = t\ln(a)</m> is extremely powerful:  by working with logarithms appropriately, it enables us to move from having a variable in an exponential expression to the variable being part of a linear expression.  Moreover, it enables us to solve exponential equations exactly, regardless of the base involved.
 	</p>
 
 	<example xml:id="ex-log-properties-solve-eqn">
@@ -143,7 +143,7 @@
 		</statement>
 		<solution>
 			<p>
-				To solve for <m>t</m>, we first solve for <m>e^t</m>.  Adding <m>1</m> to both sides and dividing by <m>7</m>, we find that
+				To solve for <m>t</m>, we first solve for <m>3^t</m>.  Adding <m>1</m> to both sides and dividing by <m>7</m>, we find that
 				<m>
 					3^t = \frac{6}{7}
 				</m>.
@@ -289,7 +289,7 @@
   	<ul>
   		<li>
   			<p>
-  				There are three fundamental rules for exponents given nonzero bases <m>a</m> and <m>b</m> and exponents <m>m</m> and <m>n</m>:
+  				There are three fundamental rules for exponents given nonzero base <m>a</m> and exponents <m>m</m> and <m>n</m>:
   				<me>
   					a^m \cdot a^n = a^{m+n}, \frac{a^m}{a^n} = a^{m-n}, \text{ and } (a^m)^n = a^{mn}
   				</me>.

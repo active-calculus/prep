@@ -38,7 +38,7 @@
 				</li>
 				<li>
 					<p>
-						Explain why each of the following equalities hold:
+						Explain why each of the following three equal signs is valid in the sequence of equalities:
 						<md>
 							<mrow>\log_{10}(10^x \cdot 10^y) &amp;= \log_{10}(10^{x+y})</mrow>
 							<mrow>         &amp;= x+y</mrow>

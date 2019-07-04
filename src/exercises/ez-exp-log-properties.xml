@@ -15,14 +15,36 @@
 
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-log-properties">
   
-<!--
-  <exercise xml:id="ez-0-0-WW1">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+
+  <exercise xml:id="ez-exp-log-properties-WW1">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/problem9.pg" />
   </exercise>
-  <exercise xml:id="ez-0-0-WW2">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-exp-log-properties-WW2">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/problem11.pg" />
   </exercise>
--->
+<!--  
+  <exercise xml:id="ez-exp-log-properties-WW3">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_3_48.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-log-properties-WW7">
+    <webwork source="Library/Rochester/setAlgebra31LogExpEqns/srw4_2_1.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-log-properties-WW8">
+    <webwork source="Library/Rochester/setAlgebra31LogExpEqns/ur_le_2_11.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-log-properties-WW9">
+    <webwork source="Library/Rochester/setAlgebra31LogExpEqns/ur_le_2_12.pg" />
+  </exercise>  
+-->  
+  <exercise xml:id="ez-exp-log-properties-WW4">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_11.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-log-properties-WW5">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_25.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-log-properties-WW6">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg" />
+  </exercise>
 
 
   <exercise xml:id="ez-exp-log-properties-doubling-time">
@@ -71,7 +93,7 @@
   <exercise xml:id="ez-exp-log-properties-car-value">
     <statement>
       <p>
-        A new car is purchased for <dollar /><m>28000</m>.  Exactly <m>1</m> year later, the car's value is <dollar /><m>23200</m>.  Assume that the car's value in dollars, <m>V</m>, <m>t</m> years after purchase decays exponentially according to a model of form <m>V(t) = Ae^{-kt}</m>.
+        A new car is purchased for $<m>28000</m>.  Exactly <m>1</m> year later, the value of the car is $<m>23200</m>.  Assume that the car's value in dollars, <m>V</m>, <m>t</m> years after purchase decays exponentially according to a model of form <m>V(t) = Ae^{-kt}</m>.
       </p>
 
       <p>
@@ -83,17 +105,17 @@
           </li>
           <li>
             <p>
-              How many years will it take until the car's value is <dollar /><m>10000</m>?
+              How many years will it take until the car's value is $<m>10000</m>?
             </p>
           </li>
           <li>
             <p>
-              Suppose that rather than having the car's value decay all the way to <dollar /><m>0</m>, the lowest dollar amount its value ever approaches is <dollar /><m>500</m>.  Explain why a model of the form <m>V(t) = Ae^{-kt} + c</m> is more appropriate.
+              Suppose that rather than having the car's value decay all the way to $<m>0</m>, the lowest dollar amount its value ever approaches is $<m>500</m>.  Explain why a model of the form <m>V(t) = Ae^{-kt} + c</m> is more appropriate.
             </p>
           </li>
           <li>
             <p>
-              Under the original assumptions (<m>V(0) = 28000</m> and <m>V(1) = 23200</m>) along with the condition in (c) that the car's value will approach <dollar /><m>500</m> in the long-term, determine the exact values of <m>A</m>, <m>k</m>, and <m>c</m> in the model <m>V(t) = Ae^{-kt} + c</m>.  Are the values of <m>A</m> and <m>c</m> the same or different from the model explored in (a)?  Why?
+              Under the original assumptions (<m>V(0) = 28000</m> and <m>V(1) = 23200</m>) along with the condition in (c) that the car's value will approach $<m>500</m> in the long-term, determine the exact values of <m>A</m>, <m>k</m>, and <m>c</m> in the model <m>V(t) = Ae^{-kt} + c</m>.  Are the values of <m>A</m> and <m>k/m> the same or different from the model explored in (a)?  Why?
             </p>
           </li>
         </ol>
