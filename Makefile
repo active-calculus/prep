@@ -198,7 +198,7 @@ soln-latex:
 	-rm $(SOLNOUT)/*.tex
 	cp -a $(IMAGESSRC) $(SOLNOUT)
 	cd $(SOLNOUT); \
-	xsltproc -xinclude $(MBUSR)/apc-solution-manual.xsl $(SOLNMAIN) \
+	xsltproc -o apc-solution-manual.tex -xinclude $(MBUSR)/apc-solution-manual.xsl $(SOLNMAIN) \
 
 # Solutions manual for PDF
 # Automatically builds LaTeX source for solutions manual
@@ -221,7 +221,7 @@ workbook-latex:
 	-rm $(WKBKOUT)/*.tex
 	cp -a $(IMAGESSRC) $(WKBKOUT)
 	cd $(WKBKOUT); \
-	xsltproc -xinclude $(MBUSR)/apc-activity-workbook.xsl $(WKBKMAIN) \
+	xsltproc -o apc-activity-workbook.tex -xinclude $(MBUSR)/apc-activity-workbook.xsl $(WKBKMAIN) \
 
 # Activity workbook for PDF
 # Automatically builds LaTeX source for solutions manual
