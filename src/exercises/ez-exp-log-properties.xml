@@ -15,7 +15,6 @@
 
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-log-properties">
   
-
   <exercise xml:id="ez-exp-log-properties-WW1">
     <webwork source="Library/Rochester/setAlgebra30LogExpEqns/problem9.pg" />
   </exercise>
@@ -115,7 +114,7 @@
           </li>
           <li>
             <p>
-              Under the original assumptions (<m>V(0) = 28000</m> and <m>V(1) = 23200</m>) along with the condition in (c) that the car's value will approach $<m>500</m> in the long-term, determine the exact values of <m>A</m>, <m>k</m>, and <m>c</m> in the model <m>V(t) = Ae^{-kt} + c</m>.  Are the values of <m>A</m> and <m>k/m> the same or different from the model explored in (a)?  Why?
+              Under the original assumptions (<m>V(0) = 28000</m> and <m>V(1) = 23200</m>) along with the condition in (c) that the car's value will approach $<m>500</m> in the long-term, determine the exact values of <m>A</m>, <m>k</m>, and <m>c</m> in the model <m>V(t) = Ae^{-kt} + c</m>.  Are the values of <m>A</m> and <m>k</m> the same or different from the model explored in (a)?  Why?
             </p>
           </li>
         </ol>

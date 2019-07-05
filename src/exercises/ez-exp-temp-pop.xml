@@ -14,15 +14,26 @@
 <!-- **********************************************************************-->
 
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-temp-pop">
-  
-<!--
-  <exercise xml:id="ez-0-0-WW1">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+
+<!--  
+  <exercise xml:id="ez-exp-temp-pop-WW1">
+    <webwork source="Library/Michigan/skills_questions/topic_solving_exp_log/prob03.pg" />
   </exercise>
-  <exercise xml:id="ez-0-0-WW2">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+-->  
+  <exercise xml:id="ez-exp-temp-pop-WW2">
+    <webwork source="Library/Rochester/setDiffEQ5ModelingWith1stOrder/ur_de_5_4.pg" />
+  </exercise>
+<!--  
+  <exercise xml:id="ez-exp-temp-pop-WW3">
+    <webwork source="Library/Rochester/setAlgebra31LogExpApplications/cooling.pg" />
   </exercise>
 -->
+  <exercise xml:id="ez-exp-temp-pop-WW4">
+    <webwork source="Library/Michigan/Chap11Sec7/Q09.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-temp-pop-WW5">
+    <webwork source="Library/Rochester/setAlgebra31LogExpApplications/infection1.pg" />
+  </exercise>
 
   <exercise xml:id="ez-exp-temp-pop-water">
     <statement>

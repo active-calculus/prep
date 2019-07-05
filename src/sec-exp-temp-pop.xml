@@ -111,7 +111,7 @@
   		<me>
   			P(t) = Ae^{kt}
   		</me>
-  		where <m>A</m> is the initial population and <m>k</m> is tied to the rate at which the population grows.  Since <m>k \gt 0</m>, we know that <m>e^{kt}</m> is an always increasing, always concave up function that grows without bound.  While <m>P(t) = Ae^{kt}</m> may be a reasonable model for how a population grows when it is relatively small small, because the function grows without bound as time increases, it can't be a realistic long-term representation of what happens in reality.  Indeed, whether it is the number of fish who can survive in a lake, the number of cells in a petri dish, or the number of human beings on earth, the size of the surroundings and the limitations of resources will keep the population from being able to grow without bound.
+  		where <m>A</m> is the initial population and <m>k</m> is tied to the rate at which the population grows.  Since <m>k \gt 0</m>, we know that <m>e^{kt}</m> is an always increasing, always concave up function that grows without bound.  While <m>P(t) = Ae^{kt}</m> may be a reasonable model for how a population grows when it is relatively small, because the function grows without bound as time increases, it can't be a realistic long-term representation of what happens in reality.  Indeed, whether it is the number of fish who can survive in a lake, the number of cells in a petri dish, or the number of human beings on earth, the size of the surroundings and the limitations of resources will keep the population from being able to grow without bound.
   	</p>
 
   	<p>
@@ -140,7 +140,7 @@
   		</li>
   		<li>
   			<p>
-  				Because the exponential function <m>P(t) = Ae^{kt}</m> grows without bound as <m>t</m> increases, such a function is not a realistic model of a population that we expect to level off as time goes on.  The logistic function,
+  				Because the exponential function <m>P(t) = Ae^{kt}</m> grows without bound as <m>t</m> increases, such a function is not a realistic model of a population that we expect to level off as time goes on.  The logistic function
   				<me>
   					P(t) = \frac{A}{1 + Me^{-kt}}
   				</me> 
