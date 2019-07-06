@@ -19,7 +19,7 @@
 
 		<sidebyside>
 			<p>
-				Supertall<fn>See, for instance, <url ref="https://www.cnn.com/style/article/new-york-slender-skyscrapers/index.html">this article</url></fn> high rises have changed the Manhattan skyline.  These skyscrapers are known for their small footprint in proportion to their height, with their ratio of width to height at most <m>1:10</m>, and some as extreme as <m>1:24</m>.  Suppose that a relatively short supertall has been built to a height of <m>635</m> feet, as pictured in <xref ref="F-tan-act-two-towers">Figure</xref>, and that a second supertall is built nearby.  Given the two angles that are computed from the new building, how tall, <m>s</m>, is the new building, and how far apart, <m>d</m>, are the two towers?
+				Supertall<fn>See, for instance, <url href="https://www.cnn.com/style/article/new-york-slender-skyscrapers/index.html">this article</url></fn> high rises have changed the Manhattan skyline.  These skyscrapers are known for their small footprint in proportion to their height, with their ratio of width to height at most <m>1:10</m>, and some as extreme as <m>1:24</m>.  Suppose that a relatively short supertall has been built to a height of <m>635</m> feet, as pictured in <xref ref="F-tan-act-two-towers">Figure</xref>, and that a second supertall is built nearby.  Given the two angles that are computed from the new building, how tall, <m>s</m>, is the new building, and how far apart, <m>d</m>, are the two towers?
 			</p>	
 
 			<figure xml:id="F-tan-act-two-towers">
