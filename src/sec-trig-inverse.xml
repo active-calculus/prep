@@ -43,8 +43,8 @@
 	      <li>
 	        <p>
 	          A function <m>f</m> has an inverse function
-	          if and only if there exists a function <m>g</m> that undoes the work of <m>f</m>:
-	          that is, there is some function <m>g</m> for which
+	          if and only if there exists a function <m>g</m> that undoes the work of <m>f</m>. Such
+	          a function <m>g</m> has the properties that
 	          <m>g(f(x)) = x</m> for each <m>x</m> in the domain of <m>f</m>,
 	          and <m>f(g(y)) = y</m> for each <m>y</m> in the range of <m>f</m>.
 	          We call <m>g</m> the inverse of <m>f</m>,
@@ -78,7 +78,7 @@
 	    At the same time, it is reasonable to think about changing perspective and viewing angles as outputs in certain restricted settings.
 	    For instance, we may want to say both
 	    <me>
-	      \frac{\sqrt{3}}{2} = \cos\left(\frac{\pi}{6}\right) \ \ \ \ \mbox{and}  \ \ \ \ \frac{\pi}{6} = \cos^{-1}\left(\frac{\sqrt{3}}{2}\right)
+	      \frac{\sqrt{3}}{2} = \cos\left(\frac{\pi}{6}\right) \ \ \ \mbox{and}  \ \ \ \frac{\pi}{6} = \cos^{-1}\left(\frac{\sqrt{3}}{2}\right)
 	    </me>
 	    depending on the context in which we are considering the relationship between the angle and side length.
 	  </p>
@@ -107,7 +107,7 @@
   <subsection xml:id="subsec-trig-inverse-arccos">
   	<title>The arccosine function</title>
   	<p>
-  		For the cosine function restricted to the domain <m>[0,\pi]</m> that we considered in <xref ref="PA-trig-inverse">Preview Activity</xref>, the function is strictly decreasing on its domain and thus passes the Horizontal Line Test.  Therefore, this restricted version of the cosine function has an inverse function; we will call this inverse function the <em>arccosine</em> function.
+  		For the cosine function restricted to the domain <m>[0,\pi]</m> that we considered in <xref ref="PA-trig-inverse">Preview Activity</xref>, the function is strictly decreasing on its domain and thus passes the Horizontal Line Test.  Therefore, this restricted version of the cosine function has an inverse function; we will call this inverse function the <term>arccosine</term> function.
   	</p>
 
   	<definition xml:id="def-inverse-trig-arccosine">
@@ -128,9 +128,9 @@
 	</p>
 
 	<p>
-		We recall that for any function with an inverse function, the inverse function reverses the process of the original function.  We know that when we write <q><m>y = \cos(t)</m></q>, we can read this statement as saying <q><m>y</m> is the cosine of the angle <m>t</m></q>.  Changing perspective and writing the equivalent statement <q><m>t = \arccos(y)</m></q>, we read this statement as <q><m>t</m> is the angle whose cosine is <m>y</m></q>.  Just as <m>y = f(t)</m> and <m>t = f^{-1}(y)</m> say the same thing for a function and its inverse in general,
+		We recall that for any function with an inverse function, the inverse function reverses the process of the original function.  We know that <q><m>y = \cos(t)</m></q> can be read as saying <q><m>y</m> is the cosine of the angle <m>t</m></q>.  Changing perspective and writing the equivalent statement <q><m>t = \arccos(y)</m></q>, we read this statement as <q><m>t</m> is the angle whose cosine is <m>y</m></q>.  Just as <m>y = f(t)</m> and <m>t = f^{-1}(y)</m> say the same thing for a function and its inverse in general,
 		<me>
-			y = \cos(t) \text{ and } t = \arccos(y)
+			y = \cos(t) \ \text{ and } \ t = \arccos(y)
 		</me>
 		say the same thing for any angle <m>t</m> that satisfies <m>0 \le t \le \pi</m>.  We also use the equivalent notation <m>t = \cos^{-1}(y)</m> interchangeably with <m>t = \arccos(y)</m>.  We read <q><m>t = \cos^{-1}(y)</m></q> as <q><m>t</m> is the angle whose cosine is <m>y</m></q> or <q><m>t</m> is the inverse cosine of <m>y</m></q>.  Key properties of the arccosine function can be summarized as follows.
 	</p>
