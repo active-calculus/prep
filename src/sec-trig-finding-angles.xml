@@ -38,7 +38,7 @@
       <p>
         While the original trigonometric functions take a particular angle as input and provide an output that can be viewed as the ratio of two sides of a right triangle, the inverse trigonometric functions take an input that can be viewed as a ratio of two sides of a right triangle and produce the corresponding angle as output.  Indeed, it's imperative to remember that statements such as 
         <me>
-          \arccos(x) = \theta \text{ and } \cos(\theta) = x
+          \arccos(x) = \theta \ \text{ and } \ \cos(\theta) = x
         </me>
         say the exact same thing from two different perspectives, and that we read <q><m>\arccos(x)</m></q> as <q>the angle whose cosine is <m>x</m></q>.
       </p>
@@ -51,7 +51,7 @@
     <title>Evaluating inverse trigonometric functions</title>
 
     <p>
-      Like the trigonometric functions themselves, there are a handful of important values of the inverse trigonometric functions that we can determine exactly without the aid of a computer.  For instance, we know from the unit circle (see <xref ref="F-circular-sine-all-16">Figure</xref>) that <m>\arcsin(-\frac{\sqrt{3}}{2}) = -\frac{\pi}{3}</m>, <m>\arccos(-\frac{\sqrt{3}}{2}) = \frac{5\pi}{6}</m>, and <m>\arctan(-\frac{1}{\sqrt{3}}) = -\frac{\pi}{6}</m>.  In these evaluations, we have to be careful to remember that the range of the arccosine function is <m>[0,\pi]</m>, while the range of the arcsine function is <m>[-\frac{\pi}{2},\frac{\pi}{2}]</m> and the range of the arctangent function is <m>(-\frac{\pi}{2},\frac{\pi}{2})</m>, in order to ensure that we choose the appropriate angle that results from the inverse trigonometric function.
+      Like the trigonometric functions themselves, there are a handful of important values of the inverse trigonometric functions that we can determine exactly without the aid of a computer.  For instance, we know from the unit circle (<xref ref="F-circular-sine-all-16">Figure</xref>) that <m>\arcsin(-\frac{\sqrt{3}}{2}) = -\frac{\pi}{3}</m>, <m>\arccos(-\frac{\sqrt{3}}{2}) = \frac{5\pi}{6}</m>, and <m>\arctan(-\frac{1}{\sqrt{3}}) = -\frac{\pi}{6}</m>.  In these evaluations, we have to be careful to remember that the range of the arccosine function is <m>[0,\pi]</m>, while the range of the arcsine function is <m>[-\frac{\pi}{2},\frac{\pi}{2}]</m> and the range of the arctangent function is <m>(-\frac{\pi}{2},\frac{\pi}{2})</m>, in order to ensure that we choose the appropriate angle that results from the inverse trigonometric function.
     </p>
 
     <p>
@@ -82,7 +82,7 @@
           <me>x^2 + 1^2 = 3^2</me>,
           and thus <m>x^2 = 8</m> so <m>x = \sqrt{8} \approx 2.8284</m>.  Calling the remaining angle <m>\beta</m>, since <m>\alpha + \beta = \frac{\pi}{2}</m>, it follows that 
           <me>
-            \beta = \frac{\pi}{2} - \arcsin(\frac{1}{3}) \approx 1.2310
+            \beta = \frac{\pi}{2} - \arcsin \left(\frac{1}{3}\right) \approx 1.2310
           </me>.
         </p>
       </solution>
@@ -134,7 +134,7 @@
         </li>
         <li>
           <p>
-            For situations other than angles or ratios that involve the <m>16</m> special points on the unit circle, technology is required in order to evaluate inverse trignometric functions.  For instance, from the unit circle we know that <m>\arccos(\frac{1}{2}) = \frac{2\pi}{3}</m> (exactly), but if we want to know <m>\arccos(\frac{1}{3})</m>, we have to estimate this value using a computational device such as <em>Desmos</em>.  We note that <q><m>\arccos(\frac{1}{3})</m></q> is the exact value of the angle whose cosine is <m>1/3</m>.
+            For situations other than angles or ratios that involve the <m>16</m> special points on the unit circle, technology is required in order to evaluate inverse trignometric functions.  For instance, from the unit circle we know that <m>\arccos(\frac{1}{2}) = \frac{\pi}{3}</m> (exactly), but if we want to know <m>\arccos(\frac{1}{3})</m>, we have to estimate this value using a computational device such as <em>Desmos</em>.  We note that <q><m>\arccos(\frac{1}{3})</m></q> is the exact value of the angle whose cosine is <m>\frac{1}{3}</m>.
           </p>
         </li>
       </ul>
