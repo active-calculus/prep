@@ -29,7 +29,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						Complete <xref ref="T-cotangent-values">Table</xref> and <xref ref="T-cotangent-values-2">Table</xref> to determine the exact values of the cotangent function at the special points on the unit circle.  Enter <q><m>u</m></q> for any value at which <m>r(t) = \cot(t)</m> is undefined.
+						Complete <xref ref="T-cotangent-values">Table</xref> and <xref ref="T-cotangent-values-2">Table</xref> to determine the exact values of the cotangent function at the special points on the unit circle.  Enter <q>u</q> for any value at which <m>r(t) = \cot(t)</m> is undefined.
 					</p>						
     				<table xml:id="T-cotangent-values">
 						<caption>Values of the sine function at special points on the unit circle.</caption>
@@ -76,7 +76,7 @@
 								<cell><m>\frac{1}{\sqrt{3}}</m></cell>
 								<cell><m>1</m></cell>
 								<cell><m>\frac{3}{\sqrt{3}}</m></cell>
-								<cell><m>u</m></cell>
+								<cell>u</cell>
 								<cell><m>-\frac{3}{\sqrt{3}}</m></cell>
 								<cell><m>-1</m></cell>
 								<cell><m>-\frac{1}{\sqrt{3}}</m></cell>
@@ -137,7 +137,7 @@
 								<cell><m>\frac{1}{\sqrt{3}}</m></cell>
 								<cell><m>1</m></cell>
 								<cell><m>\frac{3}{\sqrt{3}}</m></cell>
-								<cell><m>u</m></cell>
+								<cell>u</cell>
 								<cell><m>-\frac{3}{\sqrt{3}}</m></cell>
 								<cell><m>-1</m></cell>
 								<cell><m>-\frac{1}{\sqrt{3}}</m></cell>
@@ -179,7 +179,7 @@
 				</li>
 				<li>
 					<p>
-						On intervals where the function is defined at every point in the interval, is <m>r(t) = \cot(t)</m> increasing, decreasing, or neither?
+						On intervals where the function is defined at every point in the interval, is <m>r(t) = \cot(t)</m> always increasing, always decreasing, or neither?
 					</p>
 				</li>
 				<li>
