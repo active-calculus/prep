@@ -126,7 +126,7 @@
     <p>
       The main issue to realize is that the form of the curve depends on a special family of cubic polynomials:
       <me>
-        (1-t)^3, 3(1-t^2)t, 3(1-t^2)t, \text{ and } t^3
+        (1-t)^3, 3(1-t^2)t, 3(1-t^2)t, \ \text{ and } \ t^3
       </me>.
       These four cubic polynomials play a key role in graphic design and are used in all sorts of important ways, including in font design, as seen in <xref ref="F-polynomial-applications-Bezier-letter">Figure</xref>.
     </p>

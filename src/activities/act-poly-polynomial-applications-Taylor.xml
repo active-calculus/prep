@@ -48,7 +48,7 @@
 				</li>
 				<li>
 					<p>
-						In a new <em>Desmos</em> worksheet, plot the function <m>y = \cos(x)</m> along with the following functions: <m>P_2(x) = 1 - \frac{x^2}{2!}</m> and <m>P_4(x) = 1 - \frac{x^2}{2!} + \frac{x^4}{4!}</m>.  Based on the patterns with the coefficients in the polynomials approximating <m>\sin(x)</m> and the polynomials <m>P_2</m> and <m>P_4</m> here, conjecture formulas for <m>P_6</m>, <m>P_8</m>, and <m>P_{18}</m> and plot them.  How good an approximation of <m>y = \cos(x)</m> can we generate with polynomials?
+						In a new <em>Desmos</em> worksheet, plot the function <m>y = \cos(x)</m> along with the following functions: <m>P_2(x) = 1 - \frac{x^2}{2!}</m> and <m>P_4(x) = 1 - \frac{x^2}{2!} + \frac{x^4}{4!}</m>.  Based on the patterns with the coefficients in the polynomials approximating <m>\sin(x)</m> and the polynomials <m>P_2</m> and <m>P_4</m> here, conjecture formulas for <m>P_6</m>, <m>P_8</m>, and <m>P_{18}</m> and plot them.  How well can we approximate <m>y = \cos(x)</m> using polynomials?
 					</p>
 				</li>
 			</ol>
