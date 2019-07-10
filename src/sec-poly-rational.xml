@@ -114,7 +114,7 @@
 			<me>
 				\lim_{x \to \infty} \frac{1}{x^n} = 0
 			</me>
-			since <m>x^n</m> increases without bound as <m>x \to \infty</m>.  The same is true when <m>x \to -\infty</m>:  <m>\lim_{x \to -\infty} \frac{1}{x^n} = 0</m>. Thus, any time we encounter a quantity such as <m>\frac{1}{x^3}</m>, this quantity will approach <m>0</m> as <m>x</m> increases without bound.  The same is true for any constant numerator.  For instance,
+			since <m>x^n</m> increases without bound as <m>x \to \infty</m>.  The same is true when <m>x \to -\infty</m>:  <m>\lim_{x \to -\infty} \frac{1}{x^n} = 0</m>. Thus, any time we encounter a quantity such as <m>\frac{1}{x^3}</m>, this quantity will approach <m>0</m> as <m>x</m> increases without bound, and this will also occur for any constant numerator.  For instance,
 			<me>
 				\lim_{x \to \infty} \frac{2500}{x^2} = 0
 			</me>

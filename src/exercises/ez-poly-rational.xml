@@ -15,14 +15,37 @@
 
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-poly-rational">
   
-<!--
-  <exercise xml:id="ez-0-0-WW1">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-poly-rational-WW1">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q10.pg" />
   </exercise>
-  <exercise xml:id="ez-0-0-WW2">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-poly-rational-WW2">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q12.pg" />
+  </exercise>
+  <exercise xml:id="ez-poly-rational-WW3">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q13.pg" />
+  </exercise>
+  <exercise xml:id="ez-poly-rational-WW4">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q02.pg" />
+  </exercise>
+  <exercise xml:id="ez-poly-rational-WW5">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q07.pg" />
+  </exercise>
+  <exercise xml:id="ez-poly-rational-WW6">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q15.pg" />
+  </exercise>
+
+<!--  
+  <exercise xml:id="ez-poly-rational-WW7">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q19.pg" />
   </exercise>
 -->
+
+  <exercise xml:id="ez-poly-rational-WW8">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q24.pg" />
+  </exercise>
+  <exercise xml:id="ez-poly-rational-WW9">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q06.pg" />
+  </exercise>
 
   <exercise xml:id="ez-poly-rational-domain-asymptote">
     <statement>
@@ -70,7 +93,7 @@
   <exercise xml:id="ez-poly-rational-applications-box">
     <statement>
       <p>
-        A rectangular box is being constructed so that its base is <m>1.5</m> times as long as it is wide.  In addition, suppose that material for the base and top of the box costs <dollar /><m>3.75</m> per square foot, while material for the sides costs <dollar /><m>2.50</m> per square foot.  Finally, we want the box to hold <m>8</m> cubic feet of volume.
+        A rectangular box is being constructed so that its base is <m>1.5</m> times as long as it is wide.  In addition, suppose that material for the base and top of the box costs $<m>3.75</m> per square foot, while material for the sides costs $<m>2.50</m> per square foot.  Finally, we want the box to hold <m>8</m> cubic feet of volume.
       </p>
 
       <p>
@@ -123,7 +146,7 @@
   <exercise xml:id="ez-poly-rational-applications-can">
     <statement>
       <p>
-        A cylindrical can is being constructed so that its volume is <m>16</m> cubic inches.  Suppose that material for the lids (the top and bottom) cost <dollar /><m>0.11</m> per square inch and material for the <q>side</q> of the can costs <dollar /><m>0.07</m> per square inch.  Determine a formula for the total cost of the can as a function of the can's radius.  What is the domain of the function and why?  (Hint: you may find it helpful to ask yourslef a sequence of questions like those stated in <xref ref="ez-poly-rational-applications-box">Exercise</xref>).
+        A cylindrical can is being constructed so that its volume is <m>16</m> cubic inches.  Suppose that material for the lids (the top and bottom) cost $<m>0.11</m> per square inch and material for the <q>side</q> of the can costs $<m>0.07</m> per square inch.  Determine a formula for the total cost of the can as a function of the can's radius.  What is the domain of the function and why?  (Hint: you may find it helpful to ask yourslef a sequence of questions like those stated in <xref ref="ez-poly-rational-applications-box">Exercise</xref>).
       </p>
     </statement>
     <answer>
