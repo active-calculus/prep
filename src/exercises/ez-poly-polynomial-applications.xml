@@ -90,7 +90,7 @@
   <exercise xml:id="ez-poly-polynomial-applications-2">
     <statement>
       <p>
-        A rectangular box is being constructed so that its base is twice as long as it is wide.  In addition, the base and top of the box cost $<m>2</m> per square foot while the sides cost $<m>1.50</m> per square foot.  If we only want to spend $<m>2</m> on materials for the box, how can we write the box's volume as a function of a single variable?  What is the domain of this volume function? (Hint: first find the box's surface area in terms of two variables, and then find an expression for the cost of the box in terms of those same variables.  Use the fact that cost is constrained to solve for one variable in terms of another.)
+        A rectangular box is being constructed so that its base is twice as long as it is wide.  In addition, the base and top of the box cost $<m>2</m> per square foot while the sides cost $<m>1.50</m> per square foot.  If we only want to spend $<m>10</m> on materials for the box, how can we write the box's volume as a function of a single variable?  What is the domain of this volume function? (Hint: first find the box's surface area in terms of two variables, and then find an expression for the cost of the box in terms of those same variables.  Use the fact that cost is constrained to solve for one variable in terms of another.)
       </p>
     </statement>
     <answer>

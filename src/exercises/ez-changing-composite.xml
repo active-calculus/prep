@@ -42,9 +42,13 @@
   <exercise xml:id="ez-changing-composite-WW8">
     <webwork source="Library/Rochester/setAlgebra17FunComposition/faris1.pg" />
   </exercise> 
+
+<!-- the image shows in HTML but not PDF
   <exercise xml:id="ez-changing-composite-WW9">
     <webwork source="Library/Rochester/setAlgebra17FunComposition/srw2_8_23.pg" />
   </exercise> 
+--> 
+  
   <exercise xml:id="ez-changing-composite-WW10">
     <webwork source="Library/Rochester/setAlgebra17FunComposition/ur_fn_2_6.pg" />
   </exercise> 

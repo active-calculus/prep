@@ -38,7 +38,7 @@
 
   <introduction>
   	<p>
-  		Because any rational function is the ratio of two polynomial functions, it's natural to ask questions about rational functions similar to those we ask about polynomials.  With polynomials, it is often helpful to know where the function's value is zero.  In a rational function <m>r(x) = \frac{p(x)}{q(x)}</m>, as may be expected, we are curious to know where both <m>p(x) = 0</m> and where <m>q(x) = 0</m>.  
+  		Because any rational function is the ratio of two polynomial functions, it's natural to ask questions about rational functions similar to those we ask about polynomials.  With polynomials, it is often helpful to know where the function's value is zero.  In a rational function <m>r(x) = \frac{p(x)}{q(x)}</m>, we are curious to know where both <m>p(x) = 0</m> and where <m>q(x) = 0</m>.  
   	</p>
 
   	<p>
@@ -155,7 +155,7 @@
   			</p>
 
   			<p>
-  				Finally, we also note that <m>p(1) = 0</m> and <m>q(1) = -6</m>, so at <m>x = 1</m>, <m>r(x)</m> has a zero (its numerator is zero and its denominator is not).  In addition, <m>q(4) = 0</m> and <m>p(4) = 15</m> (its denominator is zero and its numerator is not), so in this location <m>r(x)</m> has a vertical asymptote.  These features are accurately represented by the original <em>Desmos</em> graph shown in <xref ref="F-rational-features-hole-1A">Figure</xref>.
+  				Finally, we also note that <m>p(1) = 0</m> and <m>q(1) = -6</m>, so at <m>x = 1</m>, <m>r(x)</m> has a zero (its numerator is zero and its denominator is not).  In addition, <m>q(4) = 0</m> and <m>p(4) = 15</m> (its denominator is zero and its numerator is not), so <m>r(x)</m> has a vertical asymptote at <m>x = 4</m>.  These features are accurately represented by the original <em>Desmos</em> graph shown in <xref ref="F-rational-features-hole-1A">Figure</xref>.
   			</p>
   		</solution>
   	</example>
@@ -175,7 +175,7 @@
 				<me>
 					\lim_{x \to a} r(x) = L
 				</me>
-				and say that the limit of <m>r</m> as <m>x</m> approaches <m>a</m> is <m>L</m>.
+				and say that <q>the limit of <m>r</m> as <m>x</m> approaches <m>a</m> is <m>L</m></q>.
 			</p>
 		</statement>
 	</definition>
@@ -208,7 +208,7 @@
  						<me>
  							\lim_{x \to a} r(x) = L
  						</me>,
- 						then <m>r</m> has a hole at the point <m>(a,L)</m>.<fn>It is possible for both <m>p(a) = 0</m> and <m>q(a) = 0</m> and for <m>r</m> to still have a vertical asymptote at <m>x = a</m>.  We explore this possibility further in <xref ref="ez-poly-rational-features-multiplicities">Exercise</xref>.</fn>
+ 						then <m>r(a)</m> is not defined and <m>r</m> has a hole at the point <m>(a,L)</m>.<fn>It is possible for both <m>p(a) = 0</m> and <m>q(a) = 0</m> and for <m>r</m> to still have a vertical asymptote at <m>x = a</m>.  We explore this possibility further in <xref ref="ez-poly-rational-features-multiplicities">Exercise</xref>.</fn>
  					</p>
  				</li>
  			</ul>
@@ -276,7 +276,7 @@
   			</sidebyside>
 
   			<p>
-  				In both the sign chart and the figure, we see that <m>q</m> changes sign at each of its zeros, <m>x = -3</m> and <m>x = 2</m>, and that it does not change as it passes by its vertical asymptote at <m>x = 1</m>.  The reason <m>q</m> doesn't change sign at the asympotote is because of the repeated factor of <m>(x-1)^2</m> which does not change sign.
+  				In both the sign chart and the figure, we see that <m>q</m> changes sign at each of its zeros, <m>x = -3</m> and <m>x = 2</m>, and that it does not change as it passes by its vertical asymptote at <m>x = 1</m>.  The reason <m>q</m> doesn't change sign at the asympotote is because of the repeated factor of <m>(x-1)^2</m> which is always positive.
   			</p>
   		</solution>
   	</example>

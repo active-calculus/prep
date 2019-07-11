@@ -21,14 +21,14 @@
 		</p>
 
 		<p>
-			Observe that the largest power of <m>x</m> that's present in <m>r(x)</m> is <m>x^2</m>.  In addition, because of the dominant terms of <m>3x^2</m> in the numerator and <m>7x^2</m> in the denominator, both the numerator and denominator of <m>r</m> increase without bound as <m>x</m> increases without bound.  In order to understand the long-range behavior of <m>r</m>, we choose to write the function a different algebraic form.  
+			Observe that the largest power of <m>x</m> that's present in <m>r(x)</m> is <m>x^2</m>.  In addition, because of the dominant terms of <m>3x^2</m> in the numerator and <m>7x^2</m> in the denominator, both the numerator and denominator of <m>r</m> increase without bound as <m>x</m> increases without bound.  In order to understand the long-range behavior of <m>r</m>, we choose to write the function in a different algebraic form.  
 		</p>
 
 		<p>
 			<ol label="a.">
 				<li>
 					<p>
-						Note that we can multiply the formula for <m>r</m> by the form of <m>1</m> given by <m>1 = \frac{\frac{1}{x^2}}{\frac{1}{x^2}}</m>.  Do so, and distribute and simplify as much as possible in both the numerator and denominator.
+						Note that we can multiply the formula for <m>r</m> by the form of <m>1</m> given by <m>1 = \frac{\frac{1}{x^2}}{\frac{1}{x^2}}</m>.  Do so, and distribute and simplify as much as possible in both the numerator and denominator to write <m>r</m> in a different algebraic form.
 					</p>
 				</li>
 				<li>

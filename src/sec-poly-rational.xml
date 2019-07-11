@@ -38,7 +38,7 @@
 
 	<introduction>
 		<p>
-			The average rate of change of a function on an interval always involves a ratio.  Indeed, for a given a function <m>f</m> that interests us near <m>t = 2</m>, we can investigate its average rate of change on intervals near this value by considering
+			The average rate of change of a function on an interval always involves a ratio.  Indeed, for a given function <m>f</m> that interests us near <m>t = 2</m>, we can investigate its average rate of change on intervals near this value by considering
 			<me>
 				AV_{[2,2+h]} = \frac{f(2+h)-f(2)}{h}
 			</me>.
