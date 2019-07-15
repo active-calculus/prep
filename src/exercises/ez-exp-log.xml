@@ -105,11 +105,11 @@
   <exercise xml:id="ez-exp-log-base-b">
     <statement>
       <p>
-        We've seen that any exponential function <m>f(t) = b^t</m> (<m>b \gt 0</m>, <m>b \ne 1</m>) can be written in the form <m>f(t) = e^{kt}</m> for some real number <m>k</m>, and that this is because <m>f(t) = b^t</m> is a horizontal scaling of the function <m>E(t) = e^{t}</m>.  In this exercise, we explore how the natural logarithm can be scaled to achieve a logarithm of any base.
+        We've seen that any exponential function <m>f(t) = b^t</m> (<m>b \gt 0</m>, <m>b \ne 1</m>) can be written in the form <m>f(t) = e^{kt}</m> for some real number <m>k</m>, and this is because <m>f(t) = b^t</m> is a horizontal scaling of the function <m>E(t) = e^{t}</m>.  In this exercise, we explore how the natural logarithm can be scaled to achieve a logarithm of any base.
       </p>
 
       <p>
-        Let <m>b \gt 1</m>.  Because the function <m>y = f(t) = b^t</m> has an inverse function, it makes sense to define its inverse like we did when <m>b = 10</m> or <m>b = e</m>.  The <term>base-<m>b</m> logarithm</term>, <idx><h>logarithm</h><h>base-<m>b</m></h><h>definition</h></idx> denoted <m>\log_b(y)</m> is defined to be the power to which we raise <m>b</m> to get <m>y</m>.  Thus, writing <m>y = f(t) = b^t</m> is the same as writing <m>t = f^{-1}(y) = \log_b(t)</m>.
+        Let <m>b \gt 1</m>.  Because the function <m>y = f(t) = b^t</m> has an inverse function, it makes sense to define its inverse like we did when <m>b = 10</m> or <m>b = e</m>.  The <term>base-<m>b</m> logarithm</term>, <idx><h>logarithm</h><h>base-<m>b</m></h><h>definition</h></idx> denoted <m>\log_b(y)</m> is defined to be the power to which we raise <m>b</m> to get <m>y</m>.  Thus, writing <m>y = f(t) = b^t</m> is the same as writing <m>t = f^{-1}(y) = \log_b(y)</m>.
       </p>
 
       <p>
@@ -117,7 +117,7 @@
       </p>
 
       <p>
-        In a new <em>Desmos</em> worksheet, enter <c>V(t) = k \cdot ln(t)</c> and accept the slider for <m>k</m>.  Set the lower and upper bounds for the slider to <m>0.01</m> and <m>15</m>, respectively.
+        In a new <em>Desmos</em> worksheet, enter <c>V(t) = k * ln(t)</c> and accept the slider for <m>k</m>.  Set the lower and upper bounds for the slider to <m>0.01</m> and <m>15</m>, respectively.
       </p>
 
       <p>

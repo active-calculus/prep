@@ -163,7 +163,7 @@
             <p>
               Recall that <m>y = \log_b(x)</m>.  Explain why the following equation (often called the Golden Rule for Logarithms) is true:
               <me>
-                \log_b(y) = \frac{\ln(x)}{\ln(b)}
+                \log_b(x) = \frac{\ln(x)}{\ln(b)}
               </me>.
             </p>
           </li>
