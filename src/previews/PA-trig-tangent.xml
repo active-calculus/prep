@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -26,18 +26,16 @@
 	          <p>
 	            Without using computational device,
 	            find the exact value of the <m>\tan(t)</m> at the following values: <m>t = \frac{\pi}{6}, \frac{\pi}{4}, \frac{\pi}{3}, \frac{2\pi}{3}, \frac{3\pi}{4}, \frac{5\pi}{6}</m>. 
+<!--	           
 
-	           
-
-<!--  (SOME ISSUE IN THE SOURCE TO FIGURE OUT HERE FOR PDF; THE HTML LOOKS RIGHT)
 				<sidebyside>
 					<tabular>
 						<row>
 							<cell>
 								<md>
-					            	<mrow>\tan \left( \frac{\pi}{6} \right) &amp;=</mrow>
-					            	<mrow>\tan \left( \frac{\pi}{4} \right) &amp;=</mrow>
-					            	<mrow>\tan \left( \frac{\pi}{3} \right) &amp;=</mrow>
+					            	<mrow>\tan \left( \frac{\pi}{6} \right) =</mrow>
+					            	<mrow>\tan \left( \frac{\pi}{4} \right) =</mrow>
+					            	<mrow>\tan \left( \frac{\pi}{3} \right) =</mrow>
 					            </md>
 							</cell>
 						</row>
@@ -46,16 +44,16 @@
 						<row>
 							<cell>
 								<md>
-									<mrow>\tan \left( \frac{2\pi}{3} \right) &amp;=</mrow>
-					            	<mrow>\tan \left( \frac{3\pi}{4} \right) &amp;=</mrow>
-					            	<mrow>\tan \left( \frac{5\pi}{6} \right) &amp;=</mrow>
+									<mrow>\tan \left( \frac{2\pi}{3} \right) =</mrow>
+					            	<mrow>\tan \left( \frac{3\pi}{4} \right) =</mrow>
+					            	<mrow>\tan \left( \frac{5\pi}{6} \right) =</mrow>
 								</md>				
 							</cell>
 						</row>
 					</tabular>				
 				</sidebyside>
+-->
 
--->				
 	          </p>
 	        </li>
 
@@ -75,7 +73,7 @@
 
 	            Click on several of the orange points to compare your exact values in (a) with the decimal values given by <em>Desmos</em>.  
 
-	            Add one value to the table:
+	            Add one entry to the table:
 	            <m>x = \frac{11\pi}{24}</m>, <m>y = T(\frac{11\pi}{24})</m>.
 	            At about what coordinates does this point lie?
 	            What are the respective values of

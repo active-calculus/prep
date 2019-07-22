@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -38,7 +38,7 @@
 
   <introduction>
   	<p>
-  		We know that linear functions are the simplest of all funcitons we can consider:  their graphs have the simplest shape, their average rate of change is always constant (regardless of the interval chosen), and their formula is elementary.  Moreover, computing the value of a linear function only requires multiplication and addition.
+  		We know that linear functions are the simplest of all functions we can consider:  their graphs have the simplest shape, their average rate of change is always constant (regardless of the interval chosen), and their formula is elementary.  Moreover, computing the value of a linear function only requires multiplication and addition.
   	</p>
 
 	<p>
@@ -53,7 +53,8 @@
 	    (for some constants <m>a_0</m> and <m>a_1</m>) and quadratic functions as having form
 	    <me>
 	      Q(x) = a_0 + a_1 x + a_2 x^2
-	    </me>,
+	    </me>
+      (for some constants <m>a_0</m>, <m>a_1</m>, and <m>a_2</m>),
 	    then it's natural to think about more general functions of this same form,
 	    but with additional power functions included.
 	</p>
@@ -64,9 +65,9 @@
 			<p>
         Given real numbers <m>a_0, a_1, \ldots, a_n</m> where <m>a_n \ne 0</m>, we say that the function
         <me>
-          P(x) = a_0 + a_1 x + a_2 x^2 + \cdots + a_{n-1}x^{n-1} + a_n x^n, 
+          P(x) = a_0 + a_1 x + a_2 x^2 + \cdots + a_{n-1}x^{n-1} + a_n x^n 
         </me>
-        is a <term>polynomial of degree <m>n</m></term>. <idx><h>polynomial</h><h>degree</h></idx> In addition, we say that the value of <m>a_i</m> are the <term>coefficients</term> of the polynomial and the individual power functions <m>a_i x^i</m> are the <term>terms</term> of the polynomial.  <idx><h>polynomial</h><h>coefficients</h></idx> <idx><h>polynomial</h><h>terms</h></idx>  Any value of <m>x</m> for which <m>P(x) = 0</m> is called a <term>zero</term> of the polynomial.  <idx><h>polynomial</h><h>zero</h></idx>   
+        is a <term>polynomial of degree <m>n</m></term>. <idx><h>polynomial</h><h>degree</h></idx> In addition, we say that the values of <m>a_i</m> are the <term>coefficients</term> of the polynomial and the individual power functions <m>a_i x^i</m> are the <term>terms</term> of the polynomial.  <idx><h>polynomial</h><h>coefficients</h></idx> <idx><h>polynomial</h><h>terms</h></idx>  Any value of <m>x</m> for which <m>P(x) = 0</m> is called a <term>zero</term> of the polynomial.  <idx><h>polynomial</h><h>zero</h></idx>   
       </p>
 		</statement>
 	</definition>
@@ -171,7 +172,7 @@
   			</p>
 
   			<p>
-  				Since <m>p</m> is degree <m>3</m> and we know it has zeros at <m>x = 1, a, b</m>, we know there are no other locations where <m>p(x) = 0</m>.  Thus, on any interval between two zeros (or to the left of the least or the right of the greatest), the polynomial cannot change sign.  We now investigate, interval by interval, the sign of the function.
+  				Since <m>p</m> is degree <m>3</m> and we know it has zeros at <m>x = 1, a, b,</m> we know there are no other locations where <m>p(x) = 0</m>.  Thus, on any interval between two zeros (or to the left of the least or the right of the greatest), the polynomial cannot change sign.  We now investigate, interval by interval, the sign of the function.
   			</p>
 
   			<p>
@@ -273,7 +274,7 @@
   		<idx><h>polynomial</h><h>multiple zeros</h></idx>
   		<title>Polynomial zeros of multiplicity <m>n</m></title>
  		<p>
- 			If <m>(x-r)^n</m> is a factor of a polynomial <m>p</m>, then <m>x = r</m> is a zero of <m>p</m> of multiplicity <m>n</m>, and near <m>x = r</m> the graph of <m>p</m> looks like either <m>-x^n</m> or <m>x^n</m>.  That is, the shape of the graph near the zero is determined by the multiplicity of the zero.
+ 			If <m>(x-r)^n</m> is a factor of a polynomial <m>p</m>, then <m>x = r</m> is a zero of <m>p</m> of multiplicity <m>n</m>, and near <m>x = r</m> the graph of <m>p</m> looks like either <m>-x^n</m> or <m>x^n</m> does near <m>x = 0</m>.  That is, the shape of the graph near the zero is determined by the multiplicity of the zero.
  		</p>
   	</assemblage>
 
@@ -292,13 +293,13 @@
   			<ul>
   				<li>
   					<p>
-  						If the function is in standard form, say <m>p(x) = a_0 + a_1 x + a_2 x^2 + \cdots + a_{n-1}x^{n-1} + a_n x^n</m>, we know that its degree is <m>n</m> and that when we zoom out, <m>p</m> looks like <m>a_n x^n</m> and thus has the same long-range behavior as <m>a_n x^n</m>.  Thus, <m>p</m> is chair-shaped if <m>n</m> is odd and U-shaped if <m>n</m> is even.  Whether <m>\lim_{n \to \infty} p(x)</m> is <m>+\infty</m> or <m>-\infty</m> depends on the sign of <m>a_n</m>.
+  						If the function is in standard form, say <me>p(x) = a_0 + a_1 x + a_2 x^2 + \cdots + a_{n-1}x^{n-1} + a_n x^n</me>, we know that its degree is <m>n</m> and that when we zoom out, <m>p</m> looks like <m>a_n x^n</m> and thus has the same long-range behavior as <m>a_n x^n</m>.  Thus, <m>p</m> is chair-shaped if <m>n</m> is odd and U-shaped if <m>n</m> is even.  Whether <m>\lim_{n \to \infty} p(x)</m> is <m>+\infty</m> or <m>-\infty</m> depends on the sign of <m>a_n</m>.
   					</p>
   				</li>
 
   				<li>
   					<p>
-  						If the function is in factored form, say <m>p(x) = a_n(x-r_1)(x-r_2) \cdots (x-r_n)</m> (where the <m>r_i</m>'s are possibly not distinct and possibly complex), we can quickly determine both the degree of the polynomial (<m>n</m>) and the locations of its zeros, as well as their multiplicities.
+  						If the function is in factored form, say <me>p(x) = a_n(x-r_1)(x-r_2) \cdots (x-r_n)</me> (where the <m>r_i</m>'s are possibly not distinct and possibly complex), we can quickly determine both the degree of the polynomial (<m>n</m>) and the locations of its zeros, as well as their multiplicities.
   					</p>
   				</li>
   			</ul>
@@ -310,7 +311,7 @@
   		</li>
   		<li>
   			<p>
-  				When a polynomial <m>p</m> has a repeated factor such as <m>(x-5)(x-5)(x-5) = (x-5)^3</m>, we way that <m>x = 5</m> is a zero of multiplicity <m>3</m>.  At the point <m>x = 5</m> where <m>p</m> will cross the <m>x</m>-axis, up close it will look like a cubic polynomial and thus be chair-shaped.  In general, if <m>(x-r)^n</m> is a factor of a polynomial <m>p</m> so that <m>x = r</m> is a zero of multiplicity <m>n</m>, the polynomial will behave near <m>x = r</m> like a polynomial of degree <m>n</m>.
+  				When a polynomial <m>p</m> has a repeated factor such as <me>p(x) = (x-5)(x-5)(x-5) = (x-5)^3</me>, we say that <m>x = 5</m> is a zero of multiplicity <m>3</m>.  At the point <m>x = 5</m> where <m>p</m> will cross the <m>x</m>-axis, up close it will look like a cubic polynomial and thus be chair-shaped.  In general, if <m>(x-r)^n</m> is a factor of a polynomial <m>p</m> so that <m>x = r</m> is a zero of multiplicity <m>n</m>, the polynomial will behave near <m>x = r</m> like the polynomial <m>x^n</m> behaves near <m>x = 0</m>.
   			</p>
   		</li>
   	</ul>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -15,14 +15,26 @@
 
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-log">
 
-<!--
-  <exercise xml:id="ez-0-0-WW1">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-exp-log-WW1">
+    <webwork source="Library/Rochester/setAlgebra29LogFunctions/srw4_2_5.pg" />
   </exercise>
-  <exercise xml:id="ez-0-0-WW2">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-exp-log-WW2">
+    <webwork source="Library/Rochester/setAlgebra29LogFunctions/problem4.pg" />
   </exercise>
--->
+  <exercise xml:id="ez-exp-log-WW3">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/beth2logfun.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-log-WW4">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_17.pg" />
+  </exercise>
+<!--  
+  <exercise xml:id="ez-exp-log-WW5">
+    <webwork source="Library/Michigan/skills_questions/topic_solving_exp_log/prob01.pg" />
+  </exercise>
+-->  
+  <exercise xml:id="ez-exp-log-WW6">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg" />
+  </exercise>
 
   <exercise xml:id="ez-exp-log-find-inverse">
     <statement>
@@ -93,11 +105,11 @@
   <exercise xml:id="ez-exp-log-base-b">
     <statement>
       <p>
-        We've seen that any exponential function <m>f(t) = b^t</m> (<m>b \gt 0</m>, <m>b \ne 1</m>) can be written in the form <m>f(t) = e^{kt}</m> for some real number <m>k</m>, and that this is because <m>f(t) = b^t</m> is a horizontal scaling of the function <m>E(t) = e^{t}</m>.  In this exercise, we explore how the natural logarithm can be scaled to achieve a logarithm of any base.
+        We've seen that any exponential function <m>f(t) = b^t</m> (<m>b \gt 0</m>, <m>b \ne 1</m>) can be written in the form <m>f(t) = e^{kt}</m> for some real number <m>k</m>, and this is because <m>f(t) = b^t</m> is a horizontal scaling of the function <m>E(t) = e^{t}</m>.  In this exercise, we explore how the natural logarithm can be scaled to achieve a logarithm of any base.
       </p>
 
       <p>
-        Let <m>b \gt 1</m>.  Because the function <m>y = f(t) = b^t</m> has an inverse function, it makes sense to define its inverse like we did when <m>b = 10</m> or <m>b = e</m>.  The <term>base-<m>b</m> logarithm</term>, <idx><h>logarithm</h><h>base-<m>b</m></h><h>definition</h></idx> denoted <m>\log_b(y)</m> is defined to be the power to which we raise <m>b</m> to get <m>y</m>.  Thus, writing <m>y = f(t) = b^t</m> is the same as writing <m>t = f^{-1}(y) = \log_b(t)</m>.
+        Let <m>b \gt 1</m>.  Because the function <m>y = f(t) = b^t</m> has an inverse function, it makes sense to define its inverse like we did when <m>b = 10</m> or <m>b = e</m>.  The <term>base-<m>b</m> logarithm</term>, <idx><h>logarithm</h><h>base-<m>b</m></h><h>definition</h></idx> denoted <m>\log_b(y)</m> is defined to be the power to which we raise <m>b</m> to get <m>y</m>.  Thus, writing <m>y = f(t) = b^t</m> is the same as writing <m>t = f^{-1}(y) = \log_b(y)</m>.
       </p>
 
       <p>
@@ -105,7 +117,7 @@
       </p>
 
       <p>
-        In a new <em>Desmos</em> worksheet, enter <c>V(t) = k \cdot ln(t)</c> and accept the slider for <m>k</m>.  Set the lower and upper bounds for the slider to <m>0.01</m> and <m>15</m>, respectively.
+        In a new <em>Desmos</em> worksheet, enter <c>V(t) = k * ln(t)</c> and accept the slider for <m>k</m>.  Set the lower and upper bounds for the slider to <m>0.01</m> and <m>15</m>, respectively.
       </p>
 
       <p>

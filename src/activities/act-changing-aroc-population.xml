@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -18,7 +18,10 @@
 	<statement>
 		<p>
 	      	According to the US census,
-      		the populations of Kent and Ottawa Counties (Grand Rapids is in Kent, Allenale in Ottawa) from 1960 to 2010 measured in <m>10</m>-year intervals are given in the following tables.
+      		the populations of Kent and Ottawa Counties in Michigan where GVSU is located<fn>
+      			Grand Rapids is in Kent, Allendale in Ottawa.
+      		</fn>
+      		 from 1960 to 2010 measured in <m>10</m>-year intervals are given in the following tables.
     	</p>
 
     		<table xml:id="T-act-changing-aroc-population-Kent">
@@ -73,7 +76,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						Compute <m>AV_{[1990,2010]}</m> for both <m>K</m> and <m>O</m>.
+						Compute <m>AV_{[1990,2010]}</m> for both <m>K</m> and <m>W</m>.
 					</p>
 				</li>
 				<li>

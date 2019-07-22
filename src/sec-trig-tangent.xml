@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -54,7 +54,7 @@
 	</sidebyside>
 
 	<p>
-		It turns out that ratios of the sine and cosine function being evaluated at the same angle arise naturally and regularly, so it is convenient to define a new function to be their ratio.
+		It turns out that we regularly need to evaluate the ratio of the sine and cosine functions at the same angle, so it is convenient to define a new function to be their ratio.
 	</p>
 
 	<definition>
@@ -93,7 +93,7 @@
   	</p>
 
   	<p>
-  		From the viewpoint of <xref ref="F-tan-defn-unit-circle">Figure</xref>, as the point corresponding to angle <m>t</m> traverses the circle and generates the point <m>(a,b)</m>, we know <m>\cos(t) = a</m> and <m>\sin(t) = b</m>, and therefore the tangent function tracks the ratio of these two quantities, given by
+  		From the viewpoint of <xref ref="F-tan-defn-unit-circle">Figure</xref>, as the point corresponding to angle <m>t</m> traverses the circle and generates the point <m>(a,b)</m>, we know <m>\cos(t) = a</m> and <m>\sin(t) = b</m>, and therefore the tangent function tracks the ratio of these two quantities, and is given by
   		<me>
   			\tan(t) = \frac{\sin(t)}{\cos(t)} = \frac{b}{a}
   		</me>.
@@ -105,7 +105,7 @@
   	</p>
 
   	<p>
-  		We typically use the first perspective of tracking the ratio of the <m>y</m>- to <m>x</m>-coordinates of a point traversing the unit circle to think of the overall behavior and graph of the tangent function, and use the second perspective in a right triangle whenever we are working to determine missing values in a triangle.
+  		We typically use the first perspective of tracking the ratio of the <m>y</m>-coordinate to the <m>x</m>-coordinate of a point traversing the unit circle in order to think of the overall behavior and graph of the tangent function, and use the second perspective in a right triangle whenever we are working to determine missing values in a triangle.
   	</p>
   </subsection>
 
@@ -117,7 +117,7 @@
 	  	<me>
 	  		\tan \left( \frac{\pi}{6} \right) = \frac{ \sin \left( \frac{\pi}{6} \right) }{ \cos \left( \frac{\pi}{6} \right) } = \frac{ \frac{1}{2} }{ \frac{\sqrt{3}}{2} } = \frac{1}{\sqrt{3}}
 	  	</me>.
-	  	Executing similar computations for every familiar special angle on the unit circle, we find the results shown in <xref ref="T-tangent-values">Table</xref> and <xref ref="T-tangent-values-2">Table</xref>.  We also note that anywhere <m>\cos(t) = 0</m>, the value of <m>\tan(t)</m> is undefined.  We record such instances in the table by writing <q><m>u</m></q>.
+	  	Executing similar computations for every familiar special angle on the unit circle, we find the results shown in <xref ref="T-tangent-values">Table</xref> and <xref ref="T-tangent-values-2">Table</xref>.  We also note that anywhere <m>\cos(t) = 0</m>, the value of <m>\tan(t)</m> is undefined.  We record such instances in the table by writing <q>u</q>.
 	  </p>
 
     				<table xml:id="T-tangent-values">
@@ -165,7 +165,7 @@
 								<cell><m>\frac{1}{\sqrt{3}}</m></cell>
 								<cell><m>1</m></cell>
 								<cell><m>\frac{3}{\sqrt{3}}</m></cell>
-								<cell><m>u</m></cell>
+								<cell>u</cell>
 								<cell><m>-\frac{3}{\sqrt{3}}</m></cell>
 								<cell><m>-1</m></cell>
 								<cell><m>-\frac{1}{\sqrt{3}}</m></cell>
@@ -175,7 +175,7 @@
 					</table>
 
     				<table xml:id="T-tangent-values-2">
-						<caption>Values of the sine, cosine, and tangent functions at special points on the unit circle.</caption>
+						<caption>Additional values of the sine, cosine, and tangent functions at special points on the unit circle.</caption>
 						<tabular>
 							<row halign="center" bottom="minor">
 								<cell><m>t</m></cell>		
@@ -215,7 +215,7 @@
 								<cell><m>\frac{1}{\sqrt{3}}</m></cell>
 								<cell><m>1</m></cell>
 								<cell><m>\frac{3}{\sqrt{3}}</m></cell>
-								<cell><m>u</m></cell>
+								<cell>u</cell>
 								<cell><m>-\frac{3}{\sqrt{3}}</m></cell>
 								<cell><m>-1</m></cell>
 								<cell><m>-\frac{1}{\sqrt{3}}</m></cell>
@@ -235,7 +235,7 @@
 			</me>
 			and
 			<me>
-				\tan(1.56) = \frac{\sin(1.47)}{\cos(1.47)} \approx \frac{0.9994}{0.0108} = 92.6205
+				\tan(1.56) = \frac{\sin(1.56)}{\cos(1.56)} \approx \frac{0.9994}{0.0108} = 92.6205
 			</me>.
 			Because the ratio of numbers closer and closer to <m>1</m> divided by numbers closer and closer to <m>0</m> (but positive) increases without bound, this means that <m>\tan(t)</m> increases without bound as <m>t</m> approaches <m>\frac{\pi}{2}</m> from the left side.  Once <m>t</m> is slightly greater than <m>\frac{\pi}{2}</m> in Quadrant II, the value of <m>\sin(t)</m> stays close to <m>1</m>, but now the value of <m>\cos(t)</m> is negative (and close to zero).  For instance, <m>\cos(1.58) \approx -0.0092</m>.  This makes the value of <m>\tan(t)</m> decrease without bound (negative and getting further away from <m>0</m>) for <m>t</m> approaching <m>\frac{\pi}{2}</m> from the right side, and results in <m>h(t) = \tan(t)</m> having a vertical asymptote at <m>t = \frac{\pi}{2}</m>.  The periodicity and sign behaviors of <m>\sin(t)</m> and <m>\cos(t)</m> mean this asymptotic behavior of the tangent function will repeat.
 		</p>
@@ -250,7 +250,7 @@
 		</figure>
 
 		<p>
-			We see from both the table and the graph that the tangent function has period <m>P = \pi</m> and that the function is increasing on any interval on which it is defined.  We summarize our recent work as follows.
+			We see from <xref ref="T-tangent-values">Table</xref> and <xref ref="T-tangent-values-2">Table</xref> as well as from <xref ref="F-tangent-plot">Figure</xref> that the tangent function has period <m>P = \pi</m> and that the function is increasing on any interval on which it is defined.  We summarize our recent work as follows.
 		</p>
 
 		<assemblage xml:id="asm-tangent-properties">
@@ -299,7 +299,7 @@
   			<sidebyside widths="65% 35%">
   				
 				<p>
-  					Use the tangent function to determine the width, <m>w</m>, of the river in <xref ref="F-right-act-river-rev-2">Figure</xref>.
+  					Use the tangent function to determine the width, <m>w</m>, of the river in <xref ref="F-right-act-river-rev-2">Figure</xref>.  (Note that here we are revisiting the problem in <xref ref="act-trig-right-sine-cosine-ratio">Activity</xref>, which we previously solved without using the tangent function.)  What other information can we now easily determine?
  	 			</p>
 
   				<figure xml:id="F-right-act-river-rev-2">
@@ -316,12 +316,11 @@
   				</me>
   				and thus <m>w = 50\tan(56.4)</m> is the exact width of the river.  Using a computational device, we find that <m>w \approx 75.256</m>.
   			</p>
+  		  	<p>
+  				Once we know the river's width, we can use the Pythagorean theorem or the sine function to determine the distance from <m>P</m> to <m>A</m>, at which point all <m>6</m> parts of the triangle are known.
+ 		 	</p>	
   		</solution>
   	</example>
-
-  	<p>
-  		Once we know the river's width, we can use the Pythagorean theorem or the sine function to determine the distance from <m>P</m> to <m>A</m>, at which point all <m>6</m> parts of the triangle are known.
-  	</p>
 
   	<p>
   		The tangent function finds a wide range of applications in finding missing information in right triangles where information about one or more legs of the triangle is known.

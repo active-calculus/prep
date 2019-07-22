@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -46,7 +46,7 @@
   	</p>
 
 	<p>
-		A related situation arises when an object's temperature changes in response to its surroundings.  For instance, if we have a cup of coffee at an initial temperature of <m>186^\circ</m> Fahrenheit and the cup is placed in a room where the surrounding temperature is <m>71^\circ</m>, our intuition and experience tell us that over time the coffee will cool and eventually tend to the <m>71^\circ</m> temperature of the surroundings.  From an experiment <fn>See <url ref="http://gvsu.edu/s/0SB">http://gvsu.edu/s/0SB</url> for this data.</fn> with an actual temperature probe, we have the data in <xref ref="T-modeling-exp-coffee">Table</xref> that is plotted in <xref ref="F-modeling-exp-coffee">Figure</xref>.
+		A related situation arises when an object's temperature changes in response to its surroundings.  For instance, if we have a cup of coffee at an initial temperature of <m>186^\circ</m> Fahrenheit and the cup is placed in a room where the surrounding temperature is <m>71^\circ</m>, our intuition and experience tell us that over time the coffee will cool and eventually tend to the <m>71^\circ</m> temperature of the surroundings.  From an experiment <fn>See <url href="http://gvsu.edu/s/0SB">http://gvsu.edu/s/0SB</url> for this data.</fn> with an actual temperature probe, we have the data in <xref ref="T-modeling-exp-coffee">Table</xref> that is plotted in <xref ref="F-modeling-exp-coffee">Figure</xref>.
 	</p>
 
 	<sidebyside valign="middle">
@@ -174,7 +174,7 @@
 	</p>
 
 	<p>
-		To represent these two common phenomena with exponential functions <dash>the value increasing without bound or the value approaching <m>0</m></dash>, we will use shorthand notation.  First, it is natural to write <q><m>q(t) \to 0</m></q> as <m>t</m> increases without bound.  Moreover, since we have the notion of the infinite to represent quantities without bound, we use the symbol for infinity <idx><h>infinity</h></idx> (<m>\infty</m>) and write <q><m>p(t) \to \infty</m></q> as <m>t</m> increases without bound in order to indicate that <m>p(t)</m> increases without bound.  
+		To represent these two common phenomena with exponential functions <dash>the value increasing without bound or the value approaching <m>0</m></dash>, we will use shorthand notation.  First, it is natural to write <q><m>q(t) \to 0</m></q> as <m>t</m> increases without bound.  Moreover, since we have the notion of the infinite to represent quantities without bound, we use the symbol for infinity and arrow notation <idx><h>infinity</h></idx> (<m>\infty</m>) and write <q><m>p(t) \to \infty</m></q> as <m>t</m> increases without bound in order to indicate that <m>p(t)</m> increases without bound.  
 	</p>
 
 	<p>
@@ -336,7 +336,7 @@
 			<me>
 				\frac{73}{85} \approx 0.86, \ \frac{64}{73} \approx 0.88, \ \frac{56}{64} \approx 0.88, \ \frac{49}{56} \approx 0.88, \ \frac{45}{49} \approx 0.92, \text{and} \frac{40}{45} \approx 0.89 <!--, \ \frac{36}{40} = 0.9,  \frac{33}{36} \approx 0.92 -->
 			</me>.
-			Of course there is some measurement error in the data (plus it is only recorded to accuracy of whole degrees), so these computations provide convincing evidence that the underlying function is exponential.  In addition, we expect that if the data continued in the bottom row of <xref ref="T-modeling-exp-coffee-revis">Table</xref>, the values would approach <m>0</m> because <m>F(t)</m> will approach <m>71</m>.
+			Of course, there is some measurement error in the data (plus it is only recorded to accuracy of whole degrees), so these computations provide convincing evidence that the underlying function is exponential.  In addition, we expect that if the data continued in the bottom row of <xref ref="T-modeling-exp-coffee-revis">Table</xref>, the values would approach <m>0</m> because <m>F(t)</m> will approach <m>71</m>.
 		</p>
 
 		<sidebyside>
@@ -375,7 +375,7 @@
   		</li>
   		<li>
   			<p>
-  				The function <m>f(t) = b^t</m> passes through <m>(0,1)</m>, is always concave up, is either always increasing or always decreasing, and its range is the set of all positive real numbers.  Among these properties, a vertical stretch by a positive value <m>a</m> only affects the <m>y</m>-intercept, which is instead <m>(0,a)</m>.  If we include a vertical shift and write <m>g(t) = ab^t + c</m>, the biggest changes is that the range of <m>g</m> is the set of all real numbers greater than <m>c</m>.  In addition, the <m>y</m>-intercept of <m>g</m> is <m>(0,a+c)</m>.
+  				The function <m>f(t) = b^t</m> passes through <m>(0,1)</m>, is always concave up, is either always increasing or always decreasing, and its range is the set of all positive real numbers.  Among these properties, a vertical stretch by a positive value <m>a</m> only affects the <m>y</m>-intercept, which is instead <m>(0,a)</m>.  If we include a vertical shift and write <m>g(t) = ab^t + c</m>, the biggest change is that the range of <m>g</m> is the set of all real numbers greater than <m>c</m>.  In addition, the <m>y</m>-intercept of <m>g</m> is <m>(0,a+c)</m>.
   			</p>
 
   			<p>

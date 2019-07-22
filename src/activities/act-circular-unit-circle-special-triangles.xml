@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -42,7 +42,7 @@
 				</li>
 				<li>
 					<p>
-						Now consider the <m>30^\circ</m>-<m>60^\circ</m>-<m>90^\circ</m> triangle with hypotenuse <m>1</m> and the longer leg lying along the positive <m>x</m>-axis.  What special kind of triangle is formed when we reflect this triangle in the <m>x</m>-axis?  How can we use this perspective to determine the exact values of <m>x</m> and <m>y</m>?
+						Now consider the <m>30^\circ</m>-<m>60^\circ</m>-<m>90^\circ</m> triangle with hypotenuse <m>1</m> and the longer leg lying along the positive <m>x</m>-axis.  What special kind of triangle is formed when we reflect this triangle across the <m>x</m>-axis?  How can we use this perspective to determine the exact values of <m>x</m> and <m>y</m>?
 					</p>
 				</li>
 				<li>
@@ -71,7 +71,7 @@
 					</sidebyside>
 
 					<p>
-						Use your work in (a), (b), and (c) to label the noted point in each of <xref ref="F-unit-circle-pi-6">Figure</xref>, <xref ref="F-unit-circle-pi-4">Figure</xref>, and <xref ref="F-unit-circle-pi-3">Figure</xref>, respectively.
+						Use your work in (a), (b), and (c) to label the noted point in each of <xref ref="F-unit-circle-pi-6">Figure</xref>, <xref ref="F-unit-circle-pi-4">Figure</xref>, and <xref ref="F-unit-circle-pi-3">Figure</xref>, respectively, with its exact coordinates.
 					</p>
 				</li>
 			</ol>

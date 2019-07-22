@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -15,12 +15,22 @@
 
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-right">
   
-<!--
-  <exercise xml:id="ez-0-0-WW1">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-trig-right-WW1">
+    <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p8.pg" />
   </exercise>
-  <exercise xml:id="ez-0-0-WW2">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-trig-right-WW4">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Tools/Connally3-6-Tools-20.pg" />
+  </exercise>
+
+<!--
+  <exercise xml:id="ez-trig-right-WW5">
+    <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p6.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-right-WW2">
+    <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p1.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-right-WW3">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Tools/Connally3-6-Tools-04/Connally3-6-Tools-04.pg" />
   </exercise>
 -->
 

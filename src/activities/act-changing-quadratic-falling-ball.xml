@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -60,7 +60,7 @@
 	            Compute the average rate of change of <m>s</m> on the intervals <m>[1.5, 2]</m>,
 	            <m>[2, 2.5]</m>, <m>[2.5,3]</m>.
 	            Include units on your answers and write one sentence to explain the meaning of the values you found.
-	            What lines on the graph of <m>s</m> have the same slope as these average rates of change?
+	            Sketch appropriate lines on the graph of <m>s</m> whose respective slopes are the values of these average rates of change.
 	          </p>
 	        </li>
 	      </ol>

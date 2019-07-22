@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -44,7 +44,7 @@
 				</li>
 				<li>
 					<p>
-						Compute the value of <m>A(h)</m> for at least <m>6</m> difference small values of <m>h</m>, both positive and negative.  For instance, one value to try might be <m>h = 0.0001</m>.  Record a table of your results.
+						Compute the value of <m>A(h)</m> for at least <m>6</m> different small values of <m>h</m>, both positive and negative.  For instance, one value to try might be <m>h = 0.0001</m>.  Record a table of your results.
 					</p>
 				</li>
 				<li>
@@ -63,7 +63,7 @@
 						<me>
 							A(h) = \frac{f(2+h)-f(2)}{h}
 						</me>.
-						How does the value of <m>A(h)</m> for small values of <m>h</m> compare to <m>f(2)</m>?
+						How does the value of <m>A(h)</m> compare to <m>f(2)</m> for small values of <m>h</m>?
 					</p>
 				</li>
 			</ol>

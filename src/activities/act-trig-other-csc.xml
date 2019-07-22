@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -33,7 +33,7 @@
 					</p>
 
     				<table xml:id="T-cosecant-values">
-						<caption>Values of the sine function at special points on the unit circle.</caption>
+						<caption>Values of the sine function at special points on the unit circle (Quadrants I and II).</caption>
 						<tabular>
 							<row bottom="minor" halign="center">
 								<cell><m>t</m></cell>
@@ -75,7 +75,7 @@
 					</table>
 
     				<table xml:id="T-cosecant-values-2">
-						<caption>Values of the sine function at special points on the unit circle.</caption>
+						<caption>Values of the sine function at special points on the unit circle (Quadrants III and IV).</caption>
 						<tabular>
 							<row bottom="minor" halign="center">
 								<cell><m>t</m></cell>		

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -17,7 +17,7 @@
 
 	<statement>
 		<p>
-			Let <m>y = p(x) = 3x - 4</m> and <m>x = q(t) = t^2</m>.
+			Let <m>y = p(x) = 3x - 4</m> and <m>x = q(t) = t^2 - 1</m>.
 		</p>
 
 		<p>
@@ -34,7 +34,7 @@
 				</li>
 				<li>
 					<p>
-						Let <m>t = s(z) = \frac{1}{t+4}</m> and recall that <m>x = q(t) = t^2</m>.  Determine a formula for <m>x = q(s(z))</m> that depends only on <m>z</m>.
+						Let <m>t = s(z) = \frac{1}{z+4}</m> and recall that <m>x = q(t) = t^2 - 1</m>.  Determine a formula for <m>x = q(s(z))</m> that depends only on <m>z</m>.
 					</p>
 				</li>				
 				<li>

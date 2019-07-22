@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -107,19 +107,19 @@
 		<p>
 			The average rate of change of a function on an interval gives us an excellent way to describe how the function behaves, on average.  For instance, if we compute <m>AV_{[1970,2000]}</m> for Kent County, we find that 
 			<me>
-				AV_{[1970,2000]} = \frac{573,336 - 411,044}{30} = 5409.73
+				AV_{[1970,2000]} = \frac{574,336 - 411,044}{30} = 5443.07
 			</me>,
-			which tells us that in an average year from 1970 to 2000, the population of Kent County increased by about <m>5410</m> people.  Said differently, we could also say that from 1970 to 2000, Kent County was growing at an average rate of <m>5410</m> people per year.  These ideas also afford the opportunity to make comparisons over time.  Since
+			which tells us that in an average year from 1970 to 2000, the population of Kent County increased by about <m>5443</m> people.  Said differently, we could also say that from 1970 to 2000, Kent County was growing at an average rate of <m>5443</m> people per year.  These ideas also afford the opportunity to make comparisons over time.  Since
 			<me>
-				AV_{[1990,2000]} = \frac{573,336 - 500,631}{30} = 7270.5
+				AV_{[1990,2000]} = \frac{574,336 - 500,631}{10} = 7370.5
 			</me>,
-			we can not only say that the county's population increased by about <m>7270</m> in an average year between 1990 and 2000, but also that the population was growing faster from 1990 to 2000 than it did from 1970 to 2000.
+			we can not only say that Kent county's population increased by about <m>7370</m> in an average year between 1990 and 2000, but also that the population was growing faster from 1990 to 2000 than it did from 1970 to 2000.
 		</p>
 
 		<p>
-			Finally, we can even use the average rate of change of a function to predict future behavior.  Since the population was changing on average by <m>7270.5</m> people per year from 1990 to 2000, we can estimate that the population in 2002 is 
+			Finally, we can even use the average rate of change of a function to predict future behavior.  Since the population was changing on average by <m>7370.5</m> people per year from 1990 to 2000, we can estimate that the population in 2002 is 
 			<me>
-				K(2002) \approx K(2000) + 2 \cdot 7270.5 = 573,336 + 14,541 = 587,877
+				K(2002) \approx K(2000) + 2 \cdot 7370.5 = 574,336 + 14,741 = 589,077
 			</me>.
 		</p>
 
@@ -128,7 +128,7 @@
 		<title>How average rate of change indicates function trends</title>
 
 		<p>
-			We have already seen that it is natural to use words such as <q>increasing</q> and <q>decreasing</q> to describe a function's behavior.  For instance, for the tennis ball whose height is modeled by <m>s(t) = 64 - 16(t-1)^2</m>, we computed that <m>AV_{[1.5,2.5]} = -32</m>, which indicates that on the interval <m>[1.5,2.5]</m>, the tennis ball's height is decreasing at an average rate of <m>32</m> feet per second.  Similarly, for the population of Kent County, since <m>AV_{[1990,2000]} = 7270.5</m>, we know that on the interval <m>[1990,2000]</m> the population is increasing at an average rate of <m>7270.5</m> people per year.
+			We have already seen that it is natural to use words such as <q>increasing</q> and <q>decreasing</q> to describe a function's behavior.  For instance, for the tennis ball whose height is modeled by <m>s(t) = 64 - 16(t-1)^2</m>, we computed that <m>AV_{[1.5,2.5]} = -32</m>, which indicates that on the interval <m>[1.5,2.5]</m>, the tennis ball's height is decreasing at an average rate of <m>32</m> feet per second.  Similarly, for the population of Kent County, since <m>AV_{[1990,2000]} = 7370.5</m>, we know that on the interval <m>[1990,2000]</m> the population is increasing at an average rate of <m>7370.5</m> people per year.
 		</p>
 
 		<p>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2018                                                   -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Calculus.                                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -14,13 +14,13 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-tandem">
 
-<!-- THIS ONE WORKS
+<!-- THIS ONE WORKS -->
   <exercise xml:id="ez-changing-tandem-WW0">
     <webwork source="Library/LoyolaChicago/Precalc/Chap1Review/Q37.pg" />
   </exercise>
--->
 
-<!-- doesn't render in PDF
+
+<!-- doesn't render in PDF bc no statement tag
   <exercise xml:id="ez-changing-tandem-WW1">
     <webwork source="Library/Rochester/setAlgebra16FunctionGraphs/c0s1p8/c0s1p8.pg" />
   </exercise>
@@ -29,18 +29,23 @@
   <exercise xml:id="ez-tandem-spherical-tank-conical-chimney">
     <statement>
       <p>
-        Suppose we have an unusual tank whose base is a perfect sphere with radius <m>3</m> feet, and then atop the spherical base is a cylindrical <q>chimney</q> that is a circular cylinder of radius <m>1</m> foot and height <m>2</m> feet.  The tank is initially empty, but then a spigot is turned on that pumps water into the tank at a constant rate of <m>1.25</m> cubic feet per minute.
+        Suppose we have an unusual tank whose base is a perfect sphere with radius <m>3</m> feet, and then atop the spherical base is a cylindrical <q>chimney</q> that is a circular cylinder of radius <m>1</m> foot and height <m>2</m> feet, as shown in <xref ref="F-ez-chiminea">Figure</xref>.  The tank is initially empty, but then a spigot is turned on that pumps water into the tank at a constant rate of <m>1.25</m> cubic feet per minute.
       </p>
 
+      <figure xml:id="F-ez-chiminea"  >
+        <caption>A spherical tank with a cylindrical chimney.</caption>
+        <image width="50%" source="images/tandem-ez-chiminea" />   
+      </figure>
+
       <p>
-        Let <m>V</m> denote the total volume of water (in cubic feet) in the tank at any time <m>t</m> (in minutes), and <m>h</m> the depth of the water (in feet) at given time <m>t</m>.
+        Let <m>V</m> denote the total volume of water (in cubic feet) in the tank at any time <m>t</m> (in minutes), and <m>h</m> the depth of the water (in feet) at time <m>t</m>.
       </p> 
   
       <p>
         <ol label="a.">
           <li>
             <p>
-              It is possible to use calculus to show that the total volume this tank can hold is <m>V_{\text{full}} = \pi(20 + \frac{38}{3}\sqrt{2}) \approx 119.12</m> cubic feet.  In addition, the actual height of the tank (from the bottom of the spherical base to the top of the chimney) is <m>h_{\text{full}} = \sqrt{8} + 2 \approx 4.83</m> feet.  How long does it take the tank to fill?   Why?
+              It is possible to use calculus to show that the total volume this tank can hold is <m>V_{\text{full}} = \pi(22 + \frac{38}{3}\sqrt{2}) \approx 119.12</m> cubic feet.  In addition, the actual height of the tank (from the bottom of the spherical base to the top of the chimney) is <m>h_{\text{full}} = \sqrt{8} + 5 \approx 7.83</m> feet.  How long does it take the tank to fill?   Why?
             </p>
           </li>
           <li>

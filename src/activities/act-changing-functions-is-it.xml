@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -39,7 +39,7 @@
 				</li>	
 				<li>								
 					<p>
-						The relationship between the day of the year and the value of the S<ampersand />P500 stock index (at the close of trading on a given day), where we attempt to consider the index's value (at the close of trading) as a function of the day of the year.
+						The relationship between the day of the year and the value of the S&amp;P500 stock index (at the close of trading on a given day), where we attempt to consider the index's value (at the close of trading) as a function of the day of the year.
 					</p>
 				</li>
 				<li>

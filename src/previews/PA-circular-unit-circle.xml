@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -17,7 +17,7 @@
 
 	<statement>
 		<p>
-			In <xref ref="F-PA-big-unit-circle">Figure</xref> there are 24 equally spaced points on the unit circle.  Since the circumference of the unit circle is <m>2\pi</m>, each of the points is <m>\frac{1}{24} \cdot 2\pi = \frac{\pi}{12}</m> units apart (travelled along the circle). Thus, 
+			In <xref ref="F-PA-big-unit-circle">Figure</xref> there are 24 equally spaced points on the unit circle.  Since the circumference of the unit circle is <m>2\pi</m>, each of the points is <m>\frac{1}{24} \cdot 2\pi = \frac{\pi}{12}</m> units apart (traveled along the circle). Thus, 
     		the first point counterclockwise from <m>(1,0)</m> corresponds to the distance
     		<m>t = \frac{\pi}{12}</m> traveled along the unit circle.  The second point is twice as far, and thus <m>t = 2 \cdot \frac{\pi}{12} = \frac{\pi}{6}</m> units along the circle away from <m>(1,0)</m>.
 		</p>

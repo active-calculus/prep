@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -100,7 +100,7 @@
   	</definition>
 
   	<p>
-  		We sometimes call <m>g</m> the <q>inner function</q> and <m>f</m> the <q>outer function</q>.  It is important to note that the inner function is actually the first function that gets applied to a given input, and then then outer function is applied to the output of the inner function.  In addition, in order for a composite function to make sense, we need to ensure that the range of the inner function lies within the domain of the outer function so that the resulting composite function is defined at every possible input.
+  		We sometimes call <m>g</m> the <q>inner function</q> and <m>f</m> the <q>outer function</q>.  It is important to note that the inner function is actually the first function that gets applied to a given input, and then outer function is applied to the output of the inner function.  In addition, in order for a composite function to make sense, we need to ensure that the range of the inner function lies within the domain of the outer function so that the resulting composite function is defined at every possible input.
   	</p>
 
 	  <p>
@@ -127,7 +127,7 @@
         For instance, a Fahrenheit temperature of <m>32</m> degrees corresponds to <m>C = G(32) = 0</m> degrees Celcius.
 	</p>
 
-	<xi:include href="./activities/act-changing-composite-crickets-celcius.xml" />
+	<xi:include href="./activities/act-changing-composite-crickets-celsius.xml" />
 
   </subsection>
 
@@ -225,7 +225,7 @@
   		</li>
   		<li>
   			<p>
-  				In the composite function <m>h(x) = f(g(x))</m>, the <q>inner</q> function is <m>g</m> and the <m>outer</m> function is <m>f</m>.  Note that the inner function gets applied to <m>x</m> first, even though the outer function appears first when we read from left to right.  The composite function is only defined provided that the codomain of <m>g</m> matches the domain of <m>f</m>: that is, we need any possible outputs of <m>g</m> to be among the allowed inputs for <m>f</m>.  In particular, we can say that if <m>g : A \to B</m> and <m>f : B \to C</m>, then <m>f \circ g : A \to C</m>.  Thus, the domain of the composite function is the domain of the inner function, and the codomain of the composite function is the codomain of the outer function.
+  				In the composite function <m>h(x) = f(g(x))</m>, the <q>inner</q> function is <m>g</m> and the <q>outer</q> function is <m>f</m>.  Note that the inner function gets applied to <m>x</m> first, even though the outer function appears first when we read from left to right.  The composite function is only defined provided that the codomain of <m>g</m> matches the domain of <m>f</m>: that is, we need any possible outputs of <m>g</m> to be among the allowed inputs for <m>f</m>.  In particular, we can say that if <m>g : A \to B</m> and <m>f : B \to C</m>, then <m>f \circ g : A \to C</m>.  Thus, the domain of the composite function is the domain of the inner function, and the codomain of the composite function is the codomain of the outer function.
   			</p>
   		</li>
   		<li>

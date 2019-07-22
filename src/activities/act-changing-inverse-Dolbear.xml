@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -34,7 +34,7 @@
 				</li>
 				<li>
 					<p>
-						Use the function <m>E</m> that you found in (a) to compute <m>j(N) = E(D(N))</m>.  Simplify your result as much as possible.  Do likewise for <m>k(F) = D(E(F))</m>.  What do you notice about these two composite functions <m>j</m> and <m>k</m>?
+						Use the function <m>E</m> that you found in (a.) to compute <m>j(N) = E(D(N))</m>.  Simplify your result as much as possible.  Do likewise for <m>k(F) = D(E(F))</m>.  What do you notice about these two composite functions <m>j</m> and <m>k</m>?
 					</p>
 				</li>
 				<li>

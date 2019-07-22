@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -22,11 +22,11 @@
 
 		<sidebyside width="50%">
 			<figure xml:id="F-act-transformations-f">
-				<caption>A parent function <m>r</m>.</caption>
+				<caption>A parent function <m>f</m>.</caption>
 				<image source="images/transformations-act-f-combined" />
 			</figure>
 			<figure xml:id="F-act-transformations-g">
-				<caption>A parent function <m>s</m>.</caption>
+				<caption>A parent function <m>g</m>.</caption>
 				<image source="images/transformations-act-g-combined" />
 			</figure>
 		</sidebyside>

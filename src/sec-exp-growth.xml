@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -38,15 +38,15 @@
 
   <introduction>
   	<p>
-  		Linear functions have constant average rate of change and model many important phenomena.  In other settings, it is natural for a quantity to change at a rate that is proportional to the amount of the quantity present.  For instance, whether you put <dollar /><m>100</m> or <dollar /><m>100000</m> or any other amount in a mutual fund, the investment's value changes at a rate proportional the amount present.  We often measure that rate in terms of the annual percentage rate of return. 
+  		Linear functions have constant average rate of change and model many important phenomena.  In other settings, it is natural for a quantity to change at a rate that is proportional to the amount of the quantity present.  For instance, whether you put $<m>100</m> or $<m>100000</m> or any other amount in a mutual fund, the investment's value changes at a rate proportional the amount present.  We often measure that rate in terms of the annual percentage rate of return. 
   	</p>
 
   	<p>
-  		Suppose that a certain mutual fund has a <m>10</m><percent /> annual return.  If we invest <dollar /><m>100</m>, after <m>1</m> year we still have the original <dollar /><m>100</m>, plus we gain <m>10</m><percent /> of <dollar /><m>100</m>, so
+  		Suppose that a certain mutual fund has a <m>10</m>% annual return.  If we invest $<m>100</m>, after <m>1</m> year we still have the original $<m>100</m>, plus we gain <m>10</m>% of $<m>100</m>, so
   		<me>
   			100 \xrightarrow{\text{year } 1} 100 + 0.1(100) = 1.1(100)
   		</me>.
-  		If we instead invested <dollar /><m>100000</m>, after <m>1</m> year we again have the original <dollar /><m>100000</m>, but now we gain <m>10</m><percent /> of <dollar /><m>100000</m>, and thus
+  		If we instead invested $<m>100000</m>, after <m>1</m> year we again have the original $<m>100000</m>, but now we gain <m>10</m>% of $<m>100000</m>, and thus
   		<me>
   			100000 \xrightarrow{\text{year } 1} 100000 + 0.1(100000) = 1.1(100000)
   		</me>.
@@ -66,7 +66,7 @@
   	</p>
 
   	<p>
-  		Of course, in <m>3</m> years at <m>10</m><percent />, the original investment <m>P</m> will have grown to <m>1.1^3 P</m>.  Here we see a new kind of pattern developing:  annual growth of <m>10</m><percent /> is leading to <em>powers</em> of the base <m>1.1</m>, where the power to which we raise <m>1.1</m> corresponds to the number of years the investment has grown.  We often call this phenomenon <em>exponential growth</em>. <idx><h>exponential growth</h><h>introduction</h></idx>
+  		Of course, in <m>3</m> years at <m>10</m>%, the original investment <m>P</m> will have grown to <m>1.1^3 P</m>.  Here we see a new kind of pattern developing:  annual growth of <m>10</m>% is leading to <em>powers</em> of the base <m>1.1</m>, where the power to which we raise <m>1.1</m> corresponds to the number of years the investment has grown.  We often call this phenomenon <em>exponential growth</em>. <idx><h>exponential growth</h><h>introduction</h></idx>
   	</p>
 
   	<xi:include href="./previews/PA-exp-growth.xml" />
@@ -351,7 +351,7 @@
   				<ul>
   					<li>
   						<p>
-  							If we know the amount, <m>a</m>, of a quantity at time <m>t = 0</m> and the rate, <m>r</m>, at which the quantity grows or decays per unit time, then it follows <m>f(t) = a(1+r)^t</m>.  In this setting, <m>r</m> is often given as a percentage that we convert to a decimal (e.g., if the quantity grows at a rate of <m>7</m><percent /> per year, we set <m>r = 0.07</m>, so <m>b = 1.07</m>).
+  							If we know the amount, <m>a</m>, of a quantity at time <m>t = 0</m> and the rate, <m>r</m>, at which the quantity grows or decays per unit time, then it follows <m>f(t) = a(1+r)^t</m>.  In this setting, <m>r</m> is often given as a percentage that we convert to a decimal (e.g., if the quantity grows at a rate of <m>7</m>% per year, we set <m>r = 0.07</m>, so <m>b = 1.07</m>).
   						</p>
   					</li>
   					<li>

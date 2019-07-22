@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -28,19 +28,19 @@
 			<ol label="a.">
 		        <li>
 		          <p>
-		            Describe how changing the value of <m>a</m> effects the graph of <m>q</m>.
+		            Describe how changing the value of <m>a</m> impacts the graph of <m>q</m>.
 		          </p>
 		        </li>
 
 		        <li>
 		          <p>
-		            Describe how changing the value of <m>b</m> effects the graph of <m>q</m>.
+		            Describe how changing the value of <m>b</m> impacts the graph of <m>q</m>.
 		          </p>
 		        </li>
 
 		        <li>
 		          <p>
-		            Describe how changing the value of <m>c</m> effects the graph of <m>q</m>.
+		            Describe how changing the value of <m>c</m> impacts the graph of <m>q</m>.
 		          </p>
 		        </li>
 
@@ -54,7 +54,7 @@
 
 		        <li>
 		          <p>
-		            Is it possible find a formula for a quadratic function that passes through the points <m>(0,8)</m>,
+		            Is it possible to find a formula for a quadratic function that passes through the points <m>(0,8)</m>,
 		            <m>(1,12)</m>, <m>(2,12)</m>?  If yes, do so; if not, explain why not.
 		          </p>
 		        </li>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -38,11 +38,12 @@
 
 	<introduction>
   		<p>
-		    Certain naturally occurring phenomena eventually repeat themselves, especially when the phenomenon is somehow connected to a circle.  For example, suppose that you are taking a ride on a ferris wheel and we consider your height, <m>h</m>, above the ground and how your height changes in tandem with the distance, <m>d</m>, that you have traveled around the wheel.  In <xref ref="F-traversing-ferris-wheel-animation">Figure</xref> we see a snapshot of this situation, which is available as a full animation at <url href="http://gvsu.edu/s/0Dt">http://gvsu.edu/s/0Dt</url>.
+		    Certain naturally occurring phenomena eventually repeat themselves, especially when the phenomenon is somehow connected to a circle.  For example, suppose that you are taking a ride on a ferris wheel and we consider your height, <m>h</m>, above the ground and how your height changes in tandem with the distance, <m>d</m>, that you have traveled around the wheel.  In <xref ref="F-traversing-ferris-wheel-animation">Figure</xref> we see a snapshot of this situation, which is available as a full animation<fn>Used with permission from Illuminations by the National Council of Teachers of Mathematics. All rights reserved.</fn> at <url href="http://gvsu.edu/s/0Dt">http://gvsu.edu/s/0Dt</url>.
   		</p>
 
   		<figure xml:id="F-traversing-ferris-wheel-animation">
-  			<caption>A snapshot of the motion of a cab moving around a ferris wheel.</caption>
+  			<caption>A snapshot of the motion of a cab moving around a ferris wheel.  
+			Reprinted with permission from Illuminations by the National Council of Teachers of Mathematics. All rights reserved.</caption>
   			<image width="95%" source="images/traversing-ferris-wheel-animation" />
   		</figure>
 
@@ -60,6 +61,16 @@
 	<p>
 		The natural phenomenon of a point moving around a circle leads to interesting relationships.  For easier arithmetic, let's consider a point traversing a circle of circumference <m>24</m> and examine how the point's height, <m>h</m>, changes as the distance traversed, <m>d</m>, changes.  Note particularly that each time the point traverses <m>\frac{1}{8}</m> of the circumference of the circle, it travels a distance of <m>24 \cdot \frac{1}{8} = 3</m> units, as seen in <xref ref="F-traversing-first-example">Figure</xref> where each noted point lies <m>3</m> additional units along the circle beyond the preceding one.
 	</p>
+
+		<figure xml:id="F-traversing-first-example">
+			<caption>A point traversing a circle with circumference <m>C = 24</m>.</caption>
+			<image source="images/traversing-first-example" width="45%" />
+		</figure>
+
+	<p>
+		Note that we know the exact heights of certain points.  Since the circle has circumference <m>C = 24</m>, we know that <m>24 = 2\pi r</m> and therefore <m>r = \frac{12}{\pi} \approx 3.82</m>.  Hence, the point where <m>d = 6</m> (located <m>1/4</m> of the way along the circle) is at a height of <m>h = \frac{12}{\pi} \approx 3.82</m>.  Doubling this value, the point where <m>d = 12</m> has height <m>h = \frac{24}{\pi} \approx 7.64</m>.  Other heights, such as those that correspond to <m>d = 3</m> and <m>d = 15</m> (identified on the figure by the green line segments) are not obvious from the circle's radius, but can be estimated from the grid in <xref ref="F-traversing-first-example">Figure</xref> as <m>h \approx 1.1</m> (for <m>d = 3</m>) and <m>h \approx 6.5</m> (for <m>d = 15</m>).  Using all of these observations along with the symmetry of the circle, we can determine the other entries in <xref ref="T-traversing-first-example-1">Table</xref>.   
+	</p>
+
 			<table xml:id="T-traversing-first-example-1">
 				<caption>
 					Data for height, <m>h</m>, as a function of distance traversed, <m>d</m>.
@@ -92,6 +103,10 @@
 				</tabular>
 			</table>
 
+	<p>
+		Moreover, if we now let the point continue traversing the circle, we observe that the <m>d</m>-values will increase accordingly, but the <m>h</m>-values will repeat according to the already-established pattern, resulting in the data in <xref ref="T-traversing-first-example-2">Table</xref>.
+	</p>
+
 			<table xml:id="T-traversing-first-example-2">
 				<caption>
 					Additional data for height, <m>h</m>, as a function of distance traversed, <m>d</m>.
@@ -122,25 +137,16 @@
 				      <cell><m>0</m></cell>
 				    </row>				    			    
 				</tabular>
-			</table>
-
-		<figure xml:id="F-traversing-first-example">
-			<caption>A point traversing a circle with circumference <m>C = 24</m>.</caption>
-			<image source="images/traversing-first-example" width="45%" />
-		</figure>
+			</table>	
 
 	<p>
-		Note that we know the exact heights of certain points.  Since the circle has circumference <m>C = 24</m>, we know that <m>24 = 2\pi r</m> and therefore <m>r = \frac{12}{\pi} \approx 3.82</m>.  Hence, the point where <m>d = 6</m> (located <m>1/4</m> of the way along the circle) is at a height of <m>h = \frac{12}{\pi} \approx 3.82</m>.  Doubling this value, the point where <m>d = 12</m> has height <m>h = \frac{24}{\pi} \approx 7.64</m>.  Other heights, such as those that correspond to <m>d = 3</m> and <m>d = 15</m> (identified on the figure by the green line segments) are not obvious from the circle's radius, but can be estimated from the grid in <xref ref="F-traversing-first-example">Figure</xref> as <m>h \approx 1.1</m> (for <m>d = 3</m>) and <m>h \approx 6.5</m> (for <m>d = 15</m>).  Using all of these observations along with the symmetry of the circle, we can determine the other entries in <xref ref="T-traversing-first-example-1">Table</xref>.   
+		  It is apparent that each point on the circle corresponds to one and only one height, and thus we can view the height of a point as a function of the distance the point has traversed around the circle, say <m>h = f(d)</m>.  Using the data from the two tables and connecting the points in an intuitive way, we get the graph shown in <xref ref="F-traversing-first-example-graph">Figure</xref>.
 	</p>
 
 	<figure xml:id="F-traversing-first-example-graph">
 		<caption>The height, <m>h</m>, of a point traversing a circle of radius <m>24</m> as a function of distance, <m>d</m>, traversed around the circle.</caption>
 		<image source="images/traversing-first-example-graph" width="80%" />
 	</figure>
-
-	<p>
-		Moreover, if we now let the point continue traversing the circle, we observe that the <m>d</m>-values will increase accordingly, but the <m>h</m>-values will repeat according to the already-established pattern, resulting in the data in <xref ref="T-traversing-first-example-2">Table</xref>.  It is apparent that each point on the circle corresponds to one and only one height, and thus we can view the height of a point as a function of the distance the point has traversed around the circle, say <m>h = f(d)</m>.  Using the data from the two tables and connecting the points in an intuitive way, we get the graph shown in <xref ref="F-traversing-first-example-graph">Figure</xref>.
-	</p>
 
 	<p>
 		The function <m>h = f(d)</m> we have been discussing is an example of what we will call a <em>circular function</em>.  <idx><h>circular function</h></idx> Indeed, it is apparent that if we 
@@ -262,7 +268,7 @@
   			<image source="images/traversing-circular-aroc-circle-eighth" />
   		</figure>
   		<figure xml:id="F-circular-traversing-aroc-20th">
-  			<caption>Comparing the average rate of change over <m>1/8</m> the circumference.</caption>
+  			<caption>Comparing the average rate of change over <m>1/20</m> the circumference.</caption>
   			<image source="images/traversing-circular-aroc-circle-20th" />
   		</figure>
   	</sidebyside>

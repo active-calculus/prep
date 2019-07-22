@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -58,7 +58,7 @@
   	<title>Properties of Quadratic Functions</title>
 
   	<p>
-  		Quadratic functions are likely familiar to readers of this text from experience in previous courses.  Throughout, we let <m>y = q(x) = ax^2 + bx + c</m> where <m>a</m>, <m>b</m>, and <m>c</m> are real numbers with <m>a \ne 0</m>.  From the outset, it is important to note that when we write <m>q(x) = ax^2 + bx + c</m> we are thinking of an <em>infinite family of functions</em> where each member depends on the three paramaters <m>a</m>, <m>b</m>, and <m>c</m>.
+  		Quadratic functions are likely familiar to you from experience in previous courses.  Throughout, we let <m>y = q(x) = ax^2 + bx + c</m> where <m>a</m>, <m>b</m>, and <m>c</m> are real numbers with <m>a \ne 0</m>.  From the outset, it is important to note that when we write <m>q(x) = ax^2 + bx + c</m> we are thinking of an <em>infinite family of functions</em> where each member depends on the three paramaters <m>a</m>, <m>b</m>, and <m>c</m>.
   	</p>
 
 	<xi:include href="./activities/act-changing-quadratic-parameters.xml" />
@@ -71,7 +71,7 @@
 		<title>Solutions to <m>q(x) = 0</m></title>
 		<idx>quadratic formula</idx>
 		<p>
-			The equation <m>ax^2 + bx + c = 0</m> can have <m>0</m>, <m>1</m>, or <m>2</m> real solutions.   These real solutions are given by the quadratic formula,
+			Let <m>a</m>, <m>b</m>, and <m>c</m> be real numbers with <m>a \ne 0</m>.  The equation <m>ax^2 + bx + c = 0</m> can have <m>0</m>, <m>1</m>, or <m>2</m> real solutions.   These real solutions are given by the quadratic formula,
 			<me>
 				x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
 			</me>,
@@ -224,7 +224,7 @@
 	  </assemblage>
 
 	  <p>
-	  	If height is measured instead in meters and velocity in meters per second, the gravitational constant is <m>g = 9.8</m> and the function <m>h</m> has form <m>h(t) = -4.9t^2 + v_0t + s_0</m>. <idx><h>gravity</h><h>gravitational constant</h></idx>
+	  	If height is measured instead in meters and velocity in meters per second, the gravitational constant is <m>g = 9.8</m> and the function <m>h</m> has form <m>h(t) = -4.9t^2 + v_0t + s_0</m>. <idx><h>gravity</h><h>gravitational constant</h></idx>  (When height is measured in feet, the gravitational constant is <m>g = 32</m>.)
 	  </p>
 
 	  <xi:include href="./activities/act-changing-quadratic-falling-ball.xml" />
@@ -241,11 +241,11 @@
 	</p>
 
 	<p>
-		Recall that we considered a water balloon is tossed vertically from a fifth story window whose height, <m>h</m>, in meters, at time <m>t</m>, in seconds, is modeled<fn>Here we are using <m>a = -5</m> rather than <m>a = -4.9</m> for simplicity.</fn> by the function
+		Recall that we considered a water balloon tossed vertically from a fifth story window whose height, <m>h</m>, in meters, at time <m>t</m>, in seconds, is modeled<fn>Here we are using <m>a = -5</m> rather than <m>a = -4.9</m> for simplicity.</fn> by the function
 		<me>
 			h = q(t) = -5t^2 + 20t + 25
 		</me>.
-		We then completed two tables to investigate how both function values and averages rates of change varied as we changed the input to the function.
+		We then completed <xref ref="T-PA-changing-quadratic-heights-complete">Table</xref> and <xref ref="T-PA-changing-quadratic-AVs-complete">Table</xref> to investigate how both function values and averages rates of change varied as we changed the input to the function.
 	</p>
 
 				<sidebyside width="50%">
@@ -283,7 +283,7 @@
 						</tabular>
 					</table>	
 					<table xml:id="T-PA-changing-quadratic-AVs-complete">
-						<caption>Average rates of change for <m>h</m> on select intervals.</caption>
+						<caption>Average rates of change for <m>h</m> on select intervals <m>[a,b]</m>.</caption>
 						<tabular>
 							<row bottom="minor">
 								<cell><m>[a,b]</m></cell>
@@ -314,7 +314,7 @@
 				</sidebyside>
 	
 	<p>		
-		In <xref ref="T-PA-changing-quadratic-AVs-complete"></xref>, we see an interesting pattern in the average velocities of the ball.  Indeed, if we remove the <q><m>AV</m></q> notation and focus on the starting value of each interval, viewing the resulting average rate of change, <m>r</m>, as a function of the starting value, we may consider the related table seen in <xref ref="T-quadratic-linear">Table</xref>, where it is apparent that <m>r</m> is a linear function of <m>a</m>.
+		In <xref ref="T-PA-changing-quadratic-AVs-complete">Table</xref>, we see an interesting pattern in the average velocities of the ball.  Indeed, if we remove the <q><m>AV</m></q> notation and focus on the starting value of each interval, viewing the resulting average rate of change, <m>r</m>, as a function of the starting value, we may consider the related table seen in <xref ref="T-quadratic-linear">Table</xref>, where it is apparent that <m>r</m> is a linear function of <m>a</m>.
 	</p>
 
 		<sidebyside width="50%" valign="middle">
@@ -365,14 +365,14 @@
 	</p>
 
 	<p>
-		For any function that consistently bends in either exclusively upward or exclusively downward on a given interval <m>(a,b)</m>, we use the following formal language<fn>Calculus is needed to make <xref ref="def-quadratic-concave">Definition</xref> rigorous and precise.</fn> to describe it.
+		For any function that consistently bends either exclusively upward or exclusively downward on a given interval <m>(a,b)</m>, we use the following formal language<fn>Calculus is needed to make <xref ref="def-quadratic-concave">Definition</xref> rigorous and precise.</fn> to describe it.
 	</p>
 
 	<definition xml:id="def-quadratic-concave">
 		<idx><h>function trends</h><h>concave up</h></idx> <idx><h>function trends</h><h>concave down</h></idx>
 		<statement>
 			<p>
-				If a function <m>f</m> always bends upward on an interval <m>(a,b)</m>, we say that <m>f</m> is <term>concave up on <m>(a,b)</m></term>.  Similarly, if <m>f</m> always bends downward on an interval <m>(a,b)</m>, we say that <m>f</m> is <term>concave up on <m>(a,b)</m></term>.
+				If a function <m>f</m> always bends upward on an interval <m>(a,b)</m>, we say that <m>f</m> is <term>concave up on <m>(a,b)</m></term>.  Similarly, if <m>f</m> always bends downward on an interval <m>(a,b)</m>, we say that <m>f</m> is <term>concave down on <m>(a,b)</m></term>.
 			</p>
 		</statement>
 	</definition>
@@ -398,7 +398,7 @@
   				<me>
   					h = q(t) = -16t^2 + v_0t + s_0
   				</me>.
-  				That is, the object's height is completely determined by the initial height and initial velocity from which it was launched.  The model is valid for the entire time until the object lands.  If <m>h</m> is instead measured in meters and <m>v_0</m> in meters per second, <m>-16</m> is replaced with <m>4.9</m>.
+  				That is, the object's height is completely determined by the initial height and initial velocity from which it was launched.  The model is valid for the entire time until the object lands.  If <m>h</m> is instead measured in meters and <m>v_0</m> in meters per second, <m>-16</m> is replaced with <m>-4.9</m>.
   			</p>
   		</li>
   		<li>
@@ -424,7 +424,7 @@
   						<cell><m>y</m>-int</cell>
   						<cell><m>(0,c)</m></cell>
   						<cell><m>(0,ah^2 + k)</m></cell>
-  						<cell><m>(0,(0,ars)</m></cell>
+  						<cell><m>(0,ars)</m></cell>
   					</row>
   					<row>
   						<cell><m>x</m>-int<fn>Provided <m>b^2 - 4ac \ge 0</m> for standard form; provided <m>-\frac{k}{a} \ge 0</m> for vertex form.</fn></cell>

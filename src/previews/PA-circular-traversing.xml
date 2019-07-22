@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -17,7 +17,11 @@
 
 	<statement>
 		<p>
-			In the context of the ferris wheel pictured in <xref ref="F-traversing-ferris-wheel-animation">Figure</xref>, assume that the height, <m>h</m>, of the moving point (the cab in which you are riding), and the distance, <m>d</m>, that the point has traveled around the circumference of the ferris wheel are both measured in meters.  Further, assume that the circumference of the ferris wheel is <m>150</m> meters.  In addition, suppose that after getting in your cab at the lowest point on the wheel, you traverse the full circle several times.
+			In the context of the ferris wheel pictured in <xref ref="F-traversing-ferris-wheel-animation">Figure</xref>, assume that the height, <m>h</m>, of the moving point (the cab in which you are riding), and the distance, <m>d</m>, that the point has traveled around the circumference of the ferris wheel are both measured in meters.  
+		</p>
+			
+		<p>	
+			Further, assume that the circumference of the ferris wheel is <m>150</m> meters.  In addition, suppose that after getting in your cab at the lowest point on the wheel, you traverse the full circle several times.
 		</p>
 
 		<p>

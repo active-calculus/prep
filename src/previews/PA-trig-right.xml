@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -39,7 +39,7 @@
 				</li>
 				<li>
 					<p>
-						The lengths of the two legs in a right triangle with hypotenuse <m>5</m> and where one of the non-right angles measures <m>\frac{\pi}{6}</m>.
+						The lengths of the two legs in a right triangle with hypotenuse <m>5</m> and where one of the non-right angles measures <m>\frac{\pi}{4}</m>.
 					</p>
 				</li>
 				<li>

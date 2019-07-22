@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -17,11 +17,11 @@
 
 	<statement>
 		<p>
-			Suppose that at age <m>20</m> you have <dollar /><m>20000</m> and you can choose between one of two ways to use the money:  you can invest it in a mutual fund that will, on average, earn <m>8</m><percent /> interest annually, or you can purchase a new automobile that will, on average, depreciate <m>12</m><percent /> annually.  Let's explore how the <m>20000</m> changes over time.
+			Suppose that at age <m>20</m> you have $<m>20000</m> and you can choose between one of two ways to use the money:  you can invest it in a mutual fund that will, on average, earn <m>8</m>% interest annually, or you can purchase a new automobile that will, on average, depreciate <m>12</m>% annually.  Let's explore how the $<m>20000</m> changes over time.
 		</p>
 
 		<p>
-			Let <m>I(t)</m> denote the value of the <dollar /><m>20000</m> after <m>t</m> years if it is invested in the mutual fund, and let <m>V(t)</m> denote the value of the automobile <m>t</m> years after it is purchased.
+			Let <m>I(t)</m> denote the value of the $<m>20000</m> after <m>t</m> years if it is invested in the mutual fund, and let <m>V(t)</m> denote the value of the automobile <m>t</m> years after it is purchased.
 		</p>
 
 		<p>
@@ -33,7 +33,7 @@
 				</li>
 				<li>
 					<p>
-						Note that if a quantity depreciates <m>12</m><percent /> annually, after a given year, <m>88</m><percent /> of the quantity remains.  Compute <m>V(0)</m>, <m>V(1)</m>, <m>V(2)</m>, and <m>V(3)</m>.
+						Note that if a quantity depreciates <m>12</m>% annually, after a given year, <m>88</m>% of the quantity remains.  Compute <m>V(0)</m>, <m>V(1)</m>, <m>V(2)</m>, and <m>V(3)</m>.
 					</p>
 				</li>
 				<li>

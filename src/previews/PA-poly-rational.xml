@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -17,20 +17,20 @@
 
 	<statement>
 		<p>
-			A drug company<fn><em>Functions Modeling Change</em>, Connally et al p. 457ff.</fn> estimates that to produce a new drug,
-			it will cost <dollar />5 million in startup resources, and that once they reach production, each gram of the drug will cost <dollar />2500 to make.  
+			A drug company<fn>This activity is based on p. 457ff in <em>Functions Modeling Change</em>, by Connally et al.</fn> estimates that to produce a new drug,
+			it will cost $5 million in startup resources, and that once they reach production, each gram of the drug will cost $2500 to make.  
 		</p>
 
 		<p>
 			<ol label="a.">
 				<li>
 					<p>
-						Determine a formula for a function <m>C(q)</m> models the cost of producing <m>q</m> grams of the drug.  What familiar kind of function is <m>C</m>?
+						Determine a formula for a function <m>C(q)</m> that models the cost of producing <m>q</m> grams of the drug.  What familiar kind of function is <m>C</m>?
 					</p>
 				</li>
 				<li>
 					<p>
-						The drug company needs to sell the drug at a price of more than <dollar />2500 per gram in order to at least break even.  To investigate how they might set prices, they first consider what their <em>average</em> cost per gram is.  What is the <em>total</em> cost of producing <m>1000</m> grams?  What is the <em>average</em> cost per gram to produce <m>1000</m> grams?
+						The drug company needs to sell the drug at a price of more than $2500 per gram in order to at least break even.  To investigate how they might set prices, they first consider what their <em>average</em> cost per gram is.  What is the <em>total</em> cost of producing <m>1000</m> grams?  What is the <em>average</em> cost per gram to produce <m>1000</m> grams?
 					</p>
 				</li>
 				<li>

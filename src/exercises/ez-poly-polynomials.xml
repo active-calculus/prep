@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -15,14 +15,34 @@
 
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-poly-polynomials">
   
-<!--
-  <exercise xml:id="ez-0-0-WW1">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-poly-polynomials-WW1">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q02.pg" />
   </exercise>
-  <exercise xml:id="ez-0-0-WW2">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-poly-polynomials-WW2">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q03.pg" />
+  </exercise>
+  <exercise xml:id="ez-poly-polynomials-WW3">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q08.pg" />
+  </exercise>
+  <exercise xml:id="ez-poly-polynomials-WW4">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q10.pg" />
+  </exercise>
+  <exercise xml:id="ez-poly-polynomials-WW5">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q12.pg" />
+  </exercise>
+
+<!--  
+  <exercise xml:id="ez-poly-polynomials-WW6">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q15.pg" />
   </exercise>
 -->
+
+  <exercise xml:id="ez-poly-polynomials-WW7">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/polynomial-02.pg" />
+  </exercise>
+  <exercise xml:id="ez-poly-polynomials-WW8">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/polynomial-04.pg" />
+  </exercise>
 
   <exercise xml:id="ez-poly-polynomials-1">
     <statement>

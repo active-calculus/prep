@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -38,11 +38,11 @@
 				</li>
 				<li>
 					<p>
-						Explain why each of the following equalities hold:
+						Explain why each of the following three equal signs is valid in the sequence of equalities:
 						<md>
 							<mrow>\log_{10}(10^x \cdot 10^y) &amp;= \log_{10}(10^{x+y})</mrow>
 							<mrow>         &amp;= x+y</mrow>
-							<mrow>         &amp;= \log_{10}(10^x) + \log_{10}(10^x)</mrow>
+							<mrow>         &amp;= \log_{10}(10^x) + \log_{10}(10^y)</mrow>
 						</md>.
 					</p>
 				</li>

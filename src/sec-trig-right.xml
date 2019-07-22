@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -38,6 +38,14 @@
 
   <introduction>
 
+	<p>
+		In <xref ref="sec-circular-sine-cosine">Section</xref>, we defined the cosine and sine functions as the functions that track the location of a point traversing the unit circle counterclockwise from <m>(1,0)</m>.  In particular, for a central angle of radian measure <m>t</m> that passes through the point <m>(1,0)</m>, we define <m>\cos(t)</m> as the <m>x</m>-coordinate of the point where the other side of the angle intersects the unit circle, and <m>\sin(t)</m> as the <m>y</m>-coordinate of that same point, as pictured in <xref ref="F-right-sine-cosine-unit">Figure</xref>.
+	</p>
+
+	<p>
+		By changing our perspective slightly, we can see that it is equivalent to think of the values of the sine and cosine function as representing the lengths of legs in right triangles.  Specifically, given a central angle<fn>In our work with right triangles, we'll often represent the angle by <m>\theta</m> and think of this angle as fixed, as opposed to our previous use of <m>t</m> where we frequently think of <m>t</m> as changing.</fn> <m>\theta</m>, if we think of the right triangle with vertices <m>(\cos(\theta),0)</m>, <m>(0,0)</m>, and <m>(\cos(\theta), \sin(\theta))</m>, then the length of the horizontal leg is <m>\cos(\theta)</m> and the length of the vertical leg is <m>\sin(\theta)</m>, as seen in <xref ref="F-right-sine-cosine-right">Figure</xref>.  
+	</p>
+
 	<sidebyside width="45%">
 		<figure xml:id="F-right-sine-cosine-unit">
 			<caption>The values of <m>\cos(t)</m> and <m>\sin(t)</m> as coordinates on the unit circle.</caption>
@@ -50,15 +58,7 @@
 	</sidebyside>
 
 	<p>
-		In <xref ref="sec-circular-sine-cosine">Section</xref>, we defined the cosine and sine functions as the functions that track the location of a point traversing the unit circle counterclockwise from <m>(1,0)</m>.  In particular, for a central angle of radian measure <m>t</m> that passes through the point <m>(1,0)</m>, we define <m>\cos(t)</m> as the <m>x</m>-coordinate of the point where the other side of the angle intersects the unit circle, and <m>\sin(t)</m> as the <m>y</m>-coordinate of that same point, as pictured in <xref ref="F-right-sine-cosine-unit">Figure</xref>.
-	</p>
-
-	<p>
-		By changing our perspective slightly, we can see that it is equivalent to think of the values of the sine and cosine function as representing the lengths of legs in right triangles.  Specifically, given a central angle<fn>In our work with right triangles, we'll often represent the angle by <m>\theta</m> and think of this angle as fixed, as opposed to our previous use of <m>t</m> where we frequently think of <m>t</m> as changing.</fn> <m>\theta</m>, if we think of the right triangle with vertices <m>(\cos(\theta),0)</m>, <m>(0,0)</m>, and <m>(\cos(\theta), \sin(\theta))</m>, then the length of the horizontal leg is <m>\cos(\theta)</m> and the length of the vertical leg is <m>\sin(\theta)</m>, as seen in <xref ref="F-right-sine-cosine-right">Figure</xref>.  
-	</p>
-
-	<p>
-		This right triangle perspective enables us to use the sine and cosine functions to determine missing information in certain right triangles.  The area of mathematics that studies relationships among the angles and sides of triangles is called <em>trigonometry</em>. <idx><h>trigonometry</h></idx>  In addition, it's important to recall both the Pythagorean Theorem and the Fundamental Trigonometric Identity.  <idx><h>Pythagorean Theorem</h></idx> <idx><h>fundamental trigonometric identity</h></idx>  The former states that in any right triangle with legs of length <m>a</m> and <m>b</m> and hypotenuse of length <m>c</m>, it follows <m>a^2 + b^2 = c^2</m>.  The latter, which is a special case of the Pythagorean Theorem, says that for any angle <m>\theta</m>, <m>\cos^2(\theta) + \sin^2(\theta) = 1</m>.
+		This right triangle perspective enables us to use the sine and cosine functions to determine missing information in certain right triangles.  The field of mathematics that studies relationships among the angles and sides of triangles is called <em>trigonometry</em>. <idx><h>trigonometry</h></idx>  In addition, it's important to recall both the Pythagorean Theorem and the Fundamental Trigonometric Identity.  <idx><h>Pythagorean Theorem</h></idx> <idx><h>fundamental trigonometric identity</h></idx>  The former states that in any right triangle with legs of length <m>a</m> and <m>b</m> and hypotenuse of length <m>c</m>, it follows <m>a^2 + b^2 = c^2</m>.  The latter, which is a special case of the Pythagorean Theorem, says that for any angle <m>\theta</m>, <m>\cos^2(\theta) + \sin^2(\theta) = 1</m>.
 	</p>
 
   	<xi:include href="./previews/PA-trig-right.xml" />
@@ -103,7 +103,7 @@
 		</figure>
 
 	<p>
-		Because we know the values of the cosine and sine functions from the unit circle, right triangles with hypotentuse <m>1</m> are the easiest ones in which to determine missing information.  In addition, we can relate any other right triangle to a right triangle with hypotenuse <m>1</m> through the concept of <em>similarity</em>.  Recall that two triangles are <term>similar</term> <idx><h>similar triangles</h></idx> provided that one is a magnification of the other.  More precisely, for some constant <m>k</m>, every side in one triangle is <m>k</m> times as long as the corresponding side in the other, and the corresponding angles in the two triangles are equal.  An important result from geometry tells us that if two triangles are known to have all three of their corresponding angles equal, then it follows that the two triangles are similar, and therefore their corresponding sides must be proportionate to one another.
+		Because we know the values of the cosine and sine functions from the unit circle, right triangles with hypotentuse <m>1</m> are the easiest ones in which to determine missing information.  In addition, we can relate any other right triangle to a right triangle with hypotenuse <m>1</m> through the concept of <em>similarity</em>.  Recall that two triangles are <term>similar</term> <idx><h>similar triangles</h></idx> provided that one is a magnification of the other.  More precisely, two triangles are similar whenever there is some constant <m>k</m> such that every side in one triangle is <m>k</m> times as long as the corresponding side in the other and the corresponding angles in the two triangles are equal.  An important result from geometry tells us that if two triangles are known to have all three of their corresponding angles equal, then it follows that the two triangles are similar, and therefore their corresponding sides must be proportionate to one another.
 	</p>
 
 	<xi:include href="./activities/act-trig-right-similar.xml" />
@@ -123,7 +123,7 @@
 		</figure>
 
 	<p>
-		From the similar triangles in <xref ref="F-right-triangle-r-theta">Figure</xref>, we can make an important observation about ratios in right triangles.  Because the triangles are similar, the ratios of corresponding sides must be equal, so if we consider the two hypoteni and the two horizontal legs, we have
+		From the similar triangles in <xref ref="F-right-triangle-r-theta">Figure</xref>, we can make an important observation about ratios in right triangles.  Because the triangles are similar, the ratios of corresponding sides must be equal, so if we consider the two hypotenuses and the two horizontal legs, we have
 		<men xml:id="eq-right-COH">
 			\frac{r}{1} = \frac{r\cos(\theta)}{\cos(\theta)}
 		</men>.
@@ -131,7 +131,7 @@
 		<men xml:id="eq-right-COH-2">
 			\frac{\cos(\theta)}{1} = \frac{r\cos(\theta)}{r}
 		</men>.
-		From a geometric perspective, <xref ref="eq-right-COH-2">Equation</xref> tells us that the ratio of the horizontal leg of a right triangle to the hypotenuse of the triangle is always the same (regardless of <m>r</m>) and that the value of that ratio is <m>\cos(\theta)</m>, where <m>\theta</m> is the angle adjacent to the horizontal leg.  In an analogous way, the equation involving the hypoteni and vertical legs of the similar triangles is
+		From a geometric perspective, <xref ref="eq-right-COH-2">Equation</xref> tells us that the ratio of the horizontal leg of a right triangle to the hypotenuse of the triangle is always the same (regardless of <m>r</m>) and that the value of that ratio is <m>\cos(\theta)</m>, where <m>\theta</m> is the angle adjacent to the horizontal leg.  In an analogous way, the equation involving the hypotenuses and vertical legs of the similar triangles is
 		<men xml:id="eq-right-SOH">
 			\frac{r}{1} = \frac{r\sin(\theta)}{\sin(\theta)}
 		</men>,
@@ -167,7 +167,7 @@
   	<title>Using a ratio involving sine and cosine</title>
 
   	<p>
-  		In <xref ref="act-trig-right-SOH-CAH">Activity</xref>, we found that in many cases where we have a right triangle, knowing two additional pieces of information enables us to find the remaining three unknown quantities in the triangle.  At this point of our studies, the following general principles hold.  
+  		In <xref ref="act-trig-right-SOH-CAH">Activity</xref>, we found that in many cases where we have a right triangle, knowing two additional pieces of information enables us to find the remaining three unknown quantities in the triangle.  At this point in our studies, the following general principles hold.  
 	</p>
 
 	<assemblage xml:id="asm-trig-right-missing-info">
@@ -198,7 +198,7 @@
 	</assemblage>
 
   	<p>
-  		In scenario (1), all <m>6</m> features of the triangle are not only determined, but we are able to find their values.  In (2), the triangle is uniquely determined by the given information, but as in <xref ref="act-trig-right-SOH-CAH">Activity</xref> parts (d) and (e), while we know the values of the sine and cosine of the angles in the triangle, we haven't yet developed a way to determine the measures of those angles.  Finally, in scenario (3), the triangle is not uniquely determined, since any magnified version of the triangle will have the same three angles as the given one, and thus we need more information to determine side length.
+  		In scenario (1.), all <m>6</m> features of the triangle are not only determined, but we are able to find their values.  In (2.), the triangle is uniquely determined by the given information, but as in <xref ref="act-trig-right-SOH-CAH">Activity</xref> parts (d) and (e), while we know the values of the sine and cosine of the angles in the triangle, we haven't yet developed a way to determine the measures of those angles.  Finally, in scenario (3.), the triangle is not uniquely determined, since any magnified version of the triangle will have the same three angles as the given one, and thus we need more information to determine side length.
   	</p>
 
   	<p>
@@ -207,14 +207,24 @@
 
 	<example xml:id="ex-right-sin-cos-ratio">  
 		<statement>
+
+		<sidebyside>
 			<p>
-				Consider a right triangle in which one of the non-right angles is <m>\beta = \frac{\pi}{5}</m> and the leg opposite <m>\beta</m> has length <m>4</m>.  Determine all of the remaining sides and angles in the triangle.
+				<p>
+					Consider a right triangle in which one of the non-right angles is <m>\beta = \frac{\pi}{5}</m> and the leg opposite <m>\beta</m> has length <m>4</m>.  
+				</p>
+
+				<p>
+					Determine (both exactly and approximately) the measures of all of the remaining sides and angles in the triangle.
+				</p>
 			</p>
 
 				<figure xml:id="F-right-triangle-ex-ratio">
 					<caption>The given right triangle.</caption>
 					<image source="images/right-triangle-ex-ratio" width="35%"/>
 				</figure>
+		</sidebyside>
+			
 
 		</statement>
 		<solution>

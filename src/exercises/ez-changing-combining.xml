@@ -14,7 +14,6 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-combining">
 
-<!-- THESE ALL WORK IN HTML, BUT NOT IN PDF
   <exercise xml:id="ez-changing-combining-WW1">
     <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_05_functOperation.pg" />
   </exercise>
@@ -27,10 +26,6 @@
     <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_09_functOperation.pg" />
   </exercise>
 
--->
-
-<!-- *** THERE ARE ISSUES WITH 1, 2, AND 3 IN THE PDF VERSION, TOO ***
-
   <exercise xml:id="ez-changing-combining-WW4">
     <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_10_functOperation.pg" />
   </exercise>  
@@ -42,7 +37,7 @@
   <exercise xml:id="ez-changing-combining-WW6">
     <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_13_functOperation.pg" />
   </exercise>
--->
+
 
 <!--
 
@@ -215,7 +210,7 @@
 
             <li>
               <p>
-                She bikes at an average rate of <m>21</m> miles per hour throughout the <m>1112</m> miles of biking.
+                She bikes at an average rate of <m>21</m> miles per hour throughout the <m>112</m> miles of biking.
               </p>
             </li>
 

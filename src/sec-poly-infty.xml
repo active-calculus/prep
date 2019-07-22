@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -46,7 +46,7 @@
   		<me>
   			q(t) \to 0 \text{ as } t \to \infty
   		</me>.
-  		It's important to remember that infinity is not itself a number.  We use the <q><m>\infty</m></q> symbol to represent a quantity that gets bigger and bigger with no bound on its growth.
+  		It's important to remember that infinity is not itself a number.  We use the <q><m>\infty</m></q> symbol to represent a quantity that gets larger and larger with no bound on its growth.
   	</p>
 
   	<p>
@@ -112,7 +112,7 @@
   	</definition>
 
   	<p>
-  		We use limit notation in related, natural ways to express patterns we see in function behavior.  For instance, we write <m>t \to -\infty</m> when we let <m>t</m> decrease without bound, and <m>f(t) \to -\infty</m> if <m>F</m> decreases without bound.  We can also think about an input value <m>t</m> approaching a value <m>a</m> at which the function <m>f</m> is not defined.  As one example, we write
+  		We use limit notation in related, natural ways to express patterns we see in function behavior.  For instance, we write <m>t \to -\infty</m> when we let <m>t</m> decrease without bound, and <m>f(t) \to -\infty</m> if <m>f</m> decreases without bound.  We can also think about an input value <m>t</m> approaching a value <m>a</m> at which the function <m>f</m> is not defined.  As one example, we write
   		<me>
   			\lim_{t \to 0^+} \ln(t) = -\infty
   		</me>
@@ -136,7 +136,7 @@
   	<p>
   		To date, we have worked with several families of functions:
 	    linear functions of form <m>y = mx + b</m>,
-	    quadratic functionsin standard form, <m>y = ax^2 + bx + c</m>,
+	    quadratic functions in standard form, <m>y = ax^2 + bx + c</m>,
 	    the sinusoidal (trigonometric) functions <m>y = a\sin(k(x-b))+c</m> or <m>y = a\cos(k(x-b))+c</m>,
 	    transformed exponential functions such as <m>y = ae^{kx} + c</m>,
 	    and transformed logarithmic functions of form <m>y = a\ln(x) + c</m>.  For trigonometric, exponential, and logarithmic functions, it was essential that we first understood the behavior of the basic parent functions <m>\sin(x)</m>, <m>\cos(x)</m>, <m>e^x</m>, and <m>\ln(x)</m>.  In order to build on our prior work with linear and quadratic functions, we now consider basic functions such as <m>x</m>, <m>x^2</m>, and additional powers of <m>x</m>.
@@ -160,7 +160,7 @@
 		<me>
 			x^{-n} = \frac{1}{x^n}
 		</me>
-		so for a power function such as <m>p(x) = x^{-2}</m>, we can equivalently consider <m>p(x) = \frac{1}{x^2}</m>.  Note well that for these functions, their domain is the set of all real numbers <em>except</em> <m>x = 0</m>.  Like with power functions with positive whole number powers, we want to know how power functions with negative whole number powers behave as <m>x</m> increases without bound, as well as how the functions behave near <m>x = 0</m>.  
+		so for a power function such as <m>p(x) = x^{-2}</m>, we can equivalently consider <m>p(x) = \frac{1}{x^2}</m>.  Note well that for these functions, their domain is the set of all real numbers except <m>x = 0</m>.  Like with power functions with positive whole number powers, we want to know how power functions with negative whole number powers behave as <m>x</m> increases without bound, as well as how the functions behave near <m>x = 0</m>.  
 	</p>
 
 	<xi:include href="./activities/act-poly-infty-negative-powers.xml" />

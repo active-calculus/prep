@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -53,9 +53,9 @@
   		<p>
   			Given real numbers <m>a</m>, <m>b</m>, and <m>c</m> with <m>a \ne 0</m>, the functions
   			<me>
-  				k(t) = a\cos(t-b)+c \text{ and } h(t) = a\sin(t-b) + c
+  				k(t) = a\cos(t-b)+c \ \text{ and } \ h(t) = a\sin(t-b) + c
   			</me>
-  			each represent a horizontal shift by <m>b</m> units to the right, followed by a vertical stretch by <m>a</m> units, followed by a vertical shift of <m>c</m> units, applied to the parent function (<m>\cos(t)</m> or <m>\sin(t)</m>, respectively).  The resulting circular functions have midline <m>y = c</m>, amplitude <m>a</m>, range <m>[c-a,c+a]</m>, and period <m>p = 2\pi</m>.  In addition, the point <m>(b,a+c)</m> lies on the graph of <m>k</m> and the point <m>(b,c)</m> lies on the graph of <m>h</m>.
+  			each represent a horizontal shift by <m>b</m> units to the right, followed by a vertical stretch by <m>|a|</m> units (if <m>a \lt 0</m>, there is also a reflection across the <m>x</m>-axis), followed by a vertical shift of <m>c</m> units, applied to the parent function (<m>\cos(t)</m> or <m>\sin(t)</m>, respectively).  The resulting circular functions have midline <m>y = c</m>, amplitude <m>|a|</m>, range <m>[c-|a|,c+|a|]</m>, and period <m>p = 2\pi</m>.  In addition, the point <m>(b,a+c)</m> lies on the graph of <m>k</m> and the point <m>(b,c)</m> lies on the graph of <m>h</m>.
   		</p>
   	</assemblage>
 
@@ -125,7 +125,7 @@
   		<title>Horizontal scaling</title>
   		<idx><h>horizontal scaling</h></idx>
   		<p>
-  			Given a function <m>y = f(t)</m> and a real number <m>k \gt 0</m>, the transformed function <m>y = h(t) = f(kt)</m> is a <em>horizontal stretch</em> of the graph of <m>f</m>.  Every point <m>(t,f(t))</m> on the graph of <m>f</m> gets stretched horizontally to the corresponding point <m>(\frac{1}{k}t,f(t))</m> on the graph of <m>h</m>.  If <m>0 \lt k \lt 1</m>, the graph of <m>v</m> is a stretch of <m>f</m> away from the <m>y</m>-axis by a factor of <m>\frac{1}{k}</m>; if <m>k \gt 1</m>, the graph of <m>h</m> is a compression of <m>f</m> toward the <m>y</m>-axis by a factor of <m>\frac{1}{k}</m>.  The only point on the graph of <m>f</m> that is unchanged by the transformation is <m>(0,f(0))</m>.
+  			Given a function <m>y = f(t)</m> and a real number <m>k \gt 0</m>, the transformed function <m>y = h(t) = f(kt)</m> is a <em>horizontal stretch</em> of the graph of <m>f</m>.  Every point <m>(t,f(t))</m> on the graph of <m>f</m> gets stretched horizontally to the corresponding point <m>(\frac{1}{k}t,f(t))</m> on the graph of <m>h</m>.  If <m>0 \lt k \lt 1</m>, the graph of <m>h</m> is a stretch of <m>f</m> away from the <m>y</m>-axis by a factor of <m>\frac{1}{k}</m>; if <m>k \gt 1</m>, the graph of <m>h</m> is a compression of <m>f</m> toward the <m>y</m>-axis by a factor of <m>\frac{1}{k}</m>.  The only point on the graph of <m>f</m> that is unchanged by the transformation is <m>(0,f(0))</m>.
   		</p>
   	</assemblage>
 
@@ -199,7 +199,7 @@
 	  			<me>
 	  				k(t) = a\cos(t-b)+c \text{ and } h(t) = a\sin(t-b) + c
 	  			</me>
-	  			each represent a horizontal shift by <m>b</m> units to the right, followed by a vertical stretch by <m>a</m> units, followed by a vertical shift of <m>c</m> units, applied to the parent function (<m>\cos(t)</m> or <m>\sin(t)</m>, respectively).  The resulting circular functions have midline <m>y = c</m>, amplitude <m>a</m>, range <m>[c-a,c+a]</m>, and period <m>p = 2\pi</m>.  In addition, the anchor point <m>(b,a+c)</m> lies on the graph of <m>k</m> and the anchor point <m>(b,c)</m> lies on the graph of <m>h</m>.
+	  			each represent a horizontal shift by <m>b</m> units to the right, followed by a vertical stretch by <m>|a|</m> units (with a reflection across the <m>x</m>-axis if <m>a \lt 0</m>), followed by a vertical shift of <m>c</m> units, applied to the parent function (<m>\cos(t)</m> or <m>\sin(t)</m>, respectively).  The resulting circular functions have midline <m>y = c</m>, amplitude <m>|a|</m>, range <m>[c-|a|,c+|a|]</m>, and period <m>p = 2\pi</m>.  In addition, the anchor point <m>(b,a+c)</m> lies on the graph of <m>k</m> and the anchor point <m>(b,c)</m> lies on the graph of <m>h</m>.
   			</p>
   		</li>
   		<li>
@@ -213,7 +213,7 @@
   				<me>
   					k(t) = a\cos(k(t-b))+c \text{ or } h(t) = a\sin(k(t-b)) + c
   				</me>.
-  				Each of these functions has period midline <m>y = c</m>, amplitude <m>a</m>, and period <m>P = \frac{2\pi}{k}</m>.  The point <m>(b,a+c)</m> lies on <m>k</m> and the point <m>(b,c)</m> lies on <m>h</m>.
+  				Each of these functions has midline <m>y = c</m>, amplitude <m>|a|</m>, and period <m>P = \frac{2\pi}{k}</m>.  The point <m>(b,a+c)</m> lies on <m>k</m> and the point <m>(b,c)</m> lies on <m>h</m>.
   			</p>
   		</li>
   	</ul>

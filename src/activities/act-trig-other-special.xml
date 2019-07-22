@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -17,7 +17,7 @@
 
 	<statement>
 		<p>
-			Suppose that <m>\beta</m> is an angle in standard position with its terminal side in quadrant II and you know that <m>\sec(\beta) = 2</m>.  Without using a computational device in any way, determine the exact values of the other five trigonmetric functions evaluated at <m>\beta</m>.
+			Suppose that <m>\beta</m> is an angle in standard position with its terminal side in quadrant II and you know that <m>\sec(\beta) = -2</m>.  Without using a computational device in any way, determine the exact values of the other five trigonmetric functions evaluated at <m>\beta</m>.
 		</p>
 
 	</statement>

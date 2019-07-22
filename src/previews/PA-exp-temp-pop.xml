@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -24,14 +24,15 @@
 			<ol label="a.">
 				<li>
 					<p>
-						The temperature of a cooling object in a refrigerator is modeled by <m>F(t) = a + 37.4e^{-0.05t}</m>, and the temperature of the refrigerator is <m>39.8^\circ</m>.  Find the exact value of <m>a</m>.
-					</p>
-				</li>
-				<li>
-					<p>
 						The temperature of a warming object in an oven is given by <m>F(t) = 275 - 203e^{-kt}</m>, and we know that the object's  temperature after <m>20</m> minutes is <m>F(20) = 101</m>.  Determine the exact value of <m>k</m>.
 					</p>
+				</li>				
+				<li>
+					<p>
+						The temperature of a cooling object in a refrigerator is modeled by <m>F(t) = a + 37.4e^{-0.05t}</m>, and the temperature of the refrigerator is <m>39.8^\circ</m>.  By thinking about the long-term behavior of <m>e^{-0.05t}</m> and the long-term behavior of the object's temperature, determine the exact value of <m>a</m>.
+					</p>
 				</li>
+
 				<li>
 					<p>
 						Later in this section, we'll learn that one model for how a population grows over time can be given by a function of the form 

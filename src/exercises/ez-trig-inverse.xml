@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -15,14 +15,18 @@
 
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-inverse">
   
-<!--
-  <exercise xml:id="ez-0-0-WW1">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-trig-inverse-WW1">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q07.pg" />
   </exercise>
-  <exercise xml:id="ez-0-0-WW2">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-trig-inverse-WW2">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q08.pg" />
   </exercise>
--->
+  <exercise xml:id="ez-trig-inverse-WW3">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q09.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-inverse-WW4">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q14.pg" />
+  </exercise>
 
   <exercise xml:id="ez-trig-inverse-values">
     <statement>

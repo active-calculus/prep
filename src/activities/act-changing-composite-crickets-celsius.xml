@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -17,14 +17,14 @@
 
 	<statement>
 		<p>
-			Let <m>F = D(N) = 40 + 0.25N</m> be Dolbear's function that converts an input of number of chirps per minute to degrees Fahrenheit, and let <m>C = G(F) = \frac{5}{9}(F-32)</m> be the function that converts an input of degrees Fahrenheit to an output of degrees Celcius.
+			Let <m>F = D(N) = 40 + 0.25N</m> be Dolbear's function that converts an input of number of chirps per minute to degrees Fahrenheit, and let <m>C = G(F) = \frac{5}{9}(F-32)</m> be the function that converts an input of degrees Fahrenheit to an output of degrees Celsius.
 		</p>
 
 		<p>
 			<ol label="a.">
 				<li>
 					<p>
-						Determine a formula for the new function <m>(G \circ D)(N)</m> that depends only on the variable <m>N</m>.
+						Determine a formula for the new function <m>H = (G \circ D)</m> that depends only on the variable <m>N</m>.
 					</p>
 				</li>
 				<li>
@@ -34,7 +34,7 @@
 				</li>
 				<li>
 					<p>
-						How does a plot of the function <m>H = (G \circ D)(N)</m> compare to the that of Dolbear's function?  Sketch a plot of <m>H = (G \circ D)(N)</m> on the blank axes to the right of the plot of Dolbear's function, and discuss the similarities and differences between them.  Be sure to label the vertical scale on your axes.
+						How does a plot of the function <m>H = (G \circ D)</m> compare to that of Dolbear's function?  Sketch a plot of <m>y = H(N) = (G \circ D)(N)</m> on the blank axes to the right of the plot of Dolbear's function, and discuss the similarities and differences between them.  Be sure to label the vertical scale on your axes.
 					</p>
 
 					<sidebyside width="50%">

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -17,7 +17,7 @@
 
 <statement>
 	<p>
-		Recall that <m>F = g(C) = \frac{9}{5}C + 32</m> is the function that takes Celcius temperature inputs and produces the corresponding Fahrenheit temperature outputs.
+		Recall that <m>F = g(C) = \frac{9}{5}C + 32</m> is the function that takes Celsius temperature inputs and produces the corresponding Fahrenheit temperature outputs.
 	</p>
 
 	<p>

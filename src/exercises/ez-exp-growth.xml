@@ -14,19 +14,47 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-growth">
 
-<!--
-  <exercise xml:id="ez-0-0-WW1">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-exp-growth-WW1">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-12-Exponential-functions.pg" />
   </exercise>
-  <exercise xml:id="ez-0-0-WW2">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-exp-growth-WW2">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-19-Exponential-functions.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-growth-WW3">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-27-Exponential-functions.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-growth-WW4">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-28-Exponential-functions.pg" />
+  </exercise>
+
+  <exercise xml:id="ez-exp-growth-WW6">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Q16.pg" />
+  </exercise>
+
+  <exercise xml:id="ez-exp-growth-WW8">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec2/Connally3-3-2-08-Exponential-vs-linear.pg" />
+  </exercise>
+
+  <exercise xml:id="ez-exp-growth-WW10">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec2/Q02.pg" />
+  </exercise>
+
+<!--
+  <exercise xml:id="ez-exp-growth-WW5">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Q15.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-growth-WW7">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Q41.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-growth-WW9">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-2-31-Exponential-vs-linear.pg" />
   </exercise>
 -->
 
   <exercise xml:id="ez-exp-growth-glacier">
     <statement>
       <p>
-        Grinnell Glacier in Glacier National Park in Montana covered about <m>142</m> acres in 2007 and was found to be shrinking at about <m>4.4</m><percent /> per year.<fn>See Exercise 34 on p. 146 of Connally's <em>Functions Modeling Change</em>.</fn>
+        Grinnell Glacier in Glacier National Park in Montana covered about <m>142</m> acres in 2007 and was found to be shrinking at about <m>4.4</m>% per year.<fn>See Exercise 34 on p. 146 of Connally's <em>Functions Modeling Change</em>.</fn>
       </p>
 
       <p>

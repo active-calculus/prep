@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -13,16 +13,40 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-0-0-0">
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-tangent">
   
-<!--
-  <exercise xml:id="ez-0-0-WW1">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+
+  <exercise xml:id="ez-trig-tangent-WW1">
+    <webwork source="Library/Rochester/setTrig02FunctionsUnitCircle/srw5_2_47.pg" />
   </exercise>
-  <exercise xml:id="ez-0-0-WW2">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-trig-tangent-WW2">
+    <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p8.pg" />
   </exercise>
--->
+  <exercise xml:id="ez-trig-tangent-WW3">
+    <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p9.pg" />
+  </exercise>
+
+  <exercise xml:id="ez-trig-tangent-WW7">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q24a.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-tangent-WW8">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-tangent-WW9">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q14.pg" />
+  </exercise>    
+
+<!--  
+  <exercise xml:id="ez-trig-tangent-WW4">
+    <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p2.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-tangent-WW5">
+    <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p1.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-tangent-WW6">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Tools/Connally3-6-Tools-02/Connally3-6-Tools-02.pg" />
+  </exercise>  
+-->  
 
   <exercise xml:id="ez-trig-tangent-ramp">
     <statement>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -38,11 +38,11 @@
 
   <introduction>
   	<p>
-  		In <xref ref="sec-changing-inverse">Section</xref>, we introduced the idea of an inverse function.  The fundamental idea is that <m>f</m> has an inverse function if and only if there exists another function <m>g</m> such that <m>f</m> and <m>g</m> <q>undo</q> one another's respective processes.  In other words, the process of the function <m>f</m> is reversible to generate a related function <m>g</m>.
+  		In <xref ref="sec-changing-inverse">Section</xref>, we introduced the idea of an inverse function.  The fundamental idea is that <m>f</m> has an inverse function if and only if there exists another function <m>g</m> such that <m>f</m> and <m>g</m> <q>undo</q> one another's respective processes.  In other words, the process of the function <m>f</m> is reversible, and reversing <m>f</m> generates a related function <m>g</m>.
   	</p> 
 
   	<p>	
-  		More formally, recall that a function <m>y = f(x)</m> (where <m>f : A \to B</m>) has an inverse function if and only if there exists another function <m>g : B \to A</m> such that <m>g(f(x)) = x</m> for every <m>x</m> in the domain of <m>f</m> and <m>f(g(y)) = y</m>.    We know that given a function <m>f</m>, we can use the <xref ref="asm-inverse-H-L-test">Horizontal Line Test</xref> to determine whether or not <m>f</m> has an inverse function.  Finally, whenever a function <m>f</m> has an inverse function, we call its inverse function <m>f^{-1}</m> and know that the two equations <m>y = f(x)</m> and <m>x = f^{-1}(y)</m> say the same thing from different perspectives.
+  		More formally, recall that a function <m>y = f(x)</m> (where <m>f : A \to B</m>) has an inverse function if and only if there exists another function <m>g : B \to A</m> such that <m>g(f(x)) = x</m> for every <m>x</m> in <m>A</m>, and <m>f(g(y)) = y</m> for every <m>y</m> in <m>B</m>.    We know that given a function <m>f</m>, we can use the <xref ref="asm-inverse-H-L-test">Horizontal Line Test</xref> to determine whether or not <m>f</m> has an inverse function.  Finally, whenever a function <m>f</m> has an inverse function, we call its inverse function <m>f^{-1}</m> and know that the two equations <m>y = f(x)</m> and <m>x = f^{-1}(y)</m> say the same thing from different perspectives.
   	</p>
 
   	<xi:include href="./previews/PA-exp-log.xml" />
@@ -73,14 +73,14 @@
 		<men xml:id="eq-exp-log-base-10-2">
 			10^2 = 100 \text{ and } \log_{10}(100) = 2
 		</men>
-		each say the same thing from two different perspectives.  The first says <m>100</m> is <m>10</m> to the power <m>2</m> , while the second says <m>2</m> is the power to which we raise <m>10</m> to get <m>100</m>.  Similarly, 
+		each say the same thing from two different perspectives.  The first says <q><m>100</m> is <m>10</m> to the power <m>2</m></q>, while the second says <q><m>2</m> is the power to which we raise <m>10</m> to get <m>100</m></q>.  Similarly, 
 		<men xml:id="eq-exp-log-base-10-minus-3">
 			10^{-3} = \frac{1}{1000} \text{ and } \log_{10} \left( \frac{1}{1000} \right) = -3
 		</men>.
 	</p>
 
 	<p>
-		If we rearrange the statements of the facts in <xref ref="eq-exp-log-base-10-2">Equation</xref>, we can see yet another important relationship between the powers of <m>10</m> and base-<m>10</m> logarithm function.  Noting that <m>\log_{10}(100) = 2</m> and <m>100 = 10^2</m> are equivalent statements, and substituting the former equation into the latter shows, we see that
+		If we rearrange the statements of the facts in <xref ref="eq-exp-log-base-10-2">Equation</xref>, we can see yet another important relationship between the powers of <m>10</m> and base-<m>10</m> logarithm function.  Noting that <m>\log_{10}(100) = 2</m> and <m>100 = 10^2</m> are equivalent statements, and substituting the latter equation into the former, we see that
 		<men xml:id="eq-exp-log-base-10-2-undo">
 			\log_{10}(10^2) = 2
 		</men>.
@@ -133,7 +133,7 @@
 	</assemblage>
 
 	<p>
-		The base-<m>10</m> logarithm function is like the sine or cosine function in this way:  for certain special values, it's easy to know by heart the value of the logarithm function.  While for sine and cosine the familiar points come from specially placed points on the unit circle, for the base-<m>10</m> logarithm function, the familiar points come from powers of <m>10</m>.
+		The base-<m>10</m> logarithm function is like the sine or cosine function in this way:  for certain special values, it's easy to know the value of the logarithm function.  While for sine and cosine the familiar points come from specially placed points on the unit circle, for the base-<m>10</m> logarithm function, the familiar points come from powers of <m>10</m>.
 		In addition, like sine and cosine, for all other input values, (a) calculus ultimately determines the value of the base-<m>10</m> logarithm function at other values, and (b) we use computational technology in order to compute these values.  For most computational devices, the command <c>log(y)</c> produces the result of the base-<m>10</m> logarithm of <m>y</m>.
 	</p>
 
@@ -169,7 +169,7 @@
   		<me>
   			e^{\ln(-1)} = -1
   		</me>.
-  		The former equation is true because <q>the power to which we raise <m>e</m> to get <m>e^2</m> is <m>2</m></q>; the latter equation is true since <q>when we raise <m>e</m> to the power to which we raise <m>e</m> to get <m>-1</m>, we get <m>-1</m></q>.  The key relationships between the natural exponential and the natural logarithm function are investigated in <xref ref="act-exp-log-natural">Activity</xref>.
+  		The former equation is true since <q>the power to which we raise <m>e</m> to get <m>e^2</m> is <m>2</m></q>; the latter equation is true since <q>when we raise <m>e</m> to the power to which we raise <m>e</m> to get <m>-1</m>, we get <m>-1</m></q>.  The key relationships between the natural exponential and the natural logarithm function are investigated in <xref ref="act-exp-log-natural">Activity</xref>.
   	</p>
 
   	<xi:include href="./activities/act-exp-log-natural.xml" />
@@ -212,7 +212,7 @@
   	<ul>
   		<li>
   			<p>
-  				The base-<m>10</m> logarithm of <m>y</m>, denoted <m>\log_{10}(y)</m> is defined to be the power to which we raise <m>10</m>  to get <m>y</m>.  For instance, <m>\log_{10}(1000) = 3</m>, since <m>10^3 = 1000</m>.  The function <m>L(y) = \log_{10}(y)</m> is thus the inverse of the powers-of-<m>10</m> function, <m>P(t) = 10^t</m>.
+  				The base-<m>10</m> logarithm of <m>y</m>, denoted <m>\log_{10}(y)</m>, is defined to be the power to which we raise <m>10</m>  to get <m>y</m>.  For instance, <m>\log_{10}(1000) = 3</m>, since <m>10^3 = 1000</m>.  The function <m>L(y) = \log_{10}(y)</m> is thus the inverse of the powers-of-<m>10</m> function, <m>P(t) = 10^t</m>.
   			</p>
   		</li>
   		<li>

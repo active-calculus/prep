@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -44,7 +44,7 @@
 				</li>
 				<li>
 					<p>
-						Complete <xref ref="T-act-natural-e">Table</xref> and <xref ref="T-act-natural-log">Table</xref> of with both exact and approximate of <m>E</m> and <m>N</m>.  Then, plot the corresponding ordered pairs from each table on the axes provided in <xref ref="F-axes-e-ln">Figure</xref> and connect the points in an intuitive way.  When you plot the ordered pairs on the axes, in both cases view the first line of the table as generating values on the horizontal axis and the second line of the table as producing values on the vertical axis<fn>Note that when we take this perspective, we are viewing <m>N</m> as a function of <m>t</m>, writing <m>N(t) = \ln(t)</m> in order to plot the function on the <m>t</m>-<m>y</m> axes</fn>; label each ordered pair you plot appropriately.
+						Complete <xref ref="T-act-natural-e">Table</xref> and <xref ref="T-act-natural-log">Table</xref> of with both exact and approximate values of <m>E</m> and <m>N</m>.  Then, plot the corresponding ordered pairs from each table on the axes provided in <xref ref="F-axes-e-ln">Figure</xref> and connect the points in an intuitive way.  When you plot the ordered pairs on the axes, in both cases view the first line of the table as generating values on the horizontal axis and the second line of the table as producing values on the vertical axis<fn>Note that when we take this perspective for plotting the data in <xref ref="T-act-natural-log">Table</xref>, we are viewing <m>N</m> as a function of <m>t</m>, writing <m>N(t) = \ln(t)</m> in order to plot the function on the <m>t</m>-<m>y</m> axes</fn>; label each ordered pair you plot appropriately.
 					</p>
 
 					<sidebyside widths="57% 43%">

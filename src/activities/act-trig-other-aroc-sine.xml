@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -53,7 +53,7 @@
 						<me>
 							\frac{\cos(h)-1}{h}
 						</me>
-						as <m>h</m> gets close to <m>0</m>.  What happens?  Similarly, how does <m>\frac{\sin(h)}{h}</m> behave for small values of <m>h</m>?  What does this tell us about <m>AV_{[a,a+h]}</m> as <m>h</m> approaches <m>0</m>?
+						as <m>h</m> gets close to <m>0</m>.  What happens?  Similarly, how does <m>\frac{\sin(h)}{h}</m> behave for small values of <m>h</m>?  What does this tell us about <m>AV_{[a,a+h]}</m> for the sine function as <m>h</m> approaches <m>0</m>?
 					</p>
 				</li>
 			</ol>

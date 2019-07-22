@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -24,12 +24,12 @@
 			<ol label="a.">
 				<li>
 					<p>
-						A polynomial <m>f</m> of degree <m>10</m> whose zeros are <m>x = -12</m> (multiplicity <m>3</m>), <m>x = -9</m> (multiplicity <m>2</m>), <m>x = 4</m> (multiplicity <m>4</m>), and <m>x = 10</m> (multiplicity <m>1</m>), and <m>f</m> satisfies <m>f(0) = 21</m>.  What can you say about the values of <m>\lim_{x \to -\infty} f(x)</m> and <m>\lim_{x \to \infty} f(x)</m>.
+						A polynomial <m>f</m> of degree <m>10</m> whose zeros are <m>x = -12</m> (multiplicity <m>3</m>), <m>x = -9</m> (multiplicity <m>2</m>), <m>x = 4</m> (multiplicity <m>4</m>), and <m>x = 10</m> (multiplicity <m>1</m>), and <m>f</m> satisfies <m>f(0) = 21</m>.  What can you say about the values of <m>\lim_{x \to -\infty} f(x)</m> and <m>\lim_{x \to \infty} f(x)</m>?
 					</p>
 				</li>
 				<li>
 					<p>
-						A polynomial <m>p</m> of degree <m>9</m> that satisfies <m>p(0) = -2</m> and <m>p</m> has the graph shown in <xref ref="F-polynomial-degree-9">Figure</xref>.  Assume that all of the zeros of <m>p</m> are shown in the figure.
+						A polynomial <m>p</m> of degree <m>9</m> that satisfies <m>p(0) = -2</m> and has the graph shown in <xref ref="F-polynomial-degree-9">Figure</xref>.  Assume that all of the zeros of <m>p</m> are shown in the figure.
 					</p>
 
 					

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -17,7 +17,7 @@
 
 	<statement>
 		<p>
-			Suppose that we want to construct a cylindrical can using a fixed amount of material, <m>60</m> square inches, for the surface area.  In this context, how does the can's volume depend on the radius we choose?
+			Suppose that we want to construct a cylindrical can using <m>60</m> square inches of material for the surface of the can.  In this context, how does the can's volume depend on the radius we choose?
 		</p>
 
 		<p>

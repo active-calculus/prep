@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -110,7 +110,7 @@
 	<subsection xml:id="subsec-changing-algebra-perspective">
 		<title>Using Algebra to Add Perspective</title>
 		<p>
-			One of the ways that we make sense of mathematical ideas is to view them from multiple perspectives.  Sometimes we use different means to establish a point of view:  words, numerical data, graphs, or symbols.  In addition, sometimes by changing our perspective within a particular approach we gain deeper insight.
+			One of the ways that we make sense of mathematical ideas is to view them from multiple perspectives.  We may use different means to establish different points of view:  words, numerical data, graphs, or symbols.  In addition, sometimes by changing our perspective within a particular approach we gain deeper insight.
 		</p>
 
 		<sidebyside width="50%">
@@ -239,7 +239,7 @@
 			<ul>
 				<li>
 					<p>
-						When two related quantities are changing in tandem, we can better understand how change in one affects the other by using data, graphs, words, or algebraic symbols to express the relationship between them.  See, for instance, <xref ref="T-tandem-cone-V-t">Table</xref>,  <xref ref="F-tandem-cone-V-t">Figure</xref>, <xref ref="F-tandem-cone-h-t"/>, and <xref ref="eq-height-from-volume">Equation</xref> that together help explain how the height and volume of water in a conical tank change as time changes.
+						When two related quantities are changing in tandem, we can better understand how change in one affects the other by using data, graphs, words, or algebraic symbols to express the relationship between them.  See, for instance, <xref ref="T-tandem-cone-V-t">Table</xref>,  <xref ref="F-tandem-cone-V-t">Figure</xref>, <xref ref="F-tandem-cone-h-t"/>, and <xref ref="eq-height-from-volume">Equation</xref> that together help explain how the height and volume of water in a conical tank change in tandem as time changes.
 					</p>
 				</li>
 				<li>

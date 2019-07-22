@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -101,7 +101,7 @@
 			</li>
 			<li>
 				<p>
-					Explain why <m>h = q(t)</m> cannot be a linear function.  Use <xref ref="D-linear-function">Definition</xref> in your response.
+					Explain why <m>h = q(t)</m> is not a linear function.  Use <xref ref="D-linear-function">Definition</xref> in your response.
 				</p>
 			</li>
 			<li>

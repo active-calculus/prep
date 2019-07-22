@@ -13,15 +13,20 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-modeling">
-
-<!--  
-  <exercise xml:id="ez-0-0-WW1">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+<!--
+  <exercise xml:id="ez-exp-modeling-WW1">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Q15.pg" />
   </exercise>
-  <exercise xml:id="ez-0-0-WW2">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+-->  
+  <exercise xml:id="ez-exp-modeling-WW2">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q14.pg" />
   </exercise>
--->
+  <exercise xml:id="ez-exp-modeling-WW3">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q33.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-modeling-WW4">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q22.pg" />
+  </exercise>
 
   <exercise xml:id="ez-exp-modeling-soda">
     <statement>
@@ -122,11 +127,11 @@
   <exercise xml:id="ez-exp-modeling-coffee">
     <statement>
       <p>
-        A cup of coffee has its temperature, <m>C(t)</m>, measured in degrees Celcius.  When poured outdoors on a cold morning, its temperature is <m>C(0) = 95</m>.  Ten minutes later, <m>C(10) = 80</m>.  If the surrounding temperature outside is <m>0^\circ</m> Celcius, find a formula for a function <m>C(t)</m> that models the coffee's temperature at time <m>t</m>.
+        A cup of coffee has its temperature, <m>C(t)</m>, measured in degrees Celsius.  When poured outdoors on a cold morning, its temperature is <m>C(0) = 95</m>.  Ten minutes later, <m>C(10) = 80</m>.  If the surrounding temperature outside is <m>0^\circ</m> Celsius, find a formula for a function <m>C(t)</m> that models the coffee's temperature at time <m>t</m>.
       </p>
 
       <p>
-        In addition, recall that we can convert between Celcius and Fahrenheit according to the equations <m>F = \frac{9}{5}C + 32</m> and <m>C = \frac{5}{9}(F-32)</m>.  Use this information to also find a formula for <m>F(t)</m>, the coffee's Fahrenheit temperature at time <m>t</m>.  What is similar and what is different regarding the functions <m>C(t)</m> and <m>F(t)</m>?
+        In addition, recall that we can convert between Celsius and Fahrenheit according to the equations <m>F = \frac{9}{5}C + 32</m> and <m>C = \frac{5}{9}(F-32)</m>.  Use this information to also find a formula for <m>F(t)</m>, the coffee's Fahrenheit temperature at time <m>t</m>.  What is similar and what is different regarding the functions <m>C(t)</m> and <m>F(t)</m>?
       </p>
     </statement>
     <answer>

@@ -48,7 +48,9 @@
 <xsl:param name="project.text.solution" select="'no'" />
 
 <!-- Specify the color scheme to use for HTML -->
-<xsl:param name="html.css.file" select="'mathbook-4.css'" />
+<!-- <xsl:param name="html.css.file" select="'mathbook-4.css'" /> this is default? -->
+<xsl:param name="debug.colors" select="'blue_grey'" />  <!-- this is what we use for ACS -->
+
 
 <!-- Specify options for WeBWorK exercises -->
 <xsl:param name="webwork.divisional.static" select="'no'" />

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -45,7 +45,7 @@
 				</li>
 				<li>
 					<p>
-						Suppose we know that a <m>5</m>-year old car's value is <dollar /><m>10200</m>, and that after <m>10</m> years its value is <dollar /><m>4600</m>.  Find a linear function <m>C = L(t)</m> whose output is the value of the car in year <m>t</m>.  What is a reasonable domain for the model?  What is the value and meaning of the slope of the line?  Write at least one careful sentence to explain.
+						Suppose we know that a <m>5</m>-year old car's value is $<m>10200</m>, and that after <m>10</m> years its value is $<m>4600</m>.  Find a linear function <m>C = L(t)</m> whose output is the value of the car in year <m>t</m>.  What is a reasonable domain for the model?  What is the value and meaning of the slope of the line?  Write at least one careful sentence to explain.
 					</p>
 				</li>
 			</ol>

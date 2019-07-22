@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2018                                                   -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Calculus.                                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -12,14 +12,31 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
+
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-circular-traversing">
 
-<!--  
-  <exercise xml:id="ez-0-0-WW1">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-circular-traversing-WW2">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q12.pg" />
   </exercise>
-  <exercise xml:id="ez-0-0-WW2">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+
+  <exercise xml:id="ez-circular-traversing-WW3a">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q16.pg" />
+  </exercise>
+
+  <exercise xml:id="ez-circular-traversing-WW4">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q23.pg" />
+  </exercise>
+
+  <exercise xml:id="ez-circular-traversing-WW5">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q28.pg" />
+  </exercise>
+
+<!-- did not generate valid XML
+  <exercise xml:id="ez-circular-traversing-WW1">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q10.pg" />
+  </exercise>
+  <exercise xml:id="ez-circular-traversing-WW3">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q20.pg" />
   </exercise>
 -->
 

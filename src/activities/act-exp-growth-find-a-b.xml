@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Preparation for Calculus.                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -17,7 +17,7 @@
 
 	<statement>
 		<p>
-			The value of an automobile is depreciating.  When the car is <m>3</m> years old, its value is <dollar /><m>12500</m>; when the car is <m>7</m> years old, its value is <dollar /><m>6500</m>.  
+			The value of an automobile is depreciating.  When the car is <m>3</m> years old, its value is $<m>12500</m>; when the car is <m>7</m> years old, its value is $<m>6500</m>.  
 		</p>
 
 		<p>
@@ -29,12 +29,12 @@
 				</li>
 				<li>
 					<p>
-						Using the exponential model determined in (a), determine the purchase value of the car and estimate when the car will be worth less than <dollar />1000.
+						Using the exponential model determined in (a), determine the purchase value of the car and estimate when the car will be worth less than $<m>1000</m>.
 					</p>
 				</li>
 				<li>
 					<p>
-						Suppose instead that the car's value is modeled by a linear function <m>L</m> and satisfies the values stated at the outset of this activity.  Find a formula for <m>L(t)</m> and determine both the purchase value of the car and when the car will be worth <dollar />1000.
+						Suppose instead that the car's value is modeled by a linear function <m>L</m> and satisfies the values stated at the outset of this activity.  Find a formula for <m>L(t)</m> and determine both the purchase value of the car and when the car will be worth $<m>1000</m>.
 					</p>
 				</li>
 				<li>

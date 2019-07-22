@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2018                                                   -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Calculus.                                 -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -14,13 +14,35 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-circular-sine-cosine">
 
+  <exercise xml:id="ez-circular-sine-cosine-WW1">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec4/Q14.pg" />
+  </exercise>
+
+  <exercise xml:id="ez-circular-sine-cosine-WW6">
+    <webwork source="Library/NAU/setSineCosine/SinCosDeg.pg" />
+  </exercise>
+  <exercise xml:id="ez-circular-sine-cosine-WW7">
+    <webwork source="Library/NAU/setSineCosine/SinCosPosNeg.pg" />
+  </exercise>
+
+  <exercise xml:id="ez-circular-sine-cosine-WW4">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec4/Q30.pg" />
+  </exercise>
+
+
 <!--
-  <exercise xml:id="ez-0-0-WW1">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+  <exercise xml:id="ez-circular-sine-cosine-WW2">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec4/Q18.pg" />
   </exercise>
-  <exercise xml:id="ez-0-0-WW2">
-    <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
+
+  <exercise xml:id="ez-circular-sine-cosine-WW3">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec4/Q20.pg" />
   </exercise>
+
+  <exercise xml:id="ez-circular-sine-cosine-WW5">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec2/Q01.pg" />
+  </exercise>
+
 -->
 
   <exercise>
