@@ -197,7 +197,7 @@
 	<figure xml:id="F-transformations-vertical-scaling">
 		<caption>Interactive vertical scaling demonstration (in the HTML version only).</caption>
 
-		<interactive xml:id="I-transformations-vertical-scaling" platform="javascript" width="75%" aspect="4:5" source = "interactives/figures.js interactives/transformationsS.js" preview="images/transformations-interactive-S-static.jpg">
+		<interactive xml:id="I-transformations-vertical-scaling" platform="javascript" width="75%" aspect="4:5" source = "interactives/figures.js interactives/transformationsS.js" preview="images/transformations-interactive-S-static.png">
 			<slate xml:id="sslider" aspect="4:1" surface="canvas" />
 			<slate xml:id="stretching" aspect="4:4" surface="canvas" />
 			<instructions>

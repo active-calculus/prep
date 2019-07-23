@@ -55,7 +55,7 @@
 	      <li>
 	        <p>
 	          A function <m>f</m> has an inverse function if and only if the graph of <m>f</m> passes the
-	          <xref ref="asm-inverse-H-L-test">Horizontal Line Test</xref>.
+	          <xref ref="asm-inverse-H-L-test" text="title"/>.
 	        </p>
 	      </li>
 

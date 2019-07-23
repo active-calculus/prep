@@ -200,7 +200,7 @@
 	</p>
 
 	<p>
-		Given <m>b \gt 0</m>, we can always find a corresponding value of <m>k</m> such that <m>e^k = b</m> because the function <m>f(t) = e^t</m> passes the <xref ref="asm-inverse-H-L-test">Horizontal Line Test</xref>, as seen in <xref ref="F-e-b-k">Figure</xref>.
+	    Given <m>b \gt 0</m>, we can always find a corresponding value of <m>k</m> such that <m>e^k = b</m> because the function <m>f(t) = e^t</m> passes the <xref ref="asm-inverse-H-L-test" text="title" />, as seen in <xref ref="F-e-b-k">Figure</xref>.
 	</p>
 
 	<figure xml:id="F-e-b-k">

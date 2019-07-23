@@ -1,8 +1,8 @@
 ## ********************************************************************* ##
-## Copyright 2018                                                        ##
+## Copyright 2019                                                        ##
 ## Matt Boelkins                                                         ##
 ##                                                                       ##
-## This file is part of Active Preparation for Calculus                  ##
+## This file is part of Active Prelude to Calculus                       ##
 ##                                                                       ##
 ## ********************************************************************* ##
 
@@ -28,7 +28,7 @@
 # script, sharing common configurations
 
 # Useful targets:
-# make acs-extraction --- Run this any time a change is made to a WeBWorK
+# make apc-extraction --- Run this any time a change is made to a WeBWorK
 #                         exercise. Do not run if no such changes have been
 #                         made.
 # make html --- Build the HTML version. Requires that make acs-extraction have
@@ -82,8 +82,6 @@ MBUSR = $(MB)/user
 # These paths are subdirectories of
 # the scratch directory
 PGOUT      = $(OUTPUT)/pg
-# HTMLOUT set in Makefile.paths
-# HTMLOUT    = $(OUTPUT)/html
 PDFOUT     = $(OUTPUT)/pdf
 WWOUT      = $(OUTPUT)/webwork-extraction
 IMAGESOUT  = $(OUTPUT)/images
@@ -116,7 +114,10 @@ pg:
 apc-extraction:
 	install -d $(WWOUT)
 	-rm $(WWOUT)/webwork-extraction.xml
-	$(MB)/script/mbx -v -c webwork -d $(WWOUT) -s $(SERVER) $(MAINFILE)
+	-rm $(WWOUT)/webwork-*-image*
+	PYTHONWARNINGS=module $(MB)/script/mbx -v -c webwork -d $(WWOUT) -s $(SERVER) $(MAINFILE)
+	cd $(WWOUT); \
+	gif2png -O *.gif
 
 #  Make a new PTX file from the source tree, with webwork elements replaced
 #  by the webwork-reps from webwork-extraction.xml. (So run the above at
@@ -135,6 +136,7 @@ html:  apc-merge
 	-rm -rf $(HTMLOUT)/knowl
 	install -d $(HTMLOUT)/knowl
 	install -d $(HTMLOUT)/images
+	install -d $(HTMLOUT)/interactives
 	install -d $(OUTPUT)
 	install -d $(OUTPUT)/images
 	install -d $(MBUSR)
@@ -142,6 +144,7 @@ html:  apc-merge
 	-rm $(HTMLOUT)/*.html
 	cp -a $(IMAGESOUT) $(HTMLOUT)
 	cp -a $(IMAGESSRC) $(HTMLOUT)
+	cp -a $(PRJSRC)/interactives $(HTMLOUT)
 	cd $(HTMLOUT); \
 	xsltproc -xinclude $(MBUSR)/apc-html.xsl $(WWOUT)/apc-merge.ptx
 
@@ -181,6 +184,7 @@ pdf: apc-merge
 	cp -a $(IMAGESSRC) $(PDFOUT)
 	cd $(PDFOUT); \
 	xsltproc -o apc.tex -xinclude $(MBUSR)/apc-latex.xsl $(WWOUT)/apc-merge.ptx; \
+	sed -i '' -e 's/.gif//g' apc.tex; \
 	xelatex apc; \
 	xelatex apc; \
 	xelatex apc

@@ -94,7 +94,7 @@
 	<figure xml:id="F-transformations-horizontal-scaling">
 		<caption>Interactive horizontal scaling demonstration (in the HTML version only).</caption>
 
-		<interactive xml:id="I-transformations-horizontal-scaling" platform="javascript" width="75%" aspect="4:5" source = "interactives/figures.js interactives/transformationsC.js" preview="images/transformations-interactive-C-static.jpg">
+		<interactive xml:id="I-transformations-horizontal-scaling" platform="javascript" width="75%" aspect="4:5" source = "interactives/figures.js interactives/transformationsC.js" preview="images/transformations-interactive-C-static.png">
 			<slate xml:id="cslider" aspect="4:1" surface="canvas" />
 			<slate xml:id="compressing" aspect="4:4" surface="canvas" />
 			<instructions>
