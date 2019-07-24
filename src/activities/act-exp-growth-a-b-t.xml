@@ -48,15 +48,13 @@
 					</p>
 				</li>
 				<li>
-					<sidebyside>
 						<p>
 							Consider the graphs of the exponential functions <m>p</m> and <m>q</m> provided in <xref ref="F-growth-act-a-b-t">Figure</xref>.  If <m>p(t) = ab^t</m> and <m>q(t) = cd^t</m>, what can you say about the values <m>a</m>, <m>b</m>, <m>c</m>, and <m>d</m> (beyond the fact that all are positive and <m>b \ne 1</m> and <m>d \ne 1</m>)?  For instance, can you say a certain value is larger than another?  Or that one of the values is less than <m>1</m>?
 						</p>
 						<figure xml:id="F-growth-act-a-b-t">
 							<caption>Graphs of exponential functions <m>p</m> and <m>q</m>.</caption>
-							<image source="images/growth-act-a-b-t"/>
+							<image width="50%" source="images/growth-act-a-b-t"/>
 						</figure>
-					</sidebyside>
 				</li>
 			</ol>
 		</p>

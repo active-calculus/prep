@@ -42,16 +42,13 @@
 					</p>
 				</li>
 				<li>
-					<sidebyside>
 						<p>
 							Use <em>Desmos</em> to define <m>I(t)</m> and <m>V(t)</m>.  Plot each function on the interval <m>0 \le t \le 20</m> and record your results on the axes in <xref ref="F-growth-PA-blank-axes">Figure</xref>, being sure to label the scale on the axes.  What trends do you observe in the graphs?  How do <m>I(20)</m> and <m>V(20)</m> compare?
 	 					</p>	
 	 					<figure xml:id="F-growth-PA-blank-axes">
 	 						<caption>Blank axes for plotting <m>I</m> and <m>V</m>.</caption>
-	 						<image source="images/growth-PA-blank-axes" />
+	 						<image width="50%" source="images/growth-PA-blank-axes" />
 	 					</figure>				
- 					</sidebyside>
-
 				</li>
 			</ol>
 		</p>

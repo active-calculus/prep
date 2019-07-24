@@ -296,17 +296,14 @@
 
   	<example>
   		<statement>
-  			<sidebyside widths="65% 35%">
-  				
 				<p>
   					Use the tangent function to determine the width, <m>w</m>, of the river in <xref ref="F-right-act-river-rev-2">Figure</xref>.  (Note that here we are revisiting the problem in <xref ref="act-trig-right-sine-cosine-ratio">Activity</xref>, which we previously solved without using the tangent function.)  What other information can we now easily determine?
  	 			</p>
 
   				<figure xml:id="F-right-act-river-rev-2">
 					<caption>A right triangle with one angle and one leg known.</caption>
-					<image source="images/right-act-river-riv" width="50%" />
+					<image width="40%" source="images/right-act-river-riv" />
 				</figure>
-  			</sidebyside> 			
   		</statement>
   		<solution>
   			<p>

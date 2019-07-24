@@ -102,7 +102,7 @@
   <exercise xml:id="ez-functions-velocity">
     <statement>
       <p>
-        A person is taking a walk along a straight path.  Their velocity, <m>v</m> (in feet per second), which is a function of time <m>t</m> (in seconds), is given by the following graph.
+        A person is taking a walk along a straight path.  Their velocity, <m>v</m> (in feet per second), which is a function of time <m>t</m> (in seconds), is given by the graph in <xref ref="F-ez-functions-velocity">Figure</xref>.
       </p>
 
       <figure xml:id="F-ez-functions-velocity">
