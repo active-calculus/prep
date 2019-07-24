@@ -14,9 +14,6 @@
 <!-- **********************************************************************-->
 
 <docinfo>
-  <!--
-  <brandlogo url="http://gvsu.edu/s/Ym" source="images/ActiveCalculusCover2017.svg" />
-  -->
   <brandlogo url="https://activecalculus.org" source="images/APC-cover.jpg" />
 
 <!--  
@@ -30,7 +27,10 @@
 <cross-references text="global" />
 <covers front="images/APC-frontcover-2019.pdf" />
   <initialism>APC</initialism>
-
+<html>
+    <favicon/>
+    <baseurl href="https://activecalculus.org/prelude"/>
+</html>
 <!--
   <search>
     <google>
