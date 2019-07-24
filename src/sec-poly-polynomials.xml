@@ -180,7 +180,7 @@
   			</p>
 
   			<p>
-  				In addition, since there are an even number of negative terms in the product, the overall product's sign is positive, which we indicate by the single <m><q><m>+</m></q></m> beneath <q><m>----</m></q>, and by writing <q>POS</q> below the coordinate axis.
+  				In addition, since there are an even number of negative terms in the product, the overall product's sign is positive, which we indicate by the single <q><m>+</m></q> beneath <q><m>----</m></q>, and by writing <q>POS</q> below the coordinate axis.
   			</p>
 
         <figure xml:id="F-polynomial-sign-chart-1">
@@ -284,12 +284,13 @@
 
   <subsection xml:id="subsec-poly-polynomials-summary">
   	<title>Summary</title>
-  	  <ul>
+        <p>
+  	<ul>
   		<li>
   			<p>
   				From a polynomial function's algebraic structure, we can deduce several key traits of the function.
   			</p>
-
+                        <p>
   			<ul>
   				<li>
   					<p>
@@ -303,6 +304,7 @@
   					</p>
   				</li>
   			</ul>
+                        </p>
   		</li>
   		<li>
   			<p>
@@ -315,6 +317,7 @@
   			</p>
   		</li>
   	</ul>
+        </p>
   </subsection>
 
   <xi:include href="./exercises/ez-poly-polynomials.xml" />

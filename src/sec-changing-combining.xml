@@ -148,7 +148,7 @@
 	    and the value of <m>AV_{[5, 11]}</m> is telling us the average rate at which the population changes in people per year on the time interval from year <m>5</m> to year <m>11</m>.
   	</p>
 
-	<example xref="ex-combining-stock-value">
+	<example xml:id="ex-combining-stock-value">
 		<statement>
 			<p>
 		      Say that an investor is regularly purchasing stock in a particular company.<fn>This example is taken from <url href="https://activecalculus.org/single/sec-2-3-prod-quot.html">Section 2.3</url> of <url href="https://activecalculus.org/single/">Active Calculus</url>.</fn>

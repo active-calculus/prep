@@ -212,7 +212,7 @@
   		We summarize and generalize our observations from <xref ref="ex-transformations-vert-stretch">Example</xref> and <xref ref="F-transformations-vertical-scaling">Figure</xref> as follows.
   	</p>
 
-  	<assemblage xref="asm-transformations-vertical-stretch">
+  	<assemblage xml:id="asm-transformations-vertical-stretch">
   		<title>Vertical Scaling of a Function</title>
   		<idx><h>transformation of a function</h><h>vertical scaling</h></idx>
   		<p>

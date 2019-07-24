@@ -46,7 +46,7 @@
 			In <xref ref="PA-changing-aquarium">Preview Activity</xref>, we saw how several changing quantities were related in the setting of an aquarium filling with water: time, the depth of the water, and the total amount of water in the tank are all changing, and any pair of these quantities changes in related ways.  One way that we can make sense of the situation is to record some data in a table.  For instance, observing that the tank is filling at a rate of <m>0.5</m> cubic feet per minute, this tells us that after <m>1</m> minute there will be <m>0.5</m> cubic feet of water in the tank, and after <m>2</m> minutes there will be <m>1</m> cubic foot of water in the tank, and so on.  If we let <m>t</m> denote the time in minutes and <m>V</m> the amount of water in the tank at time <m>t</m>, we can represent the relationship between these quantities through <xref ref="T-tandem-aquarium">Table</xref>.
 		</p>
 
-		<sidebyside width="50%" valign="middle">
+		<sidebyside widths="47% 47%" margins="0% 0%" valign="middle">
 
 			<table xml:id="T-tandem-aquarium">
 				<caption>Data for how the volume of water in the tank changes with time.</caption>
@@ -81,7 +81,7 @@
 				    </row>				    
 				</tabular>
 			</table>			
-			<figure xml:id="F-tandem-Volume-time" width="50%" >
+			<figure xml:id="F-tandem-Volume-time" >
 				<caption>A visual representation of the data in <xref ref="T-tandem-aquarium">Table</xref>.</caption>
 				<image source="images/tandem-aquarium-V-t" /> 	
 			</figure>

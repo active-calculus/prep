@@ -72,6 +72,7 @@
   		<idx><h>exponential function</h><h>with the natural base, <m>e</m></h></idx>
   		<idx><h>natural base, <m>e</m></h></idx>
   		<idx><h>e</h></idx>
+                <statement>
   		<p>
   			The number <m>e</m> is the infinite sum<fn>Infinite sums are usually studied in second semester calculus.</fn>
   			<me>
@@ -79,6 +80,7 @@
   			</me>
   			From this, <m>e \approx 2.718281828</m>.  
   		</p>
+                </statement>
   	</definition>
 
 	<p>

@@ -376,9 +376,11 @@
 
 	<definition xml:id="def-function-graph">
 		<idx><h>function</h><h>graph</h></idx>
+                <statement>
 		<p>
 			Let <m>F : A \to B</m>, where <m>A</m> and <m>B</m> are each collections of real numbers.  The <term>graph</term> of <m>F</m> is the collection of all ordered pairs <m>(x,y)</m> that satisfy <m>y = F(x)</m>.
 		</p>
+                </statement>
 	</definition>
 
 	<p>
