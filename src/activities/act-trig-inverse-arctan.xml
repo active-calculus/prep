@@ -33,16 +33,14 @@
 					</p>
 				</li>
 				<li>
-					<sidebyside>
 						<p>
 							A plot of the restricted tangent function on the interval <m>(-\frac{\pi}{2},\frac{\pi}{2})</m> is provided in <xref ref="F-inverse-trig-act-arctan">Figure</xref>.  Sketch its corresponding inverse function, the arctangent function, on the same axes.  Label at least three points on each curve so that each point on the tangent graph corresponds to a point on the arctangent graph.  In addition, sketch the line <m>y = t</m> to demonstrate how the graphs are reflections of one another across this line.
 						</p>
 
 						<figure xml:id="F-inverse-trig-act-arctan">
 							<caption>Axes for plotting the restricted sine function and its inverse, the arcsine function.</caption>
-							<image source="images/inverse-tan-graph" />	
+							<image width="50%" source="images/inverse-tan-graph" />	
 						</figure>
-					</sidebyside>
 				</li>
 				<li>
 					<p>

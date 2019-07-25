@@ -87,7 +87,7 @@
   		Note particularly that like the tangent function, the secant, cosecant, and cotangent are also defined completely in terms of the sine and cosine functions.  In the context of a right triangle with an angle <m>\theta</m>, we know how to think of <m>\sin(\theta)</m>,  <m>\cos(\theta)</m>, and <m>\tan(\theta)</m> as ratios of sides of the triangle.  We can now do likewise with the other trigonometric functions:
   	</p>
 
-  	<sidebyside>
+  	<sidebyside widths="70% 25%" margins="0%">
   		<p>
   			<ul>
   				<li>

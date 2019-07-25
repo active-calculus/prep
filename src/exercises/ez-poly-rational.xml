@@ -54,25 +54,25 @@
       </p>
 
       <p>
-        <ol label="a." cols="2">
+        <ol label="a.">
           <li>
             <p>
-              <m>f(x) = \frac{17x^2 + 34}{19x^2 - 76}</m>
+              <m>\displaystyle f(x) = \frac{17x^2 + 34}{19x^2 - 76}</m>
             </p>
           </li>
           <li>
             <p>
-              <m>g(x) = \frac{29}{53} + \frac{1}{x-2}</m>
+              <m>\displaystyle g(x) = \frac{29}{53} + \frac{1}{x-2}</m>
             </p>
           </li>
           <li>
             <p>
-              <m>h(x) = \frac{4-31x}{11x - 7}</m>
+              <m>\displaystyle h(x) = \frac{4-31x}{11x - 7}</m>
             </p>
           </li>
           <li>
             <p>
-              <m>r(x) = \frac{151(x-4)(x+5)^2(x-2)}{537(x+5)(x+1)(x^2+1)(x-15)}</m>
+              <m>\displaystyle r(x) = \frac{151(x-4)(x+5)^2(x-2)}{537(x+5)(x+1)(x^2+1)(x-15)}</m>
             </p>
           </li>
         </ol>
@@ -146,9 +146,14 @@
   <exercise xml:id="ez-poly-rational-applications-can">
     <statement>
       <p>
-        A cylindrical can is being constructed so that its volume is <m>16</m> cubic inches.  Suppose that material for the lids (the top and bottom) cost $<m>0.11</m> per square inch and material for the <q>side</q> of the can costs $<m>0.07</m> per square inch.  Determine a formula for the total cost of the can as a function of the can's radius.  What is the domain of the function and why?  (Hint: you may find it helpful to ask yourslef a sequence of questions like those stated in <xref ref="ez-poly-rational-applications-box">Exercise</xref>).
+        A cylindrical can is being constructed so that its volume is <m>16</m> cubic inches.  Suppose that material for the lids (the top and bottom) cost $<m>0.11</m> per square inch and material for the <q>side</q> of the can costs $<m>0.07</m> per square inch.  Determine a formula for the total cost of the can as a function of the can's radius.  What is the domain of the function and why?  
       </p>
     </statement>
+    <hint>
+        <p>
+            You may find it helpful to ask yourself a sequence of questions like those stated in <xref ref="ez-poly-rational-applications-box" text="local">Exercise</xref>).
+        </p>
+    </hint>
     <answer>
       <p>
         Exercise Answer

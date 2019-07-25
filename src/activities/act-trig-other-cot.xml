@@ -20,10 +20,6 @@
 			In this activity, we develop the standard properties of the cotangent function, <m>r(t) = \cot(t)</m>.
 		</p>
 
-		<figure xml:id="F-cotangent-plot">
-			<caption>Axes for plotting <m>r(t) = \cot(t)</m>.</caption>
-			<image source="images/other-cot-definition-graph" width="80%" />
-		</figure>
 
 		<p>
 			<ol label="a.">
@@ -176,6 +172,11 @@
 					<p>
 						Sketch an accurate, labeled graph of <m>r(t) = \cot(t)</m> on the axes provided in <xref ref="F-cotangent-plot">Figure</xref>, including the special points that come from the unit circle.
 					</p>
+                                        <figure xml:id="F-cotangent-plot">
+			<caption>Axes for plotting <m>r(t) = \cot(t)</m>.</caption>
+			<image source="images/other-cot-definition-graph" width="80%" />
+		</figure>
+
 				</li>
 				<li>
 					<p>

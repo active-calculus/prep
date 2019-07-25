@@ -60,7 +60,7 @@
 
     <example>
       <statement>
-        <sidebyside widths="35% 65%">
+        <sidebyside widths="40% 55%" margins="0%">
           <p>
             Consider the right triangle pictured in <xref ref="F-finding-angles-ex-1">Figure</xref> and assume we know that the vertical leg has length <m>1</m> and the hypotenuse has length <m>3</m>.  Let <m>\alpha</m> be the angle opposite the known leg.  Determine exact and approximate values for all of the remaining parts of the triangle.
           </p>
@@ -113,24 +113,25 @@
 
       <ul>
         <li>
-          <sidebyside>
-            <p>
+          <sidebyside widths="60% 35%" margins="0%">
+              <stack>
+              <p>
               Anytime we know two side lengths in a right triangle, we can use one of the inverse trigonometric functions to determine the measure of one of the non-right angles.  For instance, if we know the values of <m>\text{opp}</m> and <m>\text{adj}</m> in <xref ref="F-finding-angles-SOH-CAH-TOA">Figure</xref>, then since 
               <me>
                 \tan(\theta) = \frac{\text{opp}}{\text{adj}}
               </me>,
               it follows that <m>\theta = \arctan(\frac{\text{opp}}{\text{adj}})</m>.
             </p>
-
+          <p>
+            If we instead know the hypotenuse and one of the two legs, we can use either the arcsine or arccosine function accordingly.
+          </p>
+          </stack>
             <figure xml:id="F-finding-angles-SOH-CAH-TOA">
               <caption>Finding an angle from knowing the legs in a right triangle.</caption>
               <image source="images/right-triangle-SOH-CAH-TOA" />
             </figure>
           </sidebyside>
 
-          <p>
-            If we instead know the hypotenuse and one of the two legs, we can use either the arcsine or arccosine function accordingly.
-          </p>
         </li>
         <li>
           <p>

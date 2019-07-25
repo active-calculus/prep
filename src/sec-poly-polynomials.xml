@@ -210,7 +210,7 @@
   <subsection xml:id="subsec-poly-polynomials-multiplicity">
   	<title>Multiplicity of polynomial zeros</title>
   	<p>
-  		In <xref ref="act-poly-polynomials-sign-chart">Activity</xref>, we found that one of the zeros of the polynomial <m>p(x) = 4692(x + 1520)(x^2 + 10000)(x − 3471)^2 (x − 9738)</m> leads to different behavior of the function near that zero than we've seen in other situations.  We now consider the more general situation where a polynomial has a repeated factor of the form <m>(x-r)^n</m>.  When <m>(x-r)^n</m> is a factor of a polynomial <m>p</m>, we say that <m>p</m> has a <term>zero of multiplicity <m>n</m></term> at <m>x = r</m>.  <idx><h>polynomial</h><h>zero of multiplicity <m>n</m></h></idx>
+  		In <xref ref="act-poly-polynomials-sign-chart">Activity</xref>, we found that one of the zeros of the polynomial <m>p(x) = 4692(x + 1520)(x^2 + 10000)(x - 3471)^2 (x - 9738)</m> leads to different behavior of the function near that zero than we've seen in other situations.  We now consider the more general situation where a polynomial has a repeated factor of the form <m>(x-r)^n</m>.  When <m>(x-r)^n</m> is a factor of a polynomial <m>p</m>, we say that <m>p</m> has a <term>zero of multiplicity <m>n</m></term> at <m>x = r</m>.  <idx><h>polynomial</h><h>zero of multiplicity <m>n</m></h></idx>
   	</p>
 
   	<p>

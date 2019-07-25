@@ -42,7 +42,7 @@
 						A rational function <m>z</m> whose formula satisfies the sign chart shown in <xref ref="F-act-poly-rational-sign-chart">Figure</xref>, and for which <m>z</m> has no horizontal asymptote and its only vertical asymptotes occur at the middle two values of <m>x</m> noted on the sign chart.
 					</p>
 
-					<sidebyside valign="middle">
+					<sidebyside widths="40% 55%" valign="middle" margins="0%">
 						<figure xml:id="F-act-poly-rational-plot">
 							<caption>Plot of the rational function <m>w</m>.</caption>
 							<image source="images/rational-plot-act" />

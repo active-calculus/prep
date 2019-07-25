@@ -24,32 +24,32 @@
 			<ol label="a." cols="2">
 				<li>
 					<p>
-						<m>f(x) = \frac{x^3 - 6x^2 + 5x}{x^2-1}</m>
+						<m>\displaystyle f(x) = \frac{x^3 - 6x^2 + 5x}{x^2-1}</m>
 					</p>
 				</li>
 				<li>
 					<p>
-						<m>g(x) = \frac{11(x^2 + 1)(x-7)}{23(x-1)(x^2+4)}</m>
+						<m>\displaystyle g(x) = \frac{11(x^2 + 1)(x-7)}{23(x-1)(x^2+4)}</m>
 					</p>
 				</li>
 				<li>
 					<p>
-						<m>h(x) = \frac{x^2 - 8x + 12}{x^2 - 3x - 18}</m>
+						<m>\displaystyle h(x) = \frac{x^2 - 8x + 12}{x^2 - 3x - 18}</m>
 					</p>
 				</li>
 				<li>
 					<p>
-						<m>q(x) = \frac{(x-2)(x^2-9)}{(x-3)(x^2 + 4)}</m>
+						<m>\displaystyle q(x) = \frac{(x-2)(x^2-9)}{(x-3)(x^2 + 4)}</m>
 					</p>
 				</li>
 				<li>
 					<p>
-						<m>r(x) = \frac{19(x-2) (x-3)^2 (x+1)}{17(x+1)(x-4)^2(x-5)}</m>
+						<m>\displaystyle r(x) = \frac{19(x-2) (x-3)^2 (x+1)}{17(x+1)(x-4)^2(x-5)}</m>
 					</p>
 				</li>
 				<li>
 					<p>
-						<m>s(x) = \frac{1}{x^2 + 1}</m>
+						<m>\displaystyle s(x) = \frac{1}{x^2 + 1}</m>
 					</p>
 				</li>
 			</ol>
