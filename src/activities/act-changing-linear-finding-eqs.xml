@@ -43,7 +43,7 @@
 	        <li>
 	          <p>
 	            Explain why the function <m>f</m> given by <xref ref="T-act-changing-linear-finding-eqs">Table</xref> appears to be linear and find a formula for <m>f(x)</m>.
-
+                  </p>
 				<sidebyside width="50%" valign="middle">
 					<table xml:id="T-act-changing-linear-finding-eqs">
 						<caption>Data for a linear function <m>f</m>.</caption>
@@ -76,7 +76,6 @@
 						<image source="images/linear-PA-ex-3" />
 					</figure>
 				</sidebyside>
-	          </p>
 	        </li>
 	        <li>
 	        	<p>

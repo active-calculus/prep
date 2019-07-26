@@ -184,16 +184,15 @@
 	    we sometimes have to use different formulas on different intervals in order to define a function of interest.
   	</p>
 
-  	<sidebyside width="50%" >
-  		<p>
+  	<sidebyside widths="48% 48%" margins="0%">
+            <stack>
 			<p>
 				A familiar and important function that is defined <em>piecewise</em>
 			    is the absolute value function: <m>A(x) = |x|</m>.
 			    We know that if <m>x \ge 0</m>, <m>|x| = x</m>, whereas if <m>x \lt 0</m>, <m>|x| = -x</m>.  
 			</p>
-
-			<p>
-	  			<definition xml:id="def-combining-abs-val">
+                        <p>
+	  		<definition xml:id="def-combining-abs-val">
 	  				<idx><h>absolute value function</h></idx>
 					<statement>
 						<p>
@@ -207,10 +206,9 @@
 			  				</me>
 						</p>
 					</statement>
-	  			</definition>
-			</p>
-  		</p>
-
+	  		</definition>
+                        </p>
+            </stack>
   		<figure xml:id="F-combining-defn-abs-val">
   			<caption>A plot of the absolute value function, <m>A(x) = |x|</m>.</caption>
   			<image source="images/combining-piecewise-abs-val" />

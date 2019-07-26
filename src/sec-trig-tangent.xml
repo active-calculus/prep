@@ -38,7 +38,7 @@
 
   <introduction>
   	
-	<sidebyside valign="middle" widths="60% 40%">
+	<sidebyside valign="middle" widths="55% 40%" margins="0%">
 		<p>
 			In <xref ref="act-trig-right-sine-cosine-ratio">Activity</xref>, we determined the distance between two points <m>A</m> and <m>B</m> on opposite sides of a river by knowing a length along one shore of the river and the angle formed between a point downstream and the point on the opposite shore, as pictured in <xref ref="F-right-act-river-rev">Figure</xref>. By first using the cosine of the angle, we determined the value of <m>z</m> and from there were able to use the sine of the angle to find <m>w</m>, the river's width, which turns out to be 
 			<me>
@@ -333,7 +333,7 @@
 
   <subsection xml:id="subsec-trig-tangent-summary">
   	<title>Summary</title>
-
+        <p>
   	<ul>
   		<li>
   			<p>
@@ -359,6 +359,7 @@
   			</p>
   		</li>
   	</ul>
+        </p>
   </subsection>
 
   <xi:include href="./exercises/ez-trig-tangent.xml" />

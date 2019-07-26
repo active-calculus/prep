@@ -144,6 +144,7 @@
 
 		<p>
 			This most recent equation helps us understand how <m>V</m> and <m>h</m> change in tandem.  We know from our earlier work that the volume of water in the tank increases at a constant rate of <m>0.75</m> cubic feet per minute.  This leads to the data shown in <xref ref="T-tandem-cone-V-t">Table</xref>.
+		</p>
 
 			<table xml:id="T-tandem-cone-V-t">
 				<caption>How time and volume change in tandem in a conical tank.</caption>
@@ -168,7 +169,6 @@
 				    </row>
 				</tabular>
 			</table>
-		</p>
 
 		<p>
 			With the equation <m>V = \frac{\pi}{12} h^3</m>, we can now also see how the height of the water changes in tandem with time.  Solving the equation for <m>h</m>, note that <m>h^3 = \frac{12}{\pi} V</m>, and therefore 
@@ -212,7 +212,7 @@
 
 		<p>
 			Plotting this data on two different sets of axes, we see the different ways that <m>V</m> and <m>h</m> change with <m>t</m>.  Whereas volume increases at a constant rate, as seen by the straight line appearance of the points in <xref ref="F-tandem-cone-V-t">Figure</xref>, we observe that the water's height increases in a way that it rises more slowly as time goes on, as shown by the way the curve the points lie on in <xref ref="F-tandem-cone-h-t">Figure</xref> <q>bends down</q> as time passes.
-
+                </p>
 			<sidebyside width="50%">
 				<figure xml:id="F-tandem-cone-V-t">
 					<caption>Plotting <m>V</m> versus <m>t</m>.</caption>
@@ -223,7 +223,6 @@
 			    	<image source="images/tandem-cone-h-t" width="50%"/> 
 			    </figure>
 			</sidebyside>
-		</p>
 
 		<p>
 			These different behaviors make sense because of the shape of the tank.  Since at first there is less volume relative to depth near the cone's point, as water flows in at a constant rate, the water's height will rise quickly.  But as time goes on and more water is added at the same rate, there is more space for the water to fill in order to make the water level rise, and thus the water's heigh rises more and more slowly as time passes.

@@ -60,9 +60,7 @@
   		The circular function that tracks the height of a point on the unit circle traversing counterclockwise from <m>(1,0)</m> as a function of the corresponding central angle (in radians) is one of the most important functions in mathematics.  As such, we give the function a name:  the <term>sine</term> function.
   	</p>
 
-	<sidebyside widths="50% 50%" valign="middle">
-
-		<p>
+	<sidebyside widths="48% 48%" valign="middle" margins="0%">
 			<definition xml:id="def-sine">
 				<idx><h>sine function</h></idx>
 				<statement>
@@ -74,7 +72,6 @@
 					</p>
 				</statement>
 			</definition>
-		</p>
 
 		<figure xml:id="F-def-sine">
 			<caption>The definition of the sine of an angle <m>t</m>.</caption>
@@ -104,16 +101,8 @@
 								<cell><m>\frac{2\pi}{3}</m></cell>
 								<cell><m>\frac{3\pi}{4}</m></cell>
 								<cell><m>\frac{5\pi}{6}</m></cell>
-								<cell><m>\pi</m></cell>		
-								<cell><m>\frac{7\pi}{6}</m></cell>
-								<cell><m>\frac{5\pi}{4}</m></cell>
-								<cell><m>\frac{4\pi}{3}</m></cell>
-								<cell><m>\frac{3\pi}{2}</m></cell>
-								<cell><m>\frac{5\pi}{3}</m></cell>
-								<cell><m>\frac{7\pi}{4}</m></cell>
-								<cell><m>\frac{11\pi}{6}</m></cell>
-								<cell><m>2\pi</m></cell>						
-							</row>
+								<cell><m>\pi</m></cell>
+		                                        </row>
 							<row halign="center">
 								<cell><m>\sin(t)</m></cell>
 								<cell><m>0</m></cell>
@@ -125,6 +114,25 @@
 								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
 								<cell><m>\frac{1}{2}</m></cell>
 								<cell><m>0</m></cell>
+							</row>
+                                                        <row>
+                                                            <cell colspan="10"/>
+                                                        </row>
+							<row bottom="minor" halign="center">
+								<cell><m>t</m></cell>
+								<cell><m>\pi</m></cell>
+							        <cell><m>\frac{7\pi}{6}</m></cell>
+								<cell><m>\frac{5\pi}{4}</m></cell>
+								<cell><m>\frac{4\pi}{3}</m></cell>
+								<cell><m>\frac{3\pi}{2}</m></cell>
+								<cell><m>\frac{5\pi}{3}</m></cell>
+								<cell><m>\frac{7\pi}{4}</m></cell>
+								<cell><m>\frac{11\pi}{6}</m></cell>
+								<cell><m>2\pi</m></cell>		
+							</row>
+							<row halign="center">
+								<cell><m>\sin(t)</m></cell>
+								<cell><m>0</m></cell>
 								<cell><m>-\frac{1}{2}</m></cell>
 								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
 								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
@@ -134,6 +142,7 @@
 								<cell><m>-\frac{1}{2}</m></cell>
 								<cell><m>0</m></cell>
 							</row>
+
 						</tabular>
 					</table>
 
@@ -154,8 +163,7 @@
   		Given any central angle of radian measure <m>t</m> in the unit circle with one side passing through the point <m>(1,0)</m>, the angle generates a unique point <m>(a,b)</m> that lies on the circle.  Just as we can view the <m>y</m>-coordinate as a function of <m>t</m>, the <m>x</m>-coordinate is likewise a function of <m>t</m>.  We therefore make the following definition.
   	</p>
 
-	<sidebyside widths="50% 50%" valign="middle">
-		<p>
+	<sidebyside widths="48% 48%" margins="0%" valign="middle">
 			<definition xml:id="def-cosine">
 				<idx><h>cosine function</h></idx>
 				<statement>
@@ -167,7 +175,6 @@
 					</p>
 				</statement>
 			</definition>
-		</p>
 
 		<figure xml:id="F-def-cosine">
 			<caption>The definition of the cosine of an angle <m>t</m>.</caption>
@@ -296,7 +303,7 @@
 
   <subsection xml:id="subsec-circular-sine-summary">
   	<title>Summary</title>
-
+        <p>
   	<ul>
   		<li>
   			<p>
@@ -314,7 +321,7 @@
   			</p>
   		</li>
   	</ul>
-
+        </p>
   </subsection>
 
   <xi:include href="./exercises/ez-circular-sine-cosine.xml" />

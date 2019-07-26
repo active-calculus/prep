@@ -158,22 +158,11 @@
 
 			<p>
 				Finally, the form <m>q(x) = 0.25(x-2)^2 + 2.5</m> explains the symmetry of <m>q</m> about the line <m>x = 2</m>.  Consider the two points that lie equidistant from <m>x = 2</m> on the <m>x</m>-axis, <m>z</m> units away:  <m>x = 2-z</m> and <m>x = 2 + z</m>.  Observe that for these values, 
-				<sidebyside width="50%">
-					<p>
 						<md>
-							<mrow>q(2-z) &amp;= 0.25(2-z-2)^2 + 2.5</mrow>
-							<mrow>  &amp;= 0.25(-z)^2 + 2.5</mrow>
-							<mrow>  &amp;= 0.25z^2 + 2.5</mrow>
+							<mrow>q(2-z) &amp;= 0.25(2-z-2)^2 + 2.5&amp; q(2+z) &amp;= 0.25(2+z-2)^2 + 2.5</mrow>
+							<mrow>  &amp;= 0.25(-z)^2 + 2.5 &amp; &amp;= 0.25(z)^2 + 2.5</mrow>
+							<mrow>  &amp;= 0.25z^2 + 2.5   &amp; &amp;= 0.25z^2 + 2.5</mrow>
 						</md>
-					</p>
-					<p>
-						<md>
-							<mrow>q(2+z) &amp;= 0.25(2+z-2)^2 + 2.5</mrow>
-							<mrow>  &amp;= 0.25(z)^2 + 2.5</mrow>
-							<mrow>  &amp;= 0.25z^2 + 2.5</mrow>
-						</md>
-					</p>
-				</sidebyside>
 				Since <m>q(2-z) = q(2+z)</m> for any choice of <m>z</m>, this shows the parabola is symmetric about the vertical line through its vertex.
 			</p>
 		</solution>
@@ -248,7 +237,7 @@
 		We then completed <xref ref="T-PA-changing-quadratic-heights-complete">Table</xref> and <xref ref="T-PA-changing-quadratic-AVs-complete">Table</xref> to investigate how both function values and averages rates of change varied as we changed the input to the function.
 	</p>
 
-				<sidebyside width="50%">
+				<sidebyside widths="48% 48%" margins="0%">
 					<table xml:id="T-PA-changing-quadratic-heights-complete">
 						<caption>Function values for <m>h</m> at select inputs.</caption>
 						<tabular>
@@ -385,7 +374,7 @@
 
   <subsection>
   	<title>Summary</title>
-
+        <p>
   	<ul>
   		<li>
   			<p>
@@ -443,7 +432,7 @@
   		</li>
 
   	</ul>
-
+        </p>
   </subsection>
 
   <xi:include href="./exercises/ez-changing-quadratic.xml" />

@@ -89,29 +89,17 @@
 
   	<sidebyside widths="70% 25%" margins="0%">
   		<p>
-  			<ul>
-  				<li>
-  					<p>
-  						<me>
-  							\sec(\theta) = \frac{1}{\cos(\theta)} = \frac{1}{\frac{\text{adj}}{\text{hyp}}} = \frac{\text{hyp}}{\text{adj}}
-  						</me>
-  					</p>
-  				</li>
-  				<li>
-  					<p>
-  						<me>
-  							\csc(\theta) = \frac{1}{\sin(\theta)} = \frac{1}{\frac{\text{opp}}{\text{hyp}}} = \frac{\text{hyp}}{\text{opp}}
-  						</me>
-  					</p>
-  				</li>
-  				<li>
-  					<p>
-  						<me>
-  							\cot(\theta) = \frac{\cos(\theta)}{\sin(\theta)} = \frac{\frac{\text{adj}}{\text{hyp}}}{\frac{\text{opp}}{\text{hyp}}} = \frac{\text{adj}}{\text{opp}}
-  						</me>
-  					</p>
-  				</li>
-  			</ul>
+  		    <md>
+                        <mrow>
+                            \sec(\theta) &amp;= \frac{1}{\cos(\theta)} = \frac{1}{\frac{\text{adj}}{\text{hyp}}} = \frac{\text{hyp}}{\text{adj}}
+                        </mrow>
+  			<mrow>
+  			    \csc(\theta) &amp;= \frac{1}{\sin(\theta)} = \frac{1}{\frac{\text{opp}}{\text{hyp}}} = \frac{\text{hyp}}{\text{opp}}
+                        </mrow>
+                        <mrow>
+  			    \cot(\theta) &amp;= \frac{\cos(\theta)}{\sin(\theta)} = \frac{\frac{\text{adj}}{\text{hyp}}}{\frac{\text{opp}}{\text{hyp}}} = \frac{\text{adj}}{\text{opp}}
+                        </mrow>
+                    </md>
   		</p>
   		<figure xml:id="F-other-trig-SOH-CAH-TOA">
   			<caption>A right triangle with angle <m>\theta</m>.</caption>
@@ -373,7 +361,8 @@
   </subsection>
 
   <subsection xml:id="subsec-trig-other-summary">
-  	<title>Summary</title>
+      <title>Summary</title>
+      <p>
   	<ul>
   		<li>
   			<p>
@@ -398,6 +387,7 @@
   			</p>
   		</li>
   	</ul>
+      </p>
   </subsection>
 
 	<xi:include href="./exercises/ez-trig-other.xml" />

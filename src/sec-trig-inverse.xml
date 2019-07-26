@@ -225,6 +225,7 @@
 
   <subsection xml:id="subsec-trig-inverse-summary">
   	<title>Summary</title>
+        <p>
   	<ul>
   		<li>
   			<p>
@@ -265,7 +266,7 @@
             The domain of <m>y = g^{-1}(t) = \arccos(t)</m> is <m>[-1,1]</m> with corresponding range <m>[0,\pi]</m>, and the arccosine function is always decreasing.  These facts correspond to the domain and range of the restricted cosine function and the fact that the restricted cosine function is decreasing on <m>[0,\pi]</m>.
           </p>
 
-  			<sidebyside valign="middle">
+  			<sidebyside valign="middle" widths="48% 48%" margins="0%">
 
   				<figure xml:id="F-inverse-trig-arccosine-graph">
   					<caption>The restricted cosine function (in light blue) and its inverse, <m>y = g^{-1}(t) = \arccos(t)</m> (in dark blue).</caption>
@@ -293,7 +294,8 @@
   				</figure>
 
   		</li>
-  	</ul>
+  	    </ul>
+        </p>
   </subsection>
 
   <xi:include href="./exercises/ez-trig-inverse.xml" />

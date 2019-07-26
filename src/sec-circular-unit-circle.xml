@@ -167,7 +167,7 @@
 
   <subsection>
     <title>Summary</title>
-
+    <p>
     <ul>
       <li>
         <p>
@@ -189,7 +189,7 @@
         </p>
       </li>
     </ul>
-
+    </p>
   </subsection>
 
   <xi:include href="./exercises/ez-circular-unit-circle.xml" />

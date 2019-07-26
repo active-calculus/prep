@@ -40,8 +40,7 @@
 					</p>
 				</li>
 				<li>
-					<p>
-						<sidebyside width="50%">
+						<sidebyside widths="48% 48%" margins="0%">
 							<p>
 								One way to measure angles is connected to the arc length along a circle.  For an angle whose vertex is at <m>(0,0)</m> in the unit circle, we say the angle's measure is <term><m>1</m> radian</term> <idx><h>radian</h></idx> provided that the angle intercepts an arc of the circle that is <m>1</m> unit in length, as pictured in <xref ref="F-PA-unit-circle-defining-radian">Figure</xref>.  Note particularly that an angle measuring <m>1</m> radian intercepts an arc of the same length as the circle's radius.
 							</p>
@@ -53,7 +52,6 @@
 								<image source="images/unit-circle-radian" />
 							</figure>
 						</sidebyside>
-					</p>
 
 					<p>
 						Suppose that <m>\alpha</m> and <m>\beta</m> are each central angles and that their respective radian measures are <m>\alpha = \frac{\pi}{3}</m> and <m>\beta = \frac{3\pi}{4}</m>.  Sketch the angles <m>\alpha</m> and <m>\beta</m> on the unit circle in <xref ref="F-PA-big-unit-circle">Figure</xref>.
