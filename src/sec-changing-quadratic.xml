@@ -237,7 +237,7 @@
 		We then completed <xref ref="T-PA-changing-quadratic-heights-complete">Table</xref> and <xref ref="T-PA-changing-quadratic-AVs-complete">Table</xref> to investigate how both function values and averages rates of change varied as we changed the input to the function.
 	</p>
 
-				<sidebyside widths="48% 48%" margins="0%">
+				<sidebyside widths="48% 48%" margins="0%" valign="bottom">
 					<table xml:id="T-PA-changing-quadratic-heights-complete">
 						<caption>Function values for <m>h</m> at select inputs.</caption>
 						<tabular>
@@ -298,6 +298,9 @@
 								<cell><m>[4,5]</m></cell>
 								<cell><m>AV_{[4,5]} = -25</m> m/s</cell>
 							</row>
+                                                        <row>
+                                                            <cell colspan="2"/>
+                                                        </row>
 						</tabular>
 					</table>
 				</sidebyside>

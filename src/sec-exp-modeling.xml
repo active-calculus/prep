@@ -174,7 +174,7 @@
 	</p>
 
 	<p>
-		To represent these two common phenomena with exponential functions <dash>the value increasing without bound or the value approaching <m>0</m></dash>, we will use shorthand notation.  First, it is natural to write <q><m>q(t) \to 0</m></q> as <m>t</m> increases without bound.  Moreover, since we have the notion of the infinite to represent quantities without bound, we use the symbol for infinity and arrow notation <idx><h>infinity</h></idx> (<m>\infty</m>) and write <q><m>p(t) \to \infty</m></q> as <m>t</m> increases without bound in order to indicate that <m>p(t)</m> increases without bound.  
+		To represent these two common phenomena with exponential functions<mdash/>the value increasing without bound or the value approaching <m>0</m><mdash/>we will use shorthand notation.  First, it is natural to write <q><m>q(t) \to 0</m></q> as <m>t</m> increases without bound.  Moreover, since we have the notion of the infinite to represent quantities without bound, we use the symbol for infinity and arrow notation <idx><h>infinity</h></idx> (<m>\infty</m>) and write <q><m>p(t) \to \infty</m></q> as <m>t</m> increases without bound in order to indicate that <m>p(t)</m> increases without bound.  
 	</p>
 
 	<p>
@@ -366,7 +366,7 @@
 
   <subsection xml:id="subsec-exp-modeling-summary">
   	<title>Summary</title>
-
+        <p>
   	<ul>
   		<li>
   			<p>
@@ -388,7 +388,7 @@
   			</p>
   		</li>
   	</ul>
-
+        </p>
   </subsection>
 
   <xi:include href="./exercises/ez-exp-modeling.xml" />

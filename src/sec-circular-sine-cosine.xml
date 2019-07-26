@@ -61,7 +61,8 @@
   	</p>
 
 	<sidebyside widths="48% 48%" valign="middle" margins="0%">
-			<definition xml:id="def-sine">
+	    <p>
+                <definition xml:id="def-sine">
 				<idx><h>sine function</h></idx>
 				<statement>
 					<p>
@@ -71,8 +72,8 @@
 						</me>.
 					</p>
 				</statement>
-			</definition>
-
+		</definition>
+            </p>
 		<figure xml:id="F-def-sine">
 			<caption>The definition of the sine of an angle <m>t</m>.</caption>
 			<image source="images/sine-defn" />
@@ -164,7 +165,8 @@
   	</p>
 
 	<sidebyside widths="48% 48%" margins="0%" valign="middle">
-			<definition xml:id="def-cosine">
+            <p>
+            <definition xml:id="def-cosine">
 				<idx><h>cosine function</h></idx>
 				<statement>
 					<p>
@@ -175,7 +177,7 @@
 					</p>
 				</statement>
 			</definition>
-
+            </p>
 		<figure xml:id="F-def-cosine">
 			<caption>The definition of the cosine of an angle <m>t</m>.</caption>
 			<image source="images/sine-defn-cosine" />
