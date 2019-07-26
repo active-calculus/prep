@@ -231,6 +231,8 @@ workbook-latex:
 # Automatically builds LaTeX source for solutions manual
 workbook-pdf: workbook-latex
 	cd $(WKBKOUT); \
+	sed -i '' -e 's/for\\\\/for\\\\[0.3\\baselineskip]/' apc-activity-workbook.tex; \
+	xelatex apc-activity-workbook; \
 	xelatex apc-activity-workbook; \
 	xelatex apc-activity-workbook
 
