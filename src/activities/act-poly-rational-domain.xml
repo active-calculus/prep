@@ -24,32 +24,32 @@
 			<ol label="a." cols="2">
 				<li>
 					<p>
-						<m>f(x) = \frac{x^2-1}{x^2 + 1}</m>
+						<m>\displaystyle f(x) = \frac{x^2-1}{x^2 + 1}</m>
 					</p>
 				</li>
 				<li>
 					<p>
-						<m>g(x) = \frac{x^2 - 1}{x^2 + 3x - 4}</m>
+						<m>\displaystyle g(x) = \frac{x^2 - 1}{x^2 + 3x - 4}</m>
 					</p>
 				</li>
 				<li>
 					<p>
-						<m>h(x) = \frac{1}{x} + \frac{1}{x-1} + \frac{1}{x-2}</m>
+						<m>\displaystyle h(x) = \frac{1}{x} + \frac{1}{x-1} + \frac{1}{x-2}</m>
 					</p>
 				</li>
 				<li>
 					<p>
-						<m>j(x) = \frac{(x+5)(x-3)(x+1)(x-4)}{(x+1)(x+3)(x-5)}</m>
+						<m>\displaystyle j(x) = \frac{(x+5)(x-3)(x+1)(x-4)}{(x+1)(x+3)(x-5)}</m>
 					</p>
 				</li>
 				<li>
 					<p>
-						<m>k(x) = \frac{2x^2 + 7}{3x^3 - 12x}</m>
+						<m>\displaystyle k(x) = \frac{2x^2 + 7}{3x^3 - 12x}</m>
 					</p>
 				</li>
 				<li>
 					<p>
-						<m>m(x) = \frac{5x^2 - 45}{7(x-2)(x-3)^2(x^2 + 9)(x+1)}</m>
+						<m>\displaystyle m(x) = \frac{5x^2 - 45}{7(x-2)(x-3)^2(x^2 + 9)(x+1)}</m>
 					</p>
 				</li>
 			</ol>

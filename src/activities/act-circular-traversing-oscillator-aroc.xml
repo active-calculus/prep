@@ -98,10 +98,6 @@
 					<cell><m>4</m></cell>
 					<cell><m>8.000</m></cell>
 				</row>
-				<row>
-					<cell><mbs></mbs></cell>
-					<cell></cell>
-				</row>
 			</tabular>
 
 			<image source="images/traversing-circular-act-oscillator" />

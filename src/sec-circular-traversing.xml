@@ -285,13 +285,12 @@
   		We can study the average rate of change not only on the circle itself, but also on a graph such as <xref ref="F-act-circular-functions-properties-graph">Figure</xref>, and thus make conclusions about where the function is increasing, decreasing, concave up, and concave down.
   	</p>
 
-  	<p>
-  		<xi:include href="./activities/act-circular-traversing-oscillator-aroc.xml" />
-  	</p>
+  	<xi:include href="./activities/act-circular-traversing-oscillator-aroc.xml" />
   </subsection>
 
   <subsection xml:id="subsec-circular-traversing-summary">
-  	<title>Summary</title>
+      <title>Summary</title>
+      <p>
 
   	<ul>
   		<li>
@@ -310,7 +309,7 @@
   			</p>
   		</li>
   	</ul>
-
+      </p>
   </subsection>
 
   <xi:include href="./exercises/ez-circular-traversing.xml" />

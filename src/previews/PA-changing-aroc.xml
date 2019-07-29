@@ -40,18 +40,16 @@
             In <em>Desmos</em>, plot the function
             <m>s(t) = 64 - 16(t-1)^2</m> along with the points
             <m>(1.5,s(1.5))</m> and <m>(2.5, s(2.5))</m>.
-            Make a copy of your plot on the axes below,
+            Make a copy of your plot on the axes in <xref ref="F-changing-aroc-PA-pos">Figure</xref>,
             labeling key points as well as the scale on your axes.
             What is the domain of the model?
             The range?
             Why?
-
-            <figure>
+          </p>
+            <figure xml:id="F-changing-aroc-PA-pos">
             	<caption>Axes for plotting the position function.</caption>
               <image width="50%" source="images/aroc-s-t-blank-axes" />
             </figure>
-
-          </p>
         </li>
 
         <li>

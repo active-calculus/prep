@@ -114,7 +114,7 @@
 				Do the functions <m>f</m> and <m>g</m> defined by <xref ref="T-inverse-does-it-1">Table</xref> and <xref ref="T-inverse-does-it-2">Table</xref> have corresponding inverse functions?  Why or why not?
 			</p>
 
-			<sidebyside>
+			<sidebyside widths="48% 48%" margins="0%">
 				<table xml:id="T-inverse-does-it-1">
 					<caption>The table that defines the function <m>f</m>.</caption>
 					<tabular>
@@ -204,7 +204,7 @@
 		</statement>
 		<solution>
 			<p>
-				Recall that when a point such as <m>(a,c)</m> lies on the graph of a function <m>p</m>, this means that the input <m>x = a</m>, which represents to a value on the horizontal axis, corresponds with the output <m>y = c</m> that is represented by a value on the vertical axis.  In this situation, we write <m>p(a) = c</m>.  We note explicitly that <m>p</m> is a function because its graph passes the <xref ref="asm-functions-V-L-test">Vertical Line Test</xref>: any vertical line intersects the graph of <m>p</m> exactly, and thus each input from the domain corresponds to one and only one output.
+				Recall that when a point such as <m>(a,c)</m> lies on the graph of a function <m>p</m>, this means that the input <m>x = a</m>, which represents to a value on the horizontal axis, corresponds with the output <m>y = c</m> that is represented by a value on the vertical axis.  In this situation, we write <m>p(a) = c</m>.  We note explicitly that <m>p</m> is a function because its graph passes the <xref ref="asm-functions-V-L-test" text="title"/>: any vertical line intersects the graph of <m>p</m> exactly, and thus each input from the domain corresponds to one and only one output.
 			</p>
 
 			<p>
@@ -359,7 +359,8 @@
   </subsection>
 
   <subsection xml:id="subsec-changing-inverse-summary">
-  	<title>Summary</title>
+      <title>Summary</title>
+      <p>
   	<ul>
   		<li>
   			<p>
@@ -377,6 +378,7 @@
   			</p>
   		</li>
   	</ul>
+      </p>
   </subsection>
 
 	<xi:include href="./exercises/ez-changing-inverse.xml" />

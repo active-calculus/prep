@@ -32,7 +32,7 @@
 					<table xml:id="T-PA-changing-linear-3-ex-2">
 						<caption>A table that defines the function <m>y = g(x)</m>.</caption>
 							<tabular>
-								<row bottom="minor" align="center">
+								<row bottom="minor" halign="center">
 									<cell><m>x</m></cell>
 									<cell><m>-5</m></cell>
 									<cell><m>-4</m></cell>
@@ -46,7 +46,7 @@
 									<cell><m>4</m></cell>
 									<cell><m>5</m></cell>
 								</row>
-								<row align="center">
+								<row halign="center">
 									<cell><m>g(x)</m></cell>
 									<cell><m>-2.75</m></cell>
 									<cell><m>-2.25</m></cell>

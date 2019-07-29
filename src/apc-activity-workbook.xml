@@ -12,23 +12,43 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-<mathbook xmlns:xi="http://www.w3.org/2001/XInclude">
-    <!-- Has LaTeX macros, which may be needed       -->
-    <!-- May have some unnecessary stuff, but OK now -->
-  <xi:include href="./bookinfo.xml" />
-    <!-- a small hack until "line" element is available -->
-    <!-- the use of \\ assumes LaTeX output only        -->
-    <!-- https://github.com/rbeezer/mathbook/issues/640 -->
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <docinfo>
+  <brandlogo url="https://activecalculus.org" source="images/APC-cover.jpg" />
+
+<!--  
+  <macros>
+		\newcommand{\dollar}{\$}
+		\DeclareMathOperator{\erf}{erf}
+		\DeclareMathOperator{\arctanh}{arctanh}
+  </macros>
+-->
+
+<cross-references text="global" />
+<covers front="images/APC-wkbk-frontcover-2019.pdf" />
+  <initialism>APC</initialism>
+<html>
+    <favicon/>
+    <baseurl href="https://activecalculus.org/prelude"/>
+</html>
+
+  <rename element="exploration" xml:lang="en-US">Preview Activity</rename>
+
+  <rename element="objectives" xml:lang="en-US">Motivating Questions</rename>
+</docinfo>
+
   <book xml:id="apc-activity-workbook">
-      <!--    <title>Activities Workbook\\for\\[0.3\baselineskip]Active Preparation for Calculus</title>-->
-               <title>Activities Workbook for Active Preparation for Calculus</title>
+      <title><line>Activities Workbook</line>
+      <line>for</line>
+      <line>Active Prelude to Calculus</line>
+      </title>
     <frontmatter>
       <xi:include href="./titlepage.xml" />
       <xi:include href="./colophon.xml" />
 
       <preface>
         <p>
-          This Activities Workbook for <pubtitle>Active Preparation for Calculus</pubtitle> collects all the Preview Activities and Activities in a way that each starts on a new page.
+          This Activities Workbook for <pubtitle>Active Prelude to Calculus</pubtitle> collects all the Preview Activities and Activities in a way that each starts on a new page.
           The Activities Workbook is designed to be used by students who wish to have a complete set of the activities to work through as they read the book in an electronic format and for instructors who wish to have a one activity per page format to make printing for distribution in class easier.
         </p>
 
@@ -45,7 +65,15 @@
     <xi:include href="./chap-exp.xml" />
     <xi:include href="./chap-trig.xml" />
     <xi:include href="./chap-poly.xml" />
-    <xi:include href="./backmatter.xml" />
+<backmatter xml:id="backmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Back Matter</title>
+  <colophon>
+    <p>
+      This book was authored in <pretext />.
+    </p>
+  </colophon>
+</backmatter>
+
   </book>
-</mathbook>
+</pretext>
 

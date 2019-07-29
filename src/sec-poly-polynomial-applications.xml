@@ -112,7 +112,7 @@
       The curve passes through the points <m>A = (x_0,y_0)</m> and <m>B = (x_3, y_3)</m> and the points <m>C = (x_1, y_1)</m> and <m>D = (x_2, y_2)</m> are called <em>control points</em>.  At <url href="http://gvsu.edu/s/0zC">http://gvsu.edu/s/0zC</url>, you can explore the effects of moving the control points (in gray) and the points on the curve (in black) to generate different curves in the plane, similar to the one shown in <xref ref="F-polynomial-applications-Bezier">Figure</xref>.  
     </p>
 
-    <sidebyside widths="60% 40%">
+    <sidebyside widths="60% 35%" margins="0%" valign="bottom">
       <figure xml:id="F-polynomial-applications-Bezier">
         <caption>A cubic Bezier curve with control points in gray.</caption>
         <image source="images/polynomial-applications-bezier" width="125%" />

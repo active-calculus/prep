@@ -180,7 +180,7 @@
   			</p>
 
   			<p>
-  				In addition, since there are an even number of negative terms in the product, the overall product's sign is positive, which we indicate by the single <m><q><m>+</m></q></m> beneath <q><m>----</m></q>, and by writing <q>POS</q> below the coordinate axis.
+  				In addition, since there are an even number of negative terms in the product, the overall product's sign is positive, which we indicate by the single <q><m>+</m></q> beneath <q><m>----</m></q>, and by writing <q>POS</q> below the coordinate axis.
   			</p>
 
         <figure xml:id="F-polynomial-sign-chart-1">
@@ -210,7 +210,7 @@
   <subsection xml:id="subsec-poly-polynomials-multiplicity">
   	<title>Multiplicity of polynomial zeros</title>
   	<p>
-  		In <xref ref="act-poly-polynomials-sign-chart">Activity</xref>, we found that one of the zeros of the polynomial <m>p(x) = 4692(x + 1520)(x^2 + 10000)(x − 3471)^2 (x − 9738)</m> leads to different behavior of the function near that zero than we've seen in other situations.  We now consider the more general situation where a polynomial has a repeated factor of the form <m>(x-r)^n</m>.  When <m>(x-r)^n</m> is a factor of a polynomial <m>p</m>, we say that <m>p</m> has a <term>zero of multiplicity <m>n</m></term> at <m>x = r</m>.  <idx><h>polynomial</h><h>zero of multiplicity <m>n</m></h></idx>
+  		In <xref ref="act-poly-polynomials-sign-chart">Activity</xref>, we found that one of the zeros of the polynomial <m>p(x) = 4692(x + 1520)(x^2 + 10000)(x - 3471)^2 (x - 9738)</m> leads to different behavior of the function near that zero than we've seen in other situations.  We now consider the more general situation where a polynomial has a repeated factor of the form <m>(x-r)^n</m>.  When <m>(x-r)^n</m> is a factor of a polynomial <m>p</m>, we say that <m>p</m> has a <term>zero of multiplicity <m>n</m></term> at <m>x = r</m>.  <idx><h>polynomial</h><h>zero of multiplicity <m>n</m></h></idx>
   	</p>
 
   	<p>
@@ -284,12 +284,13 @@
 
   <subsection xml:id="subsec-poly-polynomials-summary">
   	<title>Summary</title>
-  	  <ul>
+        <p>
+  	<ul>
   		<li>
   			<p>
   				From a polynomial function's algebraic structure, we can deduce several key traits of the function.
   			</p>
-
+                        <p>
   			<ul>
   				<li>
   					<p>
@@ -303,6 +304,7 @@
   					</p>
   				</li>
   			</ul>
+                        </p>
   		</li>
   		<li>
   			<p>
@@ -315,6 +317,7 @@
   			</p>
   		</li>
   	</ul>
+        </p>
   </subsection>
 
   <xi:include href="./exercises/ez-poly-polynomials.xml" />

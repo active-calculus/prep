@@ -29,7 +29,7 @@
 				<p>
 					Execute appropriate computations to complete both of the following tables.  
 				</p>
-				<sidebyside width="50%">
+				<sidebyside widths="48% 48%" margins="0%" valign="bottom">
 					<table xml:id="T-PA-changing-quadratic-heights">
 						<caption>Function values for <m>h</m> at select inputs.</caption>
 						<tabular>
@@ -90,6 +90,9 @@
 								<cell><m>[4,5]</m></cell>
 								<cell></cell>
 							</row>
+                                                        <row>
+                                                            <cell colspan="2"/>
+                                                        </row>
 						</tabular>
 					</table>
 				</sidebyside>

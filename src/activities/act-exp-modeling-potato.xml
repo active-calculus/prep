@@ -45,8 +45,6 @@
 					</p>
 				</li>
 				<li>
-					<p>
-						<sidebyside>
 							<p>
 								Check your work above by plotting the function <m>F</m> using graphing technology in an appropriate window.
 								Record your results on the axes provided in <xref ref="F-modeling-act-blank-axes-potato">Figure</xref>, labeling the scale on the axes.
@@ -54,10 +52,8 @@
 							</p>
 							<figure xml:id="F-modeling-act-blank-axes-potato">
 								<caption>Axes for plotting <m>F</m>.</caption>
-								<image source="images/modeling-F-t-blank-axes" />
+								<image width="50%" source="images/modeling-F-t-blank-axes" />
 							</figure>
-						</sidebyside>
-					</p>
 				</li>
 				<li>
 					<p>

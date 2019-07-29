@@ -264,7 +264,7 @@
   				Using similar reasoning, we can complete the sign chart shown in <xref ref="F-ex-rational-sign-chart">Figure</xref>.  A plot of the function <m>q</m>, as seen in <xref ref="F-ex-rational-plot">Figure</xref>, shows behavior that matches the sign function, as well as the need to manually identify the hole at <m>(3, 1.5)</m>, which is missed by the graphing software.
   			</p>
 
-  			<sidebyside valign="middle">
+  			<sidebyside widths="55% 40%" valign="middle" margins="0%">
   				<figure xml:id="F-ex-rational-sign-chart">
   					<caption>The sign chart for <m>q</m>.</caption>
   					<image source="images/rational-sign-chart" />

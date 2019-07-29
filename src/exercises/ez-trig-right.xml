@@ -73,14 +73,19 @@
   <exercise xml:id="ez-trig-right-trough">
     <statement>
       <p>
-        A trough is constructed by bending a <m>4' \times 24'</m> rectangular sheet of metal.  Two symmetric folds <m>2</m> feet apart are made parallel to the longest side of the rectangle so that the trough has cross-sections in the shape of a trapezoid, as pictured in <xref ref="F-right-triangle-trough">Figure</xref>.  Determine a formula for <m>V(\theta)</m>, the volume of the trough as a function of <m>\theta</m>.  (Hint:  the volume of the trough is the area of a cross-section times the length of the trough.)
+        A trough is constructed by bending a <m>4' \times 24'</m> rectangular sheet of metal.  Two symmetric folds <m>2</m> feet apart are made parallel to the longest side of the rectangle so that the trough has cross-sections in the shape of a trapezoid, as pictured in <xref ref="F-right-triangle-trough">Figure</xref>.  Determine a formula for <m>V(\theta)</m>, the volume of the trough as a function of <m>\theta</m>.
       </p>
 
       <figure xml:id="F-right-triangle-trough">
         <caption>A cross-section of the trough.</caption>
-        <image source="images/right-triangle-trough" />
+        <image width="50%" source="images/right-triangle-trough" />
       </figure>
     </statement>
+    <hint>
+        <p>
+              The volume of the trough is the area of a cross-section times the length of the trough.
+        </p>
+    </hint>
     <answer>
       <p>
         Exercise Answer

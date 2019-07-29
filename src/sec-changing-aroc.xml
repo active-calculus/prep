@@ -168,7 +168,8 @@
 	</subsection>
 
   <subsection xml:id="subsec-changing-aroc-summary">
-  	<title>Summary</title>
+      <title>Summary</title>
+      <p>
 	  <ul>
   		<li>
   			<p>
@@ -187,6 +188,7 @@
   			</p>
   		</li>
 	  </ul>
+      </p>
   </subsection>
 
   <xi:include href="./exercises/ez-changing-aroc.xml" />

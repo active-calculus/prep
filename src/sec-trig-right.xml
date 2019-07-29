@@ -99,7 +99,7 @@
 
 		<figure xml:id="F-right-triangle-5">
 			<caption>The <m>5</m> potential unknowns in a right triangle.</caption>
-			<image source="images/right-triangle-5" width="80%"/>
+			<image source="images/right-triangle-5" width="70%"/>
 		</figure>
 
 	<p>
@@ -119,7 +119,7 @@
 
 		<figure xml:id="F-right-triangle-r-theta">
 			<caption>The roles of <m>r</m> and <m>\theta</m> in a right triangle.</caption>
-			<image source="images/right-triangle-r-theta"/>
+			<image width="70%" source="images/right-triangle-r-theta"/>
 		</figure>
 
 	<p>
@@ -208,16 +208,16 @@
 	<example xml:id="ex-right-sin-cos-ratio">  
 		<statement>
 
-		<sidebyside>
-			<p>
-				<p>
+		<sidebyside widths="55% 40%" margins="0% 0%">
+                    <stack>
+		    <p>
 					Consider a right triangle in which one of the non-right angles is <m>\beta = \frac{\pi}{5}</m> and the leg opposite <m>\beta</m> has length <m>4</m>.  
 				</p>
 
 				<p>
 					Determine (both exactly and approximately) the measures of all of the remaining sides and angles in the triangle.
 				</p>
-			</p>
+			</stack>
 
 				<figure xml:id="F-right-triangle-ex-ratio">
 					<caption>The given right triangle.</caption>

@@ -94,7 +94,7 @@
 	<figure xml:id="F-transformations-horizontal-scaling">
 		<caption>Interactive horizontal scaling demonstration (in the HTML version only).</caption>
 
-		<interactive xml:id="I-transformations-horizontal-scaling" platform="javascript" width="75%" aspect="4:5" source = "interactives/figures.js interactives/transformationsC.js" preview="images/transformations-interactive-C-static.jpg">
+		<interactive xml:id="I-transformations-horizontal-scaling" platform="javascript" width="75%" aspect="4:5" source = "interactives/figures.js interactives/transformationsC.js" preview="images/transformations-interactive-C-static.png">
 			<slate xml:id="cslider" aspect="4:1" surface="canvas" />
 			<slate xml:id="compressing" aspect="4:4" surface="canvas" />
 			<instructions>
@@ -121,7 +121,7 @@
 		We can therefore think of the transformation <m>h(t) = f(2t)</m> as achieving the output values of <m>f</m> twice as fast as the original function <m>f(t)</m> does.  Analogously, the transformation <m>h(t) = f(\frac{1}{2}t)</m> will achieve the output values of <m>f</m> only half as quickly as the original function.
 	</p>
 
-  	<assemblage xref="asm-transformations-horizontal-stretch">
+  	<assemblage xml:id="asm-transformations-horizontal-stretch">
   		<title>Horizontal scaling</title>
   		<idx><h>horizontal scaling</h></idx>
   		<p>

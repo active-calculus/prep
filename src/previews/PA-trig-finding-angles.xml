@@ -20,6 +20,7 @@
 			Consider a right triangle that has one leg of length <m>3</m> and another leg of length <m>\sqrt{3}</m>.  Let <m>\theta</m> be the angle that lies opposite the shorter leg.  
 		</p>
 
+                <p>
 		<ol label="a.">
 			<li>
 				<p>
@@ -47,6 +48,7 @@
 				</p>
 			</li>
 		</ol>
+                </p>
 	</statement>
 
 </exploration>

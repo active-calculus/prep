@@ -120,8 +120,8 @@
 	</p>
 
 	<assemblage xml:id="asm-linear-point-slope-form">
-		<idx><h>line</h><h>point-slope form</h></idx>
 		<title>Point-slope form of a line</title>
+		<idx><h>line</h><h>point-slope form</h></idx>
 		<p>
 			A line with slope <m>m</m> (equivalently, average rate of change <m>m</m>) that passes through the point <m>(x_0,y_0)</m> has equation
 			<me>
@@ -160,8 +160,8 @@
 	</p>
 
 	<assemblage xml:id="asm-linear-slope-intercept-form">
-		<idx><h>line</h><h>slope-intercept form</h></idx>
 		<title>Slope-intercept form</title>
+		<idx><h>line</h><h>slope-intercept form</h></idx>
 		<p>
 			For the line with slope <m>m</m> and passing through <m>(0,y_0)</m>, its equation is 
 			<me>
@@ -282,7 +282,8 @@
   </subsection>
 
   <subsection xml:id="subsec-changing-linear-summary">
-  	<title>Summary</title>
+      <title>Summary</title>
+      <p>
 	  	<ul>
 	  		<li>
 	  			<p>
@@ -300,6 +301,7 @@
 	  			</p>
 	  		</li>
 	  	</ul>
+      </p>
   </subsection>
 
   <xi:include href="./exercises/ez-changing-linear.xml" />

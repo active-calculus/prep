@@ -50,17 +50,17 @@
         <ol label="a.">
           <li>
             <p>
-                <m>r(x) = \frac{-19(x+11.3)^2(x-15.1)(x-17.3)}{41(x+5.7)(x+11.3)(x-8.4)(x-15.1)}</m>
+                <m>\displaystyle r(x) = \frac{-19(x+11.3)^2(x-15.1)(x-17.3)}{41(x+5.7)(x+11.3)(x-8.4)(x-15.1)}</m>
             </p>
           </li>
           <li>
             <p>
-              <m>s(x) = \frac{-29(x^2-16)(x^2+99)(x-53)}{101(x^2-4)(x-13)^2(x+104)}</m>
+              <m>\displaystyle s(x) = \frac{-29(x^2-16)(x^2+99)(x-53)}{101(x^2-4)(x-13)^2(x+104)}</m>
             </p>
           </li>
           <li>
             <p>
-              <m>u(x) = \frac{-71(x^2 - 13x + 36)(x-58.4)(x+78.2)}{83(x+58.4)(x-78.2)(x^2 - 12x + 27)}</m>
+              <m>\displaystyle u(x) = \frac{-71(x^2 - 13x + 36)(x-58.4)(x+78.2)}{83(x+58.4)(x-78.2)(x^2 - 12x + 27)}</m>
             </p>
           </li>
         </ol>
@@ -136,22 +136,22 @@
         <ol label="a.">
           <li>
             <p>
-                <m>r(x) = -\frac{3}{x-4} + 5 </m>
+                <m>\displaystyle r(x) = -\frac{3}{x-4} + 5 </m>
             </p>
           </li>
           <li>
             <p>
-              <m>s(x) = \frac{4 - 3x}{7x - 2}</m>
+              <m>\displaystyle s(x) = \frac{4 - 3x}{7x - 2}</m>
             </p>
           </li>
           <li>
             <p>
-              <m>u(x) = \frac{2x - 1}{(x-1)^2}</m>
+              <m>\displaystyle u(x) = \frac{2x - 1}{(x-1)^2}</m>
             </p>
           </li>
           <li>
             <p>
-              <m>w(x) = \frac{11}{(x+4)^3} - 7</m>
+              <m>\displaystyle w(x) = \frac{11}{(x+4)^3} - 7</m>
             </p>
           </li>
         </ol>
@@ -179,22 +179,22 @@
         <ol label="a.">
           <li>
             <p>
-                <m>r(x) = \frac{x^2-16}{x+4}</m>
+                <m>\displaystyle r(x) = \frac{x^2-16}{x+4}</m>
             </p>
           </li>
           <li>
             <p>
-              <m>s(x) = \frac{(x-2)^2(x+3)}{x^2 - 5x - 6}</m>
+              <m>\displaystyle s(x) = \frac{(x-2)^2(x+3)}{x^2 - 5x - 6}</m>
             </p>
           </li>
           <li>
             <p>
-              <m>u(x) = \frac{(x-2)^3(x+3)}{(x^2 - 5x - 6)(x-7)}</m>
+              <m>\displaystyle u(x) = \frac{(x-2)^3(x+3)}{(x^2 - 5x - 6)(x-7)}</m>
             </p>
           </li>
           <li>
             <p>
-              <m>u(x) = \frac{x^2 + x - 6}{(x^2 + 5x + 6)(x+3)}</m>
+              <m>\displaystyle w(x) = \frac{x^2 + x - 6}{(x^2 + 5x + 6)(x+3)}</m>
             </p>
           </li>
           <li>

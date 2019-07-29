@@ -216,7 +216,7 @@
   <subsection xml:id="subsec-changing-composite-summary">
 
   	<title>Summary</title>
-
+        <p>
   	<ul>
   		<li>
   			<p>
@@ -238,7 +238,7 @@
   			</p>
   		</li>
   	</ul>
-
+        </p>
   </subsection>
 
   <xi:include href="./exercises/ez-changing-composite.xml" />

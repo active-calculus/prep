@@ -35,7 +35,6 @@
   		A mathematical model is an abstract concept through which we use mathematical language and notation to describe a phenomenon in the world around us.  One example of a mathematical model is found in <em>Dolbear's Law</em><fn>You can read more in the <url href="https://en.wikipedia.org/wiki/Dolbear%27s_law">Wikipedia entry</url> for Dolbear's Law, which has proven to be remarkably accurate for the behavior of snowy tree crickets.  For even more of the story, including a reference to this phenomenon on the popular show <em>The Big Bang Theory</em>, see <url href="https://priceonomics.com/how-to-tell-the-temperature-using-crickets/">this article.</url></fn>. <idx>Dolbear's Law</idx>  In the late 1800s, the physicist Amos Dolbear was listening to crickets chirp and noticed a pattern: how frequently the crickets chirped seemed to be connected to the outside temperature.  If we let <m>T</m> represent the temperature in degrees Fahrenheit and <m>N</m> the number of chirps per minute, we can summarize Dolbear's observations in the following table.
   	</p>
 
-	<p>
 		<table xml:id="T-functions-Dolbear">
 			<caption>Data for Dolbear's observations.</caption>
 				<tabular>
@@ -55,8 +54,6 @@
 				    </row>				    			    
 				</tabular>
 			</table>		
-	</p>
-
 	<p>
 		For a mathematical model, we often seek an algebraic formula that captures observed behavior accurately and can be used to predict behavior not yet observed.  For the data in <xref ref="T-functions-Dolbear">Table</xref>, we observe that each of the ordered pairs in the table make the equation 
 		<men xml:id="eq-functions-Dolbear">
@@ -376,9 +373,11 @@
 
 	<definition xml:id="def-function-graph">
 		<idx><h>function</h><h>graph</h></idx>
+                <statement>
 		<p>
 			Let <m>F : A \to B</m>, where <m>A</m> and <m>B</m> are each collections of real numbers.  The <term>graph</term> of <m>F</m> is the collection of all ordered pairs <m>(x,y)</m> that satisfy <m>y = F(x)</m>.
 		</p>
+                </statement>
 	</definition>
 
 	<p>
@@ -389,7 +388,8 @@
 
   <subsection xml:id="subsec-changing-functions-models-summary">
   	<title>Summary</title>
-	  	<ul>
+        <p>
+	<ul>
 	  		<li>
 	  			<p>
 	  				A function is a process that generates a relationship between two collections of quantities.  The function associates each member of a collection of input values with one and only one member of the collection of output values.  A function can be described or defined by words, by a table of values, by a graph, or by a formula.
@@ -400,7 +400,8 @@
 	  				Functions may be viewed as mathematical objects worthy of study for their own sake and also as models that represent physical phenomena in the world around us.  Every function or model has a domain (the set of possible or allowable input values), a codomain (the set of possible output values), and a range (the set of all actual output values).  Both the codomain and range depend on the domain.  For an abstract function, the domain is usually viewed as the largest reasonable collection of input values; for a function that models a physical phenomenon, the domain is usually determined by the context of possibilities for the input in the phenomenon being considered.
 	  			</p>
 	  		</li>
-	  	</ul>
+	</ul>
+        </p>
   </subsection>
 
   <xi:include href="./exercises/ez-changing-functions.xml" />

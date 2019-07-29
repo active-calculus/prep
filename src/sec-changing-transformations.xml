@@ -149,7 +149,7 @@
   	<title>Vertical stretches and reflections</title>
 
   	<p>
-  		So far, we have seen the possible effects of adding a constant value to function output <dash><m>f(x)+a</m></dash> and adding a constant value to function input <dash /> <m>f(x+b)</m>.  Each of these actions results in a translation of the function's graph (either vertically or horizontally), but otherwise leaving the graph the same.  Next, we investigate the effects of multiplication the function's output by a constant.
+  		So far, we have seen the possible effects of adding a constant value to function output <mdash/><m>f(x)+a</m><mdash/> and adding a constant value to function input <mdash/> <m>f(x+b)</m>.  Each of these actions results in a translation of the function's graph (either vertically or horizontally), but otherwise leaving the graph the same.  Next, we investigate the effects of multiplication the function's output by a constant.
   	</p>
 
   	<example xml:id="ex-transformations-vert-stretch">
@@ -197,7 +197,7 @@
 	<figure xml:id="F-transformations-vertical-scaling">
 		<caption>Interactive vertical scaling demonstration (in the HTML version only).</caption>
 
-		<interactive xml:id="I-transformations-vertical-scaling" platform="javascript" width="75%" aspect="4:5" source = "interactives/figures.js interactives/transformationsS.js" preview="images/transformations-interactive-S-static.jpg">
+		<interactive xml:id="I-transformations-vertical-scaling" platform="javascript" width="75%" aspect="4:5" source = "interactives/figures.js interactives/transformationsS.js" preview="images/transformations-interactive-S-static.png">
 			<slate xml:id="sslider" aspect="4:1" surface="canvas" />
 			<slate xml:id="stretching" aspect="4:4" surface="canvas" />
 			<instructions>
@@ -212,7 +212,7 @@
   		We summarize and generalize our observations from <xref ref="ex-transformations-vert-stretch">Example</xref> and <xref ref="F-transformations-vertical-scaling">Figure</xref> as follows.
   	</p>
 
-  	<assemblage xref="asm-transformations-vertical-stretch">
+  	<assemblage xml:id="asm-transformations-vertical-stretch">
   		<title>Vertical Scaling of a Function</title>
   		<idx><h>transformation of a function</h><h>vertical scaling</h></idx>
   		<p>

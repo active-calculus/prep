@@ -29,7 +29,7 @@
 				<image source="images/tandem-filled-aquarium" />
 			</figure>			
 		</sidebyside>
-		
+		<p>
 		<ol label="a.">
 			<li>
 				<p>
@@ -52,5 +52,6 @@
 				</p>
 			</li>
 		</ol>
+                </p>
 	</statement>
 </exploration>

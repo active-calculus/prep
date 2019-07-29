@@ -44,18 +44,14 @@
 				</li>
 				<li>
 					<p>
-						<sidebyside>
-							<p>
 								Finally, how do you expect the graph of <m>F(t) = 42 + 30(0.95)^{t}</m> to appear?
             					Why?  First sketch a rough graph without graphing technology, and then use technology to check your thinking
             					and report an accurate, labeled graph on the axes provided in <xref ref="F-modeling-act-blank-axes-soda">Figure</xref>.
 							</p>
 							<figure xml:id="F-modeling-act-blank-axes-soda">
 								<caption>Axes for plotting <m>F</m>.</caption>
-								<image source="images/modeling-F-t-blank-axes" />
+								<image width="50%" source="images/modeling-F-t-blank-axes" />
 							</figure>
-						</sidebyside>
-					</p>
 				</li>
 				<li>
 					<p>

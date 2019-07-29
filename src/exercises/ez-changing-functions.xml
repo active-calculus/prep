@@ -72,9 +72,9 @@
           </li>
           
           <li>
-            
+            <p>
               It's possible to show that the formula for the function <m>g</m> is <m>g(t) = \left( \frac{t}{\pi} \right)^{1/3}</m>.  Use a computational device to generate two plots:  on the axes at left, the graph of the model <m>h = g(t) = \left( \frac{t}{\pi} \right)^{1/3}</m> on the domain that you decided in (c); on the axes at right, the graph of the abstract function <m>y = p(x) = \left( \frac{t}{\pi} \right)^{1/3}</m> on a wider domain than that of <m>g</m>.  What are the domain and range of <m>p</m> and how do these differ from those of the physical model <m>g</m>?
-            
+            </p>
 
             <sidebyside width="50%">
               <image source="images/tandem-h-t-blank-axes" />
@@ -102,7 +102,7 @@
   <exercise xml:id="ez-functions-velocity">
     <statement>
       <p>
-        A person is taking a walk along a straight path.  Their velocity, <m>v</m> (in feet per second), which is a function of time <m>t</m> (in seconds), is given by the following graph.
+        A person is taking a walk along a straight path.  Their velocity, <m>v</m> (in feet per second), which is a function of time <m>t</m> (in seconds), is given by the graph in <xref ref="F-ez-functions-velocity">Figure</xref>.
       </p>
 
       <figure xml:id="F-ez-functions-velocity">
