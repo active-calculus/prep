@@ -275,7 +275,7 @@
   <preface xml:id="preface-for-instructors">
     <title>Instructors!  Read this!</title>
     <p>
-      This book is different.  Before you read further, first read <xref ref="preface-for-students" text="title"><q>Students! Read this!</q></xref> as well as <xref ref="preface-our-goals" text="title"><q>Our Goals</q></xref>.
+      This book is different.  Before you read further, first read <xref ref="preface-for-students" text="custom"><q>Students! Read this!</q></xref> as well as <xref ref="preface-our-goals" text="custom"><q>Our Goals</q></xref>.
     </p>
 
     <p>
