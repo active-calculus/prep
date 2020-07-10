@@ -144,7 +144,6 @@
 
 	<assemblage xml:id="asm-trig-right-SOH-CAH">
 		<title>Ratios in right triangles</title>
-		<p>
 			<sidebyside widths="60% 40%">
 				<p>
 					In a right triangle where one of the non-right angles is <m>\theta</m>, and <q>adj</q> denotes the length of the leg adjacent to <m>\theta</m>, <q>opp</q> the length the side opposite <m>\theta</m>, and <q>hyp</q> the length of the hypotenuse,
@@ -156,7 +155,6 @@
 				<image source="images/right-triangle-SOH-CAH" width="50%" />
 
 			</sidebyside>
-		</p>
 	</assemblage>
 
 	<xi:include href="./activities/act-trig-right-SOH-CAH.xml" />

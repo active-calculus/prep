@@ -339,7 +339,8 @@
 
   <subsection>
   	<title>Summary</title>
-  	 <ul>
+	<p>
+  	<ul>
   		<li>
   			<p>
   				We say that a function is exponential whenever its algebraic form is <m>f(t) = ab^t</m> for some positive constants <m>a</m> and <m>b</m> where <m>b \ne 1</m>.  (Technically, the formal definition of an exponential function is one of form <m>f(t) = b^t</m>, but in our everyday usage of the term <q>exponential</q> we include vertical stretches of these functions and thus allow <m>a</m> to be any positive constant, not just <m>a = 1</m>.)
@@ -387,6 +388,7 @@
   			</p>
   		</li>
   	</ul>
+	</p>
   </subsection>
 
   <xi:include href="./exercises/ez-exp-growth.xml" />

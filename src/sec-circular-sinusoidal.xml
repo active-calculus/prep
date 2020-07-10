@@ -191,7 +191,7 @@
 
   <subsection xml:id="subsec-circular-sinusoidal-summary">
   	<title>Summary</title>
-
+	<p>
 	<ul>
   		<li>
   			<p>
@@ -217,7 +217,7 @@
   			</p>
   		</li>
   	</ul>
-
+	</p>
   </subsection>
 
   <xi:include href="./exercises/ez-circular-sinusoidal.xml" />
