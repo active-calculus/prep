@@ -113,25 +113,17 @@ pg:
 
 apc-extraction:
 	install -d $(WWOUT)
-	-rm $(WWOUT)/webwork-extraction.xml
+	-rm $(WWOUT)/webwork-representations.ptx
 	-rm $(WWOUT)/webwork-*-image*
-	PYTHONWARNINGS=module $(MB)/script/mbx -v -c webwork -d $(WWOUT) -s $(SERVER) $(MAINFILE)
+	PYTHONWARNINGS=module $(MB)/pretext/pretext -c webwork -d $(WWOUT) -s $(SERVER) $(MAINFILE)
 	cd $(WWOUT); \
 	gif2png -O *.gif
-
-#  Make a new PTX file from the source tree, with webwork elements replaced
-#  by the webwork-reps from webwork-extraction.xml. (So run the above at
-#  least once first.) Subsequent templates are applied to the result.
-
-apc-merge:
-	cd $(WWOUT); \
-	xsltproc -xinclude  --stringparam webwork.extraction $(WWOUT)/webwork-extraction.xml $(MBXSL)/pretext-merge.xsl $(MAINFILE) > apc-merge.ptx
 
 #  HTML output 
 #  Output lands in the subdirectory:  $(HTMLOUT)
 #    Remove the entire $(HTMLOUT)/knowl directory because of how PTX now
 #    seems to make a knowl for everything and rm throws an error.
-html:  apc-merge 
+html:
 	install -d $(HTMLOUT)
 	-rm -rf $(HTMLOUT)/knowl
 	install -d $(HTMLOUT)/knowl
@@ -146,7 +138,7 @@ html:  apc-merge
 	cp -a $(IMAGESSRC) $(HTMLOUT)
 	cp -a $(PRJSRC)/interactives $(HTMLOUT)
 	cd $(HTMLOUT); \
-	xsltproc -xinclude $(MBUSR)/apc-html.xsl $(WWOUT)/apc-merge.ptx
+	xsltproc -xinclude -stringparam publisher $(PRJ)/pub/html.xml $(MBUSR)/apc-html.xsl $(MAINFILE)
 
 # make all the image files in svg format
 images:

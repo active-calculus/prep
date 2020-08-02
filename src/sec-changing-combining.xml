@@ -191,7 +191,7 @@
 			    is the absolute value function: <m>A(x) = |x|</m>.
 			    We know that if <m>x \ge 0</m>, <m>|x| = x</m>, whereas if <m>x \lt 0</m>, <m>|x| = -x</m>.  
 			</p>
-                        <p>
+			<p>
 	  		<definition xml:id="def-combining-abs-val">
 	  				<idx><h>absolute value function</h></idx>
 					<statement>

@@ -40,14 +40,14 @@
       This first public offering of the text in 2019 will benefit immensely from user feedback and suggestions.  I welcome hearing from you.
     </p>
 
-  <attribution>
+<!--  <attribution>
     <line>Matt Boelkins</line>
     <line>Allendale, MI</line>
     <line>August 2019</line>
     <line>
     <email>boelkinm@gvsu.edu</email>
     </line>
-    </attribution>
+    </attribution>-->
 
   </acknowledgement>
 
@@ -275,7 +275,7 @@
   <preface xml:id="preface-for-instructors">
     <title>Instructors!  Read this!</title>
     <p>
-      This book is different.  Before you read further, first read <xref ref="preface-for-students" text="title"><q>Students! Read this!</q></xref> as well as <xref ref="preface-our-goals" text="title"><q>Our Goals</q></xref>.
+      This book is different.  Before you read further, first read <xref ref="preface-for-students" text="custom"><q>Students! Read this!</q></xref> as well as <xref ref="preface-our-goals" text="custom"><q>Our Goals</q></xref>.
     </p>
 
     <p>
