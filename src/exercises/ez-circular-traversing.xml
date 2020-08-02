@@ -58,7 +58,7 @@
     </sidebyside>
 
     <p>
-      Recall that in <xref ref="act-circular-traversing-2nd-ex">Activity</xref> we identified the exact and approximate vertical coordinates of all <m>8</m> noted points on the unit circle.  In addition, recall that the radius of the circle is <m>r = \frac{8}{2\pi} \approx 1.2732</m>.
+      Recall that in <xref ref="act-circular-traversing-2nd-ex">Activity</xref> we identified the exact and approximate vertical coordinates of all <m>8</m> noted points on the circle.  In addition, recall that the radius of the circle is <m>r = \frac{8}{2\pi} \approx 1.2732</m>.
     </p>
 
     <p>
@@ -74,7 +74,7 @@
           </p>
 
           <table xml:id="T-act-circular-traversing-2nd-ex-horiz">
-            <caption>Data for <m>h</m> as a function of <m>d</m>.</caption>
+            <caption>Data for <m>k</m> as a function of <m>d</m>.</caption>
             <tabular halign="center">
               <row bottom="minor">
                 <cell><m>d</m></cell>
