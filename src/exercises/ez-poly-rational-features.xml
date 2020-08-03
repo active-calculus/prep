@@ -43,7 +43,7 @@
   <exercise xml:id="ez-poly-rational-features-1">
     <statement>
       <p>
-        For each of the following rational functions, determine, with justification, the exact locations of all (a) horizontal asymptotes, (b) vertical asymptotes, (c) zeros, and (d) holes of the function.  Clearly show your work and thinking.
+        For each of the following rational functions, determine, with justification, the exact locations of all (i) horizontal asymptotes, (ii) vertical asymptotes, (iii) zeros, and (iv) holes of the function.  Clearly show your work and thinking.
       </p>
 
       <p>
@@ -252,7 +252,7 @@
           </li>
           <li>
             <p>
-              Finally, let <m>h(x) = x^3</m> and <m>C(x)</m> be the average rate of change of <m>C</m> on <m>[1,x]</m>.  Respond to prompts (a) - (d) but this time for the function <m>C</m> instead of <m>A</m>.
+              Finally, let <m>h(x) = x^4</m> and <m>C(x)</m> be the average rate of change of <m>C</m> on <m>[1,x]</m>.  Respond to prompts (a) - (d) but this time for the function <m>C</m> instead of <m>A</m>.
             </p>
           </li>
         </ol>

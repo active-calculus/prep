@@ -95,8 +95,7 @@
   	</p>
 
   	<assemblage xml:id="asm-polynomials-fundamental-theorem">
-  		<idx><h>Fundamental Theorem of Algebra</h></idx>
-  		<title>The Fundamental Theorem of Algebra</title>
+  		<!-- <title>The Fundamental Theorem of Algebra</title> -->
  		<p>
  			For any degree <m>n</m> polynomial <m>p(x) = a_0 + a_1 x + \cdots + a_{n-1}x^{n-1} + a_n x^n</m>, has at most <m>n</m> real zeros.<fn>We can actually say even more:  if we allow the zeros to be complex numbers, then every degree <m>n</m> polynomial has <em>exactly</em> <m>n</m> zeros, provided we count zeros according to their multiplicity.  For example, the polynomial <m>p(x) = (x-1)^2 = x^2 - 2x + 1</m> because it has a zero of multiplicity two at <m>x = 1</m>.</fn>
  		</p>

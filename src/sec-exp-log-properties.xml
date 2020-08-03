@@ -157,7 +157,7 @@
 				</m>.
 				Both <m>\ln(3)</m> and <m>\ln \left( \frac{6}{7} \right)</m> are simply numbers, and thus we conclude that
 				<me>
-					t = \frac{\ln(3)}{\ln \left( \frac{6}{7} \right)}
+					t = \frac{\ln \left( \frac{6}{7} \right)}{\ln(3)}
 				</me>.
 			</p>
 		</solution>

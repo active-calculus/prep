@@ -163,13 +163,13 @@
   	<p>
   		We can think of the natural logarithm, <m>\ln(y)</m>, as the <q>base-<m>e</m> logarithm</q>.  For instance,
   		<me>
-  			\ln(e^2) = 2
+  			\ln(e^{-1}) = -1
   		</me>
   		and
   		<me>
-  			e^{\ln(-1)} = -1
+  			e^{\ln(2)} = 2
   		</me>.
-  		The former equation is true since <q>the power to which we raise <m>e</m> to get <m>e^2</m> is <m>2</m></q>; the latter equation is true since <q>when we raise <m>e</m> to the power to which we raise <m>e</m> to get <m>-1</m>, we get <m>-1</m></q>.  The key relationships between the natural exponential and the natural logarithm function are investigated in <xref ref="act-exp-log-natural">Activity</xref>.
+  		The former equation is true since <q>the power to which we raise <m>e</m> to get <m>e^{-1}</m> is <m>-1</m></q>; the latter equation is true since <q>when we raise <m>e</m> to the power to which we raise <m>e</m> to get <m>2</m>, we get <m>2</m></q>.  The key relationships between the natural exponential and the natural logarithm function are investigated in <xref ref="act-exp-log-natural">Activity</xref>.
   	</p>
 
   	<xi:include href="./activities/act-exp-log-natural.xml" />
