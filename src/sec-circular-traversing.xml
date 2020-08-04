@@ -144,7 +144,7 @@
 	</p>
 
 	<figure xml:id="F-traversing-first-example-graph">
-		<caption>The height, <m>h</m>, of a point traversing a circle of radius <m>24</m> as a function of distance, <m>d</m>, traversed around the circle.</caption>
+		<caption>The height, <m>h</m>, of a point traversing a circle of circumference <m>24</m> as a function of distance, <m>d</m>, traversed around the circle.</caption>
 		<image source="images/traversing-first-example-graph" width="80%" />
 	</figure>
 

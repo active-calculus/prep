@@ -120,11 +120,11 @@
 	</p>
 
 	<p>
-		The Celcius and Fahrenheit temperature scales are connected by a linear function.  Indeed, the function that converts Fahrenheit to Celcius is
+		The Celsius and Fahrenheit temperature scales are connected by a linear function.  Indeed, the function that converts Fahrenheit to Celsius is
         <me>
         	C = G(F) = \frac{5}{9}(F-32)
         </me>.
-        For instance, a Fahrenheit temperature of <m>32</m> degrees corresponds to <m>C = G(32) = 0</m> degrees Celcius.
+        For instance, a Fahrenheit temperature of <m>32</m> degrees corresponds to <m>C = G(32) = 0</m> degrees Celsius.
 	</p>
 
 	<xi:include href="./activities/act-changing-composite-crickets-celsius.xml" />
@@ -154,7 +154,7 @@
 	  </sidebyside>
 
 	  <p>
-	    To think about the interval <m>[a,b]</m> shrinking while <m>a</m> stays fixed, we often change our perspective and think of <m>b</m> as <m>b = a + h</m>, where <m>h</m> measures the horizontal differene from <m>b</m> to <m>a</m>.  This allows us to eventually think about <m>h</m> getting closer and closer to <m>0</m>, and in that context we consider the equivalent expression
+	    To think about the interval <m>[a,b]</m> shrinking while <m>a</m> stays fixed, we often change our perspective and think of <m>b</m> as <m>b = a + h</m>, where <m>h</m> measures the horizontal difference from <m>b</m> to <m>a</m>.  This allows us to eventually think about <m>h</m> getting closer and closer to <m>0</m>, and in that context we consider the equivalent expression
 	    <me>
 	      AV_{[a,a+h]} = \frac{f(a+h) - f(a)}{a+h-a} = \frac{f(a+h) - f(a)}{h} 
 	    </me>

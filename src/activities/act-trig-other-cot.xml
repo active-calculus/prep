@@ -28,7 +28,7 @@
 						Complete <xref ref="T-cotangent-values">Table</xref> and <xref ref="T-cotangent-values-2">Table</xref> to determine the exact values of the cotangent function at the special points on the unit circle.  Enter <q>u</q> for any value at which <m>r(t) = \cot(t)</m> is undefined.
 					</p>						
     				<table xml:id="T-cotangent-values">
-						<caption>Values of the sine function at special points on the unit circle.</caption>
+						<caption>Values of the sine, cosine, and tangent functions at special points on the unit circle.</caption>
 						<tabular>
 							<row bottom="minor" halign="center">
 								<cell><m>t</m></cell>
@@ -93,7 +93,7 @@
 						</tabular>
 					</table>
 					<table xml:id="T-cotangent-values-2">
-						<caption>Values of the sine function at special points on the unit circle.</caption>
+						<caption>Values of the sine, cosine, and tangent functions at special points on the unit circle.</caption>
 						<tabular>
 							<row bottom="minor" halign="center">
 								<cell><m>t</m></cell>		
@@ -126,7 +126,7 @@
 								<cell><m>\frac{1}{2}</m></cell>
 								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
 								<cell><m>\frac{\sqrt{3}}{2}</m></cell>
-								<cell><m>0</m></cell>
+								<cell><m>1</m></cell>
 							</row>							
 							<row bottom="minor" halign="center">
 								<cell><m>\tan(t)</m></cell>

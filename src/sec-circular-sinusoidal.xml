@@ -73,8 +73,12 @@
   	</p>
 
   	<p>
-  		While the sine and cosine functions extend infinitely in either direction, it's natural to think of the point <m>(0,1)</m> as the <q>starting point</q> of the cosine function, and similarly the point <m>(0,0)</m> as the starting point of the sine function.  We will refer to the corresponding points <m>(b,a+c)</m> and <m>(b,c)</m> on <m>k(t) = a\cos(t-b) + c</m> and <m>h(t) = a\sin(t-b) + c</m> as <term>anchor points</term>. <idx><h>sinusoidal function</h><h>anchor point</h></idx>  Anchor points, along with other information about a circular function's amplitude, midline, and period help us to determine a formula for a function that fits a given situation.
+  		While the sine and cosine functions extend infinitely in either direction, it's natural to think of the point <m>(0,1)</m> as the <q>starting point</q> of the cosine function, and similarly the point <m>(0,0)</m> as the starting point of the sine function.  We will refer to the corresponding point <m>(b,a+c)</m> on <m>k(t) = a\cos(t-b) + c</m>, and <m>(b,c)</m> on <m>h(t) = a\sin(t-b) + c</m>, respectively, as the <term>anchor point</term>. <idx><h>sinusoidal function</h><h>anchor point</h></idx>  The anchor point, along with other information about a circular function's amplitude, midline, and period help us to determine a formula for a function that fits a given situation.
   	</p>
+
+    <p>
+      For example, in <xref ref="F-sinusoidal-cosine-transf">Figure</xref>, the anchor point <m>(b,a+c)</m> on <m>y = a\cos(t-b)+c</m> corresponds to the <q>starting point</q> <m>(0,1)</m> on <m>y = \cos(t)</m>.
+    </p>
 
   	<xi:include href="./activities/act-circular-sinusoidal-oscillator.xml" />
 

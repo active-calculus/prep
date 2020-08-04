@@ -61,11 +61,11 @@
 							<image source="images/unit-circle-pi-6" />
 						</figure>
 						<figure xml:id="F-unit-circle-pi-4">
-							<caption>An angle measuring <m>\frac{\pi}{6}</m> radians.</caption>
+							<caption>An angle measuring <m>\frac{\pi}{4}</m> radians.</caption>
 							<image source="images/unit-circle-pi-4" />
 						</figure>
 						<figure xml:id="F-unit-circle-pi-3">
-							<caption>An angle measuring <m>\frac{\pi}{6}</m> radians.</caption>
+							<caption>An angle measuring <m>\frac{\pi}{3}</m> radians.</caption>
 							<image source="images/unit-circle-pi-3" />
 						</figure>
 					</sidebyside>
