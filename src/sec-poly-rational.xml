@@ -230,7 +230,7 @@
 			</me>
 			and therefore <m>h = \frac{10 - 2\pi r^2}{2 \pi r}</m>.  Since the cylinder's volume is <m>V = \pi r^2 h</m>, it follows that
 			<me>
-				V = \pi r^2 h = \pi r^2 \left( \frac{10 - 2\pi r^2}{2 \pi r} \right) = r(10 - 2\pi r^2)
+				V = \pi r^2 h = \pi r^2 \left( \frac{10 - 2\pi r^2}{2 \pi r} \right) = r(5 - \pi r^2)
 			</me>,
 			which is a polynomial function of <m>r</m>.
 		</p>
