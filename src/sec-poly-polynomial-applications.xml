@@ -69,7 +69,7 @@
     </sidebyside>
 
     <p>
-      One way to remember the formula for the area of a rectangular box is <q>area of the base times the height</q>.  This principle extends to other three-dimensional shapes that have constant cross-sectional area.  For instance, the volume of a circular cylinder with radius <m>r</m> and height <m>h</m> is
+      One way to remember the formula for the volume of a rectangular box is <q>area of the base times the height</q>.  This principle extends to other three-dimensional shapes that have constant cross-sectional area.  For instance, the volume of a circular cylinder with radius <m>r</m> and height <m>h</m> is
       <men xml:id="eq-polynomial-applications-volume-cylinder">
         V = \pi r^2 h
       </men> <idx><h>circular cylinder</h><h>volume</h></idx>  <idx><h>volume</h><h>cylinder</h></idx>

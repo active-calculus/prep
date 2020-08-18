@@ -170,7 +170,7 @@
 	</p>
 
 	<p>
-		For the decreasing function <m>q(t) = (\frac{1}{2})^t</m>, we see that the output <m>q(t)</m> is always positive but getting closer and closer to <m>0</m>.  Indeed, becasue we can make <m>2^t</m> as large as we like, it follows that we can make its reciprocal <m>\frac{1}{2^t} = (\frac{1}{2})^t</m> as small as we'd like.  We thus say that as <m>t</m> increases, <m>q(t)</m> <term>approaches <m>0</m></term>. <idx><h>approaching <m>0</m></h></idx>
+		For the decreasing function <m>q(t) = (\frac{1}{2})^t</m>, we see that the output <m>q(t)</m> is always positive but getting closer and closer to <m>0</m>.  Indeed, because we can make <m>2^t</m> as large as we like, it follows that we can make its reciprocal <m>\frac{1}{2^t} = (\frac{1}{2})^t</m> as small as we'd like.  We thus say that as <m>t</m> increases, <m>q(t)</m> <term>approaches <m>0</m></term>. <idx><h>approaching <m>0</m></h></idx>
 	</p>
 
 	<p>

@@ -31,6 +31,10 @@
   <exercise xml:id="ez-exp-temp-pop-WW4">
     <webwork source="Library/Michigan/Chap11Sec7/Q09.pg" />
   </exercise>
+
+<p>In <xref ref="ez-exp-temp-pop-WW5">Exercise</xref> below, use the following structure/formula for <m>N(t)</m>: <m>N(t)=\frac{L}{1+Ab^{-kt}}</m>.  In particular, note that when the instructions say <q>find <m>A</m></q>, this use of <q><m>A</m></q> is not in reference to carrying capacity.</p>
+
+
   <exercise xml:id="ez-exp-temp-pop-WW5">
     <webwork source="Library/Rochester/setAlgebra31LogExpApplications/infection1.pg" />
   </exercise>
