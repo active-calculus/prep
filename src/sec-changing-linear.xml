@@ -109,7 +109,7 @@
 			<p>
 				<em>Solution</em>.  Using <xref ref="E-linear-point-slope-first-take">Equation</xref> and the facts that <m>m = -\frac{1}{4}</m> and <m>f(-7) = -5</m> (that is, <m>x_0 = -7</m> and <m>f(x_0) = -5</m>), we have
 				<me>
-					f(x) = -5 -\frac{1}{4}(x - (-7)) = 5 - \frac{1}{4}(x+7)
+					f(x) = -5 -\frac{1}{4}(x - (-7)) = -5 - \frac{1}{4}(x+7)
 				</me>.
 			</p>
 		</statement>
