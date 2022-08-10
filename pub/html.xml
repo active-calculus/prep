@@ -1,6 +1,0 @@
-<publication>
-  <source webwork-problems="../output/webwork-extraction/webwork-representations.ptx"/>
-  <html>
-    <css colors="blue_grey" />
-  </html>
-</publication>
