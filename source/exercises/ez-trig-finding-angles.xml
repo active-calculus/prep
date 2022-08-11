@@ -61,7 +61,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               What is the angle of depression from the plane to the building when the plane is <m>7500</m> feet away from the building?  (The angle of depression is the angle that the pilot's line of sight makes with the horizontal.)
@@ -104,7 +104,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               When the balloon is <m>200</m> feet off the ground, what is the angle of elevation of the camera?
@@ -147,7 +147,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               What is the exact value of <m>\cos(\alpha)</m>?

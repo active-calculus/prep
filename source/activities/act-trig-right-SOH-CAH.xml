@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A right triangle with hypotenuse <m>7</m> and one non-right angle of measure <m>\frac{\pi}{7}</m>.

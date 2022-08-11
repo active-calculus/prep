@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Let <m>f(t) = 1 - e^{-(t-1)}</m> and <m>g(t) = \ln(t)</m>.  Plot each function on the same set of coordinate axes.  What properties do the two functions have in common?  For what properties do the two functions differ?  Consider each function's domain, range, <m>t</m>-intercept, <m>y</m>-intercept, increasing/decreasing behavior, concavity, and long-term behavior.

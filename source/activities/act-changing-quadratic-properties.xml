@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						How many quadratic functions have <m>x</m>-intercepts at <m>(-5,0)</m> and <m>(10,0)</m> and a <m>y</m>-intercept at <m>(0,-1)</m>?  Can you determine an exact formula for such a function?  If yes, do so.  If not, explain why.

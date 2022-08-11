@@ -32,7 +32,7 @@
 		</sidebyside>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Determine the exact value of <m>(f+g)(0)</m>.

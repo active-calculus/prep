@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						What is the exact value of <m>\cos(\frac{\pi}{6})</m>?  of <m>\cos(\frac{5\pi}{6})</m>? <m>\cos(-\frac{\pi}{3})</m>?

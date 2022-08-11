@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Determine the exact values of <m>A</m>, <m>M</m>, and <m>k</m> in the logistic model

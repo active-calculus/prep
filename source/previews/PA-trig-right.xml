@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The length of the other leg of a right triangle with hypotenuse of length <m>1</m> and one leg of length <m>\frac{3}{5}</m>.

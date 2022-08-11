@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 		        <li>
 		          <p>
 		            In a circle of radius <m>11</m>, the arc length intercepted by a central angle of <m>\frac{5\pi}{3}</m>.

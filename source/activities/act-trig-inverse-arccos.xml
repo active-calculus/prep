@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a." cols="2">
+			<ol marker="a." cols="2">
 				<li>
 					<p>
 						<m>\arccos(\frac{1}{2})</m>

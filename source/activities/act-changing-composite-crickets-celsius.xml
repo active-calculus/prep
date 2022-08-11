@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Determine a formula for the new function <m>H = (G \circ D)</m> that depends only on the variable <m>N</m>.

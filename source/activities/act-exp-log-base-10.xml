@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a." cols="2">
+			<ol marker="a." cols="2">
 				<li>
 					<p>
 						<m>10^t = 0.00001</m>

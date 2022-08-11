@@ -28,7 +28,7 @@
 		</figure>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Label each of the subsequent points on the unit circle with the exact distance they lie counter-clockwise away from <m>(1,0)</m>; write each fraction in lowest terms.

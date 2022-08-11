@@ -25,7 +25,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Recall that the circumference, <m>C</m>, of a circle is connected to the circle's radius, <m>r</m>, by the formula <m>C = 2\pi r</m>.  What is the radius of the ferris wheel?  How high is the highest point on the ferris wheel?

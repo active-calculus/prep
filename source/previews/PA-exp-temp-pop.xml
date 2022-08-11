@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The temperature of a warming object in an oven is given by <m>F(t) = 275 - 203e^{-kt}</m>, and we know that the object's  temperature after <m>20</m> minutes is <m>F(20) = 101</m>.  Determine the exact value of <m>k</m>.

@@ -28,7 +28,7 @@
 -->
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Reasoning algebraically, for what values of <m>x</m> is <m>p(x) = 0</m>?

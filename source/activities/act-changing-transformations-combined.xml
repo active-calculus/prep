@@ -32,7 +32,7 @@
 		</sidebyside>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Sketch an accurate graph of the transformation <m>y = p(x) = -\frac{1}{2}f(x-1)+2</m>.  Write at least one sentence to explain how you developed the graph of <m>p</m>, and identify the point on <m>p</m> that corresponds to the original point <m>(-2,2)</m> on the graph of <m>f</m>.

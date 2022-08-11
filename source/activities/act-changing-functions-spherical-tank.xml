@@ -27,7 +27,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						What values of <m>h</m> make sense to consider in the context of this function?  What values of <m>V</m> make sense in the same context?

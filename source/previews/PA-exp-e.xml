@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						By experimenting with the value of <m>k</m>, find a value of <m>k</m> so that the graph of <m>p(t) = f(kt) = 2^{kt}</m> appears to align with the graph of <m>g(t) = 3^t</m>.   What is the value of <m>k</m>?  

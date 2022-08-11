@@ -25,7 +25,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Determine <m>I(0)</m>, <m>I(1)</m>, <m>I(2)</m>, and <m>I(3)</m>.

@@ -25,7 +25,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Note that we can multiply the formula for <m>r</m> by the form of <m>1</m> given by <m>1 = \frac{\frac{1}{x^2}}{\frac{1}{x^2}}</m>.  Do so, and distribute and simplify as much as possible in both the numerator and denominator to write <m>r</m> in a different algebraic form.

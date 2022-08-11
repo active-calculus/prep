@@ -55,7 +55,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               <m>f(t) = (r+s)(t)</m>
@@ -118,7 +118,7 @@
       </sidebyside>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Determine a piecewise formula for the function <m>y = s(t)</m> that is valid for all real numbers <m>t</m>.
@@ -134,7 +134,7 @@
               Determine each of the following quantities or explain why they are not defined.
             </p>
             <p>
-            <ol label="i." cols="2">
+            <ol marker="i." cols="2">
               <li>
                 <p>
                   <m>(s \cdot g)(1)</m>
@@ -239,7 +239,7 @@
             </li>
           </ul>
 
-          <ol label="a.">
+          <ol marker="a.">
             <li>
               <p>
                 Determine the time the swimmer exits the water.

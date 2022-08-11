@@ -25,7 +25,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 		        <li>
 		          <p>
 		            Describe how changing the value of <m>a</m> impacts the graph of <m>q</m>.

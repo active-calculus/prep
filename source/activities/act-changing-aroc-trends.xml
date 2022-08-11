@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-	      <ol label="a.">
+	      <ol marker="a.">
 	        <li>
 	          <p>
 	            Consider the function <m>q(x) = 4-(x-2)^2</m>.

@@ -58,7 +58,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Let <m>G(t)</m> denote the area of Grinnell Glacier in acres in year <m>t</m>,
@@ -118,7 +118,7 @@
       </figure>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Determine the values of <m>a</m> and <m>b</m> exactly.
@@ -186,7 +186,7 @@
       </table>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Assume that the data in the table represents the overall trend of the behavior of <m>F</m>.  Is <m>F</m> linear, exponential, or neither?  Why?
@@ -230,7 +230,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Find a formula for <m>A</m> in the form <m>A(t) = ab^t</m>, where you determine the values of <m>a</m> and <m>b</m> exactly.

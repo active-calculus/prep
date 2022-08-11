@@ -104,7 +104,7 @@
 		</sidebyside>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Determine <m>AV_{[2,2.25]}</m>, <m>AV_{[2.25,2.5]}</m>, <m>AV_{[2.5,2.75]}</m>, and <m>AV_{[2.75,3]}</m>.  What do these four values tell us about how the weight is moving on the interval <m>[2,3]</m>?

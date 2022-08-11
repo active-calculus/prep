@@ -35,7 +35,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               What is the numerical value of the soda's initial temperature?  What is the value of <m>F(0)</m> in terms of <m>a</m>, <m>b</m>, and <m>c</m>?  What do these two observations tell us?

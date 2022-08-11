@@ -54,7 +54,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               <m>\displaystyle f(x) = \frac{17x^2 + 34}{19x^2 - 76}</m>
@@ -97,7 +97,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Draw a labeled picture of the box with <m>x</m> as the length of the shorter side of the box's base and <m>h</m> as its height.

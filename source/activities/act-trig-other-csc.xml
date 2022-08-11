@@ -26,7 +26,7 @@
 		</figure>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Complete <xref ref="T-cosecant-values">Table</xref> and <xref ref="T-cosecant-values-2">Table</xref> to determine the exact values of the cosecant function at the special points on the unit circle.  Enter <q><m>u</m></q> for any value at which <m>q(t) = \csc(t)</m> is undefined.

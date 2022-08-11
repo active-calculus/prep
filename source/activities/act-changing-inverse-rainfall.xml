@@ -24,7 +24,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Compute <m>g(3)</m> and write a complete sentence to explain its meaning in the given context, including units.

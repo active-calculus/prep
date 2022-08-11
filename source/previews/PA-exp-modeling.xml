@@ -29,7 +29,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Set <m>b = 1.1</m> and explore the effects of changing the values of <m>a</m> and <m>c</m>.  Write several sentences to summarize your observations.

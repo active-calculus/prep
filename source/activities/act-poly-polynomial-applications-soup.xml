@@ -25,7 +25,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Use the formula for the surface area of a cylinder and the given constraint that the can's surface area is <m>60</m> square inches to write an equation that connects the radius <m>r</m> and height <m>h</m>.

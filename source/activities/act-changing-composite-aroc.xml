@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 		        <li>
 		          <p>
 		            Compute <m>f(1+h)</m> and expand and simplify the result as much as possible by combining like terms.

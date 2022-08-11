@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Consider a right triangle with legs of length <m>11</m> and <m>13</m>.  What are the measures

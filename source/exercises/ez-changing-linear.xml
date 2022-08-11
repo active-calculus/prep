@@ -71,7 +71,7 @@
       </table>
       
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Why is it reasonable to say that the number of occupied apartments is a linear function of rent?
@@ -129,7 +129,7 @@
       </figure>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Determine formulas for both <m>A = f(t)</m> and <m>D = g(t)</m>.
@@ -182,7 +182,7 @@
       </figure>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
            <li>
              <p>
                How much water is in the tank at <m>t = 0</m> when the tank is completely full?

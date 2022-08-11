@@ -238,7 +238,7 @@
   			</p>
 
   			<p>
-  				<ol label="i.">
+  				<ol marker="i.">
   					<li>
   						<p>
   							For any <m>y</m> such that <m>-1 \le y \le 1</m>, the arccosine of <m>y</m> (denoted <m>\arccos(y)</m>) is the angle <m>t</m> in the interval <m>[0,\pi]</m> such that <m>\cos(t) = y</m>.  That is, <m>t</m> is the angle whose cosine is <m>y</m>. 

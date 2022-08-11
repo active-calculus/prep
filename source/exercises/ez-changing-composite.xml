@@ -60,7 +60,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Let functions <m>f</m> and <m>g</m> be given by the graphs in <xref ref="F-composite-ez-f">Figure</xref> and <xref ref="F-composite-ez-g"/>.  An open circle means there is not a point at that location on the graph.  For instance, <m>f(-1) = 1</m>, but <m>f(3)</m> is not defined.
@@ -177,7 +177,7 @@
       </p>
       <p>
 
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Solve the equation <m>F = 40 + \frac{1}{4}N</m> for <m>N</m> in terms of <m>F</m>.
@@ -231,7 +231,7 @@
         For each of the following functions, find two simpler functions <m>f</m> and <m>g</m> such that the given function can be written as the composite function <m>g \circ f</m>.
       </p>
       <p>
-        <ol label="a." cols="2">
+        <ol marker="a." cols="2">
           <li>
             <p>
               <m>h(x) = (x^2 + 7)^3</m>
@@ -266,7 +266,7 @@
         A spherical tank has radius <m>4</m> feet.  The tank is initially empty and then begins to be filled in such a way that the height of the water rises at a constant rate of <m>0.4</m> feet per minute.  Let <m>V</m> be the volume of water in the tank at a given instant, and <m>h</m> the depth of the water at the same instant; let <m>t</m> denote the time elapsed in minutes since the tank started being filled.
       </p>
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Calculus can be used to show that the volume, <m>V</m>, is a function of the depth, <m>h</m>, of the water in the tank according to the function 

@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						What is the largest number of distinct points at which <m>p(x)</m> can cross the <m>x</m>-axis? 

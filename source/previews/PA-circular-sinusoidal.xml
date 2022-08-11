@@ -21,7 +21,7 @@
       		then use <em>Desmos</em> to confirm your conjectures.  For each prompt, describe the graphs of <m>g</m> and <m>h</m> as transformations of <m>f</m> and, in addition, state the amplitude, midline, and period of both <m>g</m> and <m>h</m>.
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>g(t) = 3\cos(t)</m> and <m>h(t) = -\frac{1}{4}\cos(t)</m>

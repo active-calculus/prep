@@ -35,7 +35,7 @@
     </p>
 
     <p>
-      <ol label="a." cols="2">
+      <ol marker="a." cols="2">
         <li>
           <p>
             <m>\arcsin(\frac{1}{2})</m>
@@ -108,7 +108,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               For any <m>y</m> such that <m>-1 \le y \le 1</m>, <m>\sin(\arcsin(y)) = y</m>.
@@ -161,7 +161,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               What is the domain of <m>h</m>?  The range of <m>h</m>?

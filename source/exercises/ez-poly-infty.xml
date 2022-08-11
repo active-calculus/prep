@@ -33,7 +33,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Use a computational device to compute decimal expressions for <m>f(10)</m>, <m>g(10)</m>, and <m>h(10)</m>, as well as <m>f(100)</m>, <m>g(100)</m>, and <m>h(100)</m>.  What do you observe?
@@ -82,7 +82,7 @@
       </sidebyside>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               How can we view <m>g</m> as a transformation of <m>f</m>?  Explain, and state how <m>g</m> can be expressed algebraically in terms of <m>f</m>.
@@ -133,7 +133,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Compare and contrast the graphs of <m>f</m>, <m>g</m>, and <m>h</m>.  How are they similar?  How are they different?  (There is a lot you can discuss here.) 

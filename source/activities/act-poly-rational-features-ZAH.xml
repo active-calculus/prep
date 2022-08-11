@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a." cols="2">
+			<ol marker="a." cols="2">
 				<li>
 					<p>
 						<m>\displaystyle f(x) = \frac{x^3 - 6x^2 + 5x}{x^2-1}</m>

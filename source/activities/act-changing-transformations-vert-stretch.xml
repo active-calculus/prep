@@ -32,7 +32,7 @@
 		</sidebyside>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						 On the same axes as the plot of <m>y = r(x)</m>, sketch the following graphs:  <m>y = g(x) = 3r(x)</m> and <m>y = h(x) = \frac{1}{3}r(x)</m>.  Be sure to label several points on each of <m>r</m>, <m>g</m>, and <m>h</m> with arrows to indicate their correspondence.  In addition, write one sentence to explain the overall transformations that have resulted in <m>g</m> and <m>h</m> from <m>r</m>.

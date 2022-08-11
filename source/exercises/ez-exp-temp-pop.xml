@@ -61,7 +61,7 @@
       </sidebyside>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Make a rough sketch of how you think the temperature graph should appear.  Is the temperature function always increasing?  always decreasing?  always concave up?  always concave down?  what's its long-range behavior?
@@ -112,7 +112,7 @@
       </p>
 
       <p>
-        <ol  label="a.">
+        <ol  marker="a.">
           <li>
             <p>
               Recall we know that <m>S(0) = 5</m> and <m>S(1) = 20</m>.  In addition, assume that <m>5000</m> is the number of people who will eventually get sick.  Use this information determine the exact values of <m>A</m>, <m>M</m>, and <m>k</m> in the logistic model.
@@ -162,7 +162,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               How much salt is in the tank initially?

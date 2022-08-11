@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Using <xref ref="def-inverse-trig-arcsine">Definition</xref>, what are the domain and range of the arcsine function?

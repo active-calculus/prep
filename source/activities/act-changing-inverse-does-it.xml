@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 				      The function <m>f : S \to S</m> given by <xref ref="T-act-changing-inverse-does-it-1">Table</xref>, where <m>S = \{0, 1, 2, 3, 4 \}</m>.

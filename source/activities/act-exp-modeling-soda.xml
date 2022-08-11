@@ -26,7 +26,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Consider the simpler (parent) function <m>p(t) = (0.95)^t</m>.

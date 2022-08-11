@@ -106,7 +106,7 @@
 		</sidebyside>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Determine the period <m>p</m>, midline <m>y = m</m>, and amplitude <m>a</m> of the function <m>f</m>.

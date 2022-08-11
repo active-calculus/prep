@@ -62,7 +62,7 @@
     </p>
 
     <p>
-      <ol label="a.">
+      <ol marker="a.">
         <li>
           <p>
             What is the exact horizontal coordinate of <m>P_0</m>?  Why?
@@ -167,7 +167,7 @@
       </sidebyside>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Assume that the circle used to generate the circular function is centered at the point <m>(0,m)</m> and has radius <m>r</m>.  What are the numerical values of <m>m</m> and <m>r</m>?  Why?
@@ -210,7 +210,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               How high above the ground is the center of the ferris wheel?

@@ -57,7 +57,7 @@
 		</sidebyside>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Let <m>h(x) = f(x) + g(x)</m>.  Determine <m>h(3)</m>.

@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Suppose the car's value <m>t</m> years after its purchase is given by the function <m>V(t)</m> and that <m>V</m> is exponential with form <m>V(t) = ab^t</m>, what are the exact values of <m>a</m> and <m>b</m>?

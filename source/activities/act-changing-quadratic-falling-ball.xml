@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-	      <ol label="a.">
+	      <ol marker="a.">
 	        <li>
 	          <p>
 	            Determine a formula, <m>s(t)</m>,

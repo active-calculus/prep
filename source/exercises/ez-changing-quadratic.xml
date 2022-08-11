@@ -58,7 +58,7 @@
       </figure>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               How does the information provided enable you to find a formula for <m>f</m>?  Explain, and determine the formula.
@@ -101,7 +101,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Determine the exact location of the vertex of <m>f</m>.
@@ -209,7 +209,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               What is the balloon's exact height at <m>t = 2.4</m>?  Why?

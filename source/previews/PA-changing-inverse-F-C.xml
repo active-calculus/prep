@@ -21,7 +21,7 @@
 	</p>
 
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Show that it is possible to solve the equation <m>F = \frac{9}{5}C + 32</m> for <m>C</m> in terms of <m>F</m> and that doing so results in the equation <m>C = \frac{5}{9}(F-32)</m>.

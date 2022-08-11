@@ -52,7 +52,7 @@
       </p>
 
       <p>
-        <ol label="a." cols="3">
+        <ol marker="a." cols="3">
           <!-- WHY WILL THIS NOT DISPLAY IN TWO COLUMNS?  BIZARRE -->
           <li>
             <p>
@@ -107,7 +107,7 @@
       </p>
 
       <p>
-        <ol label="a." cols="2">
+        <ol marker="a." cols="2">
           <li>
             <p>
               <m>\cos(t + 2\pi) = \cos(t)</m>

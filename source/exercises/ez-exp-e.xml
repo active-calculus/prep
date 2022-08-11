@@ -57,7 +57,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Compute <m>A(1)</m> if interest is compounded quarterly (<m>n = 4</m>).
@@ -110,7 +110,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               For what values of <m>k</m> is <m>g</m> always increasing?  For what values of <m>k</m> is <m>g</m> always decreasing?
@@ -158,7 +158,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               What is the long-term behavior of the function <m>g(t) = e^{-0.05t}</m>?  Why?

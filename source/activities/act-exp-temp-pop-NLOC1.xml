@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 		        <li>
 		          <p>
 		            Use algebraic reasoning and your understanding of the physical situation to determine the exact values of <m>a</m>,

@@ -18,7 +18,7 @@
 	<statement>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Let <m>y = f(x) = 7 - 3x</m>.  Determine <m>AV_{[-3,-1]}</m>, <m>AV_{[2,5]}</m>, and <m>AV_{[4,10]}</m> for the function <m>f</m>.

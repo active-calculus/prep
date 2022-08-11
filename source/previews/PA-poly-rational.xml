@@ -22,7 +22,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Determine a formula for a function <m>C(q)</m> that models the cost of producing <m>q</m> grams of the drug.  What familiar kind of function is <m>C</m>?

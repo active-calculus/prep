@@ -51,7 +51,7 @@
       </figure>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Compute each of the following values exactly, or explain why they are not defined:  <m>p^{-1}(2.5)</m>, <m>p^{-1}(-2)</m>, <m>p^{-1}(0)</m>, and <m>q^{-1}(2)</m>.
@@ -100,7 +100,7 @@
           </sidebyside>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Explain why the height, <m>h</m>, of the water can be viewed as a function of <m>t</m> according to the formula <m>h= f(t) = 0.25t</m>.
@@ -166,7 +166,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               What familiar type of function is <m>H</m>?  Why must <m>H</m> have an inverse function?

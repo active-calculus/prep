@@ -28,7 +28,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						What is the height of the water when <m>t = 0</m>?  When <m>t = 1</m>? When <m>t = 2</m>?  How long will it take the tank to completely drain?  Why?

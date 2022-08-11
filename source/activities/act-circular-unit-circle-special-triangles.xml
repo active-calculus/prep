@@ -34,7 +34,7 @@
 		</sidebyside>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						For the <m>45^\circ</m>-<m>45^\circ</m>-<m>90^\circ</m> triangle with legs <m>x</m> and <m>y</m> and hypotenuse <m>1</m>, what does the fact that the triangle is isosceles tell us about the relationship between <m>x</m> and <m>y</m>?  What are their exact values?  

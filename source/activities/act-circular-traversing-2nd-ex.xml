@@ -32,7 +32,7 @@
 		</sidebyside>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						How far along the circle is the point <m>P_1</m> from <m>P_0</m>?  Why?

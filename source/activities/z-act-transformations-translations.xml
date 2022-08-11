@@ -32,7 +32,7 @@
 		</sidebyside>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						 On the same axes as the plot of <m>y = r(x)</m>, sketch the following graphs:  <m>y = g(x) = r(x) + 2</m>, <m>y = h(x) = r(x+1)</m>, and <m>y = f(x) = r(x+1) + 2</m>.  Be sure to label the point on each of <m>g</m>, <m>h</m>, and <m>f</m> that corresponds to <m>(-2,-1)</m> on the original graph of <m>r</m>.

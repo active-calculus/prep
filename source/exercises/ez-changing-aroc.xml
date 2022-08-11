@@ -75,7 +75,7 @@
       </table>      
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Determine <m>AV_{[0,5]}</m>, <m>AV_{[5,10]}</m>, and <m>AV_{[10,15]}</m>, including appropriate units.  Choose one of these quantities and write a careful sentence to explain its meaning.  Your sentence might look something like <q>On the interval <m>\ldots</m>, the temperature of the soda is <m>\ldots</m> on average by <m>\ldots</m> for each <m>1</m>-unit increase in <m>\ldots</m></q>.
@@ -129,7 +129,7 @@
       </figure>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               In everyday language,
@@ -184,7 +184,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               In everyday language, describe how you expect the height function <m>h = g(t)</m> to behave as time increases.

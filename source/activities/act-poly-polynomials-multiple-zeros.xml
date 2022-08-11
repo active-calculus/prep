@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A polynomial <m>f</m> of degree <m>10</m> whose zeros are <m>x = -12</m> (multiplicity <m>3</m>), <m>x = -9</m> (multiplicity <m>2</m>), <m>x = 4</m> (multiplicity <m>4</m>), and <m>x = 10</m> (multiplicity <m>1</m>), and <m>f</m> satisfies <m>f(0) = 21</m>.  What can you say about the values of <m>\lim_{x \to -\infty} f(x)</m> and <m>\lim_{x \to \infty} f(x)</m>?

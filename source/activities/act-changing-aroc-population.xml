@@ -73,7 +73,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Compute <m>AV_{[1990,2010]}</m> for both <m>K</m> and <m>W</m>.

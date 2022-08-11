@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A polynomial <m>p</m> of degree <m>5</m> with exactly <m>3</m> real zeros, <m>4</m> turning points, and such that <m>\lim_{x \to -\infty} p(x) = +\infty</m> and <m>\lim_{x \to \infty} p(x) = -\infty</m>.

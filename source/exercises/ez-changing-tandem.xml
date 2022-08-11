@@ -42,7 +42,7 @@
       </p> 
   
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               It is possible to use calculus to show that the total volume this tank can hold is <m>V_{\text{full}} = \pi(22 + \frac{38}{3}\sqrt{2}) \approx 119.12</m> cubic feet.  In addition, the actual height of the tank (from the bottom of the spherical base to the top of the chimney) is <m>h_{\text{full}} = \sqrt{8} + 5 \approx 7.83</m> feet.  How long does it take the tank to fill?   Why?
@@ -94,7 +94,7 @@
       </p> 
   
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               How long does it take the tank to fill?  What will the values of <m>V</m> and <m>h</m> be at the moment the tank is full?  Why?
@@ -146,7 +146,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Write several sentences that explain the how the car is being driven and how you make these conclusions from the graph.

@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The relationship between <m>x</m> and <m>y</m> in each of the graphs below (address each graph separately as a potential situation where <m>y</m> is a function of <m>x</m>).  In <xref ref="F-functions-act-is-it-1">Figure</xref>, any point on the circle relates <m>x</m> and <m>y</m>.  For instance, the <m>y</m>-value <m>\sqrt{7}</m> is related to the <m>x</m>-value <m>-3</m>.  In <xref ref="F-functions-act-is-it-2">Figure</xref>, any point on the blue curve relates <m>x</m> and <m>y</m>.  For instance, when <m>x = -1</m>, the corresponding <m>y</m>-value is <m>y = 3</m>.  An unfilled circle indicates that there is not a point on the graph at that specific location.

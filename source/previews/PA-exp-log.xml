@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Complete <xref ref="T-PA-exp-log-10s">Table</xref> to generate certain values of <m>P</m>.

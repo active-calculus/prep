@@ -41,7 +41,7 @@
       </figure>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               What is the area of one of the equilateral triangle ends as a function of <m>s</m>?
@@ -112,7 +112,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Draw several possible pictures of how the barrel might look.  For instance, what if the radius is very small?  How will the height appear in comparison?  Likewise, what happens if the height is very small?

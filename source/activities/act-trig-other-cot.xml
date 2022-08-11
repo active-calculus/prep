@@ -22,7 +22,7 @@
 
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Complete <xref ref="T-cotangent-values">Table</xref> and <xref ref="T-cotangent-values-2">Table</xref> to determine the exact values of the cotangent function at the special points on the unit circle.  Enter <q>u</q> for any value at which <m>r(t) = \cot(t)</m> is undefined.

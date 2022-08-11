@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A rational function <m>r</m> such that <m>r</m> has a vertical asymptote at <m>x = -2</m>, a zero at <m>x = 1</m>, a hole at <m>x = 5</m>, and a horizontal asymptote of <m>y = -3</m>.

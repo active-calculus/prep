@@ -26,7 +26,7 @@
 		</figure>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Using the right triangle with the <m>25^\circ</m> angle, find an equation that relates <m>x</m> and <m>h</m>.

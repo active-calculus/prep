@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Using a similar algebraic approach to our work in <xref ref="act-poly-rational-long-term-1">Activity</xref>, multiply <m>s(x)</m> by <m>1 = \frac{\frac{1}{x^2}}{\frac{1}{x^2}}</m> and hence evaluate

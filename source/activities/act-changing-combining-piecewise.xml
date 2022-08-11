@@ -22,7 +22,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Consider the function <m>p</m> defined by the following rule:

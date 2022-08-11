@@ -122,7 +122,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               We first consider the special case where <m>k = -1</m>.  Let <m>f(t) = 2t - 1</m>, and let <m>g(t) = f(-1 \cdot t) = f(-t) = -2t - 1</m>.  Plot <m>f</m> and <m>g</m> on the same coordinate axes.  How are their graphs related to one another?

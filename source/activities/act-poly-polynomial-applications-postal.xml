@@ -30,7 +30,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Label the provided picture, using <m>x</m> for the length of each side of the square end, and <m>y</m> for the other edge of the package.

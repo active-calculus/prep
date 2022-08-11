@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Solve the equation <m>F = 40 + \frac{1}{4}N</m> for <m>N</m> in terms of <m>F</m>.  Call the resulting function <m>N = E(F)</m>.

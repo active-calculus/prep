@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Write <m>10^x \cdot 10^y</m> as <m>10</m> raised to a single power.  That is, complete the equation

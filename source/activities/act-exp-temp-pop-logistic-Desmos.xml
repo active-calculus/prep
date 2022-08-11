@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 						<p>
 							Sketch a typical graph of <m>P(t)</m> on the axes provided and write several sentences to explain the effects of <m>A</m>, <m>M</m>, and <m>k</m> on the graph of <m>P</m>.

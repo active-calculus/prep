@@ -137,7 +137,7 @@
 			</p>
 
 	 			<p>
-	 				<ol label="a.">
+	 				<ol marker="a.">
 		 				<li>
 		 					<p>
 		 						if <m>n \lt m</m>, then the degree of the numerator is less than the degree of the denominator, and thus

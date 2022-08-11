@@ -18,7 +18,7 @@
 	<statement>
 		<p>
 			For each of the following functions, <em>without</em> using graphing technology, determine whether the function is
-			<ol label="i.">
+			<ol marker="i.">
 				<li>
 					<p>
 						always increasing or always decreasing;						
@@ -39,7 +39,7 @@
 		</p>
 
 		<p>
-			<ol label="a." cols="2">
+			<ol marker="a." cols="2">
 				<li>
 					<p>
 						<m>p(t) = 4372 (1.000235)^t + 92856</m>

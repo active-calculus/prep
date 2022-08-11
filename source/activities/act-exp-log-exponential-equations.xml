@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a." cols="2">
+			<ol marker="a." cols="2">
 		        <li>
 		          <p>
 		            <m>3^t = 5</m>

@@ -57,7 +57,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               <m>f(t) = 5\sec(t-\frac{\pi}{2}) + 3</m>
@@ -102,7 +102,7 @@
       </p>
 
       <p>
-        <ol label="a." cols="2">
+        <ol marker="a." cols="2">
           <li>
             <p>
               <m>\sin(\theta)</m>

@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A town's population initially has <m>28750</m> people present and then grows at a constant rate of <m>825</m> people per year.

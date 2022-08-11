@@ -47,7 +47,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
                 <m>\displaystyle r(x) = \frac{-19(x+11.3)^2(x-15.1)(x-17.3)}{41(x+5.7)(x+11.3)(x-8.4)(x-15.1)}</m>
@@ -85,7 +85,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               A rational function <m>r(x)</m> in the form <m>r(x) = \frac{k}{x-a} + b</m> so that <m>r</m> has a horizontal asymptote of <m>y = -\frac{3}{7}</m>, a vertical asymptote of <m>x = \frac{5}{2}</m>, and <m>r(0) = 4</m>.
@@ -133,7 +133,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
                 <m>\displaystyle r(x) = -\frac{3}{x-4} + 5 </m>
@@ -176,7 +176,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
                 <m>\displaystyle r(x) = \frac{x^2-16}{x+4}</m>
@@ -224,7 +224,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
                 Explain why  <m>A</m> is a rational function of <m>x</m>.

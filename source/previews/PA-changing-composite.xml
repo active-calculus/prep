@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Let <m>r(t) = p(q(t))</m>. Determine a formula for <m>r</m> that depends only on <m>t</m> and not on <m>p</m> or <m>q</m>.

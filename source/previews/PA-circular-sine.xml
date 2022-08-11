@@ -26,7 +26,7 @@
 		</figure>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						What is the exact value of <m>f( \frac{\pi}{4} )</m>? of <m>f( \frac{\pi}{3} )</m>?

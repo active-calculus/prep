@@ -58,7 +58,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Let <m>g(x) = f(x) + 5</m>.  Determine <m>AV_{[-3,-1]}</m> and <m>AV_{[2,5]}</m> for both <m>f</m> and <m>g</m>.  What do you observe?  Why does this phenomenon occur?
@@ -101,7 +101,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Consider the linear function in point-slope form given by <m>y = L(x) = -4(x-3) + 5</m>.  What is the slope of this line?  What is the most obvious point that lies on the line?
@@ -148,7 +148,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Let <m>g(x) = f(4x)</m>, <m>h(x) = f(2x)</m>, <m>k(x) = f(0.5x)</m>, and <m>m(x) = f(0.25x)</m>.  Use <em>Desmos</em> to plot these functions.  Then, sketch and label <m>g</m>, <m>h</m>, <m>k</m>, and <m>m</m> on the provided axes in <xref ref="F-ez-transformations-blank-axes">Figure</xref> along with the graph of <m>f</m>.  For each of the functions, label and identify its vertex, its <m>y</m>-intercept, and its <m>x</m>-intercepts.

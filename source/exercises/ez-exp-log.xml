@@ -47,7 +47,7 @@
       </p>
 
       <p>
-        <ol label="a." cols="2">
+        <ol marker="a." cols="2">
           <li>
             <p>
               <m>y = g(x) = e^{-0.25x}</m>
@@ -121,7 +121,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Define <m>f(t) = \log_2(t)</m> in <em>Desmos</em>.  Can you find a value of <m>k</m> for which <m>\log_2(t) = k\ln(t)</m>?  If yes, what is the value?  If not, why not?
@@ -169,7 +169,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Determine the exact time when the soda's temperature is <m>50^\circ</m>.

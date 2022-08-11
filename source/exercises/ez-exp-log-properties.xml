@@ -53,7 +53,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Suppose that a certain population initially has <m>100</m> members and doubles after <m>3</m> years.  What are the values of <m>A</m> and <m>k</m> in the model?
@@ -96,7 +96,7 @@
       </p>
 
       <p>
-        <ol label="a.">
+        <ol marker="a.">
           <li>
             <p>
               Determine the exact values of <m>A</m> and <m>k</m> in the model.

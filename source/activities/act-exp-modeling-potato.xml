@@ -24,7 +24,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						What is the numerical value of <m>F(0)</m>?

@@ -25,7 +25,7 @@
 		</p>
 
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						For what values of <m>x</m> does it appear that <m>\sin(x) \approx T_1(x)</m>?
