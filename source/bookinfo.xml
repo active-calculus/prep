@@ -25,11 +25,10 @@
 -->
 
 <cross-references text="global" />
-<covers front="images/APC-frontcover-2019.pdf" />
+<covers front="external/images/APC-frontcover-2019.pdf" />
   <initialism>APC</initialism>
 <html>
     <favicon/>
-    <baseurl href="https://activecalculus.org/prelude"/>
 </html>
 <!--
   <search>

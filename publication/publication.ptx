@@ -8,7 +8,9 @@
     <css colors="blue_grey" />
     <!-- Examples and exercises are knowlized by default -->
     <!-- We disable this behavior  -->
-    <knowl example="no" exercise-divisional="no" exercise-inline="no" />
+    <knowl example="no" exercise-divisional="no" exercise-inline="no"
+	   />
+  <baseurl href="https://activecalculus.org/prelude/" />
   </html>
   <latex sides="two" />
   <common>
