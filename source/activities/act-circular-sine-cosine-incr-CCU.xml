@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-sine-cosine-incr-CCU">
+
+	<statement>
+		<p>
+			Use <xref ref="F-sine-cosine-both">Figure</xref> to assist in answering the following questions.
+		</p>
+
+		<p>
+			<ol marker="a.">
+				<li>
+		          <p>
+		            Give an example of the largest interval you can find on which
+		            <m>f(t) = \sin(t)</m> is decreasing.
+		          </p>
+		        </li>
+		        <li>
+		          <p>
+		            Give an example of the largest interval you can find on which
+		            <m>f(t) = \sin(t)</m> is decreasing and concave down.
+		          </p>
+		        </li>
+		        <li>
+		          <p>
+		            Give an example of the largest interval you can find on which
+		            <m>g(t) = \cos(t)</m> is increasing.
+		          </p>
+		        </li>
+		        <li>
+		          <p>
+		            Give an example of the largest interval you can find on which
+		            <m>g(t) = \cos(t)</m> is increasing and concave up.
+		          </p>
+		        </li>
+		        <li>
+		        	<p>
+		        		Without doing any computation, on which interval is the average rate of change of <m>g(t) = \cos(t)</m> greater:  <m>[\pi, \pi+0.1]</m> or <m>[\frac{3\pi}{2}, \frac{3\pi}{2} + 0.1]</m>?  Why?
+		        	</p>
+		        </li>
+		        <li>
+		        	<p>
+		        		In general, how would you characterize the locations on the sine and cosine graphs where the functions are increasing or decreasingly most rapidly?
+		        	</p>
+		        </li>
+		        <li>
+		        	<p>
+		        		Thinking from the perspective of the unit circle, for which quadrants of the <m>x</m>-<m>y</m> plane is <m>\cos(t)</m> negative for an angle <m>t</m> that lies in that quadrant?
+		        	</p>
+		        </li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

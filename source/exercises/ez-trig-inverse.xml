@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-inverse">
+  
+  <exercise xml:id="ez-trig-inverse-WW1">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q07.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-inverse-WW2">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q08.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-inverse-WW3">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q09.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-inverse-WW4">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q14.pg" />
+  </exercise>
+
+  <exercise xml:id="ez-trig-inverse-values">
+    <statement>
+    <p>
+      Use the special points on the unit circle (see, for instance, <xref ref="F-circular-sine-all-16">Figure</xref>) to determine the exact values of each of the following numerical expressions.  Do so without using a computational device.
+    </p>
+
+    <p>
+      <ol marker="a." cols="2">
+        <li>
+          <p>
+            <m>\arcsin(\frac{1}{2})</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\arctan(-1)</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\arcsin(-\frac{\sqrt{3}}{2})</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\arctan(-\frac{1}{\sqrt{3}})</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\arccos(\sin(\frac{\pi}{3}))</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\cos(\arcsin(-\frac{\sqrt{3}}{2}))</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\tan(\arcsin(-\frac{\sqrt{2}}{2}))</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\arctan(\sin(\frac{\pi}{2}))</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\sin(\arcsin(-\frac{1}{2}))</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\arctan(\tan(\frac{7\pi}{4}))</m>
+          </p>
+        </li>
+      </ol>
+    </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-trig-inverse-2">
+    <statement>
+      <p>
+        For each of the following claims, determine whether the statement is true or false.  If true, write one sentence to justify your reasoning.  If false, give an example of a value that shows the claim fails.
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              For any <m>y</m> such that <m>-1 \le y \le 1</m>, <m>\sin(\arcsin(y)) = y</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              For any real number <m>t</m>, <m>\arcsin(\sin(t)) = t</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              For any real number <m>t</m>, <m>\arccos(\cos(t)) = t</m>.
+            </p>
+          </li> 
+          <li>
+            <p>
+              For any <m>y</m> such that <m>-1 \le y \le 1</m>, <m>\cos(\arccos(y)) = y</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              For any real number <m>y</m>, <m>\tan(\arctan(y)) = y</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              For any real number <m>t</m>, <m>\arctan(\tan(t)) = t</m>.
+            </p>
+          </li>         
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-trig-inverse-3">
+    <statement>
+      <p>
+        Let's consider the composite function <m>h(x) = \cos(\arcsin(x))</m>.  This function makes sense to consider since the arcsine function produces an angle, at which the cosine function can then be evaluated.  In the questions that follow, we investigate how to express <m>h</m> without using trigonometric functions at all.  
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              What is the domain of <m>h</m>?  The range of <m>h</m>?
+            </p>
+          </li>
+          <li>
+              <p>
+                Since the arcsine function produces an angle, let's say that <m>\theta = \arcsin(x)</m>,  so that <m>\theta</m> is the angle whose sine is <m>x</m>.  By definition, we can picture <m>\theta</m> as an angle in a right triangle with hypotenuse <m>1</m> and a vertical leg of length <m>x</m>, as shown in <xref ref="F-inv-trig-cosarcsin">Figure</xref>.  Use the Pythagorean Theorem to determine the length of the horizontal leg as a function of <m>x</m>.
+              </p>
+
+            <sidebyside width="45%">
+
+              <figure xml:id="F-inv-trig-cosarcsin">
+                <caption>The right triangle that corresponds to the angle <m>\theta = \arcsin(x)</m>.</caption>
+                <image source="images/inv-trig-cosarcsin" width="50%" />
+              </figure>
+
+              <figure xml:id="F-inv-trig-cosarctan">
+                  <caption>The right triangle that corresponds to the angle <m>\alpha = \arctan(x)</m>.</caption>
+                  <image source="images/inv-trig-cosarctan" width="50%" />
+              </figure>
+
+            </sidebyside>
+          </li>
+          <li>
+            <p>
+              What is the value of <m>\cos(\theta)</m> as a function of <m>x</m>?  What have we shown about <m>h(x) = \cos(\arcsin(x))</m>?
+            </p>
+          </li>
+
+          <li>
+              <p>
+                How about the function <m>p(x) = \cos(\arctan(x))</m>?  How can you reason similarly to write <m>p</m> in a way that doesn't involve any trigonometric functions at all?  (Hint:  let <m>\alpha = \arctan(x)</m> and consider the right triangle in <xref ref="F-inv-trig-cosarctan">Figure</xref>.)
+              </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+</exercises>

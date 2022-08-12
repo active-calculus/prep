@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-changing-aroc">
+
+    <p>
+      Let the height function for a ball tossed vertically be given by <m>s(t) = 64 - 16(t-1)^2</m>,
+      where <m>t</m> is measured in seconds and <m>s</m> is measured in feet above the ground.
+	</p>
+
+	<p>
+      <ol marker="a.">
+        <li>
+          <p>
+            Compute the value of <m>AV_{[1.5,2.5]}</m>.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            What are the units on the quantity <m>AV_{[1.5,2.5]}</m>?
+            What is the meaning of this number in the context of the rising/falling ball?
+          </p>
+        </li>
+
+        <li>
+          <p>
+            In <em>Desmos</em>, plot the function
+            <m>s(t) = 64 - 16(t-1)^2</m> along with the points
+            <m>(1.5,s(1.5))</m> and <m>(2.5, s(2.5))</m>.
+            Make a copy of your plot on the axes in <xref ref="F-changing-aroc-PA-pos">Figure</xref>,
+            labeling key points as well as the scale on your axes.
+            What is the domain of the model?
+            The range?
+            Why?
+          </p>
+            <figure xml:id="F-changing-aroc-PA-pos">
+            	<caption>Axes for plotting the position function.</caption>
+              <image width="50%" source="images/aroc-s-t-blank-axes" />
+            </figure>
+        </li>
+
+        <li>
+          <p>
+            Work by hand to find the equation of the line through the points
+            <m>(1.5,s(1.5))</m> and <m>(2.5, s(2.5))</m>.
+            Write the line in the form
+            <m>y = mt + b</m> and plot the line in <em>Desmos</em>,
+            as well as on the axes above.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            What is a geometric interpretation of the value
+            <m>AV_{[1.5,2.5]}</m> in light of your work in the preceding questions?
+          </p>
+        </li>
+
+        <li>
+          <p>
+            How do your answers in the preceding questions change if we instead consider the interval
+            <m>[0.25, 0.75]</m>? <m>[0.5, 1.5]</m>? <m>[1,3]</m>?
+          </p>
+        </li>
+      </ol>
+    </p>
+
+</exploration>

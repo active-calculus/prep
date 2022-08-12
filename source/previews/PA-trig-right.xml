@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-trig-right">
+
+	<statement>
+		<p>
+			For each of the following situations, sketch a right triangle that satisfies the given conditions, and then either determine the requested missing information in the triangle or explain why you don't have enough information to determine it.  Assume that all angles are being considered in radian measure.
+		</p>
+
+		<p>
+			<ol marker="a.">
+				<li>
+					<p>
+						The length of the other leg of a right triangle with hypotenuse of length <m>1</m> and one leg of length <m>\frac{3}{5}</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						The lengths of the two legs in a right triangle with hypotenuse of length <m>1</m> where one of the non-right angles measures <m>\frac{\pi}{3}</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						The length of the other leg of a right triangle with hypotenuse of length <m>7</m> and one leg of length <m>6</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						The lengths of the two legs in a right triangle with hypotenuse <m>5</m> and where one of the non-right angles measures <m>\frac{\pi}{4}</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						The length of the other leg of a right triangle with hypotenuse of length <m>1</m> and one leg of length <m>\cos(0.7)</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						The measures of the two angles in a right triangle with hypotenuse of length <m>1</m> where the two legs have lengths <m>\cos(1.1)</m> and <m>\sin(1.1)</m>, respectively.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+
+</exploration>

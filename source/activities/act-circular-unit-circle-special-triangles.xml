@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-circular-unit-circle-special-triangles">
+
+	<statement>
+		<p>
+			In what follows, we work to understand key relationships in 
+    		<m>45^\circ</m>-<m>45^\circ</m>-<m>90^\circ</m> and
+    		<m>30^\circ</m>-<m>60^\circ</m>-<m>90^\circ</m> triangles.
+		</p>
+
+		<sidebyside width="50%">
+			<figure xml:id="F-unit-circle-45-45-90">
+				<caption>A right triangle with two <m>45^\circ</m> angles.</caption>
+				<image source="images/unit-circle-45-45-90" />
+			</figure>
+			<figure xml:id="F-unit-circle-30-60-90">
+				<caption>A right triangle with a <m>30^\circ</m> angle.</caption>
+				<image source="images/unit-circle-30-60-90" />
+			</figure>
+		</sidebyside>
+
+		<p>
+			<ol marker="a.">
+				<li>
+					<p>
+						For the <m>45^\circ</m>-<m>45^\circ</m>-<m>90^\circ</m> triangle with legs <m>x</m> and <m>y</m> and hypotenuse <m>1</m>, what does the fact that the triangle is isosceles tell us about the relationship between <m>x</m> and <m>y</m>?  What are their exact values?  
+					</p>
+				</li>
+				<li>
+					<p>
+						Now consider the <m>30^\circ</m>-<m>60^\circ</m>-<m>90^\circ</m> triangle with hypotenuse <m>1</m> and the longer leg lying along the positive <m>x</m>-axis.  What special kind of triangle is formed when we reflect this triangle across the <m>x</m>-axis?  How can we use this perspective to determine the exact values of <m>x</m> and <m>y</m>?
+					</p>
+				</li>
+				<li>
+					<p>
+						Suppose we consider the related <m>30^\circ</m>-<m>60^\circ</m>-<m>90^\circ</m> triangle with hypotenuse <m>1</m> and the shorter leg lying along the positive <m>x</m>-axis.  What are the <em>exact</em> values of <m>x</m> and <m>y</m> in this triangle?
+					</p>
+				</li>
+				<li>
+					<p>
+						We know from the conversion factor from degrees to radians that an angle of <m>30^\circ</m> corresponds to an angle measuring <m>\frac{\pi}{6}</m> radians, an angle of <m>45^\circ</m> corresponds to <m>\frac{\pi}{4}</m> radians, and <m>60^\circ</m> corresponds to <m>\frac{\pi}{3}</m> radians.
+					</p>
+
+					<sidebyside width="33%">
+						<figure xml:id="F-unit-circle-pi-6">
+							<caption>An angle measuring <m>\frac{\pi}{6}</m> radians.</caption>
+							<image source="images/unit-circle-pi-6" />
+						</figure>
+						<figure xml:id="F-unit-circle-pi-4">
+							<caption>An angle measuring <m>\frac{\pi}{4}</m> radians.</caption>
+							<image source="images/unit-circle-pi-4" />
+						</figure>
+						<figure xml:id="F-unit-circle-pi-3">
+							<caption>An angle measuring <m>\frac{\pi}{3}</m> radians.</caption>
+							<image source="images/unit-circle-pi-3" />
+						</figure>
+					</sidebyside>
+
+					<p>
+						Use your work in (a), (b), and (c) to label the noted point in each of <xref ref="F-unit-circle-pi-6">Figure</xref>, <xref ref="F-unit-circle-pi-4">Figure</xref>, and <xref ref="F-unit-circle-pi-3">Figure</xref>, respectively, with its exact coordinates.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

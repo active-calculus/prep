@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-exp-log-properties-exp-or-log">
+
+	<statement>
+		<p>
+			In the questions that follow, we compare and contrast the properties and behaviors of exponential and logarithmic functions. 
+		</p>
+
+		<p>
+			<ol marker="a.">
+				<li>
+					<p>
+						Let <m>f(t) = 1 - e^{-(t-1)}</m> and <m>g(t) = \ln(t)</m>.  Plot each function on the same set of coordinate axes.  What properties do the two functions have in common?  For what properties do the two functions differ?  Consider each function's domain, range, <m>t</m>-intercept, <m>y</m>-intercept, increasing/decreasing behavior, concavity, and long-term behavior.
+					</p>
+				</li>
+				<li>
+					<p>
+						Let <m>h(t) = a - be^{-k(t-c)}</m>, where <m>a</m>, <m>b</m>, <m>c</m>, and <m>k</m> are positive constants.  Describe <m>h</m> as a transformation of the function <m>E(t) = e^t</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Let <m>r(t) = a + b\ln(t-c)</m>, where <m>a</m>, <m>b</m>, and <m>c</m> are positive constants.  Describe <m>r</m> as a transformation of the function <m>L(t) = \ln(t)</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+				      Data for the height of a tree is given in the <xref ref="T-log-act-tree">Table</xref>;
+				      time <m>t</m> is measured in years and height is given in feet.  At <url href="http://gvsu.edu/s/0yy">http://gvsu.edu/s/0yy</url>, you can find a <em>Desmos</em> worksheet with this data already input.
+				    </p>
+
+				    <table xml:id="T-log-act-tree">
+				    	<caption>The height of a tree as a function of time <m>t</m> in years.</caption>
+					    <tabular>
+					      <row bottom="minor">
+					        <cell><m>t</m></cell>
+					        <cell>1</cell>
+					        <cell>2</cell>
+					        <cell>3</cell>
+					        <cell>4</cell>
+					        <cell>5</cell>
+					        <cell>6</cell>
+					        <cell>7</cell>
+					        <cell>8</cell>
+					        <cell>9</cell>
+					        <cell>10</cell>
+					        <cell>11</cell>
+					      </row>
+					      <row>
+					        <cell><m>h(t)</m></cell>
+					        <cell>6</cell>
+					        <cell>9.5</cell>
+					        <cell>13</cell>
+					        <cell>15</cell>
+					        <cell>16.5</cell>
+					        <cell>17.5</cell>
+					        <cell>18.5</cell>
+					        <cell>19</cell>
+					        <cell>19.5</cell>
+					        <cell>19.7</cell>
+					        <cell>19.8</cell>
+					      </row>
+					    </tabular>
+					</table>
+
+					<p>
+						Do you think this data is better modeled by a logarithmic function of form <m>p(t) = a + b\ln(t-c)</m> or by an exponential function of form <m>q(t) = m + ne^{-rt}</m>.  Provide reasons based in how the data appears and how you think a tree grows, as well as by experimenting with sliders appropriately in <em>Desmos</em>.  (Note: you may need to adjust the upper and lower bounds of several of the sliders in order to match the data well.)
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

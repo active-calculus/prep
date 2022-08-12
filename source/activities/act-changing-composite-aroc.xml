@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-composite-aroc">
+
+	<statement>
+		<p>
+			Let <m>f(x) = 2x^2 - 3x + 1</m> and <m>g(x) = \frac{5}{x}</m>.
+		</p>
+
+		<p>
+			<ol marker="a.">
+		        <li>
+		          <p>
+		            Compute <m>f(1+h)</m> and expand and simplify the result as much as possible by combining like terms.
+		          </p>
+		        </li>
+
+		        <li>
+		          <p>
+		            Determine the most simplified expression you can for the average rate of change of <m>f</m> on the interval <m>[1,1+h]</m>.
+		            That is, determine <m>AV_{[1,1+h]}</m> for <m>f</m> and simplify the result as much as possible.
+		          </p>
+		        </li>
+
+		        <li>
+		          <p>
+		            Compute <m>g(1+h)</m>.
+		            Is there any valid algebra you can do to write <m>g(1+h)</m> more simply?
+		          </p>
+		        </li>
+
+		        <li>
+		          <p>
+		            Determine the most simplified expression you can for the average rate of change of <m>g</m> on the interval <m>[1,1+h]</m>.
+		            That is, determine <m>AV_{[1,1+h]}</m> for <m>g</m> and simplify the result.
+		          </p>
+		        </li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

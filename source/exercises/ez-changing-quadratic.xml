@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2012-2018                                                   -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Calculus.                                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-quadratic">
+
+  <exercise xml:id="ez-changing-quadratic-WW1">
+    <webwork source="Library/Rochester/setAlgebra20QuadraticFun/lh3-1_19-20.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-quadratic-WW2">
+    <webwork source="Library/Rochester/setAlgebra20QuadraticFun/lh3-1_1-3.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-quadratic-WW3">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec6/Q22a.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-quadratic-WW4">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec6/Q14.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-quadratic-WW5">
+    <webwork source="Library/ASU-topics/setRateChange/s1_1_5.pg" />
+  </exercise>
+
+
+<!--  THESE ONES DON'T
+  <exercise xml:id="ez-changing-quadratic-WW5">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec6/Q10.pg" />
+  </exercise>
+
+  <exercise xml:id="ez-changing-quadratic-WW6">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec6/Q30.pg" />
+  </exercise>
+
+  <exercise xml:id="ez-changing-quadratic-WW7">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec1/Q34.pg" />
+  </exercise>
+-->
+
+
+  <exercise xml:id="ez-quadratic-find-formula">
+    <statement>
+      <p>
+        Two quadratic functions, <m>f</m> and <m>g</m>, are determined by their respective graphs in <xref ref="F-ez-quadratic-find-formula">Figure</xref>. 
+      </p>
+
+      <figure xml:id="F-ez-quadratic-find-formula">
+        <caption>Two quadratic functions, <m>f</m> and <m>g</m>.</caption>
+        <image width="50%" source="images/quadratic-ez-find-formula" />
+      </figure>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              How does the information provided enable you to find a formula for <m>f</m>?  Explain, and determine the formula.
+            </p>
+          </li>
+          <li>
+            <p>
+              How does the information provided enable you to find a formula for <m>g</m>?  Explain, and determine the formula.
+            </p>
+          </li>
+          <li>
+            <p>
+              Consider an additional quadratic function <m>h</m> given by <m>h(x) = 2x^2 - 8x + 6</m>.  Does the graph of <m>h</m> intersect the graph of <m>f</m>?  If yes, determine the exact points of intersection, with justification.  If not, explain why.
+            </p>
+          </li>
+          <li>
+            <p>
+              Does the graph of <m>h</m> intersect the graph of <m>g</m>?  If yes, determine the exact points of intersection, with justification.  If not, explain why.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-quadratic-aroc-patterns">
+    <statement>
+      <p>
+        Consider the quadratic function <m>f</m> given by <m>f(x) = \frac{1}{2}(x-2)^2 + 1</m>.
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Determine the exact location of the vertex of <m>f</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Does <m>f</m> have <m>0</m>, <m>1</m>, or <m>2</m> <m>x</m>-intercepts?  Explain, and determine the location(s) of any <m>x</m>-intercept(s) that exist. 
+            </p>
+          </li>
+          <li>
+            <p>
+              Complete the following tables of function values and average rates of change of <m>f</m> at the stated inputs and intervals.
+            </p>
+
+              <sidebyside width="50%">
+                <table xml:id="T-ez-quadratic-heights">
+                  <caption>Function values for <m>f</m> at select inputs.</caption>
+                  <tabular>
+                    <row bottom="minor">
+                      <cell><m>x</m></cell>
+                      <cell><m>f(x)</m></cell>
+                    </row>
+                    <row>
+                      <cell><m>0</m></cell>
+                      <cell></cell>
+                    </row>
+                    <row>
+                      <cell><m>1</m></cell>
+                      <cell></cell>
+                    </row>
+                    <row>
+                      <cell><m>2</m></cell>
+                      <cell></cell>
+                    </row>
+                    <row>
+                      <cell><m>3</m></cell>
+                      <cell></cell>
+                    </row>
+                    <row>
+                      <cell><m>4</m></cell>
+                      <cell></cell>
+                    </row>
+                    <row>
+                      <cell><m>5</m></cell>
+                      <cell></cell>
+                    </row>
+                  </tabular>
+                </table>  
+                <table xml:id="T-ez-quadratic-AVs">
+                  <caption>Average rates of change for <m>f</m> on select intervals.</caption>
+                  <tabular>
+                    <row bottom="minor">
+                      <cell><m>[a,b]</m></cell>
+                      <cell><m>AV_{[a,b]}</m></cell>
+                    </row>
+                    <row>
+                      <cell><m>[0,1]</m></cell>
+                      <cell><m></m> </cell>
+                    </row>
+                    <row>
+                      <cell><m>[1,2]</m></cell>
+                      <cell></cell>
+                    </row>
+                    <row>
+                      <cell><m>[2,3]</m></cell>
+                      <cell></cell>
+                    </row>
+                    <row>
+                      <cell><m>[3,4]</m></cell>
+                      <cell></cell>
+                    </row>
+                    <row>
+                      <cell><m>[4,5]</m></cell>
+                      <cell></cell>
+                    </row>
+                  </tabular>
+                </table>
+              </sidebyside>
+          </li>
+          <li>
+            <p>
+              What pattern(s) do you observe in <xref ref="T-ez-quadratic-heights">Table</xref> and <xref ref="T-ez-quadratic-AVs"/>?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-quadratic-water-balloon">
+    <statement>
+      <p>
+        A water balloon is tossed vertically from a window on the fourth floor of a dormitory from an initial height of <m>56.3</m> feet.  A person two floors above observes the balloon reach its highest point <m>1.2</m> seconds after being launched.  
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              What is the balloon's exact height at <m>t = 2.4</m>?  Why?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the exact maximum height the balloon reaches at <m>t = 1.2</m>?
+            </p>
+          </li>
+          <li>
+            <p>
+              What exact time did the balloon land?
+            </p>
+          </li>
+          <li>
+            <p>
+              At what initial velocity was the balloon launched?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>  
+
+</exercises>

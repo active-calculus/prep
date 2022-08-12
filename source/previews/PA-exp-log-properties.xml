@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-exp-log-properties">
+
+	<statement>
+		<p>
+			In the following questions, we investigate how <m>\log_{10}(a \cdot b)</m> can be equivalently written in terms of <m>\log_{10}(a)</m> and  <m>\log_{10}(b)</m>.
+		</p>
+
+		<p>
+			<ol marker="a.">
+				<li>
+					<p>
+						Write <m>10^x \cdot 10^y</m> as <m>10</m> raised to a single power.  That is, complete the equation
+						<me>
+							10^x \cdot 10^y = 10^{\Box}
+						</me>
+						by filling in the box with an appropriate expression involving <m>x</m> and <m>y</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						What is the simplest possible way to write <m>\log_{10}10^x</m>?  What about the simplest equivalent expression for <m>\log_{10}10^y</m>?
+					</p>
+				</li>
+				<li>
+					<p>
+						Explain why each of the following three equal signs is valid in the sequence of equalities:
+						<md>
+							<mrow>\log_{10}(10^x \cdot 10^y) &amp;= \log_{10}(10^{x+y})</mrow>
+							<mrow>         &amp;= x+y</mrow>
+							<mrow>         &amp;= \log_{10}(10^x) + \log_{10}(10^y)</mrow>
+						</md>.
+					</p>
+				</li>
+				<li>
+					Suppose that <m>a</m> and <m>b</m> are positive real numbers, so we can think of <m>a</m> as <m>10^x</m> for some real number <m>x</m> and <m>b</m> as <m>10^y</m> for some real number <m>y</m>.  That is, say that <m>a = 10^x</m> and <m>b = 10^y</m>.  What does our work in (c) tell us about <m>\log_{10}(ab)</m>?
+ 				</li>
+			</ol>
+		</p>
+	</statement>
+
+</exploration>

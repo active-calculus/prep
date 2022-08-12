@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-poly-polynomials-sign-chart">
+
+	<statement>
+		<p>
+			Consider the polynomial function given by 
+			<me>
+				p(x) = 4692(x+1520)(x^2+10000)(x-3471)^2(x-9738)
+			</me>.
+		</p>
+
+		<p>
+			<ol marker="a.">
+				<li>
+					<p>
+						What is the degree of <m>p</m>?  How can you tell <em>without</em> fully expanding the factored form of the function?
+					</p>
+				</li>
+				<li>
+					<p>
+						What can you say about the sign of the factor <m>(x^2 + 10000)</m>?
+					</p>
+				</li>
+				<li>
+					<p>
+						What are the zeros of the polynomial <m>p</m>?
+					</p>
+				</li>
+				<li>
+					<p>
+						Construct a sign chart for <m>p</m> by using the zeros you identified in (c) and then analyzing the sign of each factor of <m>p</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Without using a graphing utility, construct an approximate graph of <m>p</m> that has the zeros of <m>p</m> carefully labeled on the <m>x</m>-axis.  
+					</p>
+				</li>
+				<li>
+					<p>
+						Use a graphing utility to check your earlier work.  What is challenging or misleading when using technology to graph <m>p</m>?
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

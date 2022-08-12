@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-poly-polynomial-applications">
+  
+
+  <exercise xml:id="ez-poly-polynomial-applications-WW1">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec3/Q44.pg" />
+  </exercise>
+  <exercise xml:id="ez-poly-polynomial-applications-WW2">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec3/Q43.pg" />
+  </exercise>
+
+<!--  
+  <exercise xml:id="ez-poly-polynomial-applications-WW3">
+    <webwork source="Library/Rochester/setAlgebra23PolynomialZeros/beth1polydiv.pg" />
+  </exercise>
+-->
+
+  <exercise xml:id="ez-poly-polynomial-applications-1">
+    <statement>
+      <p>
+        An open triangular trough, as pictured in <xref ref="F-polynomial-applications-ez-trough">Figure</xref> is being contructed from aluminum.  The trough is to have equilateral triangular ends of side length <m>s</m> and a length of <m>l</m>.  We want the trough to used a fixed <m>100</m> square feet of aluminum.
+      </p>
+
+      <figure xml:id="F-polynomial-applications-ez-trough">
+        <caption>A triangular trough.</caption>
+        <image source="images/polynomial-applications-trough" width="60%" />
+      </figure>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              What is the area of one of the equilateral triangle ends as a function of <m>s</m>?
+            </p>
+          </li>
+          <li>
+            <p>
+              Recall that for an object with constant cross-sectional area, its volume is the area of one of those cross-sections times its height (or length).  Hence determine a formula for the volume of the trough that depends on <m>s</m> and <m>l</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Find a formula involving <m>s</m> and <m>l</m> for the surface area of the trough.
+            </p>
+          </li>
+          <li>
+            <p>
+              Use the constraint that we have <m>100</m> square feet of available aluminum to generate an equation that connects <m>s</m> and <m>l</m> and hence solve for <m>l</m> in terms of <m>s</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Use your work in (d) and (b) to express the volume of the trough, <m>V</m>, as a function of <m>l</m> only.
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the domain of the function <m>V</m> in the context of the situation being modeled?  Why?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-poly-polynomial-applications-2">
+    <statement>
+      <p>
+        A rectangular box is being constructed so that its base is twice as long as it is wide.  In addition, the base and top of the box cost $<m>2</m> per square foot while the sides cost $<m>1.50</m> per square foot.  If we only want to spend $<m>10</m> on materials for the box, how can we write the box's volume as a function of a single variable?  What is the domain of this volume function? (Hint: first find the box's surface area in terms of two variables, and then find an expression for the cost of the box in terms of those same variables.  Use the fact that cost is constrained to solve for one variable in terms of another.)
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-poly-polynomial-applications-3">
+    <statement>
+      <p>
+        Suppose that we want a cylindrical barrel to hold <m>8</m> cubic feet of volume.  Let the barrel have radius <m>r</m> and height <m>h</m>, each measured in feet.  How can we write the surface area, <m>A</m>, of the barrel solely as a function of <m>r</m>?
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Draw several possible pictures of how the barrel might look.  For instance, what if the radius is very small?  How will the height appear in comparison?  Likewise, what happens if the height is very small?
+            </p>
+          </li>
+          <li>
+            <p>
+              Use the fact that volume is fixed at <m>8</m> cubic feet to state a constraint equation and solve that equation for <m>h</m> in terms of <m>r</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Recall that the surface area of a cylinder is <m>A = 2\pi r^2 + 2\pi rh</m>.  Use your work in (c) to write <m>A</m> as a function of only <m>r</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the domain of <m>A</m>?  Why?
+            </p>
+          </li>
+          <li>
+            <p>
+              Explain why <m>A</m> is <em>not</em> a polynomial function of <m>r</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+</exercises>

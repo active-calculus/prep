@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2012-2018                                                   -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Calculus.                                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-composite">
+ 
+  <exercise xml:id="ez-changing-composite-WW1">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-01-Composition-inverse.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-composite-WW2">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-04-Composition-inverse.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-composite-WW3">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-33-Composition-inverse.pg" />
+  </exercise>
+
+  <!-- no statement tag
+  <exercise xml:id="ez-changing-composite-WW4">
+    <webwork source="Library/Rochester/setAlgebra15Functions/s0_1_2a.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-composite-WW5">
+    <webwork source="Library/Rochester/setAlgebra15Functions/srw2_1_29.pg" />
+  </exercise>  
+  -->
+  
+  <exercise xml:id="ez-changing-composite-WW6">
+    <webwork source="Library/Rochester/setAlgebra17FunComposition/beth3algfun.pg" />
+  </exercise> 
+  <exercise xml:id="ez-changing-composite-WW7">
+    <webwork source="Library/Rochester/setAlgebra17FunComposition/c0s1p9.pg" />
+  </exercise> 
+  <exercise xml:id="ez-changing-composite-WW8">
+    <webwork source="Library/Rochester/setAlgebra17FunComposition/faris1.pg" />
+  </exercise> 
+
+<!-- the image shows in HTML but not PDF
+  <exercise xml:id="ez-changing-composite-WW9">
+    <webwork source="Library/Rochester/setAlgebra17FunComposition/srw2_8_23.pg" />
+  </exercise> 
+--> 
+  
+  <exercise xml:id="ez-changing-composite-WW10">
+    <webwork source="Library/Rochester/setAlgebra17FunComposition/ur_fn_2_6.pg" />
+  </exercise> 
+
+  <exercise xml:id="ez-composite-tables-graphs-formulas">
+    <statement>
+      <p>
+        Use the given information about various functions to answer the following questions involving composition.
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Let functions <m>f</m> and <m>g</m> be given by the graphs in <xref ref="F-composite-ez-f">Figure</xref> and <xref ref="F-composite-ez-g"/>.  An open circle means there is not a point at that location on the graph.  For instance, <m>f(-1) = 1</m>, but <m>f(3)</m> is not defined.
+            </p>
+
+            <sidebyside width="50%">
+              <figure xml:id="F-composite-ez-f">
+                <caption>Plot of <m>y = f(x)</m>.</caption>
+                <image source="images/composite-ez-f" />
+              </figure>
+              <figure xml:id="F-composite-ez-g">
+                <caption>Plot of <m>y = g(x)</m>.</caption>
+                <image source="images/composite-ez-g" />
+              </figure>
+            </sidebyside>
+
+            <p>
+              Determine <m>f(g(1))</m> and <m>g(f(-2))</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Again using the functions given in (a), can you determine a value of <m>x</m> for which <m>g(f(x))</m> is not defined?  Why or why not?
+            </p>
+          </li>
+          <li>
+            <p>
+              Let functions <m>r</m> and <m>s</m> be defined by <xref ref="T-ez-composite-tables">Table</xref>.
+            </p>
+
+            <table xml:id="T-ez-composite-tables">
+              <caption>Table that defines <m>r</m> and <m>s</m>.</caption>
+                <tabular halign="right">
+                  <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell><m>-4</m></cell>
+                    <cell><m>-3</m></cell>
+                    <cell><m>-2</m></cell>
+                    <cell><m>-1</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>2</m></cell>
+                    <cell><m>3</m></cell>
+                    <cell><m>4</m></cell>
+                  </row>
+                  <row bottom="minor">
+                    <cell><m>r(t)</m></cell>
+                    <cell><m>4</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>2</m></cell>
+                    <cell><m>3</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>-3</m></cell>
+                    <cell><m>2</m></cell>
+                    <cell><m>-1</m></cell>
+                    <cell><m>-4</m></cell>
+                  </row>
+                  <row>
+                    <cell><m>s(t)</m></cell>
+                    <cell><m>-5</m></cell>
+                    <cell><m>-6</m></cell>
+                    <cell><m>-7</m></cell>
+                    <cell><m>-8</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>8</m></cell>
+                    <cell><m>7</m></cell>
+                    <cell><m>6</m></cell>
+                    <cell><m>5</m></cell>
+                  </row>
+                </tabular>
+            </table>
+
+            <p>
+              Determine <m>(s \circ r)(3)</m>, <m>(s \circ r)(-4)</m>, and <m>(s \circ r)(a)</m> for one additional value of <m>a</m> of your choice.
+            </p>
+          </li>
+          <li>
+            <p>
+              For the functions <m>r</m> and <m>s</m> defined in (c), state the domain and range of each function.  For how many different values of <m>b</m> is it possible to determine <m>(r \circ s)(b)</m>?  Explain.
+            </p>
+          </li>
+          <li>
+            <p>
+              Let <m>m(u) = u^3 + 4u^2 - 5u + 1</m>.  Determine expressions for <m>m(x^2)</m>, <m>m(2+h)</m>, and <m>m(a+h)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              For the function <m>F(x) = 4 - 3x - x^2</m>, determine the most simplified expression you can find for <m>AV_{[2,2+h]}</m>.  Show your algebraic work and thinking fully.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-composite-Dolbear-revisited">
+    <statement>
+      <p>
+        Recall Dolbear's function that defines temperature,
+        <m>F</m>, in Fahrenheit degrees,
+        as a function of the number of chirps per minute, <m>N</m>,
+        is <m>F = D(N) = 40 + \frac{1}{4}N</m>.
+      </p>
+      <p>
+
+        <ol marker="a.">
+          <li>
+            <p>
+              Solve the equation <m>F = 40 + \frac{1}{4}N</m> for <m>N</m> in terms of <m>F</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Say that <m>N = g(F)</m> is the function you just found in (a).  What is the meaning of this function?
+              What does it take as inputs and what does it produce as outputs?
+            </p>
+          </li>
+          <li>
+            <p>
+              How many chirps per minute do we expect when the outsidet temperature is <m>82</m> degrees F?  How can we express this in the notation of the function <m>g</m>?
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Recall that the function that converts Fahrenheit to Celsius is
+              <m>C = G(F) = \frac{5}{9}(F-32)</m>.
+              Solve the equation <m>C = \frac{5}{9}(F-32)</m> for <m>F</m> in terms of <m>C</m>.  Call the resulting function <m>F = p(C)</m>.  What is the meaning of this function?
+            </p>
+          </li>
+          <li>
+            <p>
+              Is it possible to write the chirp-rate <m>N</m> as a function of temperature <m>C</m> in Celsius?
+              That is, can we produce a function whose input is in degrees Celsius and whose output is the number of chirps per minute?
+              If yes, do so and explain your thinking.  If not, explain why it's not possible.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-composite-undo">
+    <statement>
+      <p>
+        For each of the following functions, find two simpler functions <m>f</m> and <m>g</m> such that the given function can be written as the composite function <m>g \circ f</m>.
+      </p>
+      <p>
+        <ol marker="a." cols="2">
+          <li>
+            <p>
+              <m>h(x) = (x^2 + 7)^3</m>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>r(x) = \sqrt{5-x^3}</m>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>m(x) = \frac{1}{x^4 + 2x^2 + 1}</m>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>w(x) = 2^{3-x^2}</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>  
+
+  <exercise xml:id="ez-composite-spherical-tank">
+    <statement>
+      <p>
+        A spherical tank has radius <m>4</m> feet.  The tank is initially empty and then begins to be filled in such a way that the height of the water rises at a constant rate of <m>0.4</m> feet per minute.  Let <m>V</m> be the volume of water in the tank at a given instant, and <m>h</m> the depth of the water at the same instant; let <m>t</m> denote the time elapsed in minutes since the tank started being filled.
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Calculus can be used to show that the volume, <m>V</m>, is a function of the depth, <m>h</m>, of the water in the tank according to the function 
+              <men xml:id="E-ez-composite-spherical-tank-V-h">
+                V = f(h) = \frac{\pi}{3} h^2(12-h)
+              </men>.
+              What is the domain of this model?  Why?  What is the corresponding range?
+            </p>
+          </li>
+          <li>
+            <p>
+              We are given the fact that the tank is being filled in such a way that the height of the water rises at a constant rate of <m>0.4</m> feet per minute.  Said differently, <m>h</m> is a function of <m>t</m> whose average rate of change is constant.  What kind of function does this make <m>h = p(t)</m>?  Determine a formula for <m>p(t)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              What are the domain and range of the function <m>h = p(t)</m>?  How is this tied to the dimensions of the tank?
+            </p>
+          </li>
+          <li>
+            <p>
+              In (a) we observed that <m>V</m> is a function of <m>h</m>, and in (b) we found that <m>h</m> is a function of <m>t</m>.  Use these two facts and function composition appropriately to write <m>V</m> as a function of <m>t</m>.  Call the resulting function <m>V = q(t)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              What are the domain and range of the function <m>q</m>?  Why?
+            </p>
+          </li>
+          <li>
+            <p>
+              On the provided axes, sketch accurate graphs of <m>h = p(t)</m> and <m>V = q(t)</m>, labeling the vertical and horizontal scale on each graph appropriately.  Make your graphs as precise as you can; use a computing device to assist as needed.
+            </p>
+
+            <sidebyside width="50%">
+              <image source="images/tandem-h-t-blank-axes" />
+              <image source="images/tandem-V-t-blank-axes" />
+            </sidebyside>      
+
+            <p>
+              Why do each of the two graphs have their respective shapes?  Write at least one sentence to explain each graph; refer explicitly to the shape of the tank and other information given in the problem.
+            </p>
+
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>    
+</exercises>

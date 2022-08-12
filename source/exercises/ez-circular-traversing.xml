@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-circular-traversing">
+
+  <exercise xml:id="ez-circular-traversing-WW2">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q12.pg" />
+  </exercise>
+
+  <exercise xml:id="ez-circular-traversing-WW3a">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q16.pg" />
+  </exercise>
+
+  <exercise xml:id="ez-circular-traversing-WW4">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q23.pg" />
+  </exercise>
+
+  <exercise xml:id="ez-circular-traversing-WW5">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q28.pg" />
+  </exercise>
+
+<!-- did not generate valid XML
+  <exercise xml:id="ez-circular-traversing-WW1">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q10.pg" />
+  </exercise>
+  <exercise xml:id="ez-circular-traversing-WW3">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q20.pg" />
+  </exercise>
+-->
+
+  <exercise xml:id="ez-circular-traversing-x-coord">
+    <statement>
+    <p>
+      Consider the circle pictured in <xref ref="F-act-circular-traversing-circle-horiz">Figure</xref> that is centered at the point <m>(2,2)</m> and that has circumference <m>8</m>.  Suppose that we track the <m>x</m>-coordinate (that is, the horizontal location, which we will call <m>k</m>) of a point that is traversing the circle counterclockwise and that it starts at <m>P_0</m> as pictured.
+    </p>
+
+    <sidebyside widths="33% 66%">
+      <figure xml:id="F-act-circular-traversing-circle-horiz">
+        <caption>A point traversing the circle.</caption>
+        <image source="images/traversing-act-circle"/>
+      </figure>
+      <figure xml:id="F-act-circular-traversing-grid-horiz">
+        <caption>Axes for plotting <m>k</m> as a function of <m>d</m>.</caption>
+        <image source="images/traversing-act-circular-grid-horiz"/>
+      </figure>
+    </sidebyside>
+
+    <p>
+      Recall that in <xref ref="act-circular-traversing-2nd-ex">Activity</xref> we identified the exact and approximate vertical coordinates of all <m>8</m> noted points on the circle.  In addition, recall that the radius of the circle is <m>r = \frac{8}{2\pi} \approx 1.2732</m>.
+    </p>
+
+    <p>
+      <ol marker="a.">
+        <li>
+          <p>
+            What is the exact horizontal coordinate of <m>P_0</m>?  Why?
+          </p>
+        </li>
+        <li>
+          <p>
+            Complete the entries in <xref ref="T-act-circular-traversing-2nd-ex-horiz">Table</xref> that track the horizontal location, <m>k</m>, of the point traversing the circle as a function of distance traveled, <m>d</m>.
+          </p>
+
+          <table xml:id="T-act-circular-traversing-2nd-ex-horiz">
+            <caption>Data for <m>k</m> as a function of <m>d</m>.</caption>
+            <tabular halign="center">
+              <row bottom="minor">
+                <cell><m>d</m></cell>
+                  <cell><m>0</m></cell>
+                  <cell><m>1</m></cell>
+                  <cell><m>2</m></cell>
+                  <cell><m>3</m></cell>
+                  <cell><m>4</m></cell>
+                  <cell><m>5</m></cell>
+                  <cell><m>6</m></cell>
+                  <cell><m>7</m></cell>
+                  <cell><m>8</m></cell>
+                  <cell><m>9</m></cell>
+                  <cell><m>10</m></cell>
+                  <cell><m>11</m></cell>
+                  <cell><m>12</m></cell>
+                  <cell><m>13</m></cell>
+                  <cell><m>14</m></cell>
+                  <cell><m>15</m></cell>
+                  <cell><m>16</m></cell>                  
+                </row>
+                <row>
+                  <cell><m>k</m></cell>
+                  <cell><m>0.73</m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>                  
+                </row>                      
+            </tabular>
+          </table>
+        </li>
+        <li>
+          <p>
+            By plotting the points in <xref ref="T-act-circular-traversing-2nd-ex-horiz">Table</xref> and connecting them in an intuitive way, sketch a graph of <m>k</m> as a function of <m>d</m> on the axes provided in <xref ref="F-act-circular-traversing-grid-horiz">Figure</xref> over the interval <m>0 \le d \le 16</m>.  Clearly label the scale of your axes and the coordinates of several important points on the curve.
+          </p>
+        </li>
+        <li>
+          <p>
+            What is similar about your graph in comparison to the one in <xref ref="F-act-circular-traversing-grid">Figure</xref>?  What is different?
+          </p>
+        </li>
+        <li>
+          <p>
+            What will be the value of <m>k</m> when <m>d = 51</m>?  How about when <m>d = 102</m>?
+          </p>
+        </li>
+      </ol>
+    </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-circular-traversing-graph-to-circle">
+    <statement>
+      <p>
+        Two circular functions, <m>f</m> and <m>g</m>, are generated by tracking the <m>y</m>-coordinate of a point traversing two different circles.  The resulting graphs are shown in <xref ref="F-circular-traversing-fxn-1">Figure</xref> and <xref ref="F-circular-traversing-fxn-2">Figure</xref>.  Assuming the horizontal scale matches the vertical scale, answer the following questions for each of the functions <m>f</m> and <m>g</m>.
+      </p>
+
+      <sidebyside>
+        <figure xml:id="F-circular-traversing-fxn-1">
+          <caption>A plot of the circular function <m>f</m>.</caption>
+          <image source="images/traversing-ez-fxn-1" />
+        </figure>
+        <figure xml:id="F-circular-traversing-fxn-2">
+          <caption>A plot of the circular function <m>g</m>.</caption>
+          <image source="images/traversing-ez-fxn-2" />
+        </figure>
+      </sidebyside>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Assume that the circle used to generate the circular function is centered at the point <m>(0,m)</m> and has radius <m>r</m>.  What are the numerical values of <m>m</m> and <m>r</m>?  Why?
+            </p>
+          </li>
+          <li>
+            <p>
+              What are the coordinates of the location on the circle at which the point begins its traverse?  Said differently, what point on the circle corresponds to <m>t = 0</m> on the function's graph?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the period of the function?  How is this connected to the circle and to the scale on the horizontal axes on which the function is graphed?
+            </p>
+          </li>
+          <li>
+            <p>
+              How would the graph look if the circle's radius was <m>1</m> unit larger?  <m>1</m> unit smaller?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-circular-traversing-ferris-wheel">
+    <statement>
+      <p>
+        A person goes for a ride on a ferris wheel.  They enter one of the cars at the lowest possible point on the wheel from a platform <m>7</m> feet off the ground.  When they are at the very top of the wheel, they are <m>92</m> feet off the ground.  Let <m>h</m> represent the height of the car (in feet) and <m>d</m> (in feet) the distance the car has traveled along the wheel's circumference from its starting location at the bottom of the wheel.  We'll use the notation <m>h = f(d)</m> for how height is a function of distance traveled.
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              How high above the ground is the center of the ferris wheel?
+            </p>
+          </li>
+          <li>
+            <p>
+              How far does the car travel in one complete trip around the wheel?
+            </p>
+          </li>
+          <li>
+            <p>
+              For the circular function <m>h = f(d)</m>, what is its amplitude?  midline?  period?
+            </p>
+          </li>
+          <li>
+            <p>
+              Sketch an accurate graph of <m>h</m> through at least two full periods.  Clearly label the scale on the horizontal and vertical axes along with several important points.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+
+
+</exercises>

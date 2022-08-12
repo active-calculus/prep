@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-trig-inverse-arctan">
+
+	<statement>
+		<p>
+			The goal of this activity is to understand key properties of the arctangent function.
+		</p>
+
+		<p>
+			<ol marker="a.">
+				<li>
+					<p>
+						Using <xref ref="def-inverse-trig-arctan">Definition</xref>, what are the domain and range of the arctangent function?
+					</p>
+				</li>
+				<li>
+					<p>
+						Determine the following values exactly: <m>\arctan(-\sqrt{3})</m>, <m>\arctan(-1)</m>, <m>\arctan(0)</m>, and <m>\arctan(\frac{1}{\sqrt{3}})</m>.
+					</p>
+				</li>
+				<li>
+						<p>
+							A plot of the restricted tangent function on the interval <m>(-\frac{\pi}{2},\frac{\pi}{2})</m> is provided in <xref ref="F-inverse-trig-act-arctan">Figure</xref>.  Sketch its corresponding inverse function, the arctangent function, on the same axes.  Label at least three points on each curve so that each point on the tangent graph corresponds to a point on the arctangent graph.  In addition, sketch the line <m>y = t</m> to demonstrate how the graphs are reflections of one another across this line.
+						</p>
+
+						<figure xml:id="F-inverse-trig-act-arctan">
+							<caption>Axes for plotting the restricted tangent function and its inverse, the arctangent function.</caption>
+							<image width="50%" source="images/inverse-tan-graph" />	
+						</figure>
+				</li>
+				<li>
+					<p>
+						Complete the following sentence:  <q>as <m>t</m> increases without bound, <m>\arctan(t)</m> <m>\ldots</m></q>.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-log">
+
+  <exercise xml:id="ez-exp-log-WW1">
+    <webwork source="Library/Rochester/setAlgebra29LogFunctions/srw4_2_5.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-log-WW2">
+    <webwork source="Library/Rochester/setAlgebra29LogFunctions/problem4.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-log-WW3">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/beth2logfun.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-log-WW4">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_17.pg" />
+  </exercise>
+<!--  
+  <exercise xml:id="ez-exp-log-WW5">
+    <webwork source="Library/Michigan/skills_questions/topic_solving_exp_log/prob01.pg" />
+  </exercise>
+-->  
+  <exercise xml:id="ez-exp-log-WW6">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg" />
+  </exercise>
+
+  <exercise xml:id="ez-exp-log-find-inverse">
+    <statement>
+      <p>
+        Recall that when a function <m>y = f(x)</m> has an inverse function, the two equations <m>y = f(x)</m> and <m>x = f^{-1}(y)</m> say the same thing from different perspectives: the first equation expresses <m>y</m> in terms of <m>x</m>, while the second expresses <m>x</m> in terms of <m>y</m>.  When <m>y = f(x) = e^x</m>, we know its inverse is <m>x = f^{-1}(y) = \ln(y)</m>.  Through logarithms, we now have the ability to find the inverse of many different exponential functions.  In particular, because exponential functions and their transformations are either always increasing or always decreasing, any function of the form <m>y = f(x) = ae^{-kx} + c</m> will have an inverse function.
+      </p>
+
+      <p>
+        Find the inverse function for each given function by solving algebraically for <m>x</m> as a function of <m>y</m>.  In addition, state the domain and range of the given function and the domain and range of of the inverse function.
+      </p>
+
+      <p>
+        <ol marker="a." cols="2">
+          <li>
+            <p>
+              <m>y = g(x) = e^{-0.25x}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>
+                y = h(x) = 2e^{x} + 1
+              </m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>
+                y = r(x) = 21 + 15e^{-0.1x}
+              </m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>y = s(x) = 72 - 40e^{-0.05x}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>y = u(x) = -5e^{3x-4} + 8</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>y = w(x) = 3\ln(x) + 4</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>y = z(x) = -0.2 \ln(2x - 5) + 1</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-exp-log-base-b">
+    <statement>
+      <p>
+        We've seen that any exponential function <m>f(t) = b^t</m> (<m>b \gt 0</m>, <m>b \ne 1</m>) can be written in the form <m>f(t) = e^{kt}</m> for some real number <m>k</m>, and this is because <m>f(t) = b^t</m> is a horizontal scaling of the function <m>E(t) = e^{t}</m>.  In this exercise, we explore how the natural logarithm can be scaled to achieve a logarithm of any base.
+      </p>
+
+      <p>
+        Let <m>b \gt 1</m>.  Because the function <m>y = f(t) = b^t</m> has an inverse function, it makes sense to define its inverse like we did when <m>b = 10</m> or <m>b = e</m>.  The <term>base-<m>b</m> logarithm</term>, <idx><h>logarithm</h><h>base-<m>b</m></h><h>definition</h></idx> denoted <m>\log_b(y)</m> is defined to be the power to which we raise <m>b</m> to get <m>y</m>.  Thus, writing <m>y = f(t) = b^t</m> is the same as writing <m>t = f^{-1}(y) = \log_b(y)</m>.
+      </p>
+
+      <p>
+        In <em>Desmos</em>, the natural logarithm function is given by <c>ln(t)</c>, while the base-<m>10</m> logarithm by <c>log(t)</c>.  To get a logarithm of a different base, such as a base-<m>2</m> logarithm, type <c>log_2(t)</c> (the underscore will generate a subscript; then use the right arrow to get out of subscript mode).
+      </p>
+
+      <p>
+        In a new <em>Desmos</em> worksheet, enter <c>V(t) = k * ln(t)</c> and accept the slider for <m>k</m>.  Set the lower and upper bounds for the slider to <m>0.01</m> and <m>15</m>, respectively.
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Define <m>f(t) = \log_2(t)</m> in <em>Desmos</em>.  Can you find a value of <m>k</m> for which <m>\log_2(t) = k\ln(t)</m>?  If yes, what is the value?  If not, why not?
+            </p>
+          </li>
+          <li>
+            <p>
+              Repeat (a) for the functions <m>g(t) = \log_3(t)</m>, <m>h(t) = \log_5(t)</m>, and <m>p(t) = \log_{1.25}(t)</m>.  What pattern(s) do you observe?
+            </p>
+          </li>
+          <li>
+            <p>
+              True or false: for any value of <m>b \gt 1</m>, the function <m>\log_b(t)</m> can be viewed as a vertical scaling of <m>\ln(t)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Compute the following values:  <m>\frac{1}{\ln(2)}</m>, <m>\frac{1}{\ln(3)}</m>, <m>\frac{1}{\ln(5)}</m>, and <m>\frac{1}{\ln(1.25)}</m>.  What do you notice about these values compared to those of <m>k</m> you found in (a) and (b)?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-exp-log-soda-revisited">
+    <statement>
+      <p>
+        A can of soda is removed from a refrigerator at time <m>t = 0</m> (in minutes)
+        and its temperature, <m>F(t)</m>, in degrees Fahrenheit, is computed at regular intervals.
+        Based on the data, a model is formulated for the object's temperature, given by
+          <me>
+            F(t) = 74.4 - 38.8e^{-0.05t}
+          </me>.
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Determine the exact time when the soda's temperature is <m>50^\circ</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Is there ever a time when the soda's temperature is <m>36^\circ</m>?  Why or why not?
+            </p>
+          </li>
+          <li>
+            <p>
+              For the model, its domain is the set of all positive real numbers, <m>t \gt 0</m>.  What is its range?
+            </p>
+          </li>
+          <li>
+            <p>
+              Find a formula for the inverse of the function <m>y = F(t)</m>.  What is the meaning of this function?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+</exercises>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-temp-pop">
+
+<!--  
+  <exercise xml:id="ez-exp-temp-pop-WW1">
+    <webwork source="Library/Michigan/skills_questions/topic_solving_exp_log/prob03.pg" />
+  </exercise>
+-->  
+  <exercise xml:id="ez-exp-temp-pop-WW2">
+    <webwork source="Library/Rochester/setDiffEQ5ModelingWith1stOrder/ur_de_5_4.pg" />
+  </exercise>
+<!--  
+  <exercise xml:id="ez-exp-temp-pop-WW3">
+    <webwork source="Library/Rochester/setAlgebra31LogExpApplications/cooling.pg" />
+  </exercise>
+-->
+  <exercise xml:id="ez-exp-temp-pop-WW4">
+    <webwork source="Library/Michigan/Chap11Sec7/Q09.pg" />
+  </exercise>
+
+<p>In <xref ref="ez-exp-temp-pop-WW5">Exercise</xref> below, use the following structure/formula for <m>N(t)</m>: <m>N(t)=\frac{L}{1+Ab^{-kt}}</m>.  In particular, note that when the instructions say <q>find <m>A</m></q>, this use of <q><m>A</m></q> is not in reference to carrying capacity.</p>
+
+
+  <exercise xml:id="ez-exp-temp-pop-WW5">
+    <webwork source="Library/Rochester/setAlgebra31LogExpApplications/infection1.pg" />
+  </exercise>
+
+  <exercise xml:id="ez-exp-temp-pop-water">
+    <statement>
+      <p>
+        A glass filled with ice and water is set on a table in a climate-controlled room with constant temperature of <m>71^\circ</m> Fahrenheit. A temperature probe is placed in the glass, and we find that the following temperatures are recorded (at time <m>t</m> in minutes).
+      </p>
+
+      <sidebyside>
+        <tabular>
+          <row bottom="minor">
+            <cell><m>t</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>20</m></cell>
+          </row>
+          <row>
+            <cell><m>F(t)</m></cell>
+            <cell><m>34.2</m></cell>
+            <cell><m>41.7</m></cell>
+          </row>
+        </tabular>
+      </sidebyside>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Make a rough sketch of how you think the temperature graph should appear.  Is the temperature function always increasing?  always decreasing?  always concave up?  always concave down?  what's its long-range behavior?
+            </p>
+          </li>
+          <li>
+            <p>
+              By desribing <m>F</m> as a transformation of <m>e^t</m>, explain why a function of form <m>F(t) = c - ae^{-kt}</m>, where <m>a</m>, <m>c</m>, and <m>k</m> are positive constants is an appropriate model for how we expect the temperature function to behave.
+            </p>
+          </li>
+          <li>
+            <p>
+              Use the given information to determine the exact values of <m>a</m>, <m>c</m>, and <m>k</m> in the model <m>F(t) = c - ae^{-kt}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Determine the exact time when the water's temperature is <m>60^\circ</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-exp-temp-pop-cruise">
+    <statement>
+      <p>
+        A popular cruise ship sets sail in the Gulf of Mexico with <m>5000</m> passengers and crew on board.  Unfortunately, a five family members who board the ship are carrying a highly contagious virus.  After interacting with many other passengers in the first few hours of the cruise, all five of them get very sick.
+      </p>
+
+      <p>
+        Let <m>S(t)</m> be the number of people who have acquired the virus <m>t</m> days after the ship has left port.  It turns out that a logistic function is a good model for <m>S</m>, and thus we assume that 
+        <me>
+          S(t) = \frac{A}{1 + Me^{-kt}}
+        </me>
+        for some positive constants <m>A</m>, <m>M</m>, and <m>k</m>.  Suppose that after <m>1</m> day, <m>20</m> people have gotten the virus.
+      </p>
+
+      <p>
+        <ol  marker="a.">
+          <li>
+            <p>
+              Recall we know that <m>S(0) = 5</m> and <m>S(1) = 20</m>.  In addition, assume that <m>5000</m> is the number of people who will eventually get sick.  Use this information determine the exact values of <m>A</m>, <m>M</m>, and <m>k</m> in the logistic model.
+            </p>
+          </li>
+          <li>
+            <p>
+              How many days will it take for <m>4000</m> of the people on the cruise ship to have acquired the virus?
+            </p>
+          </li>
+          <li>
+            <p>
+              Compute the average rate of change of <m>S</m> on the intervals <m>[1,2]</m>, <m>[3,4]</m>, and <m>[5,7]</m>.  What is the meaning of each of these values (with units) in the context of the question, and what trend(s) do you observe in these average rates of change?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-exp-temp-pop-brine">
+    <statement>
+      <p>
+        A closed tank with an inflow and outflow contains a <m>100</m> liters of saltwater solution.  Let the amount of salt in the tank at time <m>t</m> (in minutes) be given by the function <m>A(t)</m>, whose output is measured in grams.  At time <m>t = 0</m> there is an initial amount of salt present in the tank, and the inflow line also carries a saltwater mixture to the tank at a fixed rate; the outflow occurs at the same rate and carries a perfectly mixed solution out of the tank.  Because of these conditions, the volume of solution in the tank stays fixed over time, but the amount of salt possibly changes.
+      </p>
+
+      <p>
+        It turns out that the problem of determining the amount of salt in the tank at time <m>t</m> is similar to the problem of determining the temperature of a warming or cooling object, and that the function <m>A(t)</m> has form
+        <me>
+          A(t) = ae^{-kt} + c
+        </me>
+        for constants <m>a</m>, <m>c</m>, and <m>k</m>.  Suppose that for a particular set of conditions, we know that
+        <me>
+          A(t) = -500e^{-0.25t} + 750
+        </me>.  
+        Again, <m>A(t)</m> measures the amount of salt in the tank after <m>t</m> minutes.
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              How much salt is in the tank initially?
+            </p>
+          </li>
+          <li>
+            <p>
+              In the long run, how much salt do we expect to eventually be in the tank?
+            </p>
+          </li>
+          <li>
+            <p>
+              At what exact time are there exactly <m>500</m> grams of salt present in the tank?
+            </p>
+          </li>
+          <li>
+            <p>
+              Can you determine the concentration of the solution that is being delivered by the inflow to the tank?  If yes, explain why and determine this value.  If not, explain why that information cannot be found without additional data.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+</exercises>

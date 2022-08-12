@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-exp-log-base-10">
+
+	<statement>
+		<p>
+			For each of the following equations, determine the exact value of the unknown variable.  If the exact value involves a logarithm, use a computational device to also report an approximate value.  For instance, if the exact value is <m>y = \log_{10}(2)</m>, you can also note that <m>y \approx 0.301</m>.
+		</p>
+
+		<p>
+			<ol marker="a." cols="2">
+				<li>
+					<p>
+						<m>10^t = 0.00001</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>\log_{10}(1000000) = t</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>10^t = 37</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>\log_{10}(y) = 1.375</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>10^t = 0.04</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>3 \cdot 10^t + 11 = 147</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>2\log_{10}(y) + 5 = 1</m>
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

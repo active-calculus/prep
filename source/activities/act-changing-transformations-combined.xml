@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-transformations-combined">
+
+	<statement>
+		<p>
+			Consider the functions <m>f</m> and <m>g</m> given in <xref ref="F-act-transformations-f">Figure</xref> and <xref ref="F-act-transformations-g">Figure</xref>.
+		</p>
+
+		<sidebyside width="50%">
+			<figure xml:id="F-act-transformations-f">
+				<caption>A parent function <m>f</m>.</caption>
+				<image source="images/transformations-act-f-combined" />
+			</figure>
+			<figure xml:id="F-act-transformations-g">
+				<caption>A parent function <m>g</m>.</caption>
+				<image source="images/transformations-act-g-combined" />
+			</figure>
+		</sidebyside>
+
+		<p>
+			<ol marker="a.">
+				<li>
+					<p>
+						Sketch an accurate graph of the transformation <m>y = p(x) = -\frac{1}{2}f(x-1)+2</m>.  Write at least one sentence to explain how you developed the graph of <m>p</m>, and identify the point on <m>p</m> that corresponds to the original point <m>(-2,2)</m> on the graph of <m>f</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Sketch an accurate graph of the transformation <m>y = q(x) = 2g(x+0.5)-0.75</m>.  Write at least one sentence to explain how you developed the graph of <m>p</m>, and identify the point on <m>q</m> that corresponds to the original point <m>(1.5,1.5)</m> on the graph of <m>g</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Is the function <m>y = r(x) = \frac{1}{2}(-f(x-1) - 4)</m> the same function as <m>p</m> or different?  Why?  Explain in two different ways:  discuss the algebraic similarities and differences between <m>p</m> and <m>r</m>, and also discuss how each is a transformation of <m>f</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Find a formula for a function <m>y = s(x)</m> (in terms of <m>g</m>) that represents this transformation of <m>g</m>: a horizontal shift of <m>1.25</m> units left, followed by a reflection across the <m>x</m>-axis and a vertical stretch by a factor of <m>2.5</m> units, followed by a vertical shift of <m>1.75</m> units.  Sketch an accurate, labeled graph of <m>s</m> on the following axes along with the given parent function <m>g</m>.
+					</p>
+
+					<sidebyside width="50%">
+						<image width="50%" source="images/transformations-act-g-combined" />
+					</sidebyside>
+
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

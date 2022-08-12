@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-poly-polynomial-applications-soup">
+
+	<statement>
+		<p>
+			Suppose that we want to construct a cylindrical can using <m>60</m> square inches of material for the surface of the can.  In this context, how does the can's volume depend on the radius we choose?
+		</p>
+
+		<p>
+			Let the cylindrical can have base radius <m>r</m> and height <m>h</m>.
+		</p>
+
+		<p>
+			<ol marker="a.">
+				<li>
+					<p>
+						Use the formula for the surface area of a cylinder and the given constraint that the can's surface area is <m>60</m> square inches to write an equation that connects the radius <m>r</m> and height <m>h</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Solve the equation you found in (a) for <m>h</m> in terms of <m>r</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Recall that the volume of a cylinder is <m>V = \pi r^2 h</m>.  Use your work in (b) to write <m>V</m> as a function of <m>r</m> only and simplify the formula as much as possible.
+					</p>
+				</li>
+				<li>
+					<p>
+						Hence determine the volume, <m>V</m>, of the package as a function of a single variable.
+					</p>
+				</li>
+				<li>
+					<p>
+						What is the domain of the function <m>V</m> in the context of the physical setting of this problem?  (Hint: how does the constraint on surface area provide a largest possible value for <m>r</m>?  Think about the maximum area that can be allocated to the top and bottom of the can.)
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-log-properties">
+  
+  <exercise xml:id="ez-exp-log-properties-WW1">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/problem9.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-log-properties-WW2">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/problem11.pg" />
+  </exercise>
+<!--  
+  <exercise xml:id="ez-exp-log-properties-WW3">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_3_48.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-log-properties-WW7">
+    <webwork source="Library/Rochester/setAlgebra31LogExpEqns/srw4_2_1.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-log-properties-WW8">
+    <webwork source="Library/Rochester/setAlgebra31LogExpEqns/ur_le_2_11.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-log-properties-WW9">
+    <webwork source="Library/Rochester/setAlgebra31LogExpEqns/ur_le_2_12.pg" />
+  </exercise>  
+-->  
+  <exercise xml:id="ez-exp-log-properties-WW4">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_11.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-log-properties-WW5">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_25.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-log-properties-WW6">
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg" />
+  </exercise>
+
+
+  <exercise xml:id="ez-exp-log-properties-doubling-time">
+    <statement>
+      <p>
+        For a population that is growing exponentially according to a model of the form <m>P(t) = Ae^{kt}</m>, the <term>doubling time</term> <idx><h>exponential function</h><h>doubling time</h></idx> is the amount of time that it takes the population to double.  For each population described below, assume the function is growing exponentially according to a model <m>P(t) = Ae^{kt}</m>, where <m>t</m> is measured in years.
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Suppose that a certain population initially has <m>100</m> members and doubles after <m>3</m> years.  What are the values of <m>A</m> and <m>k</m> in the model?
+            </p>
+          </li>
+          <li>
+            <p>
+              A different population is observed to satisfy <m>P(4) = 250</m> and <m>P(11) = 500</m>.  What is the population's doubling time?  When will <m>2000</m> members of the population be present?
+            </p>
+          </li>
+          <li>
+            <p>
+              Another population is observed to have doubling time <m>t = 21</m>.  What is the value of <m>k</m> in the model?
+            </p>
+          </li>
+          <li>
+            <p>
+              How is <m>k</m> related to a population's doubling time, regardless of how long the doubling time is?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-exp-log-properties-car-value">
+    <statement>
+      <p>
+        A new car is purchased for $<m>28000</m>.  Exactly <m>1</m> year later, the value of the car is $<m>23200</m>.  Assume that the car's value in dollars, <m>V</m>, <m>t</m> years after purchase decays exponentially according to a model of form <m>V(t) = Ae^{-kt}</m>.
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Determine the exact values of <m>A</m> and <m>k</m> in the model.
+            </p>
+          </li>
+          <li>
+            <p>
+              How many years will it take until the car's value is $<m>10000</m>?
+            </p>
+          </li>
+          <li>
+            <p>
+              Suppose that rather than having the car's value decay all the way to $<m>0</m>, the lowest dollar amount its value ever approaches is $<m>500</m>.  Explain why a model of the form <m>V(t) = Ae^{-kt} + c</m> is more appropriate.
+            </p>
+          </li>
+          <li>
+            <p>
+              Under the original assumptions (<m>V(0) = 28000</m> and <m>V(1) = 23200</m>) along with the condition in (c) that the car's value will approach $<m>500</m> in the long-term, determine the exact values of <m>A</m>, <m>k</m>, and <m>c</m> in the model <m>V(t) = Ae^{-kt} + c</m>.  Are the values of <m>A</m> and <m>k</m> the same or different from the model explored in (a)?  Why?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise> 
+
+  <exercise xml:id="ez-exp-log-properties-Golden-Rule">
+    <statement>
+      <p>
+        In <xref ref="ez-exp-log-base-b">Exercise</xref>, we explored graphically how the function <m>y = \log_b(x)</m> can be thought of as a vertical stretch of the nautral logarithm, <m>y = \ln(x)</m>.  In this exercise, we determine the exact value of the vertical stretch that is needed.
+      </p>
+
+      <p>
+        Recall that <m>\log_b(x)</m> is the power to which we raise <m>b</m> to get <m>x</m>.
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              Write the equation <m>y = \log_b(x)</m> as an equivalent equation involving exponents with no logarithms present.
+            </p>
+          </li>
+          <li>
+            <p>
+              Take the equation you found in (a) and take the natural logarithm of each side.
+            </p>
+          </li>
+          <li>
+            <p>
+              Use rules and properties of logarithms appropriately to solve the equation from (b) for <m>y</m>.  Your result here should express <m>y</m> in terms of <m>\ln(x)</m> and <m>\ln(b)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Recall that <m>y = \log_b(x)</m>.  Explain why the following equation (often called the Golden Rule for Logarithms) is true:
+              <me>
+                \log_b(x) = \frac{\ln(x)}{\ln(b)}
+              </me>.
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the value of <m>k</m> that allows us to express the function <m>y = \log_b(x)</m> as a vertical stretch of the function <m>y = \ln(x)</m>?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+   
+</exercises>

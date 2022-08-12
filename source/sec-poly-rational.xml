@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-poly-rational">
+  <title>Rational Functions</title>
+
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					What is a rational function?
+				</p>
+			</li>
+			<li>
+				<p>
+					How can we determine key information about a rational function from its algebraic structure?
+				</p>
+			</li>
+			<li>
+				<p>
+					Why are rational functions important?
+				</p>
+			</li>
+		</ul>
+	</objectives>
+
+	<introduction>
+		<p>
+			The average rate of change of a function on an interval always involves a ratio.  Indeed, for a given function <m>f</m> that interests us near <m>t = 2</m>, we can investigate its average rate of change on intervals near this value by considering
+			<me>
+				AV_{[2,2+h]} = \frac{f(2+h)-f(2)}{h}
+			</me>.
+			Suppose, for instance, that <m>f</m> meausures the height of a falling ball at time <m>t</m> and is given by <m>f(t) = -16t^2 + 32t + 48</m>, which happens to be a polynomial function of degree <m>2</m>.  For this particular function, its average rate of change on <m>[1,1+h]</m> is
+			<md>
+				<mrow>
+					AV_{[2,2+h]} &amp;= \frac{f(2+h)-f(2)}{h}
+				</mrow>
+				<mrow>
+						 &amp;= \frac{-16(2+h)^2 + 32(2+h) + 48 - (-16 \cdot 4 + 32 \cdot 2 + 48)}{h}
+				</mrow>
+				<mrow>
+						 &amp;= \frac{-64 - 64h - 16h^2 + 64 + 32h + 48 - (48)}{h}
+				</mrow>
+				<mrow>
+						 &amp;= \frac{-64h - 16h^2}{h}
+				</mrow>
+			</md>.
+			Structurally, we observe that <m>AV_{[2,2+h]}</m> is a ratio of the two functions <m>-64h - 16h^2</m> and <m>h</m>.  Moreover, both the numerator and the denominator of the expression are themselves polynomial functions of the variable <m>h</m>.  Note that we may be especially interested in what occurs as <m>h \to 0</m>, as these values will tell us the average velocity of the moving ball on shorter and shorter time intervals starting at <m>t = 2</m>.  At the same time, <m>AV_{[2,2+h]}</m> is not defined for <m>h = 0</m>.
+		</p>
+
+		<p>
+			Ratios of polynomial functions arise in several different important circumstances.  Sometimes we are interested in what happens when the denominator approaches <m>0</m>, which makes the overall ratio undefined.  In other situations, we may want to know what happens in the long term and thus consider what happens when the input variable increases without bound.
+		</p>
+
+		<xi:include href="./previews/PA-poly-rational.xml" />
+
+	</introduction>
+
+	<subsection xml:id="subsec-poly-rational-long-term">
+		<title>
+			Long-range behavior of rational functions
+		</title>
+		<p>
+			The functions <m>AV_{[2,2+h]} = \frac{-64h - 16h^2}{h}</m> and <m>A(q) = \frac{5000000 + 2500q}{q}</m> are both examples of rational functions, since each is a ratio of polynomial functions.  Formally, we have the following definition.
+		</p>
+
+		<definition xml:id="def-rational-function">
+			<idx><h>rational function</h></idx>
+			<statement>
+				<p>
+					A function <m>r</m> is <term>rational</term> provided that it is possible to write <m>r</m> as the ratio of two polynomials, <m>p</m> and <m>q</m>. That is, <m>r</m> is rational provided that for some polynomial functions <m>p</m> and <m>q</m>, we have
+				    <me>
+				      r(x) = \frac{p(x)}{q(x)}
+				    </me>.
+ 				</p>
+			</statement>
+		</definition>
+
+		<p>
+			Like with polynomial functions, we are interested in such natural questions as 
+			<ul>
+				<li>
+					<p>
+						What is the long range behavior of a given rational function?
+					</p>
+				</li>
+				<li>
+					<p>
+						What is the domain of a given rational function?
+					</p>
+				</li>
+				<li>
+					<p>
+						How can we determine where a given rational function's value is <m>0</m>?
+					</p>
+				</li>
+			</ul>
+		</p>
+
+		<p>
+			We begin by focusing on the long-range behavior of rational functions.  It's important first to recall our earlier work with power functions of the form <m>p(x) = x^{-n}</m> where <m>n = 1, 2, \ldots</m>.  For such functions, we know that <m>p(x) = \frac{1}{x^n}</m> where <m>n \gt 0</m> and that
+			<me>
+				\lim_{x \to \infty} \frac{1}{x^n} = 0
+			</me>
+			since <m>x^n</m> increases without bound as <m>x \to \infty</m>.  The same is true when <m>x \to -\infty</m>:  <m>\lim_{x \to -\infty} \frac{1}{x^n} = 0</m>. Thus, any time we encounter a quantity such as <m>\frac{1}{x^3}</m>, this quantity will approach <m>0</m> as <m>x</m> increases without bound, and this will also occur for any constant numerator.  For instance,
+			<me>
+				\lim_{x \to \infty} \frac{2500}{x^2} = 0
+			</me>
+			since <m>2500</m> times a quantity approaching <m>0</m> will still approach <m>0</m> as <m>x</m> increases.  
+		</p>
+
+		<xi:include href="./activities/act-poly-rational-long-term-1.xml" />
+
+		<xi:include href="./activities/act-poly-rational-long-term-2.xml" />
+
+		<p>
+			We summarize and generalize the results of <xref ref="act-poly-rational-long-term-1">Activity</xref> and <xref ref="act-poly-rational-long-term-2">Activity</xref> as follows.
+		</p>
+
+	  	<assemblage xml:id="asm-rational-functions-long-term">
+	  		<idx><h>rational function</h><h>long-term behavior</h></idx>
+	  		<title>The long-term behavior of a rational function</title>
+	 		<p>
+	 			Let <m>p</m> and <m>q</m> be polynomial functions so that <m>r(x) = \frac{p(x)}{q(x)}</m> is a rational function.  Suppose that <m>p</m> has degree <m>n</m> with leading term <m>a_n x^n</m> and <m>q</m> has degree <m>m</m> with leading term <m>b_m x^m</m> for some nonzero constants <m>a_n</m> and <m>b_m</m>.  There are three possibilities (<m>n \lt m</m>, <m>n = m</m>, and <m>n \gt m</m>) that result in three different behaviors of <m>r</m>:
+			</p>
+
+	 			<p>
+	 				<ol marker="a.">
+		 				<li>
+		 					<p>
+		 						if <m>n \lt m</m>, then the degree of the numerator is less than the degree of the denominator, and thus
+		 						<me>
+		 							\lim_{n \to \infty} r(x) = \lim_{n \to \infty} \frac{a_n x^n + \cdots + a_0}{b_m x^m + \cdots + b_0} = 0
+		 						</me>,
+		 						which tells us that <m>y = 0</m> is a horizontal asymptote of <m>r</m>;
+		 					</p>
+		 				</li>
+		 				<li>
+		 					<p>
+		 						if <m>n = m</m>, then the degree of the numerator equals the degree of the denominator, and thus
+		 						<me>
+		 							\lim_{n \to \infty} r(x) = \lim_{n \to \infty} \frac{a_n x^n + \cdots + a_0}{b_n x^n + \cdots + b_0} = \frac{a_n}{b_n}
+		 						</me>,
+		 						which tells us that <m>y = \frac{a_n}{b_n}</m> (the ratio of the coefficients of the highest order terms in <m>p</m> and <m>q</m>) is a horizontal asymptote of <m>r</m>;
+		 					</p>
+		 				</li>
+		 				<li>
+		 					<p>
+		 						if <m>n \gt m</m>, then the degree of the numerator is greater than the degree of the denominator, and thus
+		 						<me>
+		 							\lim_{n \to \infty} r(x) = \lim_{n \to \infty} \frac{a_n x^n + \cdots + a_0}{b_m x^m + \cdots + b_0} = \pm \infty
+		 						</me>,
+		 						(where the sign of the limit depends on the signs of <m>a_n</m> and <m>b_m</m>) which tells us that <m>r</m> is does not have a horizontal asymptote.
+		 					</p>
+		 				</li>
+		 			</ol> 
+	 			</p>
+			<p>
+				In both situations (a) and (b), the value of <m>\lim_{x \to -\infty} r(x)</m> is identical to <m>\lim_{x \to \infty} r(x)</m>.
+	 		</p>
+	  	</assemblage>
+
+	</subsection>
+
+	<subsection xml:id="subsec-poly-rational-domain">
+		<title>The domain of a rational function</title>
+		<p>
+			Because a rational function can be written in the form <m>r(x) = \frac{p(x)}{q(x)}</m> for some polynomial functions <m>p</m> and <m>q</m>, we have to be concerned about the possibility that a rational function's denominator is zero.  Since polynomial functions always have their domain as the set of all real numbers, it follows that any rational function is only undefined at points where its denominator is zero.
+		</p>
+
+	  	<assemblage xml:id="asm-rational-functions-domain">
+	  		<idx><h>rational function</h><h>domain</h></idx>
+	  		<title>The domain of a rational function</title>
+	 		<p>
+	 			Let <m>p</m> and <m>q</m> be polynomial functions so that <m>r(x) = \frac{p(x)}{q(x)}</m> is a rational function.  The domain of <m>r</m> is the set of all real numbers except those for which <m>q(x) = 0</m>.
+	 		</p>
+	  	</assemblage>
+
+	  	<example xml:id="ex-rational-function-domain">
+	  		<statement>
+	  			<p>
+	  				Determine the domain of the function <m>r(x) = \frac{5x^3 + 17x^2 - 9x + 4}{2x^3 - 6x^2 - 8x}</m>.
+	  			</p>
+	  		</statement>
+	  		<solution>
+	  			<p>
+	  				To find the domain of any rational function, we need to determine where the denominator is zero.  The best way to find these values exactly is to factor the denominator.  Thus, we observe that
+	  				<me>
+	  					2x^3 - 6x^2 - 8x = 2x(x^2 - 3x - 4) = 2x(x+1)(x-4)
+	  				</me>.
+	  				By the Zero Product Property, it follows that the denominator of <m>r</m> is zero at <m>x = 0</m>, <m>x = -1</m>, and <m>x = 4</m>.  Hence, the domain of <m>r</m> is the set of all real numbers except <m>-1</m>, <m>0</m>, and <m>4</m>.
+	  			</p>
+	  		</solution>
+	  	</example>
+
+	  	<p>
+	  		We note that when it comes to determining the domain of a rational function, the numerator is irrelevant: all that matters is where the denominator is <m>0</m>.
+	  	</p>
+
+	  	<xi:include href="./activities/act-poly-rational-domain.xml" />
+
+	</subsection>
+
+	<subsection xml:id="subsec-poly-rational-applications">
+		<title>Applications of rational functions</title>
+		<p>
+			Rational functions arise naturally in the study of the average rate of change of a polynomial function, leading to expressions such as
+			<me>
+				AV_{[2,2+h]} = \frac{-64h - 16h^2}{h}
+			</me>.  
+			We will study several subtle issues that correspond to such functions further in <xref ref="sec-poly-rational-features">Section</xref>.  For now, we will focus on a different setting in which rational functions play a key role.
+		</p>
+
+		<p>
+			In <xref ref="sec-poly-polynomial-applications">Section</xref>, we encountered a class of problems where a key quantity was modeled by a polynomial function.  We found that if we considered a container such as a cylinder with fixed surface area, then the volume of the container could be written as a polynomial of a single variable.  For instance, if we consider a circular cylinder with surface area <m>10</m> square feet, then we know that
+			<me>
+				S = 10 = 2\pi r^2 + 2\pi r h
+			</me>
+			and therefore <m>h = \frac{10 - 2\pi r^2}{2 \pi r}</m>.  Since the cylinder's volume is <m>V = \pi r^2 h</m>, it follows that
+			<me>
+				V = \pi r^2 h = \pi r^2 \left( \frac{10 - 2\pi r^2}{2 \pi r} \right) = r(5 - \pi r^2)
+			</me>,
+			which is a polynomial function of <m>r</m>.
+		</p>
+
+		<p>
+			What happens if we instead fix the volume of the container and ask about how surface area can be written as a function of a single variable?
+		</p>
+
+		<example xml:id="ex-rational-application-cylinder">
+			<statement>
+				<p>
+					Suppose we want to construct a circular cylinder that holds <m>20</m> cubic feet of volume.  How much material does it take to build the container?  How can we state the amount of material as a function of a single variable?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					Neglecting any scrap, the amount of material it takes to construct the container is its surface area, which we know to be 
+					<me>
+						S = 2\pi r^2 + 2\pi r h
+					</me>.
+					Because we want the volume to be fixed, this results in a constraint equation that enables us to relate <m>r</m> and <m>h</m>.  In particular, since
+					<me>
+						V = 20 = \pi r^2 h
+					</me>,
+					it follows that we can solve for <m>h</m> and get <m>h = \frac{20}{\pi r^2}</m>.  Substituting this expression for <m>h</m> in the equation for surface area, we find that
+					<me>
+						S = 2\pi r^2 + 2\pi r \cdot \frac{20}{\pi r^2} = 2 \pi r^2 + \frac{40}{r}
+					</me>.
+					Getting a common denominator, we can also write <m>S</m> in the form
+					<me>
+						S(r) = \frac{2 \pi r^3 + 40}{r}
+					</me>
+					and thus we see that <m>S</m> is a rational function of <m>r</m>.  Because of the physical context of the problem and the fact that the denominator of <m>S</m> is <m>r</m>, the domain of <m>S</m> is the set of all positive real numbers. 
+				</p>
+			</solution>
+		</example>
+
+		<xi:include href="./activities/act-poly-rational-application.xml" />
+
+	</subsection>
+
+	<subsection xml:id="subsec-poly-rational-summary">
+		<title>Summary</title>
+
+		<ul>
+			<li>
+				<p>
+					A rational function is a function whose formula can be written as the ratio of two polynomial functions.  For instance, <m>r(x) = \frac{7x^3 - 5x + 16}{-4x^4 + 2x^3 - 11x + 3}</m> is a rational function.
+				</p>
+			</li>
+			<li>
+				<p>
+					Two aspects of rational functions are straightforward to determine for any rational function.  Given <m>r(x) = \frac{p(x)}{q(x)}</m> where <m>p</m> and <m>q</m> are polynomials, the domain of <m>r</m> is the set of all real numbers except any values of <m>x</m> for which <m>q(x) = 0</m>.  In addition, we can determine the long-range behavior of <m>r</m> by examining the highest order terms in <m>p</m> and <m>q</m>:
+
+					<ul>
+						<li>
+							<p>
+								if the degree of <m>p</m> is less than the degree of <m>q</m>, then <m>r</m> has a horizontal asymptote at <m>y = 0</m>;
+							</p>
+						</li>
+						<li>
+							<p>
+								if the degree of <m>p</m> equals the degree of <m>q</m>, then <m>r</m> has a horizontal asymptote at <m>y = \frac{a_n}{b_n}</m>, where <m>a_n</m> and <m>b_n</m> are the leading coefficients of <m>p</m> and <m>q</m> respectively;
+							</p>
+						</li>
+						<li>
+							<p>
+								and if the degree of <m>p</m> is greater than the degree of <m>q</m>, then <m>r</m> does not have a horizontal asymptote.
+							</p>
+						</li>
+					</ul>
+				</p>
+			</li>
+			<li>
+				<p>
+					Two reasons that rational functions are important are that they arise naturally when we consider the average rate of change on an interval whose length varies and when we consider problems that relate the volume and surface area of three-dimensional containers when one of those two quantities is constrained. 
+				</p>
+			</li>
+		</ul>
+
+	</subsection>
+
+	<xi:include href="./exercises/ez-poly-rational.xml" />
+
+  <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
+  <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
+</section>
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-exp-temp-pop-logistic-exact">
+
+	<statement>
+		<p>
+			Suppose that a population of animals that lives on an island (measured in thousands) is known to grow according to the logistic model, where <m>t</m> is measured in years.  We know the following information:  <m>P(0) = 2.45</m>, <m>P(3) = 4.52</m>, and as <m>t</m> increases without bound, <m>P(t)</m> approaches <m>11.7</m>.
+		</p>
+
+		<p>
+			<ol marker="a.">
+				<li>
+					<p>
+						Determine the exact values of <m>A</m>, <m>M</m>, and <m>k</m> in the logistic model
+            			<me>
+              				P(t) = \frac{A}{1 + Me^{-kt}}
+            			</me>.
+            			Clearly show your algebraic work and thinking.
+					</p>
+				</li>
+				<li>
+					<p>
+						Plot your model from (a) and check that its values match the desired characteristics.
+            			Then, compute the average rate of change of <m>P</m> on the intervals <m>[0,2]</m>,
+            			<m>[2,4]</m>, <m>[4,6]</m>, and <m>[6,8]</m>.
+            			What is the meaning (with units) of the values you've found?  How is the population growing on these intervals?
+					</p>
+				</li>
+				<li>
+					<p>
+						Find the exact time value when the population will be <m>10</m> (thousand).  Show your algebraic work and thinking.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

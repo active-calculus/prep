@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-poly-polynomials-find">
+
+	<statement>
+		<p>
+			By experimenting with coefficients in <em>Desmos</em>, find a formula for a polynomial function that has the stated properties, or explain why no such polynomial exists.  (If you enter <c>p(x)=a+bx+cx^2+dx^3+fx^4+gx^5</c> in <em>Desmos</em><fn>We skip using <c>e</c> as one of the constants since <em>Desmos</em> reserves <c>e</c> as the Euler constant.</fn>, you'll get prompted to add sliders that make it easy to explore a degree <m>5</m> polynomial.) 
+		</p>
+
+		<p>
+			<ol marker="a.">
+				<li>
+					<p>
+						A polynomial <m>p</m> of degree <m>5</m> with exactly <m>3</m> real zeros, <m>4</m> turning points, and such that <m>\lim_{x \to -\infty} p(x) = +\infty</m> and <m>\lim_{x \to \infty} p(x) = -\infty</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						A polynomial <m>p</m> of degree <m>4</m> with exactly <m>4</m> real zeros, <m>3</m> turning points, and such that <m>\lim_{x \to -\infty} p(x) = +\infty</m> and <m>\lim_{x \to \infty} p(x) = -\infty</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						A polynomial <m>p</m> of degree <m>6</m> with exactly <m>2</m> real zeros, <m>3</m> turning points, and such that <m>\lim_{x \to -\infty} p(x) = -\infty</m> and <m>\lim_{x \to \infty} p(x) = -\infty</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						A polynomial <m>p</m> of degree <m>5</m> with exactly <m>5</m> real zeros, <m>3</m> turning points, and such that <m>\lim_{x \to -\infty} p(x) = +\infty</m> and <m>\lim_{x \to \infty} p(x) = -\infty</m>.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

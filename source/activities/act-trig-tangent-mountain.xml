@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-trig-tangent-mountain">
+
+	<statement>
+		<p>
+			Surveyors are trying to determine the height of a hill relative to sea level.  First, they choose a point to take an initial measurement with a sextant that shows the angle of elevation from the ground to the peak of the hill is <m>19^\circ</m>.  Next, they move <m>1000</m> feet closer to the hill, staying at the same elevation relative to sea level, and find that the angle of elevation has increased to <m>25^\circ</m>, as pictured in <xref ref="F-tan-act-mountain">Figure</xref>.  We let <m>h</m> represent the height of the hill relative to the two measurements, and <m>x</m> represent the distance from the second measurement location to the <q>center</q> of the hill that lies directly under the peak.
+		</p>
+
+		<figure xml:id="F-tan-act-mountain">
+			<caption>The surveyors' initial measurements.</caption>
+			<image source="images/tan-act-mountain" width="70%" />
+		</figure>
+
+		<p>
+			<ol marker="a.">
+				<li>
+					<p>
+						Using the right triangle with the <m>25^\circ</m> angle, find an equation that relates <m>x</m> and <m>h</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Using the right triangle with the <m>19^\circ</m> angle, find a second equation that relates <m>x</m> and <m>h</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Our work in (a) and (b) results in a system of two equations in the two unknowns <m>x</m> and <m>h</m>.  Solve each of the two equations for <m>h</m> and then substitute appropriately in order to find a single equation in the variable <m>x</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Solve the equation from (c) to find the exact value of <m>x</m> and determine an approximate value accurate to <m>3</m> decimal places.
+					</p>
+				</li>
+				<li>
+					<p>
+						Use your preceding work to solve for <m>h</m> exactly, plus determine an estimate accurate to <m>3</m> decimal places.
+					</p>
+				</li>
+				<li>
+					<p>
+						If the surveyors' initial measurements were taken from an elevation of <m>78</m> feet above sea level, how high above sea level is the peak of the hill?
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

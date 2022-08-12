@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-circular-sine-cosine">
+
+	<statement>
+		<p>
+			Let <m>k = g(t)</m> be the function that tracks the <m>x</m>-coordinate of a point traversing the unit circle counterclockwise from <m>(1,0)</m>.  That is, <m>g(t) = \cos(t)</m>.  Use the information we know about the unit circle that is summarized in <xref ref="F-circular-sine-all-16">Figure</xref> to respond to the following questions.
+		</p>
+
+		<p>
+			<ol marker="a.">
+				<li>
+					<p>
+						What is the exact value of <m>\cos(\frac{\pi}{6})</m>?  of <m>\cos(\frac{5\pi}{6})</m>? <m>\cos(-\frac{\pi}{3})</m>?
+					</p>
+				</li>
+				<li>
+					<p>
+						Complete the following table with the exact values of <m>k</m> that correspond to the stated inputs.
+					</p>
+					<table xml:id="T-circular-cosine-first-values">
+						<caption>Exact values of <m>k = g(t) = \cos(t)</m>.</caption>
+						<tabular>
+							<row bottom="minor">
+								<cell><m>t</m></cell>
+								<cell><m>0</m></cell>
+								<cell><m>\frac{\pi}{6}</m></cell>
+								<cell><m>\frac{\pi}{4}</m></cell>
+								<cell><m>\frac{\pi}{3}</m></cell>
+								<cell><m>\frac{\pi}{2}</m></cell>
+								<cell><m>\frac{2\pi}{3}</m></cell>
+								<cell><m>\frac{3\pi}{4}</m></cell>
+								<cell><m>\frac{5\pi}{6}</m></cell>
+								<cell><m>\pi</m></cell>		
+							</row>
+							<row>
+								<cell><m>k</m></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+							</row>
+                                                        <row>
+                                                            <cell colspan="10"/>
+                                                        </row>
+							<row bottom="minor">
+								<cell><m>t</m></cell>
+								<cell><m>\pi</m></cell>		
+								<cell><m>\frac{7\pi}{6}</m></cell>
+								<cell><m>\frac{5\pi}{4}</m></cell>
+								<cell><m>\frac{4\pi}{3}</m></cell>
+								<cell><m>\frac{3\pi}{2}</m></cell>
+								<cell><m>\frac{5\pi}{3}</m></cell>
+								<cell><m>\frac{7\pi}{4}</m></cell>
+								<cell><m>\frac{11\pi}{6}</m></cell>
+								<cell><m>2\pi</m></cell>
+                                                        </row>
+							<row>
+								<cell><m>k</m></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+								<cell></cell>
+							</row>
+						</tabular>
+					</table>
+				</li>
+				<li>
+					<p>
+						On the axes provided in <xref ref="F-circular-sine-cosine-axes">Figure</xref>, sketch an accurate graph of <m>k = \cos(t)</m>.  Label the exact location of several key points on the curve.
+					</p>
+
+					<figure xml:id="F-circular-sine-cosine-axes">
+						<caption>Axes for plotting <m>k = \cos(t)</m>.</caption>
+						<image source="images/sine-cosine-definition-axes" />
+					</figure>
+				</li>
+				<li>
+					<p>
+						What is the exact value of <m>\cos( \frac{11\pi}{4} )</m>? of <m>\cos( \frac{14\pi}{3} )</m>?
+					</p>
+				</li>
+				<li>
+					<p>
+						Give four different values of <m>t</m> for which <m>\cos(t) = -\frac{\sqrt{3}}{2}</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						How is the graph of <m>k = \cos(t)</m> different from the graph of <m>h = \sin(t)</m>?  How are the graphs similar?
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

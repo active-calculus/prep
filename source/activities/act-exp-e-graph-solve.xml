@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-exp-e-graph-solve">
+
+	<statement>
+		<p>
+			By graphing <m>f(t) = e^t</m> and appropriate horizontal lines, estimate the solution to each of the following equations.  Note that in some parts, you may need to do some algebraic work in addition to using the graph.
+		</p>
+
+		<p>
+			<ol marker="a." cols="2">
+				<li>
+					<p>
+						<m>e^t = 2</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>e^{3t} = 5</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>2e^t - 4 = 7</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>3e^{0.25t} + 2 = 6</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>4 - 2e^{-0.7t} = 3</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>2e^{1.2t} = 1.5e^{1.6t}</m>
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

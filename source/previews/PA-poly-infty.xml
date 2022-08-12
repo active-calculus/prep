@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-poly-infty">
+
+	<statement>
+		<p>
+			Complete each of the following statements with an appropriate number or the symbols <m>\infty</m> or <m>-\infty</m>.  Do your best to do so <em>without</em> using a graphing utility; instead use your understanding of the function's graph.  
+		</p>
+
+		<p>
+			<ol marker="a.">
+				<li>
+					<p>
+						As <m>t \to \infty</m>, <m>e^{-t} \to </m> <fillin />.
+					</p>
+				</li>
+				<li>
+					<p>
+						As <m>t \to \infty</m>, <m>\ln(t) \to </m> <fillin />.
+					</p>
+				</li>
+				<li>
+					<p>
+						As <m>t \to \infty</m>, <m>e^{t} \to </m> <fillin />.
+					</p>
+				</li>
+				<li>
+					<p>
+						As <m>t \to 0^+</m>, <m>e^{-t} \to </m> <fillin />. (When we write <m>t \to 0^+</m>, this means that we are letting <m>t</m> get closer and closer to <m>0</m>, but only allowing <m>t</m> to take on positive values.)
+					</p>
+				</li>
+				<li>
+					<p>
+						As <m>t \to \infty</m>, <m>35 + 53e^{-0.025t} \to</m> <fillin />.
+					</p>
+				</li>
+				<li>
+					<p>
+						As <m>t \to \frac{\pi}{2}^-</m>, <m>\tan(t) \to </m><fillin />. (When we write <m>t \to \frac{\pi}{2}^-</m>, this means that we are letting <m>t</m> get closer and closer to <m>\frac{\pi}{2}^-</m>, but only allowing <m>t</m> to take on values that lie to the left of <m>\frac{\pi}{2}</m>.)
+					</p>
+				</li>
+				<li>
+					<p>
+						As <m>t \to \frac{\pi}{2}^+</m>, <m>\tan(t) \to </m><fillin />. (When we write <m>t \to \frac{\pi}{2}^+</m>, this means that we are letting <m>t</m> get closer and closer to <m>\frac{\pi}{2}^+</m>, but only allowing <m>t</m> to take on values that lie to the right of <m>\frac{\pi}{2}</m>.)
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+
+</exploration>

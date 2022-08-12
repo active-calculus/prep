@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-trig-tangent">
+
+	<statement>
+		<p>
+			Through the following questions, we work to understand the special values and overall behavior of the tangent function.
+		</p>
+
+		<p>
+	      <ol marker="a.">
+	        <li>
+	          <p>
+	            Without using computational device,
+	            find the exact value of the <m>\tan(t)</m> at the following values: <m>t = \frac{\pi}{6}, \frac{\pi}{4}, \frac{\pi}{3}, \frac{2\pi}{3}, \frac{3\pi}{4}, \frac{5\pi}{6}</m>. 
+<!--	           
+
+				<sidebyside>
+					<tabular>
+						<row>
+							<cell>
+								<md>
+					            	<mrow>\tan \left( \frac{\pi}{6} \right) =</mrow>
+					            	<mrow>\tan \left( \frac{\pi}{4} \right) =</mrow>
+					            	<mrow>\tan \left( \frac{\pi}{3} \right) =</mrow>
+					            </md>
+							</cell>
+						</row>
+					</tabular>
+					<tabular>
+						<row>
+							<cell>
+								<md>
+									<mrow>\tan \left( \frac{2\pi}{3} \right) =</mrow>
+					            	<mrow>\tan \left( \frac{3\pi}{4} \right) =</mrow>
+					            	<mrow>\tan \left( \frac{5\pi}{6} \right) =</mrow>
+								</md>				
+							</cell>
+						</row>
+					</tabular>				
+				</sidebyside>
+-->
+
+	          </p>
+	        </li>
+
+	        <li>
+	          <p>
+	            Why is <m>\tan \left( \frac{\pi}{2} \right)</m> not defined?
+	            What are three other input values <m>x</m> for which <m>\tan(x)</m> is not defined?
+	          </p>
+	        </li>
+
+	        <li>
+	          <p>
+	            Point your browser to
+	            <url href="http://gvsu.edu/s/0yO">http://gvsu.edu/s/0yO</url>
+	            (<q>zero-y-Oh</q>) to find a <em>Desmos</em>
+	            worksheet with data from the tangent function already input.  
+
+	            Click on several of the orange points to compare your exact values in (a) with the decimal values given by <em>Desmos</em>.  
+
+	            Add one entry to the table:
+	            <m>x = \frac{11\pi}{24}</m>, <m>y = T(\frac{11\pi}{24})</m>.
+	            At about what coordinates does this point lie?
+	            What are the respective values of
+	            <m>\sin(\frac{11\pi}{24})</m> and <m>\cos(\frac{11\pi}{24})</m>?
+	            Why is the value of <m>\tan(\frac{11\pi}{24})</m> so large?
+	          </p>
+	        </li>
+
+	        <li>
+	          <p>
+	            At the top of the input lists on the left side of the
+	            <em>Desmos</em> worksheet,
+	            click the circle to highlight the function
+	            <m>T(x) = \tan(x)</m> and thus show its plot along with the data points in orange.
+	            Use the plot and your work above to answer the following important questions about the tangent function:
+
+	            <ul>
+	              <li>
+	                <p>
+	                  What is the domain of <m>y = \tan(x)</m>?
+	                </p>
+	              </li>
+
+	              <li>
+	                <p>
+	                  What is the period of <m>y = \tan(x)</m>?
+	                </p>
+	              </li>
+
+	              <li>
+	                <p>
+	                  What is the range of <m>y = \tan(x)</m>?
+	                </p>
+	              </li>
+
+<!--
+	              <li>
+	                <p>
+	                  <em>Note well:</em> At each value of <m>x</m> for which <m>\tan(x)</m> is undefined,
+	                  the function <m>y = \tan(x)</m> has a vertical asymptote because the tangent function increases without bound on one side of the line and decreases without bound on the other.
+	                  How might you describe the collection of all <m>x</m>-values at which
+	                  <m>y = \tan(x)</m> has a vertical asymptote?
+	                </p>
+	              </li>
+-->
+	            </ul>
+	          </p>
+	        </li>
+	      </ol>
+		</p>
+	</statement>
+
+</exploration>

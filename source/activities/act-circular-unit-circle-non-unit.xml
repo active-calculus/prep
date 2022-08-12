@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-circular-unit-circle-non-unit">
+
+	<statement>
+		<p>
+			Determine each of the following values or points exactly.
+		</p>
+
+		<p>
+			<ol marker="a.">
+		        <li>
+		          <p>
+		            In a circle of radius <m>11</m>, the arc length intercepted by a central angle of <m>\frac{5\pi}{3}</m>.
+		          </p>
+		        </li>
+
+		        <li>
+		          <p>
+		            In a circle of radius <m>3</m>, the central angle measure that intercepts an arc of length <m>\frac{\pi}{4}</m>.
+		          </p>
+		        </li>
+
+		        <li>
+		          <p>
+		            The radius of the circle in which an angle of
+		            <m>\frac{7\pi}{6}</m> intercepts an arc of length <m>\frac{\pi}{2}</m>.
+		          </p>
+		        </li>
+
+		        <li>
+		        	<p>
+		        		The exact coordinates of the point on the circle of radius <m>5</m> that lies <m>\frac{25\pi}{6}</m> units counterclockwise along the circle from <m>(5,0)</m>.
+		        	</p>
+		        </li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

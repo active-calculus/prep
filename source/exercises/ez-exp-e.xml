@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-e">
+
+<!--
+  <exercise xml:id="ez-exp-e-WW1">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q04.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-e-WW2">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q06.pg" />
+  </exercise>
+-->
+
+  <exercise xml:id="ez-exp-e-WW0">
+    <webwork source="Library/Rochester/setAlgebra28ExpFunctions/sw6_2_27.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-e-WW1">
+    <webwork source="Library/Rochester/setAlgebra28ExpFunctions/sw6_2_3.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-e-WW2">
+    <webwork source="Library/Rochester/setAlgebra28ExpFunctions/sw6_2_5.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-e-WW3">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q12.pg" />
+  </exercise>
+  <exercise xml:id="ez-exp-e-WW4">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q13.pg" />
+  </exercise>
+
+<!--  
+  <exercise xml:id="ez-exp-e-WW5">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q24.pg" />
+  </exercise>
+
+-->
+
+  <exercise xml:id="ez-exp-e-continously-compounded">
+    <statement>
+      <p>
+        When a single investment of principal, $<m>P</m>, is invested in an account that returns interest at an annual rate of <m>r</m> (a decimal that corresponds to the percentage rate, such as <m>r = 0.05</m> corresponding to <m>5</m>%) that is compounded <m>n</m> times per year, the amount of money in the account after <m>t</m> years is given by <m>A(t) = P(1 + \frac{r}{n})^{nt}</m>.
+      </p>
+
+      <p>
+        Suppose we invest $<m>P</m> in an account that earns <m>8</m>% annual interest.  We investigate the effects of different rates of compounding.  
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Compute <m>A(1)</m> if interest is compounded quarterly (<m>n = 4</m>).
+            </p>
+          </li>
+          <li>
+            <p>
+              Compute <m>A(1)</m> if interest is compounded monthly.
+            </p>
+          </li>
+          <li>
+            <p>
+              Compute <m>A(1)</m> if interest is compounded weekly.
+            </p>
+          </li>
+          <li>
+            <p>
+              Compute <m>A(1)</m> if interest is compounded daily.
+            </p>
+          </li>
+          <li>
+            <p>
+              If we let the number of times that interest is compounded increase without bound, we say that the interest is <q>compounded continuously</q>.  <idx><h>continuously compounded interest</h></idx>  When interest is compounded continuously, it turns out that the amount of money an account with initial investment $<m>P</m> after <m>t</m> years at an annual interest rate of <m>r</m> is <m>A(t) = Pe^{rt}</m>, where <m>e</m> is the natural base.  Compute <m>A(1)</m> in the same context as the preceding questions but where interest is compounded continuously.
+            </p>
+          </li>
+          <li>
+            <p>
+              How much of a difference does continuously compounded interest make over interest compounded quarterly in one year's time?  How does your answer change over <m>25</m> years' time?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-exp-e-k-t">
+    <statement>
+      <p>
+        In <em>Desmos</em>, define the function <m>g(t) = e^{kt}</m> and accept the slider for <m>k</m>.  Set the range of the slider to <m>-2 \le k \le 2</m>, and assume that <m>k \ne 0</m>.  Experiment with a wide range of values of <m>k</m> to see the effects of changing <m>k</m>.
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              For what values of <m>k</m> is <m>g</m> always increasing?  For what values of <m>k</m> is <m>g</m> always decreasing?
+            </p>
+          </li>
+          <li>
+            <p>
+              For which value of <m>k</m> is the average rate of change of <m>g</m> on <m>[0,1]</m> greater:  when <m>k = -0.1</m> or when <m>k = -0.05</m>?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the long-term behavior of <m>g</m> when <m>k \lt 0</m>?  Why does this occur?
+            </p>
+          </li>
+          <li>
+            <p>
+              Experiment with the slider to find a value of <m>k</m> for which <m>g(2) = \frac{1}{2}</m>.  Test your estimate by computing <m>e^{2k}</m>.  How accurate is your estimate? 
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-exp-e-soda">
+    <statement>
+      <p>
+        A can of soda is removed from a refrigerator at time <m>t = 0</m> (in minutes)
+        and its temperature, <m>F(t)</m>, in degrees Fahrenheit, is computed at regular intervals.
+        Based on the data, a model is formulated for the object's temperature, given by
+          <me>
+            F(t) = 74.4 - 38.8e^{-0.05t}
+          </me>.
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              What is the long-term behavior of the function <m>g(t) = e^{-0.05t}</m>?  Why?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the long-term behavior of the function <m>F(t) = 74.4 - 38.8e^{-0.05t}</m>?  What is the meaning of this value in the physical context of the problem?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the temperature of the refrigerator?  Why?
+            </p>
+          </li>
+          <li>
+            <p>
+              Compute the average rate of change of <m>F</m> on the intervals <m>[10,20]</m>, <m>[20,30]</m>, and <m>[30,40]</m>.  Write a careful sentence, with units, to explain the meaning of each, and write an additional sentence to describe any overall trends in how the average rate of change of <m>F</m> is changing.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+</exercises>

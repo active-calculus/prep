@@ -15,7 +15,7 @@
 
 <!-- Conveniences for classes of similar elements -->
 <!DOCTYPE xsl:stylesheet [
-    <!ENTITY % entities SYSTEM "../xsl/entities.ent">
+    <!ENTITY % entities SYSTEM "entities.ent">
     %entities;
 ]>
 
@@ -24,11 +24,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
 <!-- List Chapters and Sections in printed Table of Contents -->
-<xsl:param name="toc.level" select="'2'" />
 
 <!-- Set font size and two-sided mode -->
 <xsl:param name="latex.font.size" select="'10pt'" />
-<xsl:param name="latex.sides" select="'two'" />
 <xsl:param name="latex.pageref" select="'no'" />
 
 <!-- Font configuration should be consistent -->
@@ -38,7 +36,6 @@
    <xsl:text>\renewcommand{\rmdefault}{zpltlf} %Roman font for use in math mode&#xa;</xsl:text>
    <xsl:text>\usepackage[scaled=.85]{beramono}% used only by \mathtt&#xa;</xsl:text>
    <xsl:text>\usepackage[type1]{cabin}%used only by \mathsf&#xa;</xsl:text>
-   <xsl:text>\usepackage{amsmath,amssymb,amsthm}%load before newpxmath&#xa;</xsl:text>
    <xsl:text>\usepackage[varg,cmintegrals,bigdelims,varbb]{newpxmath}&#xa;</xsl:text>
    <xsl:text>\usepackage[scr=rsfso]{mathalfa}&#xa;</xsl:text>
    <xsl:text>\usepackage{bm} %load after all math to give access to bold math&#xa;</xsl:text>
@@ -47,6 +44,8 @@
    <xsl:text>\setmainfont{TeXGyrePagellaX}&#xa;</xsl:text>
    <xsl:text>\defaultfontfeatures{Ligatures=TeX,Scale=1,Mapping=tex-text}&#xa;</xsl:text>
    <xsl:text>\linespread{1.02}&#xa;</xsl:text>
+   <xsl:text>% Deal with a conflict with amssymb and our fonts&#xa;</xsl:text>
+   <xsl:text>\let\Bbbk\relax &#xa;</xsl:text>
 </xsl:param>
 
 <xsl:param name="latex.preamble.late.common">
@@ -59,8 +58,8 @@
     <xsl:text>\newpagestyle{chapopen}{&#xa;</xsl:text>
     <xsl:text>\sethead[][][] % even&#xa;</xsl:text>
     <xsl:text>{}{}{} % odd&#xa;</xsl:text>
-    <xsl:text>\setfoot[\includegraphics[height=1pc]{images/CC-BY-SA-license.pdf}][][]&#xa;</xsl:text>
-<xsl:text>{}{}{\includegraphics[height=1pc]{images/CC-BY-SA-license.pdf}}}&#xa;</xsl:text>
+    <xsl:text>\setfoot[\includegraphics[height=1pc]{external/images/CC-BY-SA-license.pdf}][][]&#xa;</xsl:text>
+<xsl:text>{}{}{\includegraphics[height=1pc]{external/images/CC-BY-SA-license.pdf}}}&#xa;</xsl:text>
     <xsl:text>\assignpagestyle{\chapter}{chapopen}&#xa;</xsl:text>
 
     <xsl:text>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%&#xa;</xsl:text>

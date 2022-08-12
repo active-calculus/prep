@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-circular-sinusoidal">
+
+	<statement>
+		<p>
+			Let <m>f(t) = \cos(t)</m>.  First, answer all of the questions below <em>without</em> using <em>Desmos</em>;
+      		then use <em>Desmos</em> to confirm your conjectures.  For each prompt, describe the graphs of <m>g</m> and <m>h</m> as transformations of <m>f</m> and, in addition, state the amplitude, midline, and period of both <m>g</m> and <m>h</m>.
+		</p>
+		<p>
+			<ol marker="a.">
+				<li>
+					<p>
+						<m>g(t) = 3\cos(t)</m> and <m>h(t) = -\frac{1}{4}\cos(t)</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>g(t) = \cos(t-\pi)</m> and <m>h(t) = \cos\left(t+ \frac{\pi}{2}\right)</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>g(t) = \cos(t)+4</m> and <m>h(t) = \cos\left(t\right)-2</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>g(t) = 3\cos(t-\pi)+4</m> and <m>h(t) = -\frac{1}{4}\cos\left(t+ \frac{\pi}{2}\right)-2</m>
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+
+</exploration>

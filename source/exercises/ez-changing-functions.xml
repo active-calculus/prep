@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-functions">
+
+<!-- does not have a statement tag
+  <exercise xml:id="ez-changing-functions-WW0">
+    <webwork source="Library/Rochester/setAlgebra16FunctionGraphs/c0s1p3/c0s1p3.pg" />
+  </exercise>
+ 
+-->  
+
+  <exercise xml:id="ez-changing-functions-WW1">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec1/Q01.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-functions-WW2">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec1/Q24.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-functions-WW3">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec1/Q19.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-functions-WW4">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec1/Connally3-2-1-25-Input-and-output.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-functions-WW5">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec1/Q20.pg" />
+  </exercise>
+  <exercise xml:id="ez-changing-functions-WW6">
+    <webwork source="Library/maCalcDB/setAlgebra15Functions/jay4.pg" />
+  </exercise>
+
+  <exercise xml:id="ez-functions-conical-tank-time">
+    <statement>
+      <p>
+        Consider an inverted conical tank (point down) whose top has a radius of <m>3</m> feet and that is <m>2</m> feet deep.  The tank is initially empty and then is filled at a constant rate of <m>0.75</m> cubic feet per minute.  Let <m>V=f(t)</m> denote the volume of water (in cubic feet) at time <m>t</m> in minutes, and let <m>h= g(t)</m> denote the depth of the water (in feet) at time <m>t</m>.
+      </p>
+  
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Recall that the volume of a conical tank of radius <m>r</m> and depth <m>h</m> is given by the formula <m>V = \frac{1}{3} \pi r^2 h</m>.  How long will it take for the tank to be completely full and how much water will be in the tank at that time?
+            </p>
+          </li>
+          <li>
+            <p>
+              On the provided axes, sketch possible graphs of both <m>V = f(t)</m> and <m>h = g(t)</m>, making them as accurate as you can.  Label the scale on your axes and points whose coordinates you know for sure; write at least one sentence for each graph to discuss the shape of your graph and why it makes sense in the context of the model.
+            </p>
+
+            <sidebyside width="50%">
+              <image source="images/tandem-V-t-blank-axes" />
+              <image source="images/tandem-h-t-blank-axes" />
+            </sidebyside>
+
+          </li>
+
+          <li>
+            <p>
+              What is the domain of the model <m>h = g(t)</m>?  its range?  why?
+            </p>
+          </li>
+          
+          <li>
+            <p>
+              It's possible to show that the formula for the function <m>g</m> is <m>g(t) = \left( \frac{t}{\pi} \right)^{1/3}</m>.  Use a computational device to generate two plots:  on the axes at left, the graph of the model <m>h = g(t) = \left( \frac{t}{\pi} \right)^{1/3}</m> on the domain that you decided in (c); on the axes at right, the graph of the abstract function <m>y = p(x) = \left( \frac{t}{\pi} \right)^{1/3}</m> on a wider domain than that of <m>g</m>.  What are the domain and range of <m>p</m> and how do these differ from those of the physical model <m>g</m>?
+            </p>
+
+            <sidebyside width="50%">
+              <image source="images/tandem-h-t-blank-axes" />
+              <image source="images/functions-y-x-blank-axes" />
+            </sidebyside>
+          </li>
+
+
+        </ol>
+      </p>
+
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-functions-velocity">
+    <statement>
+      <p>
+        A person is taking a walk along a straight path.  Their velocity, <m>v</m> (in feet per second), which is a function of time <m>t</m> (in seconds), is given by the graph in <xref ref="F-ez-functions-velocity">Figure</xref>.
+      </p>
+
+      <figure xml:id="F-ez-functions-velocity">
+        <caption>The velocity graph for a person walking along a straight path.</caption>
+        <image width="50%" source="images/functions-ez-velocity" />
+      </figure>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              What is the person's velocity when <m>t = 2</m>?  when <m>t = 7</m>?
+            </p>
+          </li>
+          <li>
+            <p>
+              Are there any times when the person's velocity is exactly <m>v = 3</m> feet per second?  If yes, identify all such times; if not, explain why.
+            </p>
+          </li>
+          <li>
+            <p>
+              Describe the person's behavior on the time interval <m>4 \le t \le 5</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              On which time interval does the person travel a farther distance:  <m>[1,3]</m> or <m>[6,8]</m>?  Why?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-functions-gas-distance">
+    <statement>
+      <p>
+        A driver of a new car periodically keeps track of the number of gallons of gas remaining in their car's tank, while simultaneously tracking the trip odometer mileage.  Their data is recorded in the following table.  Note that at mileages where they add fuel to the tank, they record the mileage twice:  once before fuel is added, and once afterward.
+      </p>
+
+      <table xml:id="T-functions-gas-distance">
+        <caption>Remaining gas as a function of distance traveled.</caption>
+        <tabular>
+            <row bottom="minor">
+              <cell><m>D</m> (miles)</cell>
+              <cell><m>0</m></cell>
+              <cell><m>50</m></cell>
+              <cell><m>100</m></cell>
+              <cell><m>100</m></cell>
+              <cell><m>150</m></cell>
+              <cell><m>200</m></cell>
+              <cell><m>250</m></cell>
+              <cell><m>300</m></cell>
+              <cell><m>300</m></cell>
+              <cell><m>350</m></cell>
+            </row>
+            <row>
+              <cell><m>G</m> (gallons)</cell>
+              <cell><m>4.5</m></cell>
+              <cell><m>3.0</m></cell>
+              <cell><m>1.5</m></cell>
+              <cell><m>10.0</m></cell>
+              <cell><m>8.5</m></cell>
+              <cell><m>7.0</m></cell>
+              <cell><m>5.5</m></cell>
+              <cell><m>4.0</m></cell>
+              <cell><m>11.0</m></cell>
+              <cell><m>9.5</m></cell>
+            </row>
+        </tabular>
+      </table>
+
+      <p>
+        Use the table to respond to the questions below.
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Can the amoung of fuel in the gas tank, <m>G</m>, be viewed as a function of distance traveled, <m>D</m>?  Why or why not?
+            </p>
+          </li>
+          <li>
+            <p>
+              Does the car's fuel economy appear to be constant or does it appear to vary?  Why?
+            </p>
+          </li>
+          <li>
+            <p>
+              At what odometer reading did the driver put the most gas in the tank?
+            </p>
+          </li>
+        </ol>        
+      </p>
+      
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+
+
+</exercises>

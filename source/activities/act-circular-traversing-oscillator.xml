@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-circular-traversing-oscillator">
+
+	<statement>
+		<p>
+			A weight is placed on a frictionless table next to a wall and attached to a spring that is fixed to the wall.  From its natural position of rest, the weight is imparted an initial velocity that sets it in motion.  The weight then oscillates back and forth,
+      		and we can measure its distance, <m>h = f(t)</m> (in inches)
+      		from the wall at any given time, <m>t</m> (in seconds).
+      		A graph of <m>f</m> and a table of select values are given below.
+		</p>
+
+		<sidebyside widths="25% 25% 50%" valign="middle">
+			<tabular halign="center">
+				<row bottom="minor">
+					<cell><m>t</m></cell>
+					<cell><m>f(t)</m></cell>
+				</row>
+				<row>
+					<cell><m>0.25</m></cell>
+					<cell><m>6.807</m></cell>
+				</row>
+				<row>
+					<cell><m>0.5</m></cell>
+					<cell><m>4.464</m></cell>
+				</row>
+				<row>
+					<cell><m>0.75</m></cell>
+					<cell><m>3.381</m></cell>
+				</row>
+				<row>
+					<cell><m>1</m></cell>
+					<cell><m>3.000</m></cell>
+				</row>
+				<row>
+					<cell><m>1.25</m></cell>
+					<cell><m>3.381</m></cell>
+				</row>
+				<row>
+					<cell><m>1.5</m></cell>
+					<cell><m>4.464</m></cell>
+				</row>
+				<row>
+					<cell><m>1.75</m></cell>
+					<cell><m>6.087</m></cell>
+				</row>
+				<row>
+					<cell><m>2</m></cell>
+					<cell><m>8.000</m></cell>
+				</row>
+			</tabular>
+
+			<tabular halign="center">
+				<row bottom="minor">
+					<cell><m>t</m></cell>
+					<cell><m>f(t)</m></cell>
+				</row>
+				<row>
+					<cell><m>2.25</m></cell>
+					<cell><m>9.913</m></cell>
+				</row>
+				<row>
+					<cell><m>2.5</m></cell>
+					<cell><m>11.536</m></cell>
+				</row>
+				<row>
+					<cell><m>2.75</m></cell>
+					<cell><m>12.619</m></cell>
+				</row>
+				<row>
+					<cell><m>3</m></cell>
+					<cell><m>13.000</m></cell>
+				</row>
+				<row>
+					<cell><m>3.25</m></cell>
+					<cell><m>12.619</m></cell>
+				</row>
+				<row>
+					<cell><m>3.5</m></cell>
+					<cell><m>11.536</m></cell>
+				</row>
+				<row>
+					<cell><m>3.75</m></cell>
+					<cell><m>9.913</m></cell>
+				</row>
+				<row>
+					<cell><m>4</m></cell>
+					<cell><m>8.000</m></cell>
+				</row>
+			</tabular>
+
+			<image source="images/traversing-circular-act-oscillator" />
+		</sidebyside>
+
+		<p>
+			<ol marker="a.">
+				<li>
+					<p>
+						Determine the period <m>p</m>, midline <m>y = m</m>, and amplitude <m>a</m> of the function <m>f</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						What is the furthest distance the weight is displaced from the wall?  What is the least distance the weight is displaced from the wall? What is the range of <m>f</m>?
+					</p>
+				</li>
+				<li>
+					<p>
+						Determine the average rate of change of <m>f</m> on the intervals <m>[4,4.25]</m> and <m>[4.75,5]</m>.  Write one careful sentence to explain the meaning of each (including units).  In addition, write a sentence to compare the two different values you find and what they together say about the motion of the weight.
+					</p>
+				</li>
+				<li>
+					<p>
+						Based on the periodicity of the function, what is the value of <m>f(6.75)</m>? of <m>f(11.25)</m>?
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

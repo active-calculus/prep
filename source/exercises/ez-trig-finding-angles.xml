@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-finding-angles">
+  
+  <exercise xml:id="ez-trig-finding-angles-WW1">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q24a.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-finding-angles-WW2">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-finding-angles-WW6">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q37.pg" />
+  </exercise>   
+
+<!--  most of the following fail to have statement tags
+
+  <exercise xml:id="ez-trig-finding-angles-WW3">
+    <webwork source="Library/Rochester/setTrig06Inverses/srw7_6_25.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-finding-angles-WW4">
+    <webwork source="Library/Utah/Trigonometry/set7_Trigonometry/q3.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-finding-angles-WW5">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q203.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-finding-angles-WW7">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q36.pg" />
+  </exercise> 
+
+  <exercise xml:id="ez-trig-finding-angles-WW8">
+    <webwork source="Library/Rochester/setTrig06Inverses/srw7_4_1.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-finding-angles-WW9">
+    <webwork source="Library/Rochester/setTrig06Inverses/srw7_4_3.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-finding-angles-WW10">
+    <webwork source="Library/Rochester/setTrig06Inverses/srw7_4_7.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-finding-angles-WW11">
+    <webwork source="Library/Rochester/setTrig06Inverses/srw7_4_25.pg" />
+  </exercise>     
+-->
+
+  <exercise xml:id="ez-finding-angles-plane">
+    <statement>
+      <p>
+        At an airshow, a pilot is flying low over a runway while maintaining a constant altitude of <m>2000</m> feet and a constant speed.  On a straight path over the runway, the pilot observes on her laser range-finder that the distance from the plane to a fixed building adjacent to the runway is <m>7500</m> feet.  Five seconds later, she observes that distance to the same building is now <m>6000</m> feet.
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              What is the angle of depression from the plane to the building when the plane is <m>7500</m> feet away from the building?  (The angle of depression is the angle that the pilot's line of sight makes with the horizontal.)
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the angle of depression when the plane is <m>6000</m> feet from the building?
+            </p>
+          </li>
+          <li>
+            <p>
+              How far did the plane travel during the time between the two different observations?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the plane's velocity (in miles per hour)?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+    <exercise xml:id="ez-finding-angles-balloon">
+    <statement>
+      <p>
+        On a calm day, a photographer is filming a hot air balloon.  When the balloon launches, the photographer is stationed <m>850</m> feet away from the balloon.
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              When the balloon is <m>200</m> feet off the ground, what is the angle of elevation of the camera?
+            </p>
+          </li>
+          <li>
+              <p>
+                When the balloon is <m>275</m> feet off the ground, what is the angle of elevation of the camera?
+              </p>
+          </li>
+          <li>
+            <p>
+              Let <m>\theta</m> represent the camera's angle of elevation when the balloon is at an arbitrary height <m>h</m> above the ground.  Express <m>\theta</m> as a function of <m>h</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Determine <m>AV_{[200,275]}</m> for <m>\theta</m> (as a function of <m>h</m>) and write at least one sentence to carefully explain the meaning of the value you find, including units.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+    <exercise xml:id="ez-finding-angles-triangle">
+    <statement>
+      <p>
+        Consider a right triangle where the two legs measure <m>5</m> and <m>12</m> respectively and <m>\alpha</m> is the angle opposite the shorter leg and <m>\beta</m> is the angle opposite the longer leg.
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              What is the exact value of <m>\cos(\alpha)</m>?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the exact value of <m>\sin(\beta)</m>?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the exact value of <m>\tan(\beta)</m>?  of <m>\tan(\alpha)</m>?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the exact radian measure of <m>\alpha</m>?  approximate measure?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the exact radian measure of <m>\beta</m>?  approximate measure?
+            </p>
+          </li>
+          <li>
+            <p>
+              True or false:  for any two angles <m>\theta</m> and <m>\gamma</m> such that <m>\theta + \gamma = \frac{\pi}{2}</m> (radians), it follows that <m>\cos(\theta) = \sin(\gamma)</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+</exercises>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-circular-unit-circle">
+
+  <exercise xml:id="ez-circular-unit-circle-WW8">
+    <webwork source="Library/Rochester/setTrig02FunctionsUnitCircle/srw5_1_11.pg" />
+  </exercise>
+  <exercise xml:id="ez-circular-unit-circle-WW1">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q02.pg" />
+  </exercise>
+  <exercise xml:id="ez-circular-unit-circle-WW2">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q04.pg" />
+  </exercise>
+  <exercise xml:id="ez-circular-unit-circle-WW3">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q20.pg" />
+  </exercise>
+  <exercise xml:id="ez-circular-unit-circle-WW4">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q26.pg" />
+  </exercise>
+
+  <exercise xml:id="ez-circular-unit-circle-WW5">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Review/Q13.pg" />
+  </exercise>
+  <exercise xml:id="ez-circular-unit-circle-WW6">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q09.pg" />
+  </exercise>
+
+
+
+
+  <exercise xml:id="ez-circular-unit-circle-find-points">
+    <statement>
+      <p>
+        Let <m>(x,y)</m> by a point on the unit circle.  In each of the following situations, determine requested value exactly.
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Suppose that <m>x = -0.3</m> and <m>y</m> is negative.  Find the value of <m>y</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Suppose that <m>(x,y)</m> lies in Quadrant II and <m>x = -2y</m>.  Find the values of <m>x</m> and <m>y</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Suppose that <m>(x,y)</m> lies a distance of <m>\frac{29\pi}{6}</m> units clockwise around the circle from <m>(1,0)</m>.  Find the values of <m>x</m> and <m>y</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              At what exact point(s) does the line <m>y = \frac{1}{2}x + \frac{1}{2}</m> intersect the unit circle?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise xml:id="ez-circular-unit-circle-non-unit-circles">
+    <statement>
+      <p>
+        The unit circle is centered at <m>(0,0)</m> and radius <m>r = 1</m>, from which the Pythagorean Theorem tells us that any point <m>(x,y)</m> on the unit circle satisfies the equation <m>x^2 + y^2 = 1</m>.
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Explain why any point <m>(x,y)</m> on a circle of radius <m>r</m> centered at <m>(h,k)</m> satisfies the equation <m>(x-h)^2 + (y-k)^2 = r^2</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Determine the equation of a circle centered at <m>(-3,5)</m> with radius <m>r = 2</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Suppose that the unit circle is magnified by a factor of <m>5</m> and then shifted <m>4</m> units right and <m>7</m> units down.  What is the equation of the resulting circle?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the length of the arc intercepted by a central angle of <m>\frac{2\pi}{3}</m> radians in the circle <m>(x-1)^2 + (y-3)^2 = 16</m>?
+            </p>
+          </li>
+          <li>
+            <p>
+              Suppose that the line segment from <m>(-2,-1)</m> to <m>(4,2)</m> is a diameter of a circle.  What is the circle's center, radius, and equation?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>  
+
+  <exercise xml:id="ez-circular-unit-circle-larger-radius">
+    <statement>
+      <p>
+        Consider the circle whose center is <m>(0,0)</m> and whose radius is <m>r = 5</m>.  Let a point <m>(x,y)</m> traverse the circle counterclockwise from <m>(5,0)</m>, and say the distance along the circle from <m>(5,0)</m> is represented by <m>d</m>.
+      </p>
+
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Consider the point <m>(a,b)</m> that is generated by the central angle <m>\theta</m> with vertices <m>(5,0)</m>, <m>(0,0)</m>, and <m>(a,b)</m>.  If <m>\theta = \frac{\pi}{6}</m>, what are the exact values of <m>a</m> and <m>b</m>?
+            </p>
+          </li>
+          <li>
+            <p>
+              Answer the same question as in (a) except with <m>\theta = \frac{\pi}{4}</m> and <m>\theta = \frac{\pi}{3}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              How far has the point <m>(x,y)</m> traveled after it has traversed the circle one full revolution?
+            </p>
+          </li>
+          <li>
+            <p>
+              Let <m>h = f(d)</m> be the circular function that tracks the height of the point <m>(x,y)</m> as a function of distance, <m>d</m>, traversed counterclockwise from <m>(5,0)</m>.  Sketch an accurate graph of <m>f</m> through two full periods, labeling several special points on the graph as well as the horizontal and vertical scale of the axes.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p>
+        Exercise Solution
+      </p>
+    </solution>
+  </exercise>
+
+</exercises>

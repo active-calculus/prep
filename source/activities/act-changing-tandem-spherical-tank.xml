@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-tandem-spherical-tank">
+
+	<statement>
+		<p>
+			Consider a tank in the shape of a sphere where the tank's radius is <m>3</m> feet.  Suppose that the tank is initially completely full and that it is being drained by a pump at a constant rate of <m>1.2</m> cubic feet per minute.
+		</p>
+
+		<p>
+			<ol marker="a.">
+				<li>
+					<p>
+						Sketch a labeled picture of the tank, including a snapshot of some water remaining in the tank prior to the tank being completely empty.
+					</p>
+				</li>
+				<li>
+					<p>
+						What are some quantities that are changing in this scenario?  What are some quantities that are not changing?
+					</p>
+				</li>
+				<li>
+					<p>
+						Recall that the volume of a sphere of radius <m>r</m> is <m>V = \frac{4}{3} \pi r^3</m>.  When the tank is completely full at time <m>t = 0</m> right before it starts being drained, how much water is present?
+					</p>
+				</li>
+				<li>
+					<p>
+						How long will it take for the tank to drain completely?
+					</p>
+				</li>
+				<li>
+					<p>
+						Fill in the following table of values to determine how much water, <m>V</m>, is in the tank at a given time in minutes, <m>t</m>, and thus generate a graph of the relationship between volume and time.  Write a sentence to explain why the data's graph appears the way that it does.
+					</p>
+					<sidebyside width="50%" valign="middle">
+						<table xml:id="T-tandem-act-sphere-V-t">
+							<caption>Data for how volume and time change together.</caption>
+							<tabular>
+								<row bottom="minor">
+									<cell><m>t</m></cell>
+									<cell><m>V</m></cell>
+								</row>
+								<row>
+									<cell><m>0</m></cell>
+									<cell></cell>
+								</row>
+								<row>
+									<cell><m>20</m></cell>
+									<cell></cell>
+								</row>
+								<row>
+									<cell><m>40</m></cell>
+									<cell></cell>
+								</row>
+								<row>
+									<cell><m>60</m></cell>
+									<cell></cell>
+								</row>
+								<row>
+									<cell><m>80</m></cell>
+									<cell></cell>
+								</row>																	
+								<row>
+									<cell><m>94.24</m></cell>
+									<cell></cell>
+								</row>															
+							</tabular>
+						</table>
+						<figure xml:id="F-tandem-act-sphere-V-t">
+							<caption>A plot of how volume and time change in tandem in a draining spherical tank.</caption>
+							<image source="images/tandem-sphere-V-t" />	
+						</figure>
+					</sidebyside>
+				</li>
+				<li>
+					<p>
+						Finally, think about how the height of the water changes in tandem with time. What is the height of the water when <m>t = 0</m>?  What is the height when the tank is empty?  How would you expect the data for the relationship between <m>h</m> and <m>t</m> to appear?  Use the provided axes to sketch at least two possibilities; write at least one sentence to explain how you think the graph should appear.
+					</p>
+					<sidebyside width="50%">
+			              <image source="images/tandem-h-t-blank-axes" /> <image source="images/tandem-h-t-blank-axes" />
+					</sidebyside>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>

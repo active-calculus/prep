@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-linear-in-context">
+
+	<statement>
+		<p>
+			In each of the following prompts, we investigate linear functions in context.
+		</p>
+
+		<p>
+			<ol marker="a.">
+				<li>
+					<p>
+						A town's population initially has <m>28750</m> people present and then grows at a constant rate of <m>825</m> people per year.
+            			Find a linear model <m>P = f(t)</m> for the number of people in the town in year <m>t</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						A different town's population <m>Q</m> is given by the function <m>Q = g(t) = 42505 - 465t</m>.  What is the slope of this function and what is its meaning in the model?  Write a complete sentence to explain.
+					</p>
+				</li>
+				<li>
+					<p>
+						A spherical tank is being drained with a pump.  Initially the tank is full with <m>\frac{32\pi}{3}</m> cubic feet of water.  Assume the tank is drained at a constant rate of <m>1.2</m> cubic feet per minute.  Find a linear model <m>V = p(t)</m> for the total amount of water in the tank at time <m>t</m>.  In addition, what is a reasonable domain for the model?
+					</p>
+				</li>
+				<li>
+					<p>
+						A conical tank is being filled in such a way that the height of the water in the tank, <m>h</m> (in feet), at time <m>t</m> (in minutes) is given by the function <m>h = q(t) = 0.65t</m>.  What can you say about how the water level is rising?  Write at least one careful sentence to explain.
+					</p>
+				</li>
+				<li>
+					<p>
+						Suppose we know that a <m>5</m>-year old car's value is $<m>10200</m>, and that after <m>10</m> years its value is $<m>4600</m>.  Find a linear function <m>C = L(t)</m> whose output is the value of the car in year <m>t</m>.  What is a reasonable domain for the model?  What is the value and meaning of the slope of the line?  Write at least one careful sentence to explain.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
+
+</activity>
+

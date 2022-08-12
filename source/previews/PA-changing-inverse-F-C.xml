@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2019                                                        -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-changing-inverse-F-C">
+
+<statement>
+	<p>
+		Recall that <m>F = g(C) = \frac{9}{5}C + 32</m> is the function that takes Celsius temperature inputs and produces the corresponding Fahrenheit temperature outputs.
+	</p>
+
+	<p>
+		<ol marker="a.">
+			<li>
+				<p>
+					Show that it is possible to solve the equation <m>F = \frac{9}{5}C + 32</m> for <m>C</m> in terms of <m>F</m> and that doing so results in the equation <m>C = \frac{5}{9}(F-32)</m>.
+				</p>
+			</li>
+				
+			<li>
+				<p>
+					Note that the equation <m>C = \frac{5}{9}(F-32)</m> expresses <m>C</m> as a function of <m>F</m>.  Call this function <m>h</m> so that <m>C = h(F) = \frac{5}{9}(F-32)</m>.
+				</p>
+
+				<p>
+					Find the simplest expression that you can for the composite function <m>j(C) = h(g(C))</m>.  
+				</p>
+			</li>
+
+			<li>
+				<p>
+					Find the simplest expression that you can for the composite function <m>k(F) = g(h(F))</m>. 
+				</p>
+			</li>
+
+			<li>
+				<p>
+					Why are the functions <m>j</m> and <m>k</m> so simple?  Explain by discussing how the functions <m>g</m> and <m>h</m> process inputs to generate outputs and what happens when we first execute one followed by the other.
+				</p>
+			</li>
+		</ol>
+	</p>
+</statement>
+
+</exploration>

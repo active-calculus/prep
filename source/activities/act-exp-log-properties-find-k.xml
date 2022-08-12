@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018                                                        -->
+<!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Prelude to Calculus.                -->
+<!-- This file is part of Active Prelude to Calculus.                      -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -13,17 +13,48 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<!-- APC customizations for HTML runs -->
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-exp-log-properties-find-k">
 
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+	<statement>
+		<p>
+			Solve each of the following equations for the exact value of <m>k</m>.
+		</p>
 
-<!-- Assumes current file is in mathbook/user, so it must be copied there -->
-<xsl:import href="../xsl/pretext-html.xsl"
-	    pretext-href="pretext-html.xsl" />
-<!-- Assumes next file can be found in mathbook/user, so it must be copied there -->
-<!--<xsl:import href="acs-common.xsl" />-->
+		<p>
+			<ol marker="a." cols="2">
+				<li>
+					<p>
+						<m>41 = 50e^{-k \cdot 7}</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>65 = 34 + 47e^{-k \cdot 45}</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>7e^{2k-1} + 4 = 32</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>\frac{5}{1+2e^{-10k}} = 4</m>
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			
+		</p>
+	</answer>
+	<solution>
+		<p>
+			
+		</p>
+	</solution>
 
+</activity>
 
-<!-- Specify options for WeBWorK exercises -->
-<xsl:param name="webwork.divisional.static" select="'no'" />
-</xsl:stylesheet>
