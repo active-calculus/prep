@@ -191,7 +191,7 @@
 	    for an object only being influenced by gravity, <idx><h>gravity</h></idx>
 	    <em>acceleration due to gravity is constant</em>.
 	    If we measure time in seconds and a rising or falling object's height in feet,
-	    the gravitational constant is <m>g = -32</m> feet per second per second.
+	    the gravitational constant is <m>g = 32</m> feet per second per second.
 	  </p>
 
 	  <p>
