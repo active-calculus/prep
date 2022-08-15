@@ -149,7 +149,7 @@
   	<title>Vertical stretches and reflections</title>
 
   	<p>
-  		So far, we have seen the possible effects of adding a constant value to function output <mdash/><m>f(x)+a</m><mdash/> and adding a constant value to function input <mdash/> <m>f(x+b)</m>.  Each of these actions results in a translation of the function's graph (either vertically or horizontally), but otherwise leaving the graph the same.  Next, we investigate the effects of multiplication the function's output by a constant.
+  		So far, we have seen the possible effects of adding a constant value to function's output (that is, the new expression <m>f(x)+a</m> if given <m>f(x)</m>) and adding a constant value to function input (that is, the new expression <m>f(x+b)</m>, given <m>f(x)</m>).  Each of these actions results in a translation of the function's graph (either vertically or horizontally), but otherwise leaving the graph the same.  Next, we investigate the effects of multiplication the function's output by a constant.
   	</p>
 
   	<example xml:id="ex-transformations-vert-stretch">

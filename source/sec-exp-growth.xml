@@ -239,7 +239,7 @@
 	<p>
 		An additional trend is apparent in the graphs in <xref ref="F-growth-incr-CCU">Figure</xref> and <xref ref="F-growth-decr-CCU">Figure</xref>.  Each graph bends upward and is therefore concave up.  We can better understand why this is so by considering the average rate of change of both <m>f</m> and <m>g</m> on consecutive intervals of the same width.  We choose adjacent intervals of length <m>1</m> and note particularly that as we compute the average rate of change of each function on such intervals,
 		<me>
-			AV_{[t,t+1]} = \frac{f(t+1) - f(t)}{t+1-1} = f(t+1) - f(t)
+			AV_{[t,t+1]} = \frac{f(t+1) - f(t)}{t+1-t} = f(t+1) - f(t)
 		</me>.  Thus, these average rates of change are also measuring the total change in the function across an interval that is <m>1</m>-unit wide. We now assume that <m>f(t) = 2 (1.25)^t</m> and <m>g(t) = 8(0.75)^t</m> and compute the rate of change of each function on several consecutive intervals.  
 	</p>
 
