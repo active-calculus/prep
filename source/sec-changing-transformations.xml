@@ -33,11 +33,11 @@
 
   <introduction>
   	<p>
-  		In our preparation for calculus, we aspire to understand functions from a wide range of perspectives and to become familiar with a library of basic functions.  So far, two basic families functions we have considered are linear functions and quadratic functions, the simplest of which are <m>L(x) = x</m> and <m>Q(x) = x^2</m>.  As we progress further, we will endeavor to understand a <q>parent</q> function  as the most fundamental member of a family of functions, as well as how other similar but more complicated functions are the result of transforming the parent function.  
+  		In our preparation for calculus, we aspire to understand functions from a wide range of perspectives and to become familiar with a library of basic functions.  So far, two basic families of functions we have considered are linear functions and quadratic functions, the simplest of which are <m>L(x) = x</m> and <m>Q(x) = x^2</m>.  As we progress further, we will endeavor to understand a <q>parent</q> function  as the most fundamental member of a family of functions, as well as how other similar but more complicated functions are the result of transforming the parent function.  
   	</p>
 
 	<p>
-		Informally, a transformation <idx><h>transformation of a function</h></idx> of a given function is an algebraic process by which we change the function to a related function that has the same fundamental shape, but may be shifted, reflected, and/or stretched in a systematic way.  For example, among all quadratic functions, the simplest is the parent function <m>Q(x) = x^2</m>, but any other quadratic function such as <m>g(x) = -3(x-5)^2 + 4</m> can also be understood in relation to the parent function.  We say that <q><m>g</m> is a transformation of <m>f</m>.</q>
+		Informally, a transformation <idx><h>transformation of a function</h></idx> of a given function is an algebraic process by which we change the function to a related function that has the same fundamental shape, but may be shifted, reflected, and/or stretched in a systematic way.  For example, among all quadratic functions, the simplest is the parent function <m>Q(x) = x^2</m>, but any other quadratic function such as <m>g(x) = -3(x-5)^2 + 4</m> can also be understood in relation to the parent function.  We say that <q><m>g</m> is a transformation of <m>Q</m>.</q>
 	</p>
 
 	<p>	
@@ -184,7 +184,7 @@
 			</p>
 
 			<p>
-				Finally, we also investigate the case where <m>c = -2</m>, which generates <m>y = w(x) = -2f(x)</m>.  Here we can think of <m>-2</m> as <m>-2 = 2(-1)</m>: the effect of multiplying by <m>-1</m> first reflects the graph of <m>f</m> across the <m>x</m>-axis (resulting in <m>w</m>), and then multiplying by <m>2</m> stretches the graph of <m>z</m> vertically to result in <m>w</m>, as shown in <xref ref="F-transformations-vert-stretch-2">Figure</xref>.
+				Finally, we also investigate the case where <m>c = -2</m>, which generates <m>y = w(x) = -2f(x)</m>.  Here we can think of <m>-2</m> as <m>-2 = 2(-1)</m>: the effect of multiplying by <m>-1</m> first reflects the graph of <m>f</m> across the <m>x</m>-axis (resulting in <m>z</m>), and then multiplying by <m>2</m> stretches the graph of <m>z</m> vertically to result in <m>w</m>, as shown in <xref ref="F-transformations-vert-stretch-2">Figure</xref>.
 			</p>
 
   		</solution>
