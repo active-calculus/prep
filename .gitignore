@@ -6,9 +6,10 @@ output/pg/*
 output/images/*
 output/*.txt
 schemas.xml
-generated-assets/webwork
+generated-assets
 *.tex
 *.swp
 cli.log
 .error_schema.log
 Makefile.paths
+xml-id conventions.rtf
