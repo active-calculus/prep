@@ -141,7 +141,7 @@
 	</p>
 
 	<p>
-		We naturally use the terms <q>increasing</q> and <q>decreasing</q> as from <xref ref="D-aroc-increasing-decreasing">Definition</xref> to describe lines based on whether their slope is positive or negative.  A line with positive slope, such as the one in <xref ref="F-linear-point-slope">Figure</xref>, is increasing because its constant rate of change is positive, while a line with negative slope, such as in <xref ref="F-linear-slope-intercept">Figure</xref> is decreasing because of its negative rate of change.  We say that a horizontal line (one whose slope is <m>m = 0</m>) is neither increasing nor decreasing.
+		We naturally use the terms <q>increasing</q> and <q>decreasing</q> as from <xref ref="D-aroc-increasing-decreasing">Definition</xref> to describe lines based on whether their slope is positive or negative.  A line with positive slope, such as the one in <xref ref="F-linear-slope-intercept">Figure</xref>, is increasing because its constant rate of change is positive, while a line with negative slope, such as in <xref ref="F-linear-point-slope">Figure</xref> is decreasing because of its negative rate of change.  We say that a horizontal line (one whose slope is <m>m = 0</m>) is neither increasing nor decreasing.
 	</p>
 
 	<sidebyside width="50%">

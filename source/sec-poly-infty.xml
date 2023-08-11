@@ -116,7 +116,7 @@
   		<me>
   			\lim_{t \to 0^+} \ln(t) = -\infty
   		</me>
-  		because the natural logarithm function decreases without bound as input values get closer and close to <m>0</m> (while always being positive), as seen in <xref ref="F-exp-log">Figure</xref>.
+  		because the natural logarithm function decreases without bound as input values get closer and closer to <m>0</m> (while always being positive), as seen in <xref ref="F-exp-log">Figure</xref>.
   	</p>
 
   	<p>
@@ -292,8 +292,8 @@
 			    </row>
 			    <row halign="center">
 			      <cell><m>\csc(x)</m></cell>
-			      <cell><m>\lim_{x \to 0^-} \sec(x) = -\infty</m></cell>
-			      <cell><m>\lim_{x \to 0^+} \sec(x) = \infty</m></cell>
+			      <cell><m>\lim_{x \to 0^-} \csc(x) = -\infty</m></cell>
+			      <cell><m>\lim_{x \to 0^+} \csc(x) = \infty</m></cell>
 			    </row>
 			  </tabular>
 			</table>
@@ -308,7 +308,7 @@
   				<ul>
   					<li>
   						<p>
-  							If <m>p = 1, 2, 3, \ldots</m>, then the domain of <m>f(x) = x^p</m> is the set of all real numbers, and as <m>x \to \infty</m>, <m>f(x) \to \infty</m>.  For the limit as <m>x \to -\infty</m>, it matters whether <m>p</m> is even or odd:  if <m>p</m> is even, <m>f(x) \to \infty</m> as <m>x \to -\infty</m>; if <m>p</m> is odd, <m>f(x) \to -\infty</m> as <m>x \to \infty</m>.  Informally, all power functions of form <m>f(x) = x^p</m> where <m>p</m> is a positive even number are <q>U-shaped</q>, while all power functions of form <m>f(x) = x^p</m> where <m>p</m> is a positive odd number are <q>chair-shaped</q>.
+  							If <m>p = 1, 2, 3, \ldots</m>, then the domain of <m>f(x) = x^p</m> is the set of all real numbers, and as <m>x \to \infty</m>, <m>f(x) \to \infty</m>.  For the limit as <m>x \to -\infty</m>, it matters whether <m>p</m> is even or odd:  if <m>p</m> is even, <m>f(x) \to \infty</m> as <m>x \to -\infty</m>; if <m>p</m> is odd, <m>f(x) \to -\infty</m> as <m>x \to -\infty</m>.  Informally, all power functions of form <m>f(x) = x^p</m> where <m>p</m> is a positive even number are <q>U-shaped</q>, while all power functions of form <m>f(x) = x^p</m> where <m>p</m> is a positive odd number are <q>chair-shaped</q>.
   						</p>
   					</li>
   					<li>

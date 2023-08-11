@@ -51,7 +51,7 @@
 
 	<sidebyside valign="middle">
 		<table xml:id="T-modeling-exp-coffee">
-			<caption>Data for cooling coffee, measured in degrees Fahrenheit at time <m>t</m> in minutes.</caption>
+			<title>Data for cooling coffee, measured in degrees Fahrenheit at time <m>t</m> in minutes.</title>
 			<tabular>
 				<row bottom="minor">
 					<cell><m>t</m></cell>
@@ -122,7 +122,7 @@
 
 	<sidebyside>
 		<table xml:id="T-modeling-long-term-2t">
-			<caption>Data for <m>p(t) = 2^t</m>.</caption>
+			<title>Data for <m>p(t) = 2^t</m>.</title>
 			<tabular>
 				<row bottom="minor">
 					<cell><m>t</m></cell>
@@ -130,7 +130,7 @@
 				</row>
 				<row>
 					<cell><m>10</m></cell>
-					<cell><m>2^{10} = 1026</m></cell>
+					<cell><m>2^{10} = 1024</m></cell>
 				</row>
 				<row>
 					<cell><m>20</m></cell>
@@ -143,7 +143,7 @@
 			</tabular>
 		</table>
 		<table xml:id="T-modeling-long-term-2-t">
-			<caption>Data for <m>q(t) = (\frac{1}{2})^t</m>.</caption>
+			<title>Data for <m>q(t) = (\frac{1}{2})^t</m>.</title>
 			<tabular>
 				<row bottom="minor">
 					<cell><m>t</m></cell>
@@ -151,7 +151,7 @@
 				</row>
 				<row>
 					<cell><m>10</m></cell>
-					<cell><m>(\frac{1}{2})^{10} = \frac{1}{1026} \approx 0.00097656</m></cell>
+					<cell><m>(\frac{1}{2})^{10} = \frac{1}{1024} \approx 0.00097656</m></cell>
 				</row>
 				<row>
 					<cell><m>20</m></cell>
@@ -277,7 +277,7 @@
 	</p>
 
 		<table xml:id="T-modeling-exp-coffee-revis">
-			<caption>Data for cooling coffee, measured in degrees Fahrenheit at time <m>t</m> in minutes, plus shifted to account for room temperature.</caption>
+			<title>Data for cooling coffee, measured in degrees Fahrenheit at time <m>t</m> in minutes, plus shifted to account for room temperature.</title>
 			<tabular>
 				<row bottom="minor">
 					<cell><m>t</m></cell>
@@ -379,7 +379,7 @@
   			</p>
 
   			<p>
-  				In the situation where <m>a \lt 0</m>, several other changes are induced.  Here, because <m>g(t) = ab^t</m> is both a reflection of <m>f(t) = b^t</m> across the <m>x</m>-axis and a vertical stretch by <m>|a|</m>, the function <m>g</m> is now always concave down.  If <m>0 \lt b \lt 1</m> so that <m>f</m> is always decreasing, then <m>g</m> (the reflected function) is now always increasing; if instead <m>b \gt 1</m> so <m>f</m> is increasing, then <m>g</m> is decreasing.  Finally, if <m>a \lt 0</m>, then the range of <m>g(t) = ab^t + c</m> is the set of all real numbers <m>c</m>.
+  				In the situation where <m>a \lt 0</m>, several other changes are induced.  Here, because <m>g(t) = ab^t</m> is both a reflection of <m>f(t) = b^t</m> across the <m>x</m>-axis and a vertical stretch by <m>|a|</m>, the function <m>g</m> is now always concave down.  If <m>0 \lt b \lt 1</m> so that <m>f</m> is always decreasing, then <m>g</m> (the reflected function) is now always increasing; if instead <m>b \gt 1</m> so <m>f</m> is increasing, then <m>g</m> is decreasing.  Finally, if <m>a \lt 0</m>, then the range of <m>g(t) = ab^t + c</m> is the set of all real numbers less than <m>c</m>.
   			</p>
   		</li>
   		<li>

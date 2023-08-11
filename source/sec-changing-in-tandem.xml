@@ -225,7 +225,7 @@
 			</sidebyside>
 
 		<p>
-			These different behaviors make sense because of the shape of the tank.  Since at first there is less volume relative to depth near the cone's point, as water flows in at a constant rate, the water's height will rise quickly.  But as time goes on and more water is added at the same rate, there is more space for the water to fill in order to make the water level rise, and thus the water's heigh rises more and more slowly as time passes.
+			These different behaviors make sense because of the shape of the tank.  Since at first there is less volume relative to depth near the cone's point, as water flows in at a constant rate, the water's height will rise quickly.  But as time goes on and more water is added at the same rate, there is more space for the water to fill in order to make the water level rise, and thus the water's height rises more and more slowly as time passes.
 		</p>
 
 		<xi:include href="./activities/act-changing-tandem-spherical-tank.xml" />

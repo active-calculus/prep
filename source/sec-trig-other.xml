@@ -37,7 +37,7 @@
 
   <introduction>
   	<p>
-  		The sine and cosine functions, originally defined in the context of a point traversing the unit circle, are also central in right triangle trigonometry.  They enable us to find missing information in right triangles in a straightforward way when we know one of the non-right angles and one of the three sides of the triangle, or two of the sides where one is the hypotenuse.  In addition, we defined the tangent function in terms of the sine and cosine functions, and the tangent function offers additional options for finding missing information in right triangles.  We've also seeen how the inverses of the restricted sine, cosine, and tangent functions enable us to find missing angles in a wide variety of settings involving right triangles.
+  		The sine and cosine functions, originally defined in the context of a point traversing the unit circle, are also central in right triangle trigonometry.  They enable us to find missing information in right triangles in a straightforward way when we know one of the non-right angles and one of the three sides of the triangle, or two of the sides where one is the hypotenuse.  In addition, we defined the tangent function in terms of the sine and cosine functions, and the tangent function offers additional options for finding missing information in right triangles.  We've also seen how the inverses of the restricted sine, cosine, and tangent functions enable us to find missing angles in a wide variety of settings involving right triangles.
   	</p>
 
   	<p>
@@ -374,11 +374,11 @@
   		</li>
   		<li>
   			<p>
-  				The graph of the cotangent function is similar to the graph of the tangent function, except that it is decreasing on every interval on which it is defined at every point in the interval and has vertical asymptotes wherever <m>\tan(t) = 0</m> and is zero wherever <m>\tan(t)</m> has a vertical asymptote.
+  				The graph of the cotangent function is similar to the graph of the tangent function, except that it is decreasing on every interval on which it is defined and has vertical asymptotes wherever <m>\tan(t) = 0</m> and is zero wherever <m>\tan(t)</m> has a vertical asymptote.
   			</p>
 
   			<p>
-  				The graphs of the secant and cosecant functions are different from the cosine and sine functions' graphs in several ways, including that their range is the set of all real numbers <m>y</m> such that <m>y \ge 1</m> and they have vertical asymptotes wherever the cosine and sine function, respectively, are zero.
+  				The graphs of the secant and cosecant functions are different from the cosine and sine functions' graphs in several ways, including that their range is the set of all real numbers <m>y</m> such that <m>|y| \ge 1</m> and they have vertical asymptotes wherever the cosine and sine function, respectively, are zero.
   			</p>
   		</li>
   		<li>

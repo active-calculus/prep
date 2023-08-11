@@ -37,7 +37,7 @@
 				</li>
 				<li>
 					<p>
-						Plot the function <m>y = g(t)</m> using a computational device.  On the domain <m>[1,10]</m>, what is the corresponding range of <m>g</m>?  Why does the function <m>g</m> have an inverse function?
+						Plot the function <m>y = g(t)</m> using a computational device.  On the domain <m>[0,10]</m>, what is the corresponding range of <m>g</m>?  Why does the function <m>g</m> have an inverse function?
 					</p>
 				</li>
 				<li>

@@ -229,7 +229,7 @@
   	<ul>
   		<li>
   			<p>
-  				Any function that fails the Horizontal Line Test cannot have an inverse function.  However, for a periodic function that fails the horizontal line test, if we restrict the domain of the function to an interval that is the length of a single period of the function, we then determine a related function that does, in fact, have an inverse function.  This makes it possible for us to develop the inverse functions of the restricted cosine, sine, and tangent functions.
+  				Any function that fails the Horizontal Line Test cannot have an inverse function.  However, for a periodic function that fails the horizontal line test, if we restrict the domain of the function to an interval with no repeated outputs, we then determine a related function that does, in fact, have an inverse function.  By choosing such an interval carefully, it is possible for us to develop the inverse functions of the restricted cosine, sine, and tangent functions.
   			</p>
   		</li>
   		<li>

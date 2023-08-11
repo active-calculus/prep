@@ -164,9 +164,9 @@
 								<cell><m>0</m></cell>
 								<cell><m>\frac{1}{\sqrt{3}}</m></cell>
 								<cell><m>1</m></cell>
-								<cell><m>\frac{3}{\sqrt{3}}</m></cell>
+								<cell><m>\sqrt{3}</m></cell>
 								<cell>u</cell>
-								<cell><m>-\frac{3}{\sqrt{3}}</m></cell>
+								<cell><m>-\sqrt{3}</m></cell>
 								<cell><m>-1</m></cell>
 								<cell><m>-\frac{1}{\sqrt{3}}</m></cell>
 								<cell><m>0</m></cell>
@@ -214,9 +214,9 @@
 								<cell><m>\tan(t)</m></cell>
 								<cell><m>\frac{1}{\sqrt{3}}</m></cell>
 								<cell><m>1</m></cell>
-								<cell><m>\frac{3}{\sqrt{3}}</m></cell>
+								<cell><m>\sqrt{3}</m></cell>
 								<cell>u</cell>
-								<cell><m>-\frac{3}{\sqrt{3}}</m></cell>
+								<cell><m>-\sqrt{3}</m></cell>
 								<cell><m>-1</m></cell>
 								<cell><m>-\frac{1}{\sqrt{3}}</m></cell>
 								<cell><m>0</m></cell>

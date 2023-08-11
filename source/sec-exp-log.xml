@@ -222,7 +222,7 @@
   		</li>
   		<li>
   			<p>
-  				The natural logarithm often enables us solve an equation that involves <m>e</m> to some unknown quantity.  For instance, to solve <m>2e^{3t-4} + 5 = 13</m>, we can first solve for <m>e^{3t-4}</m> by subtracting <m>5</m> from each side and dividing by <m>2</m> to get
+  				The natural logarithm often enables us to solve an equation that involves <m>e</m> to some unknown quantity.  For instance, to solve <m>2e^{3t-4} + 5 = 13</m>, we can first solve for <m>e^{3t-4}</m> by subtracting <m>5</m> from each side and dividing by <m>2</m> to get
   				<me>
   					e^{3t-4} = 4
   				</me>.

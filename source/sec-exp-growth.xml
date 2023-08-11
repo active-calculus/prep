@@ -56,11 +56,11 @@
   	<p>
   		If we repeat our computations for the second year, we observe that 
   		<me>
-  			1.1(100) \xrightarrow{\text{year } 2} 1.1(100) + 0.1(1.1(100) = 1.1(1.1(100)) = 1.1^2 (100)
+  			1.1(100) \xrightarrow{\text{year } 2} 1.1(100) + 0.1(1.1(100)) = 1.1(1.1(100)) = 1.1^2 (100)
   		</me>.
   		The ideas are identical with the larger dollar value, so
   		<me>
-  			1.1(100000) \xrightarrow{\text{year } 2} 1.1(100000) + 0.1(1.1(100000) = 1.1(1.1(100000)) = 1.1^2 (100000)
+  			1.1(100000) \xrightarrow{\text{year } 2} 1.1(100000) + 0.1(1.1(100000)) = 1.1(1.1(100000)) = 1.1^2 (100000)
   		</me>,
   		and we see that if we invest <m>P</m> dollars, in <m>2</m> years our investment will grow to <m>1.1^2 P</m>.
   	</p>
@@ -91,7 +91,7 @@
   	</definition>
 
   	<p>
-  		For an exponential function <m>f(t) = b^t</m>, we note that <m>f(0) = b^0 = 1</m>, so an exponential function of this form always passes through <m>(0,1)</m>.  In addition, because a positive number raised to any power is always positive (for instance, <m>2^{10} = 1096</m> and <m>2^{-10} = \frac{1}{2^{10}} = \frac{1}{2096}</m>), the output of an exponential function is also always positive.  In particular, <m>f(t) = b^t</m> is never zero and thus has no <m>x</m>-intercepts.
+  		For an exponential function <m>f(t) = b^t</m>, we note that <m>f(0) = b^0 = 1</m>, so an exponential function of this form always passes through <m>(0,1)</m>.  In addition, because a positive number raised to any power is always positive (for instance, <m>2^{10} = 1024</m> and <m>2^{-10} = \frac{1}{2^{10}} = \frac{1}{1024}</m>), the output of an exponential function is also always positive.  In particular, <m>f(t) = b^t</m> is never zero and thus has no <m>x</m>-intercepts.
   	</p>
 
   	<p>

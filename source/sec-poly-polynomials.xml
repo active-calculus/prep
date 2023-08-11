@@ -91,13 +91,13 @@
   <subsection xml:id="subsec-poly-polynomials-results">
   	<title>Key results about polynomial functions</title>
   	<p>
-  		Our observations in <xref ref="PA-poly-polynomials">Preview Activity</xref> generalize to polynomials of any degree.  In particular, it is possible to prove the following general conclusions regarding the number of zeros, the long-range behavior, and the number of turning points any polynomial of degree <m>n</m>.
+  		Our observations in <xref ref="PA-poly-polynomials">Preview Activity</xref> generalize to polynomials of any degree.  In particular, it is possible to prove the following general conclusions regarding the number of zeros, the long-range behavior, and the number of turning points for any polynomial of degree <m>n</m>.
   	</p>
 
   	<assemblage xml:id="asm-polynomials-fundamental-theorem">
   	  <title>The number of real zeros of a polynomial</title>
  		<p>
- 			For any degree <m>n</m> polynomial <m>p(x) = a_0 + a_1 x + \cdots + a_{n-1}x^{n-1} + a_n x^n</m>, has at most <m>n</m> real zeros.<fn>We can actually say even more:  if we allow the zeros to be complex numbers, then every degree <m>n</m> polynomial has <em>exactly</em> <m>n</m> zeros, provided we count zeros according to their multiplicity.  For example, the polynomial <m>p(x) = (x-1)^2 = x^2 - 2x + 1</m> because it has a zero of multiplicity two at <m>x = 1</m>.</fn>
+ 			For any degree <m>n</m> polynomial <m>p(x) = a_0 + a_1 x + \cdots + a_{n-1}x^{n-1} + a_n x^n</m>, has at most <m>n</m> real zeros.<fn>We can actually say even more:  if we allow the zeros to be complex numbers, then every degree <m>n</m> polynomial has <em>exactly</em> <m>n</m> zeros, provided we count zeros according to their multiplicity.  For example, the polynomial <m>p(x) = (x-1)^2 = x^2 - 2x + 1</m> has a zero of multiplicity two at <m>x = 1</m>.</fn>
  		</p>
   	</assemblage>
 
@@ -154,7 +154,7 @@
   	<p>
   		The Zero Product Property <idx><h>Zero Product Property</h></idx> states that if two or more numbers are multiplied together and the result is <m>0</m>, then at least one of the numbers must be <m>0</m>.  We use the Zero Product Property regularly with polynomial functions.  If we can determine all <m>n</m> zeros of a degree <m>n</m> polynomial, and we call those zeros <m>r_1</m>, <m>r_2</m>, <m>\ldots</m>, <m>r_n</m>, we can write 
   		<me>
-  			p(x) = a_n(x-r_1)(x-r_2) \cdots (x-r_2)
+  			p(x) = a_n(x-r_1)(x-r_2) \cdots (x-r_n)
   		</me>.  
   		Moreover, if we are given a polynomial in this factored form, we can quickly determine its zeros.  For instance, if <m>p(x) = 2(x+7)(x+1)(x-2)(x-5)</m>, we know that the only way <m>p(x) = 0</m> is if at least one of the factors <m>(x+7)</m>, <m>(x+1)</m>, <m>(x-2)</m>, or <m>(x-5)</m> equals <m>0</m>, which implies that <m>x = -7</m>, <m>x = -1</m>, <m>x = 2</m>, or <m>x = 5</m>.  Hence, from the factored form of a polynomial, it is straightforward to identify the polynomial's zeros, the <m>x</m>-values at which its graph crosses the <m>x</m>-axis.  We can also use the factored form of a polynomial to develop what we call a <em>sign chart</em>, which we demonstrate in <xref ref="ex-polynomial-signs">Example</xref>. <idx><h>sign chart</h></idx> 
   	</p>
