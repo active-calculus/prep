@@ -114,7 +114,7 @@
   	<title>Ratios of sides in right triangles</title>
 
   	<p>
-  		A right triangle with a hypotenuse of length <m>1</m> can be viewed as lying in standard position in the unit circle, with one vertex at the origin and one leg along the positive <m>x</m>-axis.  If we let the angle formed by the hypotenuse and the horizontal leg have measure <m>\theta</m>, then the right triangle with hypotenuse <m>1</m> has horizontal leg of length <m>\cos(\theta)</m> and vertical leg of length <m>\sin(\theta)</m>.  If we consider now consider a similar right triangle with hypotenuse of length <m>r \ne 1</m>, we can view that triangle as a magnification of a triangle with hypotenuse <m>1</m>.  These observations, combined with our work in <xref ref="act-trig-right-similar">Activity</xref>, show us that the horizontal legs of the right triangle with hypotenuse <m>r</m> have measure <m>r\cos(\theta)</m> and <m>r\sin(\theta)</m>, as pictured in <xref ref="F-right-triangle-r-theta">Figure</xref>.
+  		A right triangle with a hypotenuse of length <m>1</m> can be viewed as lying in standard position in the unit circle, with one vertex at the origin and one leg along the positive <m>x</m>-axis.  If we let the angle formed by the hypotenuse and the horizontal leg have measure <m>\theta</m>, then the right triangle with hypotenuse <m>1</m> has horizontal leg of length <m>\cos(\theta)</m> and vertical leg of length <m>\sin(\theta)</m>.  If we now consider a similar right triangle with hypotenuse of length <m>r \ne 1</m>, we can view that triangle as a magnification of a triangle with hypotenuse <m>1</m>.  These observations, combined with our work in <xref ref="act-trig-right-similar">Activity</xref>, show us that the horizontal legs of the right triangle with hypotenuse <m>r</m> have measure <m>r\cos(\theta)</m> and <m>r\sin(\theta)</m>, as pictured in <xref ref="F-right-triangle-r-theta">Figure</xref>.
   	</p>
 
 		<figure xml:id="F-right-triangle-r-theta">
@@ -242,7 +242,7 @@
 				<men xml:id="eq-right-sin-ratio-2">
 						h = \frac{4}{\sin\left(\frac{\pi}{5}\right)}
 				</men>, which is the exact numerical value of <m>h</m>.  Substituting this result in 
-				<xref ref="eq-right-cos-ratio">Equation</xref>, solving for <m>h</m> we find that
+				<xref ref="eq-right-cos-ratio">Equation</xref>, we find that
 				<men xml:id="eq-right-cos-ratio-2">
 						\cos\left(\frac{\pi}{5}\right) = \frac{x}{\frac{4}{\sin\left(\frac{\pi}{5}\right)}}
 				</men>.

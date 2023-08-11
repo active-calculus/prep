@@ -57,7 +57,7 @@
 				</li>
 				<li>
 					<p>
-						What happens when we plot <m>y = a_4 x^4</m> in and compare <m>p(x)</m> and <m>a_4 x^4</m>?  How do they look when we zoom out? (Experiment with different values of each of the sliders, too.)
+						What happens when we plot <m>y = a_4 x^4</m> in <em>Desmos</em> and compare <m>p(x)</m> and <m>a_4 x^4</m>?  How do they look when we zoom out? (Experiment with different values of each of the sliders, too.)
 					</p>
 				</li>
 			</ol>

@@ -42,7 +42,7 @@
 			<me>
 				AV_{[2,2+h]} = \frac{f(2+h)-f(2)}{h}
 			</me>.
-			Suppose, for instance, that <m>f</m> meausures the height of a falling ball at time <m>t</m> and is given by <m>f(t) = -16t^2 + 32t + 48</m>, which happens to be a polynomial function of degree <m>2</m>.  For this particular function, its average rate of change on <m>[1,1+h]</m> is
+			Suppose, for instance, that <m>f</m> meausures the height of a falling ball at time <m>t</m> and is given by <m>f(t) = -16t^2 + 32t + 48</m>, which happens to be a polynomial function of degree <m>2</m>.  For this particular function, its average rate of change on <m>[2,2+h]</m> is
 			<md>
 				<mrow>
 					AV_{[2,2+h]} &amp;= \frac{f(2+h)-f(2)}{h}
@@ -54,10 +54,10 @@
 						 &amp;= \frac{-64 - 64h - 16h^2 + 64 + 32h + 48 - (48)}{h}
 				</mrow>
 				<mrow>
-						 &amp;= \frac{-64h - 16h^2}{h}
+						 &amp;= \frac{-32h - 16h^2}{h}
 				</mrow>
 			</md>.
-			Structurally, we observe that <m>AV_{[2,2+h]}</m> is a ratio of the two functions <m>-64h - 16h^2</m> and <m>h</m>.  Moreover, both the numerator and the denominator of the expression are themselves polynomial functions of the variable <m>h</m>.  Note that we may be especially interested in what occurs as <m>h \to 0</m>, as these values will tell us the average velocity of the moving ball on shorter and shorter time intervals starting at <m>t = 2</m>.  At the same time, <m>AV_{[2,2+h]}</m> is not defined for <m>h = 0</m>.
+			Structurally, we observe that <m>AV_{[2,2+h]}</m> is a ratio of the two functions <m>-32h - 16h^2</m> and <m>h</m>.  Moreover, both the numerator and the denominator of the expression are themselves polynomial functions of the variable <m>h</m>.  Note that we may be especially interested in what occurs as <m>h \to 0</m>, as these values will tell us the average velocity of the moving ball on shorter and shorter time intervals starting at <m>t = 2</m>.  At the same time, <m>AV_{[2,2+h]}</m> is not defined for <m>h = 0</m>.
 		</p>
 
 		<p>
@@ -73,7 +73,7 @@
 			Long-range behavior of rational functions
 		</title>
 		<p>
-			The functions <m>AV_{[2,2+h]} = \frac{-64h - 16h^2}{h}</m> and <m>A(q) = \frac{5000000 + 2500q}{q}</m> are both examples of rational functions, since each is a ratio of polynomial functions.  Formally, we have the following definition.
+			The functions <m>AV_{[2,2+h]} = \frac{-32h - 16h^2}{h}</m> and <m>A(q) = \frac{5000000 + 2500q}{q}</m> are both examples of rational functions, since each is a ratio of polynomial functions.  Formally, we have the following definition.
 		</p>
 
 		<definition xml:id="def-rational-function">
@@ -218,7 +218,7 @@
 		<p>
 			Rational functions arise naturally in the study of the average rate of change of a polynomial function, leading to expressions such as
 			<me>
-				AV_{[2,2+h]} = \frac{-64h - 16h^2}{h}
+				AV_{[2,2+h]} = \frac{-32h - 16h^2}{h}
 			</me>.  
 			We will study several subtle issues that correspond to such functions further in <xref ref="sec-poly-rational-features">Section</xref>.  For now, we will focus on a different setting in which rational functions play a key role.
 		</p>

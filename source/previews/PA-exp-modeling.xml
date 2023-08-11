@@ -18,7 +18,7 @@
 	<statement>
 		<p>
 		  In <em>Desmos</em>, define
-	      <m>g(t) = ab^t+c</m> and accept the prompt for sliders for both <m>a</m> and <m>b</m>.
+	      <m>g(t) = ab^t+c</m> and accept the prompt for sliders for <m>a</m>, <m>b</m>, and <m>c</m>.
 	      Edit the sliders so that <m>a</m> has values from <m>a = 5</m> to <m>a = 50</m>,
 	      <m>b</m> has values from <m>b = 0.7</m> to <m>b = 1.3</m>, and 
 	      <m>c</m> has values from <m>c = -5</m> to <m>c = 5</m>
