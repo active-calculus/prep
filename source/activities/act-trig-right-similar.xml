@@ -17,7 +17,7 @@
 
 	<statement>
 		<p>
-			Consider right triangle <m>OPQ</m> given in <xref ref="F-right-OPQ">Figure</xref>, and assume that the length of the hypotenuse is <m>OP = r</m> for some constant <m>r \gt 1</m>.  Let point <m>M</m> lie on <m>\overline{OP}</m> between <m>O</m> and <m>P</m> in such a way that <m>OM = 1</m>, and let point <m>N</m> lie on <m>\overline{OQ}</m> so that <m>\angle ONM</m> is a right angle, as pictured.  In addition, assume that  point <m>O</m> corresponds to <m>(0,0)</m>, point <m>Q</m> to <m>(x,0)</m>, and point <m>P</m> to <m>(x,y)</m> so that <m>OQ = x</m> and <m>PQ = y</m>.  Finally, let <m>\theta</m> be the measure of <m>\angle POQ</m>.
+			Consider right triangle <m>OPQ</m> given in <xref ref="F-right-OPQ">Figure</xref>, and assume that the length of the hypotenuse is <m>OP = r</m> for some constant <m>r \gt 1</m>.   Let point <m>M</m> lie on <m>\overline{OP}</m> (the line segment between <m>O</m> and <m>P</m>) in such a way that <m>OM = 1</m>, and let point <m>N</m> lie on <m>\overline{OQ}</m> so that <m>\angle ONM</m> is a right angle, as pictured.  In addition, assume that  point <m>O</m> corresponds to <m>(0,0)</m>, point <m>Q</m> to <m>(x,0)</m>, and point <m>P</m> to <m>(x,y)</m> so that <m>OQ = x</m> and <m>PQ = y</m>.  Finally, let <m>\theta</m> be the measure of <m>\angle POQ</m>.
 		</p>
 
 		<figure xml:id="F-right-OPQ">

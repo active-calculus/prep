@@ -39,7 +39,7 @@
 				</li>
 				<li>
 					<p>
-						What is the largest size of a square that could be cut from the cardboard and still have a resulting box?
+						If we start with a small positive value for <m>x</m> and let that value get larger and larger, what is the first value of <m>x</m>we encounter that makes it impossible to remove <m>x \times x</m> squares from the cardboard and still form a box?
 					</p>
 				</li>
 				<li>

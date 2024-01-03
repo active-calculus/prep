@@ -25,7 +25,7 @@
 	    </p>
 
 	    <p>
-	      State the midline, amplitude, range, and an anchor point for the function, and hence determine a formula for <m>d(t)</m> in the form <m>a\cos(k(t+b))+c</m> or <m>a\sin(k(t+b))+c</m>.
+	      State the midline, amplitude, range, and an anchor point for the function, and hence determine a formula for <m>d(t)</m> in the form <m>a\cos(k(t-b))+c</m> or <m>a\sin(k(t-b))+c</m>.
 	      Show your work and thinking,
 	      and use <em>Desmos</em> appropriately to check that your formula generates the desired behavior.
 	    </p>

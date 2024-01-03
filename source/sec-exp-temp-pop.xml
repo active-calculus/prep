@@ -79,7 +79,7 @@
   	<assemblage>
   		<title>Modeling temperature with Newton's Law of Cooling</title>
   		<p>
-  			For the function <m>F(t) = ae^{-kt} + c</m> that models the temperature of a cooling or warming object, the constants <m>a</m>, <m>c</m>, and <m>k</m> play the following roles.
+  			For the function <m>F(t) = ae^{-kt} + c</m> that models the temperature of a cooling or warming object, the constants <m>a</m>, <m>c</m>, and <m>k</m> play the following roles.  Note that <m>k \gt 0</m>.
   			<ul>
   				<li>
   					<p>

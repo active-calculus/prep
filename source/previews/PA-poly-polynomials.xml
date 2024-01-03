@@ -17,7 +17,7 @@
 
 	<statement>
 		<p>
-			Point your browser to the <em>Desmos</em> worksheet at <url href="http://gvsu.edu/s/0zy">http://gvsu.edu/s/0zy</url>.  There you'll find a degree <m>4</m> polynomial of the form <m>p(x) = a_0 + a_1x + a_2x^2 + a_3x^3 + a_4x^4</m>, where <m>a_0, \ldots, a_4</m> are set up as sliders.  In the questions that follow, you'll experiment with different values of <m>a_0, \ldots, a_4</m> to investigate different possible behaviors in a degree <m>4</m> polynomial.
+			Point your browser to the <em>Desmos</em> worksheet at <url href="http://gvsu.edu/s/0zy">http://gvsu.edu/s/0zy</url>.  There you'll find a degree <m>4</m> polynomial of the form <m>p(x) = a_0 + a_1x + a_2x^2 + a_3x^3 + a_4x^4</m>, where <m>a_0, \ldots, a_4</m> are set up as sliders.  In the questions that follow, you'll experiment with different values of <m>a_0, \ldots, a_4</m> to investigate different possible behaviors in a degree <m>4</m> polynomial.  Note that we require <m>a_4 \ne 0</m> in order to ensure <m>p</m> is a degree <m>4</m> polynomial.
 		</p>
 
 		<p>
@@ -28,7 +28,7 @@
 					</p>
 
 					<p>
-						For a polynomial <m>p</m>, we call any value <m>r</m> such that <m>p(r) = 0</m> a <term>zero</term> of the polynomial.  <idx><h>polynomial function</h><h>zero</h></idx> Report the values of <m>a_0, \ldots, a_4</m> that lead to that largest number of zeros for <m>p(x)</m>.
+						Recall from <xref ref="def-polynomial-function">Definition</xref>what we mean by a <term>zero</term> of the polynomial.  Give examples of values for <m>a_0, \ldots, a_4</m> that lead to that largest number of zeros for <m>p(x)</m>.
 					</p>
 				</li>
 				<li>
@@ -42,7 +42,7 @@
 					</p>
 
 					<p>
-						What is the largest number of turning points that <m>p(x)</m> (the function in the <em>Desmos</em> worksheet) can have?  Experiment with the sliders, and report values of <m>a_0, \ldots, a_4</m> that lead to that largest number of turning points for <m>p(x)</m>.
+						What is the largest number of turning points that <m>p(x)</m> (the function in the <em>Desmos</em> worksheet) can have?  Experiment with the sliders, and give examples of values for <m>a_0, \ldots, a_4</m> that lead to that largest number of turning points for <m>p(x)</m>.
 					</p>
 				</li>
 				<li>

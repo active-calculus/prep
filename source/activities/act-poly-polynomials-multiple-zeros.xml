@@ -42,7 +42,7 @@
 					<sidebyside valign="middle">
 						<figure xml:id="F-polynomial-degree-9">
 							<caption>
-								A degree <m>9</m> polynomial <m>p</m>.
+								A polynomial <m>p</m>.
 							</caption>
 							<image source="images/poly-degree-9" width="50%" />
 						</figure>

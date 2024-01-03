@@ -220,7 +220,7 @@
 		<idx><h>period</h></idx>
 		<statement>
 			<p>
-				Let <m>f</m> be a function whose domain and codomain are each the set of all real numbers.  We say that <m>f</m> is <term>periodic</term> provided that there exists a real number <m>k</m> such that <m>f(x+k) = f(x)</m> for every possible choice of <m>x</m>.  The smallest value <m>p</m> for which <m>f(x+p) = f(x)</m> for every choice of <m>x</m> is called the <term>period</term> of <m>f</m>.
+				Let <m>f</m> be a function whose domain and codomain are each the set of all real numbers.  We say that <m>f</m> is <term>periodic</term> provided that there exists a real number <m>k</m> such that <m>f(x+k) = f(x)</m> for every possible choice of <m>x</m>.  The smallest positive value <m>p</m> for which <m>f(x+p) = f(x)</m> for every choice of <m>x</m> is called the <term>period</term> of <m>f</m>.
 			</p>
  		</statement>
 	</definition>

@@ -17,7 +17,7 @@
 
 	<statement>
 		<p>
-			According to a shipping company's regulations, the girth plus the length of a parcel they transport for their lowest rate may not exceed <m>120</m> inches, where by <em>girth</em> we mean the perimeter of the smallest end.
+			According to a shipping company's regulations, the girth plus the length of a parcel they transport for their lowest rate may not exceed <m>120</m> inches, where by <em>girth</em> we mean the perimeter of one end.
 		</p>
 
 		<figure xml:id="F-act-postal">
@@ -53,7 +53,7 @@
 				</li>
 				<li>
 					<p>
-						What is the domain of the function <m>V</m> in the context of the physical setting of this problem?  (Hint: what's the maximum value of <m>x</m>?  the maximum value of <m>y</m>?)
+						What is the domain of the function <m>V</m> in the context of the physical setting of this problem?  (Hint: neither <m>x</m> nor <m>y</m> can equal <m>0</m>.)
 					</p>
 				</li>
 			</ol>
