@@ -167,7 +167,7 @@
               On the blank axes in <xref ref="F-tandem-car-pos">Figure</xref>, plot points or sketch a curve to describe the behavior of a car that is driven in the following way:  from <m>t = 0</m> to <m>t = 5</m> the car travels straight down the road at a constant rate of <m>1000</m> feet per minute.  At <m>t = 5</m>, the car pulls over and parks for <m>2</m> full minutes.  Then, at <m>t = 7</m>, the car does an abrupt U-turn and returns in the opposite direction at a constant rate of <m>800</m> feet per minute for <m>5</m> additional minutes.  As part of your work, determine (and label) the car's location at several additional points in time other than <m>t = 0, 5, 7, 12</m>.
             </p>
             <figure xml:id="F-tandem-car-pos">
-                <caption>A graph of the relationship betwen a car's position <m>s</m> and time <m>t</m></caption>
+                <caption>A graph of the relationship between a car's position <m>s</m> and time <m>t</m></caption>
         <sidebyside width="50%">
           <image source="images/tandem-ez-position-time" />
           <image source="images/tandem-ez-position-time-blank-axes" />

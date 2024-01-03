@@ -17,7 +17,7 @@
 
 	<statement>
 		<p>
-			Consider the functions <m>f</m> and <m>g</m> defined by <xref ref="T-PA-changing-combining">Table</xref> and functions <m>p</m> and <m>q</m> defined by <xref ref="F-PA-changing-combining">Figure</xref>.
+			Consider the functions <m>f</m> and <m>g</m> defined by <xref ref="T-PA-changing-combining">Table</xref> and the piecewise linear functions <m>p</m> and <m>q</m> defined by <xref ref="F-PA-changing-combining">Figure</xref>. Assume that the lines in the figure pass through whole number coordinates where they appear to do so; for example, <m>(2,2)</m> lies on the graph of <m>q</m>, and <m>(3,-3)</m> lies on the graph of <m>p</m>.
 		</p>
 
 		<sidebyside width="50%" valign="middle">

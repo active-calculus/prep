@@ -32,7 +32,7 @@
 	          <p>
 	            Suppose that the amount of ice cover at the peak of Mt.
 	            Kilimanjaro is changing at a constant average rate from year to year.
-	            Find a linear model <m>A = f(t)</m> whose output is the area,
+	            Find a linear model <m>A = f(t)</m> whose output is the area of the ice cover,
 	            <m>A</m>,
 	            in square meters in year <m>t</m>
 	            (where <m>t</m> is the number of years after 2000).

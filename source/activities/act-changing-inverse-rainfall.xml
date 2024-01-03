@@ -20,7 +20,7 @@
 			During a major rainstorm, the rainfall at Gerald R. Ford Airport is measured on a frequent basis for a <m>10</m>-hour period of time.  The following function <m>g</m> models the <em>rate</em>, <m>R</m>, at which the rain falls (in cm/hr) on the time interval <m>t = 0</m> to <m>t = 10</m>:
 			<me>
 				R = g(t) = \frac{4}{t+2} + 1
-			</me>
+			</me>.
 		</p>
 
 		<p>
