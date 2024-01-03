@@ -37,17 +37,17 @@
 			<ol marker="a.">
 				<li>
 					<p>
-						For the <m>45^\circ</m>-<m>45^\circ</m>-<m>90^\circ</m> triangle with legs <m>x</m> and <m>y</m> and hypotenuse <m>1</m>, what does the fact that the triangle is isosceles tell us about the relationship between <m>x</m> and <m>y</m>?  What are their exact values?  
+						For the <m>45^\circ</m>-<m>45^\circ</m>-<m>90^\circ</m> triangle with legs of length <m>x</m> and <m>y</m> and hypotenuse of length <m>1</m>, what does the fact that the triangle is isosceles tell us about the relationship between <m>x</m> and <m>y</m>?  What are their exact values?  
 					</p>
 				</li>
 				<li>
 					<p>
-						Now consider the <m>30^\circ</m>-<m>60^\circ</m>-<m>90^\circ</m> triangle with hypotenuse <m>1</m> and the longer leg lying along the positive <m>x</m>-axis.  What special kind of triangle is formed when we reflect this triangle across the <m>x</m>-axis?  How can we use this perspective to determine the exact values of <m>x</m> and <m>y</m>?
+						Now consider the <m>30^\circ</m>-<m>60^\circ</m>-<m>90^\circ</m> triangle with hypotenuse of length <m>1</m> and the longer leg (of length <m>x</m>) lying along the positive <m>x</m>-axis.  What special kind of triangle is formed when we reflect this triangle across the <m>x</m>-axis?  How can we use this perspective to determine the exact values of <m>x</m> and <m>y</m>?
 					</p>
 				</li>
 				<li>
 					<p>
-						Suppose we consider the related <m>30^\circ</m>-<m>60^\circ</m>-<m>90^\circ</m> triangle with hypotenuse <m>1</m> and the shorter leg lying along the positive <m>x</m>-axis.  What are the <em>exact</em> values of <m>x</m> and <m>y</m> in this triangle?
+						Suppose we consider the related <m>30^\circ</m>-<m>60^\circ</m>-<m>90^\circ</m> triangle with hypotenuse of length <m>1</m> and the shorter leg (of length <m>x</m>) lying along the positive <m>x</m>-axis.  What are the <em>exact</em> values of <m>x</m> and <m>y</m> in this triangle?
 					</p>
 				</li>
 				<li>

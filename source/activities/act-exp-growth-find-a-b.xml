@@ -24,12 +24,12 @@
 			<ol marker="a.">
 				<li>
 					<p>
-						Suppose the car's value <m>t</m> years after its purchase is given by the function <m>V(t)</m> and that <m>V</m> is exponential with form <m>V(t) = ab^t</m>, what are the exact values of <m>a</m> and <m>b</m>?
+						Suppose the car's value <m>t</m> years after its purchase is given by the function <m>V(t)</m> and that <m>V</m> is exponential with form <m>V(t) = ab^t</m>, what are the values of <m>a</m> and <m>b</m>?  Find <m>a</m> and <m>b</m> both exactly and approximately.
 					</p>
 				</li>
 				<li>
 					<p>
-						Using the exponential model determined in (a), determine the purchase value of the car and estimate when the car will be worth less than $<m>1000</m>.
+						Using the exponential model determined in (a), determine the purchase value of the car and then use <em>Desmos</em>estimate when the car will be worth less than $<m>1000</m>.
 					</p>
 				</li>
 				<li>

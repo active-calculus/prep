@@ -19,7 +19,7 @@
 	    <p>
 	      Consider a spring-mass system where the weight is hanging from the ceiling in such a way that the following is known:
 	      we let <m>d(t)</m> denote the distance from the ceiling to the weight at time <m>t</m> in seconds and know that the weight oscillates periodically with a minimum value of
-	      <m>d(t) = 1.5</m> and a maximum value of <m>d(t) = 4</m>,
+	      <m>1.5</m> feet and a maximum value of <m>4</m> feet,
 	      with a period of <m>3</m>,
 	      and you know <m>d(0.5) = 2.75</m> and <m>d\left(1.25\right) = 4</m>.
 	    </p>

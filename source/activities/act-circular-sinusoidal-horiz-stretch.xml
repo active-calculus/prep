@@ -55,7 +55,7 @@
 				</li>
 				<li>
 					<p>
-						Describe in words how the function <m>y = r(t) = 2f(\frac{1}{2}t)</m> is the result of two elementary transformations of <m>y = f(t)</m>.  Does the order in which these transformations occur matter?  Why or why not?
+						Describe in words how the function <m>y = r(t) = 2f(\frac{1}{2}t)</m> is the result of composing two elementary transformations of <m>y = f(t)</m>.  Does the order in which these transformations are composed matter?  Why or why not?
 					</p>
 				</li>
 			</ol>

@@ -17,7 +17,7 @@
 
 	<statement>
 		<p>
-			Suppose that a population of animals that lives on an island (measured in thousands) is known to grow according to the logistic model, where <m>t</m> is measured in years.  We know the following information:  <m>P(0) = 2.45</m>, <m>P(3) = 4.52</m>, and as <m>t</m> increases without bound, <m>P(t)</m> approaches <m>11.7</m>.
+			Suppose that a population of animals (measured in thousands) that lives on an island  is known to grow according to the logistic model, where <m>t</m> is measured in years.  We know the following information:  <m>P(0) = 2.45</m>, <m>P(3) = 4.52</m>, and as <m>t</m> increases without bound, <m>P(t)</m> approaches <m>11.7</m>.
 		</p>
 
 		<p>

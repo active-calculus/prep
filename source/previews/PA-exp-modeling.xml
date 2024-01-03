@@ -22,7 +22,7 @@
 	      Edit the sliders so that <m>a</m> has values from <m>a = 5</m> to <m>a = 50</m>,
 	      <m>b</m> has values from <m>b = 0.7</m> to <m>b = 1.3</m>, and 
 	      <m>c</m> has values from <m>c = -5</m> to <m>c = 5</m>
-	      (also with a step-size of 0.01).
+	      (each with a step-size of 0.01).
 	      In addition, in <em>Desmos</em>
 	      let <m>P = (0, g(0))</m> and check the box to show the label.
 	      Finally, zoom out so that the window shows an interval of <m>t</m>-values from <m>-30 \le t \le 30</m>.
