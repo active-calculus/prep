@@ -25,7 +25,7 @@
 	        <li>
 	          <p>
 	            Without using computational device,
-	            find the exact value of the <m>\tan(t)</m> at the following values: <m>t = \frac{\pi}{6}, \frac{\pi}{4}, \frac{\pi}{3}, \frac{2\pi}{3}, \frac{3\pi}{4}, \frac{5\pi}{6}</m>. 
+	            find the exact value of <m>\tan(t)</m> at the following values: <m>t = \frac{\pi}{6}, \frac{\pi}{4}, \frac{\pi}{3}, \frac{2\pi}{3}, \frac{3\pi}{4}, \frac{5\pi}{6}</m>. 
 <!--	           
 
 				<sidebyside>
@@ -69,16 +69,16 @@
 	            Point your browser to
 	            <url href="http://gvsu.edu/s/0yO">http://gvsu.edu/s/0yO</url>
 	            (<q>zero-y-Oh</q>) to find a <em>Desmos</em>
-	            worksheet with data from the tangent function already input.  
+	            worksheet with data from the tangent function already input, denoted in <em>Desmos</em> by the function <m>T(x) = \tan(x)</m>.  
 
 	            Click on several of the orange points to compare your exact values in (a) with the decimal values given by <em>Desmos</em>.  
 
 	            Add one entry to the table:
 	            <m>x = \frac{11\pi}{24}</m>, <m>y = T(\frac{11\pi}{24})</m>.
 	            At about what coordinates does this point lie?
-	            What are the respective values of
+	            What are the approximate values of
 	            <m>\sin(\frac{11\pi}{24})</m> and <m>\cos(\frac{11\pi}{24})</m>?
-	            Why is the value of <m>\tan(\frac{11\pi}{24})</m> so large?
+	            Why is the value of <m>\tan(\frac{11\pi}{24})</m> so large relative to the other values of <m>\tan(x)</m> in the table?
 	          </p>
 	        </li>
 

@@ -49,7 +49,6 @@
 		A related situation arises when an object's temperature changes in response to its surroundings.  For instance, if we have a cup of coffee at an initial temperature of <m>186^\circ</m> Fahrenheit and the cup is placed in a room where the surrounding temperature is <m>71^\circ</m>, our intuition and experience tell us that over time the coffee will cool and eventually tend to the <m>71^\circ</m> temperature of the surroundings.  From an experiment <fn>See <url href="http://gvsu.edu/s/0SB">http://gvsu.edu/s/0SB</url> for this data.</fn> with an actual temperature probe, we have the data in <xref ref="T-modeling-exp-coffee">Table</xref> that is plotted in <xref ref="F-modeling-exp-coffee">Figure</xref>.
 	</p>
 
-	<sidebyside valign="middle">
 		<table xml:id="T-modeling-exp-coffee">
 			<title>Data for cooling coffee, measured in degrees Fahrenheit at time <m>t</m> in minutes.</title>
 			<tabular>
@@ -100,11 +99,12 @@
 				</row>
 			</tabular>
 		</table>
+
 		<figure xml:id="F-modeling-exp-coffee">
 			<caption>A plot of the data in <xref ref="T-modeling-exp-coffee">Table</xref>.</caption>
 			<image source="images/modeling-exp-coffee" />
 		</figure>
-	</sidebyside>
+
 
 	<p>
 		In one sense, the data looks exponential: the points appear to lie on a curve that is always decreasing and decreasing at an increasing rate.  However, we know that the function can't have the form <m>f(t) = ab^t</m> because such a function's range is the set of all positive real numbers, and it's impossible for the coffee's temperature to fall below room temperature (<m>71^\circ</m>).  It is natural to wonder if a function of the form <m>g(t) = ab^t + c</m> will work.  Thus, in order to find a function that fits the data in a situation such as <xref ref="F-modeling-exp-coffee">Figure</xref>, we begin by investigating and understanding the roles of <m>a</m>, <m>b</m>, and <m>c</m> in the behavior of <m>g(t) = ab^t + c</m>.	

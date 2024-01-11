@@ -44,11 +44,11 @@
   	<p>
   		Suppose that a certain mutual fund has a <m>10</m>% annual return.  If we invest $<m>100</m>, after <m>1</m> year we still have the original $<m>100</m>, plus we gain <m>10</m>% of $<m>100</m>, so
   		<me>
-  			100 \xrightarrow{\text{year } 1} 100 + 0.1(100) = 1.1(100)
+  			100 \overset{\text{year } 1}{\longrightarrow} 100 + 0.1(100) = 1.1(100)
   		</me>.
   		If we instead invested $<m>100000</m>, after <m>1</m> year we again have the original $<m>100000</m>, but now we gain <m>10</m>% of $<m>100000</m>, and thus
   		<me>
-  			100000 \xrightarrow{\text{year } 1} 100000 + 0.1(100000) = 1.1(100000)
+  			100000 \overset{\text{year } 1}{\longrightarrow}  100000 + 0.1(100000) = 1.1(100000)
   		</me>.
   		We therefore see that regardless of the amount of money originally invested, say <m>P</m>, the amount of money we have after <m>1</m> year is <m>1.1P</m>.
   	</p>
@@ -56,11 +56,11 @@
   	<p>
   		If we repeat our computations for the second year, we observe that 
   		<me>
-  			1.1(100) \xrightarrow{\text{year } 2} 1.1(100) + 0.1(1.1(100)) = 1.1(1.1(100)) = 1.1^2 (100)
+  			1.1(100) \overset{\text{year } 2}{\longrightarrow}  1.1(100) + 0.1(1.1(100)) = 1.1(1.1(100)) = 1.1^2 (100)
   		</me>.
   		The ideas are identical with the larger dollar value, so
   		<me>
-  			1.1(100000) \xrightarrow{\text{year } 2} 1.1(100000) + 0.1(1.1(100000)) = 1.1(1.1(100000)) = 1.1^2 (100000)
+  			1.1(100000) \overset{\text{year } 2}{\longrightarrow}  1.1(100000) + 0.1(1.1(100000)) = 1.1(1.1(100000)) = 1.1^2 (100000)
   		</me>,
   		and we see that if we invest <m>P</m> dollars, in <m>2</m> years our investment will grow to <m>1.1^2 P</m>.
   	</p>

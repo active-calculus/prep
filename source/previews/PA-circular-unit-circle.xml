@@ -54,12 +54,12 @@
 						</sidebyside>
 
 					<p>
-						Suppose that <m>\alpha</m> and <m>\beta</m> are each central angles and that their respective radian measures are <m>\alpha = \frac{\pi}{3}</m> and <m>\beta = \frac{3\pi}{4}</m>.  Sketch the angles <m>\alpha</m> and <m>\beta</m> on the unit circle in <xref ref="F-PA-big-unit-circle">Figure</xref>.
+						Suppose that <m>\alpha</m> and <m>\beta</m> are angles with respective radian measures <m>\alpha = \frac{\pi}{3}</m> and <m>\beta = \frac{3\pi}{4}</m>.  Assuming that we view <m>\alpha</m> and <m>\beta</m> as having their vertex at <m>(0,0)</m> and one side along the positive <m>x</m>-axis, sketch the angles <m>\alpha</m> and <m>\beta</m> on the unit circle in <xref ref="F-PA-big-unit-circle">Figure</xref>.
 					</p>
 				</li>
 				<li>
 					<p>
-						What is the radian measure that corresonds to a <m>90^\circ</m> angle?
+						What is the radian measure that corresponds to a <m>90^\circ</m> angle?
 					</p>
 				</li>
 			</ol>

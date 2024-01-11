@@ -43,7 +43,7 @@
 					<p>
 						Explain why your work in (a) and (b) together with some algebra shows that 
 						<me>
-							AV_{[a,a+h]} = \sin(a) \cdot \frac{\cos(h)-1}{h} - \cos(a) \frac{\sin(h)}{h}
+							AV_{[a,a+h]} = \sin(a) \cdot \frac{\cos(h)-1}{h} - \cos(a) \cdot \frac{\sin(h)}{h}
 						</me>.
 					</p>
 				</li>

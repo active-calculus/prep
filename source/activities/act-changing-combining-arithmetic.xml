@@ -17,7 +17,7 @@
 
 	<statement>
 		<p>
-			Consider the functions <m>f</m> and <m>g</m> defined by <xref ref="F-act-combining-f">Figure</xref> and <xref ref="F-act-combining-g">Figure</xref>.
+			Consider the functions <m>f</m> and <m>g</m> defined by <xref ref="F-act-combining-f">Figure</xref> and <xref ref="F-act-combining-g">Figure</xref>.  Assume that the given lines and curves pass through intersection points on the grid when it looks plausible.  For instance, <m>(0,2.5)</m> and <m>(3,-0.5)</m> lie on the graph of <m>f</m>, and <m>(-1,3)</m> and <m>(1.5, 1.5)</m> lie on the graph of <m>g</m>.
 		</p>
 
 		<sidebyside>

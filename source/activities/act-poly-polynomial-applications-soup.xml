@@ -43,7 +43,7 @@
 				</li>
 				<li>
 					<p>
-						What is the domain of the function <m>V</m> in the context of the physical setting of this problem?  (Hint: how does the constraint on surface area provide a largest possible value for <m>r</m>?  Think about the maximum area that can be allocated to the top and bottom of the can.)
+						What is the domain of the function <m>V</m> in the context of the physical setting of this problem?  (Hint: how does the constraint on surface area provide an upper bound for the value of <m>r</m>?  Think about the maximum area that can be allocated to the top and bottom of the can.)
 					</p>
 				</li>
 			</ol>

@@ -34,7 +34,7 @@
 				</li>
 				<li>
 					<p>
-						A right triangle where one of the non-right angles is <m>\beta = 1.2</m> and the hypotenuse has length <m>2.7</m>.
+						A right triangle where one of the non-right angles has measure <m>1.2</m> and the hypotenuse has length <m>2.7</m>.
 					</p>
 				</li>
 				<li>
@@ -49,7 +49,7 @@
 				</li>				
 				<li>
 					<p>
-						A right triangle where one of the non-right angles is <m>\beta = \frac{\pi}{5}</m> and the leg opposite this angle has length <m>4</m>.
+						A right triangle where one of the non-right angles has measure <m>\frac{\pi}{5}</m> and the leg opposite this angle has length <m>4</m>.
 					</p>
 				</li>
 			</ol>
