@@ -53,7 +53,7 @@
 					</p>
 
 					<table xml:id="T-act-functions-is-it-2">
-						<caption>A table that relates <m>x</m> and <m>y</m> values.</caption>
+						<title>A table that relates <m>x</m> and <m>y</m> values.</title>
 							<tabular>
 								<row bottom="minor">
 									<cell><m>x</m></cell>

@@ -90,7 +90,7 @@
 	</p>
 
   					<table xml:id="T-circular-sine-values">
-						<caption>Values of <m>h(t) = \sin(t)</m> at special points on the unit circle.</caption>
+						<title>Values of <m>h(t) = \sin(t)</m> at special points on the unit circle.</title>
 						<tabular>
 							<row bottom="minor" halign="center">
 								<cell><m>t</m></cell>

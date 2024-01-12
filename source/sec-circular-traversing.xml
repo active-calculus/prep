@@ -72,9 +72,9 @@
 	</p>
 
 			<table xml:id="T-traversing-first-example-1">
-				<caption>
+				<title>
 					Data for height, <m>h</m>, as a function of distance traversed, <m>d</m>.
-				</caption>
+				</title>
 				<tabular halign="center">
 					<row bottom="minor">
 					  <cell><m>d</m></cell>
@@ -108,9 +108,9 @@
 	</p>
 
 			<table xml:id="T-traversing-first-example-2">
-				<caption>
+				<title>
 					Additional data for height, <m>h</m>, as a function of distance traversed, <m>d</m>.
-				</caption>
+				</title>
 				<tabular halign="center">
 					<row bottom="minor">
 					  <cell><m>d</m></cell>

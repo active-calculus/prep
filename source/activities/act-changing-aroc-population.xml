@@ -25,7 +25,7 @@
     	</p>
 
     		<table xml:id="T-act-changing-aroc-population-Kent">
-    			<caption>Kent County population data.</caption>
+    			<title>Kent County population data.</title>
     			<tabular>
 			      <row bottom="minor">
 			        <cell>1960</cell>
@@ -47,7 +47,7 @@
     		</table>
 
     		<table xml:id="T-act-changing-aroc-population-Ottawa">
-    			<caption>Ottawa county population data.</caption>
+    			<title>Ottawa county population data.</title>
     			<tabular>
 			      <row bottom="minor">
 			        <cell>1960</cell>

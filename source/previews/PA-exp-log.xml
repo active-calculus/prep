@@ -28,7 +28,7 @@
 					</p>
 
 					<table xml:id="T-PA-exp-log-10s">
-					  <caption>Select values of the powers of <m>10</m> function.</caption>
+					  <title>Select values of the powers of <m>10</m> function.</title>
 					  <tabular>
 					    <row bottom="minor">
 					      <cell><m>t</m></cell>
@@ -66,7 +66,7 @@
 					</p>
 
 					<table xml:id="T-PA-exp-log-L">
-					  <caption>Select values of the function <m>L</m> that is the inverse of <m>P</m>.</caption>
+					  <title>Select values of the function <m>L</m> that is the inverse of <m>P</m>.</title>
 					  <tabular>
 					    <row>
 					      <cell><m>y</m></cell>

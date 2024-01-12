@@ -116,7 +116,7 @@
 
 			<sidebyside widths="48% 48%" margins="0%">
 				<table xml:id="T-inverse-does-it-1">
-					<caption>The table that defines the function <m>f</m>.</caption>
+					<title>The table that defines the function <m>f</m>.</title>
 					<tabular>
 						<row bottom="minor">
 							<cell><m>x</m></cell>
@@ -137,7 +137,7 @@
 					</tabular>
 				</table>
 				<table xml:id="T-inverse-does-it-2">
-					<caption>The table that defines the function <m>g</m>.</caption>
+					<title>The table that defines the function <m>g</m>.</title>
 					<tabular>
 						<row bottom="minor">
 							<cell><m>x</m></cell>

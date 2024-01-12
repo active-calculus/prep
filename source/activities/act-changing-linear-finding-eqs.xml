@@ -46,7 +46,7 @@
                   </p>
 				<sidebyside width="50%" valign="middle">
 					<table xml:id="T-act-changing-linear-finding-eqs">
-						<caption>Data for a linear function <m>f</m>.</caption>
+						<title>Data for a linear function <m>f</m>.</title>
 			            <tabular halign="center">
 			              <row bottom="minor">
 			                <cell><m>x</m></cell>

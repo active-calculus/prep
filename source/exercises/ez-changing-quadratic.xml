@@ -119,7 +119,7 @@
 
               <sidebyside width="50%">
                 <table xml:id="T-ez-quadratic-heights">
-                  <caption>Function values for <m>f</m> at select inputs.</caption>
+                  <title>Function values for <m>f</m> at select inputs.</title>
                   <tabular>
                     <row bottom="minor">
                       <cell><m>x</m></cell>
@@ -152,7 +152,7 @@
                   </tabular>
                 </table>  
                 <table xml:id="T-ez-quadratic-AVs">
-                  <caption>Average rates of change for <m>f</m> on select intervals.</caption>
+                  <title>Average rates of change for <m>f</m> on select intervals.</title>
                   <tabular>
                     <row bottom="minor">
                       <cell><m>[a,b]</m></cell>

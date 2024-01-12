@@ -48,7 +48,7 @@
 					</p>
 					<sidebyside width="50%" valign="middle">
 						<table xml:id="T-tandem-act-sphere-V-t">
-							<caption>Data for how volume and time change together.</caption>
+							<title>Data for how volume and time change together.</title>
 							<tabular>
 								<row bottom="minor">
 									<cell><m>t</m></cell>

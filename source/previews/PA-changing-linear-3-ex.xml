@@ -30,7 +30,7 @@
 					</p>
 
 					<table xml:id="T-PA-changing-linear-3-ex-2">
-						<caption>A table that defines the function <m>y = g(x)</m>.</caption>
+						<title>A table that defines the function <m>y = g(x)</m>.</title>
 							<tabular>
 								<row bottom="minor" halign="center">
 									<cell><m>x</m></cell>

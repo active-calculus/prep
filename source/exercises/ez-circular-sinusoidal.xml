@@ -42,7 +42,7 @@
       </p>
 
       <table>
-        <caption>Data for a circular function.</caption>
+        <title>Data for a circular function.</title>
         <tabular>
           <row bottom="minor" halign="center">
             <cell><m>x</m></cell>

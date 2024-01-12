@@ -49,7 +49,7 @@
 		<sidebyside widths="47% 47%" margins="0% 0%" valign="middle">
 
 			<table xml:id="T-tandem-aquarium">
-				<caption>Data for how the volume of water in the tank changes with time.</caption>
+				<title>Data for how the volume of water in the tank changes with time.</title>
 				<tabular>
 				    <row bottom="minor">
 				      <cell><m>t</m></cell>
@@ -147,7 +147,7 @@
 		</p>
 
 			<table xml:id="T-tandem-cone-V-t">
-				<caption>How time and volume change in tandem in a conical tank.</caption>
+				<title>How time and volume change in tandem in a conical tank.</title>
 				<tabular>
 				    <row bottom="minor">
 				      <cell><m>t</m></cell>
@@ -178,7 +178,7 @@
 		</p>
 
 			<table xml:id="T-tandem-cone-V-h-t">
-				<caption>How time, volume, and height change in concert in a conical tank.</caption>
+				<title>How time, volume, and height change in concert in a conical tank.</title>
 				<tabular>
 				    <row bottom="minor">
 				      <cell><m>t</m></cell>

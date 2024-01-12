@@ -32,7 +32,7 @@
 						Complete the following table with the exact values of <m>k</m> that correspond to the stated inputs.
 					</p>
 					<table xml:id="T-circular-cosine-first-values">
-						<caption>Exact values of <m>k = g(t) = \cos(t)</m>.</caption>
+						<title>Exact values of <m>k = g(t) = \cos(t)</m>.</title>
 						<tabular>
 							<row bottom="minor">
 								<cell><m>t</m></cell>

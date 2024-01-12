@@ -193,7 +193,7 @@
   			</p>
 
   		<table xml:id="T-familiar-infty-limits-summary">
-			<caption>Some familiar functions and their limits as <m>x \to \infty</m> or <m>x \to -\infty</m>.</caption>
+			<title>Some familiar functions and their limits as <m>x \to \infty</m> or <m>x \to -\infty</m>.</title>
 			  <tabular>
 			    <row bottom="medium" halign="center">
 			      <cell><m>f(x)</m></cell>
@@ -258,7 +258,7 @@
 			</p>
 
   		<table xml:id="T-familiar-infty-limits-summary-2">
-			<caption>Some familiar functions and their limits involving <m>\infty</m> as <m>x \to a</m> where <m>a</m> is not in the function's domain.</caption>
+			<title>Some familiar functions and their limits involving <m>\infty</m> as <m>x \to a</m> where <m>a</m> is not in the function's domain.</title>
 			  <tabular>
 			    <row bottom="medium" halign="center">
 			      <cell><m>f(x)</m></cell>

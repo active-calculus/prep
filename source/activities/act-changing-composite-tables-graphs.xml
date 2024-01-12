@@ -24,7 +24,7 @@
 
 		<sidebyside width="50%" valign="middle">
 			<table xml:id="T-act-changing-composite-tables-graphs">
-				<caption>Table that defines <m>f</m> and <m>g</m>.</caption>
+				<title>Table that defines <m>f</m> and <m>g</m>.</title>
 			    <tabular>
 			      <row  bottom="minor">
 			        <cell><m>x</m></cell>

@@ -36,7 +36,7 @@
   	</p>
 
 		<table xml:id="T-functions-Dolbear">
-			<caption>Data for Dolbear's observations.</caption>
+			<title>Data for Dolbear's observations.</title>
 				<tabular>
 					<row bottom="minor">
 					  <cell><m>N</m> (chirps per minute)</cell>
@@ -95,7 +95,7 @@
 					
 		<sidebyside width="50%" valign="middle">
 			<table xml:id="T-functions-Dolbear-data">
-				<caption>Data for the function <m>T = D(N) = 40 + 0.25N</m>.</caption>
+				<title>Data for the function <m>T = D(N) = 40 + 0.25N</m>.</title>
 				<tabular>
 					<row bottom="minor">
 						<cell><m>N</m></cell>
@@ -208,7 +208,7 @@
 
 			<sidebyside width="50%" valign="middle">
 				<table xml:id="T-functions-quadratic-example-data">
-					<caption>Data for the function <m>y = f(x) = -16x^2 + 32x + 48</m>.</caption>
+					<title>Data for the function <m>y = f(x) = -16x^2 + 32x + 48</m>.</title>
 					<tabular halign="center">
 						<row bottom="minor">
 							<cell><m>x</m></cell>
@@ -260,7 +260,7 @@
 
 			<sidebyside width="50%" valign="middle">
 				<table xml:id="T-functions-quadratic-model-data">
-					<caption>Data for the model <m>h = g(t) = -16t^2 + 32t + 48</m>.</caption>
+					<title>Data for the model <m>h = g(t) = -16t^2 + 32t + 48</m>.</title>
 					<tabular halign="center">
 						<row bottom="minor">
 							<cell><m>t</m></cell>
@@ -322,7 +322,7 @@
 			</p>
 
 			<table xml:id="T-functions-is-it-1">
-				<caption>A table that relates <m>x</m> and <m>y</m> values.</caption>
+				<title>A table that relates <m>x</m> and <m>y</m> values.</title>
 					<tabular>
 						<row bottom="minor">
 							<cell><m>x</m></cell>

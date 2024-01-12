@@ -114,7 +114,7 @@
 
   	<sidebyside>
   		<table xml:id="T-exp-linear-decay">
-  			<caption>Data for the function <m>r</m>.</caption>
+  			<title>Data for the function <m>r</m>.</title>
   			<tabular halign="center">
   				<row bottom="minor">
   					<cell><m>t</m></cell>
@@ -133,7 +133,7 @@
   			</tabular>
   		</table>
   		<table xml:id="T-exp-exponential-decay">
-  			<caption>Data for the function <m>s</m>.</caption>
+  			<title>Data for the function <m>s</m>.</title>
   			<tabular halign="center">
   				<row bottom="minor">
   					<cell><m>t</m></cell>
@@ -245,7 +245,7 @@
 
 	<sidebyside>
 		<table xml:id="T-growth-incr-CCU">
-			<caption>The average rate of change of <m>f(t) = 2(1.25)^t</m>.</caption>
+			<title>The average rate of change of <m>f(t) = 2(1.25)^t</m>.</title>
 			<tabular halign="center">
 				<row bottom="minor">
 					<cell><m>t</m></cell>
@@ -275,7 +275,7 @@
 			</tabular>
 		</table>
 		<table xml:id="T-growth-decr-CCU">
-			<caption>The average rate of change of <m>g(t) = 8(0.75)^t</m>.</caption>
+			<title>The average rate of change of <m>g(t) = 8(0.75)^t</m>.</title>
 			<tabular halign="center">
 				<row bottom="minor">
 					<cell><m>t</m></cell>
