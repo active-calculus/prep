@@ -13,3 +13,7 @@ cli.log
 .error_schema.log
 Makefile.paths
 xml-id conventions.rtf
+.devcontainer.json
+codechat_config.yaml
+settings.json
+logs

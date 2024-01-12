@@ -1,0 +1,17 @@
+<publication>
+  <source>
+    <directories external="../assets" generated="../generated-assets"
+		 />
+  </source>
+  <latex sides="two" print="yes" font-size="10" pageref="no">
+    <page geometry="paperwidth=7.44in,paperheight=9.69in,tmargin=.5in,bmargin=.3in,hmargin=.75in,bindingoffset=.4in,includeheadfoot,marginparsep=6ex" />
+    <cover front="images/APC-frontcover-2019.pdf" />
+  </latex>
+  <common>
+    <!-- List Chapters and Sections in sidebar Table of Contents -->
+    <tableofcontents level="3" />
+    <exercise-divisional statement="yes" hint="no" answer="no" solution="yes"/>
+    <exercise-project statement="yes" hint="no" answer="no" solution="yes" />
+  </common>
+  <webwork server="https://webwork-ptx.aimath.org" />
+</publication>
