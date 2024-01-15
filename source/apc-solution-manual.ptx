@@ -84,7 +84,6 @@
     <xi:include href="./chap-exp.xml" />
     <xi:include href="./chap-trig.xml" />
     <xi:include href="./chap-poly.xml" />
-    <xi:include href="./backmatter.xml" />
   </book>
 
 </pretext>
