@@ -121,7 +121,7 @@
 	  </p>
 
     				<table xml:id="T-tangent-values">
-						<caption>Values of the sine, cosine, and tangent functions at special points on the unit circle.</caption>
+						<title>Values of the sine, cosine, and tangent functions at special points on the unit circle.</title>
 						<tabular>
 							<row halign="center" bottom="minor">
 								<cell><m>t</m></cell>
@@ -175,7 +175,7 @@
 					</table>
 
     				<table xml:id="T-tangent-values-2">
-						<caption>Additional values of the sine, cosine, and tangent functions at special points on the unit circle.</caption>
+						<title>Additional values of the sine, cosine, and tangent functions at special points on the unit circle.</title>
 						<tabular>
 							<row halign="center" bottom="minor">
 								<cell><m>t</m></cell>		

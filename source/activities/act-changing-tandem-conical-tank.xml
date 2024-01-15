@@ -38,7 +38,7 @@
 					</p>
 					<sidebyside width="50%" valign="middle">
 						<table xml:id="T-tandem-act-cone-V-t">
-							<caption>Table to record data on volume and time in the conical tank.</caption>
+							<title>Table to record data on volume and time in the conical tank.</title>
 							<tabular>
 							    <row bottom="minor">
 							      <cell><m>t</m></cell>

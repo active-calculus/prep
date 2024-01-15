@@ -162,7 +162,7 @@
       </p>
 
       <table xml:id="T-ez-exp-growth-data">
-        <caption>The temperature, <m>F</m>, of the coffee at time <m>t</m>.</caption>
+        <title>The temperature, <m>F</m>, of the coffee at time <m>t</m>.</title>
         <tabular halign="center">
           <row bottom="minor">
             <cell><m>t</m></cell>

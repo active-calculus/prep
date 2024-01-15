@@ -31,7 +31,7 @@
 				</p>
 				<sidebyside widths="48% 48%" margins="0%" valign="bottom">
 					<table xml:id="T-PA-changing-quadratic-heights">
-						<caption>Function values for <m>h</m> at select inputs.</caption>
+						<title>Function values for <m>h</m> at select inputs.</title>
 						<tabular>
 							<row bottom="minor">
 								<cell><m>t</m></cell>
@@ -64,7 +64,7 @@
 						</tabular>
 					</table>	
 					<table xml:id="T-PA-changing-quadratic-AVs">
-						<caption>Average rates of change for <m>h</m> on select intervals.</caption>
+						<title>Average rates of change for <m>h</m> on select intervals.</title>
 						<tabular>
 							<row bottom="minor">
 								<cell><m>[a,b]</m></cell>

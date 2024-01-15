@@ -47,7 +47,7 @@
         An apartment manager keeps careful record of how the rent charged per unit corresponds to the number of occupied units in a large complex.  The collected data is shown in <xref ref="T-ez-linear-apartment">Table</xref>.<fn>This problem is a slightly modified version of one found in <url href="http://mathquest.carroll.edu/CarrollActiveCalculus/C_0.html">Carroll College's Chapter Zero resource for Active Calculus</url>.</fn>
       </p>
       <table xml:id="T-ez-linear-apartment">
-        <caption>Data relating occupied apartments to monthly rent.</caption>
+        <title>Data relating occupied apartments to monthly rent.</title>
           <tabular>
             <row bottom="minor">
               <cell>Monthly Rent</cell>

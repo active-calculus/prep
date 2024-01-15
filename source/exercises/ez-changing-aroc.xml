@@ -47,7 +47,7 @@
       </p>
 
       <table xml:id="T-ez-changing-aroc-soda-table">
-        <caption>Data for the soda's temperature as a function of time.</caption>
+        <title>Data for the soda's temperature as a function of time.</title>
         <tabular>
           <row bottom="minor">
             <cell><m>t</m> (minutes)</cell>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2018-2023                                                   -->
+<!-- Copyright 2012-2019                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
-<!-- This file is part of Active Prelude to Calculus.                      -->
+<!-- This file is part of Active Calculus.                                 -->
 <!--                                                                       -->
 <!-- Permission is granted to copy, distribute and/or modify this document -->
 <!-- under the terms of the Creative Commons BY-SA license.  The work      -->
@@ -13,19 +13,28 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude">
-    <!-- Has LaTeX macros, which may be needed       -->
-    <!-- May have some unnecessary stuff, but OK now -->
-  <xi:include href="./bookinfo.xml" />
-    <!-- a small hack until "line" element is available -->
-    <!-- the use of \\ assumes LaTeX output only        -->
-    <!-- https://github.com/rbeezer/mathbook/issues/640 -->
-  <book xml:id="apc-solution-manual">
-    <title>
-      <line>Solutions Manual</line>
-      <line>for</line> 
-      <line>Active Prelude to Calculus</line>
-    </title>
-    <frontmatter>
+<docinfo>
+  <macros>
+		\newcommand{\dollar}{\$}
+		\DeclareMathOperator{\erf}{erf}
+		\DeclareMathOperator{\arctanh}{arctanh}
+                \DeclareMathOperator{\arcsec}{arcsec}
+
+                % This macro should only be used in ancillary production!
+                \raggedbottom
+  </macros>
+  <cross-references text="global" />
+  <covers front="external/images/soln-cover-2018u.pdf" />
+  <rename element="exploration" xml:lang="en-US">Preview Activity</rename>
+  <rename element="objectives" xml:lang="en-US">Motivating Questions</rename>
+</docinfo>
+
+  <book xml:id="acs-solution-manual" permid="Pux">
+      <title><line>Solutions Manual</line>
+      <line>for</line>
+      <line>Active Calculus Single Variable</line>
+      </title>
+    <frontmatter permid="bIP">
             <!-- Don't xi:include the titlepage, since solution authors differ -->
       <titlepage >
 
@@ -37,12 +46,30 @@
       </author>
 
       <credit>
+        <title>Contributing Authors</title>
+        <author>
+          <personname>Steven Schlicker</personname>
+          <department>Department of Mathematics</department>
+          <institution>Grand Valley State University</institution>
+          <email>schlicks@gvsu.edu</email>
+        </author>
+
+        <author>
+          <personname>Ted Sundstrom</personname>
+          <department>Department of Mathematics</department>
+          <institution>Grand Valley State University</institution>
+          <email>sundstrt@gvsu.edu</email>
+        </author>
+
+      </credit>
+
+      <credit>
         <title>Production Editor</title>
         <author>
           <personname>Mitchel T. Keller</personname>
           <department>Department of Mathematics</department>
           <institution>University of Wisconsin-Madison</institution>
-          <email>mitch.keller@wisc.edu</email>
+          <email>mitch@rellek.net</email>
         </author>
 
       </credit>
@@ -51,9 +78,9 @@
 
       <xi:include href="./colophon.xml" />
 
-      <preface>
-        <p>
-          This Solutions Manual for <pubtitle>Active Prelude to Calculus</pubtitle> is organized by section.
+      <preface permid="vBG">
+        <p permid="HPY">
+          This Solutions Manual for <pubtitle>Active Calculus</pubtitle> is organized by section.
           Preview Activity solutions are not provided,
           but each activity within a section has a solution provided.
           The solution to each activity starts at the top of a new page,
@@ -65,13 +92,13 @@
           Each exercise also starts at the top of its own page to make it easy to extract only the solutions to certain exercises.
         </p>
 
-        <p >
+        <p permid="nXh">
           Please do not post this solutions manual publicly on the internet nor in any electronic form where it is available in full to students.
           As much as possible,
           we aspire to keep this solutions manual as a resource for instructors only so that students get the full benefit of activities and exercises by having to struggle with them without looking at solutions.
         </p>
 
-        <p >
+        <p permid="Ueq">
           By extracting individual pages from the <init>PDF</init>,
           it is fine to share solutions to individual activities or exercises via course management system software.
           Please do not post these individual pages publicly on the internet.
@@ -79,11 +106,24 @@
       </preface>
 
     </frontmatter>
-    <xi:include href="./chap-changing.xml" />
-    <xi:include href="./chap-circular.xml" />
-    <xi:include href="./chap-exp.xml" />
-    <xi:include href="./chap-trig.xml" />
-    <xi:include href="./chap-poly.xml" />
+
+    <xi:include href="./chap-1.xml" />
+    <xi:include href="./chap-2.xml" />
+    <xi:include href="./chap-3.xml" />
+    <xi:include href="./chap-4.xml" />
+    <xi:include href="./chap-5.xml" />
+    <xi:include href="./chap-6.xml" />
+    <xi:include href="./chap-7.xml" />
+    <xi:include href="./chap-8.xml" />
+    <backmatter>
+      <xi:include href="app-integral-table.ptx" />
+    <colophon>
+    <p>
+      This book was authored in <pretext />.
+    </p>
+  </colophon>
+</backmatter>
+
   </book>
 
 </pretext>

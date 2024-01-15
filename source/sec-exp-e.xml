@@ -93,7 +93,7 @@
 
 	<sidebyside valign="middle">
 		<table xml:id="T-e-2-e-3">
-			<caption>Select outputs of <m>2^t</m>, <m>e^t</m>, and <m>3^t</m> reported to <m>3</m> decimal places.</caption>
+			<title>Select outputs of <m>2^t</m>, <m>e^t</m>, and <m>3^t</m> reported to <m>3</m> decimal places.</title>
 			<tabular halign="center">
 				<row bottom="minor">
 					<cell><m>t</m></cell>

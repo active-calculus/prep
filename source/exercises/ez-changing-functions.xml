@@ -154,7 +154,7 @@
       </p>
 
       <table xml:id="T-functions-gas-distance">
-        <caption>Remaining gas as a function of distance traveled.</caption>
+        <title>Remaining gas as a function of distance traveled.</title>
         <tabular>
             <row bottom="minor">
               <cell><m>D</m> (miles)</cell>

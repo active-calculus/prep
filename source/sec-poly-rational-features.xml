@@ -115,7 +115,7 @@
   			</p>
 
   			<table xml:id="T-r-near-1">
-  				<caption>Values of <m>r(x) = \frac{x^2 - 1}{x^2 - 3x - 4}</m> near <m>x = -1</m>.</caption>
+  				<title>Values of <m>r(x) = \frac{x^2 - 1}{x^2 - 3x - 4}</m> near <m>x = -1</m>.</title>
   				<tabular>
   					<row bottom="minor" halign="center">
   						<cell><m>x</m></cell>

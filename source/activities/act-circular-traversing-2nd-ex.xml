@@ -49,7 +49,7 @@
 					</p>
 
 					<table xml:id="T-act-circular-traversing-2nd-ex">
-						<caption>Data for <m>h</m> as a function of <m>d</m>.</caption>
+						<title>Data for <m>h</m> as a function of <m>d</m>.</title>
 						<tabular halign="center">
 							<row bottom="minor">
 							  <cell><m>d</m></cell>

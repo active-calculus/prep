@@ -149,7 +149,7 @@
 	</p>
 
     				<table xml:id="T-secant-values">
-						<caption>Values of the cosine and secant functions at special points on the unit circle (Quadrants I and II).</caption>
+						<title>Values of the cosine and secant functions at special points on the unit circle (Quadrants I and II).</title>
 						<tabular>
 							<row bottom="minor" halign="center">
 								<cell><m>t</m></cell>
@@ -191,7 +191,7 @@
 					</table>
 
 					<table xml:id="T-secant-values-2">
-						<caption>Values of the cosine and secant functions at special points on the unit circle (Quadrants III and IV).</caption>
+						<title>Values of the cosine and secant functions at special points on the unit circle (Quadrants III and IV).</title>
 						<tabular>
 							<row bottom="minor" halign="center">
 								<cell><m>t</m></cell>		

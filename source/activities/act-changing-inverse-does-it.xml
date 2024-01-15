@@ -28,7 +28,7 @@
     				</p>
 	
 					<table xml:id="T-act-changing-inverse-does-it-1">
-						<caption>Values of <m>y = f(x)</m>.</caption>
+						<title>Values of <m>y = f(x)</m>.</title>
 					    <tabular>
 					      <row bottom="minor">
 					        <cell><m>x</m></cell>
@@ -56,7 +56,7 @@
     				</p>
 	
 					<table xml:id="T-act-changing-inverse-does-it-2">
-						<caption>Values of <m>y = g(x)</m>.</caption>
+						<title>Values of <m>y = g(x)</m>.</title>
 					    <tabular>
 					      <row bottom="minor">
 					        <cell><m>x</m></cell>

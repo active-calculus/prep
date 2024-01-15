@@ -92,7 +92,7 @@
             </p>
 
             <table xml:id="T-ez-composite-tables">
-              <caption>Table that defines <m>r</m> and <m>s</m>.</caption>
+              <title>Table that defines <m>r</m> and <m>s</m>.</title>
                 <tabular halign="right">
                   <row bottom="minor">
                     <cell><m>t</m></cell>

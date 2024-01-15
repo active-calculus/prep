@@ -25,7 +25,7 @@
 		</p>
 
 		<table xml:id="T-familiar-infty-limits">
-			<caption>Some familiar functions and their limits as <m>x \to \infty</m> or <m>x \to -\infty</m>.</caption>
+			<title>Some familiar functions and their limits as <m>x \to \infty</m> or <m>x \to -\infty</m>.</title>
 			  <tabular>
 			    <row bottom="medium">
 			      <cell><m>f(x)</m></cell>

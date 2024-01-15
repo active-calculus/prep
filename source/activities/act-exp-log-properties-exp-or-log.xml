@@ -44,7 +44,7 @@
 				    </p>
 
 				    <table xml:id="T-log-act-tree">
-				    	<caption>The height of a tree as a function of time <m>t</m> in years.</caption>
+				    	<title>The height of a tree as a function of time <m>t</m> in years.</title>
 					    <tabular>
 					      <row bottom="minor">
 					        <cell><m>t</m></cell>

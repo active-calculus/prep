@@ -37,7 +37,7 @@
 						Complete the following table with the exact values of <m>h</m> that correspond to the stated inputs.
 					</p>
 					<table xml:id="T-circular-sine-first-values">
-						<caption>Exact values of <m>h</m> as a function of <m>t</m>.</caption>
+						<title>Exact values of <m>h</m> as a function of <m>t</m>.</title>
 						<tabular>
 							<row bottom="minor">
 								<cell><m>t</m></cell>
