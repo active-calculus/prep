@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,54 +12,69 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-quadratic-properties">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-changing-quadratic-properties">
+  <activity xml:id="act-changing-quadratic-properties">
+    <introduction>
+      <p>
 			Reason algebraically using appropriate properties of quadratic functions to answer the following questions.  Use <em>Desmos</em> to check your results graphically.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-changing-quadratic-properties-task-0">
+      <statement>
+        <p>
 						How many quadratic functions have <m>x</m>-intercepts at <m>(-5,0)</m> and <m>(10,0)</m> and a <m>y</m>-intercept at <m>(0,-1)</m>?  Can you determine an exact formula for such a function?  If yes, do so.  If not, explain why.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-quadratic-properties-task-1">
+      <statement>
+        <p>
 						Suppose that a quadratic function <m>q</m> has vertex <m>(-3,-4)</m> and opens upward.  How many <m>x</m>-intercepts can you guarantee the function has?  Why?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-quadratic-properties-task-2">
+      <statement>
+        <p>
 						In addition to the information in (b), suppose you know that <m>q(-1) = -3</m>.  Can you determine an exact formula for <m>q</m>?  If yes, do so.  If not, explain why.
 					</p>
-				</li>
-				<li>
-					<p>
-						Does the quadratic function <m>p(x) = -3(x+1)^2 + 9</m> have <m>0</m>, <m>1</m>, or <m>2</m> <m>x</m>-intercepts?  Reason algebraically to determine the exact values of any such intercepts or explain why none exist.
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-quadratic-properties-task-3">
+      <statement>
+        <p>
+						Does the quadratic function <m>p(x) = -3(x+1)^2 + 9</m> have <m>0</m>, <m>1</m>, or <m>2</m><m>x</m>-intercepts?  Reason algebraically to determine the exact values of any such intercepts or explain why none exist.
 					</p>
-				</li>
-				<li>
-					<p>
-						Does the quadratic function <m>w(x) = -2x^2 + 10x - 20</m> have <m>0</m>, <m>1</m>, or <m>2</m> <m>x</m>-intercepts?  Reason algebraically to determine the exact values of any such intercepts or explain why none exist.
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-quadratic-properties-task-4">
+      <statement>
+        <p>
+						Does the quadratic function <m>w(x) = -2x^2 + 10x - 20</m> have <m>0</m>, <m>1</m>, or <m>2</m><m>x</m>-intercepts?  Reason algebraically to determine the exact values of any such intercepts or explain why none exist.
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

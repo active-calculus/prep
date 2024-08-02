@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,16 +12,15 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-trig-other">
-
-	<statement>
-		<p>
+<worksheet label="ws-PA-trig-other">
+  <exploration xml:id="PA-trig-other">
+    <statement>
+      <p>
 			Consider a right triangle with hypotenuse of length <m>61</m> and one leg of length <m>11</m>.
       		Let <m>\alpha</m> be the angle opposite the side of length <m>11</m>.
       		Find the exact length of the other leg and then determine the value of each of the six trigonometric functions evaluated at <m>\alpha</m>.
       		In addition, what are the exact and approximate measures of the two non-right angles in the triangle?
 		</p>
-	</statement>
-
-</exploration>
+    </statement>
+  </exploration>
+</worksheet>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,46 +12,63 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-changing-aquarium">
-	<statement>
-		<p>
+<worksheet label="ws-PA-changing-aquarium">
+  <exploration xml:id="PA-changing-aquarium">
+    <introduction>
+      <p>
 			Suppose that a rectangular aquarium is being filled with water.  The tank is <m>4</m> feet long by <m>2</m> feet wide by <m>3</m> feet high, and the hose that is filling the tank is delivering water at a rate of <m>0.5</m> cubic feet per minute.
 		</p>
-
-		<sidebyside width="50%">
-			<figure>
-				<caption>The empty aquarium.</caption>
-				<image source="images/tandem-empty-aquarium" />
-			</figure>
-			<figure>
-				<caption>The aquarium, partially filled.</caption>
-				<image source="images/tandem-filled-aquarium" />
-			</figure>			
-		</sidebyside>
-		<p>
-		<ol marker="a.">
-			<li>
-				<p>
+      <sidebyside width="50%">
+        <figure>
+          <caption>The empty aquarium.</caption>
+          <image source="images/tandem-empty-aquarium"/>
+        </figure>
+        <figure>
+          <caption>The aquarium, partially filled.</caption>
+          <image source="images/tandem-filled-aquarium"/>
+        </figure>
+      </sidebyside>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="PA-changing-aquarium-task-0">
+      <statement>
+        <p>
 					What are some different quantities that are changing in this scenario?
 				</p>
-			</li>
-			<li>
-				<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-changing-aquarium-task-1">
+      <statement>
+        <p>
 					After <m>1</m> minute has elapsed, how much water is in the tank?  At this moment, how deep is the water?
 				</p>
-			</li>
-			<li>
-				<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-changing-aquarium-task-2">
+      <statement>
+        <p>
 					How much water is in the tank and how deep is the water after <m>2</m> minutes?  After <m>3</m> minutes?
 				</p>
-			</li>
-			<li>
-				<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-changing-aquarium-task-3">
+      <statement>
+        <p>
 					How long will it take for the tank to be completely full?  Why?
 				</p>
-			</li>
-		</ol>
-                </p>
-	</statement>
-</exploration>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+  </exploration>
+</worksheet>

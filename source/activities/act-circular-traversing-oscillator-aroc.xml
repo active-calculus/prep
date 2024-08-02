@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,142 +12,230 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-circular-traversing-oscillator-aroc">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-circular-traversing-oscillator-aroc">
+  <activity xml:id="act-circular-traversing-oscillator-aroc">
+    <introduction>
+      <p>
 			Consider the same setting as <xref ref="act-circular-traversing-oscillator">Activity</xref>: a weight oscillates back and forth on a frictionless table with distance from the wall given by, <m>h = f(t)</m> (in inches) at any given time, <m>t</m> (in seconds).
       		A graph of <m>f</m> and a table of select values are given below.
 		</p>
-
-		<sidebyside widths="25% 25% 50%" valign="middle">
-			<tabular halign="center">
-				<row bottom="minor">
-					<cell><m>t</m></cell>
-					<cell><m>f(t)</m></cell>
-				</row>
-				<row>
-					<cell><m>0.25</m></cell>
-					<cell><m>6.087</m></cell>
-				</row>
-				<row>
-					<cell><m>0.5</m></cell>
-					<cell><m>4.464</m></cell>
-				</row>
-				<row>
-					<cell><m>0.75</m></cell>
-					<cell><m>3.381</m></cell>
-				</row>
-				<row>
-					<cell><m>1</m></cell>
-					<cell><m>3.000</m></cell>
-				</row>
-				<row>
-					<cell><m>1.25</m></cell>
-					<cell><m>3.381</m></cell>
-				</row>
-				<row>
-					<cell><m>1.5</m></cell>
-					<cell><m>4.464</m></cell>
-				</row>
-				<row>
-					<cell><m>1.75</m></cell>
-					<cell><m>6.087</m></cell>
-				</row>
-				<row>
-					<cell><m>2</m></cell>
-					<cell><m>8.000</m></cell>
-				</row>
-			</tabular>
-
-			<tabular halign="center">
-				<row bottom="minor">
-					<cell><m>t</m></cell>
-					<cell><m>f(t)</m></cell>
-				</row>
-				<row>
-					<cell><m>2.25</m></cell>
-					<cell><m>9.913</m></cell>
-				</row>
-				<row>
-					<cell><m>2.5</m></cell>
-					<cell><m>11.536</m></cell>
-				</row>
-				<row>
-					<cell><m>2.75</m></cell>
-					<cell><m>12.619</m></cell>
-				</row>
-				<row>
-					<cell><m>3</m></cell>
-					<cell><m>13.000</m></cell>
-				</row>
-				<row>
-					<cell><m>3.25</m></cell>
-					<cell><m>12.619</m></cell>
-				</row>
-				<row>
-					<cell><m>3.5</m></cell>
-					<cell><m>11.536</m></cell>
-				</row>
-				<row>
-					<cell><m>3.75</m></cell>
-					<cell><m>9.913</m></cell>
-				</row>
-				<row>
-					<cell><m>4</m></cell>
-					<cell><m>8.000</m></cell>
-				</row>
-			</tabular>
-
-			<image source="images/traversing-circular-act-oscillator" />
-		</sidebyside>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <sidebyside widths="25% 25% 50%" valign="middle">
+        <tabular halign="center">
+          <row bottom="minor">
+            <cell>
+              <m>t</m>
+            </cell>
+            <cell>
+              <m>f(t)</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>0.25</m>
+            </cell>
+            <cell>
+              <m>6.087</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>0.5</m>
+            </cell>
+            <cell>
+              <m>4.464</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>0.75</m>
+            </cell>
+            <cell>
+              <m>3.381</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>1</m>
+            </cell>
+            <cell>
+              <m>3.000</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>1.25</m>
+            </cell>
+            <cell>
+              <m>3.381</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>1.5</m>
+            </cell>
+            <cell>
+              <m>4.464</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>1.75</m>
+            </cell>
+            <cell>
+              <m>6.087</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>2</m>
+            </cell>
+            <cell>
+              <m>8.000</m>
+            </cell>
+          </row>
+        </tabular>
+        <tabular halign="center">
+          <row bottom="minor">
+            <cell>
+              <m>t</m>
+            </cell>
+            <cell>
+              <m>f(t)</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>2.25</m>
+            </cell>
+            <cell>
+              <m>9.913</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>2.5</m>
+            </cell>
+            <cell>
+              <m>11.536</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>2.75</m>
+            </cell>
+            <cell>
+              <m>12.619</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>3</m>
+            </cell>
+            <cell>
+              <m>13.000</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>3.25</m>
+            </cell>
+            <cell>
+              <m>12.619</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>3.5</m>
+            </cell>
+            <cell>
+              <m>11.536</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>3.75</m>
+            </cell>
+            <cell>
+              <m>9.913</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>4</m>
+            </cell>
+            <cell>
+              <m>8.000</m>
+            </cell>
+          </row>
+        </tabular>
+        <image source="images/traversing-circular-act-oscillator"/>
+      </sidebyside>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-circular-traversing-oscillator-aroc-task-0">
+      <statement>
+        <p>
 						Determine <m>AV_{[2,2.25]}</m>, <m>AV_{[2.25,2.5]}</m>, <m>AV_{[2.5,2.75]}</m>, and <m>AV_{[2.75,3]}</m>.  What do these four values tell us about how the weight is moving on the interval <m>[2,3]</m>?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-circular-traversing-oscillator-aroc-task-1">
+      <statement>
+        <p>
 						Give an example of an interval of length <m>0.25</m> units on which <m>f</m> has its most negative average rate of change.  Justify your choice.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-circular-traversing-oscillator-aroc-task-2">
+      <statement>
+        <p>
 						Give an example of the longest interval you can find on which <m>f</m> is decreasing.
 					</p>
-				</li>
-				<li>
-					<p>
-						Give an example of an interval on which <m>f</m> is concave up.<fn>Recall that a function is concave up on an interval provided that throughout the interval, the curve bends upward, similar to a parabola that opens up.</fn>
-					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-circular-traversing-oscillator-aroc-task-3">
+      <statement>
+        <p>
+						Give an example of an interval on which <m>f</m> is concave up.<fn>Recall that a function is concave up on an interval provided that throughout the interval, the curve bends upward, similar to a parabola that opens up.</fn></p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-circular-traversing-oscillator-aroc-task-4">
+      <statement>
+        <p>
 						On an interval where <m>f</m> is both decreasing and concave down, what does this tell us about how the weight is moving on that interval?  For instance, is the weight moving toward or away from the wall?  is it speeding up or slowing down?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-circular-traversing-oscillator-aroc-task-5">
+      <statement>
+        <p>
 						What general conclusions can you make about the average rate of change of a circular function on intervals near its highest or lowest points?  about its average rate of change on intervals near the function's midline?
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

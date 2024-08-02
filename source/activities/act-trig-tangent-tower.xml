@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,24 +12,18 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-trig-tangent-tower">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-trig-tangent-tower">
+  <activity xml:id="act-trig-tangent-tower">
+    <statement>
+      <p>
 			The top of a <m>225</m> foot tower is to be anchored by four cables that each make an angle of <m>32.5^{\circ}</m> with the ground.  How long do the cables have to be and how far from the base of the tower must they be anchored?
 		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+    </statement>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,63 +12,83 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-exp-growth-a-b-t">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-exp-growth-a-b-t">
+  <activity xml:id="act-exp-growth-a-b-t">
+    <introduction>
+      <p>
 			In <em>Desmos</em>, define the function <m>g(t) = ab^t</m> and create sliders for both <m>a</m> and <m>b</m> when prompted.  Click on the sliders to set the minimum value for each to <m>0.1</m> and the maximum value to <m>10</m>.  Note that for <m>g</m> to be an exponential function, we require <m>b \ne 1</m>, even though the slider for <m>b</m> will allow this value.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-exp-growth-a-b-t-task-0">
+      <statement>
+        <p>
 						What is the domain of <m>g(t) = ab^t</m>?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-growth-a-b-t-task-1">
+      <statement>
+        <p>
 						What is the range of <m>g(t) = ab^t</m>?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-growth-a-b-t-task-2">
+      <statement>
+        <p>
 						What is the <m>y</m>-intercept of <m>g(t) = ab^t</m>?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-growth-a-b-t-task-3">
+      <statement>
+        <p>
 						How does changing the value of <m>b</m> affect the shape and behavior of the graph of <m>g(t) = ab^t</m>?  Write several sentences to explain.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-growth-a-b-t-task-4">
+      <statement>
+        <p>
 						For what values of the growth factor <m>b</m> is the corresponding growth rate positive?  For which <m>b</m>-values is the growth rate negative?
 					</p>
-				</li>
-				<li>
-						<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-growth-a-b-t-task-5">
+      <statement>
+        <p>
 							Consider the graphs of the exponential functions <m>p</m> and <m>q</m> provided in <xref ref="F-growth-act-a-b-t">Figure</xref>.  If <m>p(t) = ab^t</m> and <m>q(t) = cd^t</m>, what can you say about the values <m>a</m>, <m>b</m>, <m>c</m>, and <m>d</m> (beyond the fact that all are positive and <m>b \ne 1</m> and <m>d \ne 1</m>)?  For instance, can you say a certain value is larger than another?  Or that one of the values is less than <m>1</m>?
 						</p>
-						<figure xml:id="F-growth-act-a-b-t">
-							<caption>Graphs of exponential functions <m>p</m> and <m>q</m>.</caption>
-							<image width="50%" source="images/growth-act-a-b-t"/>
-						</figure>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+        <figure xml:id="F-growth-act-a-b-t">
+          <caption>Graphs of exponential functions <m>p</m> and <m>q</m>.</caption>
+          <image width="50%" source="images/growth-act-a-b-t"/>
+        </figure>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,145 +12,276 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-trig-other-csc">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-trig-other-csc">
+  <activity xml:id="act-trig-other-csc">
+    <introduction>
+      <p>
 			In this activity, we develop the standard properties of the cosecant function, <m>q(t) = \csc(t)</m>.
 		</p>
-
-		<figure xml:id="F-cosecant-plot">
-			<caption>Axes for plotting <m>q(t) = \csc(t)</m>.</caption>
-			<image source="images/other-csc-activity-graph" width="80%" />
-		</figure>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <figure xml:id="F-cosecant-plot">
+        <caption>Axes for plotting <m>q(t) = \csc(t)</m>.</caption>
+        <image source="images/other-csc-activity-graph" width="80%"/>
+      </figure>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-trig-other-csc-task-0">
+      <statement>
+        <p>
 						Complete <xref ref="T-cosecant-values">Table</xref> and <xref ref="T-cosecant-values-2">Table</xref> to determine the exact values of the cosecant function at the special points on the unit circle.  Enter <q><m>u</m></q> for any value at which <m>q(t) = \csc(t)</m> is undefined.
 					</p>
-
-    				<table xml:id="T-cosecant-values">
-						<title>Values of the sine function at special points on the unit circle (Quadrants I and II).</title>
-						<tabular>
-							<row bottom="minor" halign="center">
-								<cell><m>t</m></cell>
-								<cell><m>0</m></cell>
-								<cell><m>\frac{\pi}{6}</m></cell>
-								<cell><m>\frac{\pi}{4}</m></cell>
-								<cell><m>\frac{\pi}{3}</m></cell>
-								<cell><m>\frac{\pi}{2}</m></cell>
-								<cell><m>\frac{2\pi}{3}</m></cell>
-								<cell><m>\frac{3\pi}{4}</m></cell>
-								<cell><m>\frac{5\pi}{6}</m></cell>
-								<cell><m>\pi</m></cell>								
-							</row>
-							<row bottom="minor" halign="center">
-								<cell><m>\sin(t)</m></cell>
-								<cell><m>0</m></cell>
-								<cell><m>\frac{1}{2}</m></cell>
-								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
-								<cell><m>\frac{\sqrt{3}}{2}</m></cell>
-								<cell><m>1</m></cell>
-								<cell><m>\frac{\sqrt{3}}{2}</m></cell>
-								<cell><m>\frac{\sqrt{2}}{2}</m></cell>
-								<cell><m>\frac{1}{2}</m></cell>
-								<cell><m>0</m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>\csc(t)</m></cell>
-								<cell><m></m></cell>
-								<cell><m></m></cell>
-								<cell><m></m></cell>
-								<cell><m></m></cell>
-								<cell><m></m></cell>
-								<cell><m></m></cell>
-								<cell><m></m></cell>
-								<cell><m></m></cell>
-								<cell><m></m></cell>
-							</row>							
-						</tabular>
-					</table>
-
-    				<table xml:id="T-cosecant-values-2">
-						<title>Values of the sine function at special points on the unit circle (Quadrants III and IV).</title>
-						<tabular>
-							<row bottom="minor" halign="center">
-								<cell><m>t</m></cell>		
-								<cell><m>\frac{7\pi}{6}</m></cell>
-								<cell><m>\frac{5\pi}{4}</m></cell>
-								<cell><m>\frac{4\pi}{3}</m></cell>
-								<cell><m>\frac{3\pi}{2}</m></cell>
-								<cell><m>\frac{5\pi}{3}</m></cell>
-								<cell><m>\frac{7\pi}{4}</m></cell>
-								<cell><m>\frac{11\pi}{6}</m></cell>
-								<cell><m>2\pi</m></cell>						
-							</row>
-							<row bottom="minor" halign="center">
-								<cell><m>\sin(t)</m></cell>
-								<cell><m>-\frac{1}{2}</m></cell>
-								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
-								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
-								<cell><m>-1</m></cell>
-								<cell><m>-\frac{\sqrt{3}}{2}</m></cell>
-								<cell><m>-\frac{\sqrt{2}}{2}</m></cell>
-								<cell><m>-\frac{1}{2}</m></cell>
-								<cell><m>0</m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>\csc(t)</m></cell>
-								<cell><m></m></cell>
-								<cell><m></m></cell>
-								<cell><m></m></cell>
-								<cell><m></m></cell>
-								<cell><m></m></cell>
-								<cell><m></m></cell>
-								<cell><m></m></cell>
-								<cell><m></m></cell>
-							</row>							
-						</tabular>
-					</table>
-				</li>
-				<li>
-					<p>
+        <table xml:id="T-cosecant-values">
+          <title>Values of the sine function at special points on the unit circle (Quadrants I and II).</title>
+          <tabular>
+            <row bottom="minor" halign="center">
+              <cell>
+                <m>t</m>
+              </cell>
+              <cell>
+                <m>0</m>
+              </cell>
+              <cell>
+                <m>\frac{\pi}{6}</m>
+              </cell>
+              <cell>
+                <m>\frac{\pi}{4}</m>
+              </cell>
+              <cell>
+                <m>\frac{\pi}{3}</m>
+              </cell>
+              <cell>
+                <m>\frac{\pi}{2}</m>
+              </cell>
+              <cell>
+                <m>\frac{2\pi}{3}</m>
+              </cell>
+              <cell>
+                <m>\frac{3\pi}{4}</m>
+              </cell>
+              <cell>
+                <m>\frac{5\pi}{6}</m>
+              </cell>
+              <cell>
+                <m>\pi</m>
+              </cell>
+            </row>
+            <row bottom="minor" halign="center">
+              <cell>
+                <m>\sin(t)</m>
+              </cell>
+              <cell>
+                <m>0</m>
+              </cell>
+              <cell>
+                <m>\frac{1}{2}</m>
+              </cell>
+              <cell>
+                <m>\frac{\sqrt{2}}{2}</m>
+              </cell>
+              <cell>
+                <m>\frac{\sqrt{3}}{2}</m>
+              </cell>
+              <cell>
+                <m>1</m>
+              </cell>
+              <cell>
+                <m>\frac{\sqrt{3}}{2}</m>
+              </cell>
+              <cell>
+                <m>\frac{\sqrt{2}}{2}</m>
+              </cell>
+              <cell>
+                <m>\frac{1}{2}</m>
+              </cell>
+              <cell>
+                <m>0</m>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>\csc(t)</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+          </tabular>
+        </table>
+        <table xml:id="T-cosecant-values-2">
+          <title>Values of the sine function at special points on the unit circle (Quadrants III and IV).</title>
+          <tabular>
+            <row bottom="minor" halign="center">
+              <cell>
+                <m>t</m>
+              </cell>
+              <cell>
+                <m>\frac{7\pi}{6}</m>
+              </cell>
+              <cell>
+                <m>\frac{5\pi}{4}</m>
+              </cell>
+              <cell>
+                <m>\frac{4\pi}{3}</m>
+              </cell>
+              <cell>
+                <m>\frac{3\pi}{2}</m>
+              </cell>
+              <cell>
+                <m>\frac{5\pi}{3}</m>
+              </cell>
+              <cell>
+                <m>\frac{7\pi}{4}</m>
+              </cell>
+              <cell>
+                <m>\frac{11\pi}{6}</m>
+              </cell>
+              <cell>
+                <m>2\pi</m>
+              </cell>
+            </row>
+            <row bottom="minor" halign="center">
+              <cell>
+                <m>\sin(t)</m>
+              </cell>
+              <cell>
+                <m>-\frac{1}{2}</m>
+              </cell>
+              <cell>
+                <m>-\frac{\sqrt{2}}{2}</m>
+              </cell>
+              <cell>
+                <m>-\frac{\sqrt{3}}{2}</m>
+              </cell>
+              <cell>
+                <m>-1</m>
+              </cell>
+              <cell>
+                <m>-\frac{\sqrt{3}}{2}</m>
+              </cell>
+              <cell>
+                <m>-\frac{\sqrt{2}}{2}</m>
+              </cell>
+              <cell>
+                <m>-\frac{1}{2}</m>
+              </cell>
+              <cell>
+                <m>0</m>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>\csc(t)</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-other-csc-task-1">
+      <statement>
+        <p>
 						In which quadrants is <m>q(t) = \csc(t)</m> positive?  negative?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-other-csc-task-2">
+      <statement>
+        <p>
 						At what <m>t</m>-values does <m>q(t) = \csc(t)</m> have a vertical asymptote?  Why?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-other-csc-task-3">
+      <statement>
+        <p>
 						What is the domain of the cosecant function?  What is its range?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-other-csc-task-4">
+      <statement>
+        <p>
 						Sketch an accurate, labeled graph of <m>q(t) = \csc(t)</m> on the axes provided in <xref ref="F-cosecant-plot">Figure</xref>, including the special points that come from the unit circle.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-other-csc-task-5">
+      <statement>
+        <p>
 						What is the period of the cosecant function?
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

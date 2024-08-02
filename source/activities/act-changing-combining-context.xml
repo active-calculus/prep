@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,75 +12,86 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-combining-context">
-
-	<statement>
-	    <p>
+<worksheet label="ws-act-changing-combining-context">
+  <activity xml:id="act-changing-combining-context">
+    <introduction>
+      <p>
 	      Let <m>f</m> be a function that measures a car's fuel economy in the following way.
 	      Given an input velocity <m>v</m> in miles per hour,
 	      <m>f(v)</m> is the number of gallons of fuel that the car consumes per mile (i.e., <q>gallons per mile</q>).
 	      We know that <m>f(60) = 0.04</m>.
 	    </p>
-
-	    <p>
-	      <ol marker="a.">
-	        <li>
-	          <p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-changing-combining-context-task-0">
+      <statement>
+        <p>
 	            What is the meaning of the statement
 	            <q><m>f(60) = 0.04</m></q>
 	            in the context of the problem?
 	            That is, what does this say about the car's fuel economy?
 	            Write a complete sentence to explain.
 	          </p>
-	        </li>
-
-	        <li>
-	          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-combining-context-task-1">
+      <statement>
+        <p>
 	            Consider the function <m>g(v) = \frac{1}{f(v)}</m>.
 	            What is the value of <m>g(60)</m>?
 	            What are the units on <m>g</m>?
 	            What does <m>g</m> measure?
 	          </p>
-	        </li>
-
-	        <li>
-	          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-combining-context-task-2">
+      <statement>
+        <p>
 	            Consider the function <m>h(v) = v \cdot f(v)</m>.
 	            What is the value of <m>h(60)</m>?
 	            What are the units on <m>h</m>?
 	            What does <m>h</m> measure?
 	          </p>
-	        </li>
-
-	        <li>
-	        	<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-combining-context-task-3">
+      <statement>
+        <p>
 	        		Do <m>f(60)</m>, <m>g(60)</m>, and <m>h(60)</m> tell us fundamentally different information, or are they all essentially saying the same thing?  Explain.
 	        	</p>
-	        </li>
-
-	        <li>
-	          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-combining-context-task-4">
+      <statement>
+        <p>
 	            Suppose we also know that <m>f(70) = 0.045</m>.
 	            Find the average rate of change of <m>f</m> on the interval <m>[60,70]</m>.
 	            What are the units on the average rate of change of <m>f</m>?
 	            What does this quantity measure?
 	            Write a complete sentence to explain.
 	          </p>
-	        </li>
-	      </ol>
-   	 	</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

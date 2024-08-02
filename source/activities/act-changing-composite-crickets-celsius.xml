@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,60 +12,69 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-composite-crickets-celcius">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-changing-composite-crickets-celcius">
+  <activity xml:id="act-changing-composite-crickets-celcius">
+    <introduction>
+      <p>
 			Let <m>F = D(N) = 40 + 0.25N</m> be Dolbear's function that converts an input of number of chirps per minute to degrees Fahrenheit, and let <m>C = G(F) = \frac{5}{9}(F-32)</m> be the function that converts an input of degrees Fahrenheit to an output of degrees Celsius.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-changing-composite-crickets-celcius-task-0">
+      <statement>
+        <p>
 						Determine a formula for the new function <m>H = (G \circ D)</m> that depends only on the variable <m>N</m>.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-composite-crickets-celcius-task-1">
+      <statement>
+        <p>
 						What is the meaning of the function you found in (a)?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-composite-crickets-celcius-task-2">
+      <statement>
+        <p>
 						How does a plot of the function <m>H = (G \circ D)</m> compare to that of Dolbear's function?  Sketch a plot of <m>y = H(N) = (G \circ D)(N)</m> on the blank axes to the right of the plot of Dolbear's function, and discuss the similarities and differences between them.  Be sure to label the vertical scale on your axes.
 					</p>
-
-					<sidebyside width="50%">
-						<figure xml:id="F-act-changing-composite-Dolbear-revisited">
-							<caption>Dolbear's function.</caption>
-							<image source="images/functions-Dolbears-Law" />
-						</figure>
-						<figure xml:id="F-act-changing-composite-Dolbear-celcius">
-							<caption>Blank axes to plot <m>H = (G \circ D)(N)</m>.</caption>
-							<image source="images/composite-Dolbears-Law-celcius-blank" />
-						</figure>
-					</sidebyside>
-				</li>
-				<li>
-					<p>
+        <sidebyside width="50%">
+          <figure xml:id="F-act-changing-composite-Dolbear-revisited">
+            <caption>Dolbear's function.</caption>
+            <image source="images/functions-Dolbears-Law"/>
+          </figure>
+          <figure xml:id="F-act-changing-composite-Dolbear-celcius">
+            <caption>Blank axes to plot <m>H = (G \circ D)(N)</m>.</caption>
+            <image source="images/composite-Dolbears-Law-celcius-blank"/>
+          </figure>
+        </sidebyside>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-composite-crickets-celcius-task-3">
+      <statement>
+        <p>
 						What is the domain of the function <m>H = G \circ D</m>?  What is its range?
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

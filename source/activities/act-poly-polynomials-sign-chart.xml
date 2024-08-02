@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,62 +12,82 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-poly-polynomials-sign-chart">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-poly-polynomials-sign-chart">
+  <activity xml:id="act-poly-polynomials-sign-chart">
+    <introduction>
+      <p>
 			Consider the polynomial function given by 
 			<me>
 				p(x) = 4692(x+1520)(x^2+10000)(x-3471)^2(x-9738)
 			</me>.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-poly-polynomials-sign-chart-task-0">
+      <statement>
+        <p>
 						What is the degree of <m>p</m>?  How can you tell <em>without</em> fully expanding the factored form of the function?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-polynomials-sign-chart-task-1">
+      <statement>
+        <p>
 						What can you say about the sign of the factor <m>(x^2 + 10000)</m>?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-polynomials-sign-chart-task-2">
+      <statement>
+        <p>
 						What are the zeros of the polynomial <m>p</m>?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-polynomials-sign-chart-task-3">
+      <statement>
+        <p>
 						Construct a sign chart for <m>p</m> by using the zeros you identified in (c) and then analyzing the sign of each factor of <m>p</m>.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-polynomials-sign-chart-task-4">
+      <statement>
+        <p>
 						Without using a graphing utility, construct an approximate graph of <m>p</m> that has the zeros of <m>p</m> carefully labeled on the <m>x</m>-axis.  
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-polynomials-sign-chart-task-5">
+      <statement>
+        <p>
 						Use a graphing utility to check your earlier work.  What is challenging or misleading when using technology to graph <m>p</m>?
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

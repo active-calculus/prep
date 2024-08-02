@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,63 +12,69 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-exp-temp-log-NLOC1">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-exp-temp-log-NLOC1">
+  <activity xml:id="act-exp-temp-log-NLOC1">
+    <introduction>
+      <p>
 			A can of soda is initially at room temperature, <m>72.3^\circ</m> Fahrenheit, and at time <m>t = 0</m> is placed in a refrigerator set at <m>37.7^\circ</m>.  In addition, we know that after <m>30</m> minutes, the soda's temperature has dropped to <m>59.5^\circ</m>. Let <m>F(t)</m> represent the temperature of the soda in degrees Fahrenheit at time <m>t</m> in minutes.
 		</p>
-
-		<p>
-			<ol marker="a.">
-		        <li>
-		          <p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-exp-temp-log-NLOC1-task-0">
+      <statement>
+        <p>
 		            Use algebraic reasoning and your understanding of the physical situation to determine the exact values of <m>a</m>,
 		            <m>c</m>,
 		            and <m>k</m> in the model <m>F(t) = ae^{-kt}+c</m>.
 		            Write at least one careful sentence to explain your thinking.
 		          </p>
-		        </li>
-
-		        <li>
-		          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-temp-log-NLOC1-task-1">
+      <statement>
+        <p>
 		            Determine the exact time the object's temperature is <m>42.4^\circ</m>.
 		            Clearly show your algebraic work and thinking.
 		          </p>
-		        </li>
-
-		        <li>
-		          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-temp-log-NLOC1-task-2">
+      <statement>
+        <p>
 		            In <em>Desmos</em>, enter the values you found for <m>a</m>, <m>c</m>, and <m>k</m> in order to define the function <m>F</m>.  Then, use <em>Desmos</em> to find the average rate of change of <m>F</m> on the interval <m>[25,30]</m>.
 		            What is the meaning
 		            (with units)
 		            of this value?
 		          </p>
-		        </li>
-
-		        <li>
-		          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-temp-log-NLOC1-task-3">
+      <statement>
+        <p>
 		            If everything stayed the same except the value of <m>F(0)</m>,
 		            and instead <m>F(0) = 65</m>,
 		            would the value of <m>k</m> be larger or smaller?
 		            Why?
 		          </p>
-		        </li>
-
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

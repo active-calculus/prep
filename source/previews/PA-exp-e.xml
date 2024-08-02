@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,43 +12,63 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-exp-e">
-
-	<statement>
-		<p>
+<worksheet label="ws-PA-exp-e">
+  <exploration xml:id="PA-exp-e">
+    <introduction>
+      <p>
 			Open a new <em>Desmos</em> worksheet and define the following functions: <m>f(t) = 2^t</m>, <m>g(t) = 3^t</m>, <m>h(t) = (\frac{1}{3})^t</m>, and <m>p(t) = f(kt)</m>.  After you define <m>p</m>, accept the slider for <m>k</m>, and set the range of the slider to be <m>-2 \le k \le 2</m>.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="PA-exp-e-task-0">
+      <statement>
+        <p>
 						By experimenting with the value of <m>k</m>, find a value of <m>k</m> so that the graph of <m>p(t) = f(kt) = 2^{kt}</m> appears to align with the graph of <m>g(t) = 3^t</m>.   What is the value of <m>k</m>?  
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-exp-e-task-1">
+      <statement>
+        <p>
 						Similarly, experiment to find a value of <m>k</m> so that the graph of <m>p(t) = f(kt) = 2^{kt}</m> appears to align with the graph of <m>h(t) = (\frac{1}{3})^t</m>.   What is the value of <m>k</m>?  
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-exp-e-task-2">
+      <statement>
+        <p>
 						For the value of <m>k</m> you determined in (a), compute <m>2^k</m>.  What do you observe?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-exp-e-task-3">
+      <statement>
+        <p>
 						For the value of <m>k</m> you determined in (b), compute <m>2^k</m>.  What do you observe?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-exp-e-task-4">
+      <statement>
+        <p>
 						Given any exponential function of the form <m>b^t</m>, do you think it's possible to find a value of <m>k</m> to that <m>p(t) = f(kt) = 2^{kt}</m> is the same function as <m>b^t</m>?  Why or why not?
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-
-</exploration>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+  </exploration>
+</worksheet>

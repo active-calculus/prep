@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,49 +12,59 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-exp-log-properties-find-k">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-exp-log-properties-find-k">
+  <activity xml:id="act-exp-log-properties-find-k">
+    <introduction>
+      <p>
 			Solve each of the following equations for the exact value of <m>k</m>.
 		</p>
-
-		<p>
-			<ol marker="a." cols="2">
-				<li>
-					<p>
-						<m>41 = 50e^{-k \cdot 7}</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>65 = 34 + 47e^{-k \cdot 45}</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>7e^{2k-1} + 4 = 32</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>\frac{5}{1+2e^{-10k}} = 4</m>
-					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-exp-log-properties-find-k-task-0">
+      <statement>
+        <p>
+          <m>41 = 50e^{-k \cdot 7}</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-log-properties-find-k-task-1">
+      <statement>
+        <p>
+          <m>65 = 34 + 47e^{-k \cdot 45}</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-log-properties-find-k-task-2">
+      <statement>
+        <p>
+          <m>7e^{2k-1} + 4 = 32</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-log-properties-find-k-task-3">
+      <statement>
+        <p>
+          <m>\frac{5}{1+2e^{-10k}} = 4</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,117 +12,143 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-composite-tables-graphs">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-changing-composite-tables-graphs">
+  <activity xml:id="act-changing-composite-tables-graphs">
+    <introduction>
+      <p>
 			Let functions <m>p</m> and <m>q</m> be given by the graphs in <xref ref="F-act-changing-composite-tables-graphs">Figure</xref>
       		(which are each piecewise linear - that is, parts that look like straight lines are straight lines)
       		and let <m>f</m> and <m>g</m> be given by <xref ref="T-act-changing-composite-tables-graphs">Table</xref>.
 		</p>
-
-		<sidebyside width="50%" valign="middle">
-			<table xml:id="T-act-changing-composite-tables-graphs">
-				<title>Table that defines <m>f</m> and <m>g</m>.</title>
-			    <tabular>
-			      <row  bottom="minor">
-			        <cell><m>x</m></cell>
-			        <cell>0</cell>
-			        <cell>1</cell>
-			        <cell>2</cell>
-			        <cell>3</cell>
-			        <cell>4</cell>
-			      </row>
-			      <row  bottom="minor">
-			        <cell><m>f(x)</m></cell>
-			        <cell>6</cell>
-			        <cell>4</cell>
-			        <cell>3</cell>
-			        <cell>4</cell>
-			        <cell>6</cell>
-			      </row>
-			      <row>
-			        <cell><m>g(x)</m></cell>
-			        <cell>1</cell>
-			        <cell>3</cell>
-			        <cell>0</cell>
-			        <cell>4</cell>
-			        <cell>2</cell>
-			      </row>
-			    </tabular>
-			</table>
-			
-			<figure xml:id="F-act-changing-composite-tables-graphs">
-				<caption>The graphs of <m>p</m> and <m>q</m>.</caption>
-				<image source="images/composite-act-graphs"/>
-			</figure>    
-		</sidebyside>
-
-		<p>
+      <sidebyside width="50%" valign="middle">
+        <table xml:id="T-act-changing-composite-tables-graphs">
+          <title>Table that defines <m>f</m> and <m>g</m>.</title>
+          <tabular>
+            <row bottom="minor">
+              <cell>
+                <m>x</m>
+              </cell>
+              <cell>0</cell>
+              <cell>1</cell>
+              <cell>2</cell>
+              <cell>3</cell>
+              <cell>4</cell>
+            </row>
+            <row bottom="minor">
+              <cell>
+                <m>f(x)</m>
+              </cell>
+              <cell>6</cell>
+              <cell>4</cell>
+              <cell>3</cell>
+              <cell>4</cell>
+              <cell>6</cell>
+            </row>
+            <row>
+              <cell>
+                <m>g(x)</m>
+              </cell>
+              <cell>1</cell>
+              <cell>3</cell>
+              <cell>0</cell>
+              <cell>4</cell>
+              <cell>2</cell>
+            </row>
+          </tabular>
+        </table>
+        <figure xml:id="F-act-changing-composite-tables-graphs">
+          <caption>The graphs of <m>p</m> and <m>q</m>.</caption>
+          <image source="images/composite-act-graphs"/>
+        </figure>
+      </sidebyside>
+      <p>
 			Compute each of the following quantities or explain why they are not defined.
 		</p>
-
-		<p>
-			<ol marker="a." cols="2">
-		        <li>
-		          <p>
-		            <m>p(q(0))</m>
-		          </p>
-		        </li>
-
-		        <li>
-		          <p>
-		            <m>q(p(0))</m>
-		          </p>
-		        </li>
-
-		        <li>
-		        	<m>(p \circ p)(-1)</m>
-		        </li>
-
-		        <li>
-		          <p>
-		            <m>(f \circ g)(2)</m>
-		          </p>
-		        </li>
-
-		        <li>
-		          <p>
-		            <m>(g \circ f)(3)</m>
-		          </p>
-		        </li>
-
-		        <li>
-		          <p>
-		            <m>g(f(0))</m>
-		          </p>
-		        </li>
-
-		        <li>
-		          <p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-changing-composite-tables-graphs-task-0">
+      <statement>
+        <p>
+          <m>p(q(0))</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-composite-tables-graphs-task-1">
+      <statement>
+        <p>
+          <m>q(p(0))</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-composite-tables-graphs-task-2">
+      <statement>
+        <m>(p \circ p)(-1)</m>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-composite-tables-graphs-task-3">
+      <statement>
+        <p>
+          <m>(f \circ g)(2)</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-composite-tables-graphs-task-4">
+      <statement>
+        <p>
+          <m>(g \circ f)(3)</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-composite-tables-graphs-task-5">
+      <statement>
+        <p>
+          <m>g(f(0))</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-composite-tables-graphs-task-6">
+      <statement>
+        <p>
 		            For what value(s) of <m>x</m> is <m>f(g(x)) = 4</m>?
 		          </p>
-		        </li>
-
-		        <li>
-		          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-composite-tables-graphs-task-7">
+      <statement>
+        <p>
 		            For what value(s) of <m>x</m> is <m>q(p(x)) = 1</m>?
 		          </p>
-		        </li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,38 +12,53 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-changing-composite">
-
-	<statement>
-		<p>
+<worksheet label="ws-PA-changing-composite">
+  <exploration xml:id="PA-changing-composite">
+    <introduction>
+      <p>
 			Let <m>y = p(x) = 3x - 4</m> and <m>x = q(t) = t^2 - 1</m>.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="PA-changing-composite-task-0">
+      <statement>
+        <p>
 						Let <m>r(t) = p(q(t))</m>. Determine a formula for <m>r</m> that depends only on <m>t</m> and not on <m>p</m> or <m>q</m>.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-changing-composite-task-1">
+      <statement>
+        <p>
 						Recall <xref ref="ex-composite-introduction">Example</xref>, which involved functions similar to <m>p</m> and <m>q</m>.  What is the biggest difference between your work in (a) above and in <xref ref="ex-composite-introduction">Example</xref>?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-changing-composite-task-2">
+      <statement>
+        <p>
 						Let <m>t = s(z) = \frac{1}{z+4}</m> and recall that <m>x = q(t) = t^2 - 1</m>.  Determine a formula for <m>x = q(s(z))</m> that depends only on <m>z</m>.
 					</p>
-				</li>				
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-changing-composite-task-3">
+      <statement>
+        <p>
 						Suppose that <m>h(t) = \sqrt{2t^2 + 5}</m>.  Determine formulas for two related functions, <m>y = f(x)</m> and <m>x = g(t)</m>, so that <m>h(t) = f(g(t))</m>.
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-
-</exploration>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+  </exploration>
+</worksheet>

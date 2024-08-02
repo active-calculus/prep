@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,59 +12,79 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-poly-rational-application">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-poly-rational-application">
+  <activity xml:id="act-poly-rational-application">
+    <introduction>
+      <p>
 			Suppose that we want to build an open rectangular box (that is, without a top) that holds <m>15</m> cubic feet of volume.  If we want one side of the base to be twice as long as the other, how does the amount of material required depend on the shorter side of the base?  We investigate this question through the following sequence of prompts.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-poly-rational-application-task-0">
+      <statement>
+        <p>
 						Draw a labeled picture of the box.  Let <m>x</m> represent the shorter side of the base and <m>h</m> the height of the box.  What is the length of the longer side of the base in terms of <m>x</m>?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-rational-application-task-1">
+      <statement>
+        <p>
 						Use the given volume constraint to write an equation that relates <m>x</m> and <m>h</m>, and solve the equation for <m>h</m> in terms of <m>x</m>.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-rational-application-task-2">
+      <statement>
+        <p>
 						Determine a formula for the surface area, <m>S</m>, of the box in terms of <m>x</m> and <m>h</m>.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-rational-application-task-3">
+      <statement>
+        <p>
 						Using the constraint equation from (b) together with your work in (c), write surface area, <m>S</m>, as a function of the single variable <m>x</m>.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-rational-application-task-4">
+      <statement>
+        <p>
 						What type of function is <m>S</m>?  What is its domain?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-rational-application-task-5">
+      <statement>
+        <p>
 						Plot the function <m>S</m> using <em>Desmos</em>.  What appears to be the least amount of material that can be used to construct the desired box that holds <m>15</m> cubic feet of volume?
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

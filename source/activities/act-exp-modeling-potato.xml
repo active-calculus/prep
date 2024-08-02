@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,67 +12,82 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-exp-modeling-potato">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-exp-modeling-potato">
+  <activity xml:id="act-exp-modeling-potato">
+    <introduction>
+      <p>
 			A potato initially at room temperature (<m>68^\circ</m>) is placed in an oven (at <m>350^\circ</m>) at time <m>t = 0</m>.
       		It is known that the potato's temperature at time <m>t</m> is given by the function
       		<m>F(t) = a - b(0.98)^t</m> for some positive constants <m>a</m> and <m>b</m>,
      		where <m>F</m> is measured in degrees Fahrenheit and <m>t</m> is time in minutes.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-exp-modeling-potato-task-0">
+      <statement>
+        <p>
 						What is the numerical value of <m>F(0)</m>?
             			What does this tell you about the value of <m>a - b</m>?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-modeling-potato-task-1">
+      <statement>
+        <p>
 						Based on the context of the problem,
             			what should be the long-range behavior of the function <m>F(t)</m>?
             			Use this fact along with the behavior of
             			<m>(0.98)^t</m> to determine the value of <m>a</m>.  Write a sentence to explain your thinking.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-modeling-potato-task-2">
+      <statement>
+        <p>
 						What is the value of <m>b</m>?  Why?
 					</p>
-				</li>
-				<li>
-							<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-modeling-potato-task-3">
+      <statement>
+        <p>
 								Check your work above by plotting the function <m>F</m> using graphing technology in an appropriate window.
 								Record your results on the axes provided in <xref ref="F-modeling-act-blank-axes-potato">Figure</xref>, labeling the scale on the axes.
             					Then, use the graph to estimate the time at which the potato's temperature reaches <m>325</m> degrees.
 							</p>
-							<figure xml:id="F-modeling-act-blank-axes-potato">
-								<caption>Axes for plotting <m>F</m>.</caption>
-								<image width="50%" source="images/modeling-F-t-blank-axes" />
-							</figure>
-				</li>
-				<li>
-					<p>
+        <figure xml:id="F-modeling-act-blank-axes-potato">
+          <caption>Axes for plotting <m>F</m>.</caption>
+          <image width="50%" source="images/modeling-F-t-blank-axes"/>
+        </figure>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-modeling-potato-task-4">
+      <statement>
+        <p>
 						How can we view the function <m>F(t) = a - b(0.98)^t</m> as a transformation of the parent function <m>f(t) = (0.98)^t</m>?  Explain.
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

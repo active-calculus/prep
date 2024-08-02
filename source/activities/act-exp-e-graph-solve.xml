@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,59 +12,79 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-exp-e-graph-solve">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-exp-e-graph-solve">
+  <activity xml:id="act-exp-e-graph-solve">
+    <introduction>
+      <p>
 			By graphing <m>f(t) = e^t</m> and appropriate horizontal lines, estimate the solution to each of the following equations.  Note that in some parts, you may need to do some algebraic work in addition to using the graph.
 		</p>
-
-		<p>
-			<ol marker="a." cols="2">
-				<li>
-					<p>
-						<m>e^t = 2</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>e^{3t} = 5</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>2e^t - 4 = 7</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>3e^{0.25t} + 2 = 6</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>4 - 2e^{-0.7t} = 3</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>2e^{1.2t} = 1.5e^{1.6t}</m>
-					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-exp-e-graph-solve-task-0">
+      <statement>
+        <p>
+          <m>e^t = 2</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-e-graph-solve-task-1">
+      <statement>
+        <p>
+          <m>e^{3t} = 5</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-e-graph-solve-task-2">
+      <statement>
+        <p>
+          <m>2e^t - 4 = 7</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-e-graph-solve-task-3">
+      <statement>
+        <p>
+          <m>3e^{0.25t} + 2 = 6</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-e-graph-solve-task-4">
+      <statement>
+        <p>
+          <m>4 - 2e^{-0.7t} = 3</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-e-graph-solve-task-5">
+      <statement>
+        <p>
+          <m>2e^{1.2t} = 1.5e^{1.6t}</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,57 +12,67 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-poly-rational-long-term-2">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-poly-rational-long-term-2">
+  <activity xml:id="act-poly-rational-long-term-2">
+    <introduction>
+      <p>
 			Let <m>s(x) = \frac{3x - 5}{7x^2 + 2x - 11}</m> and <m>u(x) = \frac{3x^2 - 5x + 1}{7x + 2}</m>.  Note that both the numerator and denominator of each of these rational functions increases without bound as <m>x \to \infty</m>, and in addition that <m>x^2</m> is the highest order term present in each of <m>s</m> and <m>u</m>.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-poly-rational-long-term-2-task-0">
+      <statement>
+        <p>
 						Using a similar algebraic approach to our work in <xref ref="act-poly-rational-long-term-1">Activity</xref>, multiply <m>s(x)</m> by <m>1 = \frac{\frac{1}{x^2}}{\frac{1}{x^2}}</m> and hence evaluate
 						<me>
 							\lim_{x \to \infty} \frac{3x - 5}{7x^2 + 2x - 11}
 						</me>.
 						What value do you find?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-rational-long-term-2-task-1">
+      <statement>
+        <p>
 						Plot the function <m>y = s(x)</m> on the interval <m>[-10,10]</m>.  What is the graphical meaning of the limit you found in (a)?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-rational-long-term-2-task-2">
+      <statement>
+        <p>
 						Next, use appropriate algebraic work to consider <m>u(x)</m> and evaluate
 						<me>
 							\lim_{x \to \infty} \frac{3x^2 - 5x + 1}{7x + 2}
 						</me>.
 						What do you find?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-rational-long-term-2-task-3">
+      <statement>
+        <p>
 						Plot the function <m>y = u(x)</m> on the interval <m>[-10,10]</m>.  What is the graphical meaning of the limit you computed in (c)?
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

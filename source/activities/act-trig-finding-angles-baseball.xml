@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,11 +12,10 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-finding-angles-baseball">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-finding-angles-baseball">
+  <activity xml:id="act-finding-angles-baseball">
+    <statement>
+      <p>
 			On a baseball diamond
       		(which is a square with <m>90</m>-foot sides),
 		      the third baseman fields the ball right on the line from third base to home plate and <m>10</m> feet away from third base
@@ -24,22 +23,15 @@
 		      (in degrees) does the line the ball travels make with the first base line? What angle does it make with the third base line?
 		      Draw a well-labeled diagram to support your thinking.
 		</p>
-
-		<p>
+      <p>
 			What angles arise if he throws the ball to second base instead?
 		</p>
-
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+    </statement>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

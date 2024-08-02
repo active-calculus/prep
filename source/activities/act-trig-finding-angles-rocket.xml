@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,11 +12,10 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-finding-angles-rocket">
-
-	<statement>
-	    <p>
+<worksheet label="ws-act-finding-angles-rocket">
+  <activity xml:id="act-finding-angles-rocket">
+    <statement>
+      <p>
 	      A camera is tracking the launch of a SpaceX rocket.
 	      The camera is located <m>4000</m>' from the rocket's launching pad,
 	      and the camera angle changes in order to keep the rocket in focus.
@@ -25,8 +24,7 @@
 	      is the camera tilted when the rocket is <m>3000</m>' off the ground?
 	      Answer both exactly and approximately.
 	    </p>
-
-	    <p>
+      <p>
 	      Now, rather than considering the rocket at a fixed height of <m>3000</m>', let its height vary and call the rocket's height <m>h</m>.
 	      Determine the camera's angle,
 	      <m>\theta</m> as a function of <m>h</m>,
@@ -34,18 +32,12 @@
 	      <m>[5000,5500]</m>, and <m>[7000,7500]</m>.
 	      What do you observe about how the camera angle is changing?
 	    </p>
-
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+    </statement>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

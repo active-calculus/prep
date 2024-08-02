@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,27 +12,30 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-poly-rational-long-term-1">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-poly-rational-long-term-1">
+  <activity xml:id="act-poly-rational-long-term-1">
+    <introduction>
+      <p>
 			Consider the rational function <m>r(x) = \frac{3x^2 - 5x + 1}{7x^2 + 2x - 11}</m>.
 		</p>
-
-		<p>
+      <p>
 			Observe that the largest power of <m>x</m> that's present in <m>r(x)</m> is <m>x^2</m>.  In addition, because of the dominant terms of <m>3x^2</m> in the numerator and <m>7x^2</m> in the denominator, both the numerator and denominator of <m>r</m> increase without bound as <m>x</m> increases without bound.  In order to understand the long-range behavior of <m>r</m>, we choose to write the function in a different algebraic form.  
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-poly-rational-long-term-1-task-0">
+      <statement>
+        <p>
 						Note that we can multiply the formula for <m>r</m> by the form of <m>1</m> given by <m>1 = \frac{\frac{1}{x^2}}{\frac{1}{x^2}}</m>.  Do so, and distribute and simplify as much as possible in both the numerator and denominator to write <m>r</m> in a different algebraic form.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-rational-long-term-1-task-1">
+      <statement>
+        <p>
 						Having rewritten <m>r</m>, we are in a better position to evaluate <m>\lim_{x \to \infty} r(x)</m>.
             			Using our work from (a), we have
 			            <me>
@@ -40,33 +43,39 @@
 			            </me>.
             			What is the exact value of this limit and why?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-rational-long-term-1-task-2">
+      <statement>
+        <p>
 						Next, determine
 						<me>
               				\lim_{x \to -\infty} r(x) = \lim_{x \to -\infty} \frac{3 - \frac{5}{x} + \frac{1}{x^2}}{7 + \frac{2}{x} - \frac{11}{x^2}}
             			</me>.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-rational-long-term-1-task-3">
+      <statement>
+        <p>
 						Use <em>Desmos</em> to plot <m>r</m> on the interval <m>[-10,10]</m>.  In addition, plot the horizontal line <m>y = \frac{3}{7}</m>.  What is the meaning of the limits you found in (b) and (c)?
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

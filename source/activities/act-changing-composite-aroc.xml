@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,55 +12,62 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-composite-aroc">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-changing-composite-aroc">
+  <activity xml:id="act-changing-composite-aroc">
+    <introduction>
+      <p>
 			Let <m>f(x) = 2x^2 - 3x + 1</m> and <m>g(x) = \frac{5}{x}</m>.
 		</p>
-
-		<p>
-			<ol marker="a.">
-		        <li>
-		          <p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-changing-composite-aroc-task-0">
+      <statement>
+        <p>
 		            Compute <m>f(1+h)</m> and expand and simplify the result as much as possible by combining like terms.
 		          </p>
-		        </li>
-
-		        <li>
-		          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-composite-aroc-task-1">
+      <statement>
+        <p>
 		            Determine the most simplified expression you can for the average rate of change of <m>f</m> on the interval <m>[1,1+h]</m>.
 		            That is, determine <m>AV_{[1,1+h]}</m> for <m>f</m> and simplify the result as much as possible.
 		          </p>
-		        </li>
-
-		        <li>
-		          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-composite-aroc-task-2">
+      <statement>
+        <p>
 		            Compute <m>g(1+h)</m>.
 		            Is there any valid algebra you can do to write <m>g(1+h)</m> more simply?
 		          </p>
-		        </li>
-
-		        <li>
-		          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-composite-aroc-task-3">
+      <statement>
+        <p>
 		            Determine the most simplified expression you can for the average rate of change of <m>g</m> on the interval <m>[1,1+h]</m>.
 		            That is, determine <m>AV_{[1,1+h]}</m> for <m>g</m> and simplify the result.
 		          </p>
-		        </li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

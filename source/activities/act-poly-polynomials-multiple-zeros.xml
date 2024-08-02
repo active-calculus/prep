@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,70 +12,81 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-poly-polynomials-multiple-zeros">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-poly-polynomials-multiple-zeros">
+  <activity xml:id="act-poly-polynomials-multiple-zeros">
+    <introduction>
+      <p>
 			For each of the following prompts, try to determine a formula for a polynomial that satisfies the given criteria.  If no such polynomial exists, explain why. 
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-poly-polynomials-multiple-zeros-task-0">
+      <statement>
+        <p>
 						A polynomial <m>f</m> of degree <m>10</m> whose zeros are <m>x = -12</m> (multiplicity <m>3</m>), <m>x = -9</m> (multiplicity <m>2</m>), <m>x = 4</m> (multiplicity <m>4</m>), and <m>x = 10</m> (multiplicity <m>1</m>), and <m>f</m> satisfies <m>f(0) = 21</m>.  What can you say about the values of <m>\lim_{x \to -\infty} f(x)</m> and <m>\lim_{x \to \infty} f(x)</m>?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-polynomials-multiple-zeros-task-1">
+      <statement>
+        <p>
 						A polynomial <m>p</m> of degree <m>9</m> that satisfies <m>p(0) = -2</m> and has the graph shown in <xref ref="F-polynomial-degree-9">Figure</xref>.  Assume that all of the zeros of <m>p</m> are shown in the figure.
 					</p>
-
-					
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-polynomials-multiple-zeros-task-2">
+      <statement>
+        <p>
 						A polynomial <m>q</m> of degree <m>8</m> with <m>3</m> distinct real zeros (possibly of different multiplicities) such that <m>q</m> has the sign chart in <xref ref="F-polynomial-sign-chart-2">Figure</xref> and satisfies <m>q(0) = -10</m>. 
 					</p>
-
-					<sidebyside valign="middle">
-						<figure xml:id="F-polynomial-degree-9">
-							<caption>
+        <sidebyside valign="middle">
+          <figure xml:id="F-polynomial-degree-9">
+            <caption>
 								A polynomial <m>p</m>.
 							</caption>
-							<image source="images/poly-degree-9" width="50%" />
-						</figure>
-						<figure xml:id="F-polynomial-sign-chart-2">
-							<caption>A sign chart for the polynomial <m>q</m>.</caption>
-							<image source="images/poly-sign-chart-2" width="50%" />
-						</figure>
-					</sidebyside>
-					
-				</li>
-				<li>
-					<p>
+            <image source="images/poly-degree-9" width="50%"/>
+          </figure>
+          <figure xml:id="F-polynomial-sign-chart-2">
+            <caption>A sign chart for the polynomial <m>q</m>.</caption>
+            <image source="images/poly-sign-chart-2" width="50%"/>
+          </figure>
+        </sidebyside>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-polynomials-multiple-zeros-task-3">
+      <statement>
+        <p>
 						A polynomial <m>q</m> of degree <m>9</m> with <m>3</m> distinct real zeros (possibly of different multiplicities) such that <m>q</m> satisfies the sign chart in <xref ref="F-polynomial-sign-chart-2">Figure</xref> and satisfies <m>q(0) = -10</m>. 
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-polynomials-multiple-zeros-task-4">
+      <statement>
+        <p>
 						A polynomial <m>p</m> of degree <m>11</m> that satisfies <m>p(0) = -2</m> and <m>p</m> has the graph shown in <xref ref="F-polynomial-degree-9">Figure</xref>.  Assume that all of the zeros of <m>p</m> are shown in the figure.
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

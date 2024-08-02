@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,77 +12,111 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-exp-modeling-behavior">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-exp-modeling-behavior">
+  <activity xml:id="act-exp-modeling-behavior">
+    <introduction>
+      <p>
 			For each of the following functions, <em>without</em> using graphing technology, determine whether the function is
-			<ol marker="i.">
-				<li>
-					<p>
-						always increasing or always decreasing;						
-					</p>
-				</li>
-				<li>
-					<p>
-						always concave up or always concave down; and
-					</p>
-				</li>
-				<li>
-					<p>
-						increasing without bound, decreasing without bound, or increasing/decreasing toward a finite value.
-					</p>
-				</li>
-			</ol> 
+			 
 			In addition, state the <m>y</m>-intercept and the range of the function.  For each function, write a sentence that explains your thinking and sketch a rough graph of how the function appears.
 		</p>
-
-		<p>
-			<ol marker="a." cols="2">
-				<li>
-					<p>
-						<m>p(t) = 4372 (1.000235)^t + 92856</m>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-exp-modeling-behavior-task-0">
+      <statement>
+        <p>
+						always increasing or always decreasing;						
 					</p>
-				</li>
-				<li>
-					<p>
-						<m>q(t) = 27931 (0.97231)^t + 549786</m>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-modeling-behavior-task-1">
+      <statement>
+        <p>
+						always concave up or always concave down; and
 					</p>
-				</li>
-				<li>
-					<p>
-						<m>r(t) = -17398 (0.85234)^t</m> 
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-modeling-behavior-task-2">
+      <statement>
+        <p>
+						increasing without bound, decreasing without bound, or increasing/decreasing toward a finite value.
 					</p>
-				</li>
-				<li>
-					<p>
-						<m>s(t) = -17398 (0.85234)^t + 19411</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>u(t) = -7522 (1.03817)^t</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>v(t) = -7522 (1.03817)^t + 6731</m> 
-					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-modeling-behavior-task-0">
+      <statement>
+        <p>
+          <m>p(t) = 4372 (1.000235)^t + 92856</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-modeling-behavior-task-1">
+      <statement>
+        <p>
+          <m>q(t) = 27931 (0.97231)^t + 549786</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-modeling-behavior-task-2">
+      <statement>
+        <p>
+          <m>r(t) = -17398 (0.85234)^t</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-modeling-behavior-task-3">
+      <statement>
+        <p>
+          <m>s(t) = -17398 (0.85234)^t + 19411</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-modeling-behavior-task-4">
+      <statement>
+        <p>
+          <m>u(t) = -7522 (1.03817)^t</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-modeling-behavior-task-5">
+      <statement>
+        <p>
+          <m>v(t) = -7522 (1.03817)^t + 6731</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

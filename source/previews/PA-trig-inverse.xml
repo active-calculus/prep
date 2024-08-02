@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,69 +12,87 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-trig-inverse">
-
-	<statement>
-		<p>
+<worksheet label="ws-PA-trig-inverse">
+  <exploration xml:id="PA-trig-inverse">
+    <introduction>
+      <p>
 			Consider the plot of the standard cosine function in <xref ref="F-inverse-trig-PA-cos">Figure</xref> along with the emphasized portion of the graph on <m>[0,\pi]</m>.
 		</p>
-
-		<figure xml:id="F-inverse-trig-PA-cos">
-			<caption>The cosine function on <m>[-\frac{5\pi}{2},\frac{5\pi}{2}]</m> with the portion on <m>[0,\pi]</m> emphasized.</caption>
-			<image source="images/inverse-trig-PA-cosine" />
-		</figure>
-
-		<p>
+      <figure xml:id="F-inverse-trig-PA-cos">
+        <caption>The cosine function on <m>[-\frac{5\pi}{2},\frac{5\pi}{2}]</m> with the portion on <m>[0,\pi]</m> emphasized.</caption>
+        <image source="images/inverse-trig-PA-cosine"/>
+      </figure>
+      <p>
 			Let <m>g</m> be the function whose domain is <m>0 \le t \le \pi</m> and whose outputs are determined by the rule <m>g(t) = \cos(t)</m>.  <em>Note well</em>: <m>g</m> is defined in terms of the cosine function, but because it has a different domain, it is <em>not</em> the cosine function.
 		</p>
-
-		<p>
-			<ol marker="a.">
-		        <li>
-		          <p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="PA-trig-inverse-task-0">
+      <statement>
+        <p>
 		            What is the domain of <m>g</m>?
 		          </p>
-		        </li>
-
-		        <li>
-		          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-trig-inverse-task-1">
+      <statement>
+        <p>
 		            What is the range of <m>g</m>?
 		          </p>
-		        </li>
-
-		        <li>
-		          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-trig-inverse-task-2">
+      <statement>
+        <p>
 		            Does <m>g</m> pass the horizontal line test?
 		            Why or why not?
 		          </p>
-		        </li>
-
-		        <li>
-		          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-trig-inverse-task-3">
+      <statement>
+        <p>
 		            Explain why <m>g</m> has an inverse function,
 		            <m>g^{-1}</m>, and state the domain and range of <m>g^{-1}</m>.
 		          </p>
-		        </li>
-
-		        <li>
-		          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-trig-inverse-task-4">
+      <statement>
+        <p>
 		            We know that <m>g(\frac{\pi}{4}) = \frac{\sqrt{2}}{2}</m>.
 		            What is the exact value of <m>g^{-1}(\frac{\sqrt{2}}{2})</m>?
 		            How about the exact value of <m>g^{-1}(-\frac{\sqrt{2}}{2})</m>?
 		          </p>
-		        </li>
-
-		        <li>
-		          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-trig-inverse-task-5">
+      <statement>
+        <p>
 		            Determine the exact values of <m>g^{-1}(-\frac{1}{2})</m>,
 		            <m>g^{-1}(\frac{\sqrt{3}}{2})</m>,
 		            <m>g^{-1}(0)</m>, and <m>g^{-1}(-1)</m>.
 		            Use proper notation to label your results.
 		          </p>
-		        </li>
-	      	</ol>
-		</p>
-	</statement>
-
-</exploration>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+  </exploration>
+</worksheet>

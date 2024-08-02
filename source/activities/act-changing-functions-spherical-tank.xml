@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,11 +12,10 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-functions-spherical-tank">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-changing-functions-spherical-tank">
+  <activity xml:id="act-changing-functions-spherical-tank">
+    <introduction>
+      <p>
 			Consider a spherical tank of radius <m>4</m> m that is filling with water.  Let 
 			<m>V</m> be the volume of water in the tank (in cubic meters) at a given time, and
 			<m>h</m> the depth of the water (in meters) at the same time.  It can be shown using calculus 
@@ -25,48 +24,64 @@
         		V = f(h) = \frac{\pi}{3} h^2(12-h)
       		</me>.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-changing-functions-spherical-tank-task-0">
+      <statement>
+        <p>
 						What values of <m>h</m> make sense to consider in the context of this function?  What values of <m>V</m> make sense in the same context?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-functions-spherical-tank-task-1">
+      <statement>
+        <p>
 						What is the domain of the function <m>f</m> in the context of the spherical tank?  Why?  What is the corresponding codomain?  Why?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-functions-spherical-tank-task-2">
+      <statement>
+        <p>
 						Determine and interpret (with appropriate units) the values
             			<m>f(2)</m>, <m>f(4)</m>, and <m>f(8)</m>.  What is important about the value of <m>f(8)</m>?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-functions-spherical-tank-task-3">
+      <statement>
+        <p>
 						Consider the claim: <q>since <m>f(9) = \frac{\pi}{3} 9^2(12-9) = 81\pi \approx 254.47</m>, when the water is <m>9</m> meters deep, there is about <m>254.47</m> cubic meters of water in the tank</q>.  Is this claim valid? Why or why not?  Further, does it make sense to observe that <q><m>f(13) = -\frac{169\pi}{3}</m></q>?  Why or why not?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-functions-spherical-tank-task-4">
+      <statement>
+        <p>
 			            Can you determine a value of <m>h</m> for which <m>f(h) = 300</m> cubic meters?
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

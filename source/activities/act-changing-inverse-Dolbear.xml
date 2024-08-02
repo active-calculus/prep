@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,49 +12,59 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-inverse-Dolbear">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-changing-inverse-Dolbear">
+  <activity xml:id="act-changing-inverse-Dolbear">
+    <introduction>
+      <p>
 			Recall Dolbear's function <m>F = D(N) = 40 + \frac{1}{4}N</m> that converts the number, <m>N</m>, of snowy tree cricket chirps per minute to a corresponding Fahrenheit temperature.  We have earlier established that the domain of <m>D</m> is <m>[40,180]</m> and the range of <m>D</m> is <m>[50,85]</m>, as seen in <xref ref="F-functions-Dolbear-data">Figure</xref>.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-changing-inverse-Dolbear-task-0">
+      <statement>
+        <p>
 						Solve the equation <m>F = 40 + \frac{1}{4}N</m> for <m>N</m> in terms of <m>F</m>.  Call the resulting function <m>N = E(F)</m>.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-inverse-Dolbear-task-1">
+      <statement>
+        <p>
 						Explain in words the process or effect of the function <m>N = E(F)</m>.  What does it take as input?  What does it generate as output?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-inverse-Dolbear-task-2">
+      <statement>
+        <p>
 						Use the function <m>E</m> that you found in (a.) to compute <m>j(N) = E(D(N))</m>.  Simplify your result as much as possible.  Do likewise for <m>k(F) = D(E(F))</m>.  What do you notice about these two composite functions <m>j</m> and <m>k</m>?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-inverse-Dolbear-task-3">
+      <statement>
+        <p>
 						Consider the equations <m>F = 40 + \frac{1}{4}N</m> and <m>N = 4(F-40)</m>.  Do these equations express different relationships between <m>F</m> and <m>N</m>, or do they express the same relationship in two different ways?  Explain.
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

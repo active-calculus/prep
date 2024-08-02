@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,85 +12,114 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-changing-combining">
-
-	<statement>
-		<p>
+<worksheet label="ws-PA-changing-combining">
+  <exploration xml:id="PA-changing-combining">
+    <introduction>
+      <p>
 			Consider the functions <m>f</m> and <m>g</m> defined by <xref ref="T-PA-changing-combining">Table</xref> and the piecewise linear functions <m>p</m> and <m>q</m> defined by <xref ref="F-PA-changing-combining">Figure</xref>. Assume that the lines in the figure pass through whole number coordinates where they appear to do so; for example, <m>(2,2)</m> lies on the graph of <m>q</m>, and <m>(3,-3)</m> lies on the graph of <m>p</m>.
 		</p>
-
-		<sidebyside width="50%" valign="middle">
-			<table xml:id="T-PA-changing-combining">
-				<title>Table defining functions <m>f</m> and <m>g</m>.</title>
-			    <tabular>
-			      <row bottom="minor">
-			        <cell><m>x</m></cell>
-			        <cell>0</cell>
-			        <cell>1</cell>
-			        <cell>2</cell>
-			        <cell>3</cell>
-			        <cell>4</cell>
-			      </row>
-			      <row bottom="minor">
-			        <cell><m>f(x)</m></cell>
-			        <cell>5</cell>
-			        <cell>10</cell>
-			        <cell>15</cell>
-			        <cell>20</cell>
-			        <cell>25</cell>
-			      </row>
-			      <row>
-			        <cell><m>g(x)</m></cell>
-			        <cell>9</cell>
-			        <cell>5</cell>
-			        <cell>3</cell>
-			        <cell>2</cell>
-			        <cell>3</cell>
-			      </row>
-			    </tabular>
-			</table>
-			<figure xml:id="F-PA-changing-combining">
-				<caption>Graphs defining functions <m>p</m> and <m>q</m>.</caption>
-				<image source="images/inverse-ez-p-q" />
-			</figure>
-		</sidebyside>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <sidebyside width="50%" valign="middle">
+        <table xml:id="T-PA-changing-combining">
+          <title>Table defining functions <m>f</m> and <m>g</m>.</title>
+          <tabular>
+            <row bottom="minor">
+              <cell>
+                <m>x</m>
+              </cell>
+              <cell>0</cell>
+              <cell>1</cell>
+              <cell>2</cell>
+              <cell>3</cell>
+              <cell>4</cell>
+            </row>
+            <row bottom="minor">
+              <cell>
+                <m>f(x)</m>
+              </cell>
+              <cell>5</cell>
+              <cell>10</cell>
+              <cell>15</cell>
+              <cell>20</cell>
+              <cell>25</cell>
+            </row>
+            <row>
+              <cell>
+                <m>g(x)</m>
+              </cell>
+              <cell>9</cell>
+              <cell>5</cell>
+              <cell>3</cell>
+              <cell>2</cell>
+              <cell>3</cell>
+            </row>
+          </tabular>
+        </table>
+        <figure xml:id="F-PA-changing-combining">
+          <caption>Graphs defining functions <m>p</m> and <m>q</m>.</caption>
+          <image source="images/inverse-ez-p-q"/>
+        </figure>
+      </sidebyside>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="PA-changing-combining-task-0">
+      <statement>
+        <p>
 						Let <m>h(x) = f(x) + g(x)</m>.  Determine <m>h(3)</m>.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-changing-combining-task-1">
+      <statement>
+        <p>
 						Let <m>r(x) = p(x) - q(x)</m>.  Determine <m>r(-1)</m> exactly.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-changing-combining-task-2">
+      <statement>
+        <p>
 						Are there any values of <m>x</m> for which <m>r(x) = 0</m>?  If not, explain why; if so, determine all such values, with justification.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-changing-combining-task-3">
+      <statement>
+        <p>
 						Let <m>k(x) = f(x) \cdot g(x)</m>.  Determine <m>k(0)</m>.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-changing-combining-task-4">
+      <statement>
+        <p>
 						Let <m>s(x) = \frac{p(x)}{q(x)}</m>.  Determine <m>s(1)</m> exactly.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-changing-combining-task-5">
+      <statement>
+        <p>
 						Are there any values of <m>x</m> in the interval <m>-4 \le x \le 4</m> for which <m>s(x)</m> is not defined?  If not, explain why; if so, determine all such values, with justification.
 					</p>
-				</li>
-			</ol>
-		</p>
-
-	</statement>
-
-</exploration>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+  </exploration>
+</worksheet>

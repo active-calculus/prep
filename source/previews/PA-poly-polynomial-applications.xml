@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,43 +12,63 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-poly-polynomial-applications">
-
-	<statement>
-		<p>
+<worksheet label="ws-PA-poly-polynomial-applications">
+  <exploration xml:id="PA-poly-polynomial-applications">
+    <introduction>
+      <p>
 			A piece of cardboard that is <m>12 \times 18</m> (each measured in inches) is being made into a box without a top.  To do so, squares are cut from each corner of the cardboard and the remaining sides are folded up.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="PA-poly-polynomial-applications-task-0">
+      <statement>
+        <p>
 						Let <m>x</m> be the side length of the squares being cut from the corners of the cardboard.  Draw a labeled diagram that shows the given information and the variable being used.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-poly-polynomial-applications-task-1">
+      <statement>
+        <p>
 						Determine a formula for the function <m>V</m> whose output is the volume of the box that results from a square of size <m>x \times x</m> being cut from each corner of the cardboard.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-poly-polynomial-applications-task-2">
+      <statement>
+        <p>
 						What familiar kind of function is <m>V</m>?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-poly-polynomial-applications-task-3">
+      <statement>
+        <p>
 						If we start with a small positive value for <m>x</m> and let that value get larger and larger, what is the first value of <m>x</m>we encounter that makes it impossible to remove <m>x \times x</m> squares from the cardboard and still form a box?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-poly-polynomial-applications-task-4">
+      <statement>
+        <p>
 						What are the zeros of <m>V</m>?  What is the domain of the model <m>V</m> in the context of the rectangular box?
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-
-</exploration>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+  </exploration>
+</worksheet>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,11 +12,10 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-exp-e-aroc">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-exp-e-aroc">
+  <activity xml:id="act-exp-e-aroc">
+    <introduction>
+      <p>
 			Recall from <xref ref="sec-changing-aroc">Section</xref> that the average rate of change of a function <m>f</m> on an interval <m>[a,b]</m> is 
 			<me>
 				AV_{[a,b]} = \frac{f(b)-f(a)}{b-a}
@@ -27,58 +26,72 @@
 			</me>.
 			In this activity we explore the average rate of change of <m>f(t) = e^t</m> near the points where <m>t = 1</m> and <m>t = 2</m>.
 		</p>
-
-		<p>
+      <p>
 			In a new <em>Desmos</em> worksheet, let <m>f(t) = e^t</m> and define the function <m>A</m> by the rule 
 			<me>
 				A(h) = \frac{f(1+h)-f(1)}{h}
 			</me>.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-exp-e-aroc-task-0">
+      <statement>
+        <p>
 						What is the meaning of <m>A(0.5)</m> in terms of the function <m>f</m> and its graph?		
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-e-aroc-task-1">
+      <statement>
+        <p>
 						Compute the value of <m>A(h)</m> for at least <m>6</m> different small values of <m>h</m>, both positive and negative.  For instance, one value to try might be <m>h = 0.0001</m>.  Record a table of your results.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-e-aroc-task-2">
+      <statement>
+        <p>
 						What do you notice about the values you found in (b)?  How do they compare to an important number?
 					</p>
-				</li>
-				<li>
-					<p>
-						Explain why the following sentence makes sense: <q>The function <m>e^t</m> is increasing at an average rate that is about the same as its value on small intervals near <m>t = 1</m>.</q>
-					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-e-aroc-task-3">
+      <statement>
+        <p>
+						Explain why the following sentence makes sense: <q>The function <m>e^t</m> is increasing at an average rate that is about the same as its value on small intervals near <m>t = 1</m>.</q></p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-e-aroc-task-4">
+      <statement>
+        <p>
 						Adjust your definition of <m>A</m> in <em>Desmos</em> by changing <m>1</m> to <m>2</m> so that 
 						<me>
 							A(h) = \frac{f(2+h)-f(2)}{h}
 						</me>.
 						How does the value of <m>A(h)</m> compare to <m>f(2)</m> for small values of <m>h</m>?
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

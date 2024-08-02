@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,91 +12,121 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-linear-finding-eqs">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-changing-linear-finding-eqs">
+  <activity xml:id="act-changing-linear-finding-eqs">
+    <introduction>
+      <p>
 			Find an equation for the line that is determined by the following conditions;
       		write your answer in point-slope form wherever possible.
       	</p>
-      	<p>
-	      <ol marker="a.">
-	        <li>
-	          <p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-changing-linear-finding-eqs-task-0">
+      <statement>
+        <p>
 	            The line with slope <m>\frac{3}{7}</m> that passes through <m>(-11, -17)</m>.
 	          </p>
-	        </li>
-
-	        <li>
-	          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-linear-finding-eqs-task-1">
+      <statement>
+        <p>
 	            The line passing through the points <m>(-2,5)</m> and <m>(3,-1)</m>.
 	          </p>
-	        </li>
-
-	        <li>
-	          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-linear-finding-eqs-task-2">
+      <statement>
+        <p>
 	            The line passing through <m>(4,9)</m> that is parallel to the line <m>2x - 3y = 5</m>.
 	          </p>
-	        </li>
-
-	        <li>
-	          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-linear-finding-eqs-task-3">
+      <statement>
+        <p>
 	            Explain why the function <m>f</m> given by <xref ref="T-act-changing-linear-finding-eqs">Table</xref> appears to be linear and find a formula for <m>f(x)</m>.
                   </p>
-				<sidebyside width="50%" valign="middle">
-					<table xml:id="T-act-changing-linear-finding-eqs">
-						<title>Data for a linear function <m>f</m>.</title>
-			            <tabular halign="center">
-			              <row bottom="minor">
-			                <cell><m>x</m></cell>
-			                <cell><m>f(x)</m></cell>
-			              </row>  
-			              <row>
-			                <cell><m>1</m></cell>
-			                <cell><m>7</m></cell>
-			              </row>
-			              <row>     
-			                <cell><m>3</m></cell>
-							<cell><m>3</m></cell>
-			              </row>
-			              <row>                
-							<cell><m>4</m></cell>
-			                <cell><m>1</m></cell>
-			              </row>
-			              <row>                
-			                <cell><m>7</m></cell>
-			                <cell><m>-5</m></cell>
-			              </row>
-			            </tabular>
-					</table>
-
-					<figure xml:id="F-act-changing-linear-finding-eqs">
-						<caption>Plot of a linear function <m>h</m>.</caption>
-						<image source="images/linear-PA-ex-3" />
-					</figure>
-				</sidebyside>
-	        </li>
-	        <li>
-	        	<p>
+        <sidebyside width="50%" valign="middle">
+          <table xml:id="T-act-changing-linear-finding-eqs">
+            <title>Data for a linear function <m>f</m>.</title>
+            <tabular halign="center">
+              <row bottom="minor">
+                <cell>
+                  <m>x</m>
+                </cell>
+                <cell>
+                  <m>f(x)</m>
+                </cell>
+              </row>
+              <row>
+                <cell>
+                  <m>1</m>
+                </cell>
+                <cell>
+                  <m>7</m>
+                </cell>
+              </row>
+              <row>
+                <cell>
+                  <m>3</m>
+                </cell>
+                <cell>
+                  <m>3</m>
+                </cell>
+              </row>
+              <row>
+                <cell>
+                  <m>4</m>
+                </cell>
+                <cell>
+                  <m>1</m>
+                </cell>
+              </row>
+              <row>
+                <cell>
+                  <m>7</m>
+                </cell>
+                <cell>
+                  <m>-5</m>
+                </cell>
+              </row>
+            </tabular>
+          </table>
+          <figure xml:id="F-act-changing-linear-finding-eqs">
+            <caption>Plot of a linear function <m>h</m>.</caption>
+            <image source="images/linear-PA-ex-3"/>
+          </figure>
+        </sidebyside>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-linear-finding-eqs-task-4">
+      <statement>
+        <p>
 	        		Find a formula for the linear function shown in <xref ref="F-act-changing-linear-finding-eqs">Figure</xref>.
 	        	</p>
-	        </li>
-	      </ol>      		
-      	</p>
-
-
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

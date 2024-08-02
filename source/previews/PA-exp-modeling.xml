@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,11 +12,10 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-exp-modeling">
-
-	<statement>
-		<p>
+<worksheet label="ws-PA-exp-modeling">
+  <exploration xml:id="PA-exp-modeling">
+    <introduction>
+      <p>
 		  In <em>Desmos</em>, define
 	      <m>g(t) = ab^t+c</m> and accept the prompt for sliders for <m>a</m>, <m>b</m>, and <m>c</m>.
 	      Edit the sliders so that <m>a</m> has values from <m>a = 5</m> to <m>a = 50</m>,
@@ -27,35 +26,50 @@
 	      let <m>P = (0, g(0))</m> and check the box to show the label.
 	      Finally, zoom out so that the window shows an interval of <m>t</m>-values from <m>-30 \le t \le 30</m>.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="PA-exp-modeling-task-0">
+      <statement>
+        <p>
 						Set <m>b = 1.1</m> and explore the effects of changing the values of <m>a</m> and <m>c</m>.  Write several sentences to summarize your observations.
 					</p>
-				</li>
-				<li>
-					<p>
-						Follow the directions for (a) again, this time with <m>b = 0.9</m>
-					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-exp-modeling-task-1">
+      <statement>
+        <p>
+						Follow the directions for (a) again, this time with <m>b = 0.9</m></p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-exp-modeling-task-2">
+      <statement>
+        <p>
 						Set <m>a = 5</m> and <m>c = 4</m>.
 			            Explore the effects of changing the value of <m>b</m>;
 			            be sure to include values of <m>b</m> both less than and greater than 1.
 			            Write several sentences to summarize your observations.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-exp-modeling-task-3">
+      <statement>
+        <p>
 						When <m>0 \lt b \lt 1</m>,
             			what happens to the graph of <m>g</m> when we consider positive <m>t</m>-values that get larger and larger?
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-
-</exploration>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+  </exploration>
+</worksheet>

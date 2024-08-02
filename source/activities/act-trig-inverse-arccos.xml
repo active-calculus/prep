@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,79 +12,119 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-trig-inverse-arccos">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-trig-inverse-arccos">
+  <activity xml:id="act-trig-inverse-arccos">
+    <introduction>
+      <p>
 			Use the special points on the unit circle (see, for instance, <xref ref="F-circular-sine-all-16">Figure</xref>) to determine the exact values of each of the following numerical expressions.  Do so without using a computational device.
 		</p>
-
-		<p>
-			<ol marker="a." cols="2">
-				<li>
-					<p>
-						<m>\arccos(\frac{1}{2})</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>\arccos(\frac{\sqrt{2}}{2})</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>\arccos(\frac{\sqrt{3}}{2})</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>\arccos(-\frac{1}{2})</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>\arccos(-\frac{\sqrt{2}}{2})</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>\arccos(-\frac{\sqrt{3}}{2})</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>\arccos(-1)</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>\arccos(0)</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>\cos(\arccos(-\frac{1}{2}))</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>\arccos(\cos(\frac{7\pi}{6}))</m>
-					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-0">
+      <statement>
+        <p>
+          <m>\arccos(\frac{1}{2})</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-1">
+      <statement>
+        <p>
+          <m>\arccos(\frac{\sqrt{2}}{2})</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-2">
+      <statement>
+        <p>
+          <m>\arccos(\frac{\sqrt{3}}{2})</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-3">
+      <statement>
+        <p>
+          <m>\arccos(-\frac{1}{2})</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-4">
+      <statement>
+        <p>
+          <m>\arccos(-\frac{\sqrt{2}}{2})</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-5">
+      <statement>
+        <p>
+          <m>\arccos(-\frac{\sqrt{3}}{2})</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-6">
+      <statement>
+        <p>
+          <m>\arccos(-1)</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-7">
+      <statement>
+        <p>
+          <m>\arccos(0)</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-8">
+      <statement>
+        <p>
+          <m>\cos(\arccos(-\frac{1}{2}))</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-9">
+      <statement>
+        <p>
+          <m>\arccos(\cos(\frac{7\pi}{6}))</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

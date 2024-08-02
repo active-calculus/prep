@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,45 +12,56 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-changing-inverse-F-C">
-
-<statement>
-	<p>
+<worksheet label="ws-PA-changing-inverse-F-C">
+  <exploration xml:id="PA-changing-inverse-F-C">
+    <introduction>
+      <p>
 		Recall that <m>F = g(C) = \frac{9}{5}C + 32</m> is the function that takes Celsius temperature inputs and produces the corresponding Fahrenheit temperature outputs.
 	</p>
-
-	<p>
-		<ol marker="a.">
-			<li>
-				<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="PA-changing-inverse-F-C-task-0">
+      <statement>
+        <p>
 					Show that it is possible to solve the equation <m>F = \frac{9}{5}C + 32</m> for <m>C</m> in terms of <m>F</m> and that doing so results in the equation <m>C = \frac{5}{9}(F-32)</m>.
 				</p>
-			</li>
-				
-			<li>
-				<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-changing-inverse-F-C-task-1">
+      <statement>
+        <p>
 					Note that the equation <m>C = \frac{5}{9}(F-32)</m> expresses <m>C</m> as a function of <m>F</m>.  Call this function <m>h</m> so that <m>C = h(F) = \frac{5}{9}(F-32)</m>.
 				</p>
-
-				<p>
+        <p>
 					Find the simplest expression that you can for the composite function <m>j(C) = h(g(C))</m>.  
 				</p>
-			</li>
-
-			<li>
-				<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-changing-inverse-F-C-task-2">
+      <statement>
+        <p>
 					Find the simplest expression that you can for the composite function <m>k(F) = g(h(F))</m>. 
 				</p>
-			</li>
-
-			<li>
-				<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-changing-inverse-F-C-task-3">
+      <statement>
+        <p>
 					Why are the functions <m>j</m> and <m>k</m> so simple?  Explain by discussing how the functions <m>g</m> and <m>h</m> process inputs to generate outputs and what happens when we first execute one followed by the other.
 				</p>
-			</li>
-		</ol>
-	</p>
-</statement>
-
-</exploration>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+  </exploration>
+</worksheet>

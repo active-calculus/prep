@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,52 +12,76 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-circular-traversing">
-
-	<statement>
-		<p>
+<worksheet label="ws-PA-circular-traversing">
+  <exploration xml:id="PA-circular-traversing">
+    <introduction>
+      <p>
 			In the context of the ferris wheel pictured in <xref ref="F-traversing-ferris-wheel-animation">Figure</xref>, assume that the height, <m>h</m>, of the moving point (the cab in which you are riding), and the distance, <m>d</m>, that the point has traveled around the circumference of the ferris wheel are both measured in meters.  
 		</p>
-			
-		<p>	
+      <p>	
 			Further, assume that the circumference of the ferris wheel is <m>150</m> meters.  In addition, suppose that after getting in your cab at the lowest point on the wheel, you traverse the full circle several times.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="PA-circular-traversing-task-0">
+      <statement>
+        <p>
 						Recall that the circumference, <m>C</m>, of a circle is connected to the circle's radius, <m>r</m>, by the formula <m>C = 2\pi r</m>.  What is the radius of the ferris wheel?  How high is the highest point on the ferris wheel?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-circular-traversing-task-1">
+      <statement>
+        <p>
 						How high is the cab after it has traveled <m>1/4</m> of the circumference of the circle?  
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-circular-traversing-task-2">
+      <statement>
+        <p>
 						How much distance along the circle has the cab traversed at the moment it first reaches a height of <m>\frac{150}{\pi} \approx 47.75</m> meters?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-circular-traversing-task-3">
+      <statement>
+        <p>
 						Can <m>h</m> be thought of as a function of <m>d</m>?  Why or why not?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-circular-traversing-task-4">
+      <statement>
+        <p>
 						Can <m>d</m> be thought of as a function of <m>h</m>?  Why or why not?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-circular-traversing-task-5">
+      <statement>
+        <p>
 						Why do you think the curve shown at right in <xref ref="F-traversing-ferris-wheel-animation">Figure</xref> has the shape that it does?  Write several sentences to explain.
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-
-</exploration>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+  </exploration>
+</worksheet>

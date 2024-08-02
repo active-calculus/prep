@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,29 +12,37 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-exp-temp-pop">
-
-	<statement>
-		<p>
+<worksheet label="ws-PA-exp-temp-pop">
+  <exploration xml:id="PA-exp-temp-pop">
+    <introduction>
+      <p>
 			In each of the following situations, determine the exact value of the unknown quantity that is identified.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="PA-exp-temp-pop-task-0">
+      <statement>
+        <p>
 						The temperature of a warming object in an oven is given by <m>F(t) = 275 - 203e^{-kt}</m>, and we know that the object's  temperature after <m>20</m> minutes is <m>F(20) = 101</m>.  Determine the exact value of <m>k</m>.
 					</p>
-				</li>				
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-exp-temp-pop-task-1">
+      <statement>
+        <p>
 						The temperature of a cooling object in a refrigerator is modeled by <m>F(t) = a + 37.4e^{-0.05t}</m>, and the temperature of the refrigerator is <m>39.8^\circ</m>.  By thinking about the long-term behavior of <m>e^{-0.05t}</m> and the long-term behavior of the object's temperature, determine the exact value of <m>a</m>.
 					</p>
-				</li>
-
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-exp-temp-pop-task-2">
+      <statement>
+        <p>
 						Later in this section, we'll learn that one model for how a population grows over time can be given by a function of the form 
 						<me>
 							P(t) = \frac{A}{1 + Me^{-kt}}
@@ -44,15 +52,20 @@
 						</men>
 						Solve <xref ref="eq-temp-pop-logistic-structure">Equation</xref> for the exact value of <m>x</m>.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-exp-temp-pop-task-3">
+      <statement>
+        <p>
 						Suppose that <m>y = a + be^{-kt}</m>.  Solve for <m>t</m> in terms of <m>a</m>, <m>b</m>, <m>k</m>, and <m>y</m>.  What does this new equation represent?
 					</p>
-				</li>
-			</ol>
-		</p>
-
-	</statement>
-
-</exploration>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+  </exploration>
+</worksheet>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,43 +12,63 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-trig-finding-angles">
-
-	<statement>
-		<p>
+<worksheet label="ws-PA-trig-finding-angles">
+  <exploration xml:id="PA-trig-finding-angles">
+    <introduction>
+      <p>
 			Consider a right triangle that has one leg of length <m>3</m> and another leg of length <m>\sqrt{3}</m>.  Let <m>\theta</m> be the angle that lies opposite the shorter leg.  
 		</p>
-
-                <p>
-		<ol marker="a.">
-			<li>
-				<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="PA-trig-finding-angles-task-0">
+      <statement>
+        <p>
 					Sketch a labeled picture of the triangle.
 				</p>
-			</li>
-			<li>
-				<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-trig-finding-angles-task-1">
+      <statement>
+        <p>
 					What is the exact length of the triangle's hypotenuse?
 				</p>
-			</li>
-			<li>
-				<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-trig-finding-angles-task-2">
+      <statement>
+        <p>
 					What is the exact value of <m>\sin(\theta)</m>?
 				</p>
-			</li>
-			<li>
-				<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-trig-finding-angles-task-3">
+      <statement>
+        <p>
 					Rewrite your equation from (c) using the arcsine function in the form <m>\arcsin(\Box) = \Delta</m>, where <m>\Box</m> and <m>\Delta</m> are numerical values.
 				</p>
-			</li>
-			<li>
-				<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-trig-finding-angles-task-4">
+      <statement>
+        <p>
 					What special angle from the unit circle is <m>\theta</m>?
 				</p>
-			</li>
-		</ol>
-                </p>
-	</statement>
-
-</exploration>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+  </exploration>
+</worksheet>

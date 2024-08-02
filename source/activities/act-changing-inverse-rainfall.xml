@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,57 +12,72 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-0-0-0">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-0-0-0">
+  <activity xml:id="act-0-0-0">
+    <introduction>
+      <p>
 			During a major rainstorm, the rainfall at Gerald R. Ford Airport is measured on a frequent basis for a <m>10</m>-hour period of time.  The following function <m>g</m> models the <em>rate</em>, <m>R</m>, at which the rain falls (in cm/hr) on the time interval <m>t = 0</m> to <m>t = 10</m>:
 			<me>
 				R = g(t) = \frac{4}{t+2} + 1
 			</me>.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-0-0-0-task-0">
+      <statement>
+        <p>
 						Compute <m>g(3)</m> and write a complete sentence to explain its meaning in the given context, including units.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-0-0-0-task-1">
+      <statement>
+        <p>
 						Compute the average rate of change of <m>g</m> on the time interval <m>[3,5]</m> and write two careful complete sentences to explain the meaning of this value in the context of the problem, including units.  Explicitly address what the value you compute tells you about how rain is falling over a certain time interval, and what you should expect as time goes on.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-0-0-0-task-2">
+      <statement>
+        <p>
 						Plot the function <m>y = g(t)</m> using a computational device.  On the domain <m>[0,10]</m>, what is the corresponding range of <m>g</m>?  Why does the function <m>g</m> have an inverse function?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-0-0-0-task-3">
+      <statement>
+        <p>
 						Determine <m>g^{-1} \left( \frac{9}{5} \right)</m> and write a complete sentence to explain its meaning in the given context.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-0-0-0-task-4">
+      <statement>
+        <p>
 						According to the model <m>g</m>, is there ever a time during the storm that the rain falls at a rate of exactly <m>1</m> centimeter per hour?  Why or why not?  Provide an algebraic justification for your answer.
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

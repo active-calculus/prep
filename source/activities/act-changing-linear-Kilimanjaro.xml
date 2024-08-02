@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,24 +12,23 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-linear-Kilimanjaro">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-changing-linear-Kilimanjaro">
+  <activity xml:id="act-changing-linear-Kilimanjaro">
+    <introduction>
+      <p>
 	      The summit of Africa's largest peak, Mt.
 	      Kilimanjaro<fn>
-	      The main context of this problem comes from Exercise 30 on p.<nbsp />27 of Connally's
+	      The main context of this problem comes from Exercise 30 on p.<nbsp/>27 of Connally's
 	      <em>Functions Modeling Change</em>, 5th ed.
 	      </fn>, has two main ice fields and a glacier at its peak.
 	      Geologists measured the ice cover in the year 2000 (<m>t = 0</m>) to be approximately <m>1951</m> m<m>^2</m>;
 	      in the year 2007, the ice cover measured <m>1555</m> m<m>^2</m>.
 	  	</p>
-
-		<p>		
-		  <ol marker="a.">
-	        <li>
-	          <p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-changing-linear-Kilimanjaro-task-0">
+      <statement>
+        <p>
 	            Suppose that the amount of ice cover at the peak of Mt.
 	            Kilimanjaro is changing at a constant average rate from year to year.
 	            Find a linear model <m>A = f(t)</m> whose output is the area of the ice cover,
@@ -37,50 +36,61 @@
 	            in square meters in year <m>t</m>
 	            (where <m>t</m> is the number of years after 2000).
 	          </p>
-	        </li>
-
-	        <li>
-	          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-linear-Kilimanjaro-task-1">
+      <statement>
+        <p>
 	            What do the slope and <m>A</m>-intercept mean in the model you found in (a)?  In particular, what are the units on the slope?
 	          </p>
-	        </li>
-
-	        <li>
-	          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-linear-Kilimanjaro-task-2">
+      <statement>
+        <p>
 	            Compute <m>f(17)</m>.
 	            What does this quantity measure?
 	            Write a complete sentence to explain.
 	          </p>
-	        </li>
-
-	        <li>
-	          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-linear-Kilimanjaro-task-3">
+      <statement>
+        <p>
 	            If the model holds further into the future,
 	            when do we predict the ice cover will vanish?
 	          </p>
-	        </li>
-
-	        <li>
-	          <p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-linear-Kilimanjaro-task-4">
+      <statement>
+        <p>
 	            In light of your work above,
 	            what is a reasonable domain to use for the model <m>A = f(t)</m>?
 	            What is the corresponding range?
 	          </p>
-	        </li>
-	      </ol>
-		</p>
-
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

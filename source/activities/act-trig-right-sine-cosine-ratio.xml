@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,35 +12,27 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-trig-right-sine-cosine-ratio">
-
-	<statement>
-		<sidebyside widths="45% 45%" valign="middle">
-			<p>
+<worksheet label="ws-act-trig-right-sine-cosine-ratio">
+  <activity xml:id="act-trig-right-sine-cosine-ratio">
+    <statement>
+      <sidebyside widths="45% 45%" valign="middle">
+        <p>
 				We want to determine the distance between two points <m>A</m> and <m>B</m> that are directly across from one another on opposite sides of a river, as pictured in <xref ref="F-right-act-river">Figure</xref>.
       			We mark the locations of those points and walk <m>50</m> meters downstream from <m>B</m> to point <m>P</m>
       			and use a sextant to measure <m>\angle BPA</m>.  If the measure of <m>\angle BPA</m> is <m>56.4^{\circ}</m>, how wide is the river?
       			What other information about the situation can you determine?
 			</p>
-
-			<figure xml:id="F-right-act-river">
-				<caption>Finding the width of the river.</caption>
-				<image source="images/right-act-river" width="40%" />
-			</figure>
-		</sidebyside>
-
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+        <figure xml:id="F-right-act-river">
+          <caption>Finding the width of the river.</caption>
+          <image source="images/right-act-river" width="40%"/>
+        </figure>
+      </sidebyside>
+    </statement>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

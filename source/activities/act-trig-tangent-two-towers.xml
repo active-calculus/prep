@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,34 +12,24 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-trig-tangent-two-towers">
-
-	<statement>
-
-		<sidebyside>
-			<p>
+<worksheet label="ws-act-trig-tangent-two-towers">
+  <activity xml:id="act-trig-tangent-two-towers">
+    <statement>
+      <sidebyside>
+        <p>
 				Supertall<fn>See, for instance, <url href="https://www.cnn.com/style/article/new-york-slender-skyscrapers/index.html">this article</url></fn> high rises have changed the Manhattan skyline.  These skyscrapers are known for their small footprint in proportion to their height, with their ratio of width to height at most <m>1:10</m>, and some as extreme as <m>1:24</m>.  Suppose that a relatively short supertall has been built to a height of <m>635</m> feet, as pictured in <xref ref="F-tan-act-two-towers">Figure</xref>, and that a second supertall is built nearby.  Given the two angles that are computed from the new building, how tall, <m>s</m>, is the new building, and how far apart, <m>d</m>, are the two towers?
-			</p>	
-
-			<figure xml:id="F-tan-act-two-towers">
-				<caption>Two supertall skyscrapers.</caption>
-				<image source="images/tan-act-two-towers" />
-			</figure>
-		</sidebyside>
-		
-
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+			</p>
+        <figure xml:id="F-tan-act-two-towers">
+          <caption>Two supertall skyscrapers.</caption>
+          <image source="images/tan-act-two-towers"/>
+        </figure>
+      </sidebyside>
+    </statement>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

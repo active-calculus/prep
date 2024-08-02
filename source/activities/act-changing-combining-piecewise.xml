@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,19 +12,18 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-changing-combining-piecewise">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-changing-combining-piecewise">
+  <activity xml:id="act-changing-combining-piecewise">
+    <introduction>
+      <p>
 		      In what follows,
       		  we work to understand two different piecewise functions entirely by hand based on familiar properties of linear and quadratic functions.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-changing-combining-piecewise-task-0">
+      <statement>
+        <p>
 						Consider the function <m>p</m> defined by the following rule:
 					      <me>
 					        p(x) = 
@@ -36,53 +35,66 @@
 
 					    What are the values of <m>p(-4)</m>, <m>p(-2)</m>, <m>p(0)</m>, <m>p(2)</m>, and <m>p(4)</m>?  
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-combining-piecewise-task-1">
+      <statement>
+        <p>
 						What point is the vertex of the quadratic part of <m>p</m> that is valid for <m>x \lt 0</m>?  What point is the vertex of the quadratic part of <m>p</m> that is valid for <m>x \ge 0</m>? 
 					</p>
-				</li>
-
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-combining-piecewise-task-2">
+      <statement>
+        <p>
 						For what values of <m>x</m> is <m>p(x) = 0</m>?  In addition, what is the <m>y</m>-intercept of <m>p</m>?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-combining-piecewise-task-3">
+      <statement>
+        <p>
 						Sketch an accurate, labeled graph of <m>y = p(x)</m> on the axes provided in <xref ref="F-combining-act-piecewise-axes">Figure</xref>.
 					</p>
-
-					<sidebyside width="50%">
-						<figure xml:id="F-combining-act-piecewise-axes">
-							<caption>Axes to plot <m>y = p(x)</m>.</caption>
-							<image source="images/functions-y-x-blank-axes-centered-2"/>
-						</figure>
-						<figure xml:id="F-combining-act-piecewise-graph">
-							<caption>Graph of <m>y = f(x)</m>.</caption>
-							<image source="images/combining-act-f"/>
-						</figure>
-					</sidebyside>
-
-				</li>
-				<li>
-					<p>
+        <sidebyside width="50%">
+          <figure xml:id="F-combining-act-piecewise-axes">
+            <caption>Axes to plot <m>y = p(x)</m>.</caption>
+            <image source="images/functions-y-x-blank-axes-centered-2"/>
+          </figure>
+          <figure xml:id="F-combining-act-piecewise-graph">
+            <caption>Graph of <m>y = f(x)</m>.</caption>
+            <image source="images/combining-act-f"/>
+          </figure>
+        </sidebyside>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-changing-combining-piecewise-task-4">
+      <statement>
+        <p>
 						For the function <m>f</m> defined by <xref ref="F-combining-act-piecewise-graph">Figure</xref>, determine a piecewise-defined formula for <m>f</m> that is expressed in bracket notation similar to the definition of <m>y = p(x)</m> above.
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

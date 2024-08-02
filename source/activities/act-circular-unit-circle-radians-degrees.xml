@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,64 +12,76 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-circular-unit-circle-radians-degrees">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-circular-unit-circle-radians-degrees">
+  <activity xml:id="act-circular-unit-circle-radians-degrees">
+    <introduction>
+      <p>
 			Convert each of the following quantities to the alternative measure: degrees to radians or radians to degrees.
 		</p>
-
-		<p>
-			<ol marker="a." cols="2">
-		        <li>
-		          <p>
-		            <m>30^\circ</m> 
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-circular-unit-circle-radians-degrees-task-0">
+      <statement>
+        <p>
+          <m>30^\circ</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-circular-unit-circle-radians-degrees-task-1">
+      <statement>
+        <p><m>\frac{2\pi}{3}</m> radians 
 		          </p>
-		        </li>
-
-		        <li>
-		          <p>
-		            <m>\frac{2\pi}{3}</m> radians 
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-circular-unit-circle-radians-degrees-task-2">
+      <statement>
+        <p><m>\frac{5\pi}{4}</m> radians 
 		          </p>
-		        </li>
-
-		        <li>
-		          <p>
-		            <m>\frac{5\pi}{4}</m> radians 
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-circular-unit-circle-radians-degrees-task-3">
+      <statement>
+        <p>
+          <m>240^\circ</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-circular-unit-circle-radians-degrees-task-4">
+      <statement>
+        <p>
+          <m>17^\circ</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-circular-unit-circle-radians-degrees-task-5">
+      <statement>
+        <p><m>2</m> radians
 		          </p>
-		        </li>
-
-		        <li>
-		          <p>
-		            <m>240^\circ</m> 
-		          </p>
-		        </li>
-
-		        <li>
-		        	<p>
-		        		<m>17^\circ</m>
-		        	</p>
-		        </li>
-
-		        <li>
-		          <p>
-		            	<m>2</m> radians
-		          </p>
-		        </li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

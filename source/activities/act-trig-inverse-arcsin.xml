@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,54 +12,63 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-trig-inverse-arcsin">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-trig-inverse-arcsin">
+  <activity xml:id="act-trig-inverse-arcsin">
+    <introduction>
+      <p>
 			The goal of this activity is to understand key properties of the arcsine function in a way similar to our discussion of the arccosine function in <xref ref="subsec-trig-inverse-arccos">Subsection</xref>.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-trig-inverse-arcsin-task-0">
+      <statement>
+        <p>
 						Using <xref ref="def-inverse-trig-arcsine">Definition</xref>, what are the domain and range of the arcsine function?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-inverse-arcsin-task-1">
+      <statement>
+        <p>
 						Determine the following values exactly: <m>\arcsin(-1)</m>, <m>\arcsin(-\frac{\sqrt{2}}{2})</m>, <m>\arcsin(0)</m>, <m>\arcsin(\frac{1}{2})</m>, and <m>\arcsin(\frac{\sqrt{3}}{2})</m>.
 					</p>
-				</li>
-				<li>
-						<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-inverse-arcsin-task-2">
+      <statement>
+        <p>
 							On the axes provided in <xref ref="F-inverse-trig-act-arcsine-axes">Figure</xref>, sketch a careful plot of the restricted sine function on the interval <m>[-\frac{\pi}{2},\frac{\pi}{2}]</m> along with its corresponding inverse, the arcsine function.  Label at least three points on each curve so that each point on the sine graph corresponds to a point on the arcsine graph.  In addition, sketch the line <m>y = t</m> to demonstrate how the graphs are reflections of one another across this line.
 						</p>
-
-						<figure xml:id="F-inverse-trig-act-arcsine-axes">
-							<caption>Axes for plotting the restricted sine function and its inverse, the arcsine function.</caption>
-							<image width="50%" source="images/inverse-trig-blank-axes-arcsin" />	
-						</figure>
-				</li>
-				<li>
-					<p>
+        <figure xml:id="F-inverse-trig-act-arcsine-axes">
+          <caption>Axes for plotting the restricted sine function and its inverse, the arcsine function.</caption>
+          <image width="50%" source="images/inverse-trig-blank-axes-arcsin"/>
+        </figure>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-inverse-arcsin-task-3">
+      <statement>
+        <p>
 						True or false:  <m>\arcsin(\sin(5\pi)) = 5\pi</m>.  Write a complete sentence to explain your reasoning.
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

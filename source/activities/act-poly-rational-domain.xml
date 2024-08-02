@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,59 +12,79 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-poly-rational-domain">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-poly-rational-domain">
+  <activity xml:id="act-poly-rational-domain">
+    <introduction>
+      <p>
 			Determine the domain of each of the following functions.  In each case, write a sentence to accurately describe the domain.
 		</p>
-
-		<p>
-			<ol marker="a." cols="2">
-				<li>
-					<p>
-						<m>\displaystyle f(x) = \frac{x^2-1}{x^2 + 1}</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>\displaystyle g(x) = \frac{x^2 - 1}{x^2 + 3x - 4}</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>\displaystyle h(x) = \frac{1}{x} + \frac{1}{x-1} + \frac{1}{x-2}</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>\displaystyle j(x) = \frac{(x+5)(x-3)(x+1)(x-4)}{(x+1)(x+3)(x-5)}</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>\displaystyle k(x) = \frac{2x^2 + 7}{3x^3 - 12x}</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>\displaystyle m(x) = \frac{5x^2 - 45}{7(x-2)(x-3)^2(x^2 + 9)(x+1)}</m>
-					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-poly-rational-domain-task-0">
+      <statement>
+        <p>
+          <m>\displaystyle f(x) = \frac{x^2-1}{x^2 + 1}</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-rational-domain-task-1">
+      <statement>
+        <p>
+          <m>\displaystyle g(x) = \frac{x^2 - 1}{x^2 + 3x - 4}</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-rational-domain-task-2">
+      <statement>
+        <p>
+          <m>\displaystyle h(x) = \frac{1}{x} + \frac{1}{x-1} + \frac{1}{x-2}</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-rational-domain-task-3">
+      <statement>
+        <p>
+          <m>\displaystyle j(x) = \frac{(x+5)(x-3)(x+1)(x-4)}{(x+1)(x+3)(x-5)}</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-rational-domain-task-4">
+      <statement>
+        <p>
+          <m>\displaystyle k(x) = \frac{2x^2 + 7}{3x^3 - 12x}</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-poly-rational-domain-task-5">
+      <statement>
+        <p>
+          <m>\displaystyle m(x) = \frac{5x^2 - 45}{7(x-2)(x-3)^2(x^2 + 9)(x+1)}</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

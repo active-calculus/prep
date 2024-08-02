@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,54 +12,69 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-circular-sinusoidal-period">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-circular-sinusoidal-period">
+  <activity xml:id="act-circular-sinusoidal-period">
+    <introduction>
+      <p>
 			Determine the exact period, amplitude, and midline of each of the following functions.  In addition,  state the range of each function, any horizontal shift that has been introduced to the graph, and identify an anchor point.  Make your conclusions without consulting <em>Desmos</em>, and then use the program to check your work.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
-						<m>p(x) = \sin(10x) + 2</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>q(x) = -3\cos(0.25x) - 4</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>r(x) = 2\sin\left( \frac{\pi}{4} x\right) + 5</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>w(x) = 2\cos\left( \frac{\pi}{2} (x-3) \right) + 5</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>u(x) = -0.25\sin\left(3x-6\right) + 5</m>
-					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-circular-sinusoidal-period-task-0">
+      <statement>
+        <p>
+          <m>p(x) = \sin(10x) + 2</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-circular-sinusoidal-period-task-1">
+      <statement>
+        <p>
+          <m>q(x) = -3\cos(0.25x) - 4</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-circular-sinusoidal-period-task-2">
+      <statement>
+        <p>
+          <m>r(x) = 2\sin\left( \frac{\pi}{4} x\right) + 5</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-circular-sinusoidal-period-task-3">
+      <statement>
+        <p>
+          <m>w(x) = 2\cos\left( \frac{\pi}{2} (x-3) \right) + 5</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-circular-sinusoidal-period-task-4">
+      <statement>
+        <p>
+          <m>u(x) = -0.25\sin\left(3x-6\right) + 5</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

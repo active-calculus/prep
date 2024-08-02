@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,47 +12,52 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-trig-finding-angles-exactly">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-trig-finding-angles-exactly">
+  <activity xml:id="act-trig-finding-angles-exactly">
+    <introduction>
+      <p>
 			For each of the following different scenarios, draw a picture of the situation and use inverse trigonometric functions appropriately to determine the missing information both exactly and approximately.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-trig-finding-angles-exactly-task-0">
+      <statement>
+        <p>
 						Consider a right triangle with legs of length <m>11</m> and <m>13</m>.  What are the measures
             			(in radians) of the non-right angles and what is the length of the hypotenuse?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-finding-angles-exactly-task-1">
+      <statement>
+        <p>
 						Consider an angle <m>\alpha</m> in standard position (vertex at the origin, one side on the positive <m>x</m>-axis) for which we know <m>\cos(\alpha) = -\frac{1}{2}</m> and <m>\alpha</m> lies in quadrant III. What is the measure of <m>\alpha</m> in radians?  In addition, what is the value of <m>\sin(\alpha)</m>?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-finding-angles-exactly-task-2">
+      <statement>
+        <p>
 						Consider an angle <m>\beta</m> in standard position for which we know
 			            <m>\sin(\beta) = 0.1</m> and <m>\beta</m> lies in quadrant II. What is the measure of <m>\beta</m> in radians?
 					    In addition, what is the value of <m>\cos(\beta)</m>?
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

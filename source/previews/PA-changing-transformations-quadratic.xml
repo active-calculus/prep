@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,60 +12,71 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-changing-transformations-quadratic">
-
-	<statement>
-		<p>
+<worksheet label="ws-PA-changing-transformations-quadratic">
+  <exploration xml:id="PA-changing-transformations-quadratic">
+    <introduction>
+      <p>
 			Open a new <em>Desmos</em> graph and define the function <m>f(x) = x^2</m>.
             Adjust the window so that the range is for <m>-4 \le x \le 4</m> and <m>-10 \le y \le 10</m>.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="PA-changing-transformations-quadratic-task-0">
+      <statement>
+        <p>
 						In <em>Desmos</em>,
             			define the function <m>g(x) = f(x) + a</m>. (That is,
             			in <em>Desmos</em> on line 2, enter
             			<c>g(x) = f(x) + a</c>.) You will get prompted to add a slider for <m>a</m>.
             			Do so.
 					</p>
-
-					<p>
+        <p>
 						Explore by moving the slider for <m>a</m> and write at least one sentence to describe
             			the effect that changing the value of <m>a</m> has on the graph of <m>g</m>.  
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-changing-transformations-quadratic-task-1">
+      <statement>
+        <p>
 						Next,
             			define the function <m>h(x) = f(x-b)</m>. (That is,
             			in <em>Desmos</em> on line 4, enter
             			<c>h(x) = f(x-b)</c> and add the slider for <m>b</m>.)
 					</p>
-
-					<p>
+        <p>
 						Move the slider for <m>b</m> and write at least one sentence to describe
             			the effect that changing the value of <m>b</m> has on the graph of <m>h</m>.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-changing-transformations-quadratic-task-2">
+      <statement>
+        <p>
 						Now define the function <m>p(x) = cf(x)</m>. (That is,
             			in <em>Desmos</em> on line 6, enter
             			<c>p(x) = cf(x)</c> and add the slider for <m>c</m>.)
 					</p>
-
-					<p>
+        <p>
 						Move the slider for <m>c</m> and write at least one sentence to describe
             			the effect that changing the value of <m>c</m> has on the graph of <m>p</m>.
             			In particular, when <m>c = -1</m>,
             			how is the graph of <m>p</m> related to the graph of <m>f</m>?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-changing-transformations-quadratic-task-3">
+      <statement>
+        <p>
 						Finally, click on the icons next to <m>g</m>, <m>h</m>, and <m>p</m> to temporarily hide them, and go back to Line 1 and change your formula for <m>f</m>.
             			You can make it whatever you'd like,
             			but try something like <m>f(x) = x^2 + 2x + 3</m> or <m>f(x) = x^3 - 1</m>.
@@ -73,9 +84,10 @@
             			and <m>c</m> to see the effects on <m>g</m>, <m>h</m>, and <m>p</m> (unhiding them appropriately).
             			Write a couple of sentences to describe your observations of your explorations.
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-
-</exploration>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+  </exploration>
+</worksheet>

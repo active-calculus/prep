@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,64 +12,89 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-exp-log-base-10">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-exp-log-base-10">
+  <activity xml:id="act-exp-log-base-10">
+    <introduction>
+      <p>
 			For each of the following equations, determine the exact value of the unknown variable.  If the exact value involves a logarithm, use a computational device to also report an approximate value.  For instance, if the exact value is <m>y = \log_{10}(2)</m>, you can also note that <m>y \approx 0.301</m>.
 		</p>
-
-		<p>
-			<ol marker="a." cols="2">
-				<li>
-					<p>
-						<m>10^t = 0.00001</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>\log_{10}(1000000) = t</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>10^t = 37</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>\log_{10}(y) = 1.375</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>10^t = 0.04</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>3 \cdot 10^t + 11 = 147</m>
-					</p>
-				</li>
-				<li>
-					<p>
-						<m>2\log_{10}(y) + 5 = 1</m>
-					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-exp-log-base-10-task-0">
+      <statement>
+        <p>
+          <m>10^t = 0.00001</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-log-base-10-task-1">
+      <statement>
+        <p>
+          <m>\log_{10}(1000000) = t</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-log-base-10-task-2">
+      <statement>
+        <p>
+          <m>10^t = 37</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-log-base-10-task-3">
+      <statement>
+        <p>
+          <m>\log_{10}(y) = 1.375</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-log-base-10-task-4">
+      <statement>
+        <p>
+          <m>10^t = 0.04</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-log-base-10-task-5">
+      <statement>
+        <p>
+          <m>3 \cdot 10^t + 11 = 147</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-log-base-10-task-6">
+      <statement>
+        <p>
+          <m>2\log_{10}(y) + 5 = 1</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

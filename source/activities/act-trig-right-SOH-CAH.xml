@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,59 +12,79 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-trig-right-SOH-CAH">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-trig-right-SOH-CAH">
+  <activity xml:id="act-trig-right-SOH-CAH">
+    <introduction>
+      <p>
 			In each of the following scenarios involving a right triangle, determine the exact values of as many of the remaining side lengths and angle measures (in radians) that you can.  If there are quantities that you cannot determine, explain why.  For every prompt, draw a labeled diagram of the situation.
 		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-trig-right-SOH-CAH-task-0">
+      <statement>
+        <p>
 						A right triangle with hypotenuse <m>7</m> and one non-right angle of measure <m>\frac{\pi}{7}</m>.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-right-SOH-CAH-task-1">
+      <statement>
+        <p>
 						A right triangle with non-right angle <m>\alpha</m> that satisfies <m>\sin(\alpha) = \frac{3}{5}</m>.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-right-SOH-CAH-task-2">
+      <statement>
+        <p>
 						A right triangle where one of the non-right angles has measure <m>1.2</m> and the hypotenuse has length <m>2.7</m>.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-right-SOH-CAH-task-3">
+      <statement>
+        <p>
 						A right triangle with hypotenuse <m>13</m> and one leg of length <m>6.5</m>.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-right-SOH-CAH-task-4">
+      <statement>
+        <p>
 						A right triangle with legs of length <m>5</m> and <m>12</m>.
 					</p>
-				</li>				
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-trig-right-SOH-CAH-task-5">
+      <statement>
+        <p>
 						A right triangle where one of the non-right angles has measure <m>\frac{\pi}{5}</m> and the leg opposite this angle has length <m>4</m>.
 					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

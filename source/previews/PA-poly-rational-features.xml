@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,155 +12,265 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-poly-rational-features">
-
-	<statement>
-		<p>
+<worksheet label="ws-PA-poly-rational-features">
+  <exploration xml:id="PA-poly-rational-features">
+    <introduction>
+      <p>
 			Consider the rational function <m>r(x) = \frac{x^2 - 1}{x^2 - 3x - 4}</m>, and let <m>p(x) = x^2 - 1</m> (the numerator of <m>r(x)</m>) and <m>q(x) = x^2 - 3x - 4</m> (the denominator of <m>r(x)</m>).
 		</p>
-
-<!--
+      <!--
 		<figure xml:id="F-rational-features-hole-1">
 			<caption>A plot of <m>r(x) = \frac{x^2 - 1}{x^2 - 3x - 4}</m>.</caption>
 			<image source="images/rational-features-hole-1" width="60%" />
 		</figure>
 -->
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="PA-poly-rational-features-task-0">
+      <statement>
+        <p>
 						Reasoning algebraically, for what values of <m>x</m> is <m>p(x) = 0</m>?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-poly-rational-features-task-1">
+      <statement>
+        <p>
 						Again reasoning algebraically, for what values of <m>x</m> is <m>q(x) = 0</m>?
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-poly-rational-features-task-2">
+      <statement>
+        <p>
 						Define <m>r(x)</m> in <em>Desmos</em>, and evaluate the function appropriately to find numerical values for the output of <m>r</m> and hence complete the following tables.
 					</p>
-
-					<sidebyside>
-						<tabular>
-							<row halign="center" bottom="minor">
-								<cell><m>x</m></cell>
-								<cell><m>r(x)</m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>4.1</m></cell>
-								<cell><m></m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>4.01</m></cell>
-								<cell><m></m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>4.001</m></cell>
-								<cell><m></m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>3.9</m></cell>
-								<cell><m></m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>3.99</m></cell>
-								<cell><m></m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>3.999</m></cell>
-								<cell><m></m></cell>
-							</row>							
-						</tabular>
-
-						<tabular>
-							<row halign="center" bottom="minor">
-								<cell><m>x</m></cell>
-								<cell><m>r(x)</m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>1.1</m></cell>
-								<cell><m></m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>1.01</m></cell>
-								<cell><m></m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>1.001</m></cell>
-								<cell><m></m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>0.9</m></cell>
-								<cell><m></m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>0.99</m></cell>
-								<cell><m></m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>0.999</m></cell>
-								<cell><m></m></cell>
-							</row>							
-						</tabular>
-
-						<tabular>
-							<row halign="center" bottom="minor">
-								<cell><m>x</m></cell>
-								<cell><m>r(x)</m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>-1.1</m></cell>
-								<cell><m></m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>-1.01</m></cell>
-								<cell><m></m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>-1.001</m></cell>
-								<cell><m></m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>-0.9</m></cell>
-								<cell><m></m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>-0.99</m></cell>
-								<cell><m></m></cell>
-							</row>
-							<row halign="center">
-								<cell><m>-0.999</m></cell>
-								<cell><m></m></cell>
-							</row>							
-						</tabular>						
-					</sidebyside>
-				</li>
-				<li>
-					<p>
+        <sidebyside>
+          <tabular>
+            <row halign="center" bottom="minor">
+              <cell>
+                <m>x</m>
+              </cell>
+              <cell>
+                <m>r(x)</m>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>4.1</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>4.01</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>4.001</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>3.9</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>3.99</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>3.999</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+          </tabular>
+          <tabular>
+            <row halign="center" bottom="minor">
+              <cell>
+                <m>x</m>
+              </cell>
+              <cell>
+                <m>r(x)</m>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>1.1</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>1.01</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>1.001</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>0.9</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>0.99</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>0.999</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+          </tabular>
+          <tabular>
+            <row halign="center" bottom="minor">
+              <cell>
+                <m>x</m>
+              </cell>
+              <cell>
+                <m>r(x)</m>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>-1.1</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>-1.01</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>-1.001</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>-0.9</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>-0.99</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+            <row halign="center">
+              <cell>
+                <m>-0.999</m>
+              </cell>
+              <cell>
+                <m/>
+              </cell>
+            </row>
+          </tabular>
+        </sidebyside>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-poly-rational-features-task-3">
+      <statement>
+        <p>
 						Why does <m>r</m> behave the way it does near <m>x = 4</m>?  Explain by describing the behavior of the numerator and denominator.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-poly-rational-features-task-4">
+      <statement>
+        <p>
 						Why does <m>r</m> behave the way it does near <m>x = 1</m>?  Explain by describing the behavior of the numerator and denominator.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-poly-rational-features-task-5">
+      <statement>
+        <p>
 						Why does <m>r</m> behave the way it does near <m>x = -1</m>?  Explain by describing the behavior of the numerator and denominator.
 					</p>
-				</li>
-				<li>
-					<p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="PA-poly-rational-features-task-6">
+      <statement>
+        <p>
 						Plot <m>r</m> in <em>Desmos</em>.  Is there anything surprising or misleading about the graph that <em>Desmos</em> generates?
 					</p>
-				</li>				
-			</ol>
-		</p>
-	</statement>
-
-</exploration>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+  </exploration>
+</worksheet>

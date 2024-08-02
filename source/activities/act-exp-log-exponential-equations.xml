@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,65 +12,79 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-exp-log-exponential-equations">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-exp-log-exponential-equations">
+  <activity xml:id="act-exp-log-exponential-equations">
+    <introduction>
+      <p>
 			Solve each of the following equations exactly and then find an estimate that is accurate to 5 decimal places.
 		</p>
-
-		<p>
-			<ol marker="a." cols="2">
-		        <li>
-		          <p>
-		            <m>3^t = 5</m>
-		          </p>
-		        </li>
-
-		        <li>
-		          <p>
-		            <m>4 \cdot 2^t - 2 = 3</m>
-		          </p>
-		        </li>
-
-		        <li>
-		          <p>
-		            <m>3.7 \cdot (0.9)^{0.3t} + 1.5 = 2.1</m>
-		          </p>
-		        </li>
-
-		        <li>
-		          <p>
-		            <m>72 - 30(0.7)^{0.05t} = 60</m>
-		          </p>
-		        </li>
-
-		        <li>
-		          <p>
-		            <m>\ln(t) = -2</m>
-		          </p>
-		        </li>
-
-		        <li>
-		          <p>
-		            <m>3 + 2\log_{10}(t) = 3.5</m>
-		          </p>
-		        </li>
-
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-exp-log-exponential-equations-task-0">
+      <statement>
+        <p>
+          <m>3^t = 5</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-log-exponential-equations-task-1">
+      <statement>
+        <p>
+          <m>4 \cdot 2^t - 2 = 3</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-log-exponential-equations-task-2">
+      <statement>
+        <p>
+          <m>3.7 \cdot (0.9)^{0.3t} + 1.5 = 2.1</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-log-exponential-equations-task-3">
+      <statement>
+        <p>
+          <m>72 - 30(0.7)^{0.05t} = 60</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-log-exponential-equations-task-4">
+      <statement>
+        <p>
+          <m>\ln(t) = -2</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <task workspace="3cm" xml:id="act-exp-log-exponential-equations-task-5">
+      <statement>
+        <p>
+          <m>3 + 2\log_{10}(t) = 3.5</m>
+        </p>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>
