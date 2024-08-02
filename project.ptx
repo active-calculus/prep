@@ -55,7 +55,7 @@
     </target>
     <target name="workbook-latex">
       <format>latex</format>
-      <source>source/apc-activity-workbook.xml</source>
+      <source>source/apc-activity-workbook.ptx</source>
       <publication>publication/publication-workbook.ptx</publication>
       <output-dir>output/workbook-latex</output-dir>
       <xsl>xsl/apc-activity-workbook.xsl</xsl>

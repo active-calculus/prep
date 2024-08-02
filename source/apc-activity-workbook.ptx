@@ -25,7 +25,7 @@
 -->
 
 <cross-references text="global" />
-<covers front="images/APC-wkbk-frontcover-2019.pdf" />
+<covers front="external/images/APC-wkbk-frontcover-2019.pdf" />
   <initialism>APC</initialism>
 <html>
     <favicon/>
@@ -35,6 +35,12 @@
   <rename element="exploration" xml:lang="en-US">Preview Activity</rename>
 
   <rename element="objectives" xml:lang="en-US">Motivating Questions</rename>
+    <!-- PreTeXt doesn't like renaming to whitespace, so using U+3164 (Hangul Filler) -->
+  <!-- here inside the rename element. -->
+  <rename element="worksheet" xml:lang="en-US">ㅤ</rename>
+  <latex-output>
+    <worksheet left="13mm" right="13mm" top="13mm" bottom="13mm" />
+  </latex-output>
 </docinfo>
 
   <book xml:id="apc-activity-workbook">
@@ -60,11 +66,11 @@
       </preface>
     </frontmatter>
 
-    <xi:include href="./chap-changing.xml" />
-    <xi:include href="./chap-circular.xml" />
-    <xi:include href="./chap-exp.xml" />
-    <xi:include href="./chap-trig.xml" />
-    <xi:include href="./chap-poly.xml" />
+    <xi:include href="./chap-changing-wb.xml" />
+    <!-- <xi:include href="./chap-circular-wb.xml" />
+    <xi:include href="./chap-exp-wb.xml" />
+    <xi:include href="./chap-trig-wb.xml" />
+    <xi:include href="./chap-poly-wb.xml" /> -->
 <backmatter xml:id="backmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Back Matter</title>
   <colophon>
