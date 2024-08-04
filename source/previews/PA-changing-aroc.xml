@@ -31,7 +31,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-changing-aroc-task-1">
+    <task workspace="2.5cm" xml:id="PA-changing-aroc-task-1">
       <statement>
         <p>
             What are the units on the quantity <m>AV_{[1.5,2.5]}</m>?
@@ -42,28 +42,28 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-changing-aroc-task-2">
+    <task workspace="2cm" xml:id="PA-changing-aroc-task-2">
       <statement>
         <p>
             In <em>Desmos</em>, plot the function
             <m>s(t) = 64 - 16(t-1)^2</m> along with the points
             <m>(1.5,s(1.5))</m> and <m>(2.5, s(2.5))</m>.
-            Make a copy of your plot on the axes in <xref ref="F-changing-aroc-PA-pos">Figure</xref>,
+            Make a copy of your plot on the axes in the figure provided,
             labeling key points as well as the scale on your axes.
             What is the domain of the model?
             The range?
             Why?
           </p>
-        <figure xml:id="F-changing-aroc-PA-pos">
-          <caption>Axes for plotting the position function.</caption>
+<!--        <figure xml:id="F-changing-aroc-PA-pos">
+          <caption>Axes for plotting the position function.</caption> -->
           <image width="50%" source="images/aroc-s-t-blank-axes"/>
-        </figure>
+<!--        </figure> -->
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-changing-aroc-task-3">
+    <task workspace="4cm" xml:id="PA-changing-aroc-task-3">
       <statement>
         <p>
             Work by hand to find the equation of the line through the points
@@ -77,7 +77,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-changing-aroc-task-4">
+    <task workspace="4cm" xml:id="PA-changing-aroc-task-4">
       <statement>
         <p>
             What is a geometric interpretation of the value
@@ -88,7 +88,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-changing-aroc-task-5">
+    <task workspace="4cm" xml:id="PA-changing-aroc-task-5">
       <statement>
         <p>
             How do your answers in the preceding questions change if we instead consider the interval

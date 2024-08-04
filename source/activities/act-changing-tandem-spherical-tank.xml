@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-tandem-spherical-tank-task-0">
+    <task workspace="8cm" xml:id="act-tandem-spherical-tank-task-0">
       <statement>
         <p>
 						Sketch a labeled picture of the tank, including a snapshot of some water remaining in the tank prior to the tank being completely empty.
@@ -40,7 +40,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-tandem-spherical-tank-task-2">
+    <task workspace="2cm" xml:id="act-tandem-spherical-tank-task-2">
       <statement>
         <p>
 						Recall that the volume of a sphere of radius <m>r</m> is <m>V = \frac{4}{3} \pi r^3</m>.  When the tank is completely full at time <m>t = 0</m> right before it starts being drained, how much water is present?
@@ -60,14 +60,14 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-tandem-spherical-tank-task-4">
+    <task workspace="0.5cm" xml:id="act-tandem-spherical-tank-task-4">
       <statement>
         <p>
 						Fill in the following table of values to determine how much water, <m>V</m>, is in the tank at a given time in minutes, <m>t</m>, and thus generate a graph of the relationship between volume and time.  Write a sentence to explain why the data's graph appears the way that it does.
 					</p>
         <sidebyside width="50%" valign="middle">
-          <table xml:id="T-tandem-act-sphere-V-t">
-            <title>Data for how volume and time change together.</title>
+<!--          <table xml:id="T-tandem-act-sphere-V-t">
+            <title>Data for how volume and time change together.</title> -->
             <tabular>
               <row bottom="minor">
                 <cell>
@@ -114,25 +114,25 @@
                 <cell/>
               </row>
             </tabular>
-          </table>
+<!--          </table>
           <figure xml:id="F-tandem-act-sphere-V-t">
-            <caption>A plot of how volume and time change in tandem in a draining spherical tank.</caption>
-            <image source="images/tandem-sphere-V-t"/>
-          </figure>
+            <caption>A plot of how volume and time change in tandem in a draining spherical tank.</caption> -->
+            <image width="45%" source="images/tandem-sphere-V-t"/>
+<!--          </figure> -->
         </sidebyside>
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-tandem-spherical-tank-task-5">
+    <task workspace="1cm" xml:id="act-tandem-spherical-tank-task-5">
       <statement>
         <p>
 						Finally, think about how the height of the water changes in tandem with time. What is the height of the water when <m>t = 0</m>?  What is the height when the tank is empty?  How would you expect the data for the relationship between <m>h</m> and <m>t</m> to appear?  Use the provided axes to sketch at least two possibilities; write at least one sentence to explain how you think the graph should appear.
 					</p>
         <sidebyside width="50%">
-          <image source="images/tandem-h-t-blank-axes"/>
-          <image source="images/tandem-h-t-blank-axes"/>
+          <image width="45%" source="images/tandem-h-t-blank-axes"/>
+          <image width="45%" source="images/tandem-h-t-blank-axes"/>
         </sidebyside>
       </statement>
       <hint/>

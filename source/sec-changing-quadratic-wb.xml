@@ -13,18 +13,13 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="C-changing">
-  	<title>Relating Changing Quantities</title>
-  
-  	<xi:include  href="./sec-changing-in-tandem-wb.xml" />
-	<xi:include  href="./sec-changing-functions-models-wb.xml" />
-   	<xi:include  href="./sec-changing-aroc-wb.xml" />
-  	<xi:include  href="./sec-changing-linear-wb.xml" />
-   	<xi:include  href="./sec-changing-quadratic-wb.xml" />
-<!--   	<xi:include  href="./sec-changing-composite-wb.xml" />
-	<xi:include  href="./sec-changing-inverse-wb.xml" />
-	<xi:include  href="./sec-changing-transformations-wb.xml" />
-	<xi:include  href="./sec-changing-combining-wb.xml" /> -->
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-changing-quadratic">
+  <title>Quadratic Functions</title>
 
-</chapter>
+  	<xi:include href="./previews/PA-changing-quadratic.xml" />
+		<xi:include href="./activities/act-changing-quadratic-parameters.xml" />
+		<xi:include href="./activities/act-changing-quadratic-properties.xml" />
+	  <xi:include href="./activities/act-changing-quadratic-falling-ball.xml" />
+
+</section>
 

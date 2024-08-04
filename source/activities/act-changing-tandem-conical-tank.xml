@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-tandem-conical-tank-task-0">
+    <task workspace="12cm" xml:id="act-tandem-conical-tank-task-0">
       <statement>
         <p>
 						Sketch a labeled picture of the tank, including a snapshot of there being water in the tank prior to the tank being completely full.
@@ -30,7 +30,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-tandem-conical-tank-task-1">
+    <task workspace="6cm" xml:id="act-tandem-conical-tank-task-1">
       <statement>
         <p>
 						What are some quantities that are changing in this scenario?  What are some quantities that are not changing?
@@ -40,14 +40,14 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-tandem-conical-tank-task-2">
+    <task workspace="1cm" xml:id="act-tandem-conical-tank-task-2">
       <statement>
         <p>
 						Fill in the following table of values to determine how much water, <m>V</m>, is in the tank at a given time in minutes, <m>t</m>, and thus generate a graph of the relationship between volume and time by plotting the data on the provided axes.
 					</p>
         <sidebyside width="50%" valign="middle">
-          <table xml:id="T-tandem-act-cone-V-t">
-            <title>Table to record data on volume and time in the conical tank.</title>
+<!--          <table xml:id="T-tandem-act-cone-V-t"> 
+            <title>Table to record data on volume and time in the conical tank.</title> -->
             <tabular>
               <row bottom="minor">
                 <cell>
@@ -106,25 +106,27 @@
                 </cell>
               </row>
             </tabular>
-          </table>
-          <figure xml:id="F-tandem-act-cone-V-t">
+<!--          </table> -->
+
+<!--          <figure xml:id="F-tandem-act-cone-V-t">
             <caption>How volume and time change in tandem in the conical tank.</caption>
-            <image source="images/tandem-V-t-blank-axes"/>
-          </figure>
+          -->
+            <image width="45%" source="images/tandem-V-t-blank-axes"/>
+<!--          </figure> -->
         </sidebyside>
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-tandem-conical-tank-task-3">
+    <task workspace="1cm" xml:id="act-tandem-conical-tank-task-3">
       <statement>
         <p>
 						Finally, think about how the height, <m>h</m>, of the water changes in tandem with time.  Without attempting to determine specific values of <m>h</m> at particular values of <m>t</m>, how would you expect the data for the relationship between <m>h</m> and <m>t</m> to appear?  Use the provided axes to sketch at least two possibilities; write at least one sentence to explain how you think the graph should appear.
 					</p>
         <sidebyside width="50%">
-          <image source="images/tandem-h-t-blank-axes"/>
-          <image source="images/tandem-h-t-blank-axes"/>
+          <image width="45%" source="images/tandem-h-t-blank-axes"/>
+          <image width="45%" source="images/tandem-h-t-blank-axes"/>
         </sidebyside>
       </statement>
       <hint/>

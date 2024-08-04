@@ -16,11 +16,11 @@
   <activity xml:id="act-changing-aroc-trends">
     <introduction>
       <p>
-			Let's consider two different functions and see how different computations of their average rate of change tells us about their respective behavior.  Plots of <m>q</m> and <m>h</m> are shown in <xref ref="F-act-aroc-trends-q">Figures</xref> and <xref ref="F-act-aroc-trends-h"/>.
+			Let's consider two different functions and see how different computations of their average rate of change tells us about their respective behavior.  Plots of <m>q</m> and <m>h</m> are shown in the figures in part (c).
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-changing-aroc-trends-task-0">
+    <task workspace="4cm" xml:id="act-changing-aroc-trends-task-0">
       <statement>
         <p>
 	            Consider the function <m>q(x) = 4-(x-2)^2</m>.
@@ -33,7 +33,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-aroc-trends-task-1">
+    <task workspace="4cm" xml:id="act-changing-aroc-trends-task-1">
       <statement>
         <p>
 	            Consider the function <m>h(t) = 3 - 2(0.5)^t</m>.
@@ -46,27 +46,27 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-aroc-trends-task-2">
+    <task workspace="0.2cm" xml:id="act-changing-aroc-trends-task-2">
       <statement>
         <p>
-					On the graphs in <xref ref="F-act-aroc-trends-q">Figures</xref> and <xref ref="F-act-aroc-trends-h"/>, plot the line segments whose respective slopes are the average rates of change you computed in (a) and (b).
+					On the graphs that follow (<m>q</m> at left, <m>h</m> at right), plot the line segments whose respective slopes are the average rates of change you computed in (a) and (b).
 				</p>
         <sidebyside width="50%">
-          <figure xml:id="F-act-aroc-trends-q">
-            <caption>Plot of <m>q</m> from part (a).</caption>
-            <image source="images/aroc-act-trends-q"/>
-          </figure>
+<!--          <figure xml:id="F-act-aroc-trends-q">
+            <caption>Plot of <m>q</m> from part (a).</caption> -->
+            <image width="80%" source="images/aroc-act-trends-q"/>
+<!--        </figure>
           <figure xml:id="F-act-aroc-trends-h">
-            <caption>Plot of <m>h</m> from part (b).</caption>
-            <image source="images/aroc-act-trends-h"/>
-          </figure>
+            <caption>Plot of <m>h</m> from part (b).</caption> -->
+            <image width="80%" source="images/aroc-act-trends-h"/>
+<!--          </figure> -->
         </sidebyside>
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-aroc-trends-task-3">
+    <task workspace="4cm" xml:id="act-changing-aroc-trends-task-3">
       <statement>
         <p>
 					True or false: Since <m>AV_{[0,3]} = 1</m>, the function <m>q</m> is increasing on the interval <m>(0,3)</m>.  Justify your decision.
@@ -76,7 +76,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-aroc-trends-task-4">
+    <task workspace="4cm" xml:id="act-changing-aroc-trends-task-4">
       <statement>
         <p>
 	            Give an example of a function that has the same average rate of change no matter what interval you choose.

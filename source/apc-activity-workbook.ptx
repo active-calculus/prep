@@ -67,10 +67,12 @@
     </frontmatter>
 
     <xi:include href="./chap-changing-wb.xml" />
+
     <!-- <xi:include href="./chap-circular-wb.xml" />
     <xi:include href="./chap-exp-wb.xml" />
     <xi:include href="./chap-trig-wb.xml" />
     <xi:include href="./chap-poly-wb.xml" /> -->
+
 <backmatter xml:id="backmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Back Matter</title>
   <colophon>

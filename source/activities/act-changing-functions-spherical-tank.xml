@@ -26,7 +26,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-changing-functions-spherical-tank-task-0">
+    <task workspace="3.5cm" xml:id="act-changing-functions-spherical-tank-task-0">
       <statement>
         <p>
 						What values of <m>h</m> make sense to consider in the context of this function?  What values of <m>V</m> make sense in the same context?
@@ -36,7 +36,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-functions-spherical-tank-task-1">
+    <task workspace="3.5cm" xml:id="act-changing-functions-spherical-tank-task-1">
       <statement>
         <p>
 						What is the domain of the function <m>f</m> in the context of the spherical tank?  Why?  What is the corresponding codomain?  Why?
@@ -46,7 +46,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-functions-spherical-tank-task-2">
+    <task workspace="4cm" xml:id="act-changing-functions-spherical-tank-task-2">
       <statement>
         <p>
 						Determine and interpret (with appropriate units) the values
@@ -67,10 +67,10 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-functions-spherical-tank-task-4">
+    <task workspace="4cm" xml:id="act-changing-functions-spherical-tank-task-4">
       <statement>
         <p>
-			            Can you determine a value of <m>h</m> for which <m>f(h) = 300</m> cubic meters?
+			            Can you determine a value of <m>h</m> for which <m>f(h) = 300</m> cubic meters? Why or why not?
 					</p>
       </statement>
       <hint/>

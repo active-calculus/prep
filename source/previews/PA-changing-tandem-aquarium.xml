@@ -30,7 +30,7 @@
       </sidebyside>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="PA-changing-aquarium-task-0">
+    <task workspace="4cm" xml:id="PA-changing-aquarium-task-0">
       <statement>
         <p>
 					What are some different quantities that are changing in this scenario?
@@ -40,7 +40,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-changing-aquarium-task-1">
+    <task workspace="4cm" xml:id="PA-changing-aquarium-task-1">
       <statement>
         <p>
 					After <m>1</m> minute has elapsed, how much water is in the tank?  At this moment, how deep is the water?
@@ -50,7 +50,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-changing-aquarium-task-2">
+    <task workspace="4cm" xml:id="PA-changing-aquarium-task-2">
       <statement>
         <p>
 					How much water is in the tank and how deep is the water after <m>2</m> minutes?  After <m>3</m> minutes?
@@ -60,7 +60,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-changing-aquarium-task-3">
+    <task workspace="4cm" xml:id="PA-changing-aquarium-task-3">
       <statement>
         <p>
 					How long will it take for the tank to be completely full?  Why?

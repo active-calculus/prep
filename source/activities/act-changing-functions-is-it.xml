@@ -20,20 +20,20 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-changing-functions-is-it-task-0">
+    <task workspace="4cm" xml:id="act-changing-functions-is-it-task-0">
       <statement>
         <p>
-						The relationship between <m>x</m> and <m>y</m> in each of the graphs below (address each graph separately as a potential situation where <m>y</m> is a function of <m>x</m>).  In <xref ref="F-functions-act-is-it-1">Figure</xref>, any point on the circle relates <m>x</m> and <m>y</m>.  For instance, the <m>y</m>-value <m>\sqrt{7}</m> is related to the <m>x</m>-value <m>-3</m>.  In <xref ref="F-functions-act-is-it-2">Figure</xref>, any point on the blue curve relates <m>x</m> and <m>y</m>.  For instance, when <m>x = -1</m>, the corresponding <m>y</m>-value is <m>y = 3</m>.  An unfilled circle indicates that there is not a point on the graph at that specific location.
+						The relationship between <m>x</m> and <m>y</m> in each of the graphs below (address each graph separately as a potential situation where <m>y</m> is a function of <m>x</m>).  In the lefthand figure, any point on the circle relates <m>x</m> and <m>y</m>.  For instance, the <m>y</m>-value <m>\sqrt{7}</m> is related to the <m>x</m>-value <m>-3</m>.  In the righthand figure, any point on the blue curve relates <m>x</m> and <m>y</m>.  For instance, when <m>x = -1</m>, the corresponding <m>y</m>-value is <m>y = 3</m>.  An unfilled circle indicates that there is not a point on the graph at that specific location.
 					</p>
         <sidebyside width="50%">
-          <figure xml:id="F-functions-act-is-it-1">
-            <caption>A circle of radius <m>4</m> centered at <m>(0,0)</m>.</caption>
-            <image source="images/functions-act-is-it-1"/>
-          </figure>
+<!--          <figure xml:id="F-functions-act-is-it-1">
+            <caption>A circle of radius <m>4</m> centered at <m>(0,0)</m>.</caption> -->
+            <image width="90%" source="images/functions-act-is-it-1"/>
+<!--          </figure>
           <figure xml:id="F-functions-act-is-it-2">
-            <caption>A graph of a possible function <m>g</m>.</caption>
-            <image source="images/functions-act-is-it-2"/>
-          </figure>
+            <caption>A graph of a possible function <m>g</m>.</caption> -->
+            <image width="90%" source="images/functions-act-is-it-2"/>
+<!--          </figure> -->
         </sidebyside>
       </statement>
       <hint/>
@@ -50,7 +50,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-functions-is-it-task-2">
+    <task workspace="4cm" xml:id="act-changing-functions-is-it-task-2">
       <statement>
         <p>
 						The relationship between a car's velocity and its odometer, where we attempt to view the car's odometer reading as a function of its velocity.
@@ -60,13 +60,13 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-functions-is-it-task-3">
+    <task workspace="4cm" xml:id="act-changing-functions-is-it-task-3">
       <statement>
         <p>
 						The relationship between <m>x</m> and <m>y</m> that is given in the following table where we attempt to view <m>y</m> as depending on <m>x</m>.
 					</p>
-        <table xml:id="T-act-functions-is-it-2">
-          <title>A table that relates <m>x</m> and <m>y</m> values.</title>
+<!--       <table xml:id="T-act-functions-is-it-2">
+          <title>A table that relates <m>x</m> and <m>y</m> values.</title> -->
           <tabular>
             <row bottom="minor">
               <cell>
@@ -109,7 +109,7 @@
               </cell>
             </row>
           </tabular>
-        </table>
+<!--        </table> -->
       </statement>
       <hint/>
       <answer/>

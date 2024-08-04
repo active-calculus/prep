@@ -16,11 +16,10 @@
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-changing-aroc">
   <title>The Average Rate of Change of a Function</title>
 
-    	<xi:include href="./previews/PA-changing-aroc.xml" />		
-
+    <xi:include href="./previews/PA-changing-aroc.xml" />		
 		<xi:include href="./activities/act-changing-aroc-population.xml" />
-
 		<xi:include href="./activities/act-changing-aroc-trends.xml" />
 		<xi:include href="./activities/act-changing-aroc-graphs.xml" />
+		
 </section>
 

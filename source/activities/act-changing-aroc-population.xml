@@ -17,15 +17,15 @@
     <introduction>
       <p>
 	      	According to the US census,
-      		the populations of Kent and Ottawa Counties in Michigan where GVSU is located<fn>
-      			Grand Rapids is in Kent, Allendale in Ottawa.
-      		</fn>
+      		the populations of Kent and Ottawa Counties in Michigan where GVSU is located
+      			(Grand Rapids is in Kent, Allendale in Ottawa)
       		 from 1960 to 2010 measured in <m>10</m>-year intervals are given in the following tables.
     	</p>
-      <table xml:id="T-act-changing-aroc-population-Kent">
-        <title>Kent County population data.</title>
+<!--      <table xml:id="T-act-changing-aroc-population-Kent">
+        <title>Kent County population data.</title> -->
         <tabular>
           <row bottom="minor">
+            <cell>Year:</cell>
             <cell>1960</cell>
             <cell>1970</cell>
             <cell>1980</cell>
@@ -34,6 +34,7 @@
             <cell>2010</cell>
           </row>
           <row>
+            <cell>Kent County population:</cell>
             <cell>363,187</cell>
             <cell>411,044</cell>
             <cell>444,506</cell>
@@ -42,11 +43,12 @@
             <cell>602,622</cell>
           </row>
         </tabular>
-      </table>
+<!--      </table>
       <table xml:id="T-act-changing-aroc-population-Ottawa">
-        <title>Ottawa county population data.</title>
+        <title>Ottawa county population data.</title> -->
         <tabular>
           <row bottom="minor">
+            <cell>Year:</cell>
             <cell>1960</cell>
             <cell>1970</cell>
             <cell>1980</cell>
@@ -55,6 +57,7 @@
             <cell>2010</cell>
           </row>
           <row>
+            <cell>Ottawa County Population:</cell>
             <cell>98,719</cell>
             <cell>128,181</cell>
             <cell>157,174</cell>
@@ -63,13 +66,13 @@
             <cell>263,801</cell>
           </row>
         </tabular>
-      </table>
+<!--      </table> -->
       <p>
 			Let <m>K(Y)</m> represent the population of Kent County in year <m>Y</m> and <m>W(Y)</m> the population of Ottawa County in year <m>Y</m>.
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-changing-aroc-population-task-0">
+    <task workspace="5cm" xml:id="act-changing-aroc-population-task-0">
       <statement>
         <p>
 						Compute <m>AV_{[1990,2010]}</m> for both <m>K</m> and <m>W</m>.
@@ -79,7 +82,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-aroc-population-task-1">
+    <task workspace="4cm" xml:id="act-changing-aroc-population-task-1">
       <statement>
         <p>
 			            What are the units on each of the quantities you computed in (a.)?
@@ -89,7 +92,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-aroc-population-task-2">
+    <task workspace="4cm" xml:id="act-changing-aroc-population-task-2">
       <statement>
         <p>
 			    		Write a careful sentence that explains the meaning of the average rate of change of the Ottawa county population on the time interval <m>[1990,2010]</m>.  Your sentence should begin something like
@@ -99,7 +102,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-aroc-population-task-3">
+    <task workspace="5cm" xml:id="act-changing-aroc-population-task-3">
       <statement>
         <p>
 			    		Which county had a greater average rate of change during the time interval <m>[2000,2010]</m>?
@@ -110,7 +113,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-aroc-population-task-4">
+    <task workspace="5cm" xml:id="act-changing-aroc-population-task-4">
       <statement>
         <p>
 			    		Using the given data, what do you predict will be the population of Ottawa County in 2018? Why?
