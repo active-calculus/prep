@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-changing-composite-crickets-celcius-task-0">
+    <task workspace="4cm" xml:id="act-changing-composite-crickets-celcius-task-0">
       <statement>
         <p>
 						Determine a formula for the new function <m>H = (G \circ D)</m> that depends only on the variable <m>N</m>.
@@ -40,27 +40,27 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-composite-crickets-celcius-task-2">
+    <task workspace="2.5cm" xml:id="act-changing-composite-crickets-celcius-task-2">
       <statement>
         <p>
 						How does a plot of the function <m>H = (G \circ D)</m> compare to that of Dolbear's function?  Sketch a plot of <m>y = H(N) = (G \circ D)(N)</m> on the blank axes to the right of the plot of Dolbear's function, and discuss the similarities and differences between them.  Be sure to label the vertical scale on your axes.
 					</p>
-        <sidebyside width="50%">
-          <figure xml:id="F-act-changing-composite-Dolbear-revisited">
-            <caption>Dolbear's function.</caption>
+        <sidebyside width="45%">
+<!--         <figure xml:id="F-act-changing-composite-Dolbear-revisited">
+            <caption>Dolbear's function.</caption> -->
             <image source="images/functions-Dolbears-Law"/>
-          </figure>
+<!--          </figure>
           <figure xml:id="F-act-changing-composite-Dolbear-celcius">
-            <caption>Blank axes to plot <m>H = (G \circ D)(N)</m>.</caption>
+            <caption>Blank axes to plot <m>H = (G \circ D)(N)</m>.</caption> -->
             <image source="images/composite-Dolbears-Law-celcius-blank"/>
-          </figure>
+<!--          </figure> -->
         </sidebyside>
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-composite-crickets-celcius-task-3">
+    <task workspace="4cm" xml:id="act-changing-composite-crickets-celcius-task-3">
       <statement>
         <p>
 						What is the domain of the function <m>H = G \circ D</m>?  What is its range?

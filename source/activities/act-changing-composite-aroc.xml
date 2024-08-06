@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-changing-composite-aroc-task-0">
+    <task workspace="5cm" xml:id="act-changing-composite-aroc-task-0">
       <statement>
         <p>
 		            Compute <m>f(1+h)</m> and expand and simplify the result as much as possible by combining like terms.
@@ -30,7 +30,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-composite-aroc-task-1">
+    <task workspace="4cm" xml:id="act-changing-composite-aroc-task-1">
       <statement>
         <p>
 		            Determine the most simplified expression you can for the average rate of change of <m>f</m> on the interval <m>[1,1+h]</m>.
@@ -41,7 +41,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-composite-aroc-task-2">
+    <task workspace="4cm" xml:id="act-changing-composite-aroc-task-2">
       <statement>
         <p>
 		            Compute <m>g(1+h)</m>.
@@ -52,7 +52,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-composite-aroc-task-3">
+    <task workspace="4cm" xml:id="act-changing-composite-aroc-task-3">
       <statement>
         <p>
 		            Determine the most simplified expression you can for the average rate of change of <m>g</m> on the interval <m>[1,1+h]</m>.

@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-changing-quadratic-properties-task-0">
+    <task workspace="6cm" xml:id="act-changing-quadratic-properties-task-0">
       <statement>
         <p>
 						How many quadratic functions have <m>x</m>-intercepts at <m>(-5,0)</m> and <m>(10,0)</m> and a <m>y</m>-intercept at <m>(0,-1)</m>?  Can you determine an exact formula for such a function?  If yes, do so.  If not, explain why.
@@ -30,7 +30,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-quadratic-properties-task-1">
+    <task workspace="5cm" xml:id="act-changing-quadratic-properties-task-1">
       <statement>
         <p>
 						Suppose that a quadratic function <m>q</m> has vertex <m>(-3,-4)</m> and opens upward.  How many <m>x</m>-intercepts can you guarantee the function has?  Why?
@@ -40,7 +40,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-quadratic-properties-task-2">
+    <task workspace="6cm" xml:id="act-changing-quadratic-properties-task-2">
       <statement>
         <p>
 						In addition to the information in (b), suppose you know that <m>q(-1) = -3</m>.  Can you determine an exact formula for <m>q</m>?  If yes, do so.  If not, explain why.
@@ -50,20 +50,20 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-quadratic-properties-task-3">
+    <task workspace="6cm" xml:id="act-changing-quadratic-properties-task-3">
       <statement>
         <p>
-						Does the quadratic function <m>p(x) = -3(x+1)^2 + 9</m> have <m>0</m>, <m>1</m>, or <m>2</m><m>x</m>-intercepts?  Reason algebraically to determine the exact values of any such intercepts or explain why none exist.
+						Does the quadratic function <m>p(x) = -3(x+1)^2 + 9</m> have <m>0</m>, <m>1</m>, or <m>2</m> <m>x</m>-intercepts?  Reason algebraically to determine the exact values of any such intercepts or explain why none exist.
 					</p>
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-quadratic-properties-task-4">
+    <task workspace="6cm" xml:id="act-changing-quadratic-properties-task-4">
       <statement>
         <p>
-						Does the quadratic function <m>w(x) = -2x^2 + 10x - 20</m> have <m>0</m>, <m>1</m>, or <m>2</m><m>x</m>-intercepts?  Reason algebraically to determine the exact values of any such intercepts or explain why none exist.
+						Does the quadratic function <m>w(x) = -2x^2 + 10x - 20</m> have <m>0</m>, <m>1</m>, or <m>2</m> <m>x</m>-intercepts?  Reason algebraically to determine the exact values of any such intercepts or explain why none exist.
 					</p>
       </statement>
       <hint/>

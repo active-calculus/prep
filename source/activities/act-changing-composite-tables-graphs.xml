@@ -16,13 +16,11 @@
   <activity xml:id="act-changing-composite-tables-graphs">
     <introduction>
       <p>
-			Let functions <m>p</m> and <m>q</m> be given by the graphs in <xref ref="F-act-changing-composite-tables-graphs">Figure</xref>
-      		(which are each piecewise linear - that is, parts that look like straight lines are straight lines)
-      		and let <m>f</m> and <m>g</m> be given by <xref ref="T-act-changing-composite-tables-graphs">Table</xref>.
+			Let functions <m>p</m> and <m>q</m> be given by the graphs in the figure below, which are each piecewise linear - that is, parts that look like straight lines are straight lines.  In addition, let <m>f</m> and <m>g</m> be given by the tables below.
 		</p>
       <sidebyside width="50%" valign="middle">
-        <table xml:id="T-act-changing-composite-tables-graphs">
-          <title>Table that defines <m>f</m> and <m>g</m>.</title>
+<!--        <table xml:id="T-act-changing-composite-tables-graphs">
+          <title>Table that defines <m>f</m> and <m>g</m>.</title> -->
           <tabular>
             <row bottom="minor">
               <cell>
@@ -55,18 +53,18 @@
               <cell>2</cell>
             </row>
           </tabular>
-        </table>
+<!--        </table>
         <figure xml:id="F-act-changing-composite-tables-graphs">
-          <caption>The graphs of <m>p</m> and <m>q</m>.</caption>
+          <caption>The graphs of <m>p</m> and <m>q</m>.</caption> -->
           <image source="images/composite-act-graphs"/>
-        </figure>
+<!--        </figure> -->
       </sidebyside>
       <p>
 			Compute each of the following quantities or explain why they are not defined.
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-changing-composite-tables-graphs-task-0">
+    <task workspace="1.5cm" xml:id="act-changing-composite-tables-graphs-task-0">
       <statement>
         <p>
           <m>p(q(0))</m>
@@ -76,7 +74,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-composite-tables-graphs-task-1">
+    <task workspace="2cm" xml:id="act-changing-composite-tables-graphs-task-1">
       <statement>
         <p>
           <m>q(p(0))</m>
@@ -86,7 +84,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-composite-tables-graphs-task-2">
+    <task workspace="2cm" xml:id="act-changing-composite-tables-graphs-task-2">
       <statement>
         <m>(p \circ p)(-1)</m>
       </statement>
@@ -94,7 +92,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-composite-tables-graphs-task-3">
+    <task workspace="2cm" xml:id="act-changing-composite-tables-graphs-task-3">
       <statement>
         <p>
           <m>(f \circ g)(2)</m>
@@ -104,7 +102,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-composite-tables-graphs-task-4">
+    <task workspace="2cm" xml:id="act-changing-composite-tables-graphs-task-4">
       <statement>
         <p>
           <m>(g \circ f)(3)</m>
@@ -114,7 +112,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-composite-tables-graphs-task-5">
+    <task workspace="2cm" xml:id="act-changing-composite-tables-graphs-task-5">
       <statement>
         <p>
           <m>g(f(0))</m>
@@ -124,7 +122,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-composite-tables-graphs-task-6">
+    <task workspace="4cm" xml:id="act-changing-composite-tables-graphs-task-6">
       <statement>
         <p>
 		            For what value(s) of <m>x</m> is <m>f(g(x)) = 4</m>?
@@ -134,7 +132,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-composite-tables-graphs-task-7">
+    <task workspace="4cm" xml:id="act-changing-composite-tables-graphs-task-7">
       <statement>
         <p>
 		            For what value(s) of <m>x</m> is <m>q(p(x)) = 1</m>?

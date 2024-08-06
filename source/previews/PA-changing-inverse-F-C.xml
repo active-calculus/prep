@@ -20,7 +20,7 @@
 	</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="PA-changing-inverse-F-C-task-0">
+    <task workspace="5cm" xml:id="PA-changing-inverse-F-C-task-0">
       <statement>
         <p>
 					Show that it is possible to solve the equation <m>F = \frac{9}{5}C + 32</m> for <m>C</m> in terms of <m>F</m> and that doing so results in the equation <m>C = \frac{5}{9}(F-32)</m>.
@@ -30,7 +30,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-changing-inverse-F-C-task-1">
+    <task workspace="6cm" xml:id="PA-changing-inverse-F-C-task-1">
       <statement>
         <p>
 					Note that the equation <m>C = \frac{5}{9}(F-32)</m> expresses <m>C</m> as a function of <m>F</m>.  Call this function <m>h</m> so that <m>C = h(F) = \frac{5}{9}(F-32)</m>.
@@ -43,7 +43,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-changing-inverse-F-C-task-2">
+    <task workspace="5cm" xml:id="PA-changing-inverse-F-C-task-2">
       <statement>
         <p>
 					Find the simplest expression that you can for the composite function <m>k(F) = g(h(F))</m>. 
@@ -53,7 +53,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-changing-inverse-F-C-task-3">
+    <task workspace="5cm" xml:id="PA-changing-inverse-F-C-task-3">
       <statement>
         <p>
 					Why are the functions <m>j</m> and <m>k</m> so simple?  Explain by discussing how the functions <m>g</m> and <m>h</m> process inputs to generate outputs and what happens when we first execute one followed by the other.

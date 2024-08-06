@@ -24,7 +24,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-changing-quadratic-parameters-task-0">
+    <task workspace="4cm" xml:id="act-changing-quadratic-parameters-task-0">
       <statement>
         <p>
 		            Describe how changing the value of <m>a</m> affects the graph of <m>q</m>.
@@ -34,7 +34,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-quadratic-parameters-task-1">
+    <task workspace="4cm" xml:id="act-changing-quadratic-parameters-task-1">
       <statement>
         <p>
 		            Describe how changing the value of <m>b</m> affects the graph of <m>q</m>.
@@ -44,7 +44,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-quadratic-parameters-task-2">
+    <task workspace="4cm" xml:id="act-changing-quadratic-parameters-task-2">
       <statement>
         <p>
 		            Describe how changing the value of <m>c</m> affects the graph of <m>q</m>.
@@ -54,7 +54,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-quadratic-parameters-task-3">
+    <task workspace="5cm" xml:id="act-changing-quadratic-parameters-task-3">
       <statement>
         <p>
 		            Which parameter seems to have the simplest effect?
@@ -66,7 +66,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-quadratic-parameters-task-4">
+    <task workspace="5cm" xml:id="act-changing-quadratic-parameters-task-4">
       <statement>
         <p>
 		            Is it possible to find a formula for a quadratic function that passes through the points <m>(0,8)</m>,

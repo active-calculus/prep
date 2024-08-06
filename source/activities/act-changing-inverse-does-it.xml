@@ -20,13 +20,13 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-changing-inverse-does-it-task-0">
+    <task workspace="5cm" xml:id="act-changing-inverse-does-it-task-0">
       <statement>
         <p>
-				      The function <m>f : S \to S</m> given by <xref ref="T-act-changing-inverse-does-it-1">Table</xref>, where <m>S = \{0, 1, 2, 3, 4 \}</m>.
+				      The function <m>f : S \to S</m> given by the table of values below, where <m>S = \{0, 1, 2, 3, 4 \}</m>.
     				</p>
-        <table xml:id="T-act-changing-inverse-does-it-1">
-          <title>Values of <m>y = f(x)</m>.</title>
+<!--        <table xml:id="T-act-changing-inverse-does-it-1">
+          <title>Values of <m>y = f(x)</m>.</title> -->
           <tabular>
             <row bottom="minor">
               <cell>
@@ -49,19 +49,19 @@
               <cell>2</cell>
             </row>
           </tabular>
-        </table>
+<!--        </table> -->
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-inverse-does-it-task-1">
+    <task workspace="5cm" xml:id="act-changing-inverse-does-it-task-1">
       <statement>
         <p>
-				      The function <m>g : S \to S</m> given by <xref ref="T-act-changing-inverse-does-it-2">Table</xref>, where <m>S = \{0, 1, 2, 3, 4 \}</m>.
+				      The function <m>g : S \to S</m> given by the table of values below, where <m>S = \{0, 1, 2, 3, 4 \}</m>.
     				</p>
-        <table xml:id="T-act-changing-inverse-does-it-2">
-          <title>Values of <m>y = g(x)</m>.</title>
+<!--        <table xml:id="T-act-changing-inverse-does-it-2">
+          <title>Values of <m>y = g(x)</m>.</title> -->
           <tabular>
             <row bottom="minor">
               <cell>
@@ -84,13 +84,13 @@
               <cell>2</cell>
             </row>
           </tabular>
-        </table>
+<!--        </table> -->
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-inverse-does-it-task-2">
+    <task workspace="5cm" xml:id="act-changing-inverse-does-it-task-2">
       <statement>
         <p>
 						The function <m>p</m> given by <m>p(t) = 7 - \frac{3}{5}t</m>.  Assume that the domain and codomain of <m>p</m> are both <q>all real numbers</q>.
@@ -100,7 +100,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-inverse-does-it-task-3">
+    <task workspace="5cm" xml:id="act-changing-inverse-does-it-task-3">
       <statement>
         <p>
 						The function <m>q</m> given by <m>q(t) = 7 - \frac{3}{5}t^4</m>.  Assume that the domain and codomain of <m>q</m> are both <q>all real numbers</q>.
@@ -110,20 +110,20 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-inverse-does-it-task-4">
+    <task workspace="3.5cm" xml:id="act-changing-inverse-does-it-task-4">
       <statement>
         <p>
-						The functions <m>r</m> and <m>s</m> given by the graphs in <xref ref="F-act-inverse-does-it-1">Figure</xref> and <xref ref="F-act-inverse-does-it-2">Figure</xref>.  Assume that the graphs show all of the important behavior of the functions and that the apparent trends continue beyond what is pictured.
+						The functions <m>r</m> and <m>s</m> given by the graphs in the figures below.  Assume that the graphs show all of the important behavior of the functions and that the apparent trends continue beyond what is pictured.
 					</p>
-        <sidebyside width="50%">
-          <figure xml:id="F-act-inverse-does-it-1">
-            <caption>The graph of <m>y = r(t)</m>.</caption>
+        <sidebyside width="45%">
+<!--          <figure xml:id="F-act-inverse-does-it-1">
+            <caption>The graph of <m>y = r(t)</m>.</caption> -->
             <image source="images/inverse-act-does-it-1"/>
-          </figure>
+<!--          </figure>
           <figure xml:id="F-act-inverse-does-it-2">
-            <caption>The graph of <m>y = s(t)</m>.</caption>
+            <caption>The graph of <m>y = s(t)</m>.</caption> -->
             <image source="images/inverse-act-does-it-2"/>
-          </figure>
+<!--          </figure> -->
         </sidebyside>
       </statement>
       <hint/>

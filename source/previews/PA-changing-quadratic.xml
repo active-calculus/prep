@@ -23,14 +23,14 @@
 	</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="PA-changing-quadratic-task-0">
+    <task workspace="2cm" xml:id="PA-changing-quadratic-task-0">
       <statement>
         <p>
-					Execute appropriate computations to complete both of the following tables.  
+					Execute appropriate computations to complete both of the following tables: values of the function <m>h</m> on the left, average rates of change for <m>h</m> on the right.  
 				</p>
         <sidebyside widths="48% 48%" margins="0%" valign="bottom">
-          <table xml:id="T-PA-changing-quadratic-heights">
-            <title>Function values for <m>h</m> at select inputs.</title>
+<!--          <table xml:id="T-PA-changing-quadratic-heights">
+            <title>Function values for <m>h</m> at select inputs.</title> -->
             <tabular>
               <row bottom="minor">
                 <cell>
@@ -79,9 +79,9 @@
                 <cell/>
               </row>
             </tabular>
-          </table>
+<!--          </table>
           <table xml:id="T-PA-changing-quadratic-AVs">
-            <title>Average rates of change for <m>h</m> on select intervals.</title>
+            <title>Average rates of change for <m>h</m> on select intervals.</title> -->
             <tabular>
               <row bottom="minor">
                 <cell>
@@ -125,34 +125,34 @@
                 <cell colspan="2"/>
               </row>
             </tabular>
-          </table>
+<!--          </table> -->
         </sidebyside>
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-changing-quadratic-task-1">
+    <task workspace="5cm" xml:id="PA-changing-quadratic-task-1">
       <statement>
         <p>
-					What pattern(s) do you observe in <xref ref="T-PA-changing-quadratic-heights">Tables</xref> and <xref ref="T-PA-changing-quadratic-AVs"/>?
+					What pattern(s) do you observe in the table of function values and in the table of average rates of change?
 				</p>
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-changing-quadratic-task-2">
+    <task workspace="5cm" xml:id="PA-changing-quadratic-task-2">
       <statement>
         <p>
-					Explain why <m>h = q(t)</m> is not a linear function.  Use <xref ref="D-linear-function">Definition</xref> in your response.
+					Explain why <m>h = q(t)</m> is not a linear function.  Use the definition of a linear function (that is, referencing average rate of change) in your response.
 				</p>
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-changing-quadratic-task-3">
+    <task workspace="5cm" xml:id="PA-changing-quadratic-task-3">
       <statement>
         <p>
 					What is the average velocity of the water balloon in the final second before it lands?  How does this value compare to the average velocity on the time interval <m>[4.9, 5]</m>?

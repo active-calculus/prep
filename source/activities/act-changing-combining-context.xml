@@ -37,7 +37,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-combining-context-task-1">
+    <task workspace="4cm" xml:id="act-changing-combining-context-task-1">
       <statement>
         <p>
 	            Consider the function <m>g(v) = \frac{1}{f(v)}</m>.
@@ -50,7 +50,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-combining-context-task-2">
+    <task workspace="4cm" xml:id="act-changing-combining-context-task-2">
       <statement>
         <p>
 	            Consider the function <m>h(v) = v \cdot f(v)</m>.
@@ -63,7 +63,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-combining-context-task-3">
+    <task workspace="4cm" xml:id="act-changing-combining-context-task-3">
       <statement>
         <p>
 	        		Do <m>f(60)</m>, <m>g(60)</m>, and <m>h(60)</m> tell us fundamentally different information, or are they all essentially saying the same thing?  Explain.
@@ -73,7 +73,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-combining-context-task-4">
+    <task workspace="5cm" xml:id="act-changing-combining-context-task-4">
       <statement>
         <p>
 	            Suppose we also know that <m>f(70) = 0.045</m>.

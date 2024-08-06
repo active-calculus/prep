@@ -33,7 +33,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-0-0-0-task-1">
+    <task workspace="4cm" xml:id="act-0-0-0-task-1">
       <statement>
         <p>
 						Compute the average rate of change of <m>g</m> on the time interval <m>[3,5]</m> and write two careful complete sentences to explain the meaning of this value in the context of the problem, including units.  Explicitly address what the value you compute tells you about how rain is falling over a certain time interval, and what you should expect as time goes on.
@@ -53,7 +53,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-0-0-0-task-3">
+    <task workspace="4.5cm" xml:id="act-0-0-0-task-3">
       <statement>
         <p>
 						Determine <m>g^{-1} \left( \frac{9}{5} \right)</m> and write a complete sentence to explain its meaning in the given context.
@@ -63,7 +63,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-0-0-0-task-4">
+    <task workspace="4cm" xml:id="act-0-0-0-task-4">
       <statement>
         <p>
 						According to the model <m>g</m>, is there ever a time during the storm that the rain falls at a rate of exactly <m>1</m> centimeter per hour?  Why or why not?  Provide an algebraic justification for your answer.

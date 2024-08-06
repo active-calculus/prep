@@ -68,8 +68,8 @@
 
     <xi:include href="./chap-changing-wb.xml" />
 
-    <!-- <xi:include href="./chap-circular-wb.xml" />
-    <xi:include href="./chap-exp-wb.xml" />
+    <xi:include href="./chap-circular-wb.xml" />
+    <!--     <xi:include href="./chap-exp-wb.xml" />
     <xi:include href="./chap-trig-wb.xml" />
     <xi:include href="./chap-poly-wb.xml" /> -->
 

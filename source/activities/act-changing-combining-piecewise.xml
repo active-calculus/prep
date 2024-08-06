@@ -21,7 +21,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-changing-combining-piecewise-task-0">
+    <task workspace="5cm" xml:id="act-changing-combining-piecewise-task-0">
       <statement>
         <p>
 						Consider the function <m>p</m> defined by the following rule:
@@ -40,7 +40,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-combining-piecewise-task-1">
+    <task workspace="6cm" xml:id="act-changing-combining-piecewise-task-1">
       <statement>
         <p>
 						What point is the vertex of the quadratic part of <m>p</m> that is valid for <m>x \lt 0</m>?  What point is the vertex of the quadratic part of <m>p</m> that is valid for <m>x \ge 0</m>? 
@@ -50,7 +50,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-combining-piecewise-task-2">
+    <task workspace="5cm" xml:id="act-changing-combining-piecewise-task-2">
       <statement>
         <p>
 						For what values of <m>x</m> is <m>p(x) = 0</m>?  In addition, what is the <m>y</m>-intercept of <m>p</m>?
@@ -60,30 +60,30 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-combining-piecewise-task-3">
+    <task workspace="0.5cm" xml:id="act-changing-combining-piecewise-task-3">
       <statement>
         <p>
-						Sketch an accurate, labeled graph of <m>y = p(x)</m> on the axes provided in <xref ref="F-combining-act-piecewise-axes">Figure</xref>.
+						Sketch an accurate, labeled graph of <m>y = p(x)</m> on the axes provided at left in the following figure.
 					</p>
-        <sidebyside width="50%">
-          <figure xml:id="F-combining-act-piecewise-axes">
-            <caption>Axes to plot <m>y = p(x)</m>.</caption>
+        <sidebyside width="45%">
+<!--          <figure xml:id="F-combining-act-piecewise-axes">
+            <caption>Axes to plot <m>y = p(x)</m>.</caption> -->
             <image source="images/functions-y-x-blank-axes-centered-2"/>
-          </figure>
-          <figure xml:id="F-combining-act-piecewise-graph">
-            <caption>Graph of <m>y = f(x)</m>.</caption>
+<!--          </figure>
+          <figure xml:id="F-combining-act-piecewise-graph"> 
+            <caption>Graph of <m>y = f(x)</m>.</caption> -->
             <image source="images/combining-act-f"/>
-          </figure>
+<!--          </figure> -->
         </sidebyside>
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-combining-piecewise-task-4">
+    <task workspace="6cm" xml:id="act-changing-combining-piecewise-task-4">
       <statement>
         <p>
-						For the function <m>f</m> defined by <xref ref="F-combining-act-piecewise-graph">Figure</xref>, determine a piecewise-defined formula for <m>f</m> that is expressed in bracket notation similar to the definition of <m>y = p(x)</m> above.
+						For the function <m>f</m> defined by the righthand figure in (d), determine a piecewise-defined formula for <m>f</m> that is expressed in bracket notation similar to the definition of <m>y = p(x)</m> above.
 					</p>
       </statement>
       <hint/>

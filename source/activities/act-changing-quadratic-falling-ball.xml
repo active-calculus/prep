@@ -31,11 +31,11 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-quadratic-falling-ball-task-1">
+    <task workspace="6cm" xml:id="act-changing-quadratic-falling-ball-task-1">
       <statement>
         <p>
 	            Plot the function in <em>Desmos</em>
-	            in an appropriate window.
+	            in an appropriate window.  Sketch a copy of the graph here.
 	          </p>
       </statement>
       <hint/>
@@ -52,7 +52,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-quadratic-falling-ball-task-3">
+    <task workspace="5.5cm" xml:id="act-changing-quadratic-falling-ball-task-3">
       <statement>
         <p>
 	            Use algebra to find the exact
@@ -63,7 +63,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-quadratic-falling-ball-task-4">
+    <task workspace="5cm" xml:id="act-changing-quadratic-falling-ball-task-4">
       <statement>
         <p>
 	            Determine the exact time the water balloon reaches its highest point and its height at that time.
@@ -73,7 +73,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-quadratic-falling-ball-task-5">
+    <task workspace="5cm" xml:id="act-changing-quadratic-falling-ball-task-5">
       <statement>
         <p>
 	            Compute the average rate of change of <m>s</m> on the intervals <m>[1.5, 2]</m>,
