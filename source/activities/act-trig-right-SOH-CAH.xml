@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-trig-right-SOH-CAH-task-0">
+    <task workspace="6cm" xml:id="act-trig-right-SOH-CAH-task-0">
       <statement>
         <p>
 						A right triangle with hypotenuse <m>7</m> and one non-right angle of measure <m>\frac{\pi}{7}</m>.
@@ -30,7 +30,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-right-SOH-CAH-task-1">
+    <task workspace="6cm" xml:id="act-trig-right-SOH-CAH-task-1">
       <statement>
         <p>
 						A right triangle with non-right angle <m>\alpha</m> that satisfies <m>\sin(\alpha) = \frac{3}{5}</m>.
@@ -40,7 +40,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-right-SOH-CAH-task-2">
+    <task workspace="6cm" xml:id="act-trig-right-SOH-CAH-task-2">
       <statement>
         <p>
 						A right triangle where one of the non-right angles has measure <m>1.2</m> and the hypotenuse has length <m>2.7</m>.
@@ -50,7 +50,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-right-SOH-CAH-task-3">
+    <task workspace="6cm" xml:id="act-trig-right-SOH-CAH-task-3">
       <statement>
         <p>
 						A right triangle with hypotenuse <m>13</m> and one leg of length <m>6.5</m>.
@@ -60,7 +60,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-right-SOH-CAH-task-4">
+    <task workspace="6cm" xml:id="act-trig-right-SOH-CAH-task-4">
       <statement>
         <p>
 						A right triangle with legs of length <m>5</m> and <m>12</m>.
@@ -70,7 +70,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-right-SOH-CAH-task-5">
+    <task workspace="6cm" xml:id="act-trig-right-SOH-CAH-task-5">
       <statement>
         <p>
 						A right triangle where one of the non-right angles has measure <m>\frac{\pi}{5}</m> and the leg opposite this angle has length <m>4</m>.

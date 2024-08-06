@@ -18,19 +18,19 @@
       <p>
 			In this activity, we develop the standard properties of the cosecant function, <m>q(t) = \csc(t)</m>.
 		</p>
-      <figure xml:id="F-cosecant-plot">
-        <caption>Axes for plotting <m>q(t) = \csc(t)</m>.</caption>
-        <image source="images/other-csc-activity-graph" width="80%"/>
-      </figure>
+<!--      <figure xml:id="F-cosecant-plot">
+        <caption>Axes for plotting <m>q(t) = \csc(t)</m>.</caption> -->
+        <image source="images/other-csc-activity-graph" width="70%"/>
+<!--      </figure> --> 
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-trig-other-csc-task-0">
+    <task workspace="1cm" xml:id="act-trig-other-csc-task-0">
       <statement>
         <p>
-						Complete <xref ref="T-cosecant-values">Table</xref> and <xref ref="T-cosecant-values-2">Table</xref> to determine the exact values of the cosecant function at the special points on the unit circle.  Enter <q><m>u</m></q> for any value at which <m>q(t) = \csc(t)</m> is undefined.
+						Complete the tables below to determine the exact values of the cosecant function at the special points on the unit circle.  Enter <q><m>u</m></q> for any value at which <m>q(t) = \csc(t)</m> is undefined.
 					</p>
-        <table xml:id="T-cosecant-values">
-          <title>Values of the sine function at special points on the unit circle (Quadrants I and II).</title>
+<!--        <table xml:id="T-cosecant-values">
+          <title>Values of the sine function at special points on the unit circle (Quadrants I and II).</title> -->
           <tabular>
             <row bottom="minor" halign="center">
               <cell>
@@ -129,9 +129,9 @@
               </cell>
             </row>
           </tabular>
-        </table>
+<!--        </table>
         <table xml:id="T-cosecant-values-2">
-          <title>Values of the sine function at special points on the unit circle (Quadrants III and IV).</title>
+          <title>Values of the sine function at special points on the unit circle (Quadrants III and IV).</title> -->
           <tabular>
             <row bottom="minor" halign="center">
               <cell>
@@ -221,13 +221,13 @@
               </cell>
             </row>
           </tabular>
-        </table>
+<!--        </table> --> 
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-other-csc-task-1">
+    <task workspace="2cm" xml:id="act-trig-other-csc-task-1">
       <statement>
         <p>
 						In which quadrants is <m>q(t) = \csc(t)</m> positive?  negative?
@@ -257,10 +257,10 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-other-csc-task-4">
+    <task workspace="1cm" xml:id="act-trig-other-csc-task-4">
       <statement>
         <p>
-						Sketch an accurate, labeled graph of <m>q(t) = \csc(t)</m> on the axes provided in <xref ref="F-cosecant-plot">Figure</xref>, including the special points that come from the unit circle.
+						Sketch an accurate, labeled graph of <m>q(t) = \csc(t)</m> on the figure given at the start of this activity, including the special points that come from the unit circle.
 					</p>
       </statement>
       <hint/>

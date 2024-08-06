@@ -13,14 +13,14 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="C-trig">
-  	<title>Trigonometry</title>
-  
-  	<xi:include  href="./sec-trig-right-wb.xml" />
-  	<xi:include  href="./sec-trig-tangent-wb.xml" />
-  	<xi:include  href="./sec-trig-inverse-wb.xml" />
- 	<xi:include  href="./sec-trig-finding-angles-wb.xml" />
-  	<xi:include  href="./sec-trig-other-wb.xml" /> 
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-trig-other">
+  <title>Other Trigonometric Functions and Identities</title>
 
-</chapter>
+		<xi:include href="./previews/PA-trig-other.xml" />
+		<xi:include href="./activities/act-trig-other-special.xml" />
+		<xi:include href="./activities/act-trig-other-csc.xml" />
+		<xi:include href="./activities/act-trig-other-cot.xml" />
+		<xi:include href="./activities/act-trig-other-aroc-sine.xml" />
+
+</section>
 

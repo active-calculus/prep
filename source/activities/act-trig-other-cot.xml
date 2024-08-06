@@ -20,13 +20,13 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-trig-other-cot-task-0">
+    <task workspace="1cm" xml:id="act-trig-other-cot-task-0">
       <statement>
         <p>
-						Complete <xref ref="T-cotangent-values">Table</xref> and <xref ref="T-cotangent-values-2">Table</xref> to determine the exact values of the cotangent function at the special points on the unit circle.  Enter <q>u</q> for any value at which <m>r(t) = \cot(t)</m> is undefined.
+						Complete the following tables to determine the exact values of the cotangent function at the special points on the unit circle.  Enter <q>u</q> for any value at which <m>r(t) = \cot(t)</m> is undefined.
 					</p>
-        <table xml:id="T-cotangent-values">
-          <title>Values of the sine, cosine, and tangent functions at special points on the unit circle.</title>
+<!--        <table xml:id="T-cotangent-values">
+          <title>Values of the sine, cosine, and tangent functions at special points on the unit circle.</title> -->
           <tabular>
             <row bottom="minor" halign="center">
               <cell>
@@ -169,9 +169,9 @@
               <cell/>
             </row>
           </tabular>
-        </table>
+<!--        </table>
         <table xml:id="T-cotangent-values-2">
-          <title>Values of the sine, cosine, and tangent functions at special points on the unit circle.</title>
+          <title>Values of the sine, cosine, and tangent functions at special points on the unit circle.</title> -->
           <tabular>
             <row bottom="minor" halign="center">
               <cell>
@@ -301,13 +301,13 @@
               <cell/>
             </row>
           </tabular>
-        </table>
+<!--        </table> -->
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-other-cot-task-1">
+    <task workspace="2cm" xml:id="act-trig-other-cot-task-1">
       <statement>
         <p>
 						In which quadrants is <m>r(t) = \cot(t)</m> positive?  negative?
@@ -317,7 +317,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-other-cot-task-2">
+    <task workspace="4cm" xml:id="act-trig-other-cot-task-2">
       <statement>
         <p>
 						At what <m>t</m>-values does <m>r(t) = \cot(t)</m> have a vertical asymptote?  Why?
@@ -327,7 +327,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-other-cot-task-3">
+    <task workspace="4cm" xml:id="act-trig-other-cot-task-3">
       <statement>
         <p>
 						What is the domain of the cotangent function?  What is its range?
@@ -337,21 +337,21 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-other-cot-task-4">
+    <task workspace="0.25cm" xml:id="act-trig-other-cot-task-4">
       <statement>
         <p>
-						Sketch an accurate, labeled graph of <m>r(t) = \cot(t)</m> on the axes provided in <xref ref="F-cotangent-plot">Figure</xref>, including the special points that come from the unit circle.
+						Sketch an accurate, labeled graph of <m>r(t) = \cot(t)</m> on the axes provided below, including the special points that come from the unit circle.
 					</p>
-        <figure xml:id="F-cotangent-plot">
-          <caption>Axes for plotting <m>r(t) = \cot(t)</m>.</caption>
-          <image source="images/other-cot-definition-graph" width="80%"/>
-        </figure>
+<!--        <figure xml:id="F-cotangent-plot">
+          <caption>Axes for plotting <m>r(t) = \cot(t)</m>.</caption> -->
+          <image source="images/other-cot-definition-graph" width="60%"/>
+<!--        </figure> -->
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-other-cot-task-5">
+    <task workspace="1.75cm" xml:id="act-trig-other-cot-task-5">
       <statement>
         <p>
 						On intervals where the function is defined at every point in the interval, is <m>r(t) = \cot(t)</m> always increasing, always decreasing, or neither?
@@ -361,7 +361,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-other-cot-task-6">
+    <task workspace="1.75cm" xml:id="act-trig-other-cot-task-6">
       <statement>
         <p>
 						What is the period of the cotangent function?
@@ -371,7 +371,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-other-cot-task-7">
+    <task workspace="1.75cm" xml:id="act-trig-other-cot-task-7">
       <statement>
         <p>
 						How would you describe the relationship between the graphs of the tangent and cotangent functions?

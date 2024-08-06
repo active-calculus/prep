@@ -13,14 +13,13 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="C-trig">
-  	<title>Trigonometry</title>
-  
-  	<xi:include  href="./sec-trig-right-wb.xml" />
-  	<xi:include  href="./sec-trig-tangent-wb.xml" />
-  	<xi:include  href="./sec-trig-inverse-wb.xml" />
- 	<xi:include  href="./sec-trig-finding-angles-wb.xml" />
-  	<xi:include  href="./sec-trig-other-wb.xml" /> 
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-poly-infty">
+  <title>Infinity, limits, and power functions</title>
 
-</chapter>
+  	<xi:include href="./previews/PA-poly-infty.xml" />
+  	<xi:include href="./activities/act-poly-infty-limit.xml" />
+  	<xi:include href="./activities/act-poly-infty-natural-powers.xml" />
+  	<xi:include href="./activities/act-poly-infty-negative-powers.xml" />
+
+</section>
 

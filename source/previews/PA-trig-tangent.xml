@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="PA-trig-tangent-task-0">
+    <task workspace="5cm" xml:id="PA-trig-tangent-task-0">
       <statement>
         <p>
 	            Without using computational device,
@@ -57,7 +57,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-trig-tangent-task-1">
+    <task workspace="5cm" xml:id="PA-trig-tangent-task-1">
       <statement>
         <p>
 	            Why is <m>\tan \left( \frac{\pi}{2} \right)</m> not defined?
@@ -68,7 +68,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-trig-tangent-task-2">
+    <task workspace="5cm" xml:id="PA-trig-tangent-task-2">
       <statement>
         <p>
 	            Point your browser to
@@ -90,7 +90,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-trig-tangent-task-3">
+    <task workspace="5cm" xml:id="PA-trig-tangent-task-3">
       <statement>
         <p>
 	            At the top of the input lists on the left side of the

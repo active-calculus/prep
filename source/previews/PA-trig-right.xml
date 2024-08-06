@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="PA-trig-right-task-0">
+    <task workspace="4cm" xml:id="PA-trig-right-task-0">
       <statement>
         <p>
 						The length of the other leg of a right triangle with hypotenuse of length <m>1</m> and one leg of length <m>\frac{3}{5}</m>.
@@ -30,7 +30,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-trig-right-task-1">
+    <task workspace="4cm" xml:id="PA-trig-right-task-1">
       <statement>
         <p>
 						The lengths of the two legs in a right triangle with hypotenuse of length <m>1</m> where one of the non-right angles measures <m>\frac{\pi}{3}</m>.
@@ -40,7 +40,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-trig-right-task-2">
+    <task workspace="4cm" xml:id="PA-trig-right-task-2">
       <statement>
         <p>
 						The length of the other leg of a right triangle with hypotenuse of length <m>7</m> and one leg of length <m>6</m>.
@@ -50,7 +50,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-trig-right-task-3">
+    <task workspace="4cm" xml:id="PA-trig-right-task-3">
       <statement>
         <p>
 						The lengths of the two legs in a right triangle with hypotenuse <m>5</m> and where one of the non-right angles measures <m>\frac{\pi}{4}</m>.
@@ -60,7 +60,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-trig-right-task-4">
+    <task workspace="4cm" xml:id="PA-trig-right-task-4">
       <statement>
         <p>
 						The length of the other leg of a right triangle with hypotenuse of length <m>1</m> and one leg of length <m>\cos(0.7)</m>.
@@ -70,7 +70,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-trig-right-task-5">
+    <task workspace="4cm" xml:id="PA-trig-right-task-5">
       <statement>
         <p>
 						The measures of the two angles in a right triangle with hypotenuse of length <m>1</m> where the two legs have lengths <m>\cos(1.1)</m> and <m>\sin(1.1)</m>, respectively.

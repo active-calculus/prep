@@ -16,18 +16,18 @@
   <exploration xml:id="PA-trig-inverse">
     <introduction>
       <p>
-			Consider the plot of the standard cosine function in <xref ref="F-inverse-trig-PA-cos">Figure</xref> along with the emphasized portion of the graph on <m>[0,\pi]</m>.
+			Consider the plot of the standard cosine function in the following figure along with the emphasized portion of the graph on <m>[0,\pi]</m>.
 		</p>
-      <figure xml:id="F-inverse-trig-PA-cos">
-        <caption>The cosine function on <m>[-\frac{5\pi}{2},\frac{5\pi}{2}]</m> with the portion on <m>[0,\pi]</m> emphasized.</caption>
+<!--      <figure xml:id="F-inverse-trig-PA-cos">
+        <caption>The cosine function on <m>[-\frac{5\pi}{2},\frac{5\pi}{2}]</m> with the portion on <m>[0,\pi]</m> emphasized.</caption> -->
         <image source="images/inverse-trig-PA-cosine"/>
-      </figure>
+<!--      </figure> -->
       <p>
 			Let <m>g</m> be the function whose domain is <m>0 \le t \le \pi</m> and whose outputs are determined by the rule <m>g(t) = \cos(t)</m>.  <em>Note well</em>: <m>g</m> is defined in terms of the cosine function, but because it has a different domain, it is <em>not</em> the cosine function.
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="PA-trig-inverse-task-0">
+    <task workspace="2.5cm" xml:id="PA-trig-inverse-task-0">
       <statement>
         <p>
 		            What is the domain of <m>g</m>?
@@ -37,7 +37,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-trig-inverse-task-1">
+    <task workspace="2.5cm" xml:id="PA-trig-inverse-task-1">
       <statement>
         <p>
 		            What is the range of <m>g</m>?
@@ -47,7 +47,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-trig-inverse-task-2">
+    <task workspace="2.5cm" xml:id="PA-trig-inverse-task-2">
       <statement>
         <p>
 		            Does <m>g</m> pass the horizontal line test?

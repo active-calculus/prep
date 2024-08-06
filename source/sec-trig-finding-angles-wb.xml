@@ -13,14 +13,14 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="C-trig">
-  	<title>Trigonometry</title>
-  
-  	<xi:include  href="./sec-trig-right-wb.xml" />
-  	<xi:include  href="./sec-trig-tangent-wb.xml" />
-  	<xi:include  href="./sec-trig-inverse-wb.xml" />
- 	<xi:include  href="./sec-trig-finding-angles-wb.xml" />
-  	<xi:include  href="./sec-trig-other-wb.xml" /> 
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-trig-finding-angles">
+  <title>Finding Angles</title>
 
-</chapter>
+      <xi:include href="./previews/PA-trig-finding-angles.xml" />
+      <xi:include href="./activities/act-trig-finding-angles-exactly.xml" />
+      <xi:include href="./activities/act-trig-finding-angles-roof.xml" />
+      <xi:include href="./activities/act-trig-finding-angles-baseball.xml" />
+      <xi:include href="./activities/act-trig-finding-angles-rocket.xml" />
+
+</section>
 

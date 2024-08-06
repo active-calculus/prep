@@ -16,7 +16,7 @@
   <activity xml:id="act-trig-inverse-arccos">
     <introduction>
       <p>
-			Use the special points on the unit circle (see, for instance, <xref ref="F-circular-sine-all-16">Figure</xref>) to determine the exact values of each of the following numerical expressions.  Do so without using a computational device.
+			Use the special points on the unit circle (see, for instance, the start of <xref ref="sec-circular-sine-cosine">Section</xref>) to determine the exact values of each of the following numerical expressions.  Do so without using a computational device.
 		</p>
       <p/>
     </introduction>
@@ -50,7 +50,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-3">
+    <task workspace="3.5cm" xml:id="act-trig-inverse-arccos-task-3">
       <statement>
         <p>
           <m>\arccos(-\frac{1}{2})</m>
@@ -60,7 +60,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-4">
+    <task workspace="3.5cm" xml:id="act-trig-inverse-arccos-task-4">
       <statement>
         <p>
           <m>\arccos(-\frac{\sqrt{2}}{2})</m>

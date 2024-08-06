@@ -17,10 +17,11 @@
   	<title>Polynomial and Rational Functions</title>
   
   	<xi:include  href="./sec-poly-infty-wb.xml" />
-  	<xi:include  href="./sec-poly-polynomials-wb.xml" />
+
+<!--  	<xi:include  href="./sec-poly-polynomials-wb.xml" />
   	<xi:include  href="./sec-poly-polynomial-applications-wb.xml" />
   	<xi:include  href="./sec-poly-rational-wb.xml" />
-  	<xi:include  href="./sec-poly-rational-features-wb.xml" />
+  	<xi:include  href="./sec-poly-rational-features-wb.xml" /> -->
 
 </chapter>
 

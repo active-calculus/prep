@@ -26,7 +26,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-trig-other-aroc-sine-task-0">
+    <task workspace="4cm" xml:id="act-trig-other-aroc-sine-task-0">
       <statement>
         <p>
 						Let <m>f(x) = \sin(x)</m>.  Use the definition of <m>AV_{[a,a+h]}</m> to write an expression for the average rate of change of the sine function on the interval <m>[a,a+h]</m>.
@@ -36,7 +36,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-other-aroc-sine-task-1">
+    <task workspace="4cm" xml:id="act-trig-other-aroc-sine-task-1">
       <statement>
         <p>
 						Apply the sum of two angles identity for the sine function, <m>\sin(\alpha + \beta) = \sin(\alpha) \cos(\beta) + \cos(\alpha) \sin(\beta)</m>, to the expression <m>\sin(a+h)</m>.
@@ -46,7 +46,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-other-aroc-sine-task-2">
+    <task workspace="6cm" xml:id="act-trig-other-aroc-sine-task-2">
       <statement>
         <p>
 						Explain why your work in (a) and (b) together with some algebra shows that 
@@ -59,7 +59,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-trig-other-aroc-sine-task-3">
+    <task workspace="6cm" xml:id="act-trig-other-aroc-sine-task-3">
       <statement>
         <p>
 						In calculus, we move from <em>average</em> rate of change to <em>instantaneous</em> rate of change by letting <m>h</m> approach <m>0</m> in the expression for average rate of change.  Using a computational device in radian mode, investigate the behavior of 
