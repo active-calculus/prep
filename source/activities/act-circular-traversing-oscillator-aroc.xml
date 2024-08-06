@@ -172,7 +172,7 @@
       </sidebyside>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-circular-traversing-oscillator-aroc-task-0">
+    <task workspace="5cm" xml:id="act-circular-traversing-oscillator-aroc-task-0">
       <statement>
         <p>
 						Determine <m>AV_{[2,2.25]}</m>, <m>AV_{[2.25,2.5]}</m>, <m>AV_{[2.5,2.75]}</m>, and <m>AV_{[2.75,3]}</m>.  What do these four values tell us about how the weight is moving on the interval <m>[2,3]</m>?
@@ -182,7 +182,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-traversing-oscillator-aroc-task-1">
+    <task workspace="5cm" xml:id="act-circular-traversing-oscillator-aroc-task-1">
       <statement>
         <p>
 						Give an example of an interval of length <m>0.25</m> units on which <m>f</m> has its most negative average rate of change.  Justify your choice.
@@ -192,7 +192,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-traversing-oscillator-aroc-task-2">
+    <task workspace="4cm" xml:id="act-circular-traversing-oscillator-aroc-task-2">
       <statement>
         <p>
 						Give an example of the longest interval you can find on which <m>f</m> is decreasing.
@@ -202,16 +202,16 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-traversing-oscillator-aroc-task-3">
+    <task workspace="4cm" xml:id="act-circular-traversing-oscillator-aroc-task-3">
       <statement>
         <p>
-						Give an example of an interval on which <m>f</m> is concave up.<fn>Recall that a function is concave up on an interval provided that throughout the interval, the curve bends upward, similar to a parabola that opens up.</fn></p>
+						Give an example of an interval on which <m>f</m> is concave up. (Recall that a function is concave up on an interval provided that throughout the interval, the curve bends upward, similar to a parabola that opens up.)</p>
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-traversing-oscillator-aroc-task-4">
+    <task workspace="4cm" xml:id="act-circular-traversing-oscillator-aroc-task-4">
       <statement>
         <p>
 						On an interval where <m>f</m> is both decreasing and concave down, what does this tell us about how the weight is moving on that interval?  For instance, is the weight moving toward or away from the wall?  is it speeding up or slowing down?
@@ -221,7 +221,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-traversing-oscillator-aroc-task-5">
+    <task workspace="4cm" xml:id="act-circular-traversing-oscillator-aroc-task-5">
       <statement>
         <p>
 						What general conclusions can you make about the average rate of change of a circular function on intervals near its highest or lowest points?  about its average rate of change on intervals near the function's midline?

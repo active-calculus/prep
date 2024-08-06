@@ -13,13 +13,13 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="C-circular">
-  	<title>Circular Functions</title>
-  
-  	<xi:include  href="./sec-circular-traversing-wb.xml" />
-    <xi:include  href="./sec-circular-unit-circle-wb.xml" />
-    <xi:include  href="./sec-circular-sine-cosine-wb.xml" />
-    <xi:include  href="./sec-circular-sinusoidal-wb.xml" />
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-circular-unit-circle">
+  <title>The Unit Circle</title>
 
-</chapter>
+  	<xi:include href="./previews/PA-circular-unit-circle.xml" />
+    <xi:include href="./activities/act-circular-unit-circle-radians-degrees.xml" />
+    <xi:include href="./activities/act-circular-unit-circle-special-triangles.xml" />
+    <xi:include href="./activities/act-circular-unit-circle-non-unit.xml" />
+
+</section>
 

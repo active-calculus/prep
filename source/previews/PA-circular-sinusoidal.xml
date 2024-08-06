@@ -21,7 +21,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="PA-circular-sinusoidal-task-0">
+    <task workspace="5cm" xml:id="PA-circular-sinusoidal-task-0">
       <statement>
         <p><m>g(t) = 3\cos(t)</m> and <m>h(t) = -\frac{1}{4}\cos(t)</m></p>
       </statement>
@@ -29,7 +29,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-circular-sinusoidal-task-1">
+    <task workspace="6cm" xml:id="PA-circular-sinusoidal-task-1">
       <statement>
         <p><m>g(t) = \cos(t-\pi)</m> and <m>h(t) = \cos\left(t+ \frac{\pi}{2}\right)</m></p>
       </statement>
@@ -37,7 +37,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-circular-sinusoidal-task-2">
+    <task workspace="6cm" xml:id="PA-circular-sinusoidal-task-2">
       <statement>
         <p><m>g(t) = \cos(t)+4</m> and <m>h(t) = \cos\left(t\right)-2</m></p>
       </statement>
@@ -45,7 +45,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-circular-sinusoidal-task-3">
+    <task workspace="6cm" xml:id="PA-circular-sinusoidal-task-3">
       <statement>
         <p><m>g(t) = 3\cos(t-\pi)+4</m> and <m>h(t) = -\frac{1}{4}\cos\left(t+ \frac{\pi}{2}\right)-2</m></p>
       </statement>

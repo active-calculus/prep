@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-circular-sinusoidal-period-task-0">
+    <task workspace="6cm" xml:id="act-circular-sinusoidal-period-task-0">
       <statement>
         <p>
           <m>p(x) = \sin(10x) + 2</m>
@@ -30,7 +30,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-sinusoidal-period-task-1">
+    <task workspace="6cm" xml:id="act-circular-sinusoidal-period-task-1">
       <statement>
         <p>
           <m>q(x) = -3\cos(0.25x) - 4</m>
@@ -40,7 +40,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-sinusoidal-period-task-2">
+    <task workspace="6cm" xml:id="act-circular-sinusoidal-period-task-2">
       <statement>
         <p>
           <m>r(x) = 2\sin\left( \frac{\pi}{4} x\right) + 5</m>
@@ -50,7 +50,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-sinusoidal-period-task-3">
+    <task workspace="6cm" xml:id="act-circular-sinusoidal-period-task-3">
       <statement>
         <p>
           <m>w(x) = 2\cos\left( \frac{\pi}{2} (x-3) \right) + 5</m>
@@ -60,7 +60,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-sinusoidal-period-task-4">
+    <task workspace="6cm" xml:id="act-circular-sinusoidal-period-task-4">
       <statement>
         <p>
           <m>u(x) = -0.25\sin\left(3x-6\right) + 5</m>

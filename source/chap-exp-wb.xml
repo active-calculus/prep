@@ -17,11 +17,11 @@
   	<title>Exponential and Logarithmic Functions</title>
   
   	<xi:include  href="./sec-exp-growth-wb.xml" />
-  	<xi:include  href="./sec-exp-modeling-wb.xml" />
+<!--  	<xi:include  href="./sec-exp-modeling-wb.xml" />
   	<xi:include  href="./sec-exp-e-wb.xml" />
   	<xi:include  href="./sec-exp-log-wb.xml" />
   	<xi:include  href="./sec-exp-log-properties-wb.xml" />
-  	<xi:include  href="./sec-exp-temp-pop-wb.xml" />
+  	<xi:include  href="./sec-exp-temp-pop-wb.xml" /> -->
 
 </chapter>
 

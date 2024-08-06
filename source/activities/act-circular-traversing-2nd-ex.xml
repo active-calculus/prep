@@ -16,17 +16,17 @@
   <activity xml:id="act-circular-traversing-2nd-ex">
     <introduction>
       <p>
-			Consider the circle pictured in <xref ref="F-act-circular-traversing-circle">Figure</xref> that is centered at the point <m>(2,2)</m> and that has circumference <m>8</m>.  Assume that we track the <m>y</m>-coordinate (that is, the height, <m>h</m>) of a point that is traversing the circle counterclockwise and that it starts at <m>P_0</m> as pictured.
+			Consider the circle pictured in the following figure that is centered at the point <m>(2,2)</m> and that has circumference <m>8</m>.  Assume that we track the <m>y</m>-coordinate (that is, the height, <m>h</m>) of a point that is traversing the circle counterclockwise and that it starts at <m>P_0</m> as pictured.
 		</p>
       <sidebyside widths="33% 66%">
-        <figure xml:id="F-act-circular-traversing-circle">
-          <caption>A point traversing the circle.</caption>
+<!--        <figure xml:id="F-act-circular-traversing-circle">
+          <caption>A point traversing the circle.</caption> -->
           <image source="images/traversing-act-circle"/>
-        </figure>
-        <figure xml:id="F-act-circular-traversing-grid">
-          <caption>Axes for plotting <m>h</m> as a function of <m>d</m>.</caption>
+<!--         </figure>
+        <figure xml:id="F-act-circular-traversing-grid"> 
+          <caption>Axes for plotting <m>h</m> as a function of <m>d</m>.</caption> -->
           <image source="images/traversing-act-circular-grid"/>
-        </figure>
+<!--         </figure> -->
       </sidebyside>
       <p/>
     </introduction>
@@ -50,13 +50,13 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-traversing-2nd-ex-task-2">
+    <task workspace="2cm" xml:id="act-circular-traversing-2nd-ex-task-2">
       <statement>
         <p>
-						Determine the <m>y</m>-coordinates of the remaining points on the circle (exactly where possible, otherwise approximately) and hence complete the entries in <xref ref="T-act-circular-traversing-2nd-ex">Table</xref> that track the height, <m>h</m>, of the point traversing the circle as a function of distance traveled, <m>d</m>.  Note that the <m>d</m>-values in the table correspond to the point traversing the circle more than once.
+						Determine the <m>y</m>-coordinates of the remaining points on the circle (exactly where possible, otherwise approximately) and hence complete the entries in the following table that track the height, <m>h</m>, of the point traversing the circle as a function of distance traveled, <m>d</m>.  Note that the <m>d</m>-values in the table correspond to the point traversing the circle more than once.
 					</p>
-        <table xml:id="T-act-circular-traversing-2nd-ex">
-          <title>Data for <m>h</m> as a function of <m>d</m>.</title>
+<!--        <table xml:id="T-act-circular-traversing-2nd-ex">
+          <title>Data for <m>h</m> as a function of <m>d</m>.</title> -->
           <tabular halign="center">
             <row bottom="minor">
               <cell>
@@ -171,16 +171,16 @@
               </cell>
             </row>
           </tabular>
-        </table>
+<!--        </table> -->
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-traversing-2nd-ex-task-3">
+    <task workspace="0.1cm" xml:id="act-circular-traversing-2nd-ex-task-3">
       <statement>
         <p>
-						By plotting the points in <xref ref="T-act-circular-traversing-2nd-ex">Table</xref> and connecting them in an intuitive way, sketch a graph of <m>h</m> as a function of <m>d</m> on the axes provided in <xref ref="F-act-circular-traversing-grid">Figure</xref> over the interval <m>0 \le d \le 16</m>.  Clearly label the scale of your axes and the coordinates of several important points on the curve.
+						By plotting the points in the table in part (c) and connecting them in an intuitive way, sketch a graph of <m>h</m> as a function of <m>d</m> over the interval <m>0 \le d \le 16</m> on the axes provided in the figure in part (a).  Clearly label the scale of your axes and the coordinates of several important points on the curve.
 					</p>
       </statement>
       <hint/>
@@ -190,7 +190,7 @@
     <task workspace="3cm" xml:id="act-circular-traversing-2nd-ex-task-4">
       <statement>
         <p>
-						What is similar about your graph in comparison to the one in <xref ref="F-traversing-first-example-graph">Figure</xref>?  What is different?
+						What is similar about your graph in comparison to the one in Figure 2.1.5 in the text?  What is different?
 					</p>
       </statement>
       <hint/>

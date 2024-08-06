@@ -16,11 +16,11 @@
   <activity xml:id="act-circular-sine-cosine">
     <introduction>
       <p>
-			Let <m>k = g(t)</m> be the function that tracks the <m>x</m>-coordinate of a point traversing the unit circle counterclockwise from <m>(1,0)</m>.  That is, <m>g(t) = \cos(t)</m>.  Use the information we know about the unit circle that is summarized in <xref ref="F-circular-sine-all-16">Figure</xref> to respond to the following questions.
+			Let <m>k = g(t)</m> be the function that tracks the <m>x</m>-coordinate of a point traversing the unit circle counterclockwise from <m>(1,0)</m>.  That is, <m>g(t) = \cos(t)</m>.  Use the information we know about the unit circle that is summarized in Figure 2.3.1 (with 16 labeled special points) to respond to the following questions.
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-circular-sine-cosine-task-0">
+    <task workspace="4cm" xml:id="act-circular-sine-cosine-task-0">
       <statement>
         <p>
 						What is the exact value of <m>\cos(\frac{\pi}{6})</m>?  of <m>\cos(\frac{5\pi}{6})</m>? <m>\cos(-\frac{\pi}{3})</m>?
@@ -30,13 +30,13 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-sine-cosine-task-1">
+    <task workspace="1cm" xml:id="act-circular-sine-cosine-task-1">
       <statement>
         <p>
 						Complete the following table with the exact values of <m>k</m> that correspond to the stated inputs.
 					</p>
-        <table xml:id="T-circular-cosine-first-values">
-          <title>Exact values of <m>k = g(t) = \cos(t)</m>.</title>
+ <!--       <table xml:id="T-circular-cosine-first-values">
+          <title>Exact values of <m>k = g(t) = \cos(t)</m>.</title> -->
           <tabular>
             <row bottom="minor">
               <cell>
@@ -134,21 +134,21 @@
               <cell/>
             </row>
           </tabular>
-        </table>
+<!--         </table> -->
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-sine-cosine-task-2">
+    <task workspace="1cm" xml:id="act-circular-sine-cosine-task-2">
       <statement>
         <p>
-						On the axes provided in <xref ref="F-circular-sine-cosine-axes">Figure</xref>, sketch an accurate graph of <m>k = \cos(t)</m>.  Label the exact location of several key points on the curve.
+						On the axes provided in the following figure, sketch an accurate graph of <m>k = \cos(t)</m>.  Label the exact location of several key points on the curve.
 					</p>
-        <figure xml:id="F-circular-sine-cosine-axes">
-          <caption>Axes for plotting <m>k = \cos(t)</m>.</caption>
+<!--         <figure xml:id="F-circular-sine-cosine-axes">
+          <caption>Axes for plotting <m>k = \cos(t)</m>.</caption> -->
           <image source="images/sine-cosine-definition-axes"/>
-        </figure>
+<!--         </figure> -->
       </statement>
       <hint/>
       <answer/>
@@ -174,7 +174,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-sine-cosine-task-5">
+    <task workspace="4cm" xml:id="act-circular-sine-cosine-task-5">
       <statement>
         <p>
 						How is the graph of <m>k = \cos(t)</m> different from the graph of <m>h = \sin(t)</m>?  How are the graphs similar?

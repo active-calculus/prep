@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-circular-unit-circle-non-unit-task-0">
+    <task workspace="3.5cm" xml:id="act-circular-unit-circle-non-unit-task-0">
       <statement>
         <p>
 		            In a circle of radius <m>11</m>, the arc length intercepted by a central angle of <m>\frac{5\pi}{3}</m>.
@@ -30,7 +30,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-unit-circle-non-unit-task-1">
+    <task workspace="3.5cm" xml:id="act-circular-unit-circle-non-unit-task-1">
       <statement>
         <p>
 		            In a circle of radius <m>3</m>, the central angle measure that intercepts an arc of length <m>\frac{\pi}{4}</m>.
@@ -40,7 +40,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-unit-circle-non-unit-task-2">
+    <task workspace="3.5cm" xml:id="act-circular-unit-circle-non-unit-task-2">
       <statement>
         <p>
 		            The radius of the circle in which an angle of
@@ -51,7 +51,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-unit-circle-non-unit-task-3">
+    <task workspace="3.5cm" xml:id="act-circular-unit-circle-non-unit-task-3">
       <statement>
         <p>
 		        		The exact coordinates of the point on the circle of radius <m>5</m> that lies <m>\frac{25\pi}{6}</m> units counterclockwise along the circle from <m>(5,0)</m>.

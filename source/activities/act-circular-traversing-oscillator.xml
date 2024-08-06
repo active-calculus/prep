@@ -174,7 +174,7 @@
       </sidebyside>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-circular-traversing-oscillator-task-0">
+    <task workspace="5cm" xml:id="act-circular-traversing-oscillator-task-0">
       <statement>
         <p>
 						Determine the period <m>p</m>, midline <m>y = m</m>, and amplitude <m>a</m> of the function <m>f</m>.
@@ -184,7 +184,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-traversing-oscillator-task-1">
+    <task workspace="5cm" xml:id="act-circular-traversing-oscillator-task-1">
       <statement>
         <p>
 						What is the greatest distance the weight is displaced from the wall?  What is the least distance the weight is displaced from the wall? What is the range of <m>f</m>?
@@ -194,7 +194,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-traversing-oscillator-task-2">
+    <task workspace="5cm" xml:id="act-circular-traversing-oscillator-task-2">
       <statement>
         <p>
 						Determine the average rate of change of <m>f</m> on the intervals <m>[4,4.25]</m> and <m>[4.75,5]</m>.  Write one careful sentence to explain the meaning of each (including units).  In addition, write a sentence to compare the two different values you find and what they together say about the motion of the weight.
@@ -204,7 +204,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-circular-traversing-oscillator-task-3">
+    <task workspace="5cm" xml:id="act-circular-traversing-oscillator-task-3">
       <statement>
         <p>
 						Based on the periodicity of the function, what is the value of <m>f(6.75)</m>? of <m>f(11.25)</m>?

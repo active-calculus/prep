@@ -16,15 +16,15 @@
   <exploration xml:id="PA-circular-sine">
     <introduction>
       <p>
-			If we consider the unit circle in <xref ref="F-circular-sine-all-16">Figure</xref>, start at <m>t = 0</m>, and traverse the circle counterclockwise, we may view the height, <m>h</m>, of the traversing point as a function of the angle, <m>t</m>, in radians.  From there, we can plot the resulting <m>(t,h)</m> ordered pairs and connect them to generate the circular function pictured in <xref ref="F-circular-sine-first-graph">Figure</xref>.
+			If we consider the unit circle with 16 labeled special points in Figure 2.3.1, start at <m>t = 0</m>, and traverse the circle counterclockwise, we may view the height, <m>h</m>, of the traversing point as a function of the angle, <m>t</m>, in radians.  From there, we can plot the resulting <m>(t,h)</m> ordered pairs and connect them to generate the circular function pictured in the following figure, which tracks the height of a point traversing the unit circle.
 		</p>
-      <figure xml:id="F-circular-sine-first-graph">
-        <caption>Plot of the circular function that tracks the height of a point traversing the unit circle.</caption>
+<!--      <figure xml:id="F-circular-sine-first-graph">
+        <caption>Plot of the circular function that tracks the height of a point traversing the unit circle.</caption> -->
         <image source="images/sine-labeling-graph"/>
-      </figure>
+<!--      </figure> -->
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="PA-circular-sine-task-0">
+    <task workspace="3.5cm" xml:id="PA-circular-sine-task-0">
       <statement>
         <p>
 						What is the exact value of <m>f( \frac{\pi}{4} )</m>? of <m>f( \frac{\pi}{3} )</m>?
@@ -34,13 +34,13 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-circular-sine-task-1">
+    <task workspace="1.5cm" xml:id="PA-circular-sine-task-1">
       <statement>
         <p>
 						Complete the following table with the exact values of <m>h</m> that correspond to the stated inputs.
 					</p>
-        <table xml:id="T-circular-sine-first-values">
-          <title>Exact values of <m>h</m> as a function of <m>t</m>.</title>
+<!--        <table xml:id="T-circular-sine-first-values">
+          <title>Exact values of <m>h</m> as a function of <m>t</m>.</title> -->
           <tabular>
             <row bottom="minor">
               <cell>
@@ -138,13 +138,13 @@
               <cell/>
             </row>
           </tabular>
-        </table>
+<!--        </table> -->
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-circular-sine-task-2">
+    <task workspace="4cm" xml:id="PA-circular-sine-task-2">
       <statement>
         <p>
 						What is the exact value of <m>f( \frac{11\pi}{4} )</m>? of <m>f( \frac{14\pi}{3} )</m>?
@@ -154,7 +154,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-circular-sine-task-3">
+    <task workspace="4cm" xml:id="PA-circular-sine-task-3">
       <statement>
         <p>
 						Give four different values of <m>t</m> for which <m>f(t) = -\frac{\sqrt{3}}{2}</m>.

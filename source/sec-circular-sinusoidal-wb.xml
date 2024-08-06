@@ -13,13 +13,14 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="C-circular">
-  	<title>Circular Functions</title>
-  
-  	<xi:include  href="./sec-circular-traversing-wb.xml" />
-    <xi:include  href="./sec-circular-unit-circle-wb.xml" />
-    <xi:include  href="./sec-circular-sine-cosine-wb.xml" />
-    <xi:include  href="./sec-circular-sinusoidal-wb.xml" />
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-circular-sinusoidal">
+  <title>Sinusoidal Functions</title>
 
-</chapter>
+  	<xi:include href="./previews/PA-circular-sinusoidal.xml" />
+  	<xi:include href="./activities/act-circular-sinusoidal-oscillator.xml" />
+		<xi:include href="./activities/act-circular-sinusoidal-horiz-stretch.xml" />
+		<xi:include href="./activities/act-circular-sinusoidal-period.xml" />
+		<xi:include href="./activities/act-circular-sinusoidal-model.xml" />
+
+</section>
 
