@@ -17,10 +17,10 @@
   	<title>Trigonometry</title>
   
   	<xi:include  href="./sec-trig-right-wb.xml" />
-  	<xi:include  href="./sec-trig-tangent-wb.xml" />
+<!--  	<xi:include  href="./sec-trig-tangent-wb.xml" />
   	<xi:include  href="./sec-trig-inverse-wb.xml" />
   	<xi:include  href="./sec-trig-finding-angles-wb.xml" />
-  	<xi:include  href="./sec-trig-other-wb.xml" />
+  	<xi:include  href="./sec-trig-other-wb.xml" /> -->
 
 </chapter>
 

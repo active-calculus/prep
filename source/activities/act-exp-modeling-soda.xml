@@ -50,17 +50,17 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-modeling-soda-task-2">
+    <task workspace="1cm" xml:id="act-exp-modeling-soda-task-2">
       <statement>
         <p>
 								Finally, how do you expect the graph of <m>F(t) = 42 + 30(0.95)^{t}</m> to appear?
             					Why?  First sketch a rough graph without graphing technology, and then use technology to check your thinking
-            					and report an accurate, labeled graph on the axes provided in <xref ref="F-modeling-act-blank-axes-soda">Figure</xref>.
+            					and report an accurate, labeled graph on the axes provided below.
 							</p>
-        <figure xml:id="F-modeling-act-blank-axes-soda">
-          <caption>Axes for plotting <m>F</m>.</caption>
+<!--        <figure xml:id="F-modeling-act-blank-axes-soda">
+          <caption>Axes for plotting <m>F</m>.</caption> -->
           <image width="50%" source="images/modeling-F-t-blank-axes"/>
-        </figure>
+<!--        </figure> -->
       </statement>
       <hint/>
       <answer/>
@@ -78,7 +78,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-modeling-soda-task-4">
+    <task workspace="5cm" xml:id="act-exp-modeling-soda-task-4">
       <statement>
         <p>
 						Determine the average rate of change of <m>F</m> on the intervals <m>[10,20]</m>,

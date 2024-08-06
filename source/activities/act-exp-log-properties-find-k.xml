@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-exp-log-properties-find-k-task-0">
+    <task workspace="6cm" xml:id="act-exp-log-properties-find-k-task-0">
       <statement>
         <p>
           <m>41 = 50e^{-k \cdot 7}</m>
@@ -30,7 +30,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-log-properties-find-k-task-1">
+    <task workspace="6cm" xml:id="act-exp-log-properties-find-k-task-1">
       <statement>
         <p>
           <m>65 = 34 + 47e^{-k \cdot 45}</m>
@@ -40,7 +40,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-log-properties-find-k-task-2">
+    <task workspace="7cm" xml:id="act-exp-log-properties-find-k-task-2">
       <statement>
         <p>
           <m>7e^{2k-1} + 4 = 32</m>
@@ -50,7 +50,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-log-properties-find-k-task-3">
+    <task workspace="7cm" xml:id="act-exp-log-properties-find-k-task-3">
       <statement>
         <p>
           <m>\frac{5}{1+2e^{-10k}} = 4</m>

@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-exp-log-exponential-equations-task-0">
+    <task workspace="4cm" xml:id="act-exp-log-exponential-equations-task-0">
       <statement>
         <p>
           <m>3^t = 5</m>
@@ -30,7 +30,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-log-exponential-equations-task-1">
+    <task workspace="4cm" xml:id="act-exp-log-exponential-equations-task-1">
       <statement>
         <p>
           <m>4 \cdot 2^t - 2 = 3</m>
@@ -40,7 +40,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-log-exponential-equations-task-2">
+    <task workspace="5cm" xml:id="act-exp-log-exponential-equations-task-2">
       <statement>
         <p>
           <m>3.7 \cdot (0.9)^{0.3t} + 1.5 = 2.1</m>
@@ -50,7 +50,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-log-exponential-equations-task-3">
+    <task workspace="5cm" xml:id="act-exp-log-exponential-equations-task-3">
       <statement>
         <p>
           <m>72 - 30(0.7)^{0.05t} = 60</m>
@@ -60,7 +60,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-log-exponential-equations-task-4">
+    <task workspace="5cm" xml:id="act-exp-log-exponential-equations-task-4">
       <statement>
         <p>
           <m>\ln(t) = -2</m>
@@ -70,7 +70,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-log-exponential-equations-task-5">
+    <task workspace="5cm" xml:id="act-exp-log-exponential-equations-task-5">
       <statement>
         <p>
           <m>3 + 2\log_{10}(t) = 3.5</m>

@@ -23,7 +23,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="PA-exp-growth-task-0">
+    <task workspace="4cm" xml:id="PA-exp-growth-task-0">
       <statement>
         <p>
 						Determine <m>I(0)</m>, <m>I(1)</m>, <m>I(2)</m>, and <m>I(3)</m>.
@@ -33,7 +33,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-exp-growth-task-1">
+    <task workspace="3.5cm" xml:id="PA-exp-growth-task-1">
       <statement>
         <p>
 						Note that if a quantity depreciates <m>12</m>% annually, after a given year, <m>88</m>% of the quantity remains.  Compute <m>V(0)</m>, <m>V(1)</m>, <m>V(2)</m>, and <m>V(3)</m>.
@@ -43,7 +43,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-exp-growth-task-2">
+    <task workspace="3.5cm" xml:id="PA-exp-growth-task-2">
       <statement>
         <p>
 						Based on the patterns in your computations in (a) and (b), determine formulas for <m>I(t)</m> and <m>V(t)</m>.
@@ -56,12 +56,12 @@
     <task workspace="3cm" xml:id="PA-exp-growth-task-3">
       <statement>
         <p>
-							Use <em>Desmos</em> to define <m>I(t)</m> and <m>V(t)</m>.  Plot each function on the interval <m>0 \le t \le 20</m> and record your results on the axes in <xref ref="F-growth-PA-blank-axes">Figure</xref>, being sure to label the scale on the axes.  What trends do you observe in the graphs?  How do <m>I(20)</m> and <m>V(20)</m> compare?
+							Use <em>Desmos</em> to define <m>I(t)</m> and <m>V(t)</m>.  Plot each function on the interval <m>0 \le t \le 20</m> and record your results on the axes inthe figure below, being sure to label the scale on the axes.  What trends do you observe in the graphs?  How do <m>I(20)</m> and <m>V(20)</m> compare?
 	 					</p>
-        <figure xml:id="F-growth-PA-blank-axes">
-          <caption>Blank axes for plotting <m>I</m> and <m>V</m>.</caption>
-          <image width="50%" source="images/growth-PA-blank-axes"/>
-        </figure>
+<!--        <figure xml:id="F-growth-PA-blank-axes">
+          <caption>Blank axes for plotting <m>I</m> and <m>V</m>.</caption> -->
+          <image width="45%" source="images/growth-PA-blank-axes"/>
+<!--        </figure> -->
       </statement>
       <hint/>
       <answer/>

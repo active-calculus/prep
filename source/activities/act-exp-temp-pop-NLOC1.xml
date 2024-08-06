@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-exp-temp-log-NLOC1-task-0">
+    <task workspace="6cm" xml:id="act-exp-temp-log-NLOC1-task-0">
       <statement>
         <p>
 		            Use algebraic reasoning and your understanding of the physical situation to determine the exact values of <m>a</m>,
@@ -33,7 +33,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-temp-log-NLOC1-task-1">
+    <task workspace="5cm" xml:id="act-exp-temp-log-NLOC1-task-1">
       <statement>
         <p>
 		            Determine the exact time the object's temperature is <m>42.4^\circ</m>.
@@ -44,7 +44,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-temp-log-NLOC1-task-2">
+    <task workspace="5cm" xml:id="act-exp-temp-log-NLOC1-task-2">
       <statement>
         <p>
 		            In <em>Desmos</em>, enter the values you found for <m>a</m>, <m>c</m>, and <m>k</m> in order to define the function <m>F</m>.  Then, use <em>Desmos</em> to find the average rate of change of <m>F</m> on the interval <m>[25,30]</m>.
@@ -57,7 +57,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-temp-log-NLOC1-task-3">
+    <task workspace="5cm" xml:id="act-exp-temp-log-NLOC1-task-3">
       <statement>
         <p>
 		            If everything stayed the same except the value of <m>F(0)</m>,

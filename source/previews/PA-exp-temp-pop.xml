@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="PA-exp-temp-pop-task-0">
+    <task workspace="4cm" xml:id="PA-exp-temp-pop-task-0">
       <statement>
         <p>
 						The temperature of a warming object in an oven is given by <m>F(t) = 275 - 203e^{-kt}</m>, and we know that the object's  temperature after <m>20</m> minutes is <m>F(20) = 101</m>.  Determine the exact value of <m>k</m>.
@@ -30,7 +30,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-exp-temp-pop-task-1">
+    <task workspace="4cm" xml:id="PA-exp-temp-pop-task-1">
       <statement>
         <p>
 						The temperature of a cooling object in a refrigerator is modeled by <m>F(t) = a + 37.4e^{-0.05t}</m>, and the temperature of the refrigerator is <m>39.8^\circ</m>.  By thinking about the long-term behavior of <m>e^{-0.05t}</m> and the long-term behavior of the object's temperature, determine the exact value of <m>a</m>.
@@ -40,24 +40,24 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-exp-temp-pop-task-2">
+    <task workspace="4cm" xml:id="PA-exp-temp-pop-task-2">
       <statement>
         <p>
 						Later in this section, we'll learn that one model for how a population grows over time can be given by a function of the form 
 						<me>
 							P(t) = \frac{A}{1 + Me^{-kt}}
 						</me>.  Models of this form lead naturally to equations that have structure like
-						<men xml:id="eq-temp-pop-logistic-structure">
+						<me>
 							3 = \frac{10}{1+x}.
-						</men>
-						Solve <xref ref="eq-temp-pop-logistic-structure">Equation</xref> for the exact value of <m>x</m>.
+						</me>
+						Solve the equation <m>3 = \frac{10}{1+x}</m> for the exact value of <m>x</m>.
 					</p>
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-exp-temp-pop-task-3">
+    <task workspace="4cm" xml:id="PA-exp-temp-pop-task-3">
       <statement>
         <p>
 						Suppose that <m>y = a + be^{-kt}</m>.  Solve for <m>t</m> in terms of <m>a</m>, <m>b</m>, <m>k</m>, and <m>y</m>.  What does this new equation represent?

@@ -40,7 +40,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-exp-e-task-2">
+    <task workspace="4cm" xml:id="PA-exp-e-task-2">
       <statement>
         <p>
 						For the value of <m>k</m> you determined in (a), compute <m>2^k</m>.  What do you observe?
@@ -50,7 +50,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-exp-e-task-3">
+    <task workspace="5cm" xml:id="PA-exp-e-task-3">
       <statement>
         <p>
 						For the value of <m>k</m> you determined in (b), compute <m>2^k</m>.  What do you observe?
@@ -60,7 +60,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-exp-e-task-4">
+    <task workspace="5cm" xml:id="PA-exp-e-task-4">
       <statement>
         <p>
 						Given any exponential function of the form <m>b^t</m>, do you think it's possible to find a value of <m>k</m> to that <m>p(t) = f(kt) = 2^{kt}</m> is the same function as <m>b^t</m>?  Why or why not?

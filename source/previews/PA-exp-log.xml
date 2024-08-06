@@ -20,13 +20,13 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="PA-exp-log-task-0">
+    <task workspace="1cm" xml:id="PA-exp-log-task-0">
       <statement>
         <p>
-						Complete <xref ref="T-PA-exp-log-10s">Table</xref> to generate certain values of <m>P</m>.
+						Complete the followion table to generate certain values of <m>P</m>.
 					</p>
-        <table xml:id="T-PA-exp-log-10s">
-          <title>Select values of the powers of <m>10</m> function.</title>
+<!--        <table xml:id="T-PA-exp-log-10s">
+          <title>Select values of the powers of <m>10</m> function.</title> -->
           <tabular>
             <row bottom="minor">
               <cell>
@@ -65,7 +65,7 @@
               <cell/>
             </row>
           </tabular>
-        </table>
+<!--        </table> -->
       </statement>
       <hint/>
       <answer/>
@@ -81,15 +81,15 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-exp-log-task-2">
+    <task workspace="1cm" xml:id="PA-exp-log-task-2">
       <statement>
         <p>
 						Since <m>P</m> has an inverse function, we know there exists some other function, say <m>L</m>,
     					such that writing <q><m>y = P(t)</m></q>
-    					says the exact same thing as writing <q><m>t = L(y)</m></q>.  In words, where <m>P</m> produces the result of raising <m>10</m> to a given power, the function <m>L</m> reverses this process and instead tells us the power to which we need to raise <m>10</m>, given a desired result.  Complete <xref ref="T-PA-exp-log-L">Table</xref> to generate a collection of values of <m>L</m>.
+    					says the exact same thing as writing <q><m>t = L(y)</m></q>.  In words, where <m>P</m> produces the result of raising <m>10</m> to a given power, the function <m>L</m> reverses this process and instead tells us the power to which we need to raise <m>10</m>, given a desired result.  Complete the followin table to generate a collection of values of <m>L</m>.
 					</p>
-        <table xml:id="T-PA-exp-log-L">
-          <title>Select values of the function <m>L</m> that is the inverse of <m>P</m>.</title>
+<!--        <table xml:id="T-PA-exp-log-L">
+          <title>Select values of the function <m>L</m> that is the inverse of <m>P</m>.</title> -->
           <tabular>
             <row>
               <cell>
@@ -152,13 +152,13 @@
               <cell/>
             </row>
           </tabular>
-        </table>
+<!--        </table> -->
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-exp-log-task-3">
+    <task workspace="4cm" xml:id="PA-exp-log-task-3">
       <statement>
         <p>
 						What are the domain and range of the function <m>P</m>?  What are the domain and range of the function <m>L</m>?

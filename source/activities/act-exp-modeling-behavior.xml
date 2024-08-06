@@ -17,42 +17,27 @@
     <introduction>
       <p>
 			For each of the following functions, <em>without</em> using graphing technology, determine whether the function is
-			 
-			In addition, state the <m>y</m>-intercept and the range of the function.  For each function, write a sentence that explains your thinking and sketch a rough graph of how the function appears.
-		</p>
-      <p/>
-    </introduction>
-    <task workspace="3cm" xml:id="act-exp-modeling-behavior-task-0">
-      <statement>
-        <p>
-						always increasing or always decreasing;						
-					</p>
-      </statement>
-      <hint/>
-      <answer/>
-      <solution/>
-    </task>
-    <task workspace="3cm" xml:id="act-exp-modeling-behavior-task-1">
-      <statement>
-        <p>
-						always concave up or always concave down; and
-					</p>
-      </statement>
-      <hint/>
-      <answer/>
-      <solution/>
-    </task>
-    <task workspace="3cm" xml:id="act-exp-modeling-behavior-task-2">
-      <statement>
-        <p>
-						increasing without bound, decreasing without bound, or increasing/decreasing toward a finite value.
-					</p>
-      </statement>
-      <hint/>
-      <answer/>
-      <solution/>
-    </task>
-    <task workspace="3cm" xml:id="act-exp-modeling-behavior-task-0">
+      <ol marker="i.">
+        <li>
+          <p>
+            always increasing or always decreasing;           
+          </p>
+        </li>
+        <li>
+          <p>
+            always concave up or always concave down; and
+          </p>
+        </li>
+        <li>
+          <p>
+            increasing without bound, decreasing without bound, or increasing/decreasing toward a finite value.
+          </p>
+        </li>
+      </ol>
+      In addition, state the <m>y</m>-intercept and the range of the function. For each function, write a sentence that explains your thinking and sketch a rough graph of how the function appears. 
+    </p>
+  </introduction>  
+    <task workspace="5cm" xml:id="act-exp-modeling-behavior-task-0">
       <statement>
         <p>
           <m>p(t) = 4372 (1.000235)^t + 92856</m>
@@ -62,7 +47,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-modeling-behavior-task-1">
+    <task workspace="5cm" xml:id="act-exp-modeling-behavior-task-1">
       <statement>
         <p>
           <m>q(t) = 27931 (0.97231)^t + 549786</m>
@@ -72,7 +57,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-modeling-behavior-task-2">
+    <task workspace="5cm" xml:id="act-exp-modeling-behavior-task-2">
       <statement>
         <p>
           <m>r(t) = -17398 (0.85234)^t</m>
@@ -82,7 +67,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-modeling-behavior-task-3">
+    <task workspace="5cm" xml:id="act-exp-modeling-behavior-task-3">
       <statement>
         <p>
           <m>s(t) = -17398 (0.85234)^t + 19411</m>
@@ -92,7 +77,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-modeling-behavior-task-4">
+    <task workspace="5cm" xml:id="act-exp-modeling-behavior-task-4">
       <statement>
         <p>
           <m>u(t) = -7522 (1.03817)^t</m>
@@ -102,7 +87,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-modeling-behavior-task-5">
+    <task workspace="5cm" xml:id="act-exp-modeling-behavior-task-5">
       <statement>
         <p>
           <m>v(t) = -7522 (1.03817)^t + 6731</m>

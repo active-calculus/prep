@@ -13,15 +13,13 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="C-exp">
-  	<title>Exponential and Logarithmic Functions</title>
-  
-  	<xi:include  href="./sec-exp-growth-wb.xml" />
- 	<xi:include  href="./sec-exp-modeling-wb.xml" />
-	<xi:include  href="./sec-exp-e-wb.xml" />
-	<xi:include  href="./sec-exp-log-wb.xml" />
- 	<xi:include  href="./sec-exp-log-properties-wb.xml" />
-	<xi:include  href="./sec-exp-temp-pop-wb.xml" /> 
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-exp-temp-pop">
+  <title>Modeling temperature and population</title>
 
-</chapter>
+	<xi:include href="./previews/PA-exp-temp-pop.xml" />
+	<xi:include href="./activities/act-exp-temp-pop-NLOC1.xml" />
+	<xi:include href="./activities/act-exp-temp-pop-logistic-Desmos.xml" />
+	<xi:include href="./activities/act-exp-temp-pop-logistic-exact.xml" />
+
+</section>
 

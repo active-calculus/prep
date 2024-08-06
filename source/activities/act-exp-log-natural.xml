@@ -20,7 +20,7 @@
     </p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-exp-log-natural-task-0">
+    <task workspace="4cm" xml:id="act-exp-log-natural-task-0">
       <statement>
         <p>
 	    What are the domain and range of <m>E</m>?
@@ -30,7 +30,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-log-natural-task-1">
+    <task workspace="4cm" xml:id="act-exp-log-natural-task-1">
       <statement>
         <p>
 	    What are the domain and range of <m>N</m>?
@@ -40,7 +40,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-log-natural-task-2">
+    <task workspace="5cm" xml:id="act-exp-log-natural-task-2">
       <statement>
         <p>
 	    What can you say about <m>\ln(e^t)</m> for every real number <m>t</m>?
@@ -50,7 +50,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-log-natural-task-3">
+    <task workspace="5cm" xml:id="act-exp-log-natural-task-3">
       <statement>
         <p>
 	    What can you say about <m>e^{\ln(y)}</m> for every positive real number <m>y</m>?
@@ -60,14 +60,14 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-log-natural-task-4">
+    <task workspace="0.5cm" xml:id="act-exp-log-natural-task-4">
       <statement>
         <p>
-	    Complete <xref ref="T-act-natural-e">Table</xref> and <xref ref="T-act-natural-log">Table</xref> with both exact and approximate values of <m>E</m> and <m>N</m>.  Then, plot the corresponding ordered pairs from each table on the axes provided in <xref ref="F-axes-e-ln">Figure</xref> and connect the points in an intuitive way.  When you plot the ordered pairs on the axes, in both cases view the first line of the table as generating values on the horizontal axis and the second line of the table as producing values on the vertical axis<fn>Note that when we take this perspective for plotting the data in <xref ref="T-act-natural-log">Table</xref>, we are viewing <m>N</m> as a function of <m>t</m>, writing <m>N(t) = \ln(t)</m> in order to plot the function on the <m>t</m>-<m>y</m> axes</fn>; label each ordered pair you plot appropriately.
+	    Complete the following tables with both exact and approximate values of <m>E</m> and <m>N</m>.  Then, plot the corresponding ordered pairs from each table on the axes provided and connect the points in an intuitive way.  When you plot the ordered pairs on the axes, in both cases view the first line of the table as generating values on the horizontal axis and the second line of the table as producing values on the vertical axis.  Note that when we take this perspective for plotting the data in the table for <m>N</m>, we are viewing <m>N</m> as a function of <m>t</m>, writing <m>N(t) = \ln(t)</m> in order to plot the function on the <m>t</m>-<m>y</m> axes; label each ordered pair you plot appropriately.
 	  </p>
         <p>
-          <table xml:id="T-act-natural-e">
-            <title>Values of <m>y = E(t)</m>.</title>
+<!--          <table xml:id="T-act-natural-e">
+            <title>Values of <m>y = E(t)</m>.</title> -->
             <tabular>
               <row bottom="minor" halign="center">
                 <cell>
@@ -102,9 +102,9 @@
                 <cell/>
               </row>
             </tabular>
-          </table>
+ <!--         </table>
           <table xml:id="T-act-natural-log">
-            <title>Values of <m>t = N(y)</m>.</title>
+            <title>Values of <m>t = N(y)</m>.</title> -->
             <tabular>
               <row bottom="minor" halign="center">
                 <cell>
@@ -139,22 +139,17 @@
                 <cell/>
               </row>
             </tabular>
-          </table>
+<!--          </table> -->
         </p>
-        <figure xml:id="F-axes-e-ln">
-          <caption>Axes for plotting data from <xref ref="T-act-natural-e">Table</xref> and <xref ref="T-act-natural-log">Table</xref> along with the graphs of the natural exponential and natural logarithm functions.</caption>
-          <image source="images/exp-log-blank-axes"/>
-        </figure>
+<!--        <figure xml:id="F-axes-e-ln">
+          <caption>Axes for plotting data from <xref ref="T-act-natural-e">Table</xref> and <xref ref="T-act-natural-log">Table</xref> along with the graphs of the natural exponential and natural logarithm functions.</caption> -->
+          <image width="75%" source="images/exp-log-blank-axes"/>
+<!--        </figure> -->
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <answer>
-      <p/>
-    </answer>
-    <solution>
-      <p/>
-    </solution>
+
   </activity>
 </worksheet>

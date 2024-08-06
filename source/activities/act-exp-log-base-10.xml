@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-exp-log-base-10-task-0">
+    <task workspace="4cm" xml:id="act-exp-log-base-10-task-0">
       <statement>
         <p>
           <m>10^t = 0.00001</m>
@@ -30,7 +30,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-log-base-10-task-1">
+    <task workspace="4cm" xml:id="act-exp-log-base-10-task-1">
       <statement>
         <p>
           <m>\log_{10}(1000000) = t</m>
@@ -40,7 +40,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-log-base-10-task-2">
+    <task workspace="4cm" xml:id="act-exp-log-base-10-task-2">
       <statement>
         <p>
           <m>10^t = 37</m>
@@ -50,7 +50,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-log-base-10-task-3">
+    <task workspace="5cm" xml:id="act-exp-log-base-10-task-3">
       <statement>
         <p>
           <m>\log_{10}(y) = 1.375</m>
@@ -60,7 +60,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-log-base-10-task-4">
+    <task workspace="5cm" xml:id="act-exp-log-base-10-task-4">
       <statement>
         <p>
           <m>10^t = 0.04</m>
@@ -70,7 +70,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-log-base-10-task-5">
+    <task workspace="5cm" xml:id="act-exp-log-base-10-task-5">
       <statement>
         <p>
           <m>3 \cdot 10^t + 11 = 147</m>
@@ -80,7 +80,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-log-base-10-task-6">
+    <task workspace="5cm" xml:id="act-exp-log-base-10-task-6">
       <statement>
         <p>
           <m>2\log_{10}(y) + 5 = 1</m>

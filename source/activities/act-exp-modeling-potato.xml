@@ -23,7 +23,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-exp-modeling-potato-task-0">
+    <task workspace="5cm" xml:id="act-exp-modeling-potato-task-0">
       <statement>
         <p>
 						What is the numerical value of <m>F(0)</m>?
@@ -34,7 +34,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-modeling-potato-task-1">
+    <task workspace="5cm" xml:id="act-exp-modeling-potato-task-1">
       <statement>
         <p>
 						Based on the context of the problem,
@@ -47,7 +47,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-modeling-potato-task-2">
+    <task workspace="7cm" xml:id="act-exp-modeling-potato-task-2">
       <statement>
         <p>
 						What is the value of <m>b</m>?  Why?
@@ -61,19 +61,19 @@
       <statement>
         <p>
 								Check your work above by plotting the function <m>F</m> using graphing technology in an appropriate window.
-								Record your results on the axes provided in <xref ref="F-modeling-act-blank-axes-potato">Figure</xref>, labeling the scale on the axes.
+								Record your results on the axes provided below, labeling the scale on the axes.
             					Then, use the graph to estimate the time at which the potato's temperature reaches <m>325</m> degrees.
 							</p>
-        <figure xml:id="F-modeling-act-blank-axes-potato">
-          <caption>Axes for plotting <m>F</m>.</caption>
+<!--        <figure xml:id="F-modeling-act-blank-axes-potato">
+          <caption>Axes for plotting <m>F</m>.</caption> -->
           <image width="50%" source="images/modeling-F-t-blank-axes"/>
-        </figure>
+<!--        </figure> -->
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-modeling-potato-task-4">
+    <task workspace="4cm" xml:id="act-exp-modeling-potato-task-4">
       <statement>
         <p>
 						How can we view the function <m>F(t) = a - b(0.98)^t</m> as a transformation of the parent function <m>f(t) = (0.98)^t</m>?  Explain.

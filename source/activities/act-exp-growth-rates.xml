@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-exp-growth-rates-task-0">
+    <task workspace="6cm" xml:id="act-exp-growth-rates-task-0">
       <statement>
         <p>
 						A function <m>p</m> that is always decreasing and decreases at a constant rate.
@@ -30,7 +30,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-growth-rates-task-1">
+    <task workspace="6cm" xml:id="act-exp-growth-rates-task-1">
       <statement>
         <p>
 						A function <m>q</m> that is always increasing and increases at an increasing rate.
@@ -40,7 +40,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-growth-rates-task-2">
+    <task workspace="6cm" xml:id="act-exp-growth-rates-task-2">
       <statement>
         <p>
 						A function <m>r</m> that is always increasing for <m>t \lt 2</m>, always decreasing for <m>t \gt 2</m>, and is always changing at a decreasing rate.
@@ -50,7 +50,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-growth-rates-task-3">
+    <task workspace="6cm" xml:id="act-exp-growth-rates-task-3">
       <statement>
         <p>
 						A function <m>s</m> that is always increasing and increases at a decreasing rate.  (Hint: to find a formula, think about how you might use a transformation of a familiar function.)
@@ -60,7 +60,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-growth-rates-task-4">
+    <task workspace="6cm" xml:id="act-exp-growth-rates-task-4">
       <statement>
         <p>
 						A function <m>u</m> that is always decreasing and decreases at a decreasing rate.

@@ -25,16 +25,16 @@
         <p>
 							Sketch a typical graph of <m>P(t)</m> on the axes provided and write several sentences to explain the effects of <m>A</m>, <m>M</m>, and <m>k</m> on the graph of <m>P</m>.
 						</p>
-        <figure xml:id="F-logistic-act-blank-axes">
-          <caption>Axes for plotting a typical logistic function <m>P</m>.</caption>
+<!--        <figure xml:id="F-logistic-act-blank-axes">
+          <caption>Axes for plotting a typical logistic function <m>P</m>.</caption> -->
           <image source="images/temp-pop-p-t-blank-axes" width="60%"/>
-        </figure>
+<!--        </figure> -->
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-temp-pop-logistic-Desmos-task-1">
+    <task workspace="6cm" xml:id="act-exp-temp-pop-logistic-Desmos-task-1">
       <statement>
         <p>
 						On a typical logistic graph, where does it appear that the population is growing most rapidly?  How is this value connected to the carrying capacity, <m>A</m>?
@@ -44,7 +44,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-temp-pop-logistic-Desmos-task-2">
+    <task workspace="4cm" xml:id="act-exp-temp-pop-logistic-Desmos-task-2">
       <statement>
         <p>
 						How does the function <m>1 + Me^{-kt}</m> behave as <m>t</m> decreases without bound?  What is the algebraic reason that this occurs?
@@ -54,7 +54,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-temp-pop-logistic-Desmos-task-3">
+    <task workspace="5cm" xml:id="act-exp-temp-pop-logistic-Desmos-task-3">
       <statement>
         <p>
 						Use your <em>Desmos</em> worksheet to find a logistic function <m>P</m> that has the following properties:  <m>P(0) = 2</m>, <m>P(2) = 4</m>, and <m>P(t)</m> approaches <m>9</m> as <m>t</m> increases without bound.  What are the approximate values of <m>A</m>, <m>M</m>, and <m>k</m> that make the function <m>P</m> fit these criteria?

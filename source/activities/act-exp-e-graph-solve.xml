@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-exp-e-graph-solve-task-0">
+    <task workspace="4cm" xml:id="act-exp-e-graph-solve-task-0">
       <statement>
         <p>
           <m>e^t = 2</m>
@@ -30,7 +30,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-e-graph-solve-task-1">
+    <task workspace="4cm" xml:id="act-exp-e-graph-solve-task-1">
       <statement>
         <p>
           <m>e^{3t} = 5</m>
@@ -40,7 +40,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-e-graph-solve-task-2">
+    <task workspace="4cm" xml:id="act-exp-e-graph-solve-task-2">
       <statement>
         <p>
           <m>2e^t - 4 = 7</m>
@@ -50,7 +50,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-e-graph-solve-task-3">
+    <task workspace="5cm" xml:id="act-exp-e-graph-solve-task-3">
       <statement>
         <p>
           <m>3e^{0.25t} + 2 = 6</m>
@@ -60,7 +60,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-e-graph-solve-task-4">
+    <task workspace="5cm" xml:id="act-exp-e-graph-solve-task-4">
       <statement>
         <p>
           <m>4 - 2e^{-0.7t} = 3</m>
@@ -70,7 +70,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-exp-e-graph-solve-task-5">
+    <task workspace="5cm" xml:id="act-exp-e-graph-solve-task-5">
       <statement>
         <p>
           <m>2e^{1.2t} = 1.5e^{1.6t}</m>
