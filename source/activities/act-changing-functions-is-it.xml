@@ -40,7 +40,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-changing-functions-is-it-task-1">
+    <task workspace="4cm" xml:id="act-changing-functions-is-it-task-1">
       <statement>
         <p>
 						The relationship between the day of the year and the value of the S&amp;P500 stock index (at the close of trading on a given day), where we attempt to consider the index's value (at the close of trading) as a function of the day of the year.

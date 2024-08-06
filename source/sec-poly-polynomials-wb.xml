@@ -13,14 +13,14 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="C-poly">
-  	<title>Polynomial and Rational Functions</title>
-  
-  	<xi:include  href="./sec-poly-infty-wb.xml" />
- 	<xi:include  href="./sec-poly-polynomials-wb.xml" />
-  	<xi:include  href="./sec-poly-polynomial-applications-wb.xml" />
-  	<xi:include  href="./sec-poly-rational-wb.xml" />
-  	<xi:include  href="./sec-poly-rational-features-wb.xml" /> 
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-poly-polynomials">
+  <title>Polynomials</title>
 
-</chapter>
+		<xi:include href="./previews/PA-poly-polynomials.xml" />
+  	<xi:include href="./activities/act-poly-polynomials-find.xml" />
+		<xi:include href="./activities/act-poly-polynomials-sign-chart.xml" />
+  	<xi:include href="./activities/act-poly-polynomials-multiple-zeros.xml" />
 
+</section>
+
+ 

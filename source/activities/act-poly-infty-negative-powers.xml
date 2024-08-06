@@ -34,7 +34,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-poly-infty-negative-powers-task-1">
+    <task workspace="4cm" xml:id="act-poly-infty-negative-powers-task-1">
       <statement>
         <p>
 	            Click the icons next to each of the following 8 functions so that you can see all of <m>y = x^{-1}</m>,
@@ -59,7 +59,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-poly-infty-negative-powers-task-3">
+    <task workspace="5cm" xml:id="act-poly-infty-negative-powers-task-3">
       <statement>
         <p>
 	            Uncheck the icons on each of the 8 functions to hide their graphs.
@@ -73,7 +73,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-poly-infty-negative-powers-task-4">
+    <task workspace="4cm" xml:id="act-poly-infty-negative-powers-task-4">
       <statement>
         <p>
 	        		Explain why <m>\lim_{x \to \infty} \frac{1}{x^n} = 0</m> for any choice of <m>n = 1, 2, \ldots</m>.

@@ -16,13 +16,13 @@
   <activity xml:id="act-poly-infty-limit">
     <statement>
       <p>
-			Complete the <xref ref="T-familiar-infty-limits">Table</xref> by entering
+			Complete the following table by entering
 		    <q><m>\infty</m>,</q><q><m>-\infty</m>,</q><q><m>0</m>,</q> or <q>no limit</q>
 		    to identify how the function behaves as either <m>x</m> increases or decreases without bound.
 		    As much as possible, work to decide the behavior <em>without</em> using a graphing utility.
 		</p>
-      <table xml:id="T-familiar-infty-limits">
-        <title>Some familiar functions and their limits as <m>x \to \infty</m> or <m>x \to -\infty</m>.</title>
+<!--      <table xml:id="T-familiar-infty-limits">
+        <title>Some familiar functions and their limits as <m>x \to \infty</m> or <m>x \to -\infty</m>.</title> -->
         <tabular>
           <row bottom="medium">
             <cell>
@@ -146,7 +146,7 @@
             </cell>
           </row>
         </tabular>
-      </table>
+<!--      </table> -->
     </statement>
     <answer>
       <p/>

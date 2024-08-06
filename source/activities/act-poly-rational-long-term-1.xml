@@ -23,7 +23,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-poly-rational-long-term-1-task-0">
+    <task workspace="6cm" xml:id="act-poly-rational-long-term-1-task-0">
       <statement>
         <p>
 						Note that we can multiply the formula for <m>r</m> by the form of <m>1</m> given by <m>1 = \frac{\frac{1}{x^2}}{\frac{1}{x^2}}</m>.  Do so, and distribute and simplify as much as possible in both the numerator and denominator to write <m>r</m> in a different algebraic form.
@@ -48,7 +48,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-poly-rational-long-term-1-task-2">
+    <task workspace="4cm" xml:id="act-poly-rational-long-term-1-task-2">
       <statement>
         <p>
 						Next, determine
@@ -61,7 +61,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-poly-rational-long-term-1-task-3">
+    <task workspace="6cm" xml:id="act-poly-rational-long-term-1-task-3">
       <statement>
         <p>
 						Use <em>Desmos</em> to plot <m>r</m> on the interval <m>[-10,10]</m>.  In addition, plot the horizontal line <m>y = \frac{3}{7}</m>.  What is the meaning of the limits you found in (b) and (c)?

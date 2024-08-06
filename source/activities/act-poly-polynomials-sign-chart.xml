@@ -53,7 +53,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-poly-polynomials-sign-chart-task-3">
+    <task workspace="8cm" xml:id="act-poly-polynomials-sign-chart-task-3">
       <statement>
         <p>
 						Construct a sign chart for <m>p</m> by using the zeros you identified in (c) and then analyzing the sign of each factor of <m>p</m>.
@@ -63,7 +63,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-poly-polynomials-sign-chart-task-4">
+    <task workspace="6cm" xml:id="act-poly-polynomials-sign-chart-task-4">
       <statement>
         <p>
 						Without using a graphing utility, construct an approximate graph of <m>p</m> that has the zeros of <m>p</m> carefully labeled on the <m>x</m>-axis.  
@@ -73,7 +73,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-poly-polynomials-sign-chart-task-5">
+    <task workspace="4cm" xml:id="act-poly-polynomials-sign-chart-task-5">
       <statement>
         <p>
 						Use a graphing utility to check your earlier work.  What is challenging or misleading when using technology to graph <m>p</m>?

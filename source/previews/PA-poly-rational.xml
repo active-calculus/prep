@@ -16,7 +16,7 @@
   <exploration xml:id="PA-poly-rational">
     <introduction>
       <p>
-			A drug company<fn>This activity is based on p. 457ff in <em>Functions Modeling Change</em>, by Connally et al.</fn> estimates that to produce a new drug,
+			A drug company estimates that to produce a new drug,
 			it will cost $5 million in startup resources, and that once they reach production, each gram of the drug will cost $2500 to make.  
 		</p>
       <p/>
@@ -51,7 +51,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-poly-rational-task-3">
+    <task workspace="4.5cm" xml:id="PA-poly-rational-task-3">
       <statement>
         <p>
 						Our computations in (b) and (c) naturally lead us to define the <q>average cost per gram</q> function, <m>A(q)</m>, whose output is the average cost of producing <m>q</m> grams of the drug.  What is a formula for <m>A(q)</m>?
@@ -61,7 +61,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-poly-rational-task-4">
+    <task workspace="4cm" xml:id="PA-poly-rational-task-4">
       <statement>
         <p>
 						Explain why another formula for <m>A</m> is <m>A(q) = 2500 + \frac{5000000}{q}</m>.  
@@ -71,7 +71,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-poly-rational-task-5">
+    <task workspace="4cm" xml:id="PA-poly-rational-task-5">
       <statement>
         <p>
 						What can you say about the long-range behavior of <m>A</m>?  What does this behavior mean in the context of the problem?
@@ -81,5 +81,10 @@
       <answer/>
       <solution/>
     </task>
+    <conclusion>
+      <p>
+        This activity is based on p. 457ff in <em>Functions Modeling Change</em>, by Connally et al.
+      </p>
+    </conclusion>
   </exploration>
 </worksheet>

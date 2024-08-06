@@ -20,20 +20,20 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="PA-poly-polynomials-task-0">
+    <task workspace="4cm" xml:id="PA-poly-polynomials-task-0">
       <statement>
         <p>
 						What is the largest number of distinct points at which <m>p(x)</m> can cross the <m>x</m>-axis? 
 					</p>
         <p>
-						Recall from <xref ref="def-polynomial-function">Definition</xref>what we mean by a <term>zero</term> of the polynomial.  Give examples of values for <m>a_0, \ldots, a_4</m> that lead to that largest number of zeros for <m>p(x)</m>.
+						Recall from the definition of a polynoimal function what we mean by a <term>zero</term> of the polynomial.  Give examples of values for <m>a_0, \ldots, a_4</m> that lead to that largest number of zeros for <m>p(x)</m>.
 					</p>
       </statement>
       <hint/>
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-poly-polynomials-task-1">
+    <task workspace="4cm" xml:id="PA-poly-polynomials-task-1">
       <statement>
         <p>
 						What other numbers of zeros are possible for <m>p(x)</m>?  Said differently, can you get each possible number of fewer zeros than the largest number that you found in (a)? Why or why not?
@@ -43,7 +43,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-poly-polynomials-task-2">
+    <task workspace="4cm" xml:id="PA-poly-polynomials-task-2">
       <statement>
         <p>
 						We say that a function has a <term>turning point</term><idx><h>turning point</h></idx> if the function changes from decreasing to increasing or increasing to decreasing at the point.  For example, any quadratic function has a turning point at its vertex.
@@ -56,7 +56,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-poly-polynomials-task-3">
+    <task workspace="4cm" xml:id="PA-poly-polynomials-task-3">
       <statement>
         <p>
 						What other numbers of turning points are possible for <m>p(x)</m>? Can it have no turning points?  Just one?  Exactly two? Experiment and explain.
@@ -66,7 +66,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-poly-polynomials-task-4">
+    <task workspace="4cm" xml:id="PA-poly-polynomials-task-4">
       <statement>
         <p>
 						What long-range behavior is possible for <m>p(x)</m>?  Said differently, what are the possible results for <m>\displaystyle \lim_{x \to -\infty} p(x)</m> and <m>\displaystyle \lim_{x \to \infty} p(x)</m>?
@@ -76,7 +76,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-poly-polynomials-task-5">
+    <task workspace="4cm" xml:id="PA-poly-polynomials-task-5">
       <statement>
         <p>
 						What happens when we plot <m>y = a_4 x^4</m> in <em>Desmos</em> and compare <m>p(x)</m> and <m>a_4 x^4</m>?  How do they look when we zoom out? (Experiment with different values of each of the sliders, too.)

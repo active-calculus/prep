@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="act-poly-rational-domain-task-0">
+    <task workspace="6cm" xml:id="act-poly-rational-domain-task-0">
       <statement>
         <p>
           <m>\displaystyle f(x) = \frac{x^2-1}{x^2 + 1}</m>
@@ -30,7 +30,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-poly-rational-domain-task-1">
+    <task workspace="6cm" xml:id="act-poly-rational-domain-task-1">
       <statement>
         <p>
           <m>\displaystyle g(x) = \frac{x^2 - 1}{x^2 + 3x - 4}</m>
@@ -40,7 +40,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-poly-rational-domain-task-2">
+    <task workspace="6cm" xml:id="act-poly-rational-domain-task-2">
       <statement>
         <p>
           <m>\displaystyle h(x) = \frac{1}{x} + \frac{1}{x-1} + \frac{1}{x-2}</m>
@@ -50,7 +50,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-poly-rational-domain-task-3">
+    <task workspace="6cm" xml:id="act-poly-rational-domain-task-3">
       <statement>
         <p>
           <m>\displaystyle j(x) = \frac{(x+5)(x-3)(x+1)(x-4)}{(x+1)(x+3)(x-5)}</m>
@@ -60,7 +60,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-poly-rational-domain-task-4">
+    <task workspace="6cm" xml:id="act-poly-rational-domain-task-4">
       <statement>
         <p>
           <m>\displaystyle k(x) = \frac{2x^2 + 7}{3x^3 - 12x}</m>
@@ -70,7 +70,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="act-poly-rational-domain-task-5">
+    <task workspace="6cm" xml:id="act-poly-rational-domain-task-5">
       <statement>
         <p>
           <m>\displaystyle m(x) = \frac{5x^2 - 45}{7(x-2)(x-3)^2(x^2 + 9)(x+1)}</m>

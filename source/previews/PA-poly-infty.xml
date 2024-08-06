@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="PA-poly-infty-task-0">
+    <task workspace="1.5cm" xml:id="PA-poly-infty-task-0">
       <statement>
         <p>
 						As <m>t \to \infty</m>, <m>e^{-t} \to </m><fillin/>.
@@ -30,7 +30,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-poly-infty-task-1">
+    <task workspace="1.5cm" xml:id="PA-poly-infty-task-1">
       <statement>
         <p>
 						As <m>t \to \infty</m>, <m>\ln(t) \to </m><fillin/>.
@@ -40,7 +40,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-poly-infty-task-2">
+    <task workspace="1.5cm" xml:id="PA-poly-infty-task-2">
       <statement>
         <p>
 						As <m>t \to \infty</m>, <m>e^{t} \to </m><fillin/>.
@@ -50,7 +50,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-poly-infty-task-3">
+    <task workspace="1.5cm" xml:id="PA-poly-infty-task-3">
       <statement>
         <p>
 						As <m>t \to 0^+</m>, <m>e^{-t} \to </m><fillin/>. (When we write <m>t \to 0^+</m>, this means that we are letting <m>t</m> get closer and closer to <m>0</m>, but only allowing <m>t</m> to take on positive values.)
@@ -60,7 +60,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-poly-infty-task-4">
+    <task workspace="1.5cm" xml:id="PA-poly-infty-task-4">
       <statement>
         <p>
 						As <m>t \to \infty</m>, <m>35 + 53e^{-0.025t} \to</m><fillin/>.
@@ -70,7 +70,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-poly-infty-task-5">
+    <task workspace="1.5cm" xml:id="PA-poly-infty-task-5">
       <statement>
         <p>
 						As <m>t \to \frac{\pi}{2}^-</m>, <m>\tan(t) \to </m><fillin/>. (When we write <m>t \to \frac{\pi}{2}^-</m>, this means that we are letting <m>t</m> get closer and closer to <m>\frac{\pi}{2}^-</m>, but only allowing <m>t</m> to take on values that lie to the left of <m>\frac{\pi}{2}</m>.)
@@ -80,7 +80,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-poly-infty-task-6">
+    <task workspace="1.5cm" xml:id="PA-poly-infty-task-6">
       <statement>
         <p>
 						As <m>t \to \frac{\pi}{2}^+</m>, <m>\tan(t) \to </m><fillin/>. (When we write <m>t \to \frac{\pi}{2}^+</m>, this means that we are letting <m>t</m> get closer and closer to <m>\frac{\pi}{2}^+</m>, but only allowing <m>t</m> to take on values that lie to the right of <m>\frac{\pi}{2}</m>.)

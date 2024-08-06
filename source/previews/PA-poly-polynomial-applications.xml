@@ -20,7 +20,7 @@
 		</p>
       <p/>
     </introduction>
-    <task workspace="3cm" xml:id="PA-poly-polynomial-applications-task-0">
+    <task workspace="5cm" xml:id="PA-poly-polynomial-applications-task-0">
       <statement>
         <p>
 						Let <m>x</m> be the side length of the squares being cut from the corners of the cardboard.  Draw a labeled diagram that shows the given information and the variable being used.
@@ -60,7 +60,7 @@
       <answer/>
       <solution/>
     </task>
-    <task workspace="3cm" xml:id="PA-poly-polynomial-applications-task-4">
+    <task workspace="5cm" xml:id="PA-poly-polynomial-applications-task-4">
       <statement>
         <p>
 						What are the zeros of <m>V</m>?  What is the domain of the model <m>V</m> in the context of the rectangular box?
