@@ -32,12 +32,8 @@
       The beautiful full-color .eps graphics, as well as the occasional interactive JavaScript graphics, use David Austin's Python library that employs Bill Casselman's <url href="http://gvsu.edu/s/bi">PiScript</url>.  
       The .html version of the text is the result Rob Beezer's amazing work to develop the publishing language <pretext /> (formerly known as Mathbook XML); learn more at <url href="pretextbook.org">pretextbook.org</url>.
       I'm grateful to the American Institute of Mathematics for hosting and funding
-      a weeklong workshop in Mathbook XML in San Jose, CA, in April 2016, which enabled me to get started in <pretext />.  The ongoing support of the <url href="https://groups.google.com/forum/#!forum/pretext-support">user group</url> is invaluable, and David Farmer of AIM is has also been a source of major support and advocacy.
-      Mitch Keller of Morningside College is the production editor of both <url href="https://activecalculus.org/single/">Active Calculus: Single Variable</url> and this text; his technical expertise is a gift. 
-    </p>
-
-    <p>
-      This first public offering of the text in 2019 will benefit immensely from user feedback and suggestions.  I welcome hearing from you.
+      a weeklong workshop in San Jose, CA, in April 2016, which enabled me to get started in <pretext />.  The ongoing support of the <url href="https://groups.google.com/forum/#!forum/pretext-support">user group</url> is invaluable, and David Farmer of AIM is has also been a source of major support and advocacy.
+      Mitch Keller of the University of Wisconsin is the production editor of both <url href="https://activecalculus.org/single/">Active Calculus: Single Variable</url> and this text; his technical expertise is a gift. 
     </p>
 
 <!--  <attribution>
@@ -254,7 +250,7 @@
     </p>
 
     <p>
-      As you use the book, think of it as a workbook, not a worked-book.  There is a great deal of scholarship that shows people learn better when they interactively engage and struggle with ideas themselves, rather than passively watch others.  Thus, instead of reading worked examples or watching an instructor complete examples, you will engage with Activities that prompt you to grapple with concepts and develop deep understanding.  You should expect to spend time in class working with peers on Activities and getting feedback from them and from your instructor.  You can ask your instructor for a copy of the PDF file that has only the activities along with room to record your work.  Your goal should be to do all of the activities in the relevant sections of the text and keep a careful record of your work.  <!-- You can find answers to the activities <xref ref="activities-answers">in the back matter</xref>.-->
+      As you use the book, think of it as a workbook, not a worked-book.  There is a great deal of scholarship that shows people learn better when they interactively engage and struggle with ideas themselves, rather than passively watch others.  Thus, instead of reading worked examples or watching an instructor complete examples, you will engage with Activities that prompt you to grapple with concepts and develop deep understanding.  You should expect to spend time in class working with peers on Activities and getting feedback from them and from your instructor.  You can purchase a separate Activities Workbook <url href="https://www.amazon.com/Active-Prelude-Calculus-Activities-Workbook/dp/1086101766/" visual="amazon.com/Active-Prelude-Calculus-Activities-Workbook/dp/1086101766/">from Amazon</url> in which to record your work on the activities, or you can find a free PDF at <url href="https://activecalculus.org/apc/" visual="https://activecalculus.org/apc/">the home page for the textbooks</url> (scroll down in the left panel and look for the link to <q>download PDF</q> in the student workbook section) that has only the activities along with room to record your work.   Your goal should be to do all of the activities in the relevant sections of the text and keep a careful record of your work.  <!-- You can find answers to the activities <xref ref="activities-answers">in the back matter</xref>.-->
     </p>
 
     <p>
@@ -280,11 +276,11 @@
   <preface xml:id="preface-for-instructors">
     <title>Instructors!  Read this!</title>
     <p>
-      This book is different.  Before you read further, first read <xref ref="preface-for-students" text="custom"><q>Students! Read this!</q></xref> as well as <xref ref="preface-our-goals" text="custom"><q>Our Goals</q></xref>.
+      This book is different.  Before you read further, first read <xref ref="preface-for-students" text="custom"><q>Students! Read this!</q></xref> as well as <xref ref="preface-our-goals" text="custom"><q>Our Goals</q></xref>.  More information for instructors can also be found at <url href="https://activecalculus.org/apc/" visual="https://activecalculus.org/apc/">the home page for the text</url>, at <url href="https://activecalculus.org/" visual="https://activecalculus.org/">activecalculus.org generally</url>, and on the <url href="https://activecalculus.org/instructors/" visual="https://activecalculus.org/instructors/">instructors page</url>.
     </p>
 
     <p>
-      Among the three formats (HTML, PDF, print), the HTML is optimal for display in class if you have a suitable projector.  The HTML is also best for navigation, as links to internal and external references are much more obvious.  We recommend saving a downloaded version of the PDF format as a backup in the event you don't have internet access.  It's a good idea for each student to have a printed version of the Activities Workbook, which you can acquire as a PDF document by direct request to the author (boelkinm at gvsu dot edu); many instructors use the PDF to have coursepacks printed for students to purchase from their local bookstore.
+      Among the three formats (HTML, PDF, print), the HTML is optimal for display in class if you have a suitable projector.  The HTML is also best for navigation, as links to internal and external references are much more obvious.  We recommend saving a downloaded version of the PDF format as a backup in the event you don't have internet access.  It's a good idea for each student to have a printed version of the Activities Workbook, which can be purchased <url href="https://www.amazon.com/Active-Prelude-Calculus-Activities-Workbook/dp/1086101766/" visual="amazon.com/Active-Prelude-Calculus-Activities-Workbook/dp/1086101766/">from Amazon</url>, or you can find a free PDF at <url href="https://activecalculus.org/apc/" visual="https://activecalculus.org/apc/">the home page for the textbooks</url> (scroll down in the left panel and look for the link to <q>download PDF</q> in the student workbook section) that has only the activities along with room to work; many instructors use the PDF to have coursepacks printed for students to purchase from their local bookstore.
     </p>
 
     <p>
@@ -340,7 +336,7 @@
 -->
 
     <p>
-      The <pretext /> source code for the text can be found on <url href="https://github.com/active-calculus/prep">GitHub</url>.  If you find errors in the text or have other suggestions, you can file an issue on GitHub <!--use the <url href="http://gvsu.edu/s/0vK">Feedback link</url> in the HTML version (found at the bottom left in the main menu),--> or email the author directly.  To engage with instructors who use the text, we maintain both an email list and the <url href="https://opencalculus.wordpress.com/">Open Calculus blog</url>; you can request that your address be added to the email list by contacting the author.  Finally, if you're interested in a video presentation on using the similar <pubtitle>Active Calculus</pubtitle> text, you can see this <url href="http://math.mit.edu/seminars/esme/videos/2018-10-02_Boelkins.mp4">online video presentation</url> to the <url href="http://math.mit.edu/seminars/esme/">MIT Electronic Seminar on Mathematics Education</url>; at about the 17-minute mark, the portion begins where we demonstrate features of and how to use the text. 
+      The <pretext /> source code for the text can be found on <url href="https://github.com/active-calculus/prep">GitHub</url>.  If you find errors in the text or have other suggestions, you can file an issue on GitHub <!--use the <url href="http://gvsu.edu/s/0vK">Feedback link</url> in the HTML version (found at the bottom left in the main menu),--> or email the author directly.  To engage with instructors who use the text, we maintain a Google group and <url href="https://activecalculus.org/blog/" visual="activecalculus.org/blog">a blog</url>; you can request to join the Google group via the link at <url href="https://activecalculus.org/instructors/" visual="https://activecalculus.org/instructors/"> the instructors page</url>.  Finally, if you're interested in a video presentation on using the similar <pubtitle>Active Calculus</pubtitle> text, you can see this <url href="http://math.mit.edu/seminars/esme/videos/2018-10-02_Boelkins.mp4">online video presentation</url> to the <url href="http://math.mit.edu/seminars/esme/">MIT Electronic Seminar on Mathematics Education</url>; at about the 17-minute mark, the portion begins where we demonstrate features of and how to use the text. 
     </p>
 
     <p>
