@@ -20,7 +20,7 @@
 
   // The pretext-full image above includes pretext, prefigure, and enough parts of latex and sagemath for most cases.  Here we install additional dependencies.
   "postCreateCommand": {
-    "install pandoc": "bash ./.devcontainer/installPandoc.sh",
+    // "install pandoc": "bash ./.devcontainer/installPandoc.sh",
     "mark repo as safe": "git config --global --add safe.directory $(pwd)"
     },
 
