@@ -17,3 +17,4 @@ xml-id conventions.rtf
 codechat_config.yaml
 settings.json
 logs
+.cache
