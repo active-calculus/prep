@@ -36,7 +36,7 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
 	<p>
 		Recall that a function, by definition, is a process that takes a collection of inputs and produces a corresponding collection of outputs in such a way that the process produces one and only one output value for any single input value.  Because every function is a process, it makes sense to think that it may be possible to take two function processes and do one of the processes first, and then apply the second process to the result.
 	</p>
@@ -79,7 +79,7 @@
 
 	<xi:include href="./previews/PA-changing-composite.xml" />
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-changing-composite-composing">
   	<title>Composing two functions</title>

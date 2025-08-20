@@ -20,7 +20,7 @@
     		the first point counterclockwise from <m>(1,0)</m> corresponds to the distance
     		<m>t = \frac{\pi}{12}</m> traveled along the unit circle.  The second point is twice as far, and thus <m>t = 2 \cdot \frac{\pi}{12} = \frac{\pi}{6}</m> units along the circle away from <m>(1,0)</m>.
 		</p>
-<!--      <figure xml:id="F-PA-big-unit-circle">
+<!--      <figure xml:id="PA-circular-unit-circle">
         <caption>The unit circle with <m>24</m> equally-spaced points.</caption> -->
         <image source="images/unit-circle-24-PA"/>
 <!--      </figure> -->

@@ -34,14 +34,14 @@
   		</li>
   	</ul>
   </objectives>
-  <introduction>
+  <subsection><title>Introduction</title>
   	<p>
   		Recall our work in <xref ref="sec-changing-transformations">Section</xref>, where we studied how the graph of the function <m>g</m> defined by <m>g(x) = af(x-b) + c</m> is related to the graph of <m>f</m>, where <m>a</m>, <m>b</m>, and <m>c</m> are real numbers with <m>a \ne 0</m>.  Because such transformations can shift and stretch a function, we are interested in understanding how we can use transformations of the sine and cosine functions to fit formulas to circular functions.
   	</p>
 
   	<xi:include href="./previews/PA-circular-sinusoidal.xml" />
 
-  </introduction>
+  </subsection>
   <subsection xml:id="subsec-circular-sinusoidal-shifts-stretches">
   	<title>Shifts and vertical stretches of the sine and cosine functions</title>
   	<p>

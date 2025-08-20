@@ -35,14 +35,14 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
   	<p>
   		Logarithms arise as inverses of exponential functions.  In addition, we have motivated their development by our desire to solve exponential equations such as <m>e^k = 3</m> for <m>k</m>.  Because of the inverse relationship between exponential and logarithmic functions, there are several important properties logarithms have that are analogous to ones held by exponential functions.  We will work to develop these properties and then show how they are useful in applied settings.
   	</p>
 
 	<xi:include href="./previews/PA-exp-log-properties.xml" />
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-exp-log-key-properties">
   	<title>Key properties of logarithms</title>

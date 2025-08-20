@@ -36,7 +36,7 @@
   	</ul>
   </objectives>
 
-	<introduction>
+	<subsection><title>Introduction</title>
 		<p>
     		Given a function that models a certain phenomenon,
     		it's natural to ask such questions as
@@ -59,7 +59,7 @@
     	
     	<xi:include href="./previews/PA-changing-aroc.xml" />		
 
-	</introduction>
+	</subsection>
 
 	<subsection xml:id="subsec-changing-aroc-defn">
 		<title>Defining and interpreting the average rate of change of a function</title>

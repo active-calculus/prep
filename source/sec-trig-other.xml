@@ -35,7 +35,7 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
   	<p>
   		The sine and cosine functions, originally defined in the context of a point traversing the unit circle, are also central in right triangle trigonometry.  They enable us to find missing information in right triangles in a straightforward way when we know one of the non-right angles and one of the three sides of the triangle, or two of the sides where one is the hypotenuse.  In addition, we defined the tangent function in terms of the sine and cosine functions, and the tangent function offers additional options for finding missing information in right triangles.  We've also seen how the inverses of the restricted sine, cosine, and tangent functions enable us to find missing angles in a wide variety of settings involving right triangles.
   	</p>
@@ -113,7 +113,7 @@
 
 	<xi:include href="./previews/PA-trig-other.xml" />
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-trig-other-triangles">
   	<title>Ratios in right triangles</title>

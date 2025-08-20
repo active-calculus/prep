@@ -36,7 +36,7 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
   	<p>
   		In <xref ref="sec-circular-traversing">Section</xref>, we saw how tracking the height of a point that is traversing a cirle generates a periodic function, such as in <xref ref="F-act-circular-functions-properties-graph">Figure</xref>.  Then, in <xref ref="sec-circular-unit-circle">Section</xref>, we identified a collection of <m>16</m> special points on the unit circle, as seen in <xref ref="F-circular-sine-all-16">Figure</xref>.
   	</p>
@@ -52,7 +52,7 @@
 
 	<xi:include href="./previews/PA-circular-sine.xml" />
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-circular-sine-defn">
   	<title>The definition of the sine function</title>

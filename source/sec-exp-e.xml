@@ -30,7 +30,7 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
   	<p>
   		We have observed that the behavior of functions of the form <m>f(t) = b^t</m> is very consistent, where the only major differences depend on whether <m>b \lt 1</m> or <m>b \gt 1</m>.  Indeed, if we stipulate that <m>b \gt 1</m>, the graphs of functions with different bases <m>b</m> look nearly identical, as seen in the plots of <m>p</m>, <m>q</m>, <m>r</m>, and <m>s</m> in <xref ref="F-e-4-b-t">Figure</xref>.
   	</p>
@@ -46,7 +46,7 @@
 
      <xi:include href="./previews/PA-exp-e.xml" />
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-exp-e-definition">
   	<title>The natural base <m>e</m></title>

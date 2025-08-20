@@ -36,7 +36,7 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
   	  <p>
   		In our prior work with inverse functions, we have seen several important principles, including
 	    <ul>
@@ -102,7 +102,7 @@
 
 	  <xi:include href="./previews/PA-trig-inverse.xml" />
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-trig-inverse-arccos">
   	<title>The arccosine function</title>

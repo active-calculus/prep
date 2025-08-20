@@ -14,22 +14,5 @@
 <!-- **********************************************************************-->
 
   <titlepage xmlns:xi="http://www.w3.org/2001/XInclude">
-    <author>
-      <personname>Matthew Boelkins</personname>
-      <department>Department of Mathematics</department>
-      <institution>Grand Valley State University</institution>
-      <email>boelkinm@gvsu.edu</email>
-    </author>
-
-    <credit>
-      <title>Production Editor</title>
-      <author>
-        <personname>Mitchel T. Keller</personname>
-        <department>Department of Mathematics</department>
-        <institution>University of Wisconsin-Madison</institution>
-        <email>mitch@rellek.net</email>
-      </author>
-    </credit>
-
-    <date><today /></date>
+    <titlepage-items/>
   </titlepage>

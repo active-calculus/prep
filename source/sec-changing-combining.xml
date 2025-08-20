@@ -31,7 +31,7 @@
   		</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
 
 	<p>
 		In arithmetic, we execute processes where we take two numbers to generate a new number.  For example, <m>2 + 3 = 5</m>:  the number <m>5</m> results from adding <m>2</m> and <m>3</m>.  Similarly, we can multiply two numbers to generate a new one:  <m>2 \cdot 3 = 6</m>.
@@ -47,7 +47,7 @@
 
 	<xi:include href="./previews/PA-changing-combining.xml" />
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-changing-combining-functions-algebra">
   	  <title>Arithmetic with functions</title>

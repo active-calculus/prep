@@ -31,7 +31,7 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
   	<p>
   		Polynomial functions are the simplest of all functions in mathematics in part because they only involve multiplication and addition.  In any applied setting where we can formulate key ideas using only those arithmetic operations, it's natural that polynomial functions model the corresponding phenomena.  For example, in <xref ref="act-changing-functions-spherical-tank">Activity</xref>, we saw that for a spherical tank of radius <m>4</m> m filling with water, the volume of water in the tank at a given instant, <m>V</m>, is a function of the depth, <m>h</m>, of the water in the tank at the same moment according to the formula
   		<me>
@@ -46,7 +46,7 @@
 
   	<xi:include href="./previews/PA-poly-polynomial-applications.xml" />
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-poly-polynomial-applications-volume">
   	<title>Volume, surface area, and constraints</title>

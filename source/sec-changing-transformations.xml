@@ -31,7 +31,7 @@
   		</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
   	<p>
   		In our preparation for calculus, we aspire to understand functions from a wide range of perspectives and to become familiar with a library of basic functions.  So far, two basic families of functions we have considered are linear functions and quadratic functions, the simplest of which are <m>L(x) = x</m> and <m>Q(x) = x^2</m>.  As we progress further, we will endeavor to understand a <q>parent</q> function  as the most fundamental member of a family of functions, as well as how other similar but more complicated functions are the result of transforming the parent function.  
   	</p>
@@ -46,7 +46,7 @@
 
 	<xi:include href="./previews/PA-changing-transformations-quadratic.xml" />
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-changing-transformations-translation">
   	<title>Translations of Functions</title>

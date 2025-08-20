@@ -36,7 +36,7 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
   	<p>
 		If a quantity changes so that its growth or decay occurs at a constant percentage rate with respect to time, the function is exponential.  This is because if the growth or decay rate is <m>r</m>, the total amount of the quantity at time <m>t</m> is given by
 		<m>
@@ -112,7 +112,7 @@
 
   	<xi:include href="./previews/PA-exp-modeling.xml" />
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-exp-modeling-long-term">
   	<title>Long-term behavior of exponential functions</title>
