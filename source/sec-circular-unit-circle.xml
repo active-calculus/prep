@@ -34,7 +34,7 @@
       </li>
   	</ul>
   </objectives>
-  <introduction>
+  <subsection><title>Introduction</title>
   	<p>
   		As demonstrated by several different examples in <xref ref="sec-circular-traversing">Section</xref>, certain periodic phenomena are closely linked to circles and circular motion.  Rather than regularly work with circles of different center and radius, it turns out to be ideal to work with one standard circle and build all circular functions from it.  The <term>unit circle</term> <idx><h>unit circle</h></idx>is the circle of radius <m>1</m> that is centered at the origin, <m>(0,0)</m>.
   	</p>
@@ -68,7 +68,7 @@
 
 	<xi:include href="./previews/PA-circular-unit-circle.xml" />
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-circular-unit-circle-radians-degrees">
     <title>Radians and degrees</title>
@@ -86,7 +86,7 @@
     </definition>
 
     <p>
-      As seen in <xref ref="F-PA-unit-circle-defining-radian">Figure</xref>, in the unit circle this means that a central angle has measure <m>1</m> radian whenever it intercepts an arc of length <m>1</m> unit along the circumference.  Because of this important correspondence between the unit circle and radian measure (one unit of arc length on the unit circle corresponds to <m>1</m> radian), we focus our discussion of radian measure within the unit circle. 
+      As seen in <xref ref="PA-circular-unit-circle"/>, in the unit circle this means that a central angle has measure <m>1</m> radian whenever it intercepts an arc of length <m>1</m> unit along the circumference.  Because of this important correspondence between the unit circle and radian measure (one unit of arc length on the unit circle corresponds to <m>1</m> radian), we focus our discussion of radian measure within the unit circle. 
     </p>
 
     <p>
@@ -103,7 +103,7 @@
     <xi:include href="./activities/act-circular-unit-circle-radians-degrees.xml" />
 
     <p>
-      Note that in <xref ref="F-PA-big-unit-circle">Figure</xref> in the Preview Activity, we labeled <m>24</m> equally spaced points with their respective distances around the unit circle counterclockwise from <m>(1,0)</m>.  Because these distances are on the unit circle, they also correspond to the radian measure of the central angles that intercept them.  In particular, each central angle with one of its sides on the positive <m>x</m>-axis generates a unique point on the unit circle, and with it, an associated length intercepted along the circumference of the circle.  A good exercise at this point is to return to <xref ref="F-PA-big-unit-circle">Figure</xref> and label each of the noted points with the degree measure that is intercepted by a central angle with one side on the positive <m>x</m>-axis, in addition to the arc lengths (radian measures) already identified.
+      Note that in <xref ref="PA-circular-unit-circle"/>, we labeled <m>24</m> equally spaced points with their respective distances around the unit circle counterclockwise from <m>(1,0)</m>.  Because these distances are on the unit circle, they also correspond to the radian measure of the central angles that intercept them.  In particular, each central angle with one of its sides on the positive <m>x</m>-axis generates a unique point on the unit circle, and with it, an associated length intercepted along the circumference of the circle.  A good exercise at this point is to return to <xref ref="PA-circular-unit-circle"/> and label each of the noted points with the degree measure that is intercepted by a central angle with one side on the positive <m>x</m>-axis, in addition to the arc lengths (radian measures) already identified.
     </p>
 
   </subsection>

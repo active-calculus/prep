@@ -36,7 +36,7 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
   	<p>
   		In <xref ref="sec-changing-inverse">Section</xref>, we introduced the idea of an inverse function.  The fundamental idea is that <m>f</m> has an inverse function if and only if there exists another function <m>g</m> such that <m>f</m> and <m>g</m> <q>undo</q> one another's respective processes.  In other words, the process of the function <m>f</m> is reversible, and reversing <m>f</m> generates a related function <m>g</m>.
   	</p> 
@@ -47,7 +47,7 @@
 
   	<xi:include href="./previews/PA-exp-log.xml" />
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-exp-log-base-10">
   	<title>The base-<m>10</m> logarithm</title>

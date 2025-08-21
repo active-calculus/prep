@@ -36,7 +36,7 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
 	<p>
 		Because every function is a process that converts a collection of inputs to a corresponding collection of outputs, a natural question is: for a particular function, can we change perspective and think of the original function's outputs as the inputs for a reverse process?
 		If we phrase this question algebraically, it is analogous to asking: given an equation that defines <m>y</m> is a function of <m>x</m>, is it possible to find a corresponding equation where <m>x</m> is a function of <m>y</m>?
@@ -44,7 +44,7 @@
 
 	<xi:include href="./previews/PA-changing-inverse-F-C.xml" />
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="changing-inverse-definition">
   	<title>When a function has an inverse function</title>

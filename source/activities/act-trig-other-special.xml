@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,25 +12,18 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-trig-other-special">
-
-	<statement>
-		<p>
+<worksheet label="ws-act-trig-other-special">
+  <activity xml:id="act-trig-other-special">
+    <statement>
+      <p>
 			Suppose that <m>\beta</m> is an angle in standard position with its terminal side in quadrant II and you know that <m>\sec(\beta) = -2</m>.  Without using a computational device in any way, determine the exact values of the other five trigonometric functions evaluated at <m>\beta</m>.
 		</p>
-
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+    </statement>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

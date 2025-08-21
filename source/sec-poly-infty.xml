@@ -36,7 +36,7 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
   	<p>
   		In <xref ref="sec-exp-modeling">Section</xref>, we compared the behavior of the exponential functions <m>p(t) = 2^t</m> and <m>q(t) = (\frac{1}{2})^t</m>, and observed in <xref ref="F-modeling-exp-reflection">Figure</xref> that as <m>t</m> increases without bound, <m>p(t)</m> also increases without bound, while <m>q(t)</m> approaches <m>0</m> (while having its value be always positive).  We also introduced shorthand notation for describing these phenomena, writing 
   		<me>
@@ -59,7 +59,7 @@
 
   	<xi:include href="./previews/PA-poly-infty.xml" />
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-poly-infty-limit">
   	<title>Limit notation</title>

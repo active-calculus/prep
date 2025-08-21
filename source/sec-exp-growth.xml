@@ -36,7 +36,7 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
   	<p>
   		Linear functions have constant average rate of change and model many important phenomena.  In other settings, it is natural for a quantity to change at a rate that is proportional to the amount of the quantity present.  For instance, whether you put $<m>100</m> or $<m>100000</m> or any other amount in a mutual fund, the investment's value changes at a rate proportional the amount present.  We often measure that rate in terms of the annual percentage rate of return. 
   	</p>
@@ -70,7 +70,7 @@
   	</p>
 
   	<xi:include href="./previews/PA-exp-growth.xml" />
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-exp-growth-functions">
   	<title>Exponential functions of form <m>f(t) = ab^t</m></title>

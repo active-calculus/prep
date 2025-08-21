@@ -30,14 +30,14 @@
 	  	</ul>
   	</objectives>
 
-	<introduction>
+	<subsection><title>Introduction</title>
 		<p>
 			Mathematics is the art of making sense of patterns.  One way that patterns arise is when two quantities are changing in tandem.  In this setting, we may make sense of the situation by expressing the relationship between the changing quantities through words, through images, through data, or through a formula.
 		</p>
 
 		<xi:include href="./previews/PA-changing-tandem-aquarium.xml" />
 
-	</introduction>
+	</subsection>
 
 	<subsection xml:id="subsec-changing-tandem-graphs">
 		<title>Using Graphs to Represent Relationships</title>

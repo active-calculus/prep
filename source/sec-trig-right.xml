@@ -36,7 +36,7 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
 
 	<p>
 		In <xref ref="sec-circular-sine-cosine">Section</xref>, we defined the cosine and sine functions as the functions that track the location of a point traversing the unit circle counterclockwise from <m>(1,0)</m>.  In particular, for a central angle of radian measure <m>t</m> that passes through the point <m>(1,0)</m>, we define <m>\cos(t)</m> as the <m>x</m>-coordinate of the point where the other side of the angle intersects the unit circle, and <m>\sin(t)</m> as the <m>y</m>-coordinate of that same point, as pictured in <xref ref="F-right-sine-cosine-unit">Figure</xref>.
@@ -63,7 +63,7 @@
 
   	<xi:include href="./previews/PA-trig-right.xml" />
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-trig-right-similar">
   	<title>The geometry of triangles</title>

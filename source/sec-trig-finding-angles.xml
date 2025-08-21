@@ -30,7 +30,7 @@
   	</ul>
   </objectives>  
 
-  	<introduction>
+  	<subsection><title>Introduction</title>
   		<p>
   			In our earlier work in <xref ref="sec-trig-right">Section</xref> and <xref ref="sec-trig-tangent">Section</xref>, we observed that in any right triangle, if we know the measure of one additional angle and the length of one additional side, we can determine all of the other parts of the triangle.  With the inverse trigonometric functions that we developed in <xref ref="sec-trig-inverse">Section</xref>, we are now also able to determine the missing angles in any right triangle where we know the lengths of two sides.
   		</p>
@@ -45,7 +45,7 @@
 
       <xi:include href="./previews/PA-trig-finding-angles.xml" />
 
-  	</introduction>
+  	</subsection>
 
   <subsection xml:id="subsec-trig-finding-angles-evaluating">
     <title>Evaluating inverse trigonometric functions</title>

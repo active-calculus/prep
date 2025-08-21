@@ -30,7 +30,7 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
   	<p>
   		A mathematical model is an abstract concept through which we use mathematical language and notation to describe a phenomenon in the world around us.  One example of a mathematical model is found in <em>Dolbear's Law</em><fn>You can read more in the <url href="https://en.wikipedia.org/wiki/Dolbear%27s_law">Wikipedia entry</url> for Dolbear's Law, which has proven to be remarkably accurate for the behavior of snowy tree crickets.  For even more of the story, including a reference to this phenomenon on the popular show <em>The Big Bang Theory</em>, see <url href="https://priceonomics.com/how-to-tell-the-temperature-using-crickets/">this article.</url></fn>. <idx>Dolbear's Law</idx>  In the late 1800s, the physicist Amos Dolbear was listening to crickets chirp and noticed a pattern: how frequently the crickets chirped seemed to be connected to the outside temperature.  If we let <m>T</m> represent the temperature in degrees Fahrenheit and <m>N</m> the number of chirps per minute, we can summarize Dolbear's observations in the following table.
   	</p>
@@ -64,7 +64,7 @@
 
 	<xi:include href="./previews/PA-changing-functions-crickets.xml" />	
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-changing-functions-models-functions">
   	<title>Functions</title>
@@ -352,7 +352,7 @@
 	<xi:include href="./activities/act-changing-functions-is-it.xml" />
 
 	<p>
-		For a relationship or process to be a function, each individual input must be associated with one and only one output.  Thus, the usual way that we demonstrate a relationship or process is not a function is to find a particular input that is associated with two or more outputs.  When the relationship is given graphically, such as in <xref ref="F-functions-act-is-it-1">Figure</xref>, we can use the vertical line test to determine whether or not the graph represents a function.
+		For a relationship or process to be a function, each individual input must be associated with one and only one output.  Thus, the usual way that we demonstrate a relationship or process is not a function is to find a particular input that is associated with two or more outputs.  When the relationship is given graphically, such as in the left graph in <xref ref="act-changing-functions-is-it"/>, we can use the vertical line test to determine whether or not the graph represents a function.
 	</p>
 
 	<assemblage xml:id="asm-functions-V-L-test">
@@ -364,7 +364,7 @@
 	</assemblage>
 
 	<p>
-		Since the vertical line <m>x = -3</m> passes through the circle in <xref ref="F-functions-act-is-it-1">Figure</xref> at both <m>y = -\sqrt{7}</m> and <m>y = \sqrt{7}</m>, the circle does not represent a relationship where <m>y</m> is a function of <m>x</m>.  However, since any vertical line we draw in <xref ref="F-functions-act-is-it-2">Figure</xref> intersects the blue curve at most one time, the graph indeed represents a function.
+		Since the vertical line <m>x = -3</m> passes through the circle in the left graph in <xref ref="act-changing-functions-is-it"/> at both <m>y = -\sqrt{7}</m> and <m>y = \sqrt{7}</m>, the circle does not represent a relationship where <m>y</m> is a function of <m>x</m>.  However, since any vertical line we draw in the right graph in <xref ref="act-changing-functions-is-it"/> intersects the blue curve at most one time, the graph indeed represents a function.
 	</p>
 
 	<p>

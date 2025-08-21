@@ -36,7 +36,7 @@
 		</ul>
 	</objectives>
 
-	<introduction>
+	<subsection><title>Introduction</title>
 		<p>
 			The average rate of change of a function on an interval always involves a ratio.  Indeed, for a given function <m>f</m> that interests us near <m>t = 2</m>, we can investigate its average rate of change on intervals near this value by considering
 			<me>
@@ -66,7 +66,7 @@
 
 		<xi:include href="./previews/PA-poly-rational.xml" />
 
-	</introduction>
+	</subsection>
 
 	<subsection xml:id="subsec-poly-rational-long-term">
 		<title>

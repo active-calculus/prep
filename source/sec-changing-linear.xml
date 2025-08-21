@@ -36,7 +36,7 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
   	<p>
   		Functions whose graphs are straight lines are both the simplest and the most important functions in mathematics.
     	Lines often model important phenomena,
@@ -47,7 +47,7 @@
 
 	<xi:include href="./previews/PA-changing-linear-3-ex.xml" />
 
-  </introduction>
+  </subsection>
 
 
   <subsection xml:id="subsec-changing-linear-properties">

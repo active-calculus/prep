@@ -36,7 +36,7 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
   	<p>
   		We know that linear functions are the simplest of all functions we can consider:  their graphs have the simplest shape, their average rate of change is always constant (regardless of the interval chosen), and their formula is elementary.  Moreover, computing the value of a linear function only requires multiplication and addition.
   	</p>
@@ -86,7 +86,7 @@
 
 	<xi:include href="./previews/PA-poly-polynomials.xml" />
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-poly-polynomials-results">
   	<title>Key results about polynomial functions</title>

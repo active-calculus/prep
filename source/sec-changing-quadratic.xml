@@ -36,7 +36,7 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
   	
   	<p>
   		After linear functions,
@@ -52,7 +52,7 @@
   	<xi:include href="./previews/PA-changing-quadratic.xml" />
 
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-changing-quadratic-properties">
   	<title>Properties of Quadratic Functions</title>

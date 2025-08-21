@@ -36,7 +36,7 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
   	<p>
   		Because any rational function is the ratio of two polynomial functions, it's natural to ask questions about rational functions similar to those we ask about polynomials.  With polynomials, it is often helpful to know where the function's value is zero.  In a rational function <m>r(x) = \frac{p(x)}{q(x)}</m>, we are curious to know where both <m>p(x) = 0</m> and where <m>q(x) = 0</m>.  
   	</p>
@@ -47,7 +47,7 @@
 
   	<xi:include href="./previews/PA-poly-rational-features.xml" />
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-poly-rational-features-hole">
   	<title>When a rational function has a <q>hole</q></title>

@@ -31,7 +31,7 @@
   	</ul>
   </objectives>
 
-  <introduction>
+  <subsection><title>Introduction</title>
   	
 	<p>
 		We've seen that exponential functions can be used to model several different important phenomena, such as the growth of money due to continuously compounded interest, the decay of radioactive quanitities, and the temperature of an object that is cooling or warming due to its surroundings.  From initial work with functions of the form <m>f(t) = ab^t</m> where <m>b \gt 0</m> and <m>b \ne 1</m>, we found that shifted exponential functions of form <m>g(t) = ab^t + c</m> are also important.  Moreover, the special base <m>e</m> allows us to represent all of these functions through horizontal scaling by writing
@@ -60,7 +60,7 @@
 
 	<xi:include href="./previews/PA-exp-temp-pop.xml" />
 
-  </introduction>
+  </subsection>
 
   <subsection xml:id="subsec-exp-temp-pop-Newton">
   	<title>Newton's Law of Cooling revisited</title>

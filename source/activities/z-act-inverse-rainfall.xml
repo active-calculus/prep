@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,34 +12,25 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-inverse-rainfall">
-
-	<statement>
-		<p>
-			
-		</p>
-
-		<p>
-			<ol marker="a.">
-				<li>
-					<p>
-						
-					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			
-		</p>
-	</answer>
-	<solution>
-		<p>
-			
-		</p>
-	</solution>
-
-</activity>
-
+<worksheet label="ws-act-inverse-rainfall">
+  <activity xml:id="act-inverse-rainfall">
+    <introduction>
+      <p/>
+      <p/>
+    </introduction>
+    <task workspace="3cm" xml:id="act-inverse-rainfall-task-0">
+      <statement>
+        <p/>
+      </statement>
+      <hint/>
+      <answer/>
+      <solution/>
+    </task>
+    <answer>
+      <p/>
+    </answer>
+    <solution>
+      <p/>
+    </solution>
+  </activity>
+</worksheet>

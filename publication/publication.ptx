@@ -4,8 +4,8 @@
 		 />
   </source>
   <html>
-    <search google-cx="015103900096539427448:ngwuia10qci" />
-    <css colors="blue_grey" />
+    <!-- <search google-cx="015103900096539427448:ngwuia10qci" /> -->
+    <css theme="default-modern" palette="blues" />
     <!-- Examples and exercises are knowlized by default -->
     <!-- We disable this behavior  -->
     <knowl example="no" exercise-divisional="no" exercise-inline="no" />
