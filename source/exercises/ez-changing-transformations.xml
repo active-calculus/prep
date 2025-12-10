@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2018                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -15,23 +14,23 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-transformations">
 
   <exercise xml:id="ez-changing-transformations-WW1">
-    <webwork source="Library/Rochester/setAlgebra19FunTransforms/p1.pg" />
+    <webwork source="Library/Rochester/setAlgebra19FunTransforms/p1.pg"/>
   </exercise>
 
   <exercise xml:id="ez-changing-transformations-WW2">
-    <webwork source="Library/Rochester/setAlgebra19FunTransforms/ptransf2.pg" />
+    <webwork source="Library/Rochester/setAlgebra19FunTransforms/ptransf2.pg"/>
   </exercise>
 
   <exercise xml:id="ez-changing-transformations-WW3">
-    <webwork source="Library/Rochester/setAlgebra20QuadraticFun/lh3-1_1-3.pg" />
+    <webwork source="Library/Rochester/setAlgebra20QuadraticFun/lh3-1_1-3.pg"/>
   </exercise>
 
   <exercise xml:id="ez-changing-transformations-WW4">
-    <webwork source="Library/Michigan/Chap1Sec3/Q05.pg" />
+    <webwork source="Library/Michigan/Chap1Sec3/Q05.pg"/>
   </exercise>
 
   <exercise xml:id="ez-changing-transformations-WW6">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap5Sec1/Q09.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap5Sec1/Q09.pg"/>
   </exercise>  
 
 <!--  THESE ONES DON'T
@@ -157,11 +156,13 @@
             <sidebyside width="50%">
               <figure xml:id="F-ez-transformations-blank-axes">
                 <caption>Axes for plotting <m>f</m>, <m>g</m>, <m>h</m>, <m>k</m>, and <m>m</m> in part (a).</caption>
-                <image source="images/functions-y-x-blank-axes" />
+                <image source="images/functions-y-x-blank-axes"><description><p>Axes for plotting <m>f</m>, <m>g</m>, <m>h</m>, <m>k</m>, and <m>m</m> in part (a).</p>
+                </description></image>
               </figure>
               <figure xml:id="F-ez-transformations-blank-axes-2">
                 <caption>Axes for plotting <m>f</m>, <m>r</m>, and <m>s</m> from parts (c) and (d).</caption>
-                <image source="images/functions-y-x-blank-axes-centered-low" />
+                <image source="images/functions-y-x-blank-axes-centered-low"><description><p>Axes for plotting <m>f</m>, <m>r</m>, and <m>s</m> from parts (c) and (d).</p>
+                </description></image>
               </figure>
             </sidebyside>
           </li>

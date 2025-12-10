@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -15,26 +14,26 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-circular-unit-circle">
 
   <exercise xml:id="ez-circular-unit-circle-WW8">
-    <webwork source="Library/Rochester/setTrig02FunctionsUnitCircle/srw5_1_11.pg" />
+    <webwork source="Library/Rochester/setTrig02FunctionsUnitCircle/srw5_1_11.pg"/>
   </exercise>
   <exercise xml:id="ez-circular-unit-circle-WW1">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q02.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q02.pg"/>
   </exercise>
   <exercise xml:id="ez-circular-unit-circle-WW2">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q04.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q04.pg"/>
   </exercise>
   <exercise xml:id="ez-circular-unit-circle-WW3">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q20.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q20.pg"/>
   </exercise>
   <exercise xml:id="ez-circular-unit-circle-WW4">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q26.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q26.pg"/>
   </exercise>
 
   <exercise xml:id="ez-circular-unit-circle-WW5">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Review/Q13.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Review/Q13.pg"/>
   </exercise>
   <exercise xml:id="ez-circular-unit-circle-WW6">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q09.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q09.pg"/>
   </exercise>
 
 

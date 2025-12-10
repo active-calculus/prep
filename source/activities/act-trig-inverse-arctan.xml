@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -47,7 +46,7 @@
 						</p>
 <!--        <figure xml:id="F-inverse-trig-act-arctan">
           <caption>Axes for plotting the restricted tangent function and its inverse, the arctangent function.</caption> -->
-          <image width="50%" source="images/inverse-tan-graph"/>
+          <image width="50%" source="images/inverse-tan-graph"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--        </figure> -->
       </statement>
       <hint/>

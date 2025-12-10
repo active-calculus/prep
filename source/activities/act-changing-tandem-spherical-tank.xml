@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -117,7 +116,7 @@
 <!--          </table>
           <figure xml:id="F-tandem-act-sphere-V-t">
             <caption>A plot of how volume and time change in tandem in a draining spherical tank.</caption> -->
-            <image width="45%" source="images/tandem-sphere-V-t"/>
+            <image width="45%" source="images/tandem-sphere-V-t"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--          </figure> -->
         </sidebyside>
       </statement>
@@ -131,8 +130,8 @@
 						Finally, think about how the height of the water changes in tandem with time. What is the height of the water when <m>t = 0</m>?  What is the height when the tank is empty?  How would you expect the data for the relationship between <m>h</m> and <m>t</m> to appear?  Use the provided axes to sketch at least two possibilities; write at least one sentence to explain how you think the graph should appear.
 					</p>
         <sidebyside width="50%">
-          <image width="45%" source="images/tandem-h-t-blank-axes"/>
-          <image width="45%" source="images/tandem-h-t-blank-axes"/>
+          <image width="45%" source="images/tandem-h-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+          <image width="45%" source="images/tandem-h-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
         </sidebyside>
       </statement>
       <hint/>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,14 +11,12 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-trig-tangent">
   <title>The Tangent Function</title>
 
-		<xi:include href="./previews/PA-trig-tangent.xml" /> 
-  	<xi:include href="./activities/act-trig-tangent-tower.xml" />
-  	<xi:include href="./activities/act-trig-tangent-two-towers.xml" />
-		<xi:include href="./activities/act-trig-tangent-mountain.xml" /> 
+		<xi:include href="./previews/PA-trig-tangent.xml"/> 
+  	<xi:include href="./activities/act-trig-tangent-tower.xml"/>
+  	<xi:include href="./activities/act-trig-tangent-two-towers.xml"/>
+		<xi:include href="./activities/act-trig-tangent-mountain.xml"/> 
 
 </section>
-

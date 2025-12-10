@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,20 +11,19 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-log">
 
   <exercise xml:id="ez-exp-log-WW1">
-    <webwork source="Library/Rochester/setAlgebra29LogFunctions/srw4_2_5.pg" />
+    <webwork source="Library/Rochester/setAlgebra29LogFunctions/srw4_2_5.pg"/>
   </exercise>
   <exercise xml:id="ez-exp-log-WW2">
-    <webwork source="Library/Rochester/setAlgebra29LogFunctions/problem4.pg" />
+    <webwork source="Library/Rochester/setAlgebra29LogFunctions/problem4.pg"/>
   </exercise>
   <exercise xml:id="ez-exp-log-WW3">
-    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/beth2logfun.pg" />
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/beth2logfun.pg"/>
   </exercise>
   <exercise xml:id="ez-exp-log-WW4">
-    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_17.pg" />
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_17.pg"/>
   </exercise>
 <!--  
   <exercise xml:id="ez-exp-log-WW5">
@@ -33,7 +31,7 @@
   </exercise>
 -->  
   <exercise xml:id="ez-exp-log-WW6">
-    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg" />
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg"/>
   </exercise>
 
   <exercise xml:id="ez-exp-log-find-inverse">

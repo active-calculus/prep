@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -36,7 +35,7 @@
 						A polynomial <m>p</m> of degree <m>9</m> that satisfies <m>p(0) = -2</m> and has the graph shown in the following figure.  Assume that all of the zeros of <m>p</m> are shown in the figure.
 					</p>
 
-          <image source="images/poly-degree-9" width="50%"/>  
+          <image source="images/poly-degree-9" width="50%"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>  
 
       </statement>
       <hint/>
@@ -49,7 +48,7 @@
 						A polynomial <m>q</m> of degree <m>8</m> with <m>3</m> distinct real zeros (possibly of different multiplicities) such that <m>q</m> has the sign chart in the figure below and satisfies <m>q(0) = -10</m>. 
 					</p>
 
-            <image source="images/poly-sign-chart-2" width="50%"/>
+            <image source="images/poly-sign-chart-2" width="50%"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 
       </statement>
       <hint/>

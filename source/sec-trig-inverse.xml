@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,7 +11,6 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-trig-inverse">
   <title>Inverses of trigonometric functions</title>
 
@@ -100,7 +98,7 @@
 	    trigonometric functions so that we can discuss inverses in a meaningful way.
 	  </p>
 
-	  <xi:include href="./previews/PA-trig-inverse.xml" />
+	  <xi:include href="./previews/PA-trig-inverse.xml"/>
 
   </subsection>
 
@@ -163,7 +161,7 @@
 				</ul>
 			</p>
 			
-			<image source="images/inverse-trig-arccos-graph" />
+			<image source="images/inverse-trig-arccos-graph"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 			
 		</sidebyside>
 	</assemblage>
@@ -172,7 +170,7 @@
 		Just as the natural logarithm function allowed us to rewrite exponential equations in an equivalent way (for instance, <m>y = e^t</m> and <m>t = \ln(y)</m> say the exact same thing), the arccosine function allows us to do likewise for certain angles and cosine outputs.  For instance, saying <m>\cos(\frac{\pi}{2}) = 0</m> is the same as writing <m>\frac{\pi}{2} = \arccos(0)</m>, which reads <q><m>\frac{\pi}{2}</m> is the angle whose cosine is <m>0</m></q>.  Indeed, these relationships are reflected in the plot above, where we see that any point <m>(a,b)</m> that lies on the graph of <m>y = \cos(t)</m> corresponds to the point <m>(b,a)</m> that lies on the graph of <m>y = \arccos(t)</m>.
 	</p>
 
-	<xi:include href="./activities/act-trig-inverse-arccos.xml" />
+	<xi:include href="./activities/act-trig-inverse-arccos.xml"/>
 
   </subsection>
 
@@ -182,7 +180,7 @@
   		We can develop an inverse function for a restricted version of the sine function in a similar way.  As with the cosine function, we need to choose an interval on which the sine function is always increasing or always decreasing in order to have the function pass the horizontal line test.  The standard choice is the domain <m>[-\frac{\pi}{2}, \frac{\pi}{2}]</m> on which <m>f(t) = \sin(t)</m> is increasing and attains all of the values in the range of the sine function.  Thus, we consider <m>f(t) = \sin(t)</m> so that <m>f : [-\frac{\pi}{2}, \frac{\pi}{2}] \to [-1,1]</m> and hence define the corresponding arcsine function.
   	</p>
 
-	<definition  xml:id="def-inverse-trig-arcsine">
+	<definition xml:id="def-inverse-trig-arcsine">
   		<idx><h>inverse trigonometric functions</h><h>arcsine</h></idx>
   		<statement>
   			<p>
@@ -195,7 +193,7 @@
   		</statement>
   	</definition>
 
-	<xi:include href="./activities/act-trig-inverse-arcsin.xml" />
+	<xi:include href="./activities/act-trig-inverse-arcsin.xml"/>
 
   </subsection>
 
@@ -206,7 +204,7 @@
   		Finally, we develop an inverse function for a restricted version of the tangent function.  We choose the domain <m>(-\frac{\pi}{2}, \frac{\pi}{2})</m> on which <m>h(t) = \tan(t)</m> is increasing and attains all of the values in the range of the tangent function.  
   	</p>
 
-	<definition  xml:id="def-inverse-trig-arctan">
+	<definition xml:id="def-inverse-trig-arctan">
   		<idx><h>inverse trigonometric functions</h><h>arctangent</h></idx>
   		<statement>
   			<p>
@@ -219,7 +217,7 @@
   		</statement>
   	</definition>
 
-	<xi:include href="./activities/act-trig-inverse-arctan.xml" />
+	<xi:include href="./activities/act-trig-inverse-arctan.xml"/>
 
   </subsection>
 
@@ -270,12 +268,14 @@
 
   				<figure xml:id="F-inverse-trig-arccosine-graph">
   					<caption>The restricted cosine function (in light blue) and its inverse, <m>y = g^{-1}(t) = \arccos(t)</m> (in dark blue).</caption>
-  					<image source="images/inverse-trig-arccos-graph" width="50%" />
+  					<image source="images/inverse-trig-arccos-graph" width="50%"><description><p>The restricted cosine function (in light blue) and its inverse, <m>y = g^{-1}(t) = \arccos(t)</m> (in dark blue).</p>
+  					</description></image>
   				</figure>
 
           <figure xml:id="F-inverse-trig-arcsine-graph">
             <caption>The restricted sine function (in light blue) and its inverse, <m>y = f^{-1}(t) = \arcsin(t)</m> (in dark blue).</caption>
-            <image source="images/inverse-trig-arcsin-graph" width="50%" />
+            <image source="images/inverse-trig-arcsin-graph" width="50%"><description><p>The restricted sine function (in light blue) and its inverse, <m>y = f^{-1}(t) = \arcsin(t)</m> (in dark blue).</p>
+            </description></image>
           </figure>
 
  			</sidebyside>
@@ -290,7 +290,8 @@
 
   				<figure xml:id="F-inverse-trig-arctangent-graph">
   					<caption>The restricted tangent function (in light blue) and its inverse, <m>y = h^{-1}(t) = \arctan(t)</m> (in dark blue).</caption>
-  					<image source="images/inverse-trig-arctan-graph" width="50%" />
+  					<image source="images/inverse-trig-arctan-graph" width="50%"><description><p>The restricted tangent function (in light blue) and its inverse, <m>y = h^{-1}(t) = \arctan(t)</m> (in dark blue).</p>
+  					</description></image>
   				</figure>
 
   		</li>
@@ -298,9 +299,8 @@
         </p>
   </subsection>
 
-  <xi:include href="./exercises/ez-trig-inverse.xml" />
+  <xi:include href="./exercises/ez-trig-inverse.xml"/>
 
   <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
   <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
 </section>
-

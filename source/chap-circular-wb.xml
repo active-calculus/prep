@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,14 +11,12 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="C-circular">
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="C-circular">
   	<title>Circular Functions</title>
   
-  	<xi:include  href="./sec-circular-traversing-wb.xml" />
-    <xi:include  href="./sec-circular-unit-circle-wb.xml" />
-    <xi:include  href="./sec-circular-sine-cosine-wb.xml" />
-    <xi:include  href="./sec-circular-sinusoidal-wb.xml" />
+  	<xi:include href="./sec-circular-traversing-wb.xml"/>
+    <xi:include href="./sec-circular-unit-circle-wb.xml"/>
+    <xi:include href="./sec-circular-sine-cosine-wb.xml"/>
+    <xi:include href="./sec-circular-sinusoidal-wb.xml"/>
 
 </chapter>
-

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,23 +11,22 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-poly-rational-features">
   
   <exercise xml:id="ez-poly-rational-features-WW1">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q24.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q24.pg"/>
   </exercise>
   <exercise xml:id="ez-poly-rational-features-WW2">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q34.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q34.pg"/>
   </exercise>
   <exercise xml:id="ez-poly-rational-features-WW3">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q35.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q35.pg"/>
   </exercise>
   <exercise xml:id="ez-poly-rational-features-WW4">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q15.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q15.pg"/>
   </exercise>
   <exercise xml:id="ez-poly-rational-features-WW5">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q16.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q16.pg"/>
   </exercise>
 
 <!--  
@@ -108,7 +106,8 @@
 
             <figure xml:id="F-rational-ez-plot">
               <caption>A plot of the rational function <m>w</m>.</caption>
-              <image source="images/rational-ez-plot" width="60%" />
+              <image source="images/rational-ez-plot" width="60%"><description><p>A plot of the rational function <m>w</m>.</p>
+              </description></image>
             </figure>
           </li>
         </ol>

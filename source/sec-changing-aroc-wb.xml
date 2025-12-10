@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,14 +11,12 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-changing-aroc">
   <title>The Average Rate of Change of a Function</title>
 
-    <xi:include href="./previews/PA-changing-aroc.xml" />		
-		<xi:include href="./activities/act-changing-aroc-population.xml" />
-		<xi:include href="./activities/act-changing-aroc-trends.xml" />
-		<xi:include href="./activities/act-changing-aroc-graphs.xml" />
+    <xi:include href="./previews/PA-changing-aroc.xml"/>		
+		<xi:include href="./activities/act-changing-aroc-population.xml"/>
+		<xi:include href="./activities/act-changing-aroc-trends.xml"/>
+		<xi:include href="./activities/act-changing-aroc-graphs.xml"/>
 		
 </section>
-

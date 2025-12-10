@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -109,7 +108,7 @@
 	        	</p>
 <!--          <figure xml:id="F-act-changing-linear-finding-eqs">
             <caption>Plot of a linear function <m>h</m>.</caption> -->
-            <image width="50%" source="images/linear-PA-ex-3"/>
+            <image width="50%" source="images/linear-PA-ex-3"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--          </figure>
         </sidebyside> -->           
       </statement>

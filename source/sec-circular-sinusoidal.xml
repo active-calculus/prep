@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,7 +11,6 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-circular-sinusoidal">
   <title>Sinusoidal Functions</title>
   <objectives>
@@ -39,7 +37,7 @@
   		Recall our work in <xref ref="sec-changing-transformations">Section</xref>, where we studied how the graph of the function <m>g</m> defined by <m>g(x) = af(x-b) + c</m> is related to the graph of <m>f</m>, where <m>a</m>, <m>b</m>, and <m>c</m> are real numbers with <m>a \ne 0</m>.  Because such transformations can shift and stretch a function, we are interested in understanding how we can use transformations of the sine and cosine functions to fit formulas to circular functions.
   	</p>
 
-  	<xi:include href="./previews/PA-circular-sinusoidal.xml" />
+  	<xi:include href="./previews/PA-circular-sinusoidal.xml"/>
 
   </subsection>
   <subsection xml:id="subsec-circular-sinusoidal-shifts-stretches">
@@ -65,7 +63,8 @@
 
   	<figure xml:id="F-sinusoidal-cosine-transf">
   		<caption>A sequence of transformations of <m>y = \cos(t)</m>.</caption>
-  		<image width="80%" source="images/sinusoidal-transformed-cosine" />
+  		<image width="80%" source="images/sinusoidal-transformed-cosine"><description><p>A sequence of transformations of <m>y = \cos(t)</m>.</p>
+  		</description></image>
   	</figure>
 
   	<p>
@@ -80,7 +79,7 @@
       For example, in <xref ref="F-sinusoidal-cosine-transf">Figure</xref>, the anchor point <m>(b,a+c)</m> on <m>y = a\cos(t-b)+c</m> corresponds to the <q>starting point</q> <m>(0,1)</m> on <m>y = \cos(t)</m>.
     </p>
 
-  	<xi:include href="./activities/act-circular-sinusoidal-oscillator.xml" />
+  	<xi:include href="./activities/act-circular-sinusoidal-oscillator.xml"/>
 
   </subsection>
 
@@ -98,9 +97,11 @@
 	<figure xml:id="F-transformations-horizontal-scaling">
 		<caption>Interactive horizontal scaling demonstration (in the HTML version only).</caption>
 
-		<interactive xml:id="I-transformations-horizontal-scaling" platform="javascript" width="75%" aspect="4:5" source = "interactives/figures.js interactives/transformationsC.js" preview="images/transformations-interactive-C-static.png">
-			<slate xml:id="cslider" aspect="4:1" surface="canvas" />
-			<slate xml:id="compressing" aspect="4:4" surface="canvas" />
+		<interactive xml:id="I-transformations-horizontal-scaling" platform="javascript" width="75%" aspect="4:5" source="interactives/figures.js interactives/transformationsC.js" preview="images/transformations-interactive-C-static.png">
+			<description><p>Interactive horizontal scaling demonstration (in the HTML version only).</p>
+
+		</description><slate xml:id="cslider" aspect="4:1" surface="canvas"/>
+			<slate xml:id="compressing" aspect="4:4" surface="canvas"/>
 			<instructions>
 				<p>
 					Move the slider by clicking and dragging on the red point to see how changing <m>k</m> affects the graph of <m>y = f(kt)</m>.  The graph of <m>y = f(t)</m> will appear in grey and remain fixed. 
@@ -137,7 +138,7 @@
   		While we will soon focus on horizontal stretches of the sine and cosine functions for the remainder of this section, it's important to note that horizontal scaling follows the same principles for any function we choose.
   	</p>
 
-	<xi:include href="./activities/act-circular-sinusoidal-horiz-stretch.xml" />
+	<xi:include href="./activities/act-circular-sinusoidal-horiz-stretch.xml"/>
 
   </subsection>
 
@@ -153,7 +154,8 @@
 
   	<figure xml:id="F-sinusoidal-sine-compressed">
   		<caption>A plot of the parent function, <m>f(t) = \sin(t)</m> (dashed, in gray), and the transformed function <m>g(t) = f(2t) = \sin(2t)</m> (in blue).</caption>
-  		<image source="images/sinusoidal-sine-horiz-scaling" width="75%" />
+  		<image source="images/sinusoidal-sine-horiz-scaling" width="75%"><description><p>A plot of the parent function, <m>f(t) = \sin(t)</m> (dashed, in gray), and the transformed function <m>g(t) = f(2t) = \sin(2t)</m> (in blue).</p>
+  		</description></image>
   	</figure>
 
   	<p>
@@ -162,7 +164,8 @@
 
   	<figure xml:id="F-sinusoidal-sine-stretched">
   		<caption>A plot of the parent function, <m>f(t) = \sin(t)</m> (dashed, in gray), and the transformed function <m>h(t) = f(\frac{1}{2}t) = \sin(\frac{1}{2}t)</m> (in blue).</caption>
-  		<image source="images/sinusoidal-sine-horiz-scaling-2" width="75%" />
+  		<image source="images/sinusoidal-sine-horiz-scaling-2" width="75%"><description><p>A plot of the parent function, <m>f(t) = \sin(t)</m> (dashed, in gray), and the transformed function <m>h(t) = f(\frac{1}{2}t) = \sin(\frac{1}{2}t)</m> (in blue).</p>
+  		</description></image>
   	</figure>
 
     <p>
@@ -187,9 +190,9 @@
 		Thus, if we know the <m>k</m>-value from the given function, we can deduce the period.  If instead we know the desired period, we can determine <m>k</m> by the rule <m>k = \frac{2\pi}{P}</m>.
 	</p>
 
-	<xi:include href="./activities/act-circular-sinusoidal-period.xml" />
+	<xi:include href="./activities/act-circular-sinusoidal-period.xml"/>
 
-	<xi:include href="./activities/act-circular-sinusoidal-model.xml" />
+	<xi:include href="./activities/act-circular-sinusoidal-model.xml"/>
 
   </subsection>
 
@@ -224,9 +227,8 @@
 	</p>
   </subsection>
 
-  <xi:include href="./exercises/ez-circular-sinusoidal.xml" />
+  <xi:include href="./exercises/ez-circular-sinusoidal.xml"/>
 
   <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
   <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
 </section>
-

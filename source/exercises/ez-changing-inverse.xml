@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2018                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -15,27 +14,27 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-inverse">
 
   <exercise xml:id="ez-changing-inverse-WW1">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-13-Composition-inverse.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-13-Composition-inverse.pg"/>
   </exercise>
 
   <exercise xml:id="ez-changing-inverse-WW2">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-15-Composition-inverse.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-15-Composition-inverse.pg"/>
   </exercise>
 
   <exercise xml:id="ez-changing-inverse-WW3">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-28-Composition-inverse.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-28-Composition-inverse.pg"/>
   </exercise>
 
   <exercise xml:id="ez-changing-inverse-WW4">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-31-Composition-inverse.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-31-Composition-inverse.pg"/>
   </exercise>
 
   <exercise xml:id="ez-changing-inverse-WW5">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Q16.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Q16.pg"/>
   </exercise>
 
   <exercise xml:id="ez-changing-inverse-WW7">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Q32.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Q32.pg"/>
   </exercise>
 
 
@@ -47,7 +46,8 @@
 
       <figure xml:id="F-inverse-ez-p-q">
         <caption>Plots of the graphs of <m>p</m> and <m>q</m>.</caption>
-        <image width="50%" source="images/inverse-ez-p-q" />
+        <image width="50%" source="images/inverse-ez-p-q"><description><p>Plots of the graphs of <m>p</m> and <m>q</m>.</p>
+        </description></image>
       </figure>
 
       <p>
@@ -91,11 +91,13 @@
           <sidebyside width="50%">
             <figure xml:id="F-inverse-ez-conical-tank">
               <caption>The conical tank.</caption>
-              <image source="images/tandem-filled-conical-tank" />
+              <image source="images/tandem-filled-conical-tank"><description><p>The conical tank.</p>
+              </description></image>
             </figure>
             <figure xml:id="F-inverse-ez-blank-axes-V-t">
               <caption>Axes to plot <m>V = g(t)</m>.</caption>
-              <image source="images/tandem-V-t-blank-axes" />
+              <image source="images/tandem-V-t-blank-axes"><description><p>Axes to plot <m>V = g(t)</m>.</p>
+              </description></image>
             </figure>
           </sidebyside>
 

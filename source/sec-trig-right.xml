@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,7 +11,6 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-trig-right">
   <title>Right triangles</title>
 
@@ -49,11 +47,13 @@
 	<sidebyside width="45%">
 		<figure xml:id="F-right-sine-cosine-unit">
 			<caption>The values of <m>\cos(t)</m> and <m>\sin(t)</m> as coordinates on the unit circle.</caption>
-			<image source="images/sine-cosine-unit-circle" width="45%"/>
+			<image source="images/sine-cosine-unit-circle" width="45%"><description><p>The values of <m>\cos(t)</m> and <m>\sin(t)</m> as coordinates on the unit circle.</p>
+			</description></image>
 		</figure>
 		<figure xml:id="F-right-sine-cosine-right">
 			<caption>The values of <m>\cos(\theta)</m> and <m>\sin(\theta)</m> as the lengths of the legs of a right triangle.</caption>
-			<image source="images/sine-cosine-right-triangle" width="45%"/>
+			<image source="images/sine-cosine-right-triangle" width="45%"><description><p>The values of <m>\cos(\theta)</m> and <m>\sin(\theta)</m> as the lengths of the legs of a right triangle.</p>
+			</description></image>
 		</figure>
 	</sidebyside>
 
@@ -61,7 +61,7 @@
 		This right triangle perspective enables us to use the sine and cosine functions to determine missing information in certain right triangles.  The field of mathematics that studies relationships among the angles and sides of triangles is called <em>trigonometry</em>. <idx><h>trigonometry</h></idx>  In addition, it's important to recall both the Pythagorean Theorem and the Fundamental Trigonometric Identity.  <idx><h>Pythagorean Theorem</h></idx> <idx><h>fundamental trigonometric identity</h></idx>  The former states that in any right triangle with legs of length <m>a</m> and <m>b</m> and hypotenuse of length <m>c</m>, it follows <m>a^2 + b^2 = c^2</m>.  The latter, which is a special case of the Pythagorean Theorem, says that for any angle <m>\theta</m>, <m>\cos^2(\theta) + \sin^2(\theta) = 1</m>.
 	</p>
 
-  	<xi:include href="./previews/PA-trig-right.xml" />
+  	<xi:include href="./previews/PA-trig-right.xml"/>
 
   </subsection>
 
@@ -99,14 +99,15 @@
 
 		<figure xml:id="F-right-triangle-5">
 			<caption>The <m>5</m> potential unknowns in a right triangle.</caption>
-			<image source="images/right-triangle-5" width="70%"/>
+			<image source="images/right-triangle-5" width="70%"><description><p>The <m>5</m> potential unknowns in a right triangle.</p>
+			</description></image>
 		</figure>
 
 	<p>
 		Because we know the values of the cosine and sine functions from the unit circle, right triangles with hypotentuse <m>1</m> are the easiest ones in which to determine missing information.  In addition, we can relate any other right triangle to a right triangle with hypotenuse <m>1</m> through the concept of <em>similarity</em>.  Recall that two triangles are <term>similar</term> <idx><h>similar triangles</h></idx> provided that one is a magnification of the other.  More precisely, two triangles are similar whenever there is some constant <m>k</m> such that every side in one triangle is <m>k</m> times as long as the corresponding side in the other and the corresponding angles in the two triangles are equal.  An important result from geometry tells us that if two triangles are known to have all three of their corresponding angles equal, then it follows that the two triangles are similar, and therefore their corresponding sides must be proportionate to one another.
 	</p>
 
-	<xi:include href="./activities/act-trig-right-similar.xml" />
+	<xi:include href="./activities/act-trig-right-similar.xml"/>
 
   </subsection>
 
@@ -119,7 +120,8 @@
 
 		<figure xml:id="F-right-triangle-r-theta">
 			<caption>The roles of <m>r</m> and <m>\theta</m> in a right triangle.</caption>
-			<image width="70%" source="images/right-triangle-r-theta"/>
+			<image width="70%" source="images/right-triangle-r-theta"><description><p>The roles of <m>r</m> and <m>\theta</m> in a right triangle.</p>
+			</description></image>
 		</figure>
 
 	<p>
@@ -152,12 +154,12 @@
 					</me>.
 				</p>
 
-				<image source="images/right-triangle-SOH-CAH" width="50%" />
+				<image source="images/right-triangle-SOH-CAH" width="50%"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 
 			</sidebyside>
 	</assemblage>
 
-	<xi:include href="./activities/act-trig-right-SOH-CAH.xml" />
+	<xi:include href="./activities/act-trig-right-SOH-CAH.xml"/>
 
   </subsection>
 
@@ -219,7 +221,8 @@
 
 				<figure xml:id="F-right-triangle-ex-ratio">
 					<caption>The given right triangle.</caption>
-					<image source="images/right-triangle-ex-ratio" width="35%"/>
+					<image source="images/right-triangle-ex-ratio" width="35%"><description><p>The given right triangle.</p>
+					</description></image>
 				</figure>
 		</sidebyside>
 			
@@ -259,7 +262,7 @@
 		<xref ref="ex-right-sin-cos-ratio">Example</xref> demonstrates that a ratio of values of the sine and cosine function can be needed in order to determine the value of one of the missing sides of a right triangle, and also that we may need to work with two unknown quantities simultaneously in order to determine both of their values.
 	</p>
 
-	<xi:include href="./activities/act-trig-right-sine-cosine-ratio.xml" />
+	<xi:include href="./activities/act-trig-right-sine-cosine-ratio.xml"/>
 
   </subsection>
 
@@ -289,9 +292,8 @@
 
   </subsection>
 
-  <xi:include href="./exercises/ez-trig-right.xml" />
+  <xi:include href="./exercises/ez-trig-right.xml"/>
 
   <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
   <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
 </section>
-

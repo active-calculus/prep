@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,20 +11,19 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-inverse">
   
   <exercise xml:id="ez-trig-inverse-WW1">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q07.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q07.pg"/>
   </exercise>
   <exercise xml:id="ez-trig-inverse-WW2">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q08.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q08.pg"/>
   </exercise>
   <exercise xml:id="ez-trig-inverse-WW3">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q09.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q09.pg"/>
   </exercise>
   <exercise xml:id="ez-trig-inverse-WW4">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q14.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q14.pg"/>
   </exercise>
 
   <exercise xml:id="ez-trig-inverse-values">
@@ -176,12 +174,14 @@
 
               <figure xml:id="F-inv-trig-cosarcsin">
                 <caption>The right triangle that corresponds to the angle <m>\theta = \arcsin(x)</m>.</caption>
-                <image source="images/inv-trig-cosarcsin" width="50%" />
+                <image source="images/inv-trig-cosarcsin" width="50%"><description><p>The right triangle that corresponds to the angle <m>\theta = \arcsin(x)</m>.</p>
+                </description></image>
               </figure>
 
               <figure xml:id="F-inv-trig-cosarctan">
                   <caption>The right triangle that corresponds to the angle <m>\alpha = \arctan(x)</m>.</caption>
-                  <image source="images/inv-trig-cosarctan" width="50%" />
+                  <image source="images/inv-trig-cosarctan" width="50%"><description><p>The right triangle that corresponds to the angle <m>\alpha = \arctan(x)</m>.</p>
+                  </description></image>
               </figure>
 
             </sidebyside>

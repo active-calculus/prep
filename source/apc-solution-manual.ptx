@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2018-2023                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -15,7 +14,7 @@
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude">
     <!-- Has LaTeX macros, which may be needed       -->
     <!-- May have some unnecessary stuff, but OK now -->
-  <xi:include href="./bookinfo.xml" />
+  <xi:include href="./bookinfo.xml"/>
     <!-- a small hack until "line" element is available -->
     <!-- the use of \\ assumes LaTeX output only        -->
     <!-- https://github.com/rbeezer/mathbook/issues/640 -->
@@ -27,7 +26,7 @@
     </title>
     <frontmatter>
             <!-- Don't xi:include the titlepage, since solution authors differ -->
-      <titlepage >
+      <titlepage>
 
       <author>
         <personname>Matthew Boelkins</personname>
@@ -46,10 +45,10 @@
         </author>
 
       </credit>
-      <date><today /></date>
+      <date><today/></date>
       </titlepage>
 
-      <xi:include href="./colophon.xml" />
+      <xi:include href="./colophon.xml"/>
 
       <preface>
         <p>
@@ -60,18 +59,18 @@
           so instructors can easily extract the solution for a single activity if they wish to print it for students or post on their course's learning management system site.
           After the activity solutions come the exercise solutions.
           Solutions for
-          <webwork /> exercises are not provided,
+          <webwork/> exercises are not provided,
           since those solutions are automatically available in this book's <init>HTML</init> version.
           Each exercise also starts at the top of its own page to make it easy to extract only the solutions to certain exercises.
         </p>
 
-        <p >
+        <p>
           Please do not post this solutions manual publicly on the internet nor in any electronic form where it is available in full to students.
           As much as possible,
           we aspire to keep this solutions manual as a resource for instructors only so that students get the full benefit of activities and exercises by having to struggle with them without looking at solutions.
         </p>
 
-        <p >
+        <p>
           By extracting individual pages from the <init>PDF</init>,
           it is fine to share solutions to individual activities or exercises via course management system software.
           Please do not post these individual pages publicly on the internet.
@@ -79,12 +78,11 @@
       </preface>
 
     </frontmatter>
-    <xi:include href="./chap-changing.xml" />
-    <xi:include href="./chap-circular.xml" />
-    <xi:include href="./chap-exp.xml" />
-    <xi:include href="./chap-trig.xml" />
-    <xi:include href="./chap-poly.xml" />
+    <xi:include href="./chap-changing.xml"/>
+    <xi:include href="./chap-circular.xml"/>
+    <xi:include href="./chap-exp.xml"/>
+    <xi:include href="./chap-trig.xml"/>
+    <xi:include href="./chap-poly.xml"/>
   </book>
 
 </pretext>
-

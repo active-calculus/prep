@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -20,7 +19,7 @@
 		</p>
 <!--      <figure xml:id="F-circular-sine-first-graph">
         <caption>Plot of the circular function that tracks the height of a point traversing the unit circle.</caption> -->
-        <image source="images/sine-labeling-graph"/>
+        <image source="images/sine-labeling-graph"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--      </figure> -->
       <p/>
     </introduction>

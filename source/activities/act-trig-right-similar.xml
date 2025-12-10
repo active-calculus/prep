@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -20,7 +19,7 @@
 		</p>
 <!--      <figure xml:id="F-right-OPQ">
         <caption>Two right triangles <m>\triangle OPQ</m> and <m>\triangle OMN</m>.</caption> -->
-        <image width="70%" source="images/right-triangle-act-similar"/>
+        <image width="70%" source="images/right-triangle-act-similar"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--      </figure> -->
       <p/>
     </introduction>

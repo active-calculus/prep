@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,7 +11,6 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-changing-combining">
   <title>Combining Functions</title>
 
@@ -45,7 +43,7 @@
 		Just as we can add, subtract, multiply, and divide numbers, we can also add, subtract, multiply, and divide functions to create a new function from two or more given functions.
 	</p>
 
-	<xi:include href="./previews/PA-changing-combining.xml" />
+	<xi:include href="./previews/PA-changing-combining.xml"/>
 
   </subsection>
 
@@ -130,7 +128,7 @@
 	  	</statement>
 	  </definition>
 
-	  <xi:include href="./activities/act-changing-combining-arithmetic.xml" />
+	  <xi:include href="./activities/act-changing-combining-arithmetic.xml"/>
 
   </subsection>		  
 
@@ -172,7 +170,7 @@
 		</statement>
 	</example>
 
-	<xi:include href="./activities/act-changing-combining-context.xml" />
+	<xi:include href="./activities/act-changing-combining-context.xml"/>
 
   </subsection>
 
@@ -211,7 +209,8 @@
             </stack>
   		<figure xml:id="F-combining-defn-abs-val">
   			<caption>A plot of the absolute value function, <m>A(x) = |x|</m>.</caption>
-  			<image source="images/combining-piecewise-abs-val" />
+  			<image source="images/combining-piecewise-abs-val"><description><p>A plot of the absolute value function, <m>A(x) = |x|</m>.</p>
+  			</description></image>
   		</figure>
   	</sidebyside>
 
@@ -223,7 +222,7 @@
 		As long as we are careful to make sure that each potential input has one and only one corresponding output, we can define a piecewise function using as many different functions on different intervals as we desire.
 	</p>
 
-	<xi:include href="./activities/act-changing-combining-piecewise.xml" />
+	<xi:include href="./activities/act-changing-combining-piecewise.xml"/>
 
   </subsection>
 
@@ -253,9 +252,8 @@
   	</p>
   </subsection>
 	
-  <xi:include href="./exercises/ez-changing-combining.xml" />
+  <xi:include href="./exercises/ez-changing-combining.xml"/>
 
   <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
   <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
 </section>
-

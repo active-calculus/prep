@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,7 +11,6 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-exp-log-properties">
   <title>Properties and applications of logarithmic functions</title>
   <objectives>
@@ -40,7 +38,7 @@
   		Logarithms arise as inverses of exponential functions.  In addition, we have motivated their development by our desire to solve exponential equations such as <m>e^k = 3</m> for <m>k</m>.  Because of the inverse relationship between exponential and logarithmic functions, there are several important properties logarithms have that are analogous to ones held by exponential functions.  We will work to develop these properties and then show how they are useful in applied settings.
   	</p>
 
-	<xi:include href="./previews/PA-exp-log-properties.xml" />
+	<xi:include href="./previews/PA-exp-log-properties.xml"/>
 
   </subsection>
 
@@ -167,7 +165,7 @@
 		The approach used in <xref ref="ex-log-properties-solve-eqn">Example</xref> works in a wide range of settings:  any time we have an exponential equation of the form <m>p \cdot q^t + r = s</m>, we can solve for <m>t</m> by first isolating the exponential expression <m>q^t</m> and then by taking the natural logarithm of both sides of the equation.
 	</p>
 
-  <xi:include href="./activities/act-exp-log-exponential-equations.xml" />
+  <xi:include href="./activities/act-exp-log-exponential-equations.xml"/>
 
   </subsection>
 
@@ -180,11 +178,13 @@
 	<sidebyside>
 		<figure xml:id="F-log-natural-graph-1">
 			<caption>The natural exponential and natural logarithm functions on the interval <m>[-3,3]</m>.</caption>
-			<image source="images/log-graph-1" />
+			<image source="images/log-graph-1"><description><p>The natural exponential and natural logarithm functions on the interval <m>[-3,3]</m>.</p>
+			</description></image>
 		</figure>
 		<figure xml:id="F-log-natural-graph-2">
 			<caption>The natural exponential and natural logarithm functions on the interval <m>[-15,15]</m>.</caption>
-			<image source="images/log-graph-2" />
+			<image source="images/log-graph-2"><description><p>The natural exponential and natural logarithm functions on the interval <m>[-15,15]</m>.</p>
+			</description></image>
 		</figure>
 	</sidebyside>
 
@@ -229,7 +229,7 @@
   		While the natural exponential function and the natural logarithm (and transformations of these functions) are connected and have certain similar properties, it's also important to be able to distinguish between behavior that is fundamentally exponential and fundamentally logarithmic.
   	</p>
 
-	<xi:include href="./activities/act-exp-log-properties-exp-or-log.xml" />
+	<xi:include href="./activities/act-exp-log-properties-exp-or-log.xml"/>
 
   </subsection>
 
@@ -279,7 +279,7 @@
   		</solution>
   	</example>
 
-  	<xi:include href="./activities/act-exp-log-properties-find-k.xml" /> 
+  	<xi:include href="./activities/act-exp-log-properties-find-k.xml"/> 
 
   </subsection>
 
@@ -321,9 +321,8 @@
 
   </subsection>
 
-  <xi:include href="./exercises/ez-exp-log-properties.xml" />
+  <xi:include href="./exercises/ez-exp-log-properties.xml"/>
 
   <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
   <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
 </section>
-

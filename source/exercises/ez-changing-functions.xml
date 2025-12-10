@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -22,22 +21,22 @@
 -->  
 
   <exercise xml:id="ez-changing-functions-WW1">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec1/Q01.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec1/Q01.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-functions-WW2">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec1/Q24.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec1/Q24.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-functions-WW3">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec1/Q19.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec1/Q19.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-functions-WW4">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec1/Connally3-2-1-25-Input-and-output.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec1/Connally3-2-1-25-Input-and-output.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-functions-WW5">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec1/Q20.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec1/Q20.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-functions-WW6">
-    <webwork source="Library/maCalcDB/setAlgebra15Functions/jay4.pg" />
+    <webwork source="Library/maCalcDB/setAlgebra15Functions/jay4.pg"/>
   </exercise>
 
   <exercise xml:id="ez-functions-conical-tank-time">
@@ -59,8 +58,8 @@
             </p>
 
             <sidebyside width="50%">
-              <image source="images/tandem-V-t-blank-axes" />
-              <image source="images/tandem-h-t-blank-axes" />
+              <image source="images/tandem-V-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+              <image source="images/tandem-h-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
 
           </li>
@@ -77,8 +76,8 @@
             </p>
 
             <sidebyside width="50%">
-              <image source="images/tandem-h-t-blank-axes" />
-              <image source="images/functions-y-x-blank-axes" />
+              <image source="images/tandem-h-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+              <image source="images/functions-y-x-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
           </li>
 
@@ -107,7 +106,8 @@
 
       <figure xml:id="F-ez-functions-velocity">
         <caption>The velocity graph for a person walking along a straight path.</caption>
-        <image width="50%" source="images/functions-ez-velocity" />
+        <image width="50%" source="images/functions-ez-velocity"><description><p>The velocity graph for a person walking along a straight path.</p>
+        </description></image>
       </figure>
 
       <p>

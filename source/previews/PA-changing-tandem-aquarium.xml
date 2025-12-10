@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -21,11 +20,13 @@
       <sidebyside width="50%">
         <figure>
           <caption>The empty aquarium.</caption>
-          <image source="images/tandem-empty-aquarium"/>
+          <image source="images/tandem-empty-aquarium"><description><p>The empty aquarium.</p>
+          </description></image>
         </figure>
         <figure>
           <caption>The aquarium, partially filled.</caption>
-          <image source="images/tandem-filled-aquarium"/>
+          <image source="images/tandem-filled-aquarium"><description><p>The aquarium, partially filled.</p>
+          </description></image>
         </figure>
       </sidebyside>
       <p/>

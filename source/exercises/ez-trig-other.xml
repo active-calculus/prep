@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,18 +11,17 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-other">
   
 
   <exercise xml:id="ez-trig-other-WW1">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q08-old.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q08-old.pg"/>
   </exercise>
   <exercise xml:id="ez-trig-other-WW2">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q18.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q18.pg"/>
   </exercise>
   <exercise xml:id="ez-trig-other-WW3">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Qtangent4.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Qtangent4.pg"/>
   </exercise>
 
   <exercise xml:id="ez-trig-other-5">

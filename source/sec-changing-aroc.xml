@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,7 +11,6 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-changing-aroc">
   <title>The Average Rate of Change of a Function</title>
 
@@ -57,7 +55,7 @@
     		<em>change in position</em> divided by the <em>change in time</em>.
     	</p>
     	
-    	<xi:include href="./previews/PA-changing-aroc.xml" />		
+    	<xi:include href="./previews/PA-changing-aroc.xml"/>		
 
 	</subsection>
 
@@ -72,11 +70,13 @@
 		<sidebyside width="50%">
 			<figure xml:id="F-aroc-s-t-ex-1">
 				<caption>The average rate of change of <m>s</m> on <m>[1.5,2.5]</m> for the function in <xref ref="PA-changing-aroc">Preview Activity</xref>.</caption>
-				<image source="images/aroc-s-t-ex-1" />
+				<image source="images/aroc-s-t-ex-1"><description><p>The average rate of change of <m>s</m> on <m>[1.5,2.5]</m> for the function in <xref ref="PA-changing-aroc">Preview Activity</xref>.</p>
+				</description></image>
 			</figure>
 			<figure xml:id="F-aroc-f-x-defn">
 				<caption>The average rate of change of an abstract function <m>f</m> on the interval <m>[a,b]</m>.</caption>
-				<image source="images/aroc-f-x-defn" />
+				<image source="images/aroc-f-x-defn"><description><p>The average rate of change of an abstract function <m>f</m> on the interval <m>[a,b]</m>.</p>
+				</description></image>
 			</figure>
 		</sidebyside>
 
@@ -102,7 +102,7 @@
 		    and those units are always <q>units of output per unit of input.</q> <idx><h>average rate of change</h><h>units</h></idx>  Moreover, the average rate of change of <m>f</m> on <m>[a,b]</m> always corresponds to the slope of the line between the points <m>(a,f(a))</m> and <m>(b,f(b))</m>, as seen in <xref ref="F-aroc-f-x-defn">Figure</xref>.
 		</p>
 
-		<xi:include href="./activities/act-changing-aroc-population.xml" />
+		<xi:include href="./activities/act-changing-aroc-population.xml"/>
 
 		<p>
 			The average rate of change of a function on an interval gives us an excellent way to describe how the function behaves, on average.  For instance, if we compute <m>AV_{[1970,2000]}</m> for Kent County, we find that 
@@ -153,7 +153,7 @@
 			If we compute the average rate of change of a function on an interval, we can decide if the function is increasing or decreasing <em>on average</em> on the interval, but it takes more work<fn>Calculus offers one way to justify that a function is always increasing or always decreasing on an interval.</fn> to decide if the function is increasing or decreasing <em>always</em> on the interval.
 		</p>
 
-		<xi:include href="./activities/act-changing-aroc-trends.xml" />
+		<xi:include href="./activities/act-changing-aroc-trends.xml"/>
 
 		<p>
 			It is helpful be able to connect information about a function's average rate of change and its graph.  For instance, if we have determined that <m>AV_{[-3,2]} = 1.75</m> for some function <m>f</m>, this tells us that, on average, the function rises between the points <m>x = -3</m> and <m>x = 2</m> and does so at an average rate of <m>1.75</m> vertical units for every horizontal unit.  Moreover, we can even determine that the difference between <m>f(2)</m> and <m>f(-3)</m> is
@@ -163,7 +163,7 @@
 			since <m>\frac{f(2)-f(-3)}{2-(-3)} = 1.75</m>.
 		</p>
 
-		<xi:include href="./activities/act-changing-aroc-graphs.xml" />
+		<xi:include href="./activities/act-changing-aroc-graphs.xml"/>
 
 	</subsection>
 
@@ -191,9 +191,8 @@
       </p>
   </subsection>
 
-  <xi:include href="./exercises/ez-changing-aroc.xml" />
+  <xi:include href="./exercises/ez-changing-aroc.xml"/>
 
   <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
   <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
 </section>
-

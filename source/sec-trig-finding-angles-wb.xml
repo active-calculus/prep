@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,15 +11,13 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-trig-finding-angles">
   <title>Finding Angles</title>
 
-      <xi:include href="./previews/PA-trig-finding-angles.xml" />
-      <xi:include href="./activities/act-trig-finding-angles-exactly.xml" />
-      <xi:include href="./activities/act-trig-finding-angles-roof.xml" />
-      <xi:include href="./activities/act-trig-finding-angles-baseball.xml" />
-      <xi:include href="./activities/act-trig-finding-angles-rocket.xml" />
+      <xi:include href="./previews/PA-trig-finding-angles.xml"/>
+      <xi:include href="./activities/act-trig-finding-angles-exactly.xml"/>
+      <xi:include href="./activities/act-trig-finding-angles-roof.xml"/>
+      <xi:include href="./activities/act-trig-finding-angles-baseball.xml"/>
+      <xi:include href="./activities/act-trig-finding-angles-rocket.xml"/>
 
 </section>
-

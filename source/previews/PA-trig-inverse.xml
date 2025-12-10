@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -20,7 +19,7 @@
 		</p>
 <!--      <figure xml:id="F-inverse-trig-PA-cos">
         <caption>The cosine function on <m>[-\frac{5\pi}{2},\frac{5\pi}{2}]</m> with the portion on <m>[0,\pi]</m> emphasized.</caption> -->
-        <image source="images/inverse-trig-PA-cosine"/>
+        <image source="images/inverse-trig-PA-cosine"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--      </figure> -->
       <p>
 			Let <m>g</m> be the function whose domain is <m>0 \le t \le \pi</m> and whose outputs are determined by the rule <m>g(t) = \cos(t)</m>.  <em>Note well</em>: <m>g</m> is defined in terms of the cosine function, but because it has a different domain, it is <em>not</em> the cosine function.

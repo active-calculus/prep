@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -128,7 +127,7 @@
 					</p>
 <!--        <figure xml:id="F-PA-changing-linear-3-ex-3">
           <caption>The graph of <m>y = h(x)</m>.</caption> -->
-          <image width="35%" source="images/linear-PA-ex-3"/>
+          <image width="35%" source="images/linear-PA-ex-3"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--        </figure> -->
         <p>
 						Determine <m>AV_{[-5,-2]}</m>, <m>AV_{[-1,1]}</m>, and <m>AV_{[0,4]}</m> for the function <m>h</m>.

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -56,7 +55,7 @@
 <!--        </table>
         <figure xml:id="F-act-changing-composite-tables-graphs">
           <caption>The graphs of <m>p</m> and <m>q</m>.</caption> -->
-          <image source="images/composite-act-graphs"/>
+          <image source="images/composite-act-graphs"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--        </figure> -->
       </sidebyside>
       <p>

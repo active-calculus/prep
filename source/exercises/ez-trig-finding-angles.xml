@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,17 +11,16 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-finding-angles">
   
   <exercise xml:id="ez-trig-finding-angles-WW1">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q24a.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q24a.pg"/>
   </exercise>
   <exercise xml:id="ez-trig-finding-angles-WW2">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg"/>
   </exercise>
   <exercise xml:id="ez-trig-finding-angles-WW6">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q37.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q37.pg"/>
   </exercise>   
 
 <!--  most of the following fail to have statement tags

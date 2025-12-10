@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -22,7 +21,7 @@
 		</p>
 <!--      <figure xml:id="PA-circular-unit-circle">
         <caption>The unit circle with <m>24</m> equally-spaced points.</caption> -->
-        <image source="images/unit-circle-24-PA"/>
+        <image source="images/unit-circle-24-PA"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--      </figure> -->
       <p/>
     </introduction>
@@ -56,7 +55,7 @@
             <caption>
 									An angle <m>\theta</m> of measure <m>1</m> radian.
 								</caption> -->
-            <image source="images/unit-circle-radian"/>
+            <image source="images/unit-circle-radian"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--           </figure> -->
         </sidebyside>
         <p>

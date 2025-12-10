@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,7 +11,6 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-poly-polynomials">
   <title>Polynomials</title>
 
@@ -84,7 +82,7 @@
 	    Since a polynomial is simply a sum of constant multiples of various power functions with positive integer powers, we often refer to those individual terms by referring to their individual degrees:  the linear term, the quadratic term, and so on.  In addition, since the domain of any power function of the form <m>p(x) = x^n</m> where <m>n</m> is a positive whole number is the set of all real numbers, it's also true the the domain of any polynomial function is the set of all real numbers.
 	  </p>
 
-	<xi:include href="./previews/PA-poly-polynomials.xml" />
+	<xi:include href="./previews/PA-poly-polynomials.xml"/>
 
   </subsection>
 
@@ -120,11 +118,13 @@
 	<sidebyside width="50%">
 		<figure xml:id="F-poly-degree-7-near">
 			<caption>Plot of a degree <m>7</m> polynomial function <m>p</m>.</caption>
-			<image source="images/poly-degree-7-near" />
+			<image source="images/poly-degree-7-near"><description><p>Plot of a degree <m>7</m> polynomial function <m>p</m>.</p>
+			</description></image>
 		</figure>
 		<figure xml:id="F-poly-degree-7-far">
 			<caption>Plot of the same degree <m>7</m> polynomial function <m>p</m>, but zoomed out.</caption>
-			<image source="images/poly-degree-7-far" />
+			<image source="images/poly-degree-7-far"><description><p>Plot of the same degree <m>7</m> polynomial function <m>p</m>, but zoomed out.</p>
+			</description></image>
 		</figure>
 	</sidebyside>
 
@@ -140,7 +140,7 @@
  		</p>
   	</assemblage>
 
-  	<xi:include href="./activities/act-poly-polynomials-find.xml" />
+  	<xi:include href="./activities/act-poly-polynomials-find.xml"/>
 
   </subsection>
 
@@ -184,7 +184,8 @@
 
         <figure xml:id="F-polynomial-sign-chart-1">
           <caption>A sign chart for the polynomial function <m>p(x) = k(x-1)(x-a)(x-b)</m>.</caption>
-          <image source="images/polynomial-sign-chart-1" width="80%" />
+          <image source="images/polynomial-sign-chart-1" width="80%"><description><p>A sign chart for the polynomial function <m>p(x) = k(x-1)(x-a)(x-b)</m>.</p>
+          </description></image>
         </figure>
 
   			<p>
@@ -197,12 +198,13 @@
 
   			<figure xml:id="F-polynomial-sign-chart-1-graph">
   				<caption>The graph of the polynomial function <m>p(x) = k(x-1)(x-a)(x-b)</m>.</caption>
-  				<image source="images/polynomial-sign-chart-1-graph" width="50%" />
+  				<image source="images/polynomial-sign-chart-1-graph" width="50%"><description><p>The graph of the polynomial function <m>p(x) = k(x-1)(x-a)(x-b)</m>.</p>
+  				</description></image>
   			</figure>
   		</solution>
   	</example>
 
-	<xi:include href="./activities/act-poly-polynomials-sign-chart.xml" />
+	<xi:include href="./activities/act-poly-polynomials-sign-chart.xml"/>
 
   </subsection>
 
@@ -222,7 +224,8 @@
 
       <figure xml:id="F-polynomial-4A">
         <caption>A plot of <m>g(x) = x^3(x-1)</m> with zero <m>x = 0</m> of multiplicity <m>3</m> and <m>x = 1</m> of multiplicity <m>1</m>.</caption>
-        <image source="images/polynomial-3-1" width="50%" />
+        <image source="images/polynomial-3-1" width="50%"><description><p>A plot of <m>g(x) = x^3(x-1)</m> with zero <m>x = 0</m> of multiplicity <m>3</m> and <m>x = 1</m> of multiplicity <m>1</m>.</p>
+        </description></image>
       </figure>
 
 
@@ -233,11 +236,13 @@
     <sidebyside width="45%">
       <figure xml:id="F-polynomial-4A-mult-3">
         <caption>A plot of <m>g(x) = x^3(x-1)</m> zoomed in on the zero <m>x = 0</m> of multiplicity <m>3</m>.</caption>
-        <image source="images/polynomial-3-1-3" width="50%" />
+        <image source="images/polynomial-3-1-3" width="50%"><description><p>A plot of <m>g(x) = x^3(x-1)</m> zoomed in on the zero <m>x = 0</m> of multiplicity <m>3</m>.</p>
+        </description></image>
       </figure>
-      <figure  xml:id="F-polynomial-4A-mult-1">
+      <figure xml:id="F-polynomial-4A-mult-1">
         <caption>A plot of <m>g(x) = x^3(x-1)</m> zoomed in on the zero <m>x = 1</m> of multiplicity <m>1</m>.</caption>
-        <image source="images/polynomial-3-1-1" width="50%" />
+        <image source="images/polynomial-3-1-1" width="50%"><description><p>A plot of <m>g(x) = x^3(x-1)</m> zoomed in on the zero <m>x = 1</m> of multiplicity <m>1</m>.</p>
+        </description></image>
       </figure>
     </sidebyside>
 
@@ -248,11 +253,13 @@
   	<sidebyside width="45%">
   		<figure xml:id="F-polynomial-4B">
   			<caption>Plot of <m>h(x) = x^2 (x-1)^2</m> with zeros <m>x = 0</m> and <m>x = 1</m> of multiplicity <m>2</m>.</caption>
-  			<image source="images/polynomial-2-2" width="50%" />
+  			<image source="images/polynomial-2-2" width="50%"><description><p>Plot of <m>h(x) = x^2 (x-1)^2</m> with zeros <m>x = 0</m> and <m>x = 1</m> of multiplicity <m>2</m>.</p>
+  			</description></image>
   		</figure>
   		<figure xml:id="F-polynomial-4C">
   			<caption>Plot of <m>k(x) = x^2(x-1)(x+1)</m> with zeros <m>x = 0</m> of multiplicity <m>2</m> and <m>x = -1</m> and <m>x = 1</m> of multiplicity <m>1</m>.</caption>
-  			<image source="images/polynomial-2-1-1" width="50%" />
+  			<image source="images/polynomial-2-1-1" width="50%"><description><p>Plot of <m>k(x) = x^2(x-1)(x+1)</m> with zeros <m>x = 0</m> of multiplicity <m>2</m> and <m>x = -1</m> and <m>x = 1</m> of multiplicity <m>1</m>.</p>
+  			</description></image>
   		</figure>
   	</sidebyside>
 
@@ -260,9 +267,10 @@
     Finally, if we consider <m>m(x) = (x+1)x(x-1)(x-2)</m>, which has <m>4</m> distinct real zeros each of multiplicity <m>1</m>, we observe in <xref ref="F-polynomial-4D">Figure</xref> that zooming in on each zero individually, the function demonstrates approximately linear behavior as it passes through the <m>x</m>-axis.
   </p>
 
-      <figure  xml:id="F-polynomial-4D">
+      <figure xml:id="F-polynomial-4D">
         <caption>Plot of <m>m(x) = (x+1)x(x-1)(x-2)</m> with <m>4</m> distinct zeros of multiplicity <m>1</m>.</caption>
-        <image source="images/polynomial-1-1-1-1" width="50%" />
+        <image source="images/polynomial-1-1-1-1" width="50%"><description><p>Plot of <m>m(x) = (x+1)x(x-1)(x-2)</m> with <m>4</m> distinct zeros of multiplicity <m>1</m>.</p>
+        </description></image>
       </figure>
 
   	<p>
@@ -277,7 +285,7 @@
  		</p>
   	</assemblage>
 
-  	<xi:include href="./activities/act-poly-polynomials-multiple-zeros.xml" />
+  	<xi:include href="./activities/act-poly-polynomials-multiple-zeros.xml"/>
 
   </subsection>
 
@@ -319,10 +327,8 @@
         </p>
   </subsection>
 
-  <xi:include href="./exercises/ez-poly-polynomials.xml" />
+  <xi:include href="./exercises/ez-poly-polynomials.xml"/>
 
   <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
   <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
 </section>
-
- 

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,7 +11,6 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-changing-transformations">
   <title>Transformations of Functions</title>
 
@@ -44,7 +42,7 @@
   		In <xref ref="PA-changing-transformations-quadratic">Preview Activity</xref>, we investigate the effects of the constants <m>a</m>, <m>b</m>, and <m>c</m> in generating the function <m>g(x) = af(x-b) + c</m> in the context of already knowing the function <m>f</m>.
   	</p>
 
-	<xi:include href="./previews/PA-changing-transformations-quadratic.xml" />
+	<xi:include href="./previews/PA-changing-transformations-quadratic.xml"/>
 
   </subsection>
 
@@ -69,9 +67,11 @@
 	<figure xml:id="F-transformations-vertical-translation">
 		<caption>Interactive vertical translations demonstration (in the HTML version only).</caption>
 
-		<interactive xml:id="I-transformations-vertical-translation" platform="javascript" width="75%" aspect="4:5" source = "interactives/figures.js interactives/transformationsV.js" preview="images/transformations-interactive-V-static.jpg">
-			<slate xml:id="vslider" aspect="4:1" surface="canvas" />
-			<slate xml:id="vtranslations" aspect="4:4" surface="canvas" />
+		<interactive xml:id="I-transformations-vertical-translation" platform="javascript" width="75%" aspect="4:5" source="interactives/figures.js interactives/transformationsV.js" preview="images/transformations-interactive-V-static.jpg">
+			<description><p>Interactive vertical translations demonstration (in the HTML version only).</p>
+
+		</description><slate xml:id="vslider" aspect="4:1" surface="canvas"/>
+			<slate xml:id="vtranslations" aspect="4:4" surface="canvas"/>
 			<instructions>
 				<p>
 					Move the slider<fn>Huge thanks to the amazing <url href="http://merganser.math.gvsu.edu/david/">David Austin</url> for making these interactive javascript graphics for the text.</fn> by clicking and dragging on the red point to see how changing <m>a</m> affects the graph of <m>y = f(x) + a</m>, which appears in blue.  The graph of <m>y = f(x)</m> will appear in grey and remain fixed.  
@@ -87,11 +87,13 @@
 	<sidebyside width="50%">
 		<figure xml:id="F-transformations-vert">
 			<caption>A vertical translation, <m>g</m>, of the function <m>y = f(x) = |x|</m>.</caption>
-			<image source="images/transformations-vert" />
+			<image source="images/transformations-vert"><description><p>A vertical translation, <m>g</m>, of the function <m>y = f(x) = |x|</m>.</p>
+			</description></image>
 		</figure>
 		<figure xml:id="F-transformations-horiz">
 			<caption>A horizontal translation, <m>h</m>, of a different function <m>y = f(x)</m>.</caption>
-			<image source="images/transformations-horiz" />
+			<image source="images/transformations-horiz"><description><p>A horizontal translation, <m>h</m>, of a different function <m>y = f(x)</m>.</p>
+			</description></image>
 		</figure>
 	</sidebyside>
 
@@ -114,9 +116,11 @@
 	<figure xml:id="F-transformations-horizontal-translation">
 		<caption>Interactive horizontal translations demonstration (in the HTML version only).</caption>
 
-		<interactive xml:id="I-transformations-horizontal-translation" platform="javascript" width="75%" aspect="4:5" source = "interactives/figures.js interactives/transformationsH.js" preview="images/transformations-interactive-H-static.jpg">
-			<slate xml:id="hslider" aspect="4:1" surface="canvas" />
-			<slate xml:id="htranslations" aspect="4:4" surface="canvas" />
+		<interactive xml:id="I-transformations-horizontal-translation" platform="javascript" width="75%" aspect="4:5" source="interactives/figures.js interactives/transformationsH.js" preview="images/transformations-interactive-H-static.jpg">
+			<description><p>Interactive horizontal translations demonstration (in the HTML version only).</p>
+
+		</description><slate xml:id="hslider" aspect="4:1" surface="canvas"/>
+			<slate xml:id="htranslations" aspect="4:4" surface="canvas"/>
 			<instructions>
 				<p>
 					Move the slider by clicking and dragging on the red point to see how changing <m>b</m> affects the graph of <m>y = f(x-b)</m>, which appears in blue.  The graph of <m>y = f(x)</m> will appear in grey and remain fixed. 
@@ -141,7 +145,7 @@
 		We emphasize that in the horizontal translation <m>h(x) = f(x-b)</m>, if <m>b \gt 0</m> the graph of <m>h</m> lies <m>b</m> units to the right of <m>f</m>, while if <m>b \lt 0</m>, <m>h</m> lies <m>b</m> units to the left of <m>f</m>.
 	</p>
 
-	<xi:include href="./activities/act-changing-transformations-translations.xml" />
+	<xi:include href="./activities/act-changing-transformations-translations.xml"/>
 
   </subsection>
 
@@ -167,11 +171,13 @@
 		  	<sidebyside width="50%">
 				<figure xml:id="F-transformations-vert-stretch-1">
 					<caption>The parent function <m>y = f(x)</m> along with two different vertical stretches, <m>v</m> and <m>u</m>.</caption>
-					<image source="images/transformations-vert-stretch-1" />
+					<image source="images/transformations-vert-stretch-1"><description><p>The parent function <m>y = f(x)</m> along with two different vertical stretches, <m>v</m> and <m>u</m>.</p>
+					</description></image>
 				</figure>
 				<figure xml:id="F-transformations-vert-stretch-2">
 					<caption>The parent function <m>y = f(x)</m> along with a vertical reflection, <m>z</m>, and a corresponding stretch, <m>w</m>.</caption>
-					<image source="images/transformations-vert-stretch-2" />
+					<image source="images/transformations-vert-stretch-2"><description><p>The parent function <m>y = f(x)</m> along with a vertical reflection, <m>z</m>, and a corresponding stretch, <m>w</m>.</p>
+					</description></image>
 				</figure>
 			</sidebyside>
 
@@ -197,9 +203,11 @@
 	<figure xml:id="F-transformations-vertical-scaling">
 		<caption>Interactive vertical scaling demonstration (in the HTML version only).</caption>
 
-		<interactive xml:id="I-transformations-vertical-scaling" platform="javascript" width="75%" aspect="4:5" source = "interactives/figures.js interactives/transformationsS.js" preview="images/transformations-interactive-S-static.png">
-			<slate xml:id="sslider" aspect="4:1" surface="canvas" />
-			<slate xml:id="stretching" aspect="4:4" surface="canvas" />
+		<interactive xml:id="I-transformations-vertical-scaling" platform="javascript" width="75%" aspect="4:5" source="interactives/figures.js interactives/transformationsS.js" preview="images/transformations-interactive-S-static.png">
+			<description><p>Interactive vertical scaling demonstration (in the HTML version only).</p>
+
+		</description><slate xml:id="sslider" aspect="4:1" surface="canvas"/>
+			<slate xml:id="stretching" aspect="4:4" surface="canvas"/>
 			<instructions>
 				<p>
 					Move the slider by clicking and dragging on the red point to see how changing <m>c</m> affects the graph of <m>y = cf(x)</m>, which is shown in blue.  The graph of <m>y = f(x)</m> will appear in grey and remain fixed. 
@@ -224,7 +232,7 @@
   		</p>
   	</assemblage>
   	
-	<xi:include href="./activities/act-changing-transformations-vert-stretch.xml" />
+	<xi:include href="./activities/act-changing-transformations-vert-stretch.xml"/>
 
   </subsection>
 
@@ -263,11 +271,13 @@
 			<sidebyside width="50%">
 				<figure xml:id="F-transformations-combined-order-1">
 					<caption>The parent function <m>y = r(x)</m>.</caption>
-					<image source="images/transformations-combined-order-1" />
+					<image source="images/transformations-combined-order-1"><description><p>The parent function <m>y = r(x)</m>.</p>
+					</description></image>
 				</figure>
 				<figure xml:id="F-transformations-combined-order-2">
 					<caption>The parent function <m>y = r(x)</m> along with the horizontal shift <m>y = p(x) = r(x+1)</m>.</caption>
-					<image source="images/transformations-combined-order-2" />
+					<image source="images/transformations-combined-order-2"><description><p>The parent function <m>y = r(x)</m> along with the horizontal shift <m>y = p(x) = r(x+1)</m>.</p>
+					</description></image>
 				</figure>
 			</sidebyside>
 
@@ -278,11 +288,13 @@
 			<sidebyside width="50%">
 				<figure xml:id="F-transformations-combined-order-3">
 					<caption>The function <m>y = q(x) = 2p(x) = 2r(x+1)</m> along with graphs of <m>p</m> and <m>r</m>.</caption>
-					<image source="images/transformations-combined-order-3" />
+					<image source="images/transformations-combined-order-3"><description><p>The function <m>y = q(x) = 2p(x) = 2r(x+1)</m> along with graphs of <m>p</m> and <m>r</m>.</p>
+					</description></image>
 				</figure>
 				<figure xml:id="F-transformations-combined-order-4">
 					<caption>The function <m>y = m(x) = q(x)-1 = 2r(x+1) - 1</m> along with graphs of <m>q</m>, <m>p</m> and <m>r</m>.</caption>
-					<image source="images/transformations-combined-order-4" />
+					<image source="images/transformations-combined-order-4"><description><p>The function <m>y = m(x) = q(x)-1 = 2r(x+1) - 1</m> along with graphs of <m>q</m>, <m>p</m> and <m>r</m>.</p>
+					</description></image>
 				</figure>
 			</sidebyside>
 
@@ -298,7 +310,7 @@
 		The quantity <m>2r(x+1) - 1</m> multiplies the function <m>r(x+1)</m> by <m>2</m> first (the stretch) and then the vertical shift follows; the quantity <m>2[r(x+1) - 1]</m> shifts the function <m>r(x+1)</m> down <m>1</m> unit first, and then executes a vertical stretch by a factor of <m>2</m>.  In the latter scenario, the point <m>(1,-1)</m> that lies on <m>r(x+1)</m> gets transformed first to <m>(1,-2)</m> and then to <m>(1,-4)</m>, which is not the same as the point <m>(1,-3)</m> that lies on <m>m(x) = 2r(x+1) - 1</m>.
 	</p>
 
-	<xi:include href="./activities/act-changing-transformations-combined.xml" />
+	<xi:include href="./activities/act-changing-transformations-combined.xml"/>
 
   </subsection>
 
@@ -320,9 +332,8 @@
   	</p>
   </subsection>
 
-  <xi:include href="./exercises/ez-changing-transformations.xml" />
+  <xi:include href="./exercises/ez-changing-transformations.xml"/>
 
   <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
   <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
 </section>
-

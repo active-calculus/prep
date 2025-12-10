@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -143,7 +142,7 @@
         </p>
 <!--        <figure xml:id="F-axes-e-ln">
           <caption>Axes for plotting data from <xref ref="T-act-natural-e">Table</xref> and <xref ref="T-act-natural-log">Table</xref> along with the graphs of the natural exponential and natural logarithm functions.</caption> -->
-          <image width="75%" source="images/exp-log-blank-axes"/>
+          <image width="75%" source="images/exp-log-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--        </figure> -->
       </statement>
       <hint/>

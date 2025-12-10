@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,14 +11,13 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-log-properties">
   
   <exercise xml:id="ez-exp-log-properties-WW1">
-    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/problem9.pg" />
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/problem9.pg"/>
   </exercise>
   <exercise xml:id="ez-exp-log-properties-WW2">
-    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/problem11.pg" />
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/problem11.pg"/>
   </exercise>
 <!--  
   <exercise xml:id="ez-exp-log-properties-WW3">
@@ -36,13 +34,13 @@
   </exercise>  
 -->  
   <exercise xml:id="ez-exp-log-properties-WW4">
-    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_11.pg" />
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_11.pg"/>
   </exercise>
   <exercise xml:id="ez-exp-log-properties-WW5">
-    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_25.pg" />
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_25.pg"/>
   </exercise>
   <exercise xml:id="ez-exp-log-properties-WW6">
-    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg" />
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg"/>
   </exercise>
 
 

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,19 +11,17 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="C-changing">
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="C-changing">
   	<title>Relating Changing Quantities</title>
   
-  	<xi:include  href="./sec-changing-in-tandem-wb.xml" />
-	<xi:include  href="./sec-changing-functions-models-wb.xml" />
-   	<xi:include  href="./sec-changing-aroc-wb.xml" />
-  	<xi:include  href="./sec-changing-linear-wb.xml" />
-   	<xi:include  href="./sec-changing-quadratic-wb.xml" />
-   	<xi:include  href="./sec-changing-composite-wb.xml" />
-	<xi:include  href="./sec-changing-inverse-wb.xml" />
-	<xi:include  href="./sec-changing-transformations-wb.xml" />
-	<xi:include  href="./sec-changing-combining-wb.xml" />
+  	<xi:include href="./sec-changing-in-tandem-wb.xml"/>
+	<xi:include href="./sec-changing-functions-models-wb.xml"/>
+   	<xi:include href="./sec-changing-aroc-wb.xml"/>
+  	<xi:include href="./sec-changing-linear-wb.xml"/>
+   	<xi:include href="./sec-changing-quadratic-wb.xml"/>
+   	<xi:include href="./sec-changing-composite-wb.xml"/>
+	<xi:include href="./sec-changing-inverse-wb.xml"/>
+	<xi:include href="./sec-changing-transformations-wb.xml"/>
+	<xi:include href="./sec-changing-combining-wb.xml"/>
 
 </chapter>
-

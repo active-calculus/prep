@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,7 +11,6 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-changing-inverse">
   <title>Inverse Functions</title>
 
@@ -42,7 +40,7 @@
 		If we phrase this question algebraically, it is analogous to asking: given an equation that defines <m>y</m> is a function of <m>x</m>, is it possible to find a corresponding equation where <m>x</m> is a function of <m>y</m>?
 	</p>
 
-	<xi:include href="./previews/PA-changing-inverse-F-C.xml" />
+	<xi:include href="./previews/PA-changing-inverse-F-C.xml"/>
 
   </subsection>
 
@@ -77,7 +75,7 @@
 		When a given function <m>f</m> has a corresponding inverse function <m>g</m>, we usually rename <m>g</m> as <m>f^{-1}</m>, which we read aloud as <q><m>f</m>-inverse</q>. <idx><h>inverse function</h><h>notation</h></idx>  The equation <m>g(f(a))=a</m> now reads <m>f^{-1}(f(a)) = a</m>, which we interpret as saying <q><m>f</m>-inverse converts <m>f(a)</m> back to <m>a</m></q>.  We similarly write that <m>f(f^{-1}(b)) = b</m>.
 	</p>
 
-	<xi:include href="./activities/act-changing-inverse-Dolbear.xml" />
+	<xi:include href="./activities/act-changing-inverse-Dolbear.xml"/>
 
 	<p>
 		When a given function has an inverse function, it allows us to express the same relationship from two different points of view.  For instance, if <m>y = f(t) = 2t+1</m>, we can show<fn>Observe that <m>g(f(t)) = g(2t+1) = \frac{(2t+1)-1}{2} = \frac{2t}{2} = t</m>.  Similarly, <m>f(g(y)) = f\left(\frac{y-1}{2}\right) = 2\left(\frac{y-1}{2} \right) + 1 = y-1 + 1 = y</m>.</fn> that the function <m>t = g(y) = \frac{y-1}{2}</m> reverses the effect of <m>f</m> (and vice versa), and thus <m>g = f^{-1}</m>.  We observe that 
@@ -191,13 +189,19 @@
 					<caption>
 						The graph that defines function <m>p</m>.
 					</caption>
-					<image source="images/inverse-does-it-1" />
+					<image source="images/inverse-does-it-1"><description><p>
+						The graph that defines function <m>p</m>.
+					</p>
+					</description></image>
 				</figure>
 				<figure xml:id="F-inverse-does-it-2">
 					<caption>
 						The graph that defines function <m>p</m>.
 					</caption>
-					<image source="images/inverse-does-it-2" />
+					<image source="images/inverse-does-it-2"><description><p>
+						The graph that defines function <m>p</m>.
+					</p>
+					</description></image>
 				</figure>
 			</sidebyside>
 
@@ -293,15 +297,17 @@
 	<sidebyside width="45%">
 		<figure xml:id="F-inverse-cubic">
 			<caption>A plot of <m>y = r(t) = 3 - \frac{1}{5}(t-1)^3</m>.</caption>
-			<image source="images/inverse-cubic" />
+			<image source="images/inverse-cubic"><description><p>A plot of <m>y = r(t) = 3 - \frac{1}{5}(t-1)^3</m>.</p>
+			</description></image>
 		</figure>
 		<figure xml:id="F-inverse-quadratic">
 			<caption>A plot of <m>y = s(t) = 3 - \frac{1}{5}(t-1)^2</m>.</caption>
-			<image source="images/inverse-quadratic" />
+			<image source="images/inverse-quadratic"><description><p>A plot of <m>y = s(t) = 3 - \frac{1}{5}(t-1)^2</m>.</p>
+			</description></image>
 		</figure>
 	</sidebyside>
 
-	<xi:include href="./activities/act-changing-inverse-does-it.xml" />
+	<xi:include href="./activities/act-changing-inverse-does-it.xml"/>
 
   </subsection>
 
@@ -351,10 +357,11 @@
 
   	<figure xml:id="F-inverse-plot-reflection">
   		<caption>The graph of a function <m>f</m> along with its inverse, <m>f^{-1}</m>.</caption>
-  		<image width="50%" source="images/inverse-plot-reflection" />
+  		<image width="50%" source="images/inverse-plot-reflection"><description><p>The graph of a function <m>f</m> along with its inverse, <m>f^{-1}</m>.</p>
+  		</description></image>
   	</figure>
 
-  	<xi:include href="./activities/act-changing-inverse-rainfall.xml" />
+  	<xi:include href="./activities/act-changing-inverse-rainfall.xml"/>
 
   </subsection>
 
@@ -369,21 +376,20 @@
   		</li>
   		<li>
   			<p>
-  				We determine whether or not a given function <m>f</m> has a corresponding inverse function by determining if the process that defines <m>f</m> can be reversed so that we can also think of the outputs as a function of the inputs.  If we have a graph of the function <m>f</m>, we know <m>f</m> has an inverse function if the graph passes the <xref text="title" ref="asm-inverse-H-L-test"></xref>.  If we have a formula for the function <m>f</m>, say <m>y = f(t)</m>, we know <m>f</m> has an inverse function if we can solve for <m>t</m> and write <m>t = f^{-1}(y)</m>.
+  				We determine whether or not a given function <m>f</m> has a corresponding inverse function by determining if the process that defines <m>f</m> can be reversed so that we can also think of the outputs as a function of the inputs.  If we have a graph of the function <m>f</m>, we know <m>f</m> has an inverse function if the graph passes the <xref text="title" ref="asm-inverse-H-L-test"/>.  If we have a formula for the function <m>f</m>, say <m>y = f(t)</m>, we know <m>f</m> has an inverse function if we can solve for <m>t</m> and write <m>t = f^{-1}(y)</m>.
   			</p>
   		</li>
   		<li>
   			<p>
-  				A good summary of the properties of an inverse function is provided in the <xref text="title" ref="asm-inverse-properties" />.
+  				A good summary of the properties of an inverse function is provided in the <xref text="title" ref="asm-inverse-properties"/>.
   			</p>
   		</li>
   	</ul>
       </p>
   </subsection>
 
-	<xi:include href="./exercises/ez-changing-inverse.xml" />
+	<xi:include href="./exercises/ez-changing-inverse.xml"/>
 
   <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
   <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
 </section>
-

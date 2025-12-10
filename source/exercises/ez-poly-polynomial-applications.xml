@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,15 +11,14 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-poly-polynomial-applications">
   
 
   <exercise xml:id="ez-poly-polynomial-applications-WW1">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec3/Q44.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec3/Q44.pg"/>
   </exercise>
   <exercise xml:id="ez-poly-polynomial-applications-WW2">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec3/Q43.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec3/Q43.pg"/>
   </exercise>
 
 <!--  
@@ -37,7 +35,8 @@
 
       <figure xml:id="F-polynomial-applications-ez-trough">
         <caption>A triangular trough.</caption>
-        <image source="images/polynomial-applications-trough" width="60%" />
+        <image source="images/polynomial-applications-trough" width="60%"><description><p>A triangular trough.</p>
+        </description></image>
       </figure>
 
       <p>

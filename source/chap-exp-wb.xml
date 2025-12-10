@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,16 +11,14 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="C-exp">
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="C-exp">
   	<title>Exponential and Logarithmic Functions</title>
   
-  	<xi:include  href="./sec-exp-growth-wb.xml" />
- 	<xi:include  href="./sec-exp-modeling-wb.xml" />
-	<xi:include  href="./sec-exp-e-wb.xml" />
-	<xi:include  href="./sec-exp-log-wb.xml" />
- 	<xi:include  href="./sec-exp-log-properties-wb.xml" />
-	<xi:include  href="./sec-exp-temp-pop-wb.xml" /> 
+  	<xi:include href="./sec-exp-growth-wb.xml"/>
+ 	<xi:include href="./sec-exp-modeling-wb.xml"/>
+	<xi:include href="./sec-exp-e-wb.xml"/>
+	<xi:include href="./sec-exp-log-wb.xml"/>
+ 	<xi:include href="./sec-exp-log-properties-wb.xml"/>
+	<xi:include href="./sec-exp-temp-pop-wb.xml"/> 
 
 </chapter>
-

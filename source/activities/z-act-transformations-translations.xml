@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -21,11 +20,13 @@
       <sidebyside width="50%">
         <figure xml:id="F-act-transformations-r">
           <caption>A parent function <m>r</m>.</caption>
-          <image source="images/transformations-act-r-translation"/>
+          <image source="images/transformations-act-r-translation"><description><p>A parent function <m>r</m>.</p>
+          </description></image>
         </figure>
         <figure xml:id="F-act-transformations-s">
           <caption>A parent function <m>s</m>.</caption>
-          <image source="images/transformations-act-s-translation"/>
+          <image source="images/transformations-act-s-translation"><description><p>A parent function <m>s</m>.</p>
+          </description></image>
         </figure>
       </sidebyside>
       <p/>

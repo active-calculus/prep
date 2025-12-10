@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,28 +11,27 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-tangent">
   
 
   <exercise xml:id="ez-trig-tangent-WW1">
-    <webwork source="Library/Rochester/setTrig02FunctionsUnitCircle/srw5_2_47.pg" />
+    <webwork source="Library/Rochester/setTrig02FunctionsUnitCircle/srw5_2_47.pg"/>
   </exercise>
   <exercise xml:id="ez-trig-tangent-WW2">
-    <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p8.pg" />
+    <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p8.pg"/>
   </exercise>
   <exercise xml:id="ez-trig-tangent-WW3">
-    <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p9.pg" />
+    <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p9.pg"/>
   </exercise>
 
   <exercise xml:id="ez-trig-tangent-WW7">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q24a.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q24a.pg"/>
   </exercise>
   <exercise xml:id="ez-trig-tangent-WW8">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg"/>
   </exercise>
   <exercise xml:id="ez-trig-tangent-WW9">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q14.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q14.pg"/>
   </exercise>    
 
 <!--  

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,15 +11,13 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-poly-rational">
   <title>Rational Functions</title>
 
-		<xi:include href="./previews/PA-poly-rational.xml" />
-		<xi:include href="./activities/act-poly-rational-long-term-1.xml" />
-		<xi:include href="./activities/act-poly-rational-long-term-2.xml" />
-  	<xi:include href="./activities/act-poly-rational-domain.xml" />
-		<xi:include href="./activities/act-poly-rational-application.xml" />
+		<xi:include href="./previews/PA-poly-rational.xml"/>
+		<xi:include href="./activities/act-poly-rational-long-term-1.xml"/>
+		<xi:include href="./activities/act-poly-rational-long-term-2.xml"/>
+  	<xi:include href="./activities/act-poly-rational-domain.xml"/>
+		<xi:include href="./activities/act-poly-rational-application.xml"/>
 
 </section>
-

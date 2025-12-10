@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,14 +11,12 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-circular-sine-cosine">
   <title>The Sine and Cosine Functions</title>
 
-		<xi:include href="./previews/PA-circular-sine.xml" />
-		<xi:include href="./activities/act-circular-sine-cosine.xml" />
-		<xi:include href="./activities/act-circular-sine-cosine-incr-CCU.xml" />
-  	<xi:include href="./activities/act-circular-sine-cosine-computing.xml" />
+		<xi:include href="./previews/PA-circular-sine.xml"/>
+		<xi:include href="./activities/act-circular-sine-cosine.xml"/>
+		<xi:include href="./activities/act-circular-sine-cosine-incr-CCU.xml"/>
+  	<xi:include href="./activities/act-circular-sine-cosine-computing.xml"/>
 
 </section>
-

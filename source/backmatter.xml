@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,8 +11,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<backmatter xml:id="backmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
+<backmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="backmatter">
   <title>Back Matter</title>
   <!-- mostly for HTML sectioning -->
 
@@ -62,13 +60,12 @@
 
   <index>
     <title>Index</title>
-    <index-list />
+    <index-list/>
   </index>
 
   <colophon>
     <p>
-      This book was authored in <pretext />.
+      This book was authored in <pretext/>.
     </p>
   </colophon>
 </backmatter>
-
