@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -147,7 +146,7 @@
 					</p>
 <!--         <figure xml:id="F-circular-sine-cosine-axes">
           <caption>Axes for plotting <m>k = \cos(t)</m>.</caption> -->
-          <image source="images/sine-cosine-definition-axes"/>
+          <image source="images/sine-cosine-definition-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--         </figure> -->
       </statement>
       <hint/>

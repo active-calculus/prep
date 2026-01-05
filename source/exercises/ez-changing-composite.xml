@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2018                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -15,13 +14,13 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-composite">
  
   <exercise xml:id="ez-changing-composite-WW1">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-01-Composition-inverse.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-01-Composition-inverse.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-composite-WW2">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-04-Composition-inverse.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-04-Composition-inverse.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-composite-WW3">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-33-Composition-inverse.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-33-Composition-inverse.pg"/>
   </exercise>
 
   <!-- no statement tag
@@ -34,13 +33,13 @@
   -->
   
   <exercise xml:id="ez-changing-composite-WW6">
-    <webwork source="Library/Rochester/setAlgebra17FunComposition/beth3algfun.pg" />
+    <webwork source="Library/Rochester/setAlgebra17FunComposition/beth3algfun.pg"/>
   </exercise> 
   <exercise xml:id="ez-changing-composite-WW7">
-    <webwork source="Library/Rochester/setAlgebra17FunComposition/c0s1p9.pg" />
+    <webwork source="Library/Rochester/setAlgebra17FunComposition/c0s1p9.pg"/>
   </exercise> 
   <exercise xml:id="ez-changing-composite-WW8">
-    <webwork source="Library/Rochester/setAlgebra17FunComposition/faris1.pg" />
+    <webwork source="Library/Rochester/setAlgebra17FunComposition/faris1.pg"/>
   </exercise> 
 
 <!-- the image shows in HTML but not PDF
@@ -50,7 +49,7 @@
 --> 
   
   <exercise xml:id="ez-changing-composite-WW10">
-    <webwork source="Library/Rochester/setAlgebra17FunComposition/ur_fn_2_6.pg" />
+    <webwork source="Library/Rochester/setAlgebra17FunComposition/ur_fn_2_6.pg"/>
   </exercise> 
 
   <exercise xml:id="ez-composite-tables-graphs-formulas">
@@ -69,11 +68,13 @@
             <sidebyside width="50%">
               <figure xml:id="F-composite-ez-f">
                 <caption>Plot of <m>y = f(x)</m>.</caption>
-                <image source="images/composite-ez-f" />
+                <image source="images/composite-ez-f"><description><p>Plot of <m>y = f(x)</m>.</p>
+                </description></image>
               </figure>
               <figure xml:id="F-composite-ez-g">
                 <caption>Plot of <m>y = g(x)</m>.</caption>
-                <image source="images/composite-ez-g" />
+                <image source="images/composite-ez-g"><description><p>Plot of <m>y = g(x)</m>.</p>
+                </description></image>
               </figure>
             </sidebyside>
 
@@ -302,8 +303,8 @@
             </p>
 
             <sidebyside width="50%">
-              <image source="images/tandem-h-t-blank-axes" />
-              <image source="images/tandem-V-t-blank-axes" />
+              <image source="images/tandem-h-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+              <image source="images/tandem-V-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>      
 
             <p>

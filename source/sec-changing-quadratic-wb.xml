@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,14 +11,12 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-changing-quadratic">
   <title>Quadratic Functions</title>
 
-  	<xi:include href="./previews/PA-changing-quadratic.xml" />
-		<xi:include href="./activities/act-changing-quadratic-parameters.xml" />
-		<xi:include href="./activities/act-changing-quadratic-properties.xml" />
-	  <xi:include href="./activities/act-changing-quadratic-falling-ball.xml" />
+  	<xi:include href="./previews/PA-changing-quadratic.xml"/>
+		<xi:include href="./activities/act-changing-quadratic-parameters.xml"/>
+		<xi:include href="./activities/act-changing-quadratic-properties.xml"/>
+	  <xi:include href="./activities/act-changing-quadratic-falling-ball.xml"/>
 
 </section>
-

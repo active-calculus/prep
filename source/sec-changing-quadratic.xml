@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,7 +11,6 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-changing-quadratic">
   <title>Quadratic Functions</title>
 
@@ -49,7 +47,7 @@
     	<m>b</m>, and <m>c</m> are real numbers with <m>a \ne 0</m>.  One of the reasons that quadratic functions are especially important is that they model the height of an object falling under the force of gravity.
   	</p>
 
-  	<xi:include href="./previews/PA-changing-quadratic.xml" />
+  	<xi:include href="./previews/PA-changing-quadratic.xml"/>
 
 
   </subsection>
@@ -61,7 +59,7 @@
   		Quadratic functions are likely familiar to you from experience in previous courses.  Throughout, we let <m>y = q(x) = ax^2 + bx + c</m> where <m>a</m>, <m>b</m>, and <m>c</m> are real numbers with <m>a \ne 0</m>.  From the outset, it is important to note that when we write <m>q(x) = ax^2 + bx + c</m> we are thinking of an <em>infinite family of functions</em> where each member depends on the three paramaters <m>a</m>, <m>b</m>, and <m>c</m>.
   	</p>
 
-	<xi:include href="./activities/act-changing-quadratic-parameters.xml" />
+	<xi:include href="./activities/act-changing-quadratic-parameters.xml"/>
 
 	<p>
 		Because quadratic functions are familiar to us, we will quickly restate some of their important known properties.  
@@ -86,11 +84,13 @@
 	<sidebyside width="50%">
 		<figure xml:id="F-quadratic-3-CCU">
 			<caption>Three examples of quadratic functions that open up.</caption>
-			<image source="images/quadratic-3-CCU" />
+			<image source="images/quadratic-3-CCU"><description><p>Three examples of quadratic functions that open up.</p>
+			</description></image>
 		</figure>
 		<figure xml:id="F-quadratic-1-CCD">
 			<caption>One example of a quadratic function that opens down.</caption>
-			<image source="images/quadratic-1-CCD" />
+			<image source="images/quadratic-1-CCD"><description><p>One example of a quadratic function that opens down.</p>
+			</description></image>
 		</figure>
 	</sidebyside>
 
@@ -119,11 +119,13 @@
 	<sidebyside width="50%">
 		<figure xml:id="F-quadratic-vertex-CCU">
 			<caption>The vertex of a quadratic function that opens up.</caption>
-			<image source="images/quadratic-vertex-CCU" />
+			<image source="images/quadratic-vertex-CCU"><description><p>The vertex of a quadratic function that opens up.</p>
+			</description></image>
 		</figure>
 		<figure xml:id="F-quadratic-vertex-CCD">
 			<caption>The vertex of a quadratic function that opens down.</caption>
-			<image source="images/quadratic-vertex-CCD" />
+			<image source="images/quadratic-vertex-CCD"><description><p>The vertex of a quadratic function that opens down.</p>
+			</description></image>
 		</figure>
 	</sidebyside>
 
@@ -179,7 +181,7 @@
 		</p>
 	</assemblage>
 
-	<xi:include href="./activities/act-changing-quadratic-properties.xml" />
+	<xi:include href="./activities/act-changing-quadratic-properties.xml"/>
 
   </subsection>
   <subsection xml:id="subsec-changing-quadratic-falling-gravity">
@@ -195,9 +197,9 @@
 	  </p>
 
 	  <p>
-	    One of the fantastic consequences of calculus <mdash /> which,
+	    One of the fantastic consequences of calculus <mdash/> which,
 	    like the realization that acceleration due to gravity is constant,
-	    is largely due to Sir Isaac Newton in the late 1600s <mdash /> is that the height of a falling object at time <m>t</m> is modeled by a quadratic function.
+	    is largely due to Sir Isaac Newton in the late 1600s <mdash/> is that the height of a falling object at time <m>t</m> is modeled by a quadratic function.
 	  </p>
 
 	  <assemblage xml:id="asm-quadratic-falling-ball-model">
@@ -216,7 +218,7 @@
 	  	If height is measured instead in meters and velocity in meters per second, the gravitational constant is <m>g = 9.8</m> and the function <m>h</m> has form <m>h(t) = -4.9t^2 + v_0t + s_0</m>. <idx><h>gravity</h><h>gravitational constant</h></idx>  (When height is measured in feet, the gravitational constant is <m>g = 32</m>.)
 	  </p>
 
-	  <xi:include href="./activities/act-changing-quadratic-falling-ball.xml" />
+	  <xi:include href="./activities/act-changing-quadratic-falling-ball.xml"/>
 
   </subsection>
 
@@ -343,7 +345,8 @@
 
 					<figure xml:id="F-quadratic-linear">
 						<caption>Plot of <m>h(t) = -5t^2 + 20t + 25</m> along with line segments whose slopes correspond to average rates of change.</caption>
-						<image source="images/quadratic-change-linear" />
+						<image source="images/quadratic-change-linear"><description><p>Plot of <m>h(t) = -5t^2 + 20t + 25</m> along with line segments whose slopes correspond to average rates of change.</p>
+						</description></image>
 					</figure>
 
 	</sidebyside>
@@ -401,7 +404,7 @@
   				<title>A summary of the information that can be read from the various algebraic forms of a quadratic function</title>
   				<tabular>
   					<row bottom="minor">
-  						<cell></cell>
+  						<cell/>
   						<cell>standard</cell>
   						<cell>vertex</cell>
   						<cell>factored<fn>Provided <m>q</m> has <m>1</m> or <m>2</m> <m>x</m>-intercepts.  In the case of just one, we take <m>r = s</m>.</fn></cell>
@@ -438,9 +441,8 @@
         </p>
   </subsection>
 
-  <xi:include href="./exercises/ez-changing-quadratic.xml" />
+  <xi:include href="./exercises/ez-changing-quadratic.xml"/>
 
   <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
   <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
 </section>
-

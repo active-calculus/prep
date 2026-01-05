@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,26 +11,25 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-poly-rational">
   
   <exercise xml:id="ez-poly-rational-WW1">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q10.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q10.pg"/>
   </exercise>
   <exercise xml:id="ez-poly-rational-WW2">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q12.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q12.pg"/>
   </exercise>
   <exercise xml:id="ez-poly-rational-WW3">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q13.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q13.pg"/>
   </exercise>
   <exercise xml:id="ez-poly-rational-WW4">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q02.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q02.pg"/>
   </exercise>
   <exercise xml:id="ez-poly-rational-WW5">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q07.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q07.pg"/>
   </exercise>
   <exercise xml:id="ez-poly-rational-WW6">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q15.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q15.pg"/>
   </exercise>
 
 <!--  
@@ -41,10 +39,10 @@
 -->
 
   <exercise xml:id="ez-poly-rational-WW8">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q24.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q24.pg"/>
   </exercise>
   <exercise xml:id="ez-poly-rational-WW9">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q06.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q06.pg"/>
   </exercise>
 
   <exercise xml:id="ez-poly-rational-domain-asymptote">

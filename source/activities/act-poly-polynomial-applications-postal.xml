@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -20,7 +19,7 @@
 		</p>
 <!--      <figure xml:id="F-act-postal">
         <caption>A rectangular parcel with a square end.</caption> -->
-        <image source="images/polynomial-applications-postal" width="60%"/>
+        <image source="images/polynomial-applications-postal" width="60%"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--      </figure> -->
       <p>
 			Suppose that we want to ship a parcel that has a square end of width <m>x</m> and an overall length of <m>y</m>, both measured in inches.

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,7 +11,6 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-temp-pop">
 
 <!--  
@@ -21,7 +19,7 @@
   </exercise>
 -->  
   <exercise xml:id="ez-exp-temp-pop-WW2">
-    <webwork source="Library/Rochester/setDiffEQ5ModelingWith1stOrder/ur_de_5_4.pg" />
+    <webwork source="Library/Rochester/setDiffEQ5ModelingWith1stOrder/ur_de_5_4.pg"/>
   </exercise>
 <!--  
   <exercise xml:id="ez-exp-temp-pop-WW3">
@@ -29,14 +27,14 @@
   </exercise>
 -->
   <exercise xml:id="ez-exp-temp-pop-WW4">
-    <webwork source="Library/Michigan/Chap11Sec7/Q09.pg" />
+    <webwork source="Library/Michigan/Chap11Sec7/Q09.pg"/>
   </exercise>
 
 <p>In <xref ref="ez-exp-temp-pop-WW5">Exercise</xref> below, use the following structure/formula for <m>N(t)</m>: <m>N(t)=\frac{L}{1+Ab^{-kt}}</m>.  In particular, note that when the instructions say <q>find <m>A</m></q>, this use of <q><m>A</m></q> is not in reference to carrying capacity.</p>
 
 
   <exercise xml:id="ez-exp-temp-pop-WW5">
-    <webwork source="Library/Rochester/setAlgebra31LogExpApplications/infection1.pg" />
+    <webwork source="Library/Rochester/setAlgebra31LogExpApplications/infection1.pg"/>
   </exercise>
 
   <exercise xml:id="ez-exp-temp-pop-water">
@@ -112,7 +110,7 @@
       </p>
 
       <p>
-        <ol  marker="a.">
+        <ol marker="a.">
           <li>
             <p>
               Recall we know that <m>S(0) = 5</m> and <m>S(1) = 20</m>.  In addition, assume that <m>5000</m> is the number of people who will eventually get sick.  Use this information determine the exact values of <m>A</m>, <m>M</m>, and <m>k</m> in the logistic model.

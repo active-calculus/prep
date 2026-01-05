@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,7 +11,6 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-changing-functions-models">
   <title>Functions:  Modeling Relationships</title>
   <objectives>
@@ -62,7 +60,7 @@
 		true.  For instance, <m>70 = 40 + 0.25(120)</m>.  Indeed, scientists who made many additional cricket chirp observations following Dolbear's initial counts found that the formula in <xref ref="eq-functions-Dolbear">Equation</xref> holds with remarkable accuracy for the snowy tree cricket in temperatures ranging from about <m>50^\circ</m> F to <m>85^\circ</m> F. 
 	</p>
 
-	<xi:include href="./previews/PA-changing-functions-crickets.xml" />	
+	<xi:include href="./previews/PA-changing-functions-crickets.xml"/>	
 
   </subsection>
 
@@ -125,7 +123,8 @@
 			</table>		
 			<figure xml:id="F-functions-Dolbear-data">
 				<caption>Graph of data from the function <m>T = D(N) = 40 + 0.25N</m> and the underlying curve.</caption>
-				<image source="images/functions-Dolbears-Law" width="50%" />	
+				<image source="images/functions-Dolbears-Law" width="50%"><description><p>Graph of data from the function <m>T = D(N) = 40 + 0.25N</m> and the underlying curve.</p>
+				</description></image>	
 			</figure>
 		</sidebyside>	
 
@@ -180,7 +179,7 @@
 			The range of any function is always a subset of the codomain.  It is possible for the range to equal the codomain.
 		</p>
 
-		<xi:include href="./activities/act-changing-functions-spherical-tank.xml" />
+		<xi:include href="./activities/act-changing-functions-spherical-tank.xml"/>
 
   </subsection>
 
@@ -246,7 +245,8 @@
 				</table>		
 				<figure xml:id="F-functions-quadratic-example-data">
 					<caption>Graph of the function <m>y = f(x)</m> and some data from the table.</caption>
-					<image source="images/functions-quadratic-example-data" width="50%" />	
+					<image source="images/functions-quadratic-example-data" width="50%"><description><p>Graph of the function <m>y = f(x)</m> and some data from the table.</p>
+					</description></image>	
 				</figure>
 			</sidebyside>
 
@@ -286,14 +286,15 @@
 				</table>		
 				<figure xml:id="F-functions-quadratic-model-data">
 					<caption>Graph of the model <m>h = g(t)</m> and some data from the table.</caption>
-					<image source="images/functions-quadratic-model-data" width="50%" />	
+					<image source="images/functions-quadratic-model-data" width="50%"><description><p>Graph of the model <m>h = g(t)</m> and some data from the table.</p>
+					</description></image>	
 				</figure>
 			</sidebyside>
 
 		</solution>
 	</example>
 
-	<xi:include href="./activities/act-changing-functions-spherical-tank-draining.xml" />
+	<xi:include href="./activities/act-changing-functions-spherical-tank-draining.xml"/>
 
   </subsection>
 
@@ -349,7 +350,7 @@
 		</statement>
 	</example>
 
-	<xi:include href="./activities/act-changing-functions-is-it.xml" />
+	<xi:include href="./activities/act-changing-functions-is-it.xml"/>
 
 	<p>
 		For a relationship or process to be a function, each individual input must be associated with one and only one output.  Thus, the usual way that we demonstrate a relationship or process is not a function is to find a particular input that is associated with two or more outputs.  When the relationship is given graphically, such as in the left graph in <xref ref="act-changing-functions-is-it"/>, we can use the vertical line test to determine whether or not the graph represents a function.
@@ -404,9 +405,8 @@
         </p>
   </subsection>
 
-  <xi:include href="./exercises/ez-changing-functions.xml" />
+  <xi:include href="./exercises/ez-changing-functions.xml"/>
 
   <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
   <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
 </section>
-

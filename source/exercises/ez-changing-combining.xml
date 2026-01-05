@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2018                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -15,27 +14,27 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-combining">
 
   <exercise xml:id="ez-changing-combining-WW1">
-    <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_05_functOperation.pg" />
+    <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_05_functOperation.pg"/>
   </exercise>
 
   <exercise xml:id="ez-changing-combining-WW2">
-    <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_07_functOperation.pg" />
+    <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_07_functOperation.pg"/>
   </exercise>
 
   <exercise xml:id="ez-changing-combining-WW3">
-    <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_09_functOperation.pg" />
+    <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_09_functOperation.pg"/>
   </exercise>
 
   <exercise xml:id="ez-changing-combining-WW4">
-    <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_10_functOperation.pg" />
+    <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_10_functOperation.pg"/>
   </exercise>  
 
   <exercise xml:id="ez-changing-combining-WW5">
-    <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_12_functOperation.pg" />
+    <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_12_functOperation.pg"/>
   </exercise>
 
   <exercise xml:id="ez-changing-combining-WW6">
-    <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_13_functOperation.pg" />
+    <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_13_functOperation.pg"/>
   </exercise>
 
 
@@ -109,11 +108,13 @@
       <sidebyside width="50%">
         <figure xml:id="F-combining-ez-piecewise-s">
           <caption>The graph of a piecewise function, <m>s</m>.</caption>
-          <image source="images/inverse-act-does-it-2"/>
+          <image source="images/inverse-act-does-it-2"><description><p>The graph of a piecewise function, <m>s</m>.</p>
+          </description></image>
         </figure>
         <figure xml:id="F-combining-ez-piecewise-g">
           <caption>The graph of a piecewise function, <m>g</m>.</caption>
-          <image source="images/functions-act-is-it-2"/>
+          <image source="images/functions-act-is-it-2"><description><p>The graph of a piecewise function, <m>g</m>.</p>
+          </description></image>
         </figure>
       </sidebyside>
 
@@ -285,8 +286,8 @@
               </p>
 
               <sidebyside width="50%">
-                <image source="images/aroc-s-t-blank-axes" />
-                <image source="images/tandem-V-t-blank-axes" />
+                <image source="images/aroc-s-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+                <image source="images/tandem-V-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
               </sidebyside>
             </li>
 

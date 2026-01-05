@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,27 +11,26 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-circular-sinusoidal">
   
 
   <exercise xml:id="ez-circular-sinusoidal-WW1">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Review/Q18.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Review/Q18.pg"/>
   </exercise>
   <exercise xml:id="ez-circular-sinusoidal-WW2">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Review/Q20.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Review/Q20.pg"/>
   </exercise>
   <exercise xml:id="ez-circular-sinusoidal-WW3">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Review/Q28.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Review/Q28.pg"/>
   </exercise>
   <exercise xml:id="ez-circular-sinusoidal-WW4">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q12.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q12.pg"/>
   </exercise>
   <exercise xml:id="ez-circular-sinusoidal-WW5">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg"/>
   </exercise>
   <exercise xml:id="ez-circular-sinusoidal-WW6">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q28.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q28.pg"/>
   </exercise>
 
   <exercise xml:id="ez-circular-sinusoidal-data">

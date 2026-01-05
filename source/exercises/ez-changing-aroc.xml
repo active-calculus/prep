@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2018                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -15,28 +14,28 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-aroc">
 
   <exercise xml:id="ez-changing-aroc-WW1">
-    <webwork source="Library/Michigan/precalc/4e/Chap1Sec2/Q04.pg" />
+    <webwork source="Library/Michigan/precalc/4e/Chap1Sec2/Q04.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-aroc-WW2">
-    <webwork source="Library/Michigan/precalc/4e/Chap1Sec2/Q15.pg" />
+    <webwork source="Library/Michigan/precalc/4e/Chap1Sec2/Q15.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-aroc-WW3">
-    <webwork source="Library/Michigan/precalc/4e/Chap1Sec2/Q23.pg" />
+    <webwork source="Library/Michigan/precalc/4e/Chap1Sec2/Q23.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-aroc-WW4">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap1Review/Q06.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Review/Q06.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-aroc-WW5">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q03.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q03.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-aroc-WW6">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q10.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q10.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-aroc-WW7">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q16.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q16.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-aroc-WW8">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q25.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q25.pg"/>
   </exercise>
 
 
@@ -125,7 +124,8 @@
 
       <figure xml:id="F-aroc-ez-position-graph">
         <caption>The graph of <m>y = s(t)</m>, the position of the car (measured in thousands of feet from its starting location) at time <m>t</m> in minutes.</caption>
-        <image width="40%" source="images/aroc-ez-position-graph" />
+        <image width="40%" source="images/aroc-ez-position-graph"><description><p>The graph of <m>y = s(t)</m>, the position of the car (measured in thousands of feet from its starting location) at time <m>t</m> in minutes.</p>
+        </description></image>
       </figure>
 
       <p>

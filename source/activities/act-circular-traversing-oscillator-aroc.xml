@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -168,7 +167,7 @@
             </cell>
           </row>
         </tabular>
-        <image source="images/traversing-circular-act-oscillator"/>
+        <image source="images/traversing-circular-act-oscillator"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
       </sidebyside>
       <p/>
     </introduction>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -48,11 +47,11 @@
         <sidebyside width="45%">
 <!--         <figure xml:id="F-act-changing-composite-Dolbear-revisited">
             <caption>Dolbear's function.</caption> -->
-            <image source="images/functions-Dolbears-Law"/>
+            <image source="images/functions-Dolbears-Law"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--          </figure>
           <figure xml:id="F-act-changing-composite-Dolbear-celcius">
             <caption>Blank axes to plot <m>H = (G \circ D)(N)</m>.</caption> -->
-            <image source="images/composite-Dolbears-Law-celcius-blank"/>
+            <image source="images/composite-Dolbears-Law-celcius-blank"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--          </figure> -->
         </sidebyside>
       </statement>

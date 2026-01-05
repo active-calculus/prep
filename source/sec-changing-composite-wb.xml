@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,14 +11,12 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-changing-composite">
   <title>Composite Functions</title>
 
-	<xi:include href="./previews/PA-changing-composite.xml" />
-  <xi:include href="./activities/act-changing-composite-tables-graphs.xml" />
-	<xi:include href="./activities/act-changing-composite-crickets-celsius.xml" />
-	<xi:include href="./activities/act-changing-composite-aroc.xml" />
+	<xi:include href="./previews/PA-changing-composite.xml"/>
+  <xi:include href="./activities/act-changing-composite-tables-graphs.xml"/>
+	<xi:include href="./activities/act-changing-composite-crickets-celsius.xml"/>
+	<xi:include href="./activities/act-changing-composite-aroc.xml"/>
 
 </section>
-

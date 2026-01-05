@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2018                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -15,28 +14,28 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-growth">
 
   <exercise xml:id="ez-exp-growth-WW1">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-12-Exponential-functions.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-12-Exponential-functions.pg"/>
   </exercise>
   <exercise xml:id="ez-exp-growth-WW2">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-19-Exponential-functions.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-19-Exponential-functions.pg"/>
   </exercise>
   <exercise xml:id="ez-exp-growth-WW3">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-27-Exponential-functions.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-27-Exponential-functions.pg"/>
   </exercise>
   <exercise xml:id="ez-exp-growth-WW4">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-28-Exponential-functions.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-28-Exponential-functions.pg"/>
   </exercise>
 
   <exercise xml:id="ez-exp-growth-WW6">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Q16.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Q16.pg"/>
   </exercise>
 
   <exercise xml:id="ez-exp-growth-WW8">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec2/Connally3-3-2-08-Exponential-vs-linear.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec2/Connally3-3-2-08-Exponential-vs-linear.pg"/>
   </exercise>
 
   <exercise xml:id="ez-exp-growth-WW10">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec2/Q02.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec2/Q02.pg"/>
   </exercise>
 
 <!--
@@ -114,7 +113,8 @@
 
       <figure xml:id="F-growth-ez-find-a-b">
         <caption>A plot of the exponential function <m>f</m>.</caption>
-        <image source="images/growth-ez-find-a-b" width="50%" />
+        <image source="images/growth-ez-find-a-b" width="50%"><description><p>A plot of the exponential function <m>f</m>.</p>
+        </description></image>
       </figure>
 
       <p>

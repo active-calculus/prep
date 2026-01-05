@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,11 +11,10 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<frontmatter xml:id="frontmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
+<frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
     <xi:include href="./bibinfo.xml"/>
-    <xi:include href="./titlepage.xml" />
-    <xi:include href="./colophon.xml" />
+    <xi:include href="./titlepage.xml"/>
+    <xi:include href="./colophon.xml"/>
 
   <acknowledgement>
     <p>
@@ -31,9 +29,9 @@
 
     <p>
       The beautiful full-color .eps graphics, as well as the occasional interactive JavaScript graphics, use David Austin's Python library that employs Bill Casselman's <url href="http://gvsu.edu/s/bi">PiScript</url>.  
-      The .html version of the text is the result Rob Beezer's amazing work to develop the publishing language <pretext /> (formerly known as Mathbook XML); learn more at <url href="pretextbook.org">pretextbook.org</url>.
+      The .html version of the text is the result Rob Beezer's amazing work to develop the publishing language <pretext/> (formerly known as Mathbook XML); learn more at <url href="pretextbook.org">pretextbook.org</url>.
       I'm grateful to the American Institute of Mathematics for hosting and funding
-      a weeklong workshop in San Jose, CA, in April 2016, which enabled me to get started in <pretext />.  The ongoing support of the <url href="https://groups.google.com/forum/#!forum/pretext-support">user group</url> is invaluable, and David Farmer of AIM is has also been a source of major support and advocacy.
+      a weeklong workshop in San Jose, CA, in April 2016, which enabled me to get started in <pretext/>.  The ongoing support of the <url href="https://groups.google.com/forum/#!forum/pretext-support">user group</url> is invaluable, and David Farmer of AIM is has also been a source of major support and advocacy.
       Mitch Keller of the University of Wisconsin is the production editor of both <url href="https://activecalculus.org/single/">Active Calculus: Single Variable</url> and this text; his technical expertise is a gift. 
     </p>
 
@@ -155,7 +153,7 @@
           <title>Motivating Questions</title>
           <p>
             At the start of each section,
-            we list 2<ndash />3 <em>motivating questions</em>
+            we list 2<ndash/>3 <em>motivating questions</em>
             that provide motivation for why the following material is of interest to us.
             One goal of each section is to answer each of the motivating questions.
           </p>
@@ -189,13 +187,13 @@
             There are dozens of college algebra and trignometry texts with (collectively) tens of thousands of exercises.
             Rather than repeat standard and routine exercises in this text,
             we recommend the use of
-            <webwork />
+            <webwork/>
             with its access to the Open Problem Library (OPL) and many thousands of relevant problems.
             In this text,
-            each section includes a small collection of anonymous <webwork /> exercises that offer
+            each section includes a small collection of anonymous <webwork/> exercises that offer
             students immediate feedback without penalty,
-            as well as 3<ndash />4 additional challenging exercises per section.
-            Each of the non-<webwork /> exercises has multiple parts,
+            as well as 3<ndash/>4 additional challenging exercises per section.
+            Each of the non-<webwork/> exercises has multiple parts,
             requires the student to connect several key ideas,
             and expects that the student will do at least a modest amount of writing to answer the questions and explain their findings.
           </p>
@@ -259,7 +257,7 @@
     </p>
 
     <p>
-      At the end of each section, you'll find two types of Exercises.  First, there are several anonymous <webwork /> exercises.  These are online, interactive exercises that allow you to submit answers for immediate feedback with unlimited attempts without penalty; to submit answers, you have to be using the HTML version of the text (see <url href="http://gvsu.edu/s/14i">this short video on the HTML version that includes a <webwork /> demonstration</url>).  You should use these exercises as a way to test your understanding of basic ideas in the preceding section.  If your institution uses <webwork />, you may also need to log in to a server as directed by your instructor to complete assigned <webwork /> sets as part of your course grade.  The <webwork /> exercises included in this text are ungraded and not connected to any individual account.  Following the <webwork /> exercises there are 3-4 additional challenging exercises that are designed to encourage you to connect ideas, investigate new situations, and write about your understanding. <!-- There are answers to most of the non-<webwork /> exercises <xref ref="exercises-answers">in the back matter</xref>.-->
+      At the end of each section, you'll find two types of Exercises.  First, there are several anonymous <webwork/> exercises.  These are online, interactive exercises that allow you to submit answers for immediate feedback with unlimited attempts without penalty; to submit answers, you have to be using the HTML version of the text (see <url href="http://gvsu.edu/s/14i">this short video on the HTML version that includes a <webwork/> demonstration</url>).  You should use these exercises as a way to test your understanding of basic ideas in the preceding section.  If your institution uses <webwork/>, you may also need to log in to a server as directed by your instructor to complete assigned <webwork/> sets as part of your course grade.  The <webwork/> exercises included in this text are ungraded and not connected to any individual account.  Following the <webwork/> exercises there are 3-4 additional challenging exercises that are designed to encourage you to connect ideas, investigate new situations, and write about your understanding. <!-- There are answers to most of the non-<webwork /> exercises <xref ref="exercises-answers">in the back matter</xref>.-->
     </p>
 
 <!--
@@ -321,7 +319,7 @@
     </p>
 
     <p>
-      Note that the <webwork /> exercises in the HTML version are anonymous and there's not a way to track students' engagement with them.  These are intended to be formative for students and provide them with immediate feedback without penalty.  If your institution is a <webwork /> user, in the near future we will have sets of .def files that correspond to the sections in the text; these will be available upon request to the author.
+      Note that the <webwork/> exercises in the HTML version are anonymous and there's not a way to track students' engagement with them.  These are intended to be formative for students and provide them with immediate feedback without penalty.  If your institution is a <webwork/> user, in the near future we will have sets of .def files that correspond to the sections in the text; these will be available upon request to the author.
     </p>
 
 <!--
@@ -337,7 +335,7 @@
 -->
 
     <p>
-      The <pretext /> source code for the text can be found on <url href="https://github.com/active-calculus/prep">GitHub</url>.  If you find errors in the text or have other suggestions, you can file an issue on GitHub <!--use the <url href="http://gvsu.edu/s/0vK">Feedback link</url> in the HTML version (found at the bottom left in the main menu),--> or email the author directly.  To engage with instructors who use the text, we maintain a Google group and <url href="https://activecalculus.org/blog/" visual="activecalculus.org/blog">a blog</url>; you can request to join the Google group via the link at <url href="https://activecalculus.org/instructors/" visual="https://activecalculus.org/instructors/"> the instructors page</url>.  Finally, if you're interested in a video presentation on using the similar <pubtitle>Active Calculus</pubtitle> text, you can see this <url href="http://math.mit.edu/seminars/esme/videos/2018-10-02_Boelkins.mp4">online video presentation</url> to the <url href="http://math.mit.edu/seminars/esme/">MIT Electronic Seminar on Mathematics Education</url>; at about the 17-minute mark, the portion begins where we demonstrate features of and how to use the text. 
+      The <pretext/> source code for the text can be found on <url href="https://github.com/active-calculus/prep">GitHub</url>.  If you find errors in the text or have other suggestions, you can file an issue on GitHub <!--use the <url href="http://gvsu.edu/s/0vK">Feedback link</url> in the HTML version (found at the bottom left in the main menu),--> or email the author directly.  To engage with instructors who use the text, we maintain a Google group and <url href="https://activecalculus.org/blog/" visual="activecalculus.org/blog">a blog</url>; you can request to join the Google group via the link at <url href="https://activecalculus.org/instructors/" visual="https://activecalculus.org/instructors/"> the instructors page</url>.  Finally, if you're interested in a video presentation on using the similar <pubtitle>Active Calculus</pubtitle> text, you can see this <url href="http://math.mit.edu/seminars/esme/videos/2018-10-02_Boelkins.mp4">online video presentation</url> to the <url href="http://math.mit.edu/seminars/esme/">MIT Electronic Seminar on Mathematics Education</url>; at about the 17-minute mark, the portion begins where we demonstrate features of and how to use the text. 
     </p>
 
     <p>
@@ -346,4 +344,3 @@
   </preface>
   
 </frontmatter>
-

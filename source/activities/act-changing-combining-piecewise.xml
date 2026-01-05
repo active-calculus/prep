@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -68,11 +67,11 @@
         <sidebyside width="45%">
 <!--          <figure xml:id="F-combining-act-piecewise-axes">
             <caption>Axes to plot <m>y = p(x)</m>.</caption> -->
-            <image source="images/functions-y-x-blank-axes-centered-2"/>
+            <image source="images/functions-y-x-blank-axes-centered-2"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--          </figure>
           <figure xml:id="F-combining-act-piecewise-graph"> 
             <caption>Graph of <m>y = f(x)</m>.</caption> -->
-            <image source="images/combining-act-f"/>
+            <image source="images/combining-act-f"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--          </figure> -->
         </sidebyside>
       </statement>

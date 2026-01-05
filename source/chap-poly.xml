@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,15 +11,13 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="C-poly">
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="C-poly">
   	<title>Polynomial and Rational Functions</title>
   
-  	<xi:include  href="./sec-poly-infty.xml" />
-  	<xi:include  href="./sec-poly-polynomials.xml" />
-  	<xi:include  href="./sec-poly-polynomial-applications.xml" />
-  	<xi:include  href="./sec-poly-rational.xml" />
-  	<xi:include  href="./sec-poly-rational-features.xml" />
+  	<xi:include href="./sec-poly-infty.xml"/>
+  	<xi:include href="./sec-poly-polynomials.xml"/>
+  	<xi:include href="./sec-poly-polynomial-applications.xml"/>
+  	<xi:include href="./sec-poly-rational.xml"/>
+  	<xi:include href="./sec-poly-rational-features.xml"/>
 
 </chapter>
-

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,14 +11,12 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-circular-unit-circle">
   <title>The Unit Circle</title>
 
-  	<xi:include href="./previews/PA-circular-unit-circle.xml" />
-    <xi:include href="./activities/act-circular-unit-circle-radians-degrees.xml" />
-    <xi:include href="./activities/act-circular-unit-circle-special-triangles.xml" />
-    <xi:include href="./activities/act-circular-unit-circle-non-unit.xml" />
+  	<xi:include href="./previews/PA-circular-unit-circle.xml"/>
+    <xi:include href="./activities/act-circular-unit-circle-radians-degrees.xml"/>
+    <xi:include href="./activities/act-circular-unit-circle-special-triangles.xml"/>
+    <xi:include href="./activities/act-circular-unit-circle-non-unit.xml"/>
 
 </section>
-

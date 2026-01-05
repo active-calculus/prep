@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -344,7 +343,7 @@
 					</p>
 <!--        <figure xml:id="F-cotangent-plot">
           <caption>Axes for plotting <m>r(t) = \cot(t)</m>.</caption> -->
-          <image source="images/other-cot-definition-graph" width="60%"/>
+          <image source="images/other-cot-definition-graph" width="60%"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--        </figure> -->
       </statement>
       <hint/>

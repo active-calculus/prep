@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,7 +11,6 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-trig-finding-angles">
   <title>Finding Angles</title>
   <objectives>
@@ -43,7 +41,7 @@
         say the exact same thing from two different perspectives, and that we read <q><m>\arccos(x)</m></q> as <q>the angle whose cosine is <m>x</m></q>.
       </p>
 
-      <xi:include href="./previews/PA-trig-finding-angles.xml" />
+      <xi:include href="./previews/PA-trig-finding-angles.xml"/>
 
   	</subsection>
 
@@ -67,7 +65,8 @@
 
           <figure xml:id="F-finding-angles-ex-1">
             <caption>A right triangle with one known leg and known hypotenuse.</caption>
-            <image source="images/finding-angles-ex-1" />
+            <image source="images/finding-angles-ex-1"><description><p>A right triangle with one known leg and known hypotenuse.</p>
+            </description></image>
           </figure>
         </sidebyside>
       </statement>
@@ -88,7 +87,7 @@
       </solution>
     </example>
 
-    <xi:include href="./activities/act-trig-finding-angles-exactly.xml" />
+    <xi:include href="./activities/act-trig-finding-angles-exactly.xml"/>
 
   </subsection>
 
@@ -98,11 +97,11 @@
       Now that we have developed the (restricted) sine, cosine, and tangent functions and their respective inverses, in any setting in which we have a right triangle together with one side length and any one additional piece of information (another side length or a non-right angle measurement), we can determine all of the remaining pieces of the triangle.  In the activities that follow, we explore these possibilities in a variety of different applied contexts.
     </p>
 
-    <xi:include href="./activities/act-trig-finding-angles-roof.xml" />
+    <xi:include href="./activities/act-trig-finding-angles-roof.xml"/>
 
-    <xi:include href="./activities/act-trig-finding-angles-baseball.xml" />
+    <xi:include href="./activities/act-trig-finding-angles-baseball.xml"/>
 
-    <xi:include href="./activities/act-trig-finding-angles-rocket.xml" />
+    <xi:include href="./activities/act-trig-finding-angles-rocket.xml"/>
 
   </subsection>
 
@@ -128,7 +127,8 @@
           </stack>
             <figure xml:id="F-finding-angles-SOH-CAH-TOA">
               <caption>Finding an angle from knowing the legs in a right triangle.</caption>
-              <image source="images/right-triangle-SOH-CAH-TOA" />
+              <image source="images/right-triangle-SOH-CAH-TOA"><description><p>Finding an angle from knowing the legs in a right triangle.</p>
+              </description></image>
             </figure>
           </sidebyside>
 
@@ -144,9 +144,8 @@
 
   </subsection>
 
-  <xi:include href="./exercises/ez-trig-finding-angles.xml" />
+  <xi:include href="./exercises/ez-trig-finding-angles.xml"/>
 
   <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
   <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
 </section>
-

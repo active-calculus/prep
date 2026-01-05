@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,14 +11,12 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-poly-infty">
   <title>Infinity, limits, and power functions</title>
 
-  	<xi:include href="./previews/PA-poly-infty.xml" />
-  	<xi:include href="./activities/act-poly-infty-limit.xml" />
-  	<xi:include href="./activities/act-poly-infty-natural-powers.xml" />
-  	<xi:include href="./activities/act-poly-infty-negative-powers.xml" />
+  	<xi:include href="./previews/PA-poly-infty.xml"/>
+  	<xi:include href="./activities/act-poly-infty-limit.xml"/>
+  	<xi:include href="./activities/act-poly-infty-natural-powers.xml"/>
+  	<xi:include href="./activities/act-poly-infty-negative-powers.xml"/>
 
 </section>
-

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -46,7 +45,7 @@
 						A rational function <m>w</m> whose formula generates a graph with all of the characteristics shown in the following figure.  Assume that <m>w(5) = 0</m> but <m>w(x) \gt 0</m> for all other <m>x</m> such that <m>x \gt 3</m>.
 					</p>
 
-                      <image width="50%" source="images/rational-plot-act"/>
+                      <image width="50%" source="images/rational-plot-act"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
       </statement>
       <hint/>
       <answer/>
@@ -58,7 +57,7 @@
 						A rational function <m>z</m> whose formula satisfies the sign chart shown in the following figure, and for which <m>z</m> has no horizontal asymptote and its only vertical asymptotes occur at the middle two values of <m>x</m> noted on the sign chart.
 					</p>
 
-            <image width="50%" source="images/rational-sign-chart-act"/>
+            <image width="50%" source="images/rational-sign-chart-act"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 
       </statement>
       <hint/>

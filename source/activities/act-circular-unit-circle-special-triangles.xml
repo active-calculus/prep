@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -23,11 +22,11 @@
       <sidebyside width="50%">
 <!--        <figure xml:id="F-unit-circle-45-45-90">
           <caption>A right triangle with two <m>45^\circ</m> angles.</caption> -->
-          <image source="images/unit-circle-45-45-90"/>
+          <image source="images/unit-circle-45-45-90"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--        </figure>
         <figure xml:id="F-unit-circle-30-60-90">
           <caption>A right triangle with a <m>30^\circ</m> angle.</caption> -->
-          <image source="images/unit-circle-30-60-90"/>
+          <image source="images/unit-circle-30-60-90"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--        </figure> -->
       </sidebyside>
       <p/>
@@ -70,15 +69,15 @@
         <sidebyside width="33%">
 <!--          <figure xml:id="F-unit-circle-pi-6">
             <caption>An angle measuring <m>\frac{\pi}{6}</m> radians.</caption> -->
-            <image source="images/unit-circle-pi-6"/>
+            <image source="images/unit-circle-pi-6"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--          </figure>
           <figure xml:id="F-unit-circle-pi-4">
             <caption>An angle measuring <m>\frac{\pi}{4}</m> radians.</caption> -->
-            <image source="images/unit-circle-pi-4"/>
+            <image source="images/unit-circle-pi-4"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--          </figure>
           <figure xml:id="F-unit-circle-pi-3">
             <caption>An angle measuring <m>\frac{\pi}{3}</m> radians.</caption> -->
-            <image source="images/unit-circle-pi-3"/>
+            <image source="images/unit-circle-pi-3"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--          </figure> -->
         </sidebyside>
         <p>

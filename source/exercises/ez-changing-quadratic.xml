@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2012-2018                                                   -->
 <!-- Matthew Boelkins                                                      -->
@@ -15,19 +14,19 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-quadratic">
 
   <exercise xml:id="ez-changing-quadratic-WW1">
-    <webwork source="Library/Rochester/setAlgebra20QuadraticFun/lh3-1_19-20.pg" />
+    <webwork source="Library/Rochester/setAlgebra20QuadraticFun/lh3-1_19-20.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-quadratic-WW2">
-    <webwork source="Library/Rochester/setAlgebra20QuadraticFun/lh3-1_1-3.pg" />
+    <webwork source="Library/Rochester/setAlgebra20QuadraticFun/lh3-1_1-3.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-quadratic-WW3">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec6/Q22a.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec6/Q22a.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-quadratic-WW4">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec6/Q14.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec6/Q14.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-quadratic-WW5">
-    <webwork source="Library/ASU-topics/setRateChange/s1_1_5.pg" />
+    <webwork source="Library/ASU-topics/setRateChange/s1_1_5.pg"/>
   </exercise>
 
 
@@ -54,7 +53,8 @@
 
       <figure xml:id="F-ez-quadratic-find-formula">
         <caption>Two quadratic functions, <m>f</m> and <m>g</m>.</caption>
-        <image width="50%" source="images/quadratic-ez-find-formula" />
+        <image width="50%" source="images/quadratic-ez-find-formula"><description><p>Two quadratic functions, <m>f</m> and <m>g</m>.</p>
+        </description></image>
       </figure>
 
       <p>
@@ -127,27 +127,27 @@
                     </row>
                     <row>
                       <cell><m>0</m></cell>
-                      <cell></cell>
+                      <cell/>
                     </row>
                     <row>
                       <cell><m>1</m></cell>
-                      <cell></cell>
+                      <cell/>
                     </row>
                     <row>
                       <cell><m>2</m></cell>
-                      <cell></cell>
+                      <cell/>
                     </row>
                     <row>
                       <cell><m>3</m></cell>
-                      <cell></cell>
+                      <cell/>
                     </row>
                     <row>
                       <cell><m>4</m></cell>
-                      <cell></cell>
+                      <cell/>
                     </row>
                     <row>
                       <cell><m>5</m></cell>
-                      <cell></cell>
+                      <cell/>
                     </row>
                   </tabular>
                 </table>  
@@ -160,23 +160,23 @@
                     </row>
                     <row>
                       <cell><m>[0,1]</m></cell>
-                      <cell><m></m> </cell>
+                      <cell><m/> </cell>
                     </row>
                     <row>
                       <cell><m>[1,2]</m></cell>
-                      <cell></cell>
+                      <cell/>
                     </row>
                     <row>
                       <cell><m>[2,3]</m></cell>
-                      <cell></cell>
+                      <cell/>
                     </row>
                     <row>
                       <cell><m>[3,4]</m></cell>
-                      <cell></cell>
+                      <cell/>
                     </row>
                     <row>
                       <cell><m>[4,5]</m></cell>
-                      <cell></cell>
+                      <cell/>
                     </row>
                   </tabular>
                 </table>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -59,7 +58,7 @@
 							</p>
 <!--        <figure xml:id="F-modeling-act-blank-axes-soda">
           <caption>Axes for plotting <m>F</m>.</caption> -->
-          <image width="50%" source="images/modeling-F-t-blank-axes"/>
+          <image width="50%" source="images/modeling-F-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--        </figure> -->
       </statement>
       <hint/>

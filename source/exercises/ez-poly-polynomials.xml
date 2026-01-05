@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,23 +11,22 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-poly-polynomials">
   
   <exercise xml:id="ez-poly-polynomials-WW1">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q02.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q02.pg"/>
   </exercise>
   <exercise xml:id="ez-poly-polynomials-WW2">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q03.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q03.pg"/>
   </exercise>
   <exercise xml:id="ez-poly-polynomials-WW3">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q08.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q08.pg"/>
   </exercise>
   <exercise xml:id="ez-poly-polynomials-WW4">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q10.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q10.pg"/>
   </exercise>
   <exercise xml:id="ez-poly-polynomials-WW5">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q12.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q12.pg"/>
   </exercise>
 
 <!--  
@@ -38,10 +36,10 @@
 -->
 
   <exercise xml:id="ez-poly-polynomials-WW7">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/polynomial-02.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/polynomial-02.pg"/>
   </exercise>
   <exercise xml:id="ez-poly-polynomials-WW8">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/polynomial-04.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/polynomial-04.pg"/>
   </exercise>
 
   <exercise xml:id="ez-poly-polynomials-1">
@@ -164,24 +162,24 @@
   <exercise xml:id="ez-poly-polynomials-3">
     <statement>
       <p>
-        In each following question, find a formula for a polynomial with certain properties, generate a plot that demonstrates you’ve found a function with the given specifications, and write several sentences to explain your thinking.
+        In each following question, find a formula for a polynomial with certain properties, generate a plot that demonstrates you&#8217;ve found a function with the given specifications, and write several sentences to explain your thinking.
       </p>
 
       <p>
         <ol>
           <li>
             <p>
-              A quadratic function <m>q</m> has zeros at <m>x = −7</m> and <m>x = 11</m> and its <m>y</m>-value at its vertex is <m>42</m>. 
+              A quadratic function <m>q</m> has zeros at <m>x = &#8722;7</m> and <m>x = 11</m> and its <m>y</m>-value at its vertex is <m>42</m>. 
             </p>
           </li>
           <li>
               <p>
-                A polynomial <m>r</m> of degree <m>4</m> has zeros at <m>x = −3</m> and <m>x = 5</m>, both of multiplicity <m>2</m>, and the function has a <m>y</m>-intercept at the point <m>(0, 28)</m>. 
+                A polynomial <m>r</m> of degree <m>4</m> has zeros at <m>x = &#8722;3</m> and <m>x = 5</m>, both of multiplicity <m>2</m>, and the function has a <m>y</m>-intercept at the point <m>(0, 28)</m>. 
               </p>
           </li>
           <li>
             <p>
-              A polynomial <m>f</m> has degree <m>11</m> and the following zeros: zeros of multiplicity <m>1</m> at <m>x = −3</m> and <m>x = 5</m>, zeros of multiplicity <m>2</m> at <m>x = −2</m> and <m>x = 3</m>, and a zero of multiplicity <m>3</m> at <m>x = 1</m>. In addition, <m>\lim_{x \to \infty} f(x) = -\infty</m>.
+              A polynomial <m>f</m> has degree <m>11</m> and the following zeros: zeros of multiplicity <m>1</m> at <m>x = &#8722;3</m> and <m>x = 5</m>, zeros of multiplicity <m>2</m> at <m>x = &#8722;2</m> and <m>x = 3</m>, and a zero of multiplicity <m>3</m> at <m>x = 1</m>. In addition, <m>\lim_{x \to \infty} f(x) = -\infty</m>.
             </p>
           </li>
           <li>
@@ -191,7 +189,8 @@
 
             <figure xml:id="F-poly-ez-g">
               <caption>A polynomial function <m>g</m>.</caption>
-              <image source="images/poly-ez-g" width="50%" />
+              <image source="images/poly-ez-g" width="50%"><description><p>A polynomial function <m>g</m>.</p>
+              </description></image>
             </figure>
           </li>
         </ol>

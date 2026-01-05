@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,14 +11,12 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-changing-inverse">
   <title>Inverse Functions</title>
 
-	<xi:include href="./previews/PA-changing-inverse-F-C.xml" />
-	<xi:include href="./activities/act-changing-inverse-Dolbear.xml" />
-	<xi:include href="./activities/act-changing-inverse-does-it.xml" />
-	<xi:include href="./activities/act-changing-inverse-rainfall.xml" />
+	<xi:include href="./previews/PA-changing-inverse-F-C.xml"/>
+	<xi:include href="./activities/act-changing-inverse-Dolbear.xml"/>
+	<xi:include href="./activities/act-changing-inverse-does-it.xml"/>
+	<xi:include href="./activities/act-changing-inverse-rainfall.xml"/>
 
 </section>
-

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -56,7 +55,7 @@
           </p>
 <!--        <figure xml:id="F-changing-aroc-PA-pos">
           <caption>Axes for plotting the position function.</caption> -->
-          <image width="50%" source="images/aroc-s-t-blank-axes"/>
+          <image width="50%" source="images/aroc-s-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--        </figure> -->
       </statement>
       <hint/>

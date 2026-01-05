@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,14 +11,13 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-right">
   
   <exercise xml:id="ez-trig-right-WW1">
-    <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p8.pg" />
+    <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p8.pg"/>
   </exercise>
   <exercise xml:id="ez-trig-right-WW4">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Tools/Connally3-6-Tools-20.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Tools/Connally3-6-Tools-20.pg"/>
   </exercise>
 
 <!--
@@ -78,7 +76,8 @@
 
       <figure xml:id="F-right-triangle-trough">
         <caption>A cross-section of the trough.</caption>
-        <image width="50%" source="images/right-triangle-trough" />
+        <image width="50%" source="images/right-triangle-trough"><description><p>A cross-section of the trough.</p>
+        </description></image>
       </figure>
     </statement>
     <hint>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,15 +11,13 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-trig-other">
   <title>Other Trigonometric Functions and Identities</title>
 
-		<xi:include href="./previews/PA-trig-other.xml" />
-		<xi:include href="./activities/act-trig-other-special.xml" />
-		<xi:include href="./activities/act-trig-other-csc.xml" />
-		<xi:include href="./activities/act-trig-other-cot.xml" />
-		<xi:include href="./activities/act-trig-other-aroc-sine.xml" />
+		<xi:include href="./previews/PA-trig-other.xml"/>
+		<xi:include href="./activities/act-trig-other-special.xml"/>
+		<xi:include href="./activities/act-trig-other-csc.xml"/>
+		<xi:include href="./activities/act-trig-other-cot.xml"/>
+		<xi:include href="./activities/act-trig-other-aroc-sine.xml"/>
 
 </section>
-

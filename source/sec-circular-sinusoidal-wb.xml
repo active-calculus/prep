@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,15 +11,13 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-circular-sinusoidal">
   <title>Sinusoidal Functions</title>
 
-  	<xi:include href="./previews/PA-circular-sinusoidal.xml" />
-  	<xi:include href="./activities/act-circular-sinusoidal-oscillator.xml" />
-		<xi:include href="./activities/act-circular-sinusoidal-horiz-stretch.xml" />
-		<xi:include href="./activities/act-circular-sinusoidal-period.xml" />
-		<xi:include href="./activities/act-circular-sinusoidal-model.xml" />
+  	<xi:include href="./previews/PA-circular-sinusoidal.xml"/>
+  	<xi:include href="./activities/act-circular-sinusoidal-oscillator.xml"/>
+		<xi:include href="./activities/act-circular-sinusoidal-horiz-stretch.xml"/>
+		<xi:include href="./activities/act-circular-sinusoidal-period.xml"/>
+		<xi:include href="./activities/act-circular-sinusoidal-model.xml"/>
 
 </section>
-

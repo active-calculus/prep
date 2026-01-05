@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -16,7 +15,7 @@
 
 <!-- THIS ONE WORKS -->
   <exercise xml:id="ez-changing-tandem-WW0">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap1Review/Q37.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Review/Q37.pg"/>
   </exercise>
 
 
@@ -32,9 +31,10 @@
         Suppose we have an unusual tank whose base is a perfect sphere with radius <m>3</m> feet, and then atop the spherical base is a cylindrical <q>chimney</q> that is a circular cylinder of radius <m>1</m> foot and height <m>2</m> feet, as shown in <xref ref="F-ez-chiminea">Figure</xref>.  The tank is initially empty, but then a spigot is turned on that pumps water into the tank at a constant rate of <m>1.25</m> cubic feet per minute.
       </p>
 
-      <figure xml:id="F-ez-chiminea"  >
+      <figure xml:id="F-ez-chiminea">
         <caption>A spherical tank with a cylindrical chimney.</caption>
-        <image width="50%" source="images/tandem-ez-chiminea" />   
+        <image width="50%" source="images/tandem-ez-chiminea"><description><p>A spherical tank with a cylindrical chimney.</p>
+        </description></image>   
       </figure>
 
       <p>
@@ -54,8 +54,8 @@
             </p>
 
             <sidebyside width="50%">
-              <image source="images/tandem-V-t-blank-axes" />
-              <image source="images/tandem-h-t-blank-axes" />
+              <image source="images/tandem-V-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+              <image source="images/tandem-h-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
 
             <p>
@@ -106,8 +106,8 @@
             </p>
 
             <sidebyside width="50%">
-              <image source="images/tandem-V-t-blank-axes" />
-              <image source="images/tandem-h-t-blank-axes" />
+              <image source="images/tandem-V-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
+              <image source="images/tandem-h-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
             </sidebyside>
 
             <p>
@@ -169,8 +169,10 @@
             <figure xml:id="F-tandem-car-pos">
                 <caption>A graph of the relationship between a car's position <m>s</m> and time <m>t</m></caption>
         <sidebyside width="50%">
-          <image source="images/tandem-ez-position-time" />
-          <image source="images/tandem-ez-position-time-blank-axes" />
+          <image source="images/tandem-ez-position-time"><description><p>A graph of the relationship between a car's position <m>s</m> and time <m>t</m></p>
+        </description></image>
+          <image source="images/tandem-ez-position-time-blank-axes"><description><p>A graph of the relationship between a car's position <m>s</m> and time <m>t</m></p>
+        </description></image>
         </sidebyside>
             </figure>
 

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,14 +11,12 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-exp-log-properties">
   <title>Properties and applications of logarithmic functions</title>
 
-		<xi:include href="./previews/PA-exp-log-properties.xml" />
-	  <xi:include href="./activities/act-exp-log-exponential-equations.xml" />
-		<xi:include href="./activities/act-exp-log-properties-exp-or-log.xml" />
-  	<xi:include href="./activities/act-exp-log-properties-find-k.xml" /> 
+		<xi:include href="./previews/PA-exp-log-properties.xml"/>
+	  <xi:include href="./activities/act-exp-log-exponential-equations.xml"/>
+		<xi:include href="./activities/act-exp-log-properties-exp-or-log.xml"/>
+  	<xi:include href="./activities/act-exp-log-properties-find-k.xml"/> 
 
 </section>
-

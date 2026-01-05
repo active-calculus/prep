@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -47,7 +46,7 @@
 						</p>
 <!--        <figure xml:id="F-inverse-trig-act-arcsine-axes">
           <caption>Axes for plotting the restricted sine function and its inverse, the arcsine function.</caption> -->
-          <image width="50%" source="images/inverse-trig-blank-axes-arcsin"/>
+          <image width="50%" source="images/inverse-trig-blank-axes-arcsin"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--        </figure> -->
       </statement>
       <hint/>

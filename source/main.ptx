@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -14,22 +13,21 @@
 <!-- **********************************************************************-->
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
 
-	<xi:include href="./bookinfo.xml" /> 
+	<xi:include href="./bookinfo.xml"/> 
     <!-- ISBN, website, other metadata -->
 
     <book>
 		<title>Active Prelude to Calculus</title>
-		<xi:include href="./frontmatter.xml" />  
+		<xi:include href="./frontmatter.xml"/>  
 
-        <xi:include href="./chap-changing.xml" />
-        <xi:include href="./chap-circular.xml" />
-        <xi:include href="./chap-exp.xml" />
-        <xi:include href="./chap-trig.xml" />
-        <xi:include href="./chap-poly.xml" />
+        <xi:include href="./chap-changing.xml"/>
+        <xi:include href="./chap-circular.xml"/>
+        <xi:include href="./chap-exp.xml"/>
+        <xi:include href="./chap-trig.xml"/>
+        <xi:include href="./chap-poly.xml"/>
 
-        <xi:include href="./backmatter.xml" />
+        <xi:include href="./backmatter.xml"/>
 
     </book>
 
 </pretext>
-

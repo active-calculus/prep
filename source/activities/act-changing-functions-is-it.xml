@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -28,11 +27,11 @@
         <sidebyside width="50%">
 <!--          <figure xml:id="F-functions-act-is-it-1">
             <caption>A circle of radius <m>4</m> centered at <m>(0,0)</m>.</caption> -->
-            <image width="90%" source="images/functions-act-is-it-1"/>
+            <image width="90%" source="images/functions-act-is-it-1"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--          </figure>
           <figure xml:id="F-functions-act-is-it-2">
             <caption>A graph of a possible function <m>g</m>.</caption> -->
-            <image width="90%" source="images/functions-act-is-it-2"/>
+            <image width="90%" source="images/functions-act-is-it-2"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--          </figure> -->
         </sidebyside>
       </statement>

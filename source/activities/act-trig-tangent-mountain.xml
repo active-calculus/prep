@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -20,7 +19,7 @@
 		</p>
 <!--      <figure xml:id="F-tan-act-mountain">
         <caption>The surveyors' initial measurements.</caption> -->
-        <image source="images/tan-act-mountain" width="70%"/>
+        <image source="images/tan-act-mountain" width="70%"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--      </figure> -->
       <p/>
     </introduction>

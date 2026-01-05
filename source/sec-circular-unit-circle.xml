@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,7 +11,6 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-circular-unit-circle">
   <title>The Unit Circle</title>
   <objectives>
@@ -50,11 +48,13 @@
 	<sidebyside>
 		<figure xml:id="F-unit-circle-eqn">
 			<caption>Coordinates of a point on the unit circle.</caption>
-			<image source="images/unit-circle-eqn" />
+			<image source="images/unit-circle-eqn"><description><p>Coordinates of a point on the unit circle.</p>
+			</description></image>
 		</figure>
 		<figure xml:id="F-unit-circle-24s">
 			<caption>A point traversing the unit circle.</caption>
-			<image source="images/unit-circle-24s" />
+			<image source="images/unit-circle-24s"><description><p>A point traversing the unit circle.</p>
+			</description></image>
 		</figure>
 	</sidebyside>
 
@@ -66,7 +66,7 @@
 		As we work to better understand the unit circle, we will commonly use fractional multiples of <m>\pi</m> as these result in natural distances traveled along the unit circle.
 	</p>
 
-	<xi:include href="./previews/PA-circular-unit-circle.xml" />
+	<xi:include href="./previews/PA-circular-unit-circle.xml"/>
 
   </subsection>
 
@@ -100,7 +100,7 @@
       </p>
     </assemblage>
 
-    <xi:include href="./activities/act-circular-unit-circle-radians-degrees.xml" />
+    <xi:include href="./activities/act-circular-unit-circle-radians-degrees.xml"/>
 
     <p>
       Note that in <xref ref="PA-circular-unit-circle"/>, we labeled <m>24</m> equally spaced points with their respective distances around the unit circle counterclockwise from <m>(1,0)</m>.  Because these distances are on the unit circle, they also correspond to the radian measure of the central angles that intercept them.  In particular, each central angle with one of its sides on the positive <m>x</m>-axis generates a unique point on the unit circle, and with it, an associated length intercepted along the circumference of the circle.  A good exercise at this point is to return to <xref ref="PA-circular-unit-circle"/> and label each of the noted points with the degree measure that is intercepted by a central angle with one side on the positive <m>x</m>-axis, in addition to the arc lengths (radian measures) already identified.
@@ -115,7 +115,7 @@
       Our in-depth study of the unit circle is motivated by our desire to better understand the behavior of circular functions.  Recall that as we traverse a circle, the height of the point moving along the circle generates a function that depends on distance traveled along the circle.  Wherever possible, we'd like to be able to identify the exact height of a given point on the unit circle.  Two special right triangles enable us to locate exactly an important collection of points on the unit circle.
     </p>
 
-    <xi:include href="./activities/act-circular-unit-circle-special-triangles.xml" />
+    <xi:include href="./activities/act-circular-unit-circle-special-triangles.xml"/>
 
     <p>
       Our work in <xref ref="act-circular-unit-circle-special-triangles">Activity</xref> enables us to identify exactly the location of <m>12</m> special points on the unit circle.  In part (d) of the activity, we located the three noted points in <xref ref="F-unit-circle-big-labeled">Figure</xref> along with their respective radian measures.  By symmetry across the coordinate axes and thinking about the signs of coordinates in the other three quadrants, we can now identify all of the coordinates of the remaining <m>9</m> points.  
@@ -123,7 +123,8 @@
 
     <figure xml:id="F-unit-circle-big-labeled">
       <caption>The unit circle with <m>16</m> special points whose location we can determine exactly.</caption>
-      <image source="images/unit-circle-16-coords" width="60%" />
+      <image source="images/unit-circle-16-coords" width="60%"><description><p>The unit circle with <m>16</m> special points whose location we can determine exactly.</p>
+      </description></image>
     </figure>
 
     <p>
@@ -161,7 +162,7 @@
       </p>
     </assemblage>
 
-    <xi:include href="./activities/act-circular-unit-circle-non-unit.xml" />
+    <xi:include href="./activities/act-circular-unit-circle-non-unit.xml"/>
 
   </subsection>
 
@@ -192,9 +193,8 @@
     </p>
   </subsection>
 
-  <xi:include href="./exercises/ez-circular-unit-circle.xml" />
+  <xi:include href="./exercises/ez-circular-unit-circle.xml"/>
 
   <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
   <!--  -->
 </section>
-

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,7 +11,6 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-trig-other">
   <title>Other Trigonometric Functions and Identities</title>
   <objectives>
@@ -103,7 +101,8 @@
   		</p>
   		<figure xml:id="F-other-trig-SOH-CAH-TOA">
   			<caption>A right triangle with angle <m>\theta</m>.</caption>
-  			<image source="images/right-triangle-SOH-CAH-TOA" />
+  			<image source="images/right-triangle-SOH-CAH-TOA"><description><p>A right triangle with angle <m>\theta</m>.</p>
+  			</description></image>
   		</figure>
   	</sidebyside>
 
@@ -111,7 +110,7 @@
   		With these three additional trigonometric functions, we now have expressions that address all six possible combinations of two sides of a right triangle in a ratio.
   	</p>
 
-	<xi:include href="./previews/PA-trig-other.xml" />
+	<xi:include href="./previews/PA-trig-other.xml"/>
 
   </subsection>
 
@@ -127,14 +126,15 @@
 
   	<figure xml:id="F-other-3-4-5">
   		<caption>A <m>3</m>-<m>4</m>-<m>5</m> right triangle.</caption>
-  		<image source="images/other-right-triangle-3-4-5" width="50%" />
+  		<image source="images/other-right-triangle-3-4-5" width="50%"><description><p>A <m>3</m>-<m>4</m>-<m>5</m> right triangle.</p>
+  		</description></image>
   	</figure>
 
   	<p>
   		But we could also view <m>\sin(\alpha) = \frac{3}{5}</m> as <m>\sin(\alpha) = \frac{\frac{3}{5}}{1}</m>, and thus think of the right triangle has having hypotenuse <m>1</m> and vertical leg <m>\frac{3}{5}</m>.  This triangle is similar to the originally considered <m>3</m>-<m>4</m>-<m>5</m> right triangle, but can be viewed as lying within the unit circle.  The perspective of the unit circle is particularly valuable when ratios such as <m>\frac{\sqrt{3}}{2}</m>, <m>\frac{\sqrt{2}}{2}</m>, and <m>\frac{1}{2}</m> arise in right triangles.  	
   	</p>
 
-	<xi:include href="./activities/act-trig-other-special.xml" />
+	<xi:include href="./activities/act-trig-other-special.xml"/>
 
   </subsection>
 
@@ -243,7 +243,8 @@
 
 		<figure xml:id="F-secant-plot">
 			<caption>A plot of the secant function with special points that come from the unit circle, plus the cosine function (dotted, in light blue).</caption>
-			<image source="images/other-sec-definition-graph" width="80%" />
+			<image source="images/other-sec-definition-graph" width="80%"><description><p>A plot of the secant function with special points that come from the unit circle, plus the cosine function (dotted, in light blue).</p>
+			</description></image>
 		</figure>
 
 		<p>
@@ -274,9 +275,9 @@
 			</p>
 		</assemblage>
 
-		<xi:include href="./activities/act-trig-other-csc.xml" />
+		<xi:include href="./activities/act-trig-other-csc.xml"/>
 
-		<xi:include href="./activities/act-trig-other-cot.xml" />
+		<xi:include href="./activities/act-trig-other-cot.xml"/>
 
   </subsection>
 
@@ -328,7 +329,7 @@
 	  </p>
 
 	  <p>
-	    In calculus, it is also beneficial to know a couple of other standard identities for sums of angles or double angles. <idx><h>sum of two angles identity</h></idx> <idx><h>double angle identity</h></idx>  We simply state these identities without justification.  For more information about them, see Section 10.4 in <url href="http://stitz-zeager.com/szct07042013.pdf/">College Trigonometry</url>, by Stitz and Zeager<fn>More information on Stitz and Zeager's free texts can be found at <url href="http://stitz-zeager.com/"></url>.</fn>.
+	    In calculus, it is also beneficial to know a couple of other standard identities for sums of angles or double angles. <idx><h>sum of two angles identity</h></idx> <idx><h>double angle identity</h></idx>  We simply state these identities without justification.  For more information about them, see Section 10.4 in <url href="http://stitz-zeager.com/szct07042013.pdf/">College Trigonometry</url>, by Stitz and Zeager<fn>More information on Stitz and Zeager's free texts can be found at <url href="http://stitz-zeager.com/"/>.</fn>.
 	  </p>
 
 	  <p>
@@ -356,7 +357,7 @@
 	  	</ul>
 	  </p>
 
-	<xi:include href="./activities/act-trig-other-aroc-sine.xml" />
+	<xi:include href="./activities/act-trig-other-aroc-sine.xml"/>
 
   </subsection>
 
@@ -390,9 +391,8 @@
       </p>
   </subsection>
 
-	<xi:include href="./exercises/ez-trig-other.xml" />
+	<xi:include href="./exercises/ez-trig-other.xml"/>
 
   <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
   <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
 </section>
-

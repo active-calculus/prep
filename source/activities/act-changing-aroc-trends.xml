@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -54,11 +53,11 @@
         <sidebyside width="50%">
 <!--          <figure xml:id="F-act-aroc-trends-q">
             <caption>Plot of <m>q</m> from part (a).</caption> -->
-            <image width="80%" source="images/aroc-act-trends-q"/>
+            <image width="80%" source="images/aroc-act-trends-q"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--        </figure>
           <figure xml:id="F-act-aroc-trends-h">
             <caption>Plot of <m>h</m> from part (b).</caption> -->
-            <image width="80%" source="images/aroc-act-trends-h"/>
+            <image width="80%" source="images/aroc-act-trends-h"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--          </figure> -->
         </sidebyside>
       </statement>

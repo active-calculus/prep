@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
 <!-- Copyright 2019                                                        -->
 <!-- Matthew Boelkins                                                      -->
@@ -12,23 +11,22 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-circular-traversing">
 
   <exercise xml:id="ez-circular-traversing-WW2">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q12.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q12.pg"/>
   </exercise>
 
   <exercise xml:id="ez-circular-traversing-WW3a">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q16.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q16.pg"/>
   </exercise>
 
   <exercise xml:id="ez-circular-traversing-WW4">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q23.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q23.pg"/>
   </exercise>
 
   <exercise xml:id="ez-circular-traversing-WW5">
-    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q28.pg" />
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q28.pg"/>
   </exercise>
 
 <!-- did not generate valid XML
@@ -49,11 +47,13 @@
     <sidebyside widths="33% 66%">
       <figure xml:id="F-act-circular-traversing-circle-horiz">
         <caption>A point traversing the circle.</caption>
-        <image source="images/traversing-act-circle"/>
+        <image source="images/traversing-act-circle"><description><p>A point traversing the circle.</p>
+        </description></image>
       </figure>
       <figure xml:id="F-act-circular-traversing-grid-horiz">
         <caption>Axes for plotting <m>k</m> as a function of <m>d</m>.</caption>
-        <image source="images/traversing-act-circular-grid-horiz"/>
+        <image source="images/traversing-act-circular-grid-horiz"><description><p>Axes for plotting <m>k</m> as a function of <m>d</m>.</p>
+        </description></image>
       </figure>
     </sidebyside>
 
@@ -99,22 +99,22 @@
                 <row>
                   <cell><m>k</m></cell>
                   <cell><m>0.73</m></cell>
-                  <cell><m></m></cell>
-                  <cell><m></m></cell>
-                  <cell><m></m></cell>
-                  <cell><m></m></cell>
-                  <cell><m></m></cell>
-                  <cell><m></m></cell>
-                  <cell><m></m></cell>
-                  <cell><m></m></cell>
-                  <cell><m></m></cell>
-                  <cell><m></m></cell>
-                  <cell><m></m></cell>
-                  <cell><m></m></cell>
-                  <cell><m></m></cell>
-                  <cell><m></m></cell>
-                  <cell><m></m></cell>
-                  <cell><m></m></cell>                  
+                  <cell><m/></cell>
+                  <cell><m/></cell>
+                  <cell><m/></cell>
+                  <cell><m/></cell>
+                  <cell><m/></cell>
+                  <cell><m/></cell>
+                  <cell><m/></cell>
+                  <cell><m/></cell>
+                  <cell><m/></cell>
+                  <cell><m/></cell>
+                  <cell><m/></cell>
+                  <cell><m/></cell>
+                  <cell><m/></cell>
+                  <cell><m/></cell>
+                  <cell><m/></cell>
+                  <cell><m/></cell>                  
                 </row>                      
             </tabular>
           </table>
@@ -158,11 +158,13 @@
       <sidebyside>
         <figure xml:id="F-circular-traversing-fxn-1">
           <caption>A plot of the circular function <m>f</m>.</caption>
-          <image source="images/traversing-ez-fxn-1" />
+          <image source="images/traversing-ez-fxn-1"><description><p>A plot of the circular function <m>f</m>.</p>
+          </description></image>
         </figure>
         <figure xml:id="F-circular-traversing-fxn-2">
           <caption>A plot of the circular function <m>g</m>.</caption>
-          <image source="images/traversing-ez-fxn-2" />
+          <image source="images/traversing-ez-fxn-2"><description><p>A plot of the circular function <m>g</m>.</p>
+          </description></image>
         </figure>
       </sidebyside>
 
