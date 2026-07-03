@@ -160,7 +160,7 @@
 		</statement>
 		<solution>
 			<p>
-				For any function, the question of whether or not it has an inverse comes down to whether or not the process of the function can be reliably reversed.  For functions given in table form such as <m>f</m> and <m>g</m>, we essentially ask if it's possible to swich the input and output rows and have the new resulting table also represent a function.
+				For any function, the question of whether or not it has an inverse comes down to whether or not the process of the function can be reliably reversed.  For functions given in table form such as <m>f</m> and <m>g</m>, we essentially ask if it's possible to switch the input and output rows and have the new resulting table also represent a function.
 			</p>
 
 			<p>
@@ -196,10 +196,10 @@
 				</figure>
 				<figure xml:id="F-inverse-does-it-2">
 					<caption>
-						The graph that defines function <m>p</m>.
+						The graph that defines function <m>q</m>.
 					</caption>
 					<image source="images/inverse-does-it-2"><description><p>
-						The graph that defines function <m>p</m>.
+						The graph that defines function <m>q</m>.
 					</p>
 					</description></image>
 				</figure>
