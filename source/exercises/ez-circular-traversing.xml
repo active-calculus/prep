@@ -13,27 +13,27 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-circular-traversing">
 
-  <exercise xml:id="ez-circular-traversing-WW2">
+  <exercise xml:id="ez-circular-traversing-WW2" label="Library__LoyolaChicago__Precalc__Chap6Sec1__Q12">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q12.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-circular-traversing-WW3a">
+  <exercise xml:id="ez-circular-traversing-WW3a" label="Library__LoyolaChicago__Precalc__Chap6Sec1__Q16">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q16.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-circular-traversing-WW4">
+  <exercise xml:id="ez-circular-traversing-WW4" label="Library__LoyolaChicago__Precalc__Chap6Sec1__Q23">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q23.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-circular-traversing-WW5">
+  <exercise xml:id="ez-circular-traversing-WW5" label="Library__LoyolaChicago__Precalc__Chap6Sec1__Q28">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q28.pg"/>
   </exercise>
 
 <!-- did not generate valid XML
-  <exercise xml:id="ez-circular-traversing-WW1">
+  <exercise xml:id="ez-circular-traversing-WW1" label="Library__LoyolaChicago__Precalc__Chap6Sec1__Q10">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q10.pg" />
   </exercise>
-  <exercise xml:id="ez-circular-traversing-WW3">
+  <exercise xml:id="ez-circular-traversing-WW3" label="Library__LoyolaChicago__Precalc__Chap6Sec1__Q20">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q20.pg" />
   </exercise>
 -->

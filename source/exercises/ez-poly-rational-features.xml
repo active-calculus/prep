@@ -13,27 +13,27 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-poly-rational-features">
   
-  <exercise xml:id="ez-poly-rational-features-WW1">
+  <exercise xml:id="ez-poly-rational-features-WW1" label="Library__LoyolaChicago__Precalc__Chap9Sec5__Q24">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q24.pg"/>
   </exercise>
-  <exercise xml:id="ez-poly-rational-features-WW2">
+  <exercise xml:id="ez-poly-rational-features-WW2" label="Library__LoyolaChicago__Precalc__Chap9Sec5__Q34">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q34.pg"/>
   </exercise>
-  <exercise xml:id="ez-poly-rational-features-WW3">
+  <exercise xml:id="ez-poly-rational-features-WW3" label="Library__LoyolaChicago__Precalc__Chap9Sec5__Q35">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q35.pg"/>
   </exercise>
-  <exercise xml:id="ez-poly-rational-features-WW4">
+  <exercise xml:id="ez-poly-rational-features-WW4" label="Library__LoyolaChicago__Precalc__Chap9Sec4__Q15">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q15.pg"/>
   </exercise>
-  <exercise xml:id="ez-poly-rational-features-WW5">
+  <exercise xml:id="ez-poly-rational-features-WW5" label="Library__LoyolaChicago__Precalc__Chap9Sec4__Q16">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q16.pg"/>
   </exercise>
 
 <!--  
-  <exercise xml:id="ez-poly-rational-features-WW6">
+  <exercise xml:id="ez-poly-rational-features-WW6" label="Library__LoyolaChicago__Precalc__Chap9Sec5__Q17">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q17.pg" />
   </exercise>  
-  <exercise xml:id="ez-poly-rational-features-WW7">
+  <exercise xml:id="ez-poly-rational-features-WW7" label="Library__Rochester__setAlgebra25RationalFun__FindInfo">
     <webwork source="Library/Rochester/setAlgebra25RationalFun/FindInfo.pg" />
   </exercise> 
 -->

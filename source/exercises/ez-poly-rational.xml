@@ -13,35 +13,35 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-poly-rational">
   
-  <exercise xml:id="ez-poly-rational-WW1">
+  <exercise xml:id="ez-poly-rational-WW1" label="Library__LoyolaChicago__Precalc__Chap9Sec4__Q10">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q10.pg"/>
   </exercise>
-  <exercise xml:id="ez-poly-rational-WW2">
+  <exercise xml:id="ez-poly-rational-WW2" label="Library__LoyolaChicago__Precalc__Chap9Sec4__Q12">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q12.pg"/>
   </exercise>
-  <exercise xml:id="ez-poly-rational-WW3">
+  <exercise xml:id="ez-poly-rational-WW3" label="Library__LoyolaChicago__Precalc__Chap9Sec4__Q13">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q13.pg"/>
   </exercise>
-  <exercise xml:id="ez-poly-rational-WW4">
+  <exercise xml:id="ez-poly-rational-WW4" label="Library__LoyolaChicago__Precalc__Chap9Sec5__Q02">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q02.pg"/>
   </exercise>
-  <exercise xml:id="ez-poly-rational-WW5">
+  <exercise xml:id="ez-poly-rational-WW5" label="Library__LoyolaChicago__Precalc__Chap9Sec5__Q07">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q07.pg"/>
   </exercise>
-  <exercise xml:id="ez-poly-rational-WW6">
+  <exercise xml:id="ez-poly-rational-WW6" label="Library__LoyolaChicago__Precalc__Chap9Sec5__Q15">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q15.pg"/>
   </exercise>
 
 <!--  
-  <exercise xml:id="ez-poly-rational-WW7">
+  <exercise xml:id="ez-poly-rational-WW7" label="Library__LoyolaChicago__Precalc__Chap9Sec5__Q19">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q19.pg" />
   </exercise>
 -->
 
-  <exercise xml:id="ez-poly-rational-WW8">
+  <exercise xml:id="ez-poly-rational-WW8" label="Library__LoyolaChicago__Precalc__Chap9Sec5__Q24">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q24.pg"/>
   </exercise>
-  <exercise xml:id="ez-poly-rational-WW9">
+  <exercise xml:id="ez-poly-rational-WW9" label="Library__LoyolaChicago__Precalc__Chap9Sec5__Q06">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q06.pg"/>
   </exercise>
 

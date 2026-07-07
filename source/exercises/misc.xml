@@ -1,11 +1,11 @@
-  <exercise xml:id="ez-changing-linear-WW2">
+  <exercise xml:id="ez-changing-linear-WW2" label="Library__LoyolaChicago__Precalc__Chap1Sec1__Q29">
     <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec1/Q29.pg" />
   </exercise>
 
-  <exercise xml:id="ez-changing-linear-WW1">
+  <exercise xml:id="ez-changing-linear-WW1" label="Library__LoyolaChicago__Precalc__Chap1Sec1__Q01">
     <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec1/Q01.pg" />
   </exercise>
 
-  <exercise xml:id="ez-changing-linear-WW3">
+  <exercise xml:id="ez-changing-linear-WW3" label="Library__LoyolaChicago__Precalc__Chap1Sec1__Q05">
     <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec1/Q05.pg" />
   </exercise>

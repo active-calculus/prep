@@ -13,33 +13,33 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-quadratic">
 
-  <exercise xml:id="ez-changing-quadratic-WW1">
+  <exercise xml:id="ez-changing-quadratic-WW1" label="Library__Rochester__setAlgebra20QuadraticFun__lh3-1_19-20">
     <webwork source="Library/Rochester/setAlgebra20QuadraticFun/lh3-1_19-20.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-quadratic-WW2">
+  <exercise xml:id="ez-changing-quadratic-WW2" label="Library__Rochester__setAlgebra20QuadraticFun__lh3-1_1-3">
     <webwork source="Library/Rochester/setAlgebra20QuadraticFun/lh3-1_1-3.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-quadratic-WW3">
+  <exercise xml:id="ez-changing-quadratic-WW3" label="Library__LoyolaChicago__Precalc__Chap2Sec6__Q22a">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec6/Q22a.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-quadratic-WW4">
+  <exercise xml:id="ez-changing-quadratic-WW4" label="Library__LoyolaChicago__Precalc__Chap2Sec6__Q14">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec6/Q14.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-quadratic-WW5">
+  <exercise xml:id="ez-changing-quadratic-WW5" label="Library__ASU-topics__setRateChange__s1_1_5">
     <webwork source="Library/ASU-topics/setRateChange/s1_1_5.pg"/>
   </exercise>
 
 
 <!--  THESE ONES DON'T
-  <exercise xml:id="ez-changing-quadratic-WW5">
+  <exercise xml:id="ez-changing-quadratic-WW5" label="Library__LoyolaChicago__Precalc__Chap2Sec6__Q10">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec6/Q10.pg" />
   </exercise>
 
-  <exercise xml:id="ez-changing-quadratic-WW6">
+  <exercise xml:id="ez-changing-quadratic-WW6" label="Library__LoyolaChicago__Precalc__Chap2Sec6__Q30">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec6/Q30.pg" />
   </exercise>
 
-  <exercise xml:id="ez-changing-quadratic-WW7">
+  <exercise xml:id="ez-changing-quadratic-WW7" label="Library__LoyolaChicago__Precalc__Chap2Sec1__Q34">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec1/Q34.pg" />
   </exercise>
 -->

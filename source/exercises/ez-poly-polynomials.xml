@@ -13,32 +13,32 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-poly-polynomials">
   
-  <exercise xml:id="ez-poly-polynomials-WW1">
+  <exercise xml:id="ez-poly-polynomials-WW1" label="Library__LoyolaChicago__Precalc__Chap9Sec2__Q02">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q02.pg"/>
   </exercise>
-  <exercise xml:id="ez-poly-polynomials-WW2">
+  <exercise xml:id="ez-poly-polynomials-WW2" label="Library__LoyolaChicago__Precalc__Chap9Sec2__Q03">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q03.pg"/>
   </exercise>
-  <exercise xml:id="ez-poly-polynomials-WW3">
+  <exercise xml:id="ez-poly-polynomials-WW3" label="Library__LoyolaChicago__Precalc__Chap9Sec2__Q08">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q08.pg"/>
   </exercise>
-  <exercise xml:id="ez-poly-polynomials-WW4">
+  <exercise xml:id="ez-poly-polynomials-WW4" label="Library__LoyolaChicago__Precalc__Chap9Sec2__Q10">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q10.pg"/>
   </exercise>
-  <exercise xml:id="ez-poly-polynomials-WW5">
+  <exercise xml:id="ez-poly-polynomials-WW5" label="Library__LoyolaChicago__Precalc__Chap9Sec2__Q12">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q12.pg"/>
   </exercise>
 
 <!--  
-  <exercise xml:id="ez-poly-polynomials-WW6">
+  <exercise xml:id="ez-poly-polynomials-WW6" label="Library__LoyolaChicago__Precalc__Chap9Sec2__Q15">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q15.pg" />
   </exercise>
 -->
 
-  <exercise xml:id="ez-poly-polynomials-WW7">
+  <exercise xml:id="ez-poly-polynomials-WW7" label="Library__LoyolaChicago__Precalc__Chap9Sec2__polynomial-02">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/polynomial-02.pg"/>
   </exercise>
-  <exercise xml:id="ez-poly-polynomials-WW8">
+  <exercise xml:id="ez-poly-polynomials-WW8" label="Library__LoyolaChicago__Precalc__Chap9Sec2__polynomial-04">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/polynomial-04.pg"/>
   </exercise>
 

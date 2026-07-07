@@ -13,24 +13,24 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-log">
 
-  <exercise xml:id="ez-exp-log-WW1">
+  <exercise xml:id="ez-exp-log-WW1" label="Library__Rochester__setAlgebra29LogFunctions__srw4_2_5">
     <webwork source="Library/Rochester/setAlgebra29LogFunctions/srw4_2_5.pg"/>
   </exercise>
-  <exercise xml:id="ez-exp-log-WW2">
+  <exercise xml:id="ez-exp-log-WW2" label="Library__Rochester__setAlgebra29LogFunctions__problem4">
     <webwork source="Library/Rochester/setAlgebra29LogFunctions/problem4.pg"/>
   </exercise>
-  <exercise xml:id="ez-exp-log-WW3">
+  <exercise xml:id="ez-exp-log-WW3" label="Library__Rochester__setAlgebra30LogExpEqns__beth2logfun">
     <webwork source="Library/Rochester/setAlgebra30LogExpEqns/beth2logfun.pg"/>
   </exercise>
-  <exercise xml:id="ez-exp-log-WW4">
+  <exercise xml:id="ez-exp-log-WW4" label="Library__Rochester__setAlgebra30LogExpEqns__srw4_4_17">
     <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_17.pg"/>
   </exercise>
 <!--  
-  <exercise xml:id="ez-exp-log-WW5">
+  <exercise xml:id="ez-exp-log-WW5" label="Library__Michigan__skills_questions__topic_solving_exp_log__prob01">
     <webwork source="Library/Michigan/skills_questions/topic_solving_exp_log/prob01.pg" />
   </exercise>
 -->  
-  <exercise xml:id="ez-exp-log-WW6">
+  <exercise xml:id="ez-exp-log-WW6" label="Library__Rochester__setAlgebra30LogExpEqns__srw4_4_41">
     <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg"/>
   </exercise>
 

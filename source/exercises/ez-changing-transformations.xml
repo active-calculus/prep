@@ -13,36 +13,36 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-transformations">
 
-  <exercise xml:id="ez-changing-transformations-WW1">
+  <exercise xml:id="ez-changing-transformations-WW1" label="Library__Rochester__setAlgebra19FunTransforms__p1">
     <webwork source="Library/Rochester/setAlgebra19FunTransforms/p1.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-changing-transformations-WW2">
+  <exercise xml:id="ez-changing-transformations-WW2" label="Library__Rochester__setAlgebra19FunTransforms__ptransf2">
     <webwork source="Library/Rochester/setAlgebra19FunTransforms/ptransf2.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-changing-transformations-WW3">
+  <exercise xml:id="ez-changing-transformations-WW3" label="Library__Rochester__setAlgebra20QuadraticFun__lh3-1_1-3">
     <webwork source="Library/Rochester/setAlgebra20QuadraticFun/lh3-1_1-3.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-changing-transformations-WW4">
+  <exercise xml:id="ez-changing-transformations-WW4" label="Library__Michigan__Chap1Sec3__Q05">
     <webwork source="Library/Michigan/Chap1Sec3/Q05.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-changing-transformations-WW6">
+  <exercise xml:id="ez-changing-transformations-WW6" label="Library__LoyolaChicago__Precalc__Chap5Sec1__Q09">
     <webwork source="Library/LoyolaChicago/Precalc/Chap5Sec1/Q09.pg"/>
   </exercise>  
 
 <!--  THESE ONES DON'T
-  <exercise xml:id="ez-changing-transformations-WW5">
+  <exercise xml:id="ez-changing-transformations-WW5" label="Library__LoyolaChicago__Precalc__Chap5Sec1__Q18">
     <webwork source="Library/LoyolaChicago/Precalc/Chap5Sec1/Q18.pg" />
   </exercise>
 
-  <exercise xml:id="ez-changing-transformations-WW5">
+  <exercise xml:id="ez-changing-transformations-WW5" label="Library__LoyolaChicago__Precalc__Chap5Sec1__Q08">
     <webwork source="Library/LoyolaChicago/Precalc/Chap5Sec1/Q08.pg" />
   </exercise>
 
-  <exercise xml:id="ez-changing-transformations-WW6">
+  <exercise xml:id="ez-changing-transformations-WW6" label="Library__Rochester__setAlgebra19FunTransforms__beth1algfun">
     <webwork source="Library/Rochester/setAlgebra19FunTransforms/beth1algfun.pg" />
   </exercise>
 -->

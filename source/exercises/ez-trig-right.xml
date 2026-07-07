@@ -13,21 +13,21 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-right">
   
-  <exercise xml:id="ez-trig-right-WW1">
+  <exercise xml:id="ez-trig-right-WW1" label="Library__Rochester__setTrig03FunctionsRightAngle__p8">
     <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p8.pg"/>
   </exercise>
-  <exercise xml:id="ez-trig-right-WW4">
+  <exercise xml:id="ez-trig-right-WW4" label="Library__LoyolaChicago__Precalc__Chap6Tools__Connally3-6-Tools-20">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Tools/Connally3-6-Tools-20.pg"/>
   </exercise>
 
 <!--
-  <exercise xml:id="ez-trig-right-WW5">
+  <exercise xml:id="ez-trig-right-WW5" label="Library__Rochester__setTrig03FunctionsRightAngle__p6">
     <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p6.pg" />
   </exercise>
-  <exercise xml:id="ez-trig-right-WW2">
+  <exercise xml:id="ez-trig-right-WW2" label="Library__Rochester__setTrig03FunctionsRightAngle__p1">
     <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p1.pg" />
   </exercise>
-  <exercise xml:id="ez-trig-right-WW3">
+  <exercise xml:id="ez-trig-right-WW3" label="Library__LoyolaChicago__Precalc__Chap6Tools__Connally3-6-Tools-04__Connally3-6-Tools-04">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Tools/Connally3-6-Tools-04/Connally3-6-Tools-04.pg" />
   </exercise>
 -->

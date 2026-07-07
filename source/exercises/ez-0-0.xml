@@ -14,10 +14,10 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-0-0-0">
   
 <!--
-  <exercise xml:id="ez-0-0-WW1">
+  <exercise xml:id="ez-0-0-WW1" label="Library__Michigan__Chap2Sec1__Q17">
     <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
   </exercise>
-  <exercise xml:id="ez-0-0-WW2">
+  <exercise xml:id="ez-0-0-WW2" label="Library__Michigan__Chap2Sec1__Q17">
     <webwork source="Library/Michigan/Chap2Sec1/Q17.pg" />
   </exercise>
 -->

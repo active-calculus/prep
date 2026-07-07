@@ -14,13 +14,13 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-other">
   
 
-  <exercise xml:id="ez-trig-other-WW1">
+  <exercise xml:id="ez-trig-other-WW1" label="Library__LoyolaChicago__Precalc__Chap6Sec6__Q08-old">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q08-old.pg"/>
   </exercise>
-  <exercise xml:id="ez-trig-other-WW2">
+  <exercise xml:id="ez-trig-other-WW2" label="Library__LoyolaChicago__Precalc__Chap6Sec6__Q18">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q18.pg"/>
   </exercise>
-  <exercise xml:id="ez-trig-other-WW3">
+  <exercise xml:id="ez-trig-other-WW3" label="Library__LoyolaChicago__Precalc__Chap6Sec6__Qtangent4">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Qtangent4.pg"/>
   </exercise>
 

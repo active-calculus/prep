@@ -13,17 +13,17 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-modeling">
 <!--
-  <exercise xml:id="ez-exp-modeling-WW1">
+  <exercise xml:id="ez-exp-modeling-WW1" label="Library__LoyolaChicago__Precalc__Chap3Sec1__Q15">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Q15.pg" />
   </exercise>
 -->  
-  <exercise xml:id="ez-exp-modeling-WW2">
+  <exercise xml:id="ez-exp-modeling-WW2" label="Library__LoyolaChicago__Precalc__Chap3Sec3__Q14">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q14.pg"/>
   </exercise>
-  <exercise xml:id="ez-exp-modeling-WW3">
+  <exercise xml:id="ez-exp-modeling-WW3" label="Library__LoyolaChicago__Precalc__Chap3Sec3__Q33">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q33.pg"/>
   </exercise>
-  <exercise xml:id="ez-exp-modeling-WW4">
+  <exercise xml:id="ez-exp-modeling-WW4" label="Library__LoyolaChicago__Precalc__Chap3Sec3__Q22">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q22.pg"/>
   </exercise>
 

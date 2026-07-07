@@ -14,34 +14,34 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-tangent">
   
 
-  <exercise xml:id="ez-trig-tangent-WW1">
+  <exercise xml:id="ez-trig-tangent-WW1" label="Library__Rochester__setTrig02FunctionsUnitCircle__srw5_2_47">
     <webwork source="Library/Rochester/setTrig02FunctionsUnitCircle/srw5_2_47.pg"/>
   </exercise>
-  <exercise xml:id="ez-trig-tangent-WW2">
+  <exercise xml:id="ez-trig-tangent-WW2" label="Library__Rochester__setTrig03FunctionsRightAngle__p8">
     <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p8.pg"/>
   </exercise>
-  <exercise xml:id="ez-trig-tangent-WW3">
+  <exercise xml:id="ez-trig-tangent-WW3" label="Library__Rochester__setTrig03FunctionsRightAngle__p9">
     <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p9.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-trig-tangent-WW7">
+  <exercise xml:id="ez-trig-tangent-WW7" label="Library__LoyolaChicago__Precalc__Chap6Sec6__Q24a">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q24a.pg"/>
   </exercise>
-  <exercise xml:id="ez-trig-tangent-WW8">
+  <exercise xml:id="ez-trig-tangent-WW8" label="Library__LoyolaChicago__Precalc__Chap6Sec6__Q28">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg"/>
   </exercise>
-  <exercise xml:id="ez-trig-tangent-WW9">
+  <exercise xml:id="ez-trig-tangent-WW9" label="Library__LoyolaChicago__Precalc__Chap6Sec7__Q14">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q14.pg"/>
   </exercise>    
 
 <!--  
-  <exercise xml:id="ez-trig-tangent-WW4">
+  <exercise xml:id="ez-trig-tangent-WW4" label="Library__Rochester__setTrig03FunctionsRightAngle__p2">
     <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p2.pg" />
   </exercise>
-  <exercise xml:id="ez-trig-tangent-WW5">
+  <exercise xml:id="ez-trig-tangent-WW5" label="Library__Rochester__setTrig03FunctionsRightAngle__p1">
     <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p1.pg" />
   </exercise>
-  <exercise xml:id="ez-trig-tangent-WW6">
+  <exercise xml:id="ez-trig-tangent-WW6" label="Library__LoyolaChicago__Precalc__Chap6Tools__Connally3-6-Tools-02__Connally3-6-Tools-02">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Tools/Connally3-6-Tools-02/Connally3-6-Tools-02.pg" />
   </exercise>  
 -->  

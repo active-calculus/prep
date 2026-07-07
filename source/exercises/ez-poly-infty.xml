@@ -14,13 +14,13 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-poly-infty">
   
 
-  <exercise xml:id="ez-poly-infty-WW1">
+  <exercise xml:id="ez-poly-infty-WW1" label="Library__LoyolaChicago__Precalc__Chap9Sec1__Q23">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec1/Q23.pg"/>
   </exercise>
-  <exercise xml:id="ez-poly-infty-WW2">
+  <exercise xml:id="ez-poly-infty-WW2" label="Library__LoyolaChicago__Precalc__Chap9Sec1__Q24">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec1/Q24.pg"/>
   </exercise>
-  <exercise xml:id="ez-poly-infty-WW3">
+  <exercise xml:id="ez-poly-infty-WW3" label="Library__LoyolaChicago__Precalc__Chap9Sec1__Q01">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec1/Q01.pg"/>
   </exercise>
 

@@ -13,28 +13,28 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-aroc">
 
-  <exercise xml:id="ez-changing-aroc-WW1">
+  <exercise xml:id="ez-changing-aroc-WW1" label="Library__Michigan__precalc__4e__Chap1Sec2__Q04">
     <webwork source="Library/Michigan/precalc/4e/Chap1Sec2/Q04.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-aroc-WW2">
+  <exercise xml:id="ez-changing-aroc-WW2" label="Library__Michigan__precalc__4e__Chap1Sec2__Q15">
     <webwork source="Library/Michigan/precalc/4e/Chap1Sec2/Q15.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-aroc-WW3">
+  <exercise xml:id="ez-changing-aroc-WW3" label="Library__Michigan__precalc__4e__Chap1Sec2__Q23">
     <webwork source="Library/Michigan/precalc/4e/Chap1Sec2/Q23.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-aroc-WW4">
+  <exercise xml:id="ez-changing-aroc-WW4" label="Library__LoyolaChicago__Precalc__Chap1Review__Q06">
     <webwork source="Library/LoyolaChicago/Precalc/Chap1Review/Q06.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-aroc-WW5">
+  <exercise xml:id="ez-changing-aroc-WW5" label="Library__LoyolaChicago__Precalc__Chap1Sec2__Q03">
     <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q03.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-aroc-WW6">
+  <exercise xml:id="ez-changing-aroc-WW6" label="Library__LoyolaChicago__Precalc__Chap1Sec2__Q10">
     <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q10.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-aroc-WW7">
+  <exercise xml:id="ez-changing-aroc-WW7" label="Library__LoyolaChicago__Precalc__Chap1Sec2__Q16">
     <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q16.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-aroc-WW8">
+  <exercise xml:id="ez-changing-aroc-WW8" label="Library__LoyolaChicago__Precalc__Chap1Sec2__Q25">
     <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q25.pg"/>
   </exercise>
 

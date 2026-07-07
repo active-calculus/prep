@@ -13,16 +13,16 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-inverse">
   
-  <exercise xml:id="ez-trig-inverse-WW1">
+  <exercise xml:id="ez-trig-inverse-WW1" label="Library__LoyolaChicago__Precalc__Chap6Sec7__Q07">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q07.pg"/>
   </exercise>
-  <exercise xml:id="ez-trig-inverse-WW2">
+  <exercise xml:id="ez-trig-inverse-WW2" label="Library__LoyolaChicago__Precalc__Chap6Sec7__Q08">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q08.pg"/>
   </exercise>
-  <exercise xml:id="ez-trig-inverse-WW3">
+  <exercise xml:id="ez-trig-inverse-WW3" label="Library__LoyolaChicago__Precalc__Chap6Sec7__Q09">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q09.pg"/>
   </exercise>
-  <exercise xml:id="ez-trig-inverse-WW4">
+  <exercise xml:id="ez-trig-inverse-WW4" label="Library__LoyolaChicago__Precalc__Chap6Sec7__Q14">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q14.pg"/>
   </exercise>
 
