@@ -16,7 +16,7 @@
   <exercise xml:id="ez-changing-quadratic-WW1" label="Library__Rochester__setAlgebra20QuadraticFun__lh3-1_19-20">
     <webwork source="Library/Rochester/setAlgebra20QuadraticFun/lh3-1_19-20.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-quadratic-WW2" label="Library__Rochester__setAlgebra20QuadraticFun__lh3-1_1-3">
+  <exercise xml:id="ez-changing-quadratic-WW2" label="Library__Rochester__setAlgebra20QuadraticFun__lh3-1_1-3-1">
     <webwork source="Library/Rochester/setAlgebra20QuadraticFun/lh3-1_1-3.pg"/>
   </exercise>
   <exercise xml:id="ez-changing-quadratic-WW3" label="Library__LoyolaChicago__Precalc__Chap2Sec6__Q22a">
@@ -48,7 +48,7 @@
   <exercise xml:id="ez-quadratic-find-formula">
     <statement>
       <p>
-        Two quadratic functions, <m>f</m> and <m>g</m>, are determined by their respective graphs in <xref ref="F-ez-quadratic-find-formula">Figure</xref>. 
+        Two quadratic functions, <m>f</m> and <m>g</m>, are determined by their respective graphs in <xref ref="F-ez-quadratic-find-formula">Figure</xref>.
       </p>
 
       <figure xml:id="F-ez-quadratic-find-formula">
@@ -109,7 +109,7 @@
           </li>
           <li>
             <p>
-              Does <m>f</m> have <m>0</m>, <m>1</m>, or <m>2</m> <m>x</m>-intercepts?  Explain, and determine the location(s) of any <m>x</m>-intercept(s) that exist. 
+              Does <m>f</m> have <m>0</m>, <m>1</m>, or <m>2</m> <m>x</m>-intercepts?  Explain, and determine the location(s) of any <m>x</m>-intercept(s) that exist.
             </p>
           </li>
           <li>
@@ -150,7 +150,7 @@
                       <cell/>
                     </row>
                   </tabular>
-                </table>  
+                </table>
                 <table xml:id="T-ez-quadratic-AVs">
                   <title>Average rates of change for <m>f</m> on select intervals.</title>
                   <tabular>
@@ -205,7 +205,7 @@
   <exercise xml:id="ez-quadratic-water-balloon">
     <statement>
       <p>
-        A water balloon is tossed vertically from a window on the fourth floor of a dormitory from an initial height of <m>56.3</m> feet.  A person two floors above observes the balloon reach its highest point <m>1.2</m> seconds after being launched.  
+        A water balloon is tossed vertically from a window on the fourth floor of a dormitory from an initial height of <m>56.3</m> feet.  A person two floors above observes the balloon reach its highest point <m>1.2</m> seconds after being launched.
       </p>
 
       <p>
@@ -243,6 +243,6 @@
         Exercise Solution
       </p>
     </solution>
-  </exercise>  
+  </exercise>
 
 </exercises>

@@ -12,16 +12,16 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-finding-angles">
-  
-  <exercise xml:id="ez-trig-finding-angles-WW1" label="Library__LoyolaChicago__Precalc__Chap6Sec6__Q24a">
+
+  <exercise xml:id="ez-trig-finding-angles-WW1" label="Library__LoyolaChicago__Precalc__Chap6Sec6__Q24a-2">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q24a.pg"/>
   </exercise>
-  <exercise xml:id="ez-trig-finding-angles-WW2" label="Library__LoyolaChicago__Precalc__Chap6Sec6__Q28">
+  <exercise xml:id="ez-trig-finding-angles-WW2" label="Library__LoyolaChicago__Precalc__Chap6Sec6__Q28-2">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg"/>
   </exercise>
   <exercise xml:id="ez-trig-finding-angles-WW6" label="Library__LoyolaChicago__Precalc__Chap6Sec7__Q37">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q37.pg"/>
-  </exercise>   
+  </exercise>
 
 <!--  most of the following fail to have statement tags
 
@@ -36,7 +36,7 @@
   </exercise>
   <exercise xml:id="ez-trig-finding-angles-WW7" label="Library__LoyolaChicago__Precalc__Chap6Sec6__Q36">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q36.pg" />
-  </exercise> 
+  </exercise>
 
   <exercise xml:id="ez-trig-finding-angles-WW8" label="Library__Rochester__setTrig06Inverses__srw7_4_1">
     <webwork source="Library/Rochester/setTrig06Inverses/srw7_4_1.pg" />
@@ -49,7 +49,7 @@
   </exercise>
   <exercise xml:id="ez-trig-finding-angles-WW11" label="Library__Rochester__setTrig06Inverses__srw7_4_25">
     <webwork source="Library/Rochester/setTrig06Inverses/srw7_4_25.pg" />
-  </exercise>     
+  </exercise>
 -->
 
   <exercise xml:id="ez-finding-angles-plane">

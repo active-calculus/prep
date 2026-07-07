@@ -25,12 +25,12 @@
   <exercise xml:id="ez-exp-log-WW4" label="Library__Rochester__setAlgebra30LogExpEqns__srw4_4_17">
     <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_17.pg"/>
   </exercise>
-<!--  
+<!--
   <exercise xml:id="ez-exp-log-WW5" label="Library__Michigan__skills_questions__topic_solving_exp_log__prob01">
     <webwork source="Library/Michigan/skills_questions/topic_solving_exp_log/prob01.pg" />
   </exercise>
--->  
-  <exercise xml:id="ez-exp-log-WW6" label="Library__Rochester__setAlgebra30LogExpEqns__srw4_4_41">
+-->
+  <exercise xml:id="ez-exp-log-WW6" label="Library__Rochester__setAlgebra30LogExpEqns__srw4_4_41-1">
     <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg"/>
   </exercise>
 

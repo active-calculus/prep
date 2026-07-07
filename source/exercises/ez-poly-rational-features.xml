@@ -12,8 +12,8 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-poly-rational-features">
-  
-  <exercise xml:id="ez-poly-rational-features-WW1" label="Library__LoyolaChicago__Precalc__Chap9Sec5__Q24">
+
+  <exercise xml:id="ez-poly-rational-features-WW1" label="Library__LoyolaChicago__Precalc__Chap9Sec5__Q24-2">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q24.pg"/>
   </exercise>
   <exercise xml:id="ez-poly-rational-features-WW2" label="Library__LoyolaChicago__Precalc__Chap9Sec5__Q34">
@@ -29,13 +29,13 @@
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q16.pg"/>
   </exercise>
 
-<!--  
+<!--
   <exercise xml:id="ez-poly-rational-features-WW6" label="Library__LoyolaChicago__Precalc__Chap9Sec5__Q17">
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q17.pg" />
-  </exercise>  
+  </exercise>
   <exercise xml:id="ez-poly-rational-features-WW7" label="Library__Rochester__setAlgebra25RationalFun__FindInfo">
     <webwork source="Library/Rochester/setAlgebra25RationalFun/FindInfo.pg" />
-  </exercise> 
+  </exercise>
 -->
 
   <exercise xml:id="ez-poly-rational-features-1">

@@ -12,8 +12,8 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-right">
-  
-  <exercise xml:id="ez-trig-right-WW1" label="Library__Rochester__setTrig03FunctionsRightAngle__p8">
+
+  <exercise xml:id="ez-trig-right-WW1" label="Library__Rochester__setTrig03FunctionsRightAngle__p8-1">
     <webwork source="Library/Rochester/setTrig03FunctionsRightAngle/p8.pg"/>
   </exercise>
   <exercise xml:id="ez-trig-right-WW4" label="Library__LoyolaChicago__Precalc__Chap6Tools__Connally3-6-Tools-20">
@@ -53,7 +53,7 @@
   <exercise xml:id="ez-trig-right-rocket">
     <statement>
       <p>
-        A person watching a rocket launch uses a laser range-finder to measure the distance from themselves to the rocket.  The range-finder also reports the angle at which the finder is being elevated from horizontal.  At a certain instant, the range-finder reports that it is elevated at an angle of <m>17.4^\circ</m> from horizontal and that the distance to the rocket is <m>1650</m> meters.  How high off the ground is the rocket?  Assuming a straight-line vertical path for the rocket that is perpendicular to the earth, how far away was the rocket from the range-finder at the moment it was launched? 
+        A person watching a rocket launch uses a laser range-finder to measure the distance from themselves to the rocket.  The range-finder also reports the angle at which the finder is being elevated from horizontal.  At a certain instant, the range-finder reports that it is elevated at an angle of <m>17.4^\circ</m> from horizontal and that the distance to the rocket is <m>1650</m> meters.  How high off the ground is the rocket?  Assuming a straight-line vertical path for the rocket that is perpendicular to the earth, how far away was the rocket from the range-finder at the moment it was launched?
       </p>
     </statement>
     <answer>
