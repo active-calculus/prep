@@ -27,7 +27,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <md>H(N) = G(D(N)) = \frac{5}{9}((40 + 0.25N) - 32) = \frac{5}{9}(8 + 0.25N).</md>
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-changing-composite-crickets-celcius-task-1">
       <statement>
@@ -37,7 +41,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>H</m> converts the number of cricket chirps per minute directly
+          into a temperature in degrees Celsius.
+        </p>
+      </solution>
     </task>
     <task workspace="2.5cm" xml:id="act-changing-composite-crickets-celcius-task-2">
       <statement>
@@ -67,7 +76,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          As an abstract mathematical function, both the domain and range are all real
+          numbers.  In the context of Dolbear's model (domain <m>[40, 180]</m> chirps per
+          minute), the domain of <m>H</m> is <m>[40, 180]</m> and the corresponding range
+          is approximately <m>[10, 29.4]</m> degrees Celsius.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

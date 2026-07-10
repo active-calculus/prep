@@ -27,7 +27,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <md>
+            <mrow>f(1+h) &amp;= 2(1+h)^2 - 3(1+h) + 1</mrow>
+            <mrow>&amp;= 2(1 + 2h + h^2) - 3 - 3h + 1</mrow>
+            <mrow>&amp;= 2h^2 + h.</mrow>
+          </md>
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-composite-aroc-task-1">
       <statement>
@@ -38,7 +46,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Since <m>f(1) = 2 - 3 + 1 = 0</m> and <m>f(1+h) = 2h^2 + h</m>:
+          <md>AV_{[1,1+h]} = \frac{f(1+h) - f(1)}{h} = \frac{2h^2 + h}{h} = 2h + 1.</md>
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-composite-aroc-task-2">
       <statement>
@@ -49,7 +62,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <md>g(1+h) = \frac{5}{1+h}.</md>
+          This expression cannot be simplified further.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-composite-aroc-task-3">
       <statement>
@@ -60,7 +78,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Since <m>g(1) = 5</m>:
+          <md>
+            <mrow>AV_{[1,1+h]} &amp;= \frac{g(1+h) - g(1)}{h} = \frac{\frac{5}{1+h} - 5}{h}</mrow>
+            <mrow>&amp;= \frac{5 - 5(1+h)}{(1+h)h} = \frac{-5h}{(1+h)h} = \frac{-5}{1+h}.</mrow>
+          </md>
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

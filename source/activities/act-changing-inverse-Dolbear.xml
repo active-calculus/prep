@@ -27,7 +27,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Subtracting 40 and multiplying by 4:
+          <md>E(F) = N = 4(F - 40).</md>
+        </p>
+      </solution>
     </task>
     <task workspace="5.5cm" xml:id="act-changing-inverse-Dolbear-task-1">
       <statement>
@@ -37,7 +42,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>E</m> takes a temperature in degrees Fahrenheit as its input and
+          outputs the corresponding number of snowy tree cricket chirps per minute.
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-changing-inverse-Dolbear-task-2">
       <statement>
@@ -47,7 +57,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <md>j(N) = E(D(N)) = 4\!\left(\left(40 + \frac{1}{4}N\right) - 40\right) = 4 \cdot \frac{N}{4} = N.</md>
+          <md>k(F) = D(E(F)) = 40 + \frac{1}{4}(4(F-40)) = 40 + (F-40) = F.</md>
+          Both <m>j</m> and <m>k</m> are the identity: composing <m>D</m> and <m>E</m>
+          in either order returns the original input, confirming that <m>E</m> and <m>D</m>
+          are inverse functions.
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-changing-inverse-Dolbear-task-3">
       <statement>
@@ -57,7 +75,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          They express the same relationship between <m>F</m> and <m>N</m>, just solved
+          for different variables.  Each equation can be obtained from the other by
+          algebraic manipulation, so they describe the same connection between temperature
+          and chirp rate.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

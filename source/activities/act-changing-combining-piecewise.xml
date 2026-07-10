@@ -37,7 +37,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          For <m>x \lt 0</m>, use <m>p(x) = -(x+2)^2 + 2</m>:
+          <m>p(-4) = -(-2)^2 + 2 = -2</m>;
+          <m>p(-2) = -(0)^2 + 2 = 2</m>.
+          For <m>x \ge 0</m>, use <m>p(x) = \frac{1}{2}(x-2)^2 + 1</m>:
+          <m>p(0) = \frac{1}{2}(4) + 1 = 3</m>;
+          <m>p(2) = 0 + 1 = 1</m>;
+          <m>p(4) = \frac{1}{2}(4) + 1 = 3</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-changing-combining-piecewise-task-1">
       <statement>
@@ -47,7 +57,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The left-side parabola <m>-(x+2)^2 + 2</m> (valid for <m>x \lt 0</m>) opens
+          downward and has vertex <m>(-2, 2)</m>.
+          The right-side parabola <m>\frac{1}{2}(x-2)^2 + 1</m> (valid for <m>x \ge 0</m>)
+          opens upward and has vertex <m>(2, 1)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-changing-combining-piecewise-task-2">
       <statement>
@@ -57,7 +74,16 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          For <m>x \lt 0</m>, setting <m>-(x+2)^2 + 2 = 0</m> gives <m>(x+2)^2 = 2</m>,
+          so <m>x = -2 \pm \sqrt{2}</m>.  Both values <m>x = -2 + \sqrt{2} \approx -0.586</m>
+          and <m>x = -2 - \sqrt{2} \approx -3.414</m> lie in <m>x \lt 0</m>, so both are
+          zeros of <m>p</m>.  The right-side parabola <m>\frac{1}{2}(x-2)^2+1 \ge 1 \gt 0</m>
+          for all <m>x \ge 0</m>, so it contributes no zeros.
+          The <m>y</m>-intercept is <m>p(0) = 3</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="0.5cm" xml:id="act-changing-combining-piecewise-task-3">
       <statement>

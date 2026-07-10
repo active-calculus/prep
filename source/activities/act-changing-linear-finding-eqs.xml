@@ -28,7 +28,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <md>y - (-17) = \frac{3}{7}(x - (-11)), \quad \text{i.e.,} \quad y + 17 = \frac{3}{7}(x+11).</md>
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-changing-linear-finding-eqs-task-1">
       <statement>
@@ -38,7 +42,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The slope is <m>m = \frac{-1-5}{3-(-2)} = -\frac{6}{5}</m>.  Using the point
+          <m>(3,-1)</m>:
+          <md>y + 1 = -\frac{6}{5}(x-3).</md>
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-changing-linear-finding-eqs-task-2">
       <statement>
@@ -48,7 +58,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Solving <m>2x - 3y = 5</m> for <m>y</m> gives <m>y = \frac{2}{3}x - \frac{5}{3}</m>,
+          so the slope is <m>m = \frac{2}{3}</m>.  Using the point <m>(4,9)</m>:
+          <md>y - 9 = \frac{2}{3}(x-4).</md>
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-linear-finding-eqs-task-3">
       <statement>
@@ -99,7 +115,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function appears to be linear because the rate of change is constant:
+          for each increase of <m>1</m> in <m>x</m>, <m>f(x)</m> decreases by <m>2</m>,
+          giving slope <m>m = -2</m>.  Using the point <m>(1,7)</m>:
+          <md>
+            <mrow>y - 7 &amp;= -2(x-1)</mrow>
+            <mrow>f(x) &amp;= 9 - 2x.</mrow>
+          </md>
+        </p>
+      </solution>
     </task>
     <task workspace="2cm" xml:id="act-changing-linear-finding-eqs-task-4">
       <statement>
@@ -110,11 +136,19 @@
             <caption>Plot of a linear function <m>h</m>.</caption> -->
             <image width="50%" source="images/linear-PA-ex-3"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
 <!--          </figure>
-        </sidebyside> -->           
+        </sidebyside> -->
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The graph has slope <m>m = -\frac{1}{3}</m> and passes through <m>(4,1)</m>, so:
+          <md>
+            <mrow>y - 1 &amp;= -\frac{1}{3}(x-4)</mrow>
+            <mrow>h(x) &amp;= \frac{7}{3} - \frac{1}{3}x.</mrow>
+          </md>
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

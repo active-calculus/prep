@@ -30,7 +30,16 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Computing the function values: <m>q(0)=0</m>, <m>q(1)=3</m>, <m>q(2)=4</m>,
+          <m>q(3)=3</m>, <m>q(4)=0</m>.  Thus:
+          <md>AV_{[0,1]} = \frac{3-0}{1} = 3, \quad AV_{[1,2]} = \frac{4-3}{1} = 1,</md>
+          <md>AV_{[2,3]} = \frac{3-4}{1} = -1, \quad AV_{[3,4]} = \frac{0-3}{1} = -3.</md>
+          Since <m>AV_{[2,3]}</m> and <m>AV_{[3,4]}</m> are both negative, <m>q</m> is
+          decreasing on <m>[2,4]</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-aroc-trends-task-1">
       <statement>
@@ -43,7 +52,18 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Computing function values: <m>h(-1) = 3 - 2(0.5)^{-1} = 3 - 4 = -1</m>,
+          <m>h(1) = 3 - 2(0.5) = 2</m>, <m>h(3) = 3 - 2(0.5)^3 = \frac{11}{4} \approx 2.75</m>,
+          <m>h(5) = 3 - 2(0.5)^5 = \frac{47}{16} \approx 2.9375</m>.  Thus:
+          <md>AV_{[-1,1]} = \frac{2-(-1)}{2} = \frac{3}{2} = 1.5,</md>
+          <md>AV_{[1,3]} = \frac{\frac{11}{4} - 2}{2} = \frac{3}{8} \approx 0.375,</md>
+          <md>AV_{[3,5]} = \frac{\frac{47}{16} - \frac{11}{4}}{2} = \frac{3}{32} \approx 0.094.</md>
+          All three average rates of change are positive but decreasing, so <m>h</m> is
+          increasing on <m>[-1,5]</m>, but at a decreasing rate.
+        </p>
+      </solution>
     </task>
     <task workspace="0.7cm" xml:id="act-changing-aroc-trends-task-2">
       <statement>
@@ -73,7 +93,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          False.  Although <m>AV_{[0,3]} = \frac{q(3)-q(0)}{3} = \frac{3-0}{3} = 1 > 0</m>,
+          a positive average rate of change over an interval does not mean the function is
+          increasing everywhere on that interval.  From part (a), <m>AV_{[2,3]} = -1 &lt; 0</m>,
+          so <m>q</m> is actually decreasing on <m>[2,3]</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-aroc-trends-task-4">
       <statement>
@@ -86,7 +113,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Any linear function has constant average rate of change.  For example,
+          <m>f(x) = x</m> has <m>AV_{[a,b]} = \frac{b-a}{b-a} = 1</m> for every interval
+          <m>[a,b]</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

@@ -24,7 +24,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <md>AV_{[-3,-1]} = \frac{f(-1)-f(-3)}{-1-(-3)} = \frac{10-16}{2} = -3,</md>
+          <md>AV_{[2,5]} = \frac{f(5)-f(2)}{5-2} = \frac{-8-1}{3} = -3,</md>
+          <md>AV_{[4,10]} = \frac{f(10)-f(4)}{10-4} = \frac{-23-(-5)}{6} = -3.</md>
+          All three average rates of change equal <m>-3</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-changing-linear-3-ex-task-1">
       <statement>
@@ -118,7 +125,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Reading values from the table:
+          <md>AV_{[-5,-2]} = \frac{g(-2)-g(-5)}{-2-(-5)} = \frac{-1.25-(-2.75)}{3} = \frac{1.5}{3} = 0.5,</md>
+          <md>AV_{[-1,1]} = \frac{g(1)-g(-1)}{1-(-1)} = \frac{0.25-(-0.75)}{2} = \frac{1}{2} = 0.5,</md>
+          <md>AV_{[0,4]} = \frac{g(4)-g(0)}{4-0} = \frac{1.75-(-0.25)}{4} = \frac{2}{4} = 0.5.</md>
+          All three average rates of change equal <m>0.5</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-changing-linear-3-ex-task-2">
       <statement>
@@ -135,7 +150,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Reading values from the graph:
+          <md>AV_{[-5,-2]} = \frac{h(-2)-h(-5)}{-2-(-5)} = \frac{3-4}{3} = -\frac{1}{3},</md>
+          <md>AV_{[-1,1]} = \frac{h(1)-h(-1)}{1-(-1)} = \frac{2-\frac{8}{3}}{2} = -\frac{1}{3},</md>
+          <md>AV_{[0,4]} = \frac{h(4)-h(0)}{4-0} = \frac{1-\frac{7}{3}}{4} = -\frac{1}{3}.</md>
+          All three average rates of change equal <m>-\frac{1}{3}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-changing-linear-3-ex-task-3">
       <statement>
@@ -145,12 +168,19 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          All three functions have a constant average rate of change: the average rate of
+          change is the same regardless of which interval is chosen.  They differ in their
+          specific rate of change (<m>-3</m>, <m>0.5</m>, and <m>-\frac{1}{3}</m> respectively)
+          and in how they were presented (formula, table, graph).
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-changing-linear-3-ex-task-4">
       <statement>
         <p>
-						For the function <m>y = f(x) = 7 - 3x</m> from (a), find the simplest expression you can for 
+						For the function <m>y = f(x) = 7 - 3x</m> from (a), find the simplest expression you can for
 						<me>
 							AV_{[a,b]} = \frac{f(b)-f(a)}{b-a}
 						</me>
@@ -159,7 +189,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <md>
+            <mrow>AV_{[a,b]} &amp;= \frac{f(b)-f(a)}{b-a} = \frac{(7-3b)-(7-3a)}{b-a}</mrow>
+            <mrow>&amp;= \frac{3a-3b}{b-a} = \frac{3(a-b)}{b-a} = -3.</mrow>
+          </md>
+          For any <m>a \ne b</m>, <m>AV_{[a,b]} = -3</m>.
+        </p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

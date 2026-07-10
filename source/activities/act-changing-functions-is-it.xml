@@ -37,7 +37,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The circle is <em>not</em> a function of <m>x</m>, because some values of <m>x</m>
+          correspond to more than one value of <m>y</m>.  For example, when <m>x = 0</m>,
+          both <m>y = 4</m> and <m>y = -4</m> lie on the circle.
+        </p>
+        <p>
+          The curve in the righthand figure <em>is</em> a function of <m>x</m>, because
+          each value of <m>x</m> in the domain corresponds to exactly one value of <m>y</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-functions-is-it-task-1">
       <statement>
@@ -47,7 +57,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The closing value of the S&amp;P500 can be expressed as a function of the day of
+          the year, provided the domain is restricted to trading days (excluding weekends and
+          market holidays).  With this restriction, each day in the domain corresponds to
+          exactly one closing value.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-functions-is-it-task-2">
       <statement>
@@ -57,7 +74,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The odometer reading cannot be viewed as a function of the car's velocity.
+          The same speed can occur at many different odometer readings throughout a trip,
+          so a single velocity value can correspond to multiple odometer values.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-functions-is-it-task-3">
       <statement>
@@ -112,7 +135,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The table does <em>not</em> represent a function, because the input values
+          <m>x = 1</m> and <m>x = 2</m> each correspond to more than one output value.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

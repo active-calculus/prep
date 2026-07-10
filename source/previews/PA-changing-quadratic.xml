@@ -25,7 +25,7 @@
     <task workspace="2cm" xml:id="PA-changing-quadratic-task-0">
       <statement>
         <p>
-					Execute appropriate computations to complete both of the following tables: values of the function <m>h</m> on the left, average rates of change for <m>h</m> on the right.  
+					Execute appropriate computations to complete both of the following tables: values of the function <m>h</m> on the left, average rates of change for <m>h</m> on the right.
 				</p>
         <sidebyside widths="48% 48%" margins="0%" valign="bottom">
 <!--          <table xml:id="T-PA-changing-quadratic-heights">
@@ -129,7 +129,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Function values: <m>q(1) = 40</m>, <m>q(2) = 45</m>, <m>q(3) = 40</m>,
+          <m>q(4) = 25</m>, <m>q(5) = 0</m>.
+          Average rates of change:
+          <m>AV_{[1,2]} = 5</m> m/s, <m>AV_{[2,3]} = -5</m> m/s,
+          <m>AV_{[3,4]} = -15</m> m/s, <m>AV_{[4,5]} = -25</m> m/s.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="PA-changing-quadratic-task-1">
       <statement>
@@ -139,7 +147,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function values increase from 25 to a peak of 45 at <m>t=2</m>, then decrease
+          back to 0 symmetrically.  The average rates of change decrease by exactly 10 m/s
+          on each successive interval: <m>15, 5, -5, -15, -25</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="PA-changing-quadratic-task-2">
       <statement>
@@ -149,7 +163,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          A linear function must have the same average rate of change on every interval.
+          But <m>AV_{[0,1]} = 15 \ne 5 = AV_{[1,2]}</m>, so <m>q</m> is not linear.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="PA-changing-quadratic-task-3">
       <statement>
@@ -159,7 +178,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The average velocity on <m>[4,5]</m> is <m>AV_{[4,5]} = -25</m> m/s.
+          On the shorter interval, <m>q(4.9) = -5(4.9)^2 + 20(4.9) + 25 = 2.95</m>, so
+          <md>AV_{[4.9,5]} = \frac{0 - 2.95}{5 - 4.9} = -29.5 \text{ m/s.}</md>
+          The balloon is falling faster (greater speed) on <m>[4.9, 5]</m> than over the
+          full final second <m>[4,5]</m>.
+        </p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

@@ -31,7 +31,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          If <m>a &gt; 0</m> the parabola opens upward; if <m>a &lt; 0</m> it opens downward.
+          The larger <m>|a|</m> is, the narrower the parabola; the closer <m>|a|</m> is to
+          zero, the wider the parabola.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-quadratic-parameters-task-1">
       <statement>
@@ -41,7 +47,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          With <m>a = 1</m> and <m>c = 0</m>, changing <m>b</m> shifts the vertex
+          diagonally: making <m>b &gt; 0</m> moves the vertex left and down, while
+          making <m>b &lt; 0</m> moves it right and down.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-quadratic-parameters-task-2">
       <statement>
@@ -51,7 +63,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          With <m>a = 1</m> and <m>b = 0</m>, changing <m>c</m> moves the vertex straight
+          up or down along the <m>y</m>-axis.  The vertex is at <m>(0, c)</m>, and <m>c</m>
+          is the <m>y</m>-intercept of the function.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-changing-quadratic-parameters-task-3">
       <statement>
@@ -63,7 +81,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The parameter <m>a</m> has the most clearly understandable effect: it controls
+          whether the parabola opens up or down and how wide it is.  The parameter <m>c</m>
+          has a simple effect as well (pure vertical translation).  The parameter <m>b</m>
+          has the most complicated effect because changing it moves the vertex diagonally
+          rather than purely up, down, or in terms of width.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-changing-quadratic-parameters-task-4">
       <statement>
@@ -74,7 +100,16 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Yes.  Since <m>(1,12)</m> and <m>(2,12)</m> have the same output, the axis of
+          symmetry is <m>x = 1.5</m> and the vertex has <m>x</m>-coordinate <m>1.5</m>.
+          Since the parabola must pass through <m>(0,8)</m>, which is below the values at
+          <m>x=1</m> and <m>x=2</m>, the parabola opens downward.  With <m>c = q(0) = 8</m>
+          and using vertex form or solving the system, the formula is
+          <md>q(x) = -2x^2 + 6x + 8.</md>
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

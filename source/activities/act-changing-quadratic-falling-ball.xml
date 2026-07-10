@@ -28,7 +28,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Using the standard model <m>s(t) = -16t^2 + v_0 t + s_0</m> with initial height
+          <m>s_0 = 37</m> ft and initial velocity <m>v_0 = 41</m> ft/s:
+          <md>s(t) = -16t^2 + 41t + 37.</md>
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-changing-quadratic-falling-ball-task-1">
       <statement>
@@ -49,7 +55,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From the graph, the balloon appears to land at approximately <m>t \approx 3.3</m> seconds.
+        </p>
+      </solution>
     </task>
     <task workspace="5.5cm" xml:id="act-changing-quadratic-falling-ball-task-3">
       <statement>
@@ -60,7 +70,18 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Setting <m>s(t) = 0</m> and applying the quadratic formula with <m>a=-16</m>,
+          <m>b=41</m>, <m>c=37</m>:
+          <md>
+            <mrow>t &amp;= \frac{-41 \pm \sqrt{41^2 - 4(-16)(37)}}{2(-16)}</mrow>
+            <mrow>&amp;= \frac{-41 \pm \sqrt{1681 + 2368}}{-32}</mrow>
+            <mrow>&amp;= \frac{-41 \pm \sqrt{4049}}{-32}.</mrow>
+          </md>
+          Taking the root that gives <m>t &gt; 0</m>: <m>t = \frac{-41 - \sqrt{4049}}{-32} \approx 3.27</m> seconds.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-changing-quadratic-falling-ball-task-4">
       <statement>
@@ -70,7 +91,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The vertex occurs at <m>t = -\frac{b}{2a} = -\frac{41}{2(-16)} = \frac{41}{32} \approx 1.28</m> seconds.
+          The maximum height is
+          <md>s\!\left(\frac{41}{32}\right) = -16 \cdot \frac{1681}{1024} + 41 \cdot \frac{41}{32} + 37 = \frac{4049}{64} \approx 63.3 \text{ feet.}</md>
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-changing-quadratic-falling-ball-task-5">
       <statement>
@@ -83,7 +110,16 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Using <m>s(1.5) = 62.5</m>, <m>s(2) = 55</m>, <m>s(2.5) = 39.5</m>, <m>s(3) = 16</m>:
+          <md>AV_{[1.5,2]} = \frac{55-62.5}{0.5} = -15 \text{ ft/s},</md>
+          <md>AV_{[2,2.5]} = \frac{39.5-55}{0.5} = -31 \text{ ft/s},</md>
+          <md>AV_{[2.5,3]} = \frac{16-39.5}{0.5} = -47 \text{ ft/s.}</md>
+          These values represent the average downward velocity of the balloon over each
+          half-second interval; the balloon is falling faster and faster as it descends.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

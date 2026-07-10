@@ -37,7 +37,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>p(x) = -\frac{1}{2}f(x-1)+2</m> is obtained from <m>f</m> by
+          shifting right 1 unit, applying a vertical compression by <m>\frac{1}{2}</m> and
+          a reflection across the <m>x</m>-axis, then shifting up 2 units.
+          The point <m>(-2, 2)</m> on <m>f</m> moves to <m>(-1, 1)</m> on <m>p</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-changing-transformations-combined-task-1">
       <statement>
@@ -47,7 +54,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>q(x) = 2g(x+0.5) - 0.75</m> is obtained from <m>g</m> by
+          shifting left <m>0.5</m> units, stretching vertically by a factor of 2, then
+          shifting down <m>0.75</m> units.
+          The point <m>(1.5, 1.5)</m> on <m>g</m> moves to <m>(1, 2.25)</m> on <m>q</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-transformations-combined-task-2">
       <statement>
@@ -57,7 +71,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Algebraically:
+          <md>r(x) = \frac{1}{2}(-f(x-1)-4) = -\frac{1}{2}f(x-1) - 2.</md>
+          Since <m>p(x) = -\frac{1}{2}f(x-1)+2</m>, we have <m>r(x) \ne p(x)</m>
+          — they differ by 4 in output.
+          As transformations, both shift <m>f</m> right 1 unit and apply a vertical
+          compression and reflection by <m>-\frac{1}{2}</m>, but <m>p</m> then shifts
+          the result up 2 units while <m>r</m> shifts it down 2 units.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-transformations-combined-task-3">
       <statement>
@@ -70,7 +94,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <md>s(x) = -2.5\,g(x+1.25) + 1.75.</md>
+          The point <m>(1.5, 1.5)</m> on <m>g</m> moves to <m>(0.25, -2)</m> on <m>s</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>
