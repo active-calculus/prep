@@ -81,7 +81,49 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              The area of an equilateral triangle with side length <m>s</m> is <m>A_{\triangle} = \dfrac{\sqrt{3}}{4}s^2</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The volume of the trough is cross-sectional area times length: <m>V = \dfrac{\sqrt{3}}{4}s^2 l</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The trough has two equilateral triangular ends and two rectangular side panels (the open top means there is no rectangular top panel).  The surface area is
+              <me>
+                A = 2 \cdot \frac{\sqrt{3}}{4}s^2 + 2sl = \frac{\sqrt{3}}{2}s^2 + 2sl.
+              </me>
+            </p>
+          </li>
+          <li>
+            <p>
+              Setting the surface area equal to <m>100</m>: <m>\dfrac{\sqrt{3}}{2}s^2 + 2sl = 100</m>, so
+              <me>
+                l = \frac{100 - \frac{\sqrt{3}}{2}s^2}{2s} = \frac{50}{s} - \frac{\sqrt{3}}{4}s.
+              </me>
+            </p>
+          </li>
+          <li>
+            <p>
+              Substituting into the volume formula:
+              <md>
+                <mrow>V(s) &amp;= \frac{\sqrt{3}}{4}s^2\left(\frac{50}{s} - \frac{\sqrt{3}}{4}s\right)</mrow>
+                <mrow>&amp;= \frac{50\sqrt{3}}{4}s - \frac{3}{16}s^3</mrow>
+                <mrow>&amp;= \frac{25\sqrt{3}}{2}s - \frac{3}{16}s^3.</mrow>
+              </md>
+            </p>
+          </li>
+          <li>
+            <p>
+              We need <m>s &gt; 0</m> and <m>l &gt; 0</m>.  From <m>l = \dfrac{50}{s} - \dfrac{\sqrt{3}}{4}s &gt; 0</m>, we get <m>s^2 &lt; \dfrac{200}{\sqrt{3}} = \dfrac{200\sqrt{3}}{3}</m>, so <m>s &lt; \sqrt{\dfrac{200\sqrt{3}}{3}}</m>.  The domain is <m>\left(0,\ \sqrt{\dfrac{200\sqrt{3}}{3}}\right)</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -99,7 +141,15 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        Let the box have width <m>w</m>, length <m>2w</m>, and height <m>h</m>.  The areas of the base and top are each <m>2w^2</m>, and the combined area of the four sides is <m>2(wh) + 2(2wh) = 6wh</m>.  The cost constraint is
+        <me>
+          2(2w^2 + 2w^2) + 1.5(6wh) = 8w^2 + 9wh = 10.
+        </me>
+        Solving for <m>h</m>: <m>h = \dfrac{10 - 8w^2}{9w}</m>.  The volume is
+        <me>
+          V(w) = w \cdot 2w \cdot h = 2w^2 \cdot \frac{10 - 8w^2}{9w} = \frac{20w - 16w^3}{9}.
+        </me>
+        For the domain, we need <m>h &gt; 0</m>, so <m>10 - 8w^2 &gt; 0</m>, giving <m>w &lt; \sqrt{\dfrac{10}{8}} = \dfrac{\sqrt{5}}{2}</m>.  With <m>w &gt; 0</m>, the domain is <m>\left(0,\ \dfrac{\sqrt{5}}{2}\right)</m>.
       </p>
     </solution>
   </exercise>
@@ -147,7 +197,36 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              If the radius is very small, the cylinder must be very tall to hold <m>8</m> cubic feet; if the radius is large, the cylinder is short and flat.
+            </p>
+          </li>
+          <li>
+            <p>
+              The volume constraint <m>\pi r^2 h = 8</m> gives <m>h = \dfrac{8}{\pi r^2}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Substituting into the surface area formula:
+              <me>
+                A(r) = 2\pi r^2 + 2\pi r \cdot \frac{8}{\pi r^2} = 2\pi r^2 + \frac{16}{r}.
+              </me>
+            </p>
+          </li>
+          <li>
+            <p>
+              The domain is <m>r &gt; 0</m>, since the radius must be positive.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>A(r) = 2\pi r^2 + \dfrac{16}{r}</m> is not a polynomial because of the term <m>\dfrac{16}{r} = 16r^{-1}</m>, which has a negative exponent.  Polynomial functions have only non-negative integer exponents.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>

@@ -45,7 +45,7 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        Let the angle of elevation be <m>27.5^\circ</m>.  The line from the streetlight to the tip of the shadow is the hypotenuse of a large right triangle with base <m>50 + 14 = 64</m> feet, so this hypotenuse is <m>\frac{64}{\cos(27.5^\circ)} \approx 72.1</m> feet.  The line from the person's head to the tip of the shadow is the hypotenuse of a smaller right triangle with base <m>14</m> feet, so it has length <m>\frac{14}{\cos(27.5^\circ)} \approx 15.7</m> feet.  The person's height is <m>\sqrt{15.7^2 - 14^2} \approx 7.1</m> feet, and the streetlight's height is <m>\sqrt{72.1^2 - 64^2} \approx 33.2</m> feet.
       </p>
     </solution>
   </exercise>
@@ -63,7 +63,7 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        With the range-finder elevated at <m>17.4^\circ</m> and at distance <m>1650</m> meters from the rocket, the height of the rocket is <m>1650\sin(17.4^\circ) \approx 493.4</m> meters.  The horizontal distance from the range-finder to the launch point is <m>1650\cos(17.4^\circ) \approx 1574</m> meters.
       </p>
     </solution>
   </exercise>
@@ -92,7 +92,10 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        Each side panel is a <m>2' \times 24'</m> strip folded at angle <m>\theta</m> from the base.  The depth of the trough is <m>\sin(\theta)</m> feet, and the two slanted sides each add <m>\cos(\theta)</m> feet to the top width, giving a total top width of <m>2 + 2\cos(\theta)</m> feet.  The cross-sectional area of the trapezoidal cross-section is <m>\frac{1}{2}(2 + 2 + 2\cos(\theta))\sin(\theta) = \sin(\theta)(2 + \cos(\theta))</m> square feet.  Multiplying by the length of <m>24</m> feet gives
+        <me>
+          V(\theta) = 24\sin(\theta)(2 + \cos(\theta)).
+        </me>
       </p>
     </solution>
   </exercise>

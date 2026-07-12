@@ -27,7 +27,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>\arccos\!\left(\frac{1}{2}\right) = \frac{\pi}{3}</m></p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-1">
       <statement>
@@ -37,7 +39,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>\arccos\!\left(\frac{\sqrt{2}}{2}\right) = \frac{\pi}{4}</m></p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-2">
       <statement>
@@ -47,7 +51,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>\arccos\!\left(\frac{\sqrt{3}}{2}\right) = \frac{\pi}{6}</m></p>
+      </solution>
     </task>
     <task workspace="3.5cm" xml:id="act-trig-inverse-arccos-task-3">
       <statement>
@@ -57,7 +63,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>\arccos\!\left(-\frac{1}{2}\right) = \frac{2\pi}{3}</m></p>
+      </solution>
     </task>
     <task workspace="3.5cm" xml:id="act-trig-inverse-arccos-task-4">
       <statement>
@@ -67,7 +75,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>\arccos\!\left(-\frac{\sqrt{2}}{2}\right) = \frac{3\pi}{4}</m></p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-5">
       <statement>
@@ -77,7 +87,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>\arccos\!\left(-\frac{\sqrt{3}}{2}\right) = \frac{5\pi}{6}</m></p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-6">
       <statement>
@@ -87,7 +99,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>\arccos(-1) = \pi</m></p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-7">
       <statement>
@@ -97,7 +111,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>\arccos(0) = \frac{\pi}{2}</m></p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-8">
       <statement>
@@ -107,7 +123,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>\cos\!\left(\arccos\!\left(-\frac{1}{2}\right)\right) = -\frac{1}{2}</m>, since cosine and arccosine are inverse functions.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-trig-inverse-arccos-task-9">
       <statement>
@@ -117,7 +135,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>\arccos\!\left(\cos\!\left(\frac{7\pi}{6}\right)\right) = \frac{5\pi}{6}</m>, since <m>\cos\!\left(\frac{7\pi}{6}\right) = -\frac{\sqrt{3}}{2}</m> and <m>\arccos\!\left(-\frac{\sqrt{3}}{2}\right) = \frac{5\pi}{6}</m>.</p>
+      </solution>
     </task>
     <answer>
       <p/>

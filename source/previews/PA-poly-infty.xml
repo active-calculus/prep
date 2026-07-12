@@ -27,7 +27,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>0</m></p>
+      </solution>
     </task>
     <task workspace="1.5cm" xml:id="PA-poly-infty-task-1">
       <statement>
@@ -37,7 +39,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>\infty</m></p>
+      </solution>
     </task>
     <task workspace="1.5cm" xml:id="PA-poly-infty-task-2">
       <statement>
@@ -47,7 +51,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>\infty</m></p>
+      </solution>
     </task>
     <task workspace="1.5cm" xml:id="PA-poly-infty-task-3">
       <statement>
@@ -57,7 +63,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>1</m>.  Since <m>e^{-t} \to e^0 = 1</m> as <m>t \to 0^+</m>.</p>
+      </solution>
     </task>
     <task workspace="1.5cm" xml:id="PA-poly-infty-task-4">
       <statement>
@@ -67,7 +75,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>35</m>.  As <m>t \to \infty</m>, <m>e^{-0.025t} \to 0</m>, so the expression approaches <m>35 + 53 \cdot 0 = 35</m>.</p>
+      </solution>
     </task>
     <task workspace="1.5cm" xml:id="PA-poly-infty-task-5">
       <statement>
@@ -77,7 +87,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>\infty</m>.  As <m>t \to \frac{\pi}{2}^-</m>, <m>\cos(t) \to 0^+</m> while <m>\sin(t) \to 1</m>, so <m>\tan(t) = \frac{\sin(t)}{\cos(t)} \to +\infty</m>.</p>
+      </solution>
     </task>
     <task workspace="1.5cm" xml:id="PA-poly-infty-task-6">
       <statement>
@@ -87,7 +99,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>-\infty</m>.  As <m>t \to \frac{\pi}{2}^+</m>, <m>\cos(t) \to 0^-</m> while <m>\sin(t) \to 1</m>, so <m>\tan(t) = \frac{\sin(t)}{\cos(t)} \to -\infty</m>.</p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

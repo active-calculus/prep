@@ -34,7 +34,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The domain of <m>g</m> is the interval <m>[0, \pi]</m>.</p>
+      </solution>
     </task>
     <task workspace="2.5cm" xml:id="PA-trig-inverse-task-1">
       <statement>
@@ -44,7 +46,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The range of <m>g</m> is the interval <m>[-1, 1]</m>.</p>
+      </solution>
     </task>
     <task workspace="2.5cm" xml:id="PA-trig-inverse-task-2">
       <statement>
@@ -55,7 +59,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Yes, <m>g</m> passes the horizontal line test.  On its restricted domain <m>[0,\pi]</m>, the cosine function is strictly decreasing, so no horizontal line can intersect its graph more than once.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-trig-inverse-task-3">
       <statement>
@@ -66,7 +72,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Since <m>g</m> passes the horizontal line test, it is one-to-one and has an inverse function <m>g^{-1}</m>.  The domain of <m>g^{-1}</m> is the range of <m>g</m>, which is <m>[-1, 1]</m>, and the range of <m>g^{-1}</m> is the domain of <m>g</m>, which is <m>[0, \pi]</m>.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-trig-inverse-task-4">
       <statement>
@@ -78,7 +86,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Since <m>g\!\left(\frac{\pi}{4}\right) = \frac{\sqrt{2}}{2}</m>, we have <m>g^{-1}\!\left(\frac{\sqrt{2}}{2}\right) = \frac{\pi}{4}</m>.  Since <m>g\!\left(\frac{3\pi}{4}\right) = -\frac{\sqrt{2}}{2}</m>, we have <m>g^{-1}\!\left(-\frac{\sqrt{2}}{2}\right) = \frac{3\pi}{4}</m>.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-trig-inverse-task-5">
       <statement>
@@ -91,7 +101,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>g^{-1}\!\left(-\frac{1}{2}\right) = \frac{2\pi}{3}</m>, <m>g^{-1}\!\left(\frac{\sqrt{3}}{2}\right) = \frac{\pi}{6}</m>, <m>g^{-1}(0) = \frac{\pi}{2}</m>, <m>g^{-1}(-1) = \pi</m>.</p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

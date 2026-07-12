@@ -33,7 +33,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Factoring: <m>p(x) = x^2 - 1 = (x-1)(x+1)</m>.  So <m>p(x) = 0</m> when <m>x = 1</m> or <m>x = -1</m>.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-poly-rational-features-task-1">
       <statement>
@@ -43,7 +45,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Factoring: <m>q(x) = x^2 - 3x - 4 = (x-4)(x+1)</m>.  So <m>q(x) = 0</m> when <m>x = 4</m> or <m>x = -1</m>.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-poly-rational-features-task-2">
       <statement>
@@ -229,7 +233,10 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Using technology to evaluate <m>r(x) = \dfrac{x^2-1}{x^2-3x-4}</m>: near <m>x=4</m>, the values grow very large in magnitude; near <m>x=1</m>, the values are small and negative then positive; near <m>x=-1</m>, the values are close to <m>\frac{2}{5} = 0.4</m>.  Approximate values:</p>
+        <p>Near <m>x=4</m>: <m>r(4.1) \approx 31</m>, <m>r(3.9) \approx -29</m>.  Near <m>x=1</m>: <m>r(1.1) \approx -0.035</m>, <m>r(0.9) \approx 0.032</m>.  Near <m>x=-1</m>: <m>r(-1.1) \approx 0.412</m>, <m>r(-0.9) \approx 0.387</m>.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-poly-rational-features-task-3">
       <statement>
@@ -239,7 +246,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Near <m>x = 4</m>, the denominator <m>q(x) = (x-4)(x+1)</m> approaches <m>0</m> (since <m>x-4 \to 0</m>), while the numerator <m>p(4) = 15 \neq 0</m>.  So <m>r(x)</m> increases or decreases without bound near <m>x = 4</m>: this is a <em>vertical asymptote</em>.  For <m>x</m> just above <m>4</m>, <m>(x-4) &gt; 0</m> and <m>(x+1) &gt; 0</m>, so <m>r \to +\infty</m>; just below <m>4</m>, <m>(x-4) &lt; 0</m> so <m>r \to -\infty</m>.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-poly-rational-features-task-4">
       <statement>
@@ -249,7 +258,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Near <m>x = 1</m>, the numerator <m>p(x) \to 0</m> while the denominator <m>q(1) = 1 - 3 - 4 = -6 \neq 0</m>.  So <m>r(x) \to 0</m> near <m>x = 1</m>, meaning <m>x = 1</m> is an ordinary zero of <m>r</m>.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-poly-rational-features-task-5">
       <statement>
@@ -259,7 +270,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Near <m>x = -1</m>, <em>both</em> the numerator and denominator approach <m>0</m> (since <m>p(-1) = 0</m> and <m>q(-1) = 0</m>).  The factor <m>(x+1)</m> cancels: <m>r(x) = \dfrac{(x-1)(x+1)}{(x-4)(x+1)} = \dfrac{x-1}{x-4}</m> (for <m>x \neq -1</m>).  Near <m>x = -1</m>, <m>r(x) \approx \dfrac{-1-1}{-1-4} = \dfrac{-2}{-5} = \dfrac{2}{5}</m>.  So <m>x = -1</m> is a <em>hole</em> at the point <m>\left(-1, \dfrac{2}{5}\right)</m>.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-poly-rational-features-task-6">
       <statement>
@@ -269,7 +282,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The <em>Desmos</em> graph of <m>r</m> appears continuous near <m>x = -1</m>; the hole is not visible because <em>Desmos</em> plots points at closely-spaced <m>x</m>-values and connects them, so the single missing point at <m>x=-1</m> is not apparent.  One must know to look for the hole based on the algebra.</p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

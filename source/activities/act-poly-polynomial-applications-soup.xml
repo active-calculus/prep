@@ -30,7 +30,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The surface area of a closed cylinder is <m>2\pi r^2 + 2\pi r h</m>.  Setting this equal to <m>60</m> square inches gives
+        <me>
+          2\pi r^2 + 2\pi r h = 60.
+        </me>
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-polynomial-applications-soup-task-1">
       <statement>
@@ -40,7 +46,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Solving for <m>h</m>:
+        <me>
+          h = \frac{60 - 2\pi r^2}{2\pi r} = \frac{30}{\pi r} - r.
+        </me>
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-polynomial-applications-soup-task-2">
       <statement>
@@ -50,7 +62,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Substituting into <m>V = \pi r^2 h</m>:
+        <me>
+          V(r) = \pi r^2 \left(\frac{30}{\pi r} - r\right) = 30r - \pi r^3.
+        </me>
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-polynomial-applications-soup-task-3">
       <statement>
@@ -60,13 +78,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>We need <m>r &gt; 0</m> and <m>h &gt; 0</m>.  From <m>h = \frac{30}{\pi r} - r &gt; 0</m>, we get <m>\frac{30}{\pi r} &gt; r</m>, so <m>r^2 &lt; \frac{30}{\pi}</m>, giving <m>r &lt; \sqrt{\frac{30}{\pi}}</m>.  The domain is <m>\left(0,\ \sqrt{\frac{30}{\pi}}\right)</m>.</p>
+      </solution>
     </task>
     <answer>
       <p/>
     </answer>
     <solution>
-      <p/>
+      <p>
+        The surface area constraint <m>2\pi r^2 + 2\pi r h = 60</m> gives <m>h = \frac{30}{\pi r} - r</m>, so the volume is <m>V(r) = 30r - \pi r^3</m> for <m>r \in \left(0,\ \sqrt{\frac{30}{\pi}}\right)</m>.
+      </p>
     </solution>
   </activity>
 </worksheet>

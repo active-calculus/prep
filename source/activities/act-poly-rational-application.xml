@@ -27,7 +27,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The box has a shorter base side of length <m>x</m>, a longer base side of length <m>2x</m>, and height <m>h</m>.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-rational-application-task-1">
       <statement>
@@ -37,7 +39,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The volume is <m>V = x \cdot 2x \cdot h = 2x^2 h</m>.  Setting <m>V = 15</m>: <m>2x^2 h = 15</m>, so <m>h = \dfrac{15}{2x^2}</m>.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-rational-application-task-2">
       <statement>
@@ -47,7 +51,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The open box (no top) has: one rectangular base (<m>2x^2</m>), two short sides (<m>2 \cdot xh = 2xh</m>), and two long sides (<m>2 \cdot 2xh = 4xh</m>).  So
+        <me>
+          S = 2x^2 + 2xh + 4xh = 2x^2 + 6xh.
+        </me>
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-rational-application-task-3">
       <statement>
@@ -57,7 +67,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Substituting <m>h = \dfrac{15}{2x^2}</m>:
+        <me>
+          S(x) = 2x^2 + 6x \cdot \frac{15}{2x^2} = 2x^2 + \frac{45}{x}.
+        </me>
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-rational-application-task-4">
       <statement>
@@ -67,7 +83,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>S(x) = 2x^2 + \dfrac{45}{x} = \dfrac{2x^3 + 45}{x}</m> is a rational function.  In the physical context, <m>x &gt; 0</m> (the side length must be positive), so the domain is <m>(0, \infty)</m>.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-rational-application-task-5">
       <statement>
@@ -77,13 +95,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>From a graph of <m>S(x) = 2x^2 + \dfrac{45}{x}</m> on <m>(0, \infty)</m>, the minimum value of <m>S</m> occurs at approximately <m>x \approx 2.24</m> feet, giving a minimum surface area of approximately <m>S \approx 30.0</m> square feet.  (The exact minimum occurs at <m>x = \sqrt[3]{45/4}</m>.)</p>
+      </solution>
     </task>
     <answer>
       <p/>
     </answer>
     <solution>
-      <p/>
+      <p>
+        With base sides <m>x</m> and <m>2x</m> and volume constraint <m>2x^2 h = 15</m>, we get <m>h = 15/(2x^2)</m> and surface area <m>S(x) = 2x^2 + 45/x</m>, a rational function on domain <m>(0, \infty)</m>.  Its minimum is approximately <m>S \approx 30.0</m> sq ft at <m>x \approx 2.24</m> ft.
+      </p>
     </solution>
   </activity>
 </worksheet>

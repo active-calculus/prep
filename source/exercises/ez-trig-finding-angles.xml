@@ -90,7 +90,28 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              The plane is at altitude <m>2000</m> feet and <m>7500</m> feet from the building (slant distance).  The angle of depression is <m>\arcsin\!\left(\dfrac{2000}{7500}\right) = \arcsin\!\left(\dfrac{4}{15}\right) \approx 0.2699</m> radians, or about <m>15.47^{\circ}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              When the slant distance is <m>6000</m> feet, the angle of depression is <m>\arcsin\!\left(\dfrac{2000}{6000}\right) = \arcsin\!\left(\dfrac{1}{3}\right) \approx 0.3398</m> radians, or about <m>19.47^{\circ}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The horizontal distance at <m>7500</m> feet is <m>\sqrt{7500^2 - 2000^2} = 500\sqrt{209} \approx 7228</m> feet, and at <m>6000</m> feet it is <m>\sqrt{6000^2 - 2000^2} = 4000\sqrt{2} \approx 5657</m> feet.  The plane traveled <m>500\sqrt{209} - 4000\sqrt{2} = 500(\sqrt{209} - 8\sqrt{2}) \approx 1572</m> feet.
+            </p>
+          </li>
+          <li>
+            <p>
+              Traveling <m>500(\sqrt{209}-8\sqrt{2})</m> feet in <m>5</m> seconds gives a speed of <m>100(\sqrt{209}-8\sqrt{2}) \approx 314</m> feet per second, which is approximately <m>214</m> miles per hour.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -133,7 +154,28 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              When the balloon is <m>200</m> feet off the ground, the angle of elevation is <m>\arctan\!\left(\dfrac{200}{850}\right) \approx 0.2311</m> radians (about <m>13.24^{\circ}</m>).
+            </p>
+          </li>
+          <li>
+            <p>
+              When the balloon is <m>275</m> feet off the ground, the angle of elevation is <m>\arctan\!\left(\dfrac{275}{850}\right) \approx 0.3129</m> radians (about <m>17.93^{\circ}</m>).
+            </p>
+          </li>
+          <li>
+            <p>
+              The angle of elevation as a function of height is <m>\theta(h) = \arctan\!\left(\dfrac{h}{850}\right)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The average rate of change on <m>[200,275]</m> is <m>AV_{[200,275]} = \dfrac{\theta(275) - \theta(200)}{75} \approx \dfrac{0.3129 - 0.2311}{75} \approx 0.001091</m> radians per foot.  This means that as the balloon rises from <m>200</m> to <m>275</m> feet, the camera angle must increase at an average rate of about <m>0.001091</m> radians for each foot of altitude gained.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -186,7 +228,38 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              The hypotenuse has length <m>\sqrt{5^2 + 12^2} = 13</m>.  Since <m>\alpha</m> is opposite the leg of length <m>5</m>, we have <m>\cos(\alpha) = \dfrac{12}{13}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\sin(\beta) = \dfrac{12}{13}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\tan(\beta) = \dfrac{12}{5}</m> and <m>\tan(\alpha) = \dfrac{5}{12}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\alpha = \arctan\!\left(\dfrac{5}{12}\right) \approx 0.3948</m> radians.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\beta = \arctan\!\left(\dfrac{12}{5}\right) \approx 1.176</m> radians.
+            </p>
+          </li>
+          <li>
+            <p>
+              True.  If <m>\theta + \gamma = \frac{\pi}{2}</m>, then <m>\theta</m> and <m>\gamma</m> are complementary angles in a right triangle.  Labeling the side opposite <m>\theta</m> as <m>B</m> and the side opposite <m>\gamma</m> as <m>C</m>, with hypotenuse <m>H</m>, we get <m>\cos(\theta) = \frac{C}{H} = \sin(\gamma)</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>

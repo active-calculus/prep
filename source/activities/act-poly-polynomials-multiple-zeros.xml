@@ -27,7 +27,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          One formula: <m>f(x) = -21\!\left(\dfrac{x+12}{12}\right)^3\!\left(\dfrac{x+9}{9}\right)^2\!\left(\dfrac{x-4}{4}\right)^4\!\left(\dfrac{x-10}{10}\right)</m>.  We can verify: <m>f(0) = -21\cdot 1 \cdot 1 \cdot 1 \cdot (-1) = 21</m> ✓.  Since the degree is <m>10</m> (even) and the leading coefficient is negative, <m>\lim_{x \to \pm\infty} f(x) = -\infty</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="1cm" xml:id="act-poly-polynomials-multiple-zeros-task-1">
       <statement>
@@ -40,7 +44,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From the graph (reading off the zeros and their behavior), one example with <m>p(0)=-2</m> is: <m>p(x) = -2\!\left(\dfrac{x+8}{8}\right)^2\!\left(\dfrac{x+4}{4}\right)^3(x-1)\!\left(\dfrac{x-5}{5}\right)^2\!\left(\dfrac{x-7.5}{7.5}\right)</m>, which has degree <m>9</m> and <m>p(0)=-2</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="0.5cm" xml:id="act-poly-polynomials-multiple-zeros-task-2">
       <statement>
@@ -53,7 +61,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From the sign chart (positive, then negative, then positive, then negative, with the pattern showing even-multiplicity zeros where sign doesn't change and odd-multiplicity zeros where it does), one example: <m>q(x) = -10\!\left(\dfrac{x+2}{2}\right)^4\!\left(\dfrac{x-3}{3}\right)\!\left(\dfrac{x-9}{9}\right)^3</m>.  This has degree <m>8</m>, three distinct real zeros, and <m>q(0) = -10 \cdot 1 \cdot (-1) \cdot (-1) = -10</m> ✓.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-polynomials-multiple-zeros-task-3">
       <statement>
@@ -63,7 +75,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          It is not possible to have a degree 9 polynomial satisfying the sign chart from part (c) and <m>q(0)=-10</m>, if the sign chart shows the same behavior at both ends (both positive or both negative for large <m>|x|</m>).  A degree-9 polynomial has odd degree, so its limits at <m>+\infty</m> and <m>-\infty</m> must be opposite.  If the sign chart requires both ends to have the same sign, degree 9 is impossible.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-polynomials-multiple-zeros-task-4">
       <statement>
@@ -73,7 +89,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          It is not possible to have a degree-11 polynomial matching the graph in part (b) if that graph shows the same long-term behavior at both ends.  A degree-11 polynomial has odd degree, so its limits at <m>+\infty</m> and <m>-\infty</m> must have opposite signs, while the graph in (b) (a degree-9 example) already illustrates this odd-degree behavior.  However, a degree-11 polynomial could match the graph if the overall end behavior is also opposite-going.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

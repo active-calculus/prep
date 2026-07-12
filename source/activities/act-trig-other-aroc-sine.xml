@@ -33,7 +33,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>AV_{[a,a+h]} = \dfrac{\sin(a+h) - \sin(a)}{h}</m>
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-trig-other-aroc-sine-task-1">
       <statement>
@@ -43,7 +47,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Using the sum identity: <m>\sin(a+h) = \sin(a)\cos(h) + \cos(a)\sin(h)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-trig-other-aroc-sine-task-2">
       <statement>
@@ -56,7 +64,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Substituting into the average rate of change:
+          <md>
+            <mrow>AV_{[a,a+h]} &amp;= \frac{\sin(a)\cos(h) + \cos(a)\sin(h) - \sin(a)}{h}</mrow>
+            <mrow>&amp;= \frac{\sin(a)(\cos(h)-1) + \cos(a)\sin(h)}{h}</mrow>
+            <mrow>&amp;= \sin(a) \cdot \frac{\cos(h)-1}{h} + \cos(a) \cdot \frac{\sin(h)}{h}</mrow>
+          </md>
+          which matches the stated formula (noting the sign: the formula in the problem has <m>\frac{\cos(h)-1}{h}</m>, which equals the same as written).
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-trig-other-aroc-sine-task-3">
       <statement>
@@ -70,7 +88,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          As <m>h</m> approaches 0, the expression <m>\dfrac{\cos(h)-1}{h}</m> approaches <m>0</m>, and <m>\dfrac{\sin(h)}{h}</m> approaches <m>1</m>.  Therefore <m>AV_{[a,a+h]}</m> approaches <m>\sin(a) \cdot 0 + \cos(a) \cdot 1 = \cos(a)</m>.  This tells us that the instantaneous rate of change of the sine function at <m>a</m> is <m>\cos(a)</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

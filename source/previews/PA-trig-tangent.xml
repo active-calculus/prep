@@ -54,7 +54,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Using <m>\tan(t) = \frac{\sin(t)}{\cos(t)}</m>:
+          <m>\tan\!\left(\frac{\pi}{6}\right) = \frac{\sqrt{3}}{3}</m>,
+          <m>\tan\!\left(\frac{\pi}{4}\right) = 1</m>,
+          <m>\tan\!\left(\frac{\pi}{3}\right) = \sqrt{3}</m>,
+          <m>\tan\!\left(\frac{2\pi}{3}\right) = -\sqrt{3}</m>,
+          <m>\tan\!\left(\frac{3\pi}{4}\right) = -1</m>,
+          <m>\tan\!\left(\frac{5\pi}{6}\right) = -\frac{\sqrt{3}}{3}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="PA-trig-tangent-task-1">
       <statement>
@@ -65,7 +75,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Since <m>\tan(t) = \frac{\sin(t)}{\cos(t)}</m> and <m>\cos\!\left(\frac{\pi}{2}\right) = 0</m>, <m>\tan\!\left(\frac{\pi}{2}\right)</m> is undefined because division by zero is not allowed.  Three other values where <m>\tan</m> is undefined are <m>-\frac{\pi}{2}</m>, <m>\frac{3\pi}{2}</m>, and <m>-\frac{3\pi}{2}</m> (any value of the form <m>\frac{\pi}{2} + k\pi</m> for integer <m>k</m>).
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="PA-trig-tangent-task-2">
       <statement>
@@ -87,7 +101,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          At <m>x = \frac{11\pi}{24}</m>, the point is approximately <m>\left(\frac{11\pi}{24},\ 7.596\right)</m>.  We have <m>\sin\!\left(\frac{11\pi}{24}\right) \approx 0.9914</m> and <m>\cos\!\left(\frac{11\pi}{24}\right) \approx 0.1305</m>.  The value of <m>\tan\!\left(\frac{11\pi}{24}\right)</m> is so large because <m>\frac{11\pi}{24}</m> is very close to <m>\frac{\pi}{2}</m>, making <m>\cos\!\left(\frac{11\pi}{24}\right)</m> very small; since we divide by cosine, the tangent value becomes very large.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="PA-trig-tangent-task-3">
       <statement>
@@ -117,7 +135,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <ul>
+            <li><p>The domain of <m>y = \tan(x)</m> is all real numbers except <m>x = \frac{\pi}{2} + k\pi</m> for any integer <m>k</m>.</p></li>
+            <li><p>The period of <m>y = \tan(x)</m> is <m>\pi</m>.</p></li>
+            <li><p>The range of <m>y = \tan(x)</m> is all real numbers.</p></li>
+          </ul>
+        </p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

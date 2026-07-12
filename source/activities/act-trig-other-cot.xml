@@ -304,7 +304,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Since <m>\cot(t) = \cos(t)/\sin(t)</m>, the cotangent values for Q1–Q2 are: <m>u, \sqrt{3}, 1, \frac{1}{\sqrt{3}}, 0, -\frac{1}{\sqrt{3}}, -1, -\sqrt{3}, u</m>; and for Q3–Q4: <m>\sqrt{3}, 1, \frac{1}{\sqrt{3}}, 0, -\frac{1}{\sqrt{3}}, -1, -\sqrt{3}, u</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="2cm" xml:id="act-trig-other-cot-task-1">
       <statement>
@@ -314,7 +318,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The cotangent function is positive in quadrants I and III (where sine and cosine have the same sign) and negative in quadrants II and IV (where they have opposite signs).
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-trig-other-cot-task-2">
       <statement>
@@ -324,7 +332,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The cotangent function has vertical asymptotes wherever <m>\sin(t) = 0</m>, that is, at every integer multiple of <m>\pi</m>: <m>t = 0, \pm\pi, \pm 2\pi, \ldots</m>
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-trig-other-cot-task-3">
       <statement>
@@ -334,7 +346,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The domain of the cotangent function is all real numbers except integer multiples of <m>\pi</m>.  The range is all real numbers <m>(-\infty, \infty)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="0.25cm" xml:id="act-trig-other-cot-task-4">
       <statement>
@@ -348,7 +364,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <image width="50%" source="solution-images/Activity4.5.4.png"/>
+      </solution>
     </task>
     <task workspace="1.75cm" xml:id="act-trig-other-cot-task-5">
       <statement>
@@ -358,7 +376,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The cotangent function is always decreasing on every interval where it is defined.
+        </p>
+      </solution>
     </task>
     <task workspace="1.75cm" xml:id="act-trig-other-cot-task-6">
       <statement>
@@ -368,7 +390,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The period of the cotangent function is <m>\pi</m> radians.
+        </p>
+      </solution>
     </task>
     <task workspace="1.75cm" xml:id="act-trig-other-cot-task-7">
       <statement>
@@ -378,7 +404,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The graph of <m>r(t) = \cot(t)</m> can be obtained from the graph of <m>\tan(t)</m> by reflecting over the <m>y</m>-axis and then shifting <m>\frac{\pi}{2}</m> to the right.  Equivalently, <m>\cot(t) = \tan\!\left(\frac{\pi}{2} - t\right)</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

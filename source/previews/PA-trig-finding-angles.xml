@@ -27,7 +27,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <image width="50%" source="solution-images/PrevAct4.4.1.png"/>
+      </solution>
     </task>
     <task workspace="2cm" xml:id="PA-trig-finding-angles-task-1">
       <statement>
@@ -37,7 +39,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The hypotenuse has length <m>\sqrt{(\sqrt{3})^2 + 3^2} = \sqrt{12} = 2\sqrt{3}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="2cm" xml:id="PA-trig-finding-angles-task-2">
       <statement>
@@ -47,7 +53,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Since <m>\theta</m> is opposite the shorter leg of length <m>\sqrt{3}</m>, we have <m>\sin(\theta) = \dfrac{\sqrt{3}}{2\sqrt{3}} = \dfrac{1}{2}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-trig-finding-angles-task-3">
       <statement>
@@ -57,7 +67,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Since <m>\sin(\theta) = \dfrac{1}{2}</m>, we can write <m>\arcsin\!\left(\dfrac{1}{2}\right) = \theta</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-trig-finding-angles-task-4">
       <statement>
@@ -67,7 +81,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Since <m>\sin\!\left(\dfrac{\pi}{6}\right) = \dfrac{1}{2}</m>, we have <m>\theta = \dfrac{\pi}{6}</m>.
+        </p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

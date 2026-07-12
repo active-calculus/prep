@@ -27,7 +27,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The domain of <m>\arcsin</m> is <m>[-1, 1]</m> and the range is <m>\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]</m>.</p>
+      </solution>
     </task>
     <task workspace="4.5cm" xml:id="act-trig-inverse-arcsin-task-1">
       <statement>
@@ -37,7 +39,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>\arcsin(-1) = -\frac{\pi}{2}</m>, <m>\arcsin\!\left(-\frac{\sqrt{2}}{2}\right) = -\frac{\pi}{4}</m>, <m>\arcsin(0) = 0</m>, <m>\arcsin\!\left(\frac{1}{2}\right) = \frac{\pi}{6}</m>, and <m>\arcsin\!\left(\frac{\sqrt{3}}{2}\right) = \frac{\pi}{3}</m>.</p>
+      </solution>
     </task>
     <task workspace="1.5cm" xml:id="act-trig-inverse-arcsin-task-2">
       <statement>
@@ -51,7 +55,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <image width="50%" source="solution-images/Activity4.3.3c.png"/>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-trig-inverse-arcsin-task-3">
       <statement>
@@ -61,7 +67,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>False.  Since <m>\sin(5\pi) = 0</m> and <m>\arcsin(0) = 0</m>, we have <m>\arcsin(\sin(5\pi)) = 0 \ne 5\pi</m>.  The arcsine function only returns values in <m>\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]</m>, so <m>\arcsin(\sin(t)) = t</m> only when <m>t</m> is already in that interval.</p>
+      </solution>
     </task>
     <answer>
       <p/>

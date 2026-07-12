@@ -30,7 +30,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The polynomial <m>T_1(x) = x</m>.  It appears that <m>\sin(x) \approx T_1(x)</m> for values of <m>x</m> near <m>0</m>, roughly for <m>|x| \lesssim 0.5</m>.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-polynomial-applications-Taylor-task-1">
       <statement>
@@ -40,7 +42,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The polynomial <m>T_3(x) = x - \dfrac{x^3}{3!}</m>.  It appears that <m>\sin(x) \approx T_3(x)</m> for roughly <m>|x| \lesssim 1.5</m>.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-polynomial-applications-Taylor-task-2">
       <statement>
@@ -50,7 +54,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The polynomial <m>T_5(x) = x - \dfrac{x^3}{3!} + \dfrac{x^5}{5!}</m>.  It appears that <m>\sin(x) \approx T_5(x)</m> for roughly <m>|x| \lesssim 2.5</m>.</p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-poly-polynomial-applications-Taylor-task-3">
       <statement>
@@ -60,7 +66,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Each additional term in the polynomial extends the range of <m>x</m>-values over which the approximation is accurate.  <m>T_{19}(x)</m> provides an excellent approximation to <m>\sin(x)</m> over a very large interval, essentially indistinguishable from <m>\sin(x)</m> on most standard viewing windows.</p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-poly-polynomial-applications-Taylor-task-4">
       <statement>
@@ -70,13 +78,23 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Following the pattern of alternating signs and even powers, the next polynomials are
+        <md>
+          <mrow>P_6(x) &amp;= 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!},</mrow>
+          <mrow>P_8(x) &amp;= 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \frac{x^8}{8!},</mrow>
+          <mrow>P_{18}(x) &amp;= \sum_{j=0}^{9} \frac{(-1)^j x^{2j}}{(2j)!}.</mrow>
+        </md>
+        Polynomial approximations can approximate <m>y = \cos(x)</m> just as well as <m>y = \sin(x)</m>; each added term extends the range of accuracy.</p>
+      </solution>
     </task>
     <answer>
       <p/>
     </answer>
     <solution>
-      <p/>
+      <p>
+        <m>T_1(x)=x</m> is good near <m>x=0</m>; each higher-degree polynomial extends the interval of accuracy.  <m>T_{19}</m> approximates <m>\sin(x)</m> extremely well.  The cosine analogues follow the pattern <m>P_{2k}(x) = \sum_{j=0}^{k} \frac{(-1)^j x^{2j}}{(2j)!}</m>.
+      </p>
     </solution>
   </activity>
 </worksheet>

@@ -57,7 +57,29 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              <m>f(10) = \ln(10) \approx 2.303</m>, <m>g(10) = 100</m>, <m>h(10) = e^{10} \approx 22026</m>;
+              <m>f(100) \approx 4.605</m>, <m>g(100) = 10000</m>, <m>h(100) \approx 2.69 \times 10^{43}</m>.
+              The exponential <m>h</m> grows dramatically faster than the polynomial <m>g</m>, which in turn grows faster than the logarithm <m>f</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>f(x) = \ln(x) \ge 10^{10}</m> requires <m>x \ge e^{10^{10}} \approx 10^{4.3 \times 10^9}</m> (an astronomically large value).
+              <m>g(x) = x^2 \ge 10^{10}</m> requires <m>x \ge 10^5 = 100000</m>.
+              <m>h(x) = e^x \ge 10^{10}</m> requires <m>x \ge 10\ln(10) \approx 23.03</m>.
+              The exponential reaches <m>10^{10}</m> at a tiny input compared to the others, confirming that <m>e^x</m> grows fastest.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>r(10) = \frac{100}{e^{10}} \approx 0.00454</m>, <m>r(100) \approx 3.7 \times 10^{-40}</m>, <m>r(1000) \approx 10^{-432}</m>.
+              Despite both <m>x^2</m> and <m>e^x</m> growing without bound, <m>r(x) \to 0</m> because the exponential grows far faster than the polynomial, so the ratio shrinks toward zero.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise> 
@@ -118,7 +140,33 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              <m>g</m> is <m>f</m> shifted <m>1</m> unit to the left and <m>2</m> units down: <m>g(x) = f(x+1) - 2</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>g(x) = \dfrac{1}{x+1} - 2</m>.  The domain is all real numbers except <m>x = -1</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              As <m>x \to \infty</m>, <m>\frac{1}{x+1} \to 0</m>, so <m>g(x) \to -2</m>.  As <m>x \to -1^+</m>, <m>x+1 \to 0^+</m> so <m>\frac{1}{x+1} \to +\infty</m>, giving <m>g(x) \to +\infty</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              A possible formula is <m>h(x) = \dfrac{1}{x-5} + 10</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>r(x) = \frac{1}{x+35} - 27</m> has vertical asymptote <m>x = -35</m>, horizontal asymptote <m>y = -27</m>, and domain all real numbers except <m>x = -35</m>.  The graph looks like <m>y = 1/x</m> shifted left <m>35</m> units and down <m>27</m> units.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -164,7 +212,28 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              All three functions are positive for <m>x \gt 0</m> and grow roughly like <m>x^2</m>.  They differ for <m>x \lt 0</m>: <m>f(x) = x^{2.4}</m> is even-symmetric (defined and positive for all <m>x</m>); <m>g(x) = x^{2.5}</m> is only defined for <m>x \ge 0</m>; <m>h(x) = x^{2.6}</m> is odd-symmetric (defined for all <m>x</m>, negative for <m>x \lt 0</m>).
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>g(x) = x^{5/2} = \sqrt{x^5}</m>, defined only for <m>x \ge 0</m> since square roots are undefined for negative inputs.  <m>h(x) = x^{13/5} = \sqrt[5]{x^{13}}</m>, defined for all real <m>x</m>.  <m>g</m> has a different domain (only <m>x \ge 0</m>) because it involves an even root.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>f</m> and <m>h</m> resemble <m>x^2</m> and <m>x^3</m> respectively (since <m>2.4</m> and <m>2.6</m> are close to those integers).  These are natural comparisons because they represent the even and odd symmetry templates for power functions with exponents near <m>2.4</m> and <m>2.6</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>p(x) = x^{-2.4} = \sqrt[5]{x^{-12}}</m>, defined for all <m>x \ne 0</m>, even-symmetric, approaching <m>0</m> as <m>x \to \pm\infty</m>.  <m>q(x) = x^{-2.5} = \frac{1}{\sqrt{x^5}}</m>, defined only for <m>x \gt 0</m>.  <m>r(x) = x^{-2.6} = \sqrt[5]{x^{-13}}</m>, defined for all <m>x \ne 0</m>, odd-symmetric.  All approach <m>0</m> as <m>x \to \pm\infty</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>

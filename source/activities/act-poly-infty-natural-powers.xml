@@ -30,7 +30,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Two trends to observe: (1) As <m>n</m> increases, the graph becomes flatter and wider near <m>x = 0</m> before rising steeply.  (2) When <m>n</m> is even, both ends of the graph go to <m>+\infty</m> (symmetric about the <m>y</m>-axis); when <m>n</m> is odd, the left end goes to <m>-\infty</m> and the right end goes to <m>+\infty</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-infty-natural-powers-task-1">
       <statement>
@@ -44,7 +48,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          On <m>0 \lt x \lt 1</m>, the graph of <m>x^b</m> stays closer to <m>0</m> than <m>x^a</m> when <m>b \gt a</m>.  That is, <m>x^a \gt x^b</m> on <m>(0,1)</m> when <m>a \lt b</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-infty-natural-powers-task-2">
       <statement>
@@ -58,7 +66,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Two trends to observe: (1) The graphs with even <m>n</m> are symmetric about the <m>y</m>-axis, while odd-<m>n</m> graphs pass through the origin from lower-left to upper-right.  (2) For larger <m>n</m>, the function stays very close to <m>0</m> on <m>(-1,1)</m> and then rises very steeply outside that interval.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-infty-natural-powers-task-3">
       <statement>
@@ -72,7 +84,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          On <m>x \gt 1</m>, the graph of <m>x^b</m> lies above the graph of <m>x^a</m> when <m>b \gt a</m>: larger exponents produce faster growth for <m>x \gt 1</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

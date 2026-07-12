@@ -94,7 +94,18 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a." cols="2">
+          <li><p><m>\arcsin\!\left(\frac{1}{2}\right) = \frac{\pi}{6}</m></p></li>
+          <li><p><m>\arctan(-1) = -\frac{\pi}{4}</m></p></li>
+          <li><p><m>\arcsin\!\left(-\frac{\sqrt{3}}{2}\right) = -\frac{\pi}{3}</m></p></li>
+          <li><p><m>\arctan\!\left(-\frac{1}{\sqrt{3}}\right) = -\frac{\pi}{6}</m></p></li>
+          <li><p><m>\arccos\!\left(\sin\!\left(\frac{\pi}{3}\right)\right) = \frac{\pi}{6}</m></p></li>
+          <li><p><m>\cos\!\left(\arcsin\!\left(-\frac{\sqrt{3}}{2}\right)\right) = \frac{1}{2}</m></p></li>
+          <li><p><m>\tan\!\left(\arcsin\!\left(-\frac{\sqrt{2}}{2}\right)\right) = -1</m></p></li>
+          <li><p><m>\arctan\!\left(\sin\!\left(\frac{\pi}{2}\right)\right) = \frac{\pi}{4}</m></p></li>
+          <li><p><m>\sin\!\left(\arcsin\!\left(-\frac{1}{2}\right)\right) = -\frac{1}{2}</m></p></li>
+          <li><p><m>\arctan\!\left(\tan\!\left(\frac{7\pi}{4}\right)\right) = -\frac{\pi}{4}</m></p></li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -147,7 +158,38 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              True.  Sine is the inverse function of arcsine, and therefore <m>\sin(\arcsin(y)) = y</m> for any <m>y</m> with <m>-1 \le y \le 1</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              False.  For example, <m>\arcsin\!\left(\sin\!\left(\frac{3\pi}{4}\right)\right) = \arcsin\!\left(\frac{\sqrt{2}}{2}\right) = \frac{\pi}{4} \ne \frac{3\pi}{4}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              False.  For example, <m>\arccos\!\left(\cos\!\left(-\frac{\pi}{4}\right)\right) = \arccos\!\left(\frac{\sqrt{2}}{2}\right) = \frac{\pi}{4} \ne -\frac{\pi}{4}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              True.  Cosine is the inverse function of arccosine, and therefore <m>\cos(\arccos(y)) = y</m> for any <m>y</m> with <m>-1 \le y \le 1</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              True.  Tangent is the inverse function of arctangent, and therefore <m>\tan(\arctan(y)) = y</m> for any real number <m>y</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              False.  For example, <m>\arctan\!\left(\tan\!\left(\frac{3\pi}{4}\right)\right) = \arctan(-1) = -\frac{\pi}{4} \ne \frac{3\pi}{4}</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -207,7 +249,28 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              The domain of <m>h</m> is <m>[-1, 1]</m> (the domain of arcsine).  The range of <m>h</m> is <m>[0, 1]</m>, since arcsin returns values in <m>\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]</m> and cosine is non-negative on that interval.
+            </p>
+          </li>
+          <li>
+            <p>
+              With hypotenuse <m>1</m> and vertical leg <m>x</m>, the Pythagorean Theorem gives the horizontal leg length as <m>\sqrt{1 - x^2}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              We have <m>\cos(\theta) = \dfrac{\sqrt{1-x^2}}{1} = \sqrt{1-x^2}</m>.  Therefore <m>h(x) = \cos(\arcsin(x)) = \sqrt{1 - x^2}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Let <m>\alpha = \arctan(x)</m>, so <m>\tan(\alpha) = x</m>.  In the corresponding right triangle, the opposite leg has length <m>x</m>, the adjacent leg has length <m>1</m>, and by the Pythagorean Theorem the hypotenuse has length <m>\sqrt{1 + x^2}</m>.  Therefore <m>p(x) = \cos(\arctan(x)) = \dfrac{1}{\sqrt{1+x^2}}</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>

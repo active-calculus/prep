@@ -31,7 +31,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Two trends: (1) For even-<m>n</m> exponents (like <m>x^{-2}, x^{-4}, \ldots</m>), the graph is symmetric about the <m>y</m>-axis and stays positive; for odd exponents (like <m>x^{-1}, x^{-3}, \ldots</m>), the graph is negative for <m>x \lt 0</m> and positive for <m>x \gt 0</m>.  (2) As the exponent becomes more negative, the graph becomes more sharply <q>L-shaped</q> near <m>x = 0</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-poly-infty-negative-powers-task-1">
       <statement>
@@ -46,7 +50,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          On <m>x \gt 1</m>, <m>x^a \lt x^b</m> when <m>a \lt b</m> (with both negative).  For example, <m>x^{-3} \lt x^{-2}</m> for <m>x \gt 1</m>, since dividing by a higher power gives a smaller result.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-infty-negative-powers-task-2">
       <statement>
@@ -56,7 +64,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          On <m>0 \lt x \lt 1</m>, the situation reverses: <m>x^a \gt x^b</m> when <m>a \lt b</m> (i.e., more negative exponents give larger values on <m>(0,1)</m> since dividing by a small number raised to a high power gives a large result).
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-poly-infty-negative-powers-task-3">
       <statement>
@@ -70,7 +82,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Two trends with the wider window: (1) The graphs with even exponents are symmetric about the <m>y</m>-axis; odd-exponent graphs are antisymmetric.  (2) As the exponent becomes more negative, the function rises more steeply near <m>x = 0</m> (steeper asymptotic behavior).
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-poly-infty-negative-powers-task-4">
       <statement>
@@ -80,7 +96,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          As <m>x \to \infty</m>, <m>x^n \to \infty</m> for any positive integer <m>n</m>, so <m>\frac{1}{x^n} = x^{-n} \to 0</m>.  Dividing <m>1</m> by an ever-larger number drives the result to <m>0</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>
