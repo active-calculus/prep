@@ -27,7 +27,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          In a circle of radius 11, the arc length intercepted by a central angle of <m>\frac{5\pi}{3}</m> is <m>11 \cdot \frac{5\pi}{3} = \frac{55\pi}{3}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3.5cm" xml:id="act-circular-unit-circle-non-unit-task-1">
       <statement>
@@ -37,7 +41,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          In a circle of radius 3, the central angle that intercepts an arc length <m>\frac{\pi}{4}</m> is <m>\frac{\pi/4}{3} = \frac{\pi}{12}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3.5cm" xml:id="act-circular-unit-circle-non-unit-task-2">
       <statement>
@@ -48,7 +56,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The radius is <m>\frac{\pi/2}{7\pi/6} = \frac{3}{7}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3.5cm" xml:id="act-circular-unit-circle-non-unit-task-3">
       <statement>
@@ -58,7 +70,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The angle corresponding to the arc length is <m>\theta = \frac{25\pi/6}{5} = \frac{5\pi}{6}</m>. But since <m>\frac{25\pi}{6} = 4\pi + \frac{\pi}{6}</m>, the effective angle is <m>\frac{\pi}{6}</m>.  Using the unit circle coordinates at <m>\frac{\pi}{6}</m>, the point on the circle of radius 5 is <m>\left( \frac{5\sqrt{3}}{2}, \frac{5}{2} \right)</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

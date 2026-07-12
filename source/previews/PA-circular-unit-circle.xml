@@ -33,7 +33,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <image width="50%" source="solution-images/PreviewActivity2.2.1.jpg"/>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-circular-unit-circle-task-1">
       <statement>
@@ -43,7 +45,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          One-quarter of a full rotation corresponds to a distance of <m>\frac{\pi}{2}</m>.  Five-eighths of a full rotation corresponds to a distance of <m>\frac{5\pi}{4}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="0.5cm" xml:id="PA-circular-unit-circle-task-2">
       <statement>
@@ -64,7 +70,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <image width="50%" source="solution-images/PreviewActivity2.2.1c.png"/>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-circular-unit-circle-task-3">
       <statement>
@@ -74,7 +82,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>90^\circ</m> corresponds to <m>\frac{\pi}{2}</m> radians.
+        </p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

@@ -27,7 +27,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Period <m>\frac{\pi}{5}</m>, amplitude 1, midline <m>y=2</m>, range <m>[1,3]</m>, no horizontal shift, anchor point <m>(0,2)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-circular-sinusoidal-period-task-1">
       <statement>
@@ -37,7 +41,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Period <m>8\pi</m>, amplitude 3 (with reflection), midline <m>y=-4</m>, range <m>[-7,-1]</m>, no horizontal shift, anchor point <m>(0,-7)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-circular-sinusoidal-period-task-2">
       <statement>
@@ -47,7 +55,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Period 8, amplitude 2, midline <m>y=5</m>, range <m>[3,7]</m>, no horizontal shift, anchor point <m>(0,5)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-circular-sinusoidal-period-task-3">
       <statement>
@@ -57,7 +69,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Period 4, amplitude 2, midline <m>y=5</m>, range <m>[3,7]</m>, horizontal shift 3 units to the right, anchor point <m>(0,5)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-circular-sinusoidal-period-task-4">
       <statement>
@@ -67,7 +83,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Note that <m>u(x) = -0.25\sin(3(x-2)) + 5</m>.  Period <m>\frac{2\pi}{3}</m>, amplitude <m>0.25</m>, midline <m>y=5</m>, range <m>[4.75,5.25]</m>, horizontal shift 2 units to the right.  The anchor point is at approximately <m>(0, 4.93)</m>, since <m>u(0) = -0.25\sin(-6)+5</m> is not a convenient exact value.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

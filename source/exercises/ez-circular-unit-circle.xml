@@ -77,7 +77,28 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              Using <m>x^2 + y^2 = 1</m> with <m>x = -0.3</m> and <m>y &lt; 0</m>: <m>y = -\sqrt{1 - 0.09} = -\frac{\sqrt{91}}{10} \approx -0.954</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              With <m>x = -2y</m> and <m>x^2 + y^2 = 1</m>: <m>4y^2 + y^2 = 1</m>, so <m>y = \frac{\sqrt{5}}{5}</m> and <m>x = -\frac{2\sqrt{5}}{5}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Going <m>\frac{29\pi}{6}</m> clockwise corresponds to the angle <m>-\frac{29\pi}{6} \equiv \frac{7\pi}{6} \pmod{2\pi}</m>.  The coordinates are <m>\left(-\frac{\sqrt{3}}{2}, -\frac{1}{2}\right)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Substituting <m>y = \frac{1}{2}x + \frac{1}{2}</m> into <m>x^2 + y^2 = 1</m> and solving gives <m>x = -1</m> or <m>x = \frac{3}{5}</m>.  The intersection points are <m>(-1, 0)</m> and <m>\left(\frac{3}{5}, \frac{4}{5}\right)</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -125,10 +146,41 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              A circle of radius <m>r</m> centered at <m>(h,k)</m> is simply the unit circle transformed with a horizontal translation <m>h</m> units to the right, a vertical translation <m>k</m> units up, and scaled both horizontally and vertically by a factor of <m>r</m>.  Thus the parent equation <m>x^2 + y^2 = 1</m> is transformed with <m>x \to \frac{x-h}{r}</m> and <m>y \to \frac{y-k}{r}</m>:
+              <md>
+                \left(\frac{x-h}{r}\right)^2 + \left(\frac{y-k}{r}\right)^2 &amp;= 1 \\
+                \frac{(x-h)^2}{r^2} + \frac{(y-k)^2}{r^2} &amp;= 1 \\
+                (x-h)^2 + (y-k)^2 &amp;= r^2.
+              </md>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(x+3)^2 + (y-5)^2 = 4</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(x-4)^2 + (y+7)^2 = 25</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The circle has radius 4, so the arc length is <m>4 \cdot \frac{2\pi}{3} = \frac{8\pi}{3}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The diameter has length <m>\sqrt{(4-(-2))^2 + (2-(-1))^2} = \sqrt{45}</m>, so the radius is <m>\frac{\sqrt{45}}{2}</m>.  The center is the midpoint <m>\left(1, \frac{1}{2}\right)</m>.  The equation is <m>(x-1)^2 + \left(y - \frac{1}{2}\right)^2 = \frac{45}{4}</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
-  </exercise>  
+  </exercise>
 
   <exercise xml:id="ez-circular-unit-circle-larger-radius">
     <statement>
@@ -168,7 +220,26 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              At <m>\theta = \frac{\pi}{6}</m>: <m>a = \frac{5\sqrt{3}}{2}</m>, <m>b = \frac{5}{2}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              At <m>\theta = \frac{\pi}{4}</m>: <m>a = b = \frac{5\sqrt{2}}{2}</m>.  At <m>\theta = \frac{\pi}{3}</m>: <m>a = \frac{5}{2}</m>, <m>b = \frac{5\sqrt{3}}{2}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              One full revolution has distance equal to the circumference: <m>2\pi \cdot 5 = 10\pi</m>.
+            </p>
+          </li>
+          <li>
+            <image width="50%" source="solution-images/Sec2.2Exer10d.png"/>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>

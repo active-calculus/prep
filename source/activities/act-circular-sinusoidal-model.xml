@@ -31,7 +31,13 @@
       <p/>
     </answer>
     <solution>
-      <p/>
+      <p>
+        The midline is <m>c = \frac{1.5+4}{2} = 2.75</m> feet, the amplitude is <m>a = \frac{4-1.5}{2} = 1.25</m> feet, the range is <m>[1.5,4]</m>, and the anchor point is at approximately <m>(0, 1.67)</m>.  Since <m>d(1.25) = 4</m> is the maximum and the period is 3, we have <m>k = \frac{2\pi}{3}</m> and <m>b = 1.25</m>.  The formula is
+        <md>
+          d(t) = 1.25\cos\!\left(\frac{2\pi}{3}(t - 1.25)\right) + 2.75.
+        </md>
+      </p>
+      <image width="50%" source="solution-images/Activity2.4.5.png"/>
     </solution>
   </activity>
 </worksheet>

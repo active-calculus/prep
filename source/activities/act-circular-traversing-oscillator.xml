@@ -181,7 +181,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The period of the motion is <m>p = 4</m> seconds.  The midline is <m>y = 8</m> inches.  The amplitude is <m>a = 5</m> inches.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-circular-traversing-oscillator-task-1">
       <statement>
@@ -191,7 +195,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The greatest displacement of the weight is equal to the maximum of the graph: 13 inches.  The least displacement is the minimum: 3 inches.  The range of <m>f</m> is <m>[3, 13]</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-circular-traversing-oscillator-task-2">
       <statement>
@@ -201,7 +209,19 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The average rate of change <m>AV_{[4,4.25]}</m> on the interval <m>[4,4.25]</m> is
+          <md>
+            \frac{6.807 - 8.00}{4.25 - 4} = \frac{-1.193}{0.25} = -4.772 \text{ inches per second}.
+          </md>
+          The average rate of change <m>AV_{[4.75,5]}</m> on the interval <m>[4.75,5]</m> is
+          <md>
+            \frac{3.000 - 3.381}{5 - 4.75} = \frac{-0.381}{0.25} = -1.524 \text{ inches per second}.
+          </md>
+          The average rate of change of this function represents the speed of the weight.  Taken together, these two values indicate that the weight is moving more slowly on the interval <m>[4.75,5]</m> than on the interval <m>[4,4.25]</m>, but that the weight is moving in the same direction on each of these intervals.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-circular-traversing-oscillator-task-3">
       <statement>
@@ -211,7 +231,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The value of <m>f(6.75) = f(2.75) = 12.619</m> inches.  The value of <m>f(11.25) = f(7.25) = f(3.25) = 12.619</m> inches.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

@@ -31,7 +31,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The exact value of <m>f\left(\frac{\pi}{4}\right) = \frac{\sqrt{2}}{2}</m>, and the exact value of <m>f\left(\frac{\pi}{3}\right) = \frac{\sqrt{3}}{2}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="1.5cm" xml:id="PA-circular-sine-task-1">
       <statement>
@@ -141,7 +145,59 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <tabular>
+          <row bottom="minor">
+            <cell><m>t</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>\frac{\pi}{6}</m></cell>
+            <cell><m>\frac{\pi}{4}</m></cell>
+            <cell><m>\frac{\pi}{3}</m></cell>
+            <cell><m>\frac{\pi}{2}</m></cell>
+            <cell><m>\frac{2\pi}{3}</m></cell>
+            <cell><m>\frac{3\pi}{4}</m></cell>
+            <cell><m>\frac{5\pi}{6}</m></cell>
+            <cell><m>\pi</m></cell>
+          </row>
+          <row>
+            <cell><m>h</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>\frac{1}{2}</m></cell>
+            <cell><m>\frac{\sqrt{2}}{2}</m></cell>
+            <cell><m>\frac{\sqrt{3}}{2}</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>\frac{\sqrt{3}}{2}</m></cell>
+            <cell><m>\frac{\sqrt{2}}{2}</m></cell>
+            <cell><m>\frac{1}{2}</m></cell>
+            <cell><m>0</m></cell>
+          </row>
+          <row><cell colspan="10"/></row>
+          <row bottom="minor">
+            <cell><m>t</m></cell>
+            <cell><m>\pi</m></cell>
+            <cell><m>\frac{7\pi}{6}</m></cell>
+            <cell><m>\frac{5\pi}{4}</m></cell>
+            <cell><m>\frac{4\pi}{3}</m></cell>
+            <cell><m>\frac{3\pi}{2}</m></cell>
+            <cell><m>\frac{5\pi}{3}</m></cell>
+            <cell><m>\frac{7\pi}{4}</m></cell>
+            <cell><m>\frac{11\pi}{6}</m></cell>
+            <cell><m>2\pi</m></cell>
+          </row>
+          <row>
+            <cell><m>h</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>-\frac{1}{2}</m></cell>
+            <cell><m>-\frac{\sqrt{2}}{2}</m></cell>
+            <cell><m>-\frac{\sqrt{3}}{2}</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>-\frac{\sqrt{3}}{2}</m></cell>
+            <cell><m>-\frac{\sqrt{2}}{2}</m></cell>
+            <cell><m>-\frac{1}{2}</m></cell>
+            <cell><m>0</m></cell>
+          </row>
+        </tabular>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-circular-sine-task-2">
       <statement>
@@ -151,7 +207,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The exact value of <m>f\left(\frac{11\pi}{4}\right)</m> is the same as <m>f\left(\frac{3\pi}{4}\right) = \frac{\sqrt{2}}{2}</m>, because of the periodicity of <m>2\pi</m>.  Likewise, <m>f\left(\frac{14\pi}{3}\right) = f\left(\frac{2\pi}{3}\right) = \frac{\sqrt{3}}{2}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-circular-sine-task-3">
       <statement>
@@ -161,7 +221,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>f(t) = -\frac{\sqrt{3}}{2}</m> for values <m>t = n(2\pi) + \frac{4\pi}{3}</m> and <m>t = n(2\pi) + \frac{5\pi}{3}</m>, where <m>n</m> is a non-negative integer.  Four such values are: <m>t = \frac{4\pi}{3},\ \frac{5\pi}{3},\ \frac{10\pi}{3},\ \frac{11\pi}{3}</m>.
+        </p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

@@ -25,7 +25,9 @@
       <p/>
     </answer>
     <solution>
-      <p/>
+      <p>
+        Note, the measurements of the system are physical, so exact values are not appropriate.  The spring-mass system may be described in many ways.  One formula is <m>d(t) = -2.5\sin(t) + 4.5</m>, and has an anchor point with coordinates <m>(0, 4.5)</m>, corresponding to the starting position of the mass.  Another formula with the same anchor point is <m>d(t) = 2.5\cos\!\left(t + \frac{\pi}{2}\right) + 4.5</m>.
+      </p>
     </solution>
   </activity>
 </worksheet>

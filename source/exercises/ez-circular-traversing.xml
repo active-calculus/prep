@@ -144,7 +144,54 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              The point <m>P_0</m> is directly to the left of the center <m>(2,2)</m>, so its <m>x</m>-coordinate is one radius less than 2.  The radius is <m>\frac{8}{2\pi} = \frac{4}{\pi}</m>, so the exact <m>x</m>-coordinate is <m>2 - \frac{4}{\pi} = \frac{2(\pi-2)}{\pi} \approx 0.727</m>.
+            </p>
+          </li>
+          <li>
+            <tabular halign="center">
+              <row bottom="minor">
+                <cell><m>d</m></cell>
+                <cell><m>0</m></cell><cell><m>1</m></cell><cell><m>2</m></cell><cell><m>3</m></cell>
+                <cell><m>4</m></cell><cell><m>5</m></cell><cell><m>6</m></cell><cell><m>7</m></cell>
+                <cell><m>8</m></cell>
+              </row>
+              <row>
+                <cell><m>k</m></cell>
+                <cell><m>0.73</m></cell><cell><m>1.10</m></cell><cell><m>2</m></cell><cell><m>2.90</m></cell>
+                <cell><m>3.27</m></cell><cell><m>2.90</m></cell><cell><m>2</m></cell><cell><m>1.10</m></cell>
+                <cell><m>0.73</m></cell>
+              </row>
+            </tabular>
+            <tabular halign="center">
+              <row bottom="minor">
+                <cell><m>d</m></cell>
+                <cell><m>9</m></cell><cell><m>10</m></cell><cell><m>11</m></cell><cell><m>12</m></cell>
+                <cell><m>13</m></cell><cell><m>14</m></cell><cell><m>15</m></cell><cell><m>16</m></cell>
+              </row>
+              <row>
+                <cell><m>k</m></cell>
+                <cell><m>1.10</m></cell><cell><m>2</m></cell><cell><m>2.90</m></cell><cell><m>3.27</m></cell>
+                <cell><m>2.90</m></cell><cell><m>2</m></cell><cell><m>1.10</m></cell><cell><m>0.73</m></cell>
+              </row>
+            </tabular>
+          </li>
+          <li>
+            <image width="50%" source="solution-images/Sec2.1Ex5c.png"/>
+          </li>
+          <li>
+            <p>
+              The graph is just a horizontal shift compared to the graph of <m>h</m> from <xref ref="act-circular-traversing-2nd-ex"/>.
+            </p>
+          </li>
+          <li>
+            <p>
+              When <m>d = 51</m>, <m>k(51) = 2.90</m>.  When <m>d = 102</m>, <m>k(102) = 2</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -200,7 +247,28 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              The midline of each oscillation graph corresponds to the center <m>y</m>-coordinate, and the amplitude equals the radius.  Function <m>f</m> has a maximum of 11 and a minimum of 3, so the radius (amplitude) is 4 and the midline is <m>y = 7</m>.  Function <m>g</m> has a maximum of 12 and a minimum of 1, so the radius (amplitude) is 5.5 and the midline is <m>y = 6.5</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Assuming counterclockwise motion: the circle for function <m>f</m> begins its traverse at the 9:00 position with coordinates <m>(-4, 7)</m>.  The circle for function <m>g</m> begins at the 12:00 position with coordinates <m>(0, 12)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              For function <m>f</m>, the period of the function is 8 units.  For function <m>g</m>, the period is 8 units.  For these graphs, one period is one complete traverse of the circle.  The speed <m>v</m> of the point is equal to the circumference of the circle divided by the period <m>T</m> of one complete circle: <m>v = \frac{2\pi r}{T}</m>, so the horizontal scale corresponds to defining each period as <m>\frac{2\pi r}{v}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The changes to the graph depend in part on whether the speed stays the same.  If the circle's radius gets one unit larger and the speed stays the same, then the period of the graph of function <m>f</m> increases to <m>\frac{5}{4} \cdot 8 = 10</m> units; the amplitude of the graph changes to 5.  For function <m>g</m>, a constant-speed scenario changes the period to <m>\frac{7.5}{6.5} \cdot 8 \approx 9.23</m> units; the amplitude of <m>g</m> changes to 7.5.  If the circle's radius gets one unit smaller and the speed stays the same, then the period of the graph of function <m>f</m> decreases to <m>\frac{3}{4} \cdot 8 = 6</m> units; the amplitude of the graph changes to 3.  For function <m>g</m>, a constant-speed scenario changes the period to <m>\frac{5.5}{6.5} \cdot 8 \approx 6.77</m> units; the amplitude changes to 4.5.  The amplitude of each graph will increase by 1 if the radius increases and decrease by 1 if the radius decreases, but there is no change to the midline.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -243,7 +311,26 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              The center of the ferris wheel is at height <m>\frac{92 - 7}{2} + 7 = 49.5</m> feet.
+            </p>
+          </li>
+          <li>
+            <p>
+              The radius is <m>42.5</m> feet, so the circumference is <m>2\pi \cdot 42.5 = 85\pi \approx 267</m> feet.
+            </p>
+          </li>
+          <li>
+            <p>
+              The circular function <m>h = f(d)</m> has amplitude <m>42.5</m> feet, midline <m>y = 49.5</m> feet, and period <m>85\pi \approx 267</m> feet.
+            </p>
+          </li>
+          <li>
+            <image width="50%" source="solution-images/Sec2.1Ex7d.png"/>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
