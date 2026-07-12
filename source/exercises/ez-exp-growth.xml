@@ -100,7 +100,34 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              The area of Grinnell Glacier is <m>G(t) = 142(0.956)^t</m>.
+            </p>
+            <image width="50%" source="solution-images/Sec3.1Exer8.png"/>
+          </li>
+          <li>
+            <p>
+              In 1997 (<m>t = -10</m>), the model predicts <m>142(0.956)^{-10} \approx 223</m> acres.  In 2012 (<m>t = 5</m>), the model predicts <m>142(0.956)^{5} \approx 113</m> acres.  In 2022 (<m>t = 15</m>), the model predicts <m>142(0.956)^{15} \approx 72</m> acres.
+            </p>
+          </li>
+          <li>
+            <p>
+              According to the model, between 2007 and 2012 the glacier lost about <m>142 - 113 = 29</m> acres.
+            </p>
+          </li>
+          <li>
+            <p>
+              The average rate of change of <m>G</m> from 2007 to 2012 is approximately <m>-29/5 \approx -5.8</m> acres per year.  The average retreat of the glacier was about <m>5.8</m> acres per year from 2007 to 2012.  This rate of change is expected to be larger in magnitude than the average rate of change from 2012 to 2017, because the rate of decrease is decreasing with time.
+            </p>
+          </li>
+          <li>
+            <p>
+              The Grinnell Glacier is retreating at a decreasing rate.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -150,7 +177,28 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              Taking the ratio of the two given points: <m>b = \left(\frac{1}{4}\right)^{1/5} \approx 0.7579</m>, and substituting back gives <m>a = 10 \cdot 2^{9/5} \approx 34.82</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>AV_{[2,7]} = (5 - 20)/(7 - 2) = -3</m> and <m>AV_{[7,12]} = (f(12) - 5)/(12 - 7) = -\frac{3}{4}</m>.  The greater average rate of change is on the interval <m>[2,7]</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              A linear equation passing through <m>(2, 20)</m> and <m>(7, 5)</m> is <m>L = -3t + 26</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Given that the rate of decrease of the exponential function <m>f</m> is decreasing and the rate of change of the linear function <m>L</m> is constant, the average rate of change of <m>f</m> will be greater in magnitude than <m>L</m> on the interval <m>[0, 2]</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -218,7 +266,28 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              The function described by the data appears exponential because there is a consistent ratio of about <m>0.7408</m> between temperatures at sequential 2-minute intervals.
+            </p>
+          </li>
+          <li>
+            <p>
+              It is necessary to take the square root of the ratio between 2-minute measurements to find the 1-minute growth factor.  A possible formula is <m>F(t) = 175(0.7408)^{t/2} \approx 175(0.8607)^t</m>.  We can verify: <m>F(0) = 175</m>, <m>F(2) \approx 129.64</m>, <m>F(4) \approx 96.04</m>, and so on.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>AV_{[4,6]} = (71.15 - 96.04)/(6 - 4) \approx -12.45</m> degrees per minute.  The meaning of this rate of change is the average amount of cooling per minute on the interval <m>[4,6]</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              An insulating mug would reduce the rate of cooling, but the temperature would still follow an exponential model.  The growth factor would be less than 1 but closer to 1 than <m>0.8607</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -271,7 +340,39 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              The value of <m>b</m> is about <m>0.875</m>, or <m>\sqrt[3]{15.2/22.7}</m>.  The value of <m>a</m> is about <m>33.9</m> milligrams.
+            </p>
+          </li>
+          <li>
+            <p>
+              The initial dose is equal to the coefficient <m>a</m>, about <m>33.9</m> milligrams.
+            </p>
+          </li>
+          <li>
+            <p>
+              Eight hours after the initial dose, the remaining amount is <m>33.9(0.875)^8 \approx 11.6</m> milligrams.
+            </p>
+          </li>
+          <li>
+            <p>
+              There will be less than <m>1</m> mg in the body after about <m>26.4</m> hours.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>AV_{[3,5]} \approx -2.7</m> mg/hour, <m>AV_{[5,7]} \approx -2.0</m> mg/hour, and <m>AV_{[7,9]} \approx -1.6</m> mg/hour.  On the interval <m>[3,5]</m>, the amount of drug in the patient is decreasing at an average rate of <m>2.7</m> mg per hour.  The rate of decrease is decreasing over time.
+            </p>
+          </li>
+          <li>
+            <p>
+              A graph of the model is shown below.
+            </p>
+            <image width="75%" source="solution-images/Sec3.1Exercise11.png"/>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>

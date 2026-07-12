@@ -35,7 +35,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          When <m>b = 1.1</m>, changing the value of <m>a</m> where <m>5 \le a \le 50</m> causes a vertical stretch effect.  The coefficient <m>c</m> causes a vertical shift.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-exp-modeling-task-1">
       <statement>
@@ -44,7 +48,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The same vertical stretch and vertical shift behavior is apparent when <m>b = 0.9</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-exp-modeling-task-2">
       <statement>
@@ -57,7 +65,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          When <m>a = 5</m> and <m>c = 4</m>, the line rises to the left and flattens to the right when <m>b \lt 1</m>, the line is flat when <m>b = 1</m>, and the line flattens to the left and rises to the right when <m>b \gt 1</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-exp-modeling-task-3">
       <statement>
@@ -68,7 +80,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          When <m>0 \lt b \lt 1</m>, the graph gets closer and closer to <m>c</m> at greater and greater values of <m>t</m>.
+        </p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

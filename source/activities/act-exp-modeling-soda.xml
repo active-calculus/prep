@@ -36,7 +36,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The graph of <m>p(t) = (0.95)^t</m> is always decreasing, always concave up, and decreasing toward zero.
+        </p>
+        <image width="50%" source="solution-images/Activity3.2.3a.png"/>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-exp-modeling-soda-task-1">
       <statement>
@@ -47,7 +52,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>r(t) = 30(0.95)^t</m> is similar to <m>p(t)</m> but stretched vertically by a factor of <m>30</m>.  It is always decreasing, always concave up, and decreasing toward zero.
+        </p>
+        <image width="50%" source="solution-images/Activity3.2.3b.png"/>
+      </solution>
     </task>
     <task workspace="1cm" xml:id="act-exp-modeling-soda-task-2">
       <statement>
@@ -63,7 +73,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Since <m>F(t) = 42 + 30(0.95)^t</m> has a vertical shift of <m>42</m> up, it remains always decreasing, always concave up, but decreasing toward <m>42</m>.
+        </p>
+        <image width="50%" source="solution-images/Activity3.2.3c.png"/>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-exp-modeling-soda-task-3">
       <statement>
@@ -75,7 +90,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Because <m>F(t)</m> decreases toward <m>42</m>, that is the temperature of the refrigerator.  Because the function starts at <m>42 + 30 = 72</m>, that is the room temperature of the surroundings outside the refrigerator.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-modeling-soda-task-4">
       <statement>
@@ -88,7 +107,16 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <md>
+            AV_{[10,20]} &amp;= \frac{30(0.95^{20} - 0.95^{10})}{20-10} \approx -0.721 \text{ degrees per minute} \\
+            AV_{[20,30]} &amp;= \frac{30(0.95^{30} - 0.95^{20})}{30-20} \approx -0.432 \text{ degrees per minute} \\
+            AV_{[30,40]} &amp;= \frac{30(0.95^{40} - 0.95^{30})}{40-30} \approx -0.258 \text{ degrees per minute}
+          </md>
+          The average rate of change is always negative and is decreasing in magnitude as <m>t</m> increases.  This is consistent with a function that is always decreasing and always concave up.  In context, the soda is cooling more and more slowly as time goes on.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

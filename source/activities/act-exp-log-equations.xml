@@ -27,7 +27,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>t = \ln\!\left(\frac{1}{10}\right) \approx -2.30</m>
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-exp-log-equations-task-1">
       <statement>
@@ -37,7 +41,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>t = \ln\!\left(\frac{7}{5}\right) \approx 0.336</m>
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-log-equations-task-2">
       <statement>
@@ -47,7 +55,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>t = e^{-1/3} \approx 0.717</m>
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-log-equations-task-3">
       <statement>
@@ -57,7 +69,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>e^{1-3t} = 4</m> gives <m>1 - 3t = \ln 4</m>, so <m>t = \dfrac{1 - \ln 4}{3} \approx -0.129</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-exp-log-equations-task-4">
       <statement>
@@ -67,7 +83,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>2\ln(t) + 1 = 4</m> gives <m>\ln(t) = \frac{3}{2}</m>, so <m>t = e^{3/2} \approx 4.48</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-exp-log-equations-task-5">
       <statement>
@@ -77,7 +97,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>4 - 3e^{2t} = 2</m> gives <m>e^{2t} = \frac{2}{3}</m>, so <m>t = \frac{1}{2}\ln\!\left(\frac{2}{3}\right) \approx -0.203</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-exp-log-equations-task-6">
       <statement>
@@ -87,7 +111,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          There is no solution because the equation gives <m>e^{2t} = -\frac{2}{3}</m>, and there is no exponent for which <m>e</m> raised to that power is negative.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-exp-log-equations-task-7">
       <statement>
@@ -97,7 +125,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>\ln(5 - 6t) = -2</m> gives <m>5 - 6t = e^{-2}</m>, so <m>t = \frac{5 - e^{-2}}{6} \approx 0.811</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

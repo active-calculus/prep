@@ -95,7 +95,43 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              The domain of <m>y = g(x) = e^{-0.25x}</m> is all real numbers and the range is all positive real numbers.  Solving for <m>x</m>: <m>x = g^{-1}(y) = \dfrac{\ln y}{-0.25}</m>.  The domain of the inverse is all positive real numbers and the range is all real numbers.
+            </p>
+          </li>
+          <li>
+            <p>
+              The domain of <m>y = h(x) = 2e^x + 1</m> is all real numbers and the range is all real numbers greater than <m>1</m>.  The inverse is <m>x = h^{-1}(y) = \ln\!\dfrac{y-1}{2}</m>.  The domain of the inverse is all real numbers greater than <m>1</m> and the range is all real numbers.
+            </p>
+          </li>
+          <li>
+            <p>
+              The domain of <m>y = r(x) = 21 + 15e^{-0.1x}</m> is all real numbers and the range is all real numbers greater than <m>21</m>.  The inverse is <m>x = r^{-1}(y) = \dfrac{\ln\!\left(\frac{y-21}{15}\right)}{-0.1}</m>.  The domain of the inverse is all real numbers greater than <m>21</m> and the range is all real numbers.
+            </p>
+          </li>
+          <li>
+            <p>
+              The domain of <m>y = s(x) = 72 - 40e^{-0.05x}</m> is all real numbers and the range is all real numbers less than <m>72</m>.  The inverse is <m>x = s^{-1}(y) = \dfrac{\ln\!\left(\frac{y-72}{-40}\right)}{-0.05}</m>.  The domain of the inverse is all real numbers less than <m>72</m> and the range is all real numbers.
+            </p>
+          </li>
+          <li>
+            <p>
+              The domain of <m>y = u(x) = -5e^{3x-4} + 8</m> is all real numbers and the range is all real numbers less than <m>8</m>.  The inverse is <m>x = u^{-1}(y) = \dfrac{\ln\!\left(\frac{y-8}{-5}\right) + 4}{3}</m>.  The domain of the inverse is all real numbers less than <m>8</m> and the range is all real numbers.
+            </p>
+          </li>
+          <li>
+            <p>
+              The domain of <m>y = w(x) = 3\ln(x) + 4</m> is all positive real numbers and the range is all real numbers.  The inverse is <m>x = w^{-1}(y) = e^{(y-4)/3}</m>.  The domain of the inverse is all real numbers and the range is all positive real numbers.
+            </p>
+          </li>
+          <li>
+            <p>
+              The domain of <m>y = z(x) = -0.2\ln(2x-5) + 1</m> is all real numbers greater than <m>\frac{5}{2}</m> and the range is all real numbers.  The inverse is <m>x = z^{-1}(y) = \dfrac{e^{(y-1)/(-0.2)} + 5}{2}</m>.  The domain of the inverse is all real numbers and the range is all real numbers greater than <m>\frac{5}{2}</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -150,7 +186,28 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              In <em>Desmos</em>, entering <c>V(t) = k * ln(t)</c> and <c>f(t) = log_2(t)</c>, we can adjust the slider until the graphs coincide.  The value <m>k = \frac{1}{\ln 2} \approx 1.443</m> makes <m>\log_2(t) = k\ln(t)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Similarly, the values of <m>k</m> for the other functions are: for <m>g(t) = \log_3(t)</m>, <m>k = \frac{1}{\ln 3} \approx 0.910</m>; for <m>h(t) = \log_5(t)</m>, <m>k = \frac{1}{\ln 5} \approx 0.621</m>; and for <m>p(t) = \log_{1.25}(t)</m>, <m>k = \frac{1}{\ln(1.25)} \approx 4.481</m>.  In each case, <m>k = \frac{1}{\ln b}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              True.  For any <m>b \gt 1</m>, the function <m>\log_b(t)</m> is a vertical scaling of <m>\ln(t)</m> by a factor of <m>\frac{1}{\ln b}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              We compute <m>\frac{1}{\ln 2} \approx 1.443</m>, <m>\frac{1}{\ln 3} \approx 0.910</m>, <m>\frac{1}{\ln 5} \approx 0.621</m>, and <m>\frac{1}{\ln(1.25)} \approx 4.481</m>.  These are exactly the values of <m>k</m> found in (a) and (b), confirming that <m>\log_b(t) = \frac{1}{\ln b} \cdot \ln(t)</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -198,7 +255,35 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              We solve <m>74.4 - 38.8e^{-0.05t} = 50</m>.  Subtracting <m>74.4</m> and dividing by <m>-38.8</m> gives <m>e^{-0.05t} = \frac{50 - 74.4}{-38.8} = \frac{24.4}{38.8}</m>.  Taking the natural log, <m>-0.05t = \ln\!\left(\frac{24.4}{38.8}\right)</m>, so
+              <me>
+                t = \frac{\ln\!\left(\frac{24.4}{38.8}\right)}{-0.05} \approx 9.28 \text{ minutes}.
+              </me>
+            </p>
+          </li>
+          <li>
+            <p>
+              At <m>t = 0</m>, <m>F(0) = 74.4 - 38.8 = 35.6^\circ</m>.  Since <m>F</m> is an increasing function (the exponential term decreases as <m>t</m> increases, so <m>F</m> increases from its initial value), and <m>F(0) = 35.6 \lt 36</m>, yes, there is a time when the soda's temperature reaches <m>36^\circ</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Since <m>e^{-0.05t} \to 0</m> as <m>t \to \infty</m>, the temperature approaches <m>74.4^\circ</m> but never reaches it.  At <m>t = 0</m>, <m>F(0) = 35.6^\circ</m>.  Thus the range of <m>F</m> on the domain <m>t \gt 0</m> is <m>(35.6, 74.4)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Solving <m>y = 74.4 - 38.8e^{-0.05t}</m> for <m>t</m>: we get <m>e^{-0.05t} = \frac{y - 74.4}{-38.8}</m>, so
+              <me>
+                t = F^{-1}(y) = \frac{\ln\!\left(\frac{y - 74.4}{-38.8}\right)}{-0.05}.
+              </me>
+              This inverse function tells us the time (in minutes) at which the soda reaches a given temperature <m>y</m> (in degrees Fahrenheit).
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>

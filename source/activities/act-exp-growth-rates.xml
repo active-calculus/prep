@@ -27,7 +27,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          If <m>p</m> is always decreasing at a constant rate, then <m>p</m> is a linear function of the form <m>p(x) = mx + b</m>, where <m>m \lt 0</m>.  For example, <m>p(x) = -4x + 2</m>.
+        </p>
+        <image width="50%" source="solution-images/Activity3.1.4a.png"/>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-exp-growth-rates-task-1">
       <statement>
@@ -37,7 +42,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          If <m>q</m> is always increasing and increases at an increasing rate, then <m>q</m> may be an exponential function.  For example, <m>q(x) = 2^x</m>.
+        </p>
+        <image width="50%" source="solution-images/Activity3.1.4b.png"/>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-exp-growth-rates-task-2">
       <statement>
@@ -47,7 +57,16 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          One option is the piecewise function
+          <md>
+            r(t) = \begin{cases} -\left(\frac{1}{2}\right)^t &amp; \text{if } t \lt 2 \\ \left(\frac{1}{2}\right)^t - \frac{1}{2} &amp; \text{if } t \gt 2 \end{cases}
+          </md>
+          whose rate of change is always decreasing with increasing <m>t</m>.
+        </p>
+        <image width="50%" source="solution-images/Activity3.1.4c.png"/>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-exp-growth-rates-task-3">
       <statement>
@@ -57,7 +76,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Let <m>s(t) = -\left(\frac{1}{2}\right)^t</m>, so that <m>s(t)</m> is always increasing with a decreasing rate.
+        </p>
+        <image width="50%" source="solution-images/Activity3.1.4d.png"/>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-exp-growth-rates-task-4">
       <statement>
@@ -67,7 +91,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>u(t) = \left(\frac{1}{2}\right)^t</m> is always decreasing at a decreasing rate.
+        </p>
+        <image width="50%" source="solution-images/Activity3.1.4e.png"/>
+      </solution>
     </task>
     <answer>
       <p/>

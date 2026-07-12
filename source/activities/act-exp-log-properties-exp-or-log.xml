@@ -27,7 +27,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Both <m>f(t) = 1 - e^{-(t-1)}</m> and <m>g(t) = \ln(t)</m> are always increasing and concave down, and both have a <m>t</m>-intercept at <m>t = 1</m>.  The domain of <m>f</m> is all real numbers, while the domain of <m>g</m> is all positive real numbers.  The range of <m>f</m> is the interval <m>(-\infty, 1)</m>, while the range of <m>g</m> is all real numbers.  The <m>y</m>-intercept of <m>f</m> is <m>f(0) = 1 - e \approx -1.718</m>, while <m>g</m> has no <m>y</m>-intercept since <m>t = 0</m> is not in its domain.  As <m>t \to \infty</m>, <m>f(t) \to 1</m> (bounded), while <m>g(t) \to \infty</m> (unbounded).
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-log-properties-exp-or-log-task-1">
       <statement>
@@ -37,7 +41,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>h(t) = a - be^{-k(t-c)}</m> is a transformation of <m>E(t) = e^t</m> in which <m>E(t)</m> is reflected over the horizontal axis and vertically stretched by a factor of <m>b</m>, horizontally compressed by a factor of <m>k</m> (with a horizontal reflection), shifted horizontally to the right by <m>c</m> units, and shifted vertically up by <m>a</m> units.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-log-properties-exp-or-log-task-2">
       <statement>
@@ -47,7 +55,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>r(t) = a + b\ln(t - c)</m> is a transformation of <m>L(t) = \ln(t)</m> that is vertically stretched by a factor of <m>b</m>, shifted horizontally to the right by <m>c</m> units, and shifted vertically up by <m>a</m> units.
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-exp-log-properties-exp-or-log-task-3">
       <statement>
@@ -98,7 +110,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Experimenting with <em>Desmos</em>, the exponential model <m>q(t) = m + ne^{-rt}</m> provides a good fit to the data; for instance, <m>q(t) = 20.3 - 20.8e^{-0.35t}</m> fits well.  A logarithmic model is not as effective because the data levels off at a horizontal asymptote, which is consistent with an exponential model of the form <m>a + be^{-kt}</m> but not with a logarithmic model whose values grow without bound.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

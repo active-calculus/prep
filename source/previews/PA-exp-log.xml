@@ -68,7 +68,30 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <tabular>
+          <row bottom="minor">
+            <cell><m>t</m></cell>
+            <cell><m>-3</m></cell>
+            <cell><m>-2</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+          </row>
+          <row>
+            <cell><m>P(t) = 10^t</m></cell>
+            <cell><m>0.001</m></cell>
+            <cell><m>0.01</m></cell>
+            <cell><m>0.1</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>10</m></cell>
+            <cell><m>100</m></cell>
+            <cell><m>1000</m></cell>
+          </row>
+        </tabular>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-exp-log-task-1">
       <statement>
@@ -78,7 +101,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>P(t)</m> has an inverse because it is a one-to-one function, where each value of <m>y</m> has only one corresponding value of <m>t</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="1cm" xml:id="PA-exp-log-task-2">
       <statement>
@@ -155,7 +182,31 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <tabular>
+          <row>
+            <cell><m>y</m></cell>
+            <cell><m>10^{-3}</m></cell>
+            <cell><m>10^{-2}</m></cell>
+            <cell><m>10^{-1}</m></cell>
+            <cell><m>10^{0}</m></cell>
+            <cell><m>10^{1}</m></cell>
+            <cell><m>10^{2}</m></cell>
+            <cell><m>10^{3}</m></cell>
+          </row>
+          <row bottom="minor"><cell/><cell/><cell/><cell/><cell/><cell/><cell/><cell/></row>
+          <row>
+            <cell><m>L(y)</m></cell>
+            <cell><m>-3</m></cell>
+            <cell><m>-2</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+          </row>
+        </tabular>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-exp-log-task-3">
       <statement>
@@ -165,7 +216,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The domain of <m>y = P(t) = 10^t</m> is all real numbers, and the range is all positive real numbers.  The domain of <m>t = L(y)</m> is all positive real numbers, and the range is all real numbers.
+        </p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

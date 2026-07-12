@@ -27,7 +27,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The value of <m>k</m> is approximately <m>k = \ln 3 / \ln 2 \approx 1.585</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-exp-e-task-1">
       <statement>
@@ -37,7 +41,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The value of <m>k</m> is approximately <m>k = -\ln 3 / \ln 2 \approx -1.585</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-exp-e-task-2">
       <statement>
@@ -47,7 +55,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>2^k = 2^{\ln 3 / \ln 2} = 3</m>.  This makes sense because the equation <m>2^{kt} = 3^t</m> requires <m>2^k = 3</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="PA-exp-e-task-3">
       <statement>
@@ -57,7 +69,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>2^k = 2^{-\ln 3 / \ln 2} = \frac{1}{3}</m>.  This makes sense because the equation <m>2^{kt} = (1/3)^t</m> requires <m>2^k = 1/3</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="PA-exp-e-task-4">
       <statement>
@@ -67,7 +83,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Yes, it is possible to find a value of <m>k</m> for any exponential function of the form <m>b^t</m>, provided <m>b</m> is a positive number.  Setting <m>2^{kt} = b^t</m> and taking logarithms gives <m>k \ln 2 = \ln b</m>, so <m>k = \dfrac{\ln b}{\ln 2}</m>.
+        </p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

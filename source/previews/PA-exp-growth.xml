@@ -30,7 +30,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>I(0) = \$20{,}000 \times 1 = \$20{,}000</m>, <m>I(1) = \$20{,}000 \times 1.08 = \$21{,}600</m>, <m>I(2) = (\$20{,}000 \times 1.08) \times 1.08 = \$23{,}328</m>, and <m>I(3) = ((\$20{,}000 \times 1.08) \times 1.08) \times 1.08 = \$25{,}194.24</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3.5cm" xml:id="PA-exp-growth-task-1">
       <statement>
@@ -40,7 +44,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>V(0) = \$20{,}000</m>, <m>V(1) = \$20{,}000 \times 0.88 = \$17{,}600</m>, <m>V(2) = (\$20{,}000 \times 0.88) \times 0.88 = \$15{,}488</m>, and <m>V(3) = ((\$20{,}000 \times 0.88) \times 0.88) \times 0.88 = \$13{,}629.44</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3.5cm" xml:id="PA-exp-growth-task-2">
       <statement>
@@ -50,7 +58,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          For the appreciating investment of $20,000: <m>I(t) = \$20{,}000 \times 1.08^t</m>, and for the depreciating $20,000 vehicle: <m>V(t) = \$20{,}000 \times 0.88^t</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-exp-growth-task-3">
       <statement>
@@ -64,7 +76,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The red curve shows the growing value of a $20,000 investment earning 8% interest per year.  The blue curve shows the decreasing value of a $20,000 vehicle losing 12% of its value each year.
+        </p>
+        <image width="50%" source="solution-images/PrevAct3.1.1.png"/>
+      </solution>
     </task>
   </exploration>
 </worksheet>

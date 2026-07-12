@@ -27,7 +27,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          For <m>e^t = 2</m>, <m>t = \ln 2 \approx 0.6931</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-exp-e-graph-solve-task-1">
       <statement>
@@ -37,7 +41,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          For <m>e^{3t} = 5</m>, <m>t = \frac{\ln 5}{3} \approx 0.5365</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-exp-e-graph-solve-task-2">
       <statement>
@@ -47,7 +55,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The equation <m>2e^t - 4 = 7</m> simplifies to <m>e^t = \frac{11}{2}</m>, so <m>t = \ln\!\left(\frac{11}{2}\right) \approx 1.7047</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-e-graph-solve-task-3">
       <statement>
@@ -57,7 +69,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The equation <m>3e^{0.25t} + 2 = 6</m> simplifies to <m>e^{0.25t} = \frac{4}{3}</m>, so <m>t = 4\ln\!\left(\frac{4}{3}\right) \approx 1.1507</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-e-graph-solve-task-4">
       <statement>
@@ -67,7 +83,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The equation <m>4 - 2e^{-0.7t} = 3</m> simplifies to <m>e^{-0.7t} = \frac{1}{2}</m>, so <m>t = \frac{\ln 2}{0.7} \approx 0.9902</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-e-graph-solve-task-5">
       <statement>
@@ -77,13 +97,20 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The equation <m>2e^{1.2t} = 1.5e^{1.6t}</m> simplifies to <m>e^{-0.4t} = \frac{3}{4}</m>, so <m>t = \frac{-\ln(3/4)}{0.4} \approx 0.7192</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>
     </answer>
     <solution>
-      <p/>
+      <p>
+        A graph of <m>f(t) = e^t</m> showing the solutions to each equation is below.
+      </p>
+      <image width="75%" source="solution-images/Activity3.3.3.png"/>
     </solution>
   </activity>
 </worksheet>

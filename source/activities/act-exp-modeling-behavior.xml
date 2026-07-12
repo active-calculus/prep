@@ -44,7 +44,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>p(t) = 4372(1.000235)^t + 92856</m> is always increasing, always concave up, and increasing without bound.  The <m>y</m>-intercept is <m>p(0) = 97{,}228</m> and the range is <m>(92856, \infty)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-modeling-behavior-task-1">
       <statement>
@@ -54,7 +58,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>q(t) = 27931(0.97231)^t + 549786</m> is always decreasing, always concave up, and decreasing toward <m>549786</m>.  The <m>y</m>-intercept is <m>q(0) = 577{,}717</m> and the range is <m>(549786, \infty)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-modeling-behavior-task-2">
       <statement>
@@ -64,7 +72,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>r(t) = -17398(0.85234)^t</m> is always increasing, always concave down, and increasing toward <m>0</m>.  The <m>y</m>-intercept is <m>r(0) = -17398</m> and the range is <m>(-\infty, 0)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-modeling-behavior-task-3">
       <statement>
@@ -74,7 +86,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>s(t) = -17398(0.85234)^t + 19411</m> is always increasing, always concave down, and increasing toward the value <m>19411</m>.  The <m>y</m>-intercept is <m>s(0) = 2013</m> and the range is <m>(-\infty, 19411)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-modeling-behavior-task-4">
       <statement>
@@ -84,7 +100,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>u(t) = -7522(1.03817)^t</m> is always decreasing, always concave down, and decreasing without bound.  The <m>y</m>-intercept is <m>u(0) = -7522</m> and the range is <m>(-\infty, 0)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-modeling-behavior-task-5">
       <statement>
@@ -94,7 +114,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>v(t) = -7522(1.03817)^t + 6731</m> is always decreasing, always concave down, and decreasing without bound.  The <m>y</m>-intercept is <m>v(0) = -791</m> and the range is <m>(-\infty, 6731)</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

@@ -31,7 +31,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          A typical graph of <m>P(t) = \dfrac{A}{1 + Me^{-kt}}</m> has an S-shape (sigmoidal curve) that rises from near <m>0</m> as <m>t \to -\infty</m> to the value <m>A</m> as <m>t \to \infty</m>.  The parameter <m>A</m> sets the upper asymptote (the carrying capacity).  The parameter <m>M</m> affects the <m>y</m>-intercept: since <m>P(0) = \frac{A}{1+M}</m>, larger <m>M</m> gives a lower initial value, producing an effect similar to a horizontal shift.  The parameter <m>k</m> controls the steepness of the transition from the lower asymptote to the upper asymptote.
+        </p>
+        <image width="50%" source="solution-images/Activity3.6.3a.png"/>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-exp-temp-pop-logistic-Desmos-task-1">
       <statement>
@@ -41,7 +46,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The population appears to grow most rapidly at the midpoint of the transition from near <m>0</m> to the carrying capacity <m>A</m>.  This occurs when <m>P(t) = \dfrac{A}{2}</m>, that is, at half the carrying capacity.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-exp-temp-pop-logistic-Desmos-task-2">
       <statement>
@@ -51,7 +60,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          As <m>t \to \infty</m>, <m>e^{-kt} \to 0</m> (since <m>k &gt; 0</m>), so <m>Me^{-kt} \to 0</m> and therefore <m>1 + Me^{-kt} \to 1</m>.  This causes <m>P(t) = \frac{A}{1 + Me^{-kt}} \to \frac{A}{1} = A</m>, which is why <m>A</m> is the carrying capacity.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-temp-pop-logistic-Desmos-task-3">
       <statement>
@@ -61,7 +74,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Since <m>P(t) \to 9</m> as <m>t \to \infty</m>, we have <m>A = 9</m>.  From <m>P(0) = \frac{9}{1+M} = 2</m>, we get <m>M = \frac{7}{2} = 3.5</m>.  From <m>P(2) = \frac{9}{1 + 3.5e^{-2k}} = 4</m>, we get <m>1 + 3.5e^{-2k} = 2.25</m>, so <m>e^{-2k} = \frac{1.25}{3.5} = \frac{5}{14}</m> and <m>k = \dfrac{1}{2}\ln\!\left(\dfrac{14}{5}\right) \approx 0.516</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

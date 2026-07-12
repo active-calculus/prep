@@ -27,7 +27,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The domain of <m>E(t) = e^t</m> is all real numbers, and its range is all positive real numbers.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-exp-log-natural-task-1">
       <statement>
@@ -37,7 +41,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The domain of <m>N(y) = \ln(y)</m> is all positive real numbers, and its range is all real numbers.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-log-natural-task-2">
       <statement>
@@ -47,7 +55,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          For every real number <m>t</m>, <m>\ln(e^t) = t</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-log-natural-task-3">
       <statement>
@@ -57,7 +69,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          For every positive real number <m>y</m>, <m>e^{\ln(y)} = y</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="0.5cm" xml:id="act-exp-log-natural-task-4">
       <statement>
@@ -147,7 +163,53 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <tabular>
+          <row bottom="minor" halign="center">
+            <cell><m>t</m></cell>
+            <cell><m>-2</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+          </row>
+          <row halign="center">
+            <cell><m>E(t) = e^t</m> (exact)</cell>
+            <cell><m>e^{-2}</m></cell>
+            <cell><m>e^{-1}</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>e</m></cell>
+            <cell><m>e^2</m></cell>
+          </row>
+          <row halign="center">
+            <cell><m>E(t) = e^t</m> (approx.)</cell>
+            <cell><m>0.135</m></cell>
+            <cell><m>0.368</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2.718</m></cell>
+            <cell><m>7.39</m></cell>
+          </row>
+        </tabular>
+        <tabular>
+          <row bottom="minor" halign="center">
+            <cell><m>y</m></cell>
+            <cell><m>e^{-2}</m></cell>
+            <cell><m>e^{-1}</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>e^1</m></cell>
+            <cell><m>e^2</m></cell>
+          </row>
+          <row halign="center">
+            <cell><m>N(y) = \ln(y)</m></cell>
+            <cell><m>-2</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+          </row>
+        </tabular>
+        <image width="50%" source="solution-images/Activity3.4.3.png"/>
+      </solution>
     </task>
 
   </activity>

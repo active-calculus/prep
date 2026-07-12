@@ -27,7 +27,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The domain of <m>g(t) = ab^t</m> is all real numbers, <m>(-\infty, \infty)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-exp-growth-a-b-t-task-1">
       <statement>
@@ -37,7 +41,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Allowing for all possible values of <m>a</m> and <m>b</m>, the range of <m>g(t)</m> is all real numbers.  If we restrict <m>a</m> and <m>b</m> to <m>0.1 \le a, b \le 10</m>, the range of <m>g(t)</m> becomes <m>(0, \infty)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-exp-growth-a-b-t-task-2">
       <statement>
@@ -47,7 +55,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The <m>y</m>-intercept for <m>g(t)</m> is <m>a</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-exp-growth-a-b-t-task-3">
       <statement>
@@ -57,7 +69,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          When <m>b</m> is less than 1, the graph approaches <m>\infty</m> as <m>t</m> approaches <m>-\infty</m>, and the graph approaches 0 when <m>t</m> approaches <m>\infty</m>.  When <m>b</m> is greater than 1, the graph approaches 0 when <m>t</m> approaches <m>-\infty</m> and the graph approaches <m>\infty</m> when <m>t</m> approaches <m>\infty</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-exp-growth-a-b-t-task-4">
       <statement>
@@ -67,7 +83,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          When <m>b</m> is greater than 1, the function describes positive growth (growing with time).  When <m>b</m> is between 0 and 1, the function describes negative growth (decreasing with time).
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-exp-growth-a-b-t-task-5">
       <statement>
@@ -81,7 +101,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>p(t)</m> shows negative growth, so the value of <m>b</m> must be between 0 and 1.  The function <m>q(t)</m> shows positive growth, so the value of <m>d</m> must be greater than 1.  The function <m>p</m> has a <m>y</m>-intercept that is greater than the function <m>q</m>'s <m>y</m>-intercept, thus <m>a \gt c</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

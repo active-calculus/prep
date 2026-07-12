@@ -27,7 +27,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From <m>3^t = 5</m>, we take the natural log of both sides to get <m>t \ln 3 = \ln 5</m>, so <m>t = \dfrac{\ln 5}{\ln 3} \approx 1.46497</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-exp-log-exponential-equations-task-1">
       <statement>
@@ -37,7 +41,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From <m>4 \cdot 2^t - 2 = 3</m>, we get <m>2^t = \frac{5}{4}</m>, so <m>t \ln 2 = \ln\!\left(\frac{5}{4}\right)</m> and <m>t = \dfrac{\ln 5 - \ln 4}{\ln 2} \approx 0.32193</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-log-exponential-equations-task-2">
       <statement>
@@ -47,7 +55,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From <m>3.7 \cdot (0.9)^{0.3t} + 1.5 = 2.1</m>, we get <m>(0.9)^{0.3t} = \frac{0.6}{3.7}</m>, so <m>0.3t \ln(0.9) = \ln\!\left(\frac{0.6}{3.7}\right)</m> and <m>t = \dfrac{\ln(0.6) - \ln(3.7)}{0.3\ln(0.9)} \approx 57.55</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-log-exponential-equations-task-3">
       <statement>
@@ -57,7 +69,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From <m>72 - 30(0.7)^{0.05t} = 60</m>, we get <m>(0.7)^{0.05t} = \frac{12}{30} = \frac{2}{5}</m>, so <m>0.05t \ln(0.7) = \ln\!\left(\frac{2}{5}\right)</m> and <m>t = \dfrac{\ln(12) - \ln(30)}{0.05\ln(0.7)} \approx 51.38</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-log-exponential-equations-task-4">
       <statement>
@@ -67,7 +83,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From <m>\ln(t) = -2</m>, we get <m>t = e^{-2} \approx 0.13534</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-log-exponential-equations-task-5">
       <statement>
@@ -77,7 +97,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From <m>3 + 2\log_{10}(t) = 3.5</m>, we get <m>\log_{10}(t) = 0.25</m>, so <m>t = 10^{0.25} \approx 1.77828</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

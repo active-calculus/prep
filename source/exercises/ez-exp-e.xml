@@ -97,7 +97,38 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              With <m>P = 100</m>, <m>r = 0.08</m>, and <m>n = 4</m>: <m>A(1) = 100\left(1 + \frac{0.08}{4}\right)^{4} = 100(1.02)^4 \approx \$108.24</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              With <m>n = 12</m>: <m>A(1) = 100\left(1 + \frac{0.08}{12}\right)^{12} \approx \$108.30</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              With <m>n = 52</m>: <m>A(1) = 100\left(1 + \frac{0.08}{52}\right)^{52} \approx \$108.32</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              With <m>n = 365</m>: <m>A(1) = 100\left(1 + \frac{0.08}{365}\right)^{365} \approx \$108.33</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              With continuous compounding: <m>A(1) = 100e^{0.08} \approx \$108.33</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              In one year, continuously compounded interest yields approximately <m>P \times 0.000855</m> more than quarterly compounding.  Over 25 years, the difference grows to approximately <m>P \times 0.144</m>, with the greater amount coming from continuously compounded interest.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -140,7 +171,28 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              When <m>k \gt 0</m>, <m>g(t)</m> is always increasing.  When <m>k \lt 0</m>, <m>g(t)</m> is always decreasing.
+            </p>
+          </li>
+          <li>
+            <p>
+              The average rate of change of <m>g(t)</m> on <m>[0,1]</m> is greater (less negative) when <m>k = -0.05</m>, giving <m>AV_{[0,1]} \approx -0.049</m>, than when <m>k = -0.1</m>, giving <m>AV_{[0,1]} \approx -0.095</m>.  However, the magnitude of the rate of change is greater for <m>k = -0.1</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              When <m>k \lt 0</m>, the long-term behavior of <m>g(t)</m> is that <m>g(t) \to 0</m> as <m>t \to \infty</m>, since <m>e^{-kt} \to \infty</m> and <m>e^{kt} = 1/e^{-kt} \to 0</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              We need <m>g(2) = e^{2k} = \frac{1}{2}</m>, so <m>k = -\frac{\ln 2}{2} \approx -0.3466</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -188,7 +240,28 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              The long-term behavior of <m>g(t) = e^{-0.05t}</m> is that <m>g(t) \to 0</m> as <m>t \to \infty</m>, since the exponent becomes increasingly negative.
+            </p>
+          </li>
+          <li>
+            <p>
+              The function <m>F(t) \to 74.4</m> as <m>t \to \infty</m>.  This means the soda approaches the room temperature of <m>74.4^\circ</m> F as it warms up.
+            </p>
+          </li>
+          <li>
+            <p>
+              The temperature of the refrigerator is <m>F(0) = 74.4 - 38.8 = 35.6^\circ</m> F.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>AV_{[10,20]} \approx 0.926</m> degrees per minute, <m>AV_{[20,30]} \approx 0.562</m> degrees per minute, and <m>AV_{[30,40]} \approx 0.341</m> degrees per minute.  On the interval <m>[10, 20]</m>, the soda is warming at an average rate of about <m>0.926</m> degrees per minute.  The average rate of warming is decreasing over time, meaning the soda is warming more slowly as time goes on.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>

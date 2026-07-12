@@ -30,7 +30,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Since the soda cools toward the refrigerator temperature in the long run, and <m>e^{-kt} \to 0</m> as <m>t \to \infty</m>, we have <m>c = 37.7</m>.  At <m>t = 0</m>, <m>F(0) = a + c = a + 37.7 = 72.3</m>, so <m>a = 34.6</m>.  Finally, using <m>F(30) = 59.5</m>: <m>34.6e^{-30k} + 37.7 = 59.5</m>, so <m>34.6e^{-30k} = 21.8</m> and <m>k = -\dfrac{1}{30}\ln\!\left(\dfrac{21.8}{34.6}\right) \approx 0.01540</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-temp-log-NLOC1-task-1">
       <statement>
@@ -41,7 +45,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Setting <m>F(t) = 42.4</m>:
+          <md>
+            <mrow>34.6e^{-kt} + 37.7 &amp;= 42.4</mrow>
+            <mrow>34.6e^{-kt} &amp;= 4.7</mrow>
+            <mrow>e^{-kt} &amp;= \frac{4.7}{34.6}</mrow>
+            <mrow>t &amp;= -\frac{1}{k}\ln\!\left(\frac{4.7}{34.6}\right) \approx 131 \text{ minutes.}</mrow>
+          </md>
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-temp-log-NLOC1-task-2">
       <statement>
@@ -54,7 +68,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Using <m>F(t) = 34.6e^{-0.01540t} + 37.7</m> in <em>Desmos</em>, the average rate of change on <m>[25,30]</m> is approximately <m>\frac{F(30)-F(25)}{5} \approx -0.349</m> degrees Fahrenheit per minute.  This means the soda is cooling at a rate of about <m>0.349^\circ</m>F per minute during the five-minute interval from <m>t = 25</m> to <m>t = 30</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-temp-log-NLOC1-task-3">
       <statement>
@@ -67,7 +85,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          If <m>F(0) = 65</m>, then <m>a = 65 - 37.7 = 27.3</m>, which is smaller than the original <m>a = 34.6</m>.  Using the same condition <m>F(30) = 59.5</m>: <m>27.3e^{-30k} = 21.8</m>, giving <m>k \approx 0.00751</m>.  This is smaller than the original <m>k \approx 0.0154</m>.  With a smaller initial temperature difference between the soda and the refrigerator, the soda cools more slowly, so <m>k</m> is smaller.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

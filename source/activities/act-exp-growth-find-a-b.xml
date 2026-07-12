@@ -27,7 +27,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Given <m>V(t) = ab^t</m>, <m>V(3) = \$12{,}500</m>, and <m>V(7) = \$6{,}500</m>, the ratio of the two specified points gives <m>b = \left( \dfrac{13}{25} \right)^{1/4}</m> exactly.  Solving either equation for <m>a</m> gives <m>a = 12500 \left( \dfrac{25}{13} \right)^{3/4} = 6500 \left( \dfrac{25}{13} \right)^{7/4}</m> exactly.  In approximate form, <m>V(t) \approx \$20{,}413 \times (0.8492)^t</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-exp-growth-find-a-b-task-1">
       <statement>
@@ -37,7 +41,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Using the approximate model, the purchase value of the car is approximately $<m>20{,}413</m>.  Solving <m>1000 = 20413 \times 0.8492^t</m> using logarithms gives <m>t \approx 18.45</m>, so the car is worth less than $<m>1000</m> after about 18 years.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-growth-find-a-b-task-2">
       <statement>
@@ -47,7 +55,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          If the car's value is linear, then <m>L(t) = b + mt</m>.  Using <m>L(3) = 12500</m> and <m>L(7) = 6500</m>, we find <m>m = (12500 - 6500)/(3 - 7) = -1500</m> dollars per year and <m>b = \$17{,}000</m>.  Thus <m>L(t) = 17000 - 1500t</m>, and the car will be worth $<m>1000</m> when <m>t = \frac{32}{3} \approx 10.67</m> years.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-exp-growth-find-a-b-task-3">
       <statement>
@@ -57,7 +69,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The exponential model seems more realistic because new cars decrease in value at a faster rate than older cars.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>
