@@ -94,7 +94,7 @@
 
 	<p>
 		The situation is especially nice for right triangles, because then we only have five unknown features since one of the angles is <m>\frac{\pi}{2}</m> radians (or <m>90^\circ</m>), as demonstrated in <xref ref="F-right-triangle-5">Figure</xref>.  If we know one of the two non-right angles,
-		then we know the other as well.  Moreover, if we know any two sides, we can immediately deduce the third, because of the Pythagorean Theorem.  As we saw in <xref ref="PA-trig-right">Preview Activity</xref>, the cosine and sine functions offer additional help in determining missing information in right triangles.  Indeed, while the functions <m>\cos(t)</m> and <m>\sin(t)</m> have many important applications in modeling periodic phenomena such as osciallating masses on springs, they also find powerful application in settings involving right triangles, such as in navigation and surveying.
+		then we know the other as well.  Moreover, if we know any two sides, we can immediately deduce the third, because of the Pythagorean Theorem.  As we saw in <xref ref="PA-trig-right">Preview Activity</xref>, the cosine and sine functions offer additional help in determining missing information in right triangles.  Indeed, while the functions <m>\cos(t)</m> and <m>\sin(t)</m> have many important applications in modeling periodic phenomena such as oscillating masses on springs, they also find powerful application in settings involving right triangles, such as in navigation and surveying.
 	</p>
 
 		<figure xml:id="F-right-triangle-5">
