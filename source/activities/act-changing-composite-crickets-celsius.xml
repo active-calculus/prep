@@ -66,7 +66,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Both Dolbear's function <m>D</m> and <m>H = (G \circ D)</m> are linear functions of <m>N</m>, so their graphs have the same shape. Dolbear's function has slope <m>\frac{1}{4}</m> (degrees Fahrenheit per chirp per minute), while <m>H(N) = \frac{5}{9}(0.25N+8)</m> has a smaller slope of <m>\frac{5}{36}</m> (degrees Celsius per chirp per minute). The vertical scale on the plot of <m>H</m> should reflect the Celsius range: <m>H(40) = 10</m> (corresponding to <m>50^\circ</m> F) and <m>H(180) = \frac{265}{9} \approx 29.4</m> (corresponding to <m>85^\circ</m> F). The plot of <m>H</m> is an increasing line on <m>[40, 180]</m>, similar to Dolbear's function but with a shallower slope and Celsius units on the vertical axis.</p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-composite-crickets-celcius-task-3">
       <statement>
@@ -89,7 +91,7 @@
       <p/>
     </answer>
     <solution>
-      <p/>
+      <p>See solutions to individual tasks above.</p>
     </solution>
   </activity>
 </worksheet>

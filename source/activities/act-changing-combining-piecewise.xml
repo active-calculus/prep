@@ -103,7 +103,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The graph of <m>y = p(x)</m> consists of two parabolic pieces. For <m>x \lt 0</m>, the piece <m>-(x+2)^2+2</m> is a downward-opening parabola with vertex <m>(-2,2)</m> that passes through <m>(-4,-2)</m>, <m>(-2+\sqrt{2},0)</m>, <m>(-2-\sqrt{2},0)</m>, and approaches <m>(0,3)</m> from the left (open endpoint). For <m>x \ge 0</m>, the piece <m>\frac{1}{2}(x-2)^2+1</m> is an upward-opening parabola with vertex <m>(2,1)</m> that starts at <m>(0,3)</m> (closed endpoint) and passes through <m>(4,3)</m>. The graph has a jump at <m>x = 0</m> but the values approach <m>3</m> from both sides, so the graph is actually continuous there.</p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-changing-combining-piecewise-task-4">
       <statement>
@@ -113,13 +115,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Reading from the graph of <m>f</m>, the function appears piecewise linear on three intervals. For <m>-2.5 \lt x \le -1</m>, the line passes through <m>(-2,3.5)</m> and <m>(-1,3)</m>, giving slope <m>-\frac{1}{2}</m> and formula <m>f(x) = 3 - \frac{1}{2}(x+1)</m>. For <m>-1 \lt x \le 1</m>, the line passes through <m>(0,2.5)</m> and <m>(1,4)</m>, giving slope <m>\frac{3}{2}</m> and formula <m>f(x) = 4 + \frac{3}{2}(x-1)</m>. For <m>1 \lt x \lt 3.5</m> (excluding <m>x = 2</m>), the line passes through <m>(1,1)</m> and <m>(3,-0.5)</m>, giving slope <m>-\frac{3}{4}</m> and formula <m>f(x) = 1 - \frac{3}{4}(x-1)</m>. Thus <me>f(x) = \begin{cases} 3 - \frac{1}{2}(x+1), \amp -2.5 \lt x \le -1 \\ 4 + \frac{3}{2}(x-1), \amp -1 \lt x \le 1 \\ 1 - \frac{3}{4}(x-1), \amp 1 \lt x \lt 3.5, \ x \ne 2 \end{cases}</me></p>
+      </solution>
     </task>
     <answer>
       <p/>
     </answer>
     <solution>
-      <p/>
+      <p>See solutions to individual tasks above.</p>
     </solution>
   </activity>
 </worksheet>

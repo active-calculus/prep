@@ -98,7 +98,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The graph of <m>V = p(t) = \frac{256\pi}{3} - \frac{\pi}{24}t^2(24-t)</m> on <m>[0,16]</m> is a curve that decreases from <m>V(0) = \frac{256\pi}{3} \approx 268</m> cubic meters down to <m>V(16) = 0</m>. The curve is concave down for small <m>t</m> (volume decreasing rapidly as the full, wide sphere loses water) and concave up near <m>t = 16</m> (volume decreasing more slowly as the narrow bottom empties). The domain is <m>[0, 16]</m> minutes and the range is <m>\left[0, \frac{256\pi}{3}\right]</m> cubic meters.</p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-changing-functions-spherical-tank-draining-task-4">
       <statement>

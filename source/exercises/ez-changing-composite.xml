@@ -162,9 +162,7 @@
       </p>
     </answer>
     <solution>
-      <p>
-        Exercise Solution
-      </p>
+      <p><ol marker="a."><li><p>From the graphs: <m>g(1)</m> can be read, then <m>f(g(1))</m>; and <m>f(-2)</m> can be read, then <m>g(f(-2))</m>.</p></li><li><p><m>g(f(x))</m> is undefined if <m>f(x)</m> falls outside the domain of <m>g</m> or if <m>f(x)</m> is itself undefined.</p></li><li><p>From the table: <m>(s\circ r)(3) = s(r(3)) = s(-1) = -8</m>; <m>(s\circ r)(-4) = s(r(-4)) = s(4) = 5</m>; for example <m>(s\circ r)(0) = s(r(0)) = s(0) = 0</m>.</p></li><li><p>Domain of <m>r</m>: <m>\{-4,-3,-2,-1,0,1,2,3,4\}</m>; range of <m>r</m>: <m>\{-4,-3,-1,0,1,2,3,4\}</m>. Domain of <m>s</m>: <m>\{-4,...,4\}</m>; range of <m>s</m>: <m>\{-8,-7,-6,-5,0,5,6,7,8\}</m>. For <m>(r\circ s)(b)</m>, we need <m>s(b)</m> in the domain of <m>r</m>. The only value of <m>s</m> in <m>\{-4,...,4\}</m> is <m>s(0)=0</m>, so only <m>b=0</m> works: <m>(r\circ s)(0) = r(0) = 0</m>.</p></li><li><p><m>m(x^2) = x^6 + 4x^4 - 5x^2 + 1</m>. <m>m(2+h) = (2+h)^3 + 4(2+h)^2 - 5(2+h) + 1 = h^3 + 10h^2 + 23h + 15</m>. <m>m(a+h) = (a+h)^3 + 4(a+h)^2 - 5(a+h) + 1</m>.</p></li><li><p><m>F(x) = 4-3x-x^2</m>. <m>F(2) = -6</m> and <m>F(2+h) = 4-3(2+h)-(2+h)^2 = -6-7h-h^2</m>. Thus <m>AV_{[2,2+h]} = \frac{-6-7h-h^2-(-6)}{h} = -7-h</m>.</p></li></ol></p>
     </solution>
   </exercise>
 
@@ -220,9 +218,7 @@
       </p>
     </answer>
     <solution>
-      <p>
-        Exercise Solution
-      </p>
+      <p><ol marker="a."><li><p>Solving <m>F = 40 + \frac{1}{4}N</m> for <m>N</m>: <m>N = 4(F-40) = 4F - 160</m>.</p></li><li><p><m>g(F) = 4F - 160</m> converts temperature in Fahrenheit to expected chirps per minute.</p></li><li><p><m>g(82) = 4(82) - 160 = 168</m> chirps per minute, written <m>N = g(82) = 168</m>.</p></li><li><p>Solving <m>C = \frac{5}{9}(F-32)</m> for <m>F</m>: <m>F = \frac{9}{5}C + 32 = p(C)</m>. This converts Celsius to Fahrenheit.</p></li><li><p>Yes: <m>N = (g\circ p)(C) = g(p(C)) = g\!\left(\frac{9C}{5}+32\right) = 4\!\left(\frac{9C}{5}+32\right) - 160 = \frac{36C}{5} - 32</m>. This function converts Celsius temperature to expected chirps per minute.</p></li></ol></p>
     </solution>
   </exercise>
 
@@ -321,9 +317,7 @@
       </p>
     </answer>
     <solution>
-      <p>
-        Exercise Solution
-      </p>
+      <p><ol marker="a."><li><p>Domain: <m>0 \le h \le 8</m> (diameter of sphere). Range: <m>0 \le V \le \frac{256\pi}{3}</m>.</p></li><li><p>Since the height increases at a constant rate, <m>h = p(t) = 0.4t</m> is a linear function.</p></li><li><p>Domain: <m>[0, 20]</m> minutes (height reaches <m>8</m> m at <m>t = 8/0.4 = 20</m> min). Range: <m>[0, 8]</m> m.</p></li><li><p><m>V = q(t) = f(p(t)) = \frac{\pi}{3}(0.4t)^2(12 - 0.4t) = \frac{\pi}{3}(0.16t^2)(12-0.4t) = \frac{\pi}{3}\cdot\frac{0.064t^2(30-t)}{1} = \frac{8\pi}{375}t^2(30-t)</m>.</p></li><li><p>Domain: <m>[0, 20]</m> minutes. Range: <m>\left[0, \frac{256\pi}{3}\right]</m> cubic meters.</p></li><li><p>The graph of <m>h = p(t)</m> is a straight line (height rises at constant rate). The graph of <m>V = q(t)</m> is an S-shaped increasing cubic: slow at first (sphere is narrow near the bottom), then faster through the middle (widest part), then slower again as the sphere narrows near the top.</p></li></ol></p>
     </solution>
   </exercise>    
 </exercises>

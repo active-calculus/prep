@@ -39,7 +39,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The depth of the water in the tank, the amount of water in the tank, and time are all changing.</p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-changing-aquarium-task-1">
       <statement>
@@ -49,7 +51,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Since water is entering at a rate of <m>0.5</m> cubic feet per minute, after <m>1</m> minute the tank contains <m>0.5</m> cubic feet of water. If <m>d</m> is the depth at this time, then <m>4 \times 2 \times d = 0.5</m>, so <m>d = \frac{1}{16}</m> feet.</p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-changing-aquarium-task-2">
       <statement>
@@ -59,7 +63,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>After <m>2</m> minutes the tank contains <m>1</m> cubic foot of water, and the depth satisfies <m>4 \times 2 \times d = 1</m>, giving <m>d = \frac{1}{8}</m> feet. After <m>3</m> minutes the tank contains <m>1.5</m> cubic feet of water and the depth satisfies <m>4 \times 2 \times d = 1.5</m>, giving <m>d = \frac{3}{16}</m> feet.</p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-changing-aquarium-task-3">
       <statement>
@@ -69,7 +75,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The tank holds <m>4 \times 2 \times 3 = 24</m> cubic feet. Since water enters at <m>0.5</m> cubic feet per minute, the volume at time <m>t</m> is <m>0.5t</m> cubic feet. The tank is completely full when <m>0.5t = 24</m>, so <m>t = 48</m> minutes.</p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

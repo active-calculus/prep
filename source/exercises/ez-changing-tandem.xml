@@ -77,9 +77,7 @@
       </p>
     </answer>
     <solution>
-      <p>
-        Exercise Solution
-      </p>
+      <p><ol marker="a."><li><p>At a fill rate of <m>1.25</m> cu ft/min, the time to fill is <m>\frac{V_{\text{full}}}{1.25} = \frac{\pi(20 + \frac{38}{3}\sqrt{2})}{1.25} \approx \frac{119.11}{1.25} \approx 95.3</m> minutes.</p></li><li><p>The graph of <m>V</m> vs <m>t</m> is a straight line with slope <m>1.25</m> from <m>(0,0)</m> to <m>(95.3, 119.11)</m>. The graph of <m>h</m> vs <m>t</m> is an S-shaped increasing curve: initially <m>h</m> rises quickly as the narrow bottom of the sphere fills, then more slowly as the widest part of the sphere fills, then speeds up slightly as the narrow chimney fills. Key points include <m>(0,0)</m>, the time when <m>h = \sqrt{8} + 3 \approx 5.83</m> ft (sphere full, chimney starts), and the endpoint <m>(95.3, \sqrt{8}+5)</m>.</p></li><li><p>If the chimney were an inverted cone, its cross-section would shrink as it fills, so the height would increase more quickly in the chimney. The <m>V</m>-vs-<m>t</m> graph would not change (still linear), but the <m>h</m>-vs-<m>t</m> graph would rise more steeply once the water enters the cone-shaped chimney.</p></li></ol></p>
     </solution>
   </exercise>
 
@@ -129,9 +127,7 @@
       </p>
     </answer>
     <solution>
-      <p>
-        Exercise Solution
-      </p>
+      <p><ol marker="a."><li><p>At a constant rate of <m>0.4</m> ft/min, the depth reaches <m>12</m> ft (the diameter) in <m>12/0.4 = 30</m> minutes. At that time, <m>V = \frac{4}{3}\pi(6)^3 = 288\pi \approx 904.8</m> cu ft.</p></li><li><p>Since the height rises linearly, <m>h = 0.4t</m> is a straight line. The volume <m>V</m> as a function of <m>t</m> starts slowly (the bottom of the sphere is narrow), increases rapidly through the middle (widest part of sphere), and slows again as the top narrows. The <m>V</m>-vs-<m>t</m> graph is S-shaped (concave up then concave down). Key points: <m>(0,0)</m> and <m>(30, 288\pi)</m>.</p></li><li><p>For the draining scenario: <m>h</m> starts at <m>12</m> ft and decreases linearly at <m>0.25</m> ft/min to <m>0</m> in <m>48</m> minutes. The <m>h</m>-vs-<m>t</m> graph is a decreasing line. The <m>V</m>-vs-<m>t</m> graph is an S-shaped decreasing curve (symmetric to the filling case), from <m>(0, 288\pi)</m> to <m>(48, 0)</m>.</p></li></ol></p>
     </solution>
   </exercise>
 
@@ -187,9 +183,7 @@
       </p>
     </answer>
     <solution>
-      <p>
-        Exercise Solution
-      </p>
+      <p><ol marker="a."><li><p>Describe the car based on the graph: on intervals where <m>s</m> is increasing, the car moves forward; where <m>s</m> is flat, the car is stopped; where <m>s</m> decreases, the car is in reverse. The slope (steepness) indicates speed.</p></li><li><p>From the graph, <m>s(2)</m> and <m>s(10)</m> can be read. The distance traveled between <m>t = 2</m> and <m>t = 10</m> is <m>|s(10) - s(2)|</m> thousand feet.</p></li><li><p>If the position graph is always non-decreasing (never moves backward), the car never goes in reverse. A graph that decreases (negative slope) over some interval would indicate reverse motion.</p></li><li><p>For the described motion: <m>t = 0</m>: <m>s = 0</m>. At <m>t = 5</m>: <m>s = 1000 \times 5 = 5000</m> ft (i.e., <m>5</m> thousand ft). From <m>t = 5</m> to <m>t = 7</m>: car is stopped, so <m>s = 5</m>. At <m>t = 7</m>: U-turn, moving at <m>-800</m> ft/min. At <m>t = 12</m>: <m>s = 5000 - 800 \times 5 = 5000 - 4000 = 1000</m> ft (i.e., <m>1</m> thousand ft). Plot a line of slope <m>1</m> from <m>(0,0)</m> to <m>(5,5)</m>, horizontal from <m>(5,5)</m> to <m>(7,5)</m>, and a line of slope <m>-0.8</m> from <m>(7,5)</m> to <m>(12,1)</m>.</p></li></ol></p>
     </solution>    
   </exercise>
 

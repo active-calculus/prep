@@ -88,9 +88,7 @@
       </p>
     </answer>
     <solution>
-      <p>
-        Exercise Solution
-      </p>
+      <p><ol marker="a."><li><p>For <m>f</m>: read the vertex <m>(h,k)</m> and one additional point from the graph. Write <m>f(x) = a(x-h)^2 + k</m> and solve for <m>a</m> using the additional point.</p></li><li><p>For <m>g</m>: similarly read the vertex and one additional point and determine the formula <m>g(x) = a(x-h)^2 + k</m>.</p></li><li><p>Set <m>h(x) = f(x)</m>: <m>2x^2 - 8x + 6 = f(x)</m>. Solve the resulting equation (quadratic). If the discriminant is non-negative, there are intersection points; otherwise the graphs do not intersect.</p></li><li><p>Set <m>h(x) = g(x)</m> and solve similarly. The discriminant determines whether intersection points exist.</p></li></ol></p>
     </solution>
   </exercise>
 
@@ -196,9 +194,7 @@
       </p>
     </answer>
     <solution>
-      <p>
-        Exercise Solution
-      </p>
+      <p><ol marker="a."><li><p>Vertex at <m>(2, 1)</m> (from vertex form).</p></li><li><p>The minimum value is <m>f(2) = 1 \gt 0</m>, so <m>f</m> has <em>no</em> <m>x</m>-intercepts.</p></li><li><p>Function values: <m>f(0) = 3</m>, <m>f(1) = \frac{3}{2}</m>, <m>f(2) = 1</m>, <m>f(3) = \frac{3}{2}</m>, <m>f(4) = 3</m>, <m>f(5) = \frac{11}{2}</m>. Average rates of change: <m>AV_{[0,1]} = -\frac{3}{2}</m>, <m>AV_{[1,2]} = -\frac{1}{2}</m>, <m>AV_{[2,3]} = \frac{1}{2}</m>, <m>AV_{[3,4]} = \frac{3}{2}</m>, <m>AV_{[4,5]} = \frac{5}{2}</m>.</p></li><li><p>The function values are symmetric about <m>x = 2</m> (the vertex). The average rates of change form an arithmetic sequence increasing by <m>1</m> at each step, a characteristic pattern of quadratic functions.</p></li></ol></p>
     </solution>
   </exercise>
 
@@ -239,9 +235,7 @@
       </p>
     </answer>
     <solution>
-      <p>
-        Exercise Solution
-      </p>
+      <p><ol marker="a."><li><p>The vertex occurs at <m>t = 1.2</m>. By symmetry of the parabola, <m>t = 2.4</m> is symmetric to <m>t = 0</m> about the vertex: <m>s(2.4) = s(0) = 56.3</m> feet.</p></li><li><p>At the vertex, the initial velocity is <m>v_0 = 32 \times 1.2 = 38.4</m> ft/s (since vertex is at <m>t = v_0/32</m>). Maximum height: <m>s(1.2) = -16(1.44) + 38.4(1.2) + 56.3 = -23.04 + 46.08 + 56.3 = 79.34</m> feet.</p></li><li><p>Set <m>s(t) = 0</m>: <m>-16t^2 + 38.4t + 56.3 = 0</m>. Using the quadratic formula: <m>t = \frac{38.4 + \sqrt{38.4^2 + 4(16)(56.3)}}{32} = \frac{38.4 + \sqrt{5077.76}}{32} \approx \frac{38.4 + 71.26}{32} \approx 3.43</m> seconds.</p></li><li><p>The initial velocity is <m>v_0 = 38.4 = \frac{192}{5}</m> feet per second.</p></li></ol></p>
     </solution>
   </exercise>  
 

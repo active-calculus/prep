@@ -27,7 +27,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Answers will vary. A sketch should show an inverted cone with labeled radius <m>2</m> ft and depth <m>4</m> ft, with water partially filling the bottom of the tank.</p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-tandem-conical-tank-task-1">
       <statement>
@@ -37,7 +39,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Quantities that are changing include the volume of water in the tank, the height of the water, the surface area of the top of the water, and time. Quantities that are not changing include the rate at which water enters, the height of the tank, and the radius of the tank.</p>
+      </solution>
     </task>
     <task workspace="1cm" xml:id="act-tandem-conical-tank-task-2">
       <statement>
@@ -116,7 +120,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Since water enters at a constant rate of <m>0.75</m> cubic feet per minute, <m>V = 0.75t</m>. The table values are: <m>t = 0, V = 0</m>; <m>t = 1, V = 0.75</m>; <m>t = 2, V = 1.5</m>; <m>t = 3, V = 2.25</m>; <m>t = 4, V = 3.0</m>; <m>t = 5, V = 3.75</m>. The graph of <m>V</m> versus <m>t</m> is a straight line through the origin with slope <m>0.75</m>.</p>
+      </solution>
     </task>
     <task workspace="1cm" xml:id="act-tandem-conical-tank-task-3">
       <statement>
@@ -130,13 +136,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Since the radius of the cone increases as the water level rises, the height of the water increases rapidly at first but the rate of increase slows as the water level rises. Sketches should show a concave-down increasing curve approaching the maximum depth of <m>4</m> ft.</p>
+      </solution>
     </task>
     <answer>
       <p/>
     </answer>
     <solution>
-      <p/>
+      <p>See solutions to individual tasks above.</p>
     </solution>
   </activity>
 </worksheet>

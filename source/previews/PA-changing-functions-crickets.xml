@@ -27,7 +27,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>We seek <m>T</m> when <m>N = 92</m>: <m>T = 40 + 0.25(92) = 63</m>. So the temperature should be <m>63^\circ</m> F.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-crickets-task-1">
       <statement>
@@ -37,7 +39,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>We seek <m>N</m> when <m>T = 77</m>. Solving <m>77 = 40 + 0.25N</m> gives <m>N = \frac{77 - 40}{0.25} = 148</m> chirps per minute.</p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-crickets-task-2">
       <statement>
@@ -47,7 +51,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The model is known to be accurate only for temperatures from <m>50^\circ</m> to <m>85^\circ</m> F, so <m>35^\circ</m> F lies outside the valid range and we should not expect reasonable results at this temperature.</p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="PA-crickets-task-3">
       <statement>
@@ -57,7 +63,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>At <m>65</m> chirps per minute the temperature is <m>T = 40 + 0.25(65) = 56.25^\circ</m> F, and at <m>75</m> chirps per minute the temperature is <m>T = 40 + 0.25(75) = 58.75^\circ</m> F. The temperature has risen by <m>58.75 - 56.25 = 2.5</m> degrees Fahrenheit.</p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-crickets-task-4">
       <statement>
@@ -67,7 +75,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>At <m>50^\circ</m> F we get <m>N = \frac{50 - 40}{0.25} = 40</m> chirps per minute; at <m>85^\circ</m> F we get <m>N = \frac{85 - 40}{0.25} = 180</m> chirps per minute. The fewest expected is <m>40</m> and the greatest is <m>180</m> chirps per minute.</p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

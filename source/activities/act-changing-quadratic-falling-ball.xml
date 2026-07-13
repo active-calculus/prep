@@ -45,7 +45,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Plotting <m>s(t) = -16t^2 + 41t + 37</m> in an appropriate window (for example, <m>0 \le t \le 4</m> and <m>0 \le s \le 70</m>) shows an upside-down parabola that rises from <m>s(0) = 37</m>, reaches a maximum near <m>t \approx 1.28</m> seconds and <m>s \approx 63.3</m> feet, and then falls back to ground level near <m>t \approx 3.3</m> seconds. Answers will vary on the exact sketch.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-changing-quadratic-falling-ball-task-2">
       <statement>

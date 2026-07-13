@@ -27,7 +27,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Answers will vary. A sketch should show a sphere with labeled radius <m>3</m> ft, with water partially filling the tank.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-tandem-spherical-tank-task-1">
       <statement>
@@ -37,7 +39,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Quantities that are changing include the volume of water in the tank, the height of the water, the surface area of the top of the water, and time. Quantities that are not changing include the rate at which water is pumped out and the radius of the tank.</p>
+      </solution>
     </task>
     <task workspace="2cm" xml:id="act-tandem-spherical-tank-task-2">
       <statement>
@@ -47,7 +51,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Since the radius is <m>3</m> feet, the full tank contains <m>\frac{4}{3}\pi(3)^3 = 36\pi \approx 113.1</m> cubic feet of water.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-tandem-spherical-tank-task-3">
       <statement>
@@ -57,7 +63,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Water is removed at <m>1.2</m> cubic feet per minute. The tank drains when <m>1.2t = 36\pi</m>, so <m>t = \frac{36\pi}{1.2} = 30\pi \approx 94.25</m> minutes.</p>
+      </solution>
     </task>
     <task workspace="0.5cm" xml:id="act-tandem-spherical-tank-task-4">
       <statement>
@@ -122,7 +130,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Since water is removed at a constant rate, <m>V = 36\pi - 1.2t</m>. The approximate values are: <m>t = 0, V \approx 113.1</m>; <m>t = 20, V \approx 89.1</m>; <m>t = 40, V \approx 65.1</m>; <m>t = 60, V \approx 41.1</m>; <m>t = 80, V \approx 17.1</m>; <m>t = 94.24, V \approx 0</m>. The graph is linear because water is removed at a constant rate.</p>
+      </solution>
     </task>
     <task workspace="1cm" xml:id="act-tandem-spherical-tank-task-5">
       <statement>
@@ -136,13 +146,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>When <m>t = 0</m> the tank is full, so the height of the water is the diameter <m>h = 6</m> ft. When the tank is empty, <m>h = 0</m>. The height decreases quickly at first, then the rate of decrease slows as the widest part of the sphere is reached, then speeds up again as the tank nears empty. Sketches should show an S-shaped decreasing curve from <m>h = 6</m> to <m>h = 0</m>.</p>
+      </solution>
     </task>
     <answer>
       <p/>
     </answer>
     <solution>
-      <p/>
+      <p>See solutions to individual tasks above.</p>
     </solution>
   </activity>
 </worksheet>
