@@ -44,6 +44,8 @@
           a reflection across the <m>x</m>-axis, then shifting up 2 units.
           The point <m>(-2, 2)</m> on <m>f</m> moves to <m>(-1, 1)</m> on <m>p</m>.
         </p>
+      
+        <image width="50%" source="solution-images/Activity1.8.4a.png"/>
       </solution>
     </task>
     <task workspace="5cm" xml:id="act-changing-transformations-combined-task-1">
@@ -61,6 +63,8 @@
           shifting down <m>0.75</m> units.
           The point <m>(1.5, 1.5)</m> on <m>g</m> moves to <m>(1, 2.25)</m> on <m>q</m>.
         </p>
+      
+        <image width="50%" source="solution-images/Activity1.8.4b.png"/>
       </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-transformations-combined-task-2">
@@ -99,6 +103,8 @@
           <md>s(x) = -2.5\,g(x+1.25) + 1.75.</md>
           The point <m>(1.5, 1.5)</m> on <m>g</m> moves to <m>(0.25, -2)</m> on <m>s</m>.
         </p>
+      
+        <image width="50%" source="solution-images/Activity1.8.4d.png"/>
       </solution>
     </task>
     <answer>

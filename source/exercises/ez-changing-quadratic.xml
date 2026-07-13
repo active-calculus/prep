@@ -89,6 +89,8 @@
     </answer>
     <solution>
       <p><ol marker="a."><li><p>For <m>f</m>: read the vertex <m>(h,k)</m> and one additional point from the graph. Write <m>f(x) = a(x-h)^2 + k</m> and solve for <m>a</m> using the additional point.</p></li><li><p>For <m>g</m>: similarly read the vertex and one additional point and determine the formula <m>g(x) = a(x-h)^2 + k</m>.</p></li><li><p>Set <m>h(x) = f(x)</m>: <m>2x^2 - 8x + 6 = f(x)</m>. Solve the resulting equation (quadratic). If the discriminant is non-negative, there are intersection points; otherwise the graphs do not intersect.</p></li><li><p>Set <m>h(x) = g(x)</m> and solve similarly. The discriminant determines whether intersection points exist.</p></li></ol></p>
+    
+        <image width="50%" source="solution-images/Sect1.5Problem6d.png"/>
     </solution>
   </exercise>
 

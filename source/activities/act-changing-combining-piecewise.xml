@@ -105,6 +105,8 @@
       <answer/>
       <solution>
         <p>The graph of <m>y = p(x)</m> consists of two parabolic pieces. For <m>x \lt 0</m>, the piece <m>-(x+2)^2+2</m> is a downward-opening parabola with vertex <m>(-2,2)</m> that passes through <m>(-4,-2)</m>, <m>(-2+\sqrt{2},0)</m>, <m>(-2-\sqrt{2},0)</m>, and approaches <m>(0,3)</m> from the left (open endpoint). For <m>x \ge 0</m>, the piece <m>\frac{1}{2}(x-2)^2+1</m> is an upward-opening parabola with vertex <m>(2,1)</m> that starts at <m>(0,3)</m> (closed endpoint) and passes through <m>(4,3)</m>. The graph has a jump at <m>x = 0</m> but the values approach <m>3</m> from both sides, so the graph is actually continuous there.</p>
+      
+        <image width="50%" source="solution-images/Activity1.9.4.png"/>
       </solution>
     </task>
     <task workspace="6cm" xml:id="act-changing-combining-piecewise-task-4">

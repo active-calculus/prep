@@ -187,6 +187,11 @@
     </answer>
     <solution>
       <p><ol marker="a."><li><p>With <m>f(x)=(x-2)^2+1</m>: <m>g(x)=f(4x)</m> has vertex at <m>(\frac{1}{2}, 1)</m>, <m>y</m>-intercept <m>5</m>, no <m>x</m>-intercepts. <m>h(x)=f(2x)</m> has vertex <m>(1,1)</m>, <m>y</m>-intercept <m>5</m>. <m>k(x)=f(0.5x)</m> has vertex <m>(4,1)</m>, <m>y</m>-intercept <m>5</m>. <m>m(x)=f(0.25x)</m> has vertex <m>(8,1)</m>, <m>y</m>-intercept <m>5</m>. All have the same minimum value and <m>y</m>-intercept; increasing <m>a</m> horizontally compresses the graph.</p></li><li><p>The transformation <m>y=f(ax)</m> with <m>a\gt 0</m> horizontally compresses the graph by factor <m>a</m> (when <m>a\gt 1</m>) or stretches it by factor <m>1/a</m> (when <m>0\lt a\lt 1</m>). Points on the <m>y</m>-axis are unchanged.</p></li><li><p><m>r(x)=f(-x)=(-x-2)^2+1=(x+2)^2+1</m>. This is the reflection of <m>f</m> across the <m>y</m>-axis: every point <m>(a,b)</m> on <m>f</m> maps to <m>(-a,b)</m> on <m>r</m>.</p></li><li><p><m>s(x)=f(-2x)</m> combines a horizontal compression by <m>2</m> with reflection across the <m>y</m>-axis. In general, <m>y=f(ax)</m> with <m>a\lt 0</m> reflects across the <m>y</m>-axis and compresses horizontally by <m>|a|</m>.</p></li></ol></p>
+    
+        <sidebyside widths="45% 45%">
+          <image source="solution-images/Problem1.8.8a.png"/>
+          <image source="solution-images/Problem1.8.8c.png"/>
+        </sidebyside>
     </solution>
   </exercise>
 </exercises>

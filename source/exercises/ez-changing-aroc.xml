@@ -106,6 +106,8 @@
     </answer>
     <solution>
       <p><ol marker="a."><li><p><m>AV_{[0,5]} = \frac{44.74 - 37.00}{5} = 1.548</m> <degree/>F/min; <m>AV_{[5,10]} = \frac{50.77 - 44.74}{5} = 1.206</m> <degree/>F/min; <m>AV_{[10,15]} = \frac{55.47 - 50.77}{5} = 0.940</m> <degree/>F/min. For example, on the interval <m>[0,5]</m>, the temperature of the soda is increasing on average by <m>1.548</m> degrees Fahrenheit for each additional minute.</p></li><li><p>Change on <m>[10,20]</m>: <m>59.12 - 50.77 = 8.35</m> <degree/>F. Change on <m>[25,35]</m>: <m>65.92 - 61.97 = 3.95</m> <degree/>F. There is more total change on <m>[10,20]</m>.</p></li><li><p>The soda's temperature is changing most rapidly at the beginning (when <m>t</m> is smallest), and the rate of change decreases over time as the soda approaches room temperature.</p></li><li><p>The rate of change on <m>[30,35]</m> is <m>AV_{[30,35]} = \frac{65.92 - 64.19}{5} = 0.346</m> <degree/>F/min. Extending this trend by <m>2</m> minutes: <m>F(37) \approx 65.92 + 2(0.346) \approx 66.6</m> <degree/>F.</p></li></ol></p>
+    
+        <image width="50%" source="solution-images/T-deg-F-vs-t-minutes.png"/>
     </solution>
   </exercise>
 

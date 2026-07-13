@@ -146,6 +146,8 @@
           In both counties, the population increased in every decade from 1960 to 2010,
           so the average rate of change was positive on every decade interval for both counties.
         </p>
+      
+        <image width="50%" source="solution-images/Kent-Pop-and-Ottawa-Pop.png"/>
       </solution>
     </task>
     <task workspace="5cm" xml:id="act-changing-aroc-population-task-4">

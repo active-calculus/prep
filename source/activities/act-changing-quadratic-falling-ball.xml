@@ -47,6 +47,8 @@
       <answer/>
       <solution>
         <p>Plotting <m>s(t) = -16t^2 + 41t + 37</m> in an appropriate window (for example, <m>0 \le t \le 4</m> and <m>0 \le s \le 70</m>) shows an upside-down parabola that rises from <m>s(0) = 37</m>, reaches a maximum near <m>t \approx 1.28</m> seconds and <m>s \approx 63.3</m> feet, and then falls back to ground level near <m>t \approx 3.3</m> seconds. Answers will vary on the exact sketch.</p>
+      
+        <image width="50%" source="solution-images/Activity1.5.4b.png"/>
       </solution>
     </task>
     <task workspace="3cm" xml:id="act-changing-quadratic-falling-ball-task-2">
@@ -121,6 +123,8 @@
           These values represent the average downward velocity of the balloon over each
           half-second interval; the balloon is falling faster and faster as it descends.
         </p>
+      
+        <image width="50%" source="solution-images/Activity1.5.4f.png"/>
       </solution>
     </task>
     <answer>

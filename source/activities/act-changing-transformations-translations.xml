@@ -46,6 +46,8 @@
           The graph of <m>f(x) = r(x+1) + 2</m> combines both transformations — a shift
           left 1 unit and up 2 units — moving <m>(-2, -1)</m> to <m>(-3, 1)</m>.
         </p>
+      
+        <image width="50%" source="solution-images/Activity1.8.2a.png"/>
       </solution>
     </task>
     <task workspace="5cm" xml:id="act-changing-transformations-translations-task-1">
@@ -85,6 +87,8 @@
           The function <m>p</m> is a translation of <m>q</m> three units to the left
           and four units down.
         </p>
+      
+        <image width="50%" source="solution-images/Activity1.8.2c.png"/>
       </solution>
     </task>
     <answer>

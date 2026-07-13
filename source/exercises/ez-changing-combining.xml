@@ -297,5 +297,17 @@
           </ol>
         </p>
     </statement>
+    <answer>
+      <p>
+        Exercise Answer
+      </p>
+    </answer>
+    <solution>
+      <p><ol marker="a."><li><p>The triathlete exits the water after the swim at <m>t = 2.4/2.5 = 0.96</m> hours.</p></li><li><p>The bike finishes at <m>t = 0.96 + 0.05 + 112/21 \approx 6.34</m> hours; the race ends at <m>t \approx 6.37 + 26.2/8.5 \approx 9.45</m> hours.</p></li><li><p>Key points: exits water at <m>(0.96, 2.4)</m>; starts bike at <m>(1.01, 2.4)</m>; finishes bike at <m>(6.34, 114.4)</m>; starts run at <m>(6.37, 114.4)</m>; finishes at <m>(9.45, 140.6)</m>.</p></li><li><p><me>f(t) = \begin{cases} 2.5t, \amp 0 \le t \le 0.96 \\ 2.4, \amp 0.96 \lt t \le 1.01 \\ 2.4 + 21(t-1.01), \amp 1.01 \lt t \le 6.34 \\ 114.4, \amp 6.34 \lt t \le 6.37 \\ 114.4 + 8.5(t-6.37), \amp 6.37 \lt t \le 9.45 \end{cases}</me></p></li><li><p>See graphs below.</p></li></ol></p>
+      <sidebyside widths="45% 45%">
+        <image source="solution-images/Sec1.9Problem9f.png"/>
+        <image source="solution-images/Sec1.9Problem9g.png"/>
+      </sidebyside>
+    </solution>
   </exercise>
 </exercises>

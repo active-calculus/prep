@@ -77,6 +77,8 @@
     </answer>
     <solution>
       <p><ol marker="a."><li><p>From the graph: <m>p^{-1}(2.5)</m> is the input to <m>p</m> that gives output <m>2.5</m>, found by reading <m>p(x) = 2.5</m> from the graph. The problem states <m>p^{-1}(2.5) = -3.5</m>. <m>p^{-1}(-2)</m> and <m>p^{-1}(0)</m> are read similarly; <m>q^{-1}(2)</m> requires reading <m>q(x) = 2</m>.</p></li><li><p>Since the graph of <m>p^{-1}</m> is the reflection of the graph of <m>p</m> across the line <m>y = x</m>, any point <m>(a, b)</m> on the graph of <m>p</m> gives a point <m>(b, a)</m> on the graph of <m>p^{-1}</m>. Use this to find additional points.</p></li><li><p>Plot the six known points and sketch the complete graph of <m>y = p^{-1}(x)</m>. The graphs of <m>p</m> and <m>p^{-1}</m> are reflections of each other across the line <m>y = x</m>.</p></li></ol></p>
+    
+        <image width="50%" source="solution-images/Sec1.7Exercise7.png"/>
     </solution>
   </exercise>
 
@@ -151,6 +153,8 @@
     </answer>
     <solution>
       <p><ol marker="a."><li><p>Since the water level rises at a constant rate of <m>0.25</m> m/min starting from <m>0</m>, the height at time <m>t</m> is <m>h = 0.25t</m>, so <m>f(t) = 0.25t</m>.</p></li><li><p>At <m>h = 2.5</m>: <m>0.25t = 2.5 \Rightarrow t = 10</m> min. Full (h=4): <m>t = 4/0.25 = 16</m> min.</p></li><li><p>Yes: as time increases, the volume strictly increases (more water is added continuously), so the function <m>g</m> is one-to-one and has an inverse.</p></li><li><p>Substituting <m>h = 0.25t</m>: <m>V = \frac{\pi}{12}(0.25t)^3 = \frac{\pi}{12} \cdot \frac{t^3}{64} = \frac{\pi t^3}{768}</m>. The graph is an increasing cubic curve (concave up), since the cone widens as it fills.</p></li><li><p>Solving <m>V = \frac{\pi t^3}{768}</m> for <m>t</m>: <m>t^3 = \frac{768V}{\pi}</m>, so <m>t = g^{-1}(V) = \left(\frac{768V}{\pi}\right)^{1/3}</m>. This gives the time (in minutes) for the volume in the tank to reach <m>V</m> cubic meters.</p></li><li><p>At <m>V = \frac{8\pi}{3}</m>: <m>t = \left(\frac{768 \cdot \frac{8\pi}{3}}{\pi}\right)^{1/3} = \left(2048\right)^{1/3} = 8\cdot 2^{2/3} = 8\sqrt[3]{4}</m> minutes.</p></li></ol></p>
+    
+        <image width="50%" source="solution-images/Sec1.7Exercise8.png"/>
     </solution>
   </exercise>
 

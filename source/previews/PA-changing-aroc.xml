@@ -81,6 +81,8 @@
           The formula <m>s(t) = 64 - 16(t-1)^2</m> is a classical free-fall equation,
           and negative values of <m>t</m> or <m>s</m> are not necessarily unphysical.
         </p>
+      
+        <image width="50%" source="solution-images/PreviewActivity1.3.1c.png"/>
       </solution>
     </task>
     <task workspace="4cm" xml:id="PA-changing-aroc-task-3">
@@ -105,6 +107,8 @@
           </md>
           The equation of the line is <m>y = -32t + 108</m>.
         </p>
+      
+        <image width="50%" source="solution-images/PreviewActivity1.3.1d.png"/>
       </solution>
     </task>
     <task workspace="4cm" xml:id="PA-changing-aroc-task-4">
@@ -151,6 +155,12 @@
           <md>AV_{[1,3]} = \frac{0-64}{2} = -32 \text{ ft/sec.}</md>
           The secant line through <m>(3, 0)</m> with slope <m>-32</m> is <m>y = -32t + 96</m>.
         </p>
+      
+        <sidebyside widths="28% 28% 28%">
+          <image source="solution-images/PreviewActivity1.3.1fi.png"/>
+          <image source="solution-images/PreviewActivity1.3.1fii.png"/>
+          <image source="solution-images/PreviewActivity1.3.1fiii.png"/>
+        </sidebyside>
       </solution>
     </task>
   </exploration>

@@ -38,6 +38,11 @@
           the line <m>f(x) = -2x+6</m>, or a curve such as <m>f(x) = -(x-1)^2 + 4</m>
           (which also passes through both required points).
         </p>
+      
+        <sidebyside widths="45% 45%">
+          <image source="solution-images/Activity1.3.4ai.png"/>
+          <image source="solution-images/Activity1.3.4aii.png"/>
+        </sidebyside>
       </solution>
     </task>
     <task workspace="2.5cm" xml:id="act-changing-aroc-graphs-task-1">
@@ -59,6 +64,11 @@
           satisfies the conditions.  For example, a curve that dips below the secant line
           between <m>x=0</m> and <m>x=4</m> before returning to <m>(4,3)</m>.
         </p>
+      
+        <sidebyside widths="45% 45%">
+          <image source="solution-images/Activity1.3.4bi.png"/>
+          <image source="solution-images/Activity1.3.4bii.png"/>
+        </sidebyside>
       </solution>
     </task>
     <task workspace="3cm" xml:id="act-changing-aroc-graphs-task-2">
