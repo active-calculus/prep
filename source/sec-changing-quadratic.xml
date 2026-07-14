@@ -56,7 +56,7 @@
   	<title>Properties of Quadratic Functions</title>
 
   	<p>
-  		Quadratic functions are likely familiar to you from experience in previous courses.  Throughout, we let <m>y = q(x) = ax^2 + bx + c</m> where <m>a</m>, <m>b</m>, and <m>c</m> are real numbers with <m>a \ne 0</m>.  From the outset, it is important to note that when we write <m>q(x) = ax^2 + bx + c</m> we are thinking of an <em>infinite family of functions</em> where each member depends on the three paramaters <m>a</m>, <m>b</m>, and <m>c</m>.
+  		Quadratic functions are likely familiar to you from experience in previous courses.  Throughout, we let <m>y = q(x) = ax^2 + bx + c</m> where <m>a</m>, <m>b</m>, and <m>c</m> are real numbers with <m>a \ne 0</m>.  From the outset, it is important to note that when we write <m>q(x) = ax^2 + bx + c</m> we are thinking of an <em>infinite family of functions</em> where each member depends on the three parameters <m>a</m>, <m>b</m>, and <m>c</m>.
   	</p>
 
 	<xi:include href="./activities/act-changing-quadratic-parameters.xml"/>
