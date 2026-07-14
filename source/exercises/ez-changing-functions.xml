@@ -14,28 +14,28 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-functions">
 
 <!-- does not have a statement tag
-  <exercise xml:id="ez-changing-functions-WW0">
+  <exercise xml:id="ez-changing-functions-WW0" label="Library__Rochester__setAlgebra16FunctionGraphs__c0s1p3__c0s1p3">
     <webwork source="Library/Rochester/setAlgebra16FunctionGraphs/c0s1p3/c0s1p3.pg" />
   </exercise>
  
 -->  
 
-  <exercise xml:id="ez-changing-functions-WW1">
+  <exercise xml:id="ez-changing-functions-WW1" label="Library__LoyolaChicago__Precalc__Chap1Sec1__Q01">
     <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec1/Q01.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-functions-WW2">
+  <exercise xml:id="ez-changing-functions-WW2" label="Library__LoyolaChicago__Precalc__Chap1Sec1__Q24">
     <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec1/Q24.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-functions-WW3">
+  <exercise xml:id="ez-changing-functions-WW3" label="Library__LoyolaChicago__Precalc__Chap1Sec1__Q19">
     <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec1/Q19.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-functions-WW4">
+  <exercise xml:id="ez-changing-functions-WW4" label="Library__LoyolaChicago__Precalc__Chap2Sec1__Connally3-2-1-25-Input-and-output">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec1/Connally3-2-1-25-Input-and-output.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-functions-WW5">
+  <exercise xml:id="ez-changing-functions-WW5" label="Library__LoyolaChicago__Precalc__Chap2Sec1__Q20">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec1/Q20.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-functions-WW6">
+  <exercise xml:id="ez-changing-functions-WW6" label="Library__maCalcDB__setAlgebra15Functions__jay4">
     <webwork source="Library/maCalcDB/setAlgebra15Functions/jay4.pg"/>
   </exercise>
 

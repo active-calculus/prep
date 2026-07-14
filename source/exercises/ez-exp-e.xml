@@ -14,32 +14,32 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-e">
 
 <!--
-  <exercise xml:id="ez-exp-e-WW1">
+  <exercise xml:id="ez-exp-e-WW1" label="Library__LoyolaChicago__Precalc__Chap3Sec4__Q04">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q04.pg" />
   </exercise>
-  <exercise xml:id="ez-exp-e-WW2">
+  <exercise xml:id="ez-exp-e-WW2" label="Library__LoyolaChicago__Precalc__Chap3Sec4__Q06">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q06.pg" />
   </exercise>
 -->
 
-  <exercise xml:id="ez-exp-e-WW0">
+  <exercise xml:id="ez-exp-e-WW0" label="Library__Rochester__setAlgebra28ExpFunctions__sw6_2_27">
     <webwork source="Library/Rochester/setAlgebra28ExpFunctions/sw6_2_27.pg"/>
   </exercise>
-  <exercise xml:id="ez-exp-e-WW1">
+  <exercise xml:id="ez-exp-e-WW1" label="Library__Rochester__setAlgebra28ExpFunctions__sw6_2_3">
     <webwork source="Library/Rochester/setAlgebra28ExpFunctions/sw6_2_3.pg"/>
   </exercise>
-  <exercise xml:id="ez-exp-e-WW2">
+  <exercise xml:id="ez-exp-e-WW2" label="Library__Rochester__setAlgebra28ExpFunctions__sw6_2_5">
     <webwork source="Library/Rochester/setAlgebra28ExpFunctions/sw6_2_5.pg"/>
   </exercise>
-  <exercise xml:id="ez-exp-e-WW3">
+  <exercise xml:id="ez-exp-e-WW3" label="Library__LoyolaChicago__Precalc__Chap3Sec4__Q12">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q12.pg"/>
   </exercise>
-  <exercise xml:id="ez-exp-e-WW4">
+  <exercise xml:id="ez-exp-e-WW4" label="Library__LoyolaChicago__Precalc__Chap3Sec4__Q13">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q13.pg"/>
   </exercise>
 
 <!--  
-  <exercise xml:id="ez-exp-e-WW5">
+  <exercise xml:id="ez-exp-e-WW5" label="Library__LoyolaChicago__Precalc__Chap3Sec4__Q24">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q24.pg" />
   </exercise>
 

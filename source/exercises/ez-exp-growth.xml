@@ -13,39 +13,39 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-growth">
 
-  <exercise xml:id="ez-exp-growth-WW1">
+  <exercise xml:id="ez-exp-growth-WW1" label="Library__LoyolaChicago__Precalc__Chap3Sec1__Connally3-3-1-12-Exponential-functions">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-12-Exponential-functions.pg"/>
   </exercise>
-  <exercise xml:id="ez-exp-growth-WW2">
+  <exercise xml:id="ez-exp-growth-WW2" label="Library__LoyolaChicago__Precalc__Chap3Sec1__Connally3-3-1-19-Exponential-functions">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-19-Exponential-functions.pg"/>
   </exercise>
-  <exercise xml:id="ez-exp-growth-WW3">
+  <exercise xml:id="ez-exp-growth-WW3" label="Library__LoyolaChicago__Precalc__Chap3Sec1__Connally3-3-1-27-Exponential-functions">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-27-Exponential-functions.pg"/>
   </exercise>
-  <exercise xml:id="ez-exp-growth-WW4">
+  <exercise xml:id="ez-exp-growth-WW4" label="Library__LoyolaChicago__Precalc__Chap3Sec1__Connally3-3-1-28-Exponential-functions">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-28-Exponential-functions.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-exp-growth-WW6">
+  <exercise xml:id="ez-exp-growth-WW6" label="Library__LoyolaChicago__Precalc__Chap3Sec1__Q16">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Q16.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-exp-growth-WW8">
+  <exercise xml:id="ez-exp-growth-WW8" label="Library__LoyolaChicago__Precalc__Chap3Sec2__Connally3-3-2-08-Exponential-vs-linear">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec2/Connally3-3-2-08-Exponential-vs-linear.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-exp-growth-WW10">
+  <exercise xml:id="ez-exp-growth-WW10" label="Library__LoyolaChicago__Precalc__Chap3Sec2__Q02">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec2/Q02.pg"/>
   </exercise>
 
 <!--
-  <exercise xml:id="ez-exp-growth-WW5">
+  <exercise xml:id="ez-exp-growth-WW5" label="Library__LoyolaChicago__Precalc__Chap3Sec1__Q15">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Q15.pg" />
   </exercise>
-  <exercise xml:id="ez-exp-growth-WW7">
+  <exercise xml:id="ez-exp-growth-WW7" label="Library__LoyolaChicago__Precalc__Chap3Sec1__Q41">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Q41.pg" />
   </exercise>
-  <exercise xml:id="ez-exp-growth-WW9">
+  <exercise xml:id="ez-exp-growth-WW9" label="Library__LoyolaChicago__Precalc__Chap3Sec1__Connally3-3-2-31-Exponential-vs-linear">
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-2-31-Exponential-vs-linear.pg" />
   </exercise>
 -->

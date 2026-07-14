@@ -12,17 +12,17 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-inverse">
-  
-  <exercise xml:id="ez-trig-inverse-WW1">
+
+  <exercise xml:id="ez-trig-inverse-WW1" label="Library__LoyolaChicago__Precalc__Chap6Sec7__Q07">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q07.pg"/>
   </exercise>
-  <exercise xml:id="ez-trig-inverse-WW2">
+  <exercise xml:id="ez-trig-inverse-WW2" label="Library__LoyolaChicago__Precalc__Chap6Sec7__Q08">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q08.pg"/>
   </exercise>
-  <exercise xml:id="ez-trig-inverse-WW3">
+  <exercise xml:id="ez-trig-inverse-WW3" label="Library__LoyolaChicago__Precalc__Chap6Sec7__Q09">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q09.pg"/>
   </exercise>
-  <exercise xml:id="ez-trig-inverse-WW4">
+  <exercise xml:id="ez-trig-inverse-WW4" label="Library__LoyolaChicago__Precalc__Chap6Sec7__Q14-2">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q14.pg"/>
   </exercise>
 
@@ -132,7 +132,7 @@
             <p>
               For any real number <m>t</m>, <m>\arccos(\cos(t)) = t</m>.
             </p>
-          </li> 
+          </li>
           <li>
             <p>
               For any <m>y</m> such that <m>-1 \le y \le 1</m>, <m>\cos(\arccos(y)) = y</m>.
@@ -147,7 +147,7 @@
             <p>
               For any real number <m>t</m>, <m>\arctan(\tan(t)) = t</m>.
             </p>
-          </li>         
+          </li>
         </ol>
       </p>
     </statement>
@@ -197,7 +197,7 @@
   <exercise xml:id="ez-trig-inverse-3">
     <statement>
       <p>
-        Let's consider the composite function <m>h(x) = \cos(\arcsin(x))</m>.  This function makes sense to consider since the arcsine function produces an angle, at which the cosine function can then be evaluated.  In the questions that follow, we investigate how to express <m>h</m> without using trigonometric functions at all.  
+        Let's consider the composite function <m>h(x) = \cos(\arcsin(x))</m>.  This function makes sense to consider since the arcsine function produces an angle, at which the cosine function can then be evaluated.  In the questions that follow, we investigate how to express <m>h</m> without using trigonometric functions at all.
       </p>
 
       <p>

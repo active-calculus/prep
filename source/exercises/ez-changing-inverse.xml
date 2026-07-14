@@ -13,27 +13,27 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-inverse">
 
-  <exercise xml:id="ez-changing-inverse-WW1">
+  <exercise xml:id="ez-changing-inverse-WW1" label="Library__LoyolaChicago__Precalc__Chap2Sec4__Connally3-2-4-13-Composition-inverse">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-13-Composition-inverse.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-changing-inverse-WW2">
+  <exercise xml:id="ez-changing-inverse-WW2" label="Library__LoyolaChicago__Precalc__Chap2Sec4__Connally3-2-4-15-Composition-inverse">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-15-Composition-inverse.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-changing-inverse-WW3">
+  <exercise xml:id="ez-changing-inverse-WW3" label="Library__LoyolaChicago__Precalc__Chap2Sec4__Connally3-2-4-28-Composition-inverse">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-28-Composition-inverse.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-changing-inverse-WW4">
+  <exercise xml:id="ez-changing-inverse-WW4" label="Library__LoyolaChicago__Precalc__Chap2Sec4__Connally3-2-4-31-Composition-inverse">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-31-Composition-inverse.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-changing-inverse-WW5">
+  <exercise xml:id="ez-changing-inverse-WW5" label="Library__LoyolaChicago__Precalc__Chap2Sec4__Q16">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Q16.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-changing-inverse-WW7">
+  <exercise xml:id="ez-changing-inverse-WW7" label="Library__LoyolaChicago__Precalc__Chap2Sec4__Q32">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Q32.pg"/>
   </exercise>
 

@@ -14,22 +14,22 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-circular-sinusoidal">
   
 
-  <exercise xml:id="ez-circular-sinusoidal-WW1">
+  <exercise xml:id="ez-circular-sinusoidal-WW1" label="Library__LoyolaChicago__Precalc__Chap6Review__Q18">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Review/Q18.pg"/>
   </exercise>
-  <exercise xml:id="ez-circular-sinusoidal-WW2">
+  <exercise xml:id="ez-circular-sinusoidal-WW2" label="Library__LoyolaChicago__Precalc__Chap6Review__Q20">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Review/Q20.pg"/>
   </exercise>
-  <exercise xml:id="ez-circular-sinusoidal-WW3">
+  <exercise xml:id="ez-circular-sinusoidal-WW3" label="Library__LoyolaChicago__Precalc__Chap6Review__Q28">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Review/Q28.pg"/>
   </exercise>
-  <exercise xml:id="ez-circular-sinusoidal-WW4">
+  <exercise xml:id="ez-circular-sinusoidal-WW4" label="Library__LoyolaChicago__Precalc__Chap6Sec5__Q12">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q12.pg"/>
   </exercise>
-  <exercise xml:id="ez-circular-sinusoidal-WW5">
+  <exercise xml:id="ez-circular-sinusoidal-WW5" label="Library__LoyolaChicago__Precalc__Chap6Sec5__Q18">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg"/>
   </exercise>
-  <exercise xml:id="ez-circular-sinusoidal-WW6">
+  <exercise xml:id="ez-circular-sinusoidal-WW6" label="Library__LoyolaChicago__Precalc__Chap6Sec5__Q28">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q28.pg"/>
   </exercise>
 

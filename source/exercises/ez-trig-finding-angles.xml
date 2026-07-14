@@ -12,44 +12,44 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-trig-finding-angles">
-  
-  <exercise xml:id="ez-trig-finding-angles-WW1">
+
+  <exercise xml:id="ez-trig-finding-angles-WW1" label="Library__LoyolaChicago__Precalc__Chap6Sec6__Q24a-2">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q24a.pg"/>
   </exercise>
-  <exercise xml:id="ez-trig-finding-angles-WW2">
+  <exercise xml:id="ez-trig-finding-angles-WW2" label="Library__LoyolaChicago__Precalc__Chap6Sec6__Q28-2">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg"/>
   </exercise>
-  <exercise xml:id="ez-trig-finding-angles-WW6">
+  <exercise xml:id="ez-trig-finding-angles-WW6" label="Library__LoyolaChicago__Precalc__Chap6Sec7__Q37">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q37.pg"/>
-  </exercise>   
+  </exercise>
 
 <!--  most of the following fail to have statement tags
 
-  <exercise xml:id="ez-trig-finding-angles-WW3">
+  <exercise xml:id="ez-trig-finding-angles-WW3" label="Library__Rochester__setTrig06Inverses__srw7_6_25">
     <webwork source="Library/Rochester/setTrig06Inverses/srw7_6_25.pg" />
   </exercise>
-  <exercise xml:id="ez-trig-finding-angles-WW4">
+  <exercise xml:id="ez-trig-finding-angles-WW4" label="Library__Utah__Trigonometry__set7_Trigonometry__q3">
     <webwork source="Library/Utah/Trigonometry/set7_Trigonometry/q3.pg" />
   </exercise>
-  <exercise xml:id="ez-trig-finding-angles-WW5">
+  <exercise xml:id="ez-trig-finding-angles-WW5" label="Library__LoyolaChicago__Precalc__Chap6Sec7__Q203">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q203.pg" />
   </exercise>
-  <exercise xml:id="ez-trig-finding-angles-WW7">
+  <exercise xml:id="ez-trig-finding-angles-WW7" label="Library__LoyolaChicago__Precalc__Chap6Sec6__Q36">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q36.pg" />
-  </exercise> 
+  </exercise>
 
-  <exercise xml:id="ez-trig-finding-angles-WW8">
+  <exercise xml:id="ez-trig-finding-angles-WW8" label="Library__Rochester__setTrig06Inverses__srw7_4_1">
     <webwork source="Library/Rochester/setTrig06Inverses/srw7_4_1.pg" />
   </exercise>
-  <exercise xml:id="ez-trig-finding-angles-WW9">
+  <exercise xml:id="ez-trig-finding-angles-WW9" label="Library__Rochester__setTrig06Inverses__srw7_4_3">
     <webwork source="Library/Rochester/setTrig06Inverses/srw7_4_3.pg" />
   </exercise>
-  <exercise xml:id="ez-trig-finding-angles-WW10">
+  <exercise xml:id="ez-trig-finding-angles-WW10" label="Library__Rochester__setTrig06Inverses__srw7_4_7">
     <webwork source="Library/Rochester/setTrig06Inverses/srw7_4_7.pg" />
   </exercise>
-  <exercise xml:id="ez-trig-finding-angles-WW11">
+  <exercise xml:id="ez-trig-finding-angles-WW11" label="Library__Rochester__setTrig06Inverses__srw7_4_25">
     <webwork source="Library/Rochester/setTrig06Inverses/srw7_4_25.pg" />
-  </exercise>     
+  </exercise>
 -->
 
   <exercise xml:id="ez-finding-angles-plane">

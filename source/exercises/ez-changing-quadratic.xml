@@ -13,33 +13,33 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-quadratic">
 
-  <exercise xml:id="ez-changing-quadratic-WW1">
+  <exercise xml:id="ez-changing-quadratic-WW1" label="Library__Rochester__setAlgebra20QuadraticFun__lh3-1_19-20">
     <webwork source="Library/Rochester/setAlgebra20QuadraticFun/lh3-1_19-20.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-quadratic-WW2">
+  <exercise xml:id="ez-changing-quadratic-WW2" label="Library__Rochester__setAlgebra20QuadraticFun__lh3-1_1-3-1">
     <webwork source="Library/Rochester/setAlgebra20QuadraticFun/lh3-1_1-3.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-quadratic-WW3">
+  <exercise xml:id="ez-changing-quadratic-WW3" label="Library__LoyolaChicago__Precalc__Chap2Sec6__Q22a">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec6/Q22a.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-quadratic-WW4">
+  <exercise xml:id="ez-changing-quadratic-WW4" label="Library__LoyolaChicago__Precalc__Chap2Sec6__Q14">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec6/Q14.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-quadratic-WW5">
+  <exercise xml:id="ez-changing-quadratic-WW5" label="Library__ASU-topics__setRateChange__s1_1_5">
     <webwork source="Library/ASU-topics/setRateChange/s1_1_5.pg"/>
   </exercise>
 
 
 <!--  THESE ONES DON'T
-  <exercise xml:id="ez-changing-quadratic-WW5">
+  <exercise xml:id="ez-changing-quadratic-WW5" label="Library__LoyolaChicago__Precalc__Chap2Sec6__Q10">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec6/Q10.pg" />
   </exercise>
 
-  <exercise xml:id="ez-changing-quadratic-WW6">
+  <exercise xml:id="ez-changing-quadratic-WW6" label="Library__LoyolaChicago__Precalc__Chap2Sec6__Q30">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec6/Q30.pg" />
   </exercise>
 
-  <exercise xml:id="ez-changing-quadratic-WW7">
+  <exercise xml:id="ez-changing-quadratic-WW7" label="Library__LoyolaChicago__Precalc__Chap2Sec1__Q34">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec1/Q34.pg" />
   </exercise>
 -->
@@ -48,7 +48,7 @@
   <exercise xml:id="ez-quadratic-find-formula">
     <statement>
       <p>
-        Two quadratic functions, <m>f</m> and <m>g</m>, are determined by their respective graphs in <xref ref="F-ez-quadratic-find-formula">Figure</xref>. 
+        Two quadratic functions, <m>f</m> and <m>g</m>, are determined by their respective graphs in <xref ref="F-ez-quadratic-find-formula">Figure</xref>.
       </p>
 
       <figure xml:id="F-ez-quadratic-find-formula">
@@ -109,7 +109,7 @@
           </li>
           <li>
             <p>
-              Does <m>f</m> have <m>0</m>, <m>1</m>, or <m>2</m> <m>x</m>-intercepts?  Explain, and determine the location(s) of any <m>x</m>-intercept(s) that exist. 
+              Does <m>f</m> have <m>0</m>, <m>1</m>, or <m>2</m> <m>x</m>-intercepts?  Explain, and determine the location(s) of any <m>x</m>-intercept(s) that exist.
             </p>
           </li>
           <li>
@@ -150,7 +150,7 @@
                       <cell/>
                     </row>
                   </tabular>
-                </table>  
+                </table>
                 <table xml:id="T-ez-quadratic-AVs">
                   <title>Average rates of change for <m>f</m> on select intervals.</title>
                   <tabular>
@@ -203,7 +203,7 @@
   <exercise xml:id="ez-quadratic-water-balloon">
     <statement>
       <p>
-        A water balloon is tossed vertically from a window on the fourth floor of a dormitory from an initial height of <m>56.3</m> feet.  A person two floors above observes the balloon reach its highest point <m>1.2</m> seconds after being launched.  
+        A water balloon is tossed vertically from a window on the fourth floor of a dormitory from an initial height of <m>56.3</m> feet.  A person two floors above observes the balloon reach its highest point <m>1.2</m> seconds after being launched.
       </p>
 
       <p>
@@ -239,6 +239,6 @@
     <solution>
       <p><ol marker="a."><li><p>The vertex occurs at <m>t = 1.2</m>. By symmetry of the parabola, <m>t = 2.4</m> is symmetric to <m>t = 0</m> about the vertex: <m>s(2.4) = s(0) = 56.3</m> feet.</p></li><li><p>At the vertex, the initial velocity is <m>v_0 = 32 \times 1.2 = 38.4</m> ft/s (since vertex is at <m>t = v_0/32</m>). Maximum height: <m>s(1.2) = -16(1.44) + 38.4(1.2) + 56.3 = -23.04 + 46.08 + 56.3 = 79.34</m> feet.</p></li><li><p>Set <m>s(t) = 0</m>: <m>-16t^2 + 38.4t + 56.3 = 0</m>. Using the quadratic formula: <m>t = \frac{38.4 + \sqrt{38.4^2 + 4(16)(56.3)}}{32} = \frac{38.4 + \sqrt{5077.76}}{32} \approx \frac{38.4 + 71.26}{32} \approx 3.43</m> seconds.</p></li><li><p>The initial velocity is <m>v_0 = 38.4 = \frac{192}{5}</m> feet per second.</p></li></ol></p>
     </solution>
-  </exercise>  
+  </exercise>
 
 </exercises>

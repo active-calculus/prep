@@ -12,34 +12,34 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-log-properties">
-  
-  <exercise xml:id="ez-exp-log-properties-WW1">
+
+  <exercise xml:id="ez-exp-log-properties-WW1" label="Library__Rochester__setAlgebra30LogExpEqns__problem9">
     <webwork source="Library/Rochester/setAlgebra30LogExpEqns/problem9.pg"/>
   </exercise>
-  <exercise xml:id="ez-exp-log-properties-WW2">
+  <exercise xml:id="ez-exp-log-properties-WW2" label="Library__Rochester__setAlgebra30LogExpEqns__problem11">
     <webwork source="Library/Rochester/setAlgebra30LogExpEqns/problem11.pg"/>
   </exercise>
-<!--  
-  <exercise xml:id="ez-exp-log-properties-WW3">
+<!--
+  <exercise xml:id="ez-exp-log-properties-WW3" label="Library__Rochester__setAlgebra30LogExpEqns__srw4_3_48">
     <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_3_48.pg" />
   </exercise>
-  <exercise xml:id="ez-exp-log-properties-WW7">
+  <exercise xml:id="ez-exp-log-properties-WW7" label="Library__Rochester__setAlgebra31LogExpEqns__srw4_2_1">
     <webwork source="Library/Rochester/setAlgebra31LogExpEqns/srw4_2_1.pg" />
   </exercise>
-  <exercise xml:id="ez-exp-log-properties-WW8">
+  <exercise xml:id="ez-exp-log-properties-WW8" label="Library__Rochester__setAlgebra31LogExpEqns__ur_le_2_11">
     <webwork source="Library/Rochester/setAlgebra31LogExpEqns/ur_le_2_11.pg" />
   </exercise>
-  <exercise xml:id="ez-exp-log-properties-WW9">
+  <exercise xml:id="ez-exp-log-properties-WW9" label="Library__Rochester__setAlgebra31LogExpEqns__ur_le_2_12">
     <webwork source="Library/Rochester/setAlgebra31LogExpEqns/ur_le_2_12.pg" />
-  </exercise>  
--->  
-  <exercise xml:id="ez-exp-log-properties-WW4">
+  </exercise>
+-->
+  <exercise xml:id="ez-exp-log-properties-WW4" label="Library__Rochester__setAlgebra30LogExpEqns__srw4_4_11">
     <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_11.pg"/>
   </exercise>
-  <exercise xml:id="ez-exp-log-properties-WW5">
+  <exercise xml:id="ez-exp-log-properties-WW5" label="Library__Rochester__setAlgebra30LogExpEqns__srw4_4_25">
     <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_25.pg"/>
   </exercise>
-  <exercise xml:id="ez-exp-log-properties-WW6">
+  <exercise xml:id="ez-exp-log-properties-WW6" label="Library__Rochester__setAlgebra30LogExpEqns__srw4_4_41-2">
     <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg"/>
   </exercise>
 

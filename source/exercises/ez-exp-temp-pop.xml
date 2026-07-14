@@ -14,26 +14,26 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-exp-temp-pop">
 
 <!--  
-  <exercise xml:id="ez-exp-temp-pop-WW1">
+  <exercise xml:id="ez-exp-temp-pop-WW1" label="Library__Michigan__skills_questions__topic_solving_exp_log__prob03">
     <webwork source="Library/Michigan/skills_questions/topic_solving_exp_log/prob03.pg" />
   </exercise>
 -->  
-  <exercise xml:id="ez-exp-temp-pop-WW2">
+  <exercise xml:id="ez-exp-temp-pop-WW2" label="Library__Rochester__setDiffEQ5ModelingWith1stOrder__ur_de_5_4">
     <webwork source="Library/Rochester/setDiffEQ5ModelingWith1stOrder/ur_de_5_4.pg"/>
   </exercise>
 <!--  
-  <exercise xml:id="ez-exp-temp-pop-WW3">
+  <exercise xml:id="ez-exp-temp-pop-WW3" label="Library__Rochester__setAlgebra31LogExpApplications__cooling">
     <webwork source="Library/Rochester/setAlgebra31LogExpApplications/cooling.pg" />
   </exercise>
 -->
-  <exercise xml:id="ez-exp-temp-pop-WW4">
+  <exercise xml:id="ez-exp-temp-pop-WW4" label="Library__Michigan__Chap11Sec7__Q09">
     <webwork source="Library/Michigan/Chap11Sec7/Q09.pg"/>
   </exercise>
 
 <p>In <xref ref="ez-exp-temp-pop-WW5">Exercise</xref> below, use the following structure/formula for <m>N(t)</m>: <m>N(t)=\frac{L}{1+Ab^{-kt}}</m>.  In particular, note that when the instructions say <q>find <m>A</m></q>, this use of <q><m>A</m></q> is not in reference to carrying capacity.</p>
 
 
-  <exercise xml:id="ez-exp-temp-pop-WW5">
+  <exercise xml:id="ez-exp-temp-pop-WW5" label="Library__Rochester__setAlgebra31LogExpApplications__infection1">
     <webwork source="Library/Rochester/setAlgebra31LogExpApplications/infection1.pg"/>
   </exercise>
 

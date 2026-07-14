@@ -13,26 +13,26 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-circular-unit-circle">
 
-  <exercise xml:id="ez-circular-unit-circle-WW8">
+  <exercise xml:id="ez-circular-unit-circle-WW8" label="Library__Rochester__setTrig02FunctionsUnitCircle__srw5_1_11">
     <webwork source="Library/Rochester/setTrig02FunctionsUnitCircle/srw5_1_11.pg"/>
   </exercise>
-  <exercise xml:id="ez-circular-unit-circle-WW1">
+  <exercise xml:id="ez-circular-unit-circle-WW1" label="Library__LoyolaChicago__Precalc__Chap6Sec3__Q02">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q02.pg"/>
   </exercise>
-  <exercise xml:id="ez-circular-unit-circle-WW2">
+  <exercise xml:id="ez-circular-unit-circle-WW2" label="Library__LoyolaChicago__Precalc__Chap6Sec3__Q04">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q04.pg"/>
   </exercise>
-  <exercise xml:id="ez-circular-unit-circle-WW3">
+  <exercise xml:id="ez-circular-unit-circle-WW3" label="Library__LoyolaChicago__Precalc__Chap6Sec3__Q20">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q20.pg"/>
   </exercise>
-  <exercise xml:id="ez-circular-unit-circle-WW4">
+  <exercise xml:id="ez-circular-unit-circle-WW4" label="Library__LoyolaChicago__Precalc__Chap6Sec3__Q26">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q26.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-circular-unit-circle-WW5">
+  <exercise xml:id="ez-circular-unit-circle-WW5" label="Library__LoyolaChicago__Precalc__Chap6Review__Q13">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Review/Q13.pg"/>
   </exercise>
-  <exercise xml:id="ez-circular-unit-circle-WW6">
+  <exercise xml:id="ez-circular-unit-circle-WW6" label="Library__LoyolaChicago__Precalc__Chap6Sec3__Q09">
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q09.pg"/>
   </exercise>
 

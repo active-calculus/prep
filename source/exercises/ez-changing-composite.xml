@@ -13,42 +13,42 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-composite">
  
-  <exercise xml:id="ez-changing-composite-WW1">
+  <exercise xml:id="ez-changing-composite-WW1" label="Library__LoyolaChicago__Precalc__Chap2Sec4__Connally3-2-4-01-Composition-inverse">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-01-Composition-inverse.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-composite-WW2">
+  <exercise xml:id="ez-changing-composite-WW2" label="Library__LoyolaChicago__Precalc__Chap2Sec4__Connally3-2-4-04-Composition-inverse">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-04-Composition-inverse.pg"/>
   </exercise>
-  <exercise xml:id="ez-changing-composite-WW3">
+  <exercise xml:id="ez-changing-composite-WW3" label="Library__LoyolaChicago__Precalc__Chap2Sec4__Connally3-2-4-33-Composition-inverse">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-33-Composition-inverse.pg"/>
   </exercise>
 
   <!-- no statement tag
-  <exercise xml:id="ez-changing-composite-WW4">
+  <exercise xml:id="ez-changing-composite-WW4" label="Library__Rochester__setAlgebra15Functions__s0_1_2a">
     <webwork source="Library/Rochester/setAlgebra15Functions/s0_1_2a.pg" />
   </exercise>
-  <exercise xml:id="ez-changing-composite-WW5">
+  <exercise xml:id="ez-changing-composite-WW5" label="Library__Rochester__setAlgebra15Functions__srw2_1_29">
     <webwork source="Library/Rochester/setAlgebra15Functions/srw2_1_29.pg" />
   </exercise>  
   -->
   
-  <exercise xml:id="ez-changing-composite-WW6">
+  <exercise xml:id="ez-changing-composite-WW6" label="Library__Rochester__setAlgebra17FunComposition__beth3algfun">
     <webwork source="Library/Rochester/setAlgebra17FunComposition/beth3algfun.pg"/>
   </exercise> 
-  <exercise xml:id="ez-changing-composite-WW7">
+  <exercise xml:id="ez-changing-composite-WW7" label="Library__Rochester__setAlgebra17FunComposition__c0s1p9">
     <webwork source="Library/Rochester/setAlgebra17FunComposition/c0s1p9.pg"/>
   </exercise> 
-  <exercise xml:id="ez-changing-composite-WW8">
+  <exercise xml:id="ez-changing-composite-WW8" label="Library__Rochester__setAlgebra17FunComposition__faris1">
     <webwork source="Library/Rochester/setAlgebra17FunComposition/faris1.pg"/>
   </exercise> 
 
 <!-- the image shows in HTML but not PDF
-  <exercise xml:id="ez-changing-composite-WW9">
+  <exercise xml:id="ez-changing-composite-WW9" label="Library__Rochester__setAlgebra17FunComposition__srw2_8_23">
     <webwork source="Library/Rochester/setAlgebra17FunComposition/srw2_8_23.pg" />
   </exercise> 
 --> 
   
-  <exercise xml:id="ez-changing-composite-WW10">
+  <exercise xml:id="ez-changing-composite-WW10" label="Library__Rochester__setAlgebra17FunComposition__ur_fn_2_6">
     <webwork source="Library/Rochester/setAlgebra17FunComposition/ur_fn_2_6.pg"/>
   </exercise> 
 

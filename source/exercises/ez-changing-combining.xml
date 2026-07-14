@@ -13,34 +13,34 @@
 <!-- **********************************************************************-->
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-changing-combining">
 
-  <exercise xml:id="ez-changing-combining-WW1">
+  <exercise xml:id="ez-changing-combining-WW1" label="Library__CollegeOfIdaho__setAlgebra_02_02_AlgebraOfFunctions__22IntAlg_05_functOperation">
     <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_05_functOperation.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-changing-combining-WW2">
+  <exercise xml:id="ez-changing-combining-WW2" label="Library__CollegeOfIdaho__setAlgebra_02_02_AlgebraOfFunctions__22IntAlg_07_functOperation">
     <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_07_functOperation.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-changing-combining-WW3">
+  <exercise xml:id="ez-changing-combining-WW3" label="Library__CollegeOfIdaho__setAlgebra_02_02_AlgebraOfFunctions__22IntAlg_09_functOperation">
     <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_09_functOperation.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-changing-combining-WW4">
+  <exercise xml:id="ez-changing-combining-WW4" label="Library__CollegeOfIdaho__setAlgebra_02_02_AlgebraOfFunctions__22IntAlg_10_functOperation">
     <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_10_functOperation.pg"/>
   </exercise>  
 
-  <exercise xml:id="ez-changing-combining-WW5">
+  <exercise xml:id="ez-changing-combining-WW5" label="Library__CollegeOfIdaho__setAlgebra_02_02_AlgebraOfFunctions__22IntAlg_12_functOperation">
     <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_12_functOperation.pg"/>
   </exercise>
 
-  <exercise xml:id="ez-changing-combining-WW6">
+  <exercise xml:id="ez-changing-combining-WW6" label="Library__CollegeOfIdaho__setAlgebra_02_02_AlgebraOfFunctions__22IntAlg_13_functOperation">
     <webwork source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_13_functOperation.pg"/>
   </exercise>
 
 
 <!--
 
-  <exercise xml:id="ez-changing-combining-WW8">
+  <exercise xml:id="ez-changing-combining-WW8" label="Library__LoyolaChicago__Precalc__Chap2Sec3__Q10">
     <webwork source="Library/LoyolaChicago/Precalc/Chap2Sec3/Q10.pg" />
   </exercise>
 -->
