@@ -36,7 +36,7 @@
 
   <subsection><title>Introduction</title>
   	<p>
-  		In <xref ref="sec-circular-traversing">Section</xref>, we saw how tracking the height of a point that is traversing a cirle generates a periodic function, such as in <xref ref="F-act-circular-functions-properties-graph">Figure</xref>.  Then, in <xref ref="sec-circular-unit-circle">Section</xref>, we identified a collection of <m>16</m> special points on the unit circle, as seen in <xref ref="F-circular-sine-all-16">Figure</xref>.
+  		In <xref ref="sec-circular-traversing">Section</xref>, we saw how tracking the height of a point that is traversing a circle generates a periodic function, such as in <xref ref="F-act-circular-functions-properties-graph">Figure</xref>.  Then, in <xref ref="sec-circular-unit-circle">Section</xref>, we identified a collection of <m>16</m> special points on the unit circle, as seen in <xref ref="F-circular-sine-all-16">Figure</xref>.
   	</p>
 
 	<figure xml:id="F-circular-sine-all-16">
@@ -44,7 +44,7 @@
 		<image source="images/unit-circle-16-all-labeled" width="80%"><description><p>The unit circle with <m>16</m> labeled special points.</p>
 		</description></image>
 	</figure>
-  	
+
 	<p>
 		You can also use the <em>Desmos</em> file at <url href="https://www.desmos.com/calculator/jgddn7tzxg">http://gvsu.edu/s/0xt</url> to review and study the special points on the unit circle.
 	</p>
@@ -65,7 +65,7 @@
 				<idx><h>sine function</h></idx>
 				<statement>
 					<p>
-						Given a central angle in the unit circle that measures <m>t</m> radians and that intersects the circle at both <m>(1,0)</m> and <m>(a,b)</m>, as shown in <xref ref="F-def-sine">Figure</xref>, we define the <term>sine of <m>t</m></term>, denoted <m>\sin(t)</m>, by the rule 
+						Given a central angle in the unit circle that measures <m>t</m> radians and that intersects the circle at both <m>(1,0)</m> and <m>(a,b)</m>, as shown in <xref ref="F-def-sine">Figure</xref>, we define the <term>sine of <m>t</m></term>, denoted <m>\sin(t)</m>, by the rule
 						<me>
 							\sin(t) = b
 						</me>.
@@ -78,7 +78,7 @@
 			<image source="images/sine-defn"><description><p>The definition of the sine of an angle <m>t</m>.</p>
 			</description></image>
 		</figure>
-		
+
 	</sidebyside>
 
 		<p>
@@ -129,7 +129,7 @@
 								<cell><m>\frac{5\pi}{3}</m></cell>
 								<cell><m>\frac{7\pi}{4}</m></cell>
 								<cell><m>\frac{11\pi}{6}</m></cell>
-								<cell><m>2\pi</m></cell>		
+								<cell><m>2\pi</m></cell>
 							</row>
 							<row halign="center">
 								<cell><m>\sin(t)</m></cell>
@@ -171,7 +171,7 @@
 				<idx><h>cosine function</h></idx>
 				<statement>
 					<p>
-						Given a central angle in the unit circle that measures <m>t</m> radians and that intersects the circle at both <m>(1,0)</m> and <m>(a,b)</m>, as shown in <xref ref="F-def-cosine">Figure</xref>, we define the <term>cosine of <m>t</m></term>, denoted <m>\cos(t)</m>, by the rule 
+						Given a central angle in the unit circle that measures <m>t</m> radians and that intersects the circle at both <m>(1,0)</m> and <m>(a,b)</m>, as shown in <xref ref="F-def-cosine">Figure</xref>, we define the <term>cosine of <m>t</m></term>, denoted <m>\cos(t)</m>, by the rule
 						<me>
 							\cos(t) = a
 						</me>.
@@ -184,7 +184,7 @@
 			<image source="images/sine-defn-cosine"><description><p>The definition of the cosine of an angle <m>t</m>.</p>
 			</description></image>
 		</figure>
-		
+
 	</sidebyside>
 
 	<p>
@@ -201,7 +201,7 @@
   <subsection xml:id="subsec-circular-sine-cosine-properties">
   	<title>Properties of the sine and cosine functions</title>
   	<p>
-  		Because the sine function results from tracking the <m>y</m>-coordinate of a point traversing the unit circle and the cosine function from the <m>x</m>-coordinate, the two functions have several shared properties of circular functions.  
+  		Because the sine function results from tracking the <m>y</m>-coordinate of a point traversing the unit circle and the cosine function from the <m>x</m>-coordinate, the two functions have several shared properties of circular functions.
   	</p>
 
 
@@ -240,8 +240,8 @@
 	  					the period of the function is <m>p = 2\pi</m>.
 	  				</p>
 	  			</li>
-	  		</ul>	
-	  	</p>		
+	  		</ul>
+	  	</p>
 	</assemblage>
 
 	<p>
@@ -280,10 +280,10 @@
 		</p>
 	</assemblage>
 
-	<p>	
+	<p>
 		There are additional trends and patterns in the two functions' graphs that we explore further in the following activity.
 	</p>
-	
+
 	<xi:include href="./activities/act-circular-sine-cosine-incr-CCU.xml"/>
 
   </subsection>
