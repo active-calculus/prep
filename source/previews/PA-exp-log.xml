@@ -22,7 +22,7 @@
     <task workspace="1cm" xml:id="PA-exp-log-task-0">
       <statement>
         <p>
-						Complete the followion table to generate certain values of <m>P</m>.
+						Complete the following table to generate certain values of <m>P</m>.
 					</p>
 <!--        <table xml:id="T-PA-exp-log-10s">
           <title>Select values of the powers of <m>10</m> function.</title> -->
@@ -112,7 +112,7 @@
         <p>
 						Since <m>P</m> has an inverse function, we know there exists some other function, say <m>L</m>,
     					such that writing <q><m>y = P(t)</m></q>
-    					says the exact same thing as writing <q><m>t = L(y)</m></q>.  In words, where <m>P</m> produces the result of raising <m>10</m> to a given power, the function <m>L</m> reverses this process and instead tells us the power to which we need to raise <m>10</m>, given a desired result.  Complete the followin table to generate a collection of values of <m>L</m>.
+    					says the exact same thing as writing <q><m>t = L(y)</m></q>.  In words, where <m>P</m> produces the result of raising <m>10</m> to a given power, the function <m>L</m> reverses this process and instead tells us the power to which we need to raise <m>10</m>, given a desired result.  Complete the following table to generate a collection of values of <m>L</m>.
 					</p>
 <!--        <table xml:id="T-PA-exp-log-L">
           <title>Select values of the function <m>L</m> that is the inverse of <m>P</m>.</title> -->
