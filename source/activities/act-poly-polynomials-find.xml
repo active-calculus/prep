@@ -27,7 +27,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          One example: <m>p(x) = 1 - x - 2x^2 + 4x^3 + 2x^4 - 2x^5</m>.  This degree-5 polynomial has exactly 3 real zeros, 4 turning points, and since the leading coefficient is <m>-2 \lt 0</m> and the degree is odd: <m>\lim_{x \to -\infty} p(x) = +\infty</m> and <m>\lim_{x \to \infty} p(x) = -\infty</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-poly-polynomials-find-task-1">
       <statement>
@@ -37,7 +41,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          No such polynomial exists.  A degree-4 polynomial has even degree, so both limits as <m>x \to \pm\infty</m> must be either both <m>+\infty</m> or both <m>-\infty</m>.  It is impossible for the limits at <m>-\infty</m> and <m>+\infty</m> to be opposite infinities.
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-poly-polynomials-find-task-2">
       <statement>
@@ -47,7 +55,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          One example: <m>p(x) = -1 + x - 2x^5 - x^6</m>.  This degree-6 polynomial has negative leading coefficient, so <m>\lim_{x \to \pm\infty} p(x) = -\infty</m>.  It has 2 real zeros and 3 turning points.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-poly-polynomials-find-task-3">
       <statement>
@@ -57,7 +69,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          No such polynomial exists.  A degree-5 polynomial with odd degree and a positive leading coefficient has <m>\lim_{x \to -\infty} p(x) = -\infty</m> and <m>\lim_{x \to \infty} p(x) = +\infty</m>, while a negative leading coefficient gives the reverse.  It is impossible for a degree-5 polynomial to have <m>\lim_{x \to -\infty} p(x) = +\infty</m> and simultaneously 3 turning points (an odd number of turning points forces matching end behavior, but odd-degree polynomials have opposite end behaviors).
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

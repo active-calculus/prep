@@ -27,7 +27,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The denominator <m>x^2+1</m> is always positive, so it is never zero.  The domain of <m>f</m> is all real numbers.</p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-poly-rational-domain-task-1">
       <statement>
@@ -37,7 +39,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Factoring the denominator: <m>x^2+3x-4 = (x-1)(x+4)</m>.  The denominator is zero when <m>x = 1</m> or <m>x = -4</m>.  The domain of <m>g</m> is all real numbers except <m>x = 1</m> and <m>x = -4</m>.</p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-poly-rational-domain-task-2">
       <statement>
@@ -47,7 +51,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Each fraction is undefined when its denominator is zero: <m>1/x</m> is undefined at <m>x=0</m>, <m>1/(x-1)</m> is undefined at <m>x=1</m>, and <m>1/(x-2)</m> is undefined at <m>x=2</m>.  The domain of <m>h</m> is all real numbers except <m>x = 0</m>, <m>x = 1</m>, and <m>x = 2</m>.</p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-poly-rational-domain-task-3">
       <statement>
@@ -57,7 +63,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The denominator is zero when <m>x = -1</m>, <m>x = -3</m>, or <m>x = 5</m>.  The domain of <m>j</m> is all real numbers except <m>x = -1</m>, <m>x = -3</m>, and <m>x = 5</m>.</p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-poly-rational-domain-task-4">
       <statement>
@@ -67,7 +75,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Factoring the denominator: <m>3x^3 - 12x = 3x(x^2 - 4) = 3x(x-2)(x+2)</m>.  The denominator is zero when <m>x = 0</m>, <m>x = 2</m>, or <m>x = -2</m>.  The domain of <m>k</m> is all real numbers except <m>x = -2</m>, <m>x = 0</m>, and <m>x = 2</m>.</p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-poly-rational-domain-task-5">
       <statement>
@@ -77,13 +87,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The denominator is zero when <m>x = 2</m>, <m>x = 3</m>, or <m>x = -1</m> (the factor <m>x^2+9</m> has no real zeros since <m>x^2 \geq 0</m>).  The domain of <m>m</m> is all real numbers except <m>x = -1</m>, <m>x = 2</m>, and <m>x = 3</m>.</p>
+      </solution>
     </task>
     <answer>
       <p/>
     </answer>
     <solution>
-      <p/>
+      <p>
+        Rational functions are undefined wherever the denominator is zero.  Factor each denominator and exclude those <m>x</m>-values: <m>f</m> has domain <m>\mathbb{R}</m>; <m>g</m> excludes <m>x \in \{-4,1\}</m>; <m>h</m> excludes <m>x \in \{0,1,2\}</m>; <m>j</m> excludes <m>x \in \{-3,-1,5\}</m>; <m>k</m> excludes <m>x \in \{-2,0,2\}</m>; <m>m</m> excludes <m>x \in \{-1,2,3\}</m>.
+      </p>
     </solution>
   </activity>
 </worksheet>

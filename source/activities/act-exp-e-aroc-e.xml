@@ -41,7 +41,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>A</m> evaluated at <m>h = 0.5</m> gives the average rate of change of <m>f(t) = e^t</m> on the interval <m>[1, 1.5]</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-exp-e-aroc-task-1">
       <statement>
@@ -51,7 +55,38 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <tabular>
+          <row header="yes" bottom="minor">
+            <cell><m>h</m></cell>
+            <cell><m>A(h)</m></cell>
+          </row>
+          <row>
+            <cell><m>0.2</m></cell>
+            <cell><m>3.010</m></cell>
+          </row>
+          <row>
+            <cell><m>0.1</m></cell>
+            <cell><m>2.859</m></cell>
+          </row>
+          <row>
+            <cell><m>0.01</m></cell>
+            <cell><m>2.732</m></cell>
+          </row>
+          <row>
+            <cell><m>0.001</m></cell>
+            <cell><m>2.720</m></cell>
+          </row>
+          <row>
+            <cell><m>0.0001</m></cell>
+            <cell><m>2.718</m></cell>
+          </row>
+          <row>
+            <cell><m>0.00001</m></cell>
+            <cell><m>2.718</m></cell>
+          </row>
+        </tabular>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-exp-e-aroc-task-2">
       <statement>
@@ -61,7 +96,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          As <m>h</m> gets smaller and smaller, the value of <m>A(h)</m> approaches the value of <m>e</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-exp-e-aroc-task-3">
       <statement>
@@ -70,7 +109,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The statement makes sense because the rate of change on small intervals near <m>t = 1</m> is close to the value of <m>e^1 = e</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-e-aroc-task-4">
       <statement>
@@ -84,7 +127,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The value of <m>A(h)</m> near <m>h = 0</m> appears to be the same as the value of <m>f(2) = e^2</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

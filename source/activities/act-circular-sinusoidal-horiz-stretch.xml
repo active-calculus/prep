@@ -37,7 +37,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>h(t) = f\!\left(\frac{1}{3}t\right)</m> represents a horizontal scaling of <m>f</m> by a factor of 3 (stretching).  The function <m>j(t) = f(4t)</m> represents a horizontal scaling by a factor of <m>\frac{1}{4}</m> (compression).
+        </p>
+        <image width="50%" source="solution-images/Activity2.4.3a.png"/>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-circular-sinusoidal-horiz-stretch-task-1">
       <statement>
@@ -47,7 +52,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>k(t) = g(2t)</m> represents a horizontal scaling of <m>g</m> by a factor of <m>\frac{1}{2}</m> (compression).  The function <m>m(t) = g\!\left(\frac{1}{2}t\right)</m> represents a horizontal scaling by a factor of 2 (stretching).
+        </p>
+        <image width="50%" source="solution-images/Activity2.4.3b.png"/>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-circular-sinusoidal-horiz-stretch-task-2">
       <statement>
@@ -61,7 +71,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>r(t) = 2f\!\left(\frac{1}{2}t\right)</m> applies both a horizontal scaling by a factor of 2 and a vertical scaling by a factor of 2.  The function <m>s(t) = \frac{1}{2}g(2t)</m> applies both a horizontal scaling by a factor of <m>\frac{1}{2}</m> and a vertical scaling by a factor of <m>\frac{1}{2}</m>.
+        </p>
+        <image width="50%" source="solution-images/Activity2.4.3c.png"/>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-circular-sinusoidal-horiz-stretch-task-3">
       <statement>
@@ -71,7 +86,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>r(t) = 2f\!\left(\frac{1}{2}t\right)</m> is both a vertical and a horizontal scaling.  The order does not matter: applying the horizontal stretch by 2 and then the vertical stretch by 2 produces the same result as applying them in the opposite order.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

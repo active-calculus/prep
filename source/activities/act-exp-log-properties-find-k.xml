@@ -27,7 +27,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From <m>41 = 50e^{-7k}</m>, we get <m>e^{-7k} = \frac{41}{50}</m>, so <m>-7k = \ln\!\left(\frac{41}{50}\right)</m> and <m>k = -\dfrac{\ln(41/50)}{7}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-exp-log-properties-find-k-task-1">
       <statement>
@@ -37,7 +41,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From <m>65 = 34 + 47e^{-45k}</m>, we get <m>31 = 47e^{-45k}</m>, so <m>e^{-45k} = \frac{31}{47}</m> and <m>k = -\dfrac{\ln(31/47)}{45}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="7cm" xml:id="act-exp-log-properties-find-k-task-2">
       <statement>
@@ -47,7 +55,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From <m>7e^{2k-1} + 4 = 32</m>, we get <m>e^{2k-1} = 4</m>, so <m>2k - 1 = \ln 4</m> and <m>k = \dfrac{\ln 4 + 1}{2}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="7cm" xml:id="act-exp-log-properties-find-k-task-3">
       <statement>
@@ -57,7 +69,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From <m>\dfrac{5}{1 + 2e^{-10k}} = 4</m>, we get <m>5 = 4 + 8e^{-10k}</m>, so <m>e^{-10k} = \frac{1}{8}</m> and <m>k = -\dfrac{\ln(1/8)}{10} = \dfrac{\ln 8}{10}</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

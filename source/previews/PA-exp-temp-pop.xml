@@ -27,7 +27,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Setting <m>F(20) = 101</m>, we have <m>275 - 203e^{-20k} = 101</m>, so <m>203e^{-20k} = 174</m> and <m>e^{-20k} = \frac{174}{203}</m>.  Thus <m>k = -\dfrac{1}{20}\ln\!\left(\frac{174}{203}\right) \approx 7.708 \times 10^{-3}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-exp-temp-pop-task-1">
       <statement>
@@ -37,7 +41,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          As <m>t \to \infty</m>, <m>e^{-0.05t} \to 0</m>, so <m>F(t) \to a</m>.  Since the object cools toward the refrigerator temperature of <m>39.8^\circ</m>, the long-term temperature is <m>39.8^\circ</m>, and therefore <m>a = 39.8</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-exp-temp-pop-task-2">
       <statement>
@@ -54,7 +62,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Multiplying both sides by <m>(1+x)</m> gives <m>3(1+x) = 10</m>, so <m>1+x = \frac{10}{3}</m> and <m>x = \frac{10}{3} - 1 = \frac{7}{3}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-exp-temp-pop-task-3">
       <statement>
@@ -64,7 +76,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Starting from <m>y = a + be^{-kt}</m>, we subtract <m>a</m>: <m>y - a = be^{-kt}</m>.  Dividing by <m>b</m>: <m>\frac{y-a}{b} = e^{-kt}</m>.  Taking the natural log: <m>-kt = \ln\!\left(\frac{y-a}{b}\right)</m>.  Therefore <m>t = -\dfrac{1}{k}\ln\!\left(\frac{y-a}{b}\right)</m>.  This is the inverse of the original function and gives the time at which the object reaches temperature <m>y</m>.
+        </p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

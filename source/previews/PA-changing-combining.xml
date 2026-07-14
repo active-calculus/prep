@@ -68,7 +68,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From the table, <m>f(3) = 20</m> and <m>g(3) = 2</m>, so
+          <m>h(3) = f(3) + g(3) = 20 + 2 = 22</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="2.5cm" xml:id="PA-changing-combining-task-1">
       <statement>
@@ -78,7 +83,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From the graph, <m>p(-1) = \frac{1}{5}</m> and <m>q(-1) = \frac{7}{2}</m>, so
+          <md>r(-1) = p(-1) - q(-1) = \frac{1}{5} - \frac{7}{2} = \frac{2}{10} - \frac{35}{10} = -\frac{33}{10}.</md>
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-changing-combining-task-2">
       <statement>
@@ -88,7 +98,18 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Yes. Setting <m>r(x) = 0</m> requires <m>p(x) = q(x)</m>.
+          On the relevant interval, <m>p(x) = -\frac{2}{5}x - \frac{1}{5}</m> and
+          <m>q(x) = 4x + 12</m>, so:
+          <md>
+            <mrow>-\frac{2}{5}x - \frac{1}{5} &amp;= 4x + 12</mrow>
+            <mrow>-\frac{22}{5}x &amp;= \frac{61}{5}</mrow>
+            <mrow>x &amp;= -\frac{61}{22}.</mrow>
+          </md>
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-changing-combining-task-3">
       <statement>
@@ -98,7 +119,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From the table, <m>f(0) = 5</m> and <m>g(0) = 9</m>, so
+          <m>k(0) = f(0) \cdot g(0) = 5 \cdot 9 = 45</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-changing-combining-task-4">
       <statement>
@@ -108,7 +134,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From the graph, <m>p(1) = -\frac{3}{5}</m> and <m>q(1) = \frac{5}{2}</m>, so
+          <md>s(1) = \frac{p(1)}{q(1)} = \frac{-3/5}{5/2} = -\frac{3}{5} \cdot \frac{2}{5} = -\frac{6}{25}.</md>
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-changing-combining-task-5">
       <statement>
@@ -118,7 +149,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Yes: <m>s(x)</m> is undefined wherever <m>q(x) = 0</m>.
+          From the graph, <m>q(-3) = 0</m>, so <m>s(-3)</m> is undefined.
+        </p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

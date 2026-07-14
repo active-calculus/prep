@@ -37,7 +37,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The eight points on the circle are evenly spaced, and the circle has a circumference of 8 units.  Thus, the distance between any two sequential points is 1 unit.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-circular-traversing-2nd-ex-task-1">
       <statement>
@@ -47,7 +51,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The point <m>P_2</m> is directly below the center, at coordinates <m>(2, 2)</m>, and thus has a <m>y</m>-coordinate that is one radius less than 2.  Using the formula for circumference, <m>C = 2\pi r</m>, the radius must be <m>8/(2\pi) = \frac{4}{\pi}</m>.  Therefore, the <m>y</m>-coordinate of point <m>P_2</m> is <m>2 - \frac{4}{\pi} = \frac{2(\pi - 2)}{\pi}</m>.  At point <m>P_4</m>, the point is at the same height as the center, so the <m>y</m>-coordinate of <m>P_4</m> is <m>2</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="2cm" xml:id="act-circular-traversing-2nd-ex-task-2">
       <statement>
@@ -174,7 +182,37 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The completed table is:
+        </p>
+        <tabular halign="center">
+          <row bottom="minor">
+            <cell><m>d</m></cell>
+            <cell><m>0</m></cell><cell><m>1</m></cell><cell><m>2</m></cell><cell><m>3</m></cell>
+            <cell><m>4</m></cell><cell><m>5</m></cell><cell><m>6</m></cell><cell><m>7</m></cell>
+            <cell><m>8</m></cell>
+          </row>
+          <row>
+            <cell><m>h</m></cell>
+            <cell><m>2</m></cell><cell><m>1.10</m></cell><cell><m>0.73</m></cell><cell><m>1.10</m></cell>
+            <cell><m>2</m></cell><cell><m>2.90</m></cell><cell><m>3.27</m></cell><cell><m>2.90</m></cell>
+            <cell><m>2</m></cell>
+          </row>
+        </tabular>
+        <tabular halign="center">
+          <row bottom="minor">
+            <cell><m>d</m></cell>
+            <cell><m>9</m></cell><cell><m>10</m></cell><cell><m>11</m></cell><cell><m>12</m></cell>
+            <cell><m>13</m></cell><cell><m>14</m></cell><cell><m>15</m></cell><cell><m>16</m></cell>
+          </row>
+          <row>
+            <cell><m>h</m></cell>
+            <cell><m>1.10</m></cell><cell><m>0.73</m></cell><cell><m>1.10</m></cell><cell><m>2</m></cell>
+            <cell><m>2.90</m></cell><cell><m>3.27</m></cell><cell><m>2.90</m></cell><cell><m>2</m></cell>
+          </row>
+        </tabular>
+      </solution>
     </task>
     <task workspace="0.1cm" xml:id="act-circular-traversing-2nd-ex-task-3">
       <statement>
@@ -184,7 +222,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <image width="50%" source="solution-images/Activity2.1.2d.png"/>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-circular-traversing-2nd-ex-task-4">
       <statement>
@@ -194,7 +234,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The graph has a very similar shape to Figure 2.1.5.  This graph is shifted up, shifted to the right, and is compressed horizontally compared to the textbook figure.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-circular-traversing-2nd-ex-task-5">
       <statement>
@@ -204,7 +248,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          To find <m>h</m> when <m>d = 51</m>, we use the periodicity of the function: <m>51 = 4 \cdot 8 + 3</m>, so <m>h(51) = h(3) \approx 1.10</m>.  Likewise, <m>h(102) = h(6) \approx 3.27</m>, because <m>102 = 12 \cdot 8 + 6</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

@@ -31,7 +31,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Both triangles share the angle <m>\theta</m> at vertex <m>O</m>, and both have a right angle (<m>\angle OPQ</m> and <m>\angle ONM</m>).  Since two pairs of angles are equal, the triangles are similar by AA similarity.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-trig-right-similar-task-1">
       <statement>
@@ -41,7 +45,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The ratio <m>\frac{OP}{OM} = \frac{r}{1} = r</m>.  Since the triangles are similar with scale factor <m>r</m>, every pair of corresponding sides has the same ratio, so <m>\frac{OQ}{ON} = r</m> and <m>\frac{PQ}{MN} = r</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-trig-right-similar-task-2">
       <statement>
@@ -51,7 +59,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          In the smaller right triangle <m>\triangle OMN</m> with hypotenuse <m>OM = 1</m> and angle <m>\theta</m> at <m>O</m>, we have <m>ON = \cos(\theta)</m> (adjacent side) and <m>MN = \sin(\theta)</m> (opposite side).
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-trig-right-similar-task-3">
       <statement>
@@ -61,7 +73,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Since <m>\frac{OQ}{ON} = r</m>, we get <m>x = OQ = r \cdot ON = r\cos(\theta)</m>.  Since <m>\frac{PQ}{MN} = r</m>, we get <m>y = PQ = r \cdot MN = r\sin(\theta)</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

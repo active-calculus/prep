@@ -83,7 +83,28 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              <m>f(x) = \dfrac{17x^2+34}{19x^2-76} = \dfrac{17(x^2+2)}{19(x-2)(x+2)}</m>.  Domain: all real numbers except <m>x = \pm 2</m>.  Horizontal asymptote: <m>y = \dfrac{17}{19}</m> (ratio of leading coefficients, same degree).
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>g(x) = \dfrac{29}{53} + \dfrac{1}{x-2}</m> is undefined at <m>x = 2</m>.  Domain: all real numbers except <m>x = 2</m>.  Horizontal asymptote: <m>y = \dfrac{29}{53}</m> (as <m>x \to \pm\infty</m>, the term <m>\frac{1}{x-2} \to 0</m>).
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>h(x) = \dfrac{4-31x}{11x-7}</m> is undefined at <m>x = \dfrac{7}{11}</m>.  Domain: all real numbers except <m>x = \dfrac{7}{11}</m>.  Horizontal asymptote: <m>y = \dfrac{-31}{11}</m> (ratio of leading coefficients).
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>r(x) = \dfrac{151(x-4)(x+5)^2(x-2)}{537(x+5)(x+1)(x^2+1)(x-15)}</m>.  The factor <m>(x+5)</m> cancels, leaving a hole at <m>x = -5</m>.  The reduced denominator zeros are <m>x = -1</m> and <m>x = 15</m> (note <m>x^2+1 &gt; 0</m> always).  Domain: all real numbers except <m>x = -5</m>, <m>x = -1</m>, and <m>x = 15</m>.  Since the numerator has degree <m>4</m> and denominator has degree <m>5</m>, the horizontal asymptote is <m>y = 0</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -136,7 +157,41 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              The box has width <m>x</m>, length <m>1.5x</m>, and height <m>h</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The surface area is: base and top each <m>1.5x^2</m>, two short sides each <m>xh</m>, two long sides each <m>1.5xh</m>.  So <m>S = 3x^2 + 5xh</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Cost: <m>C = 3.75(3x^2) + 2.50(5xh) = 11.25x^2 + 12.50xh</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Volume constraint: <m>1.5x^2 h = 8</m>, so <m>h = \dfrac{8}{1.5x^2} = \dfrac{16}{3x^2}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Substituting:
+              <me>
+                C(x) = 11.25x^2 + 12.50 \cdot x \cdot \frac{16}{3x^2} = 11.25x^2 + \frac{200}{3x}.
+              </me>
+            </p>
+          </li>
+          <li>
+            <p>
+              The domain is <m>x &gt; 0</m>.  As <m>x \to 0^+</m>, <m>C \to \infty</m>; as <m>x \to \infty</m>, <m>C \to \infty</m>.  A graph shows a minimum at <m>x \approx 1.44</m> ft, suggesting the ideal box has approximate dimensions <m>1.44 \times 2.15 \times 2.58</m> feet.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise> 
@@ -159,7 +214,13 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        With radius <m>r</m> and height <m>h</m>, the volume constraint <m>\pi r^2 h = 16</m> gives <m>h = \dfrac{16}{\pi r^2}</m>.  The cost is
+        <md>
+          <mrow>C(r) &amp;= 0.11 \cdot 2\pi r^2 + 0.07 \cdot 2\pi r h</mrow>
+          <mrow>&amp;= 0.22\pi r^2 + 0.14\pi r \cdot \frac{16}{\pi r^2}</mrow>
+          <mrow>&amp;= 0.22\pi r^2 + \frac{2.24}{r}.</mrow>
+        </md>
+        Numerically, <m>C(r) \approx 0.691 r^2 + \dfrac{2.240}{r}</m>.  The domain is <m>r &gt; 0</m> (radius must be positive).  A graph shows a minimum at <m>r \approx 1.48</m> inches, giving a height of about <m>h \approx 2.33</m> inches and cost of about <m>\$3.03</m>.
       </p>
     </solution>
   </exercise>   

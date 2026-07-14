@@ -90,7 +90,28 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              The temperature is always increasing (the ice water warms toward room temperature), concave down, and approaches <m>71^\circ</m>F asymptotically in the long run.
+            </p>
+          </li>
+          <li>
+            <p>
+              The function <m>F(t) = c - ae^{-kt}</m> is a transformation of <m>e^t</m> that is reflected over the horizontal axis, vertically stretched by <m>a</m>, horizontally stretched by <m>k</m>, and shifted vertically by <m>c</m>.  As <m>t \to \infty</m>, <m>e^{-kt} \to 0</m> so <m>F(t) \to c</m>, giving the correct long-term behavior.  The function increases at a decreasing rate (concave down) because <m>-ae^{-kt}</m> is increasing toward <m>0</m>, and the rate of increase slows as the exponential term shrinks.
+            </p>
+          </li>
+          <li>
+            <p>
+              Since <m>F(t) \to c = 71</m> as <m>t \to \infty</m>, we have <m>c = 71</m>.  From <m>F(0) = 71 - a = 34.2</m>, we get <m>a = 36.8</m>.  Using <m>F(20) = 41.7</m>: <m>71 - 36.8e^{-20k} = 41.7</m>, so <m>36.8e^{-20k} = 29.3</m> and <m>k = -\dfrac{1}{20}\ln\!\left(\dfrac{29.3}{36.8}\right) \approx 0.01140</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Setting <m>F(t) = 60</m>: <m>71 - 36.8e^{-kt} = 60</m>, so <m>36.8e^{-kt} = 11</m> and <m>t = -\dfrac{1}{k}\ln\!\left(\dfrac{11}{36.8}\right) \approx 106</m> minutes.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -136,7 +157,23 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              Since all <m>5000</m> passengers will eventually get sick, <m>A = 5000</m>.  From <m>S(0) = \frac{5000}{1+M} = 5</m>, we get <m>M = 999</m>.  Using <m>S(1) = 20</m>: <m>\frac{5000}{1 + 999e^{-k}} = 20</m>, so <m>999e^{-k} = 249</m> and <m>k = \ln\!\left(\frac{999}{249}\right) \approx 1.389</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Setting <m>S(t) = 4000</m>: <m>\frac{5000}{1 + 999e^{-1.389t}} = 4000</m>, so <m>999e^{-1.389t} = 0.25</m> and <m>t = -\dfrac{\ln(0.25/999)}{1.389} \approx 5.97</m> days.
+            </p>
+          </li>
+          <li>
+            <p>
+              The average rates of change are approximately <m>AV_{[1,2]} \approx 59.3</m>, <m>AV_{[3,4]} \approx 726.1</m>, and <m>AV_{[5,7]} \approx 1084.3</m> people per day.  These represent the average number of people per day acquiring the virus on each time interval.  The rate of spread is increasing through the first seven days, but must eventually decrease since the total number who can be infected is bounded by <m>5000</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -191,7 +228,28 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              At <m>t = 0</m>: <m>A(0) = -500e^{0} + 750 = -500 + 750 = 250</m> grams of salt.
+            </p>
+          </li>
+          <li>
+            <p>
+              As <m>t \to \infty</m>, <m>e^{-0.25t} \to 0</m>, so <m>A(t) \to 750</m> grams.
+            </p>
+          </li>
+          <li>
+            <p>
+              Setting <m>A(t) = 500</m>: <m>-500e^{-0.25t} + 750 = 500</m>, so <m>e^{-0.25t} = \frac{1}{2}</m> and <m>t = -\dfrac{\ln(1/2)}{0.25} = 4\ln 2 \approx 2.773</m> minutes.
+            </p>
+          </li>
+          <li>
+            <p>
+              Yes.  In the long run, the tank contains <m>750</m> grams of salt in <m>100</m> liters of solution, giving a concentration of <m>\frac{750}{100} = 7.5</m> grams per liter.  Since the salt concentration in the tank approaches that of the inflow over time, the inflow concentration is <m>7.5</m> grams per liter.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>

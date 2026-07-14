@@ -31,7 +31,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Since <m>P(t) \to 11.7</m> as <m>t \to \infty</m>, <m>A = 11.7</m>.  From <m>P(0) = \frac{11.7}{1+M} = 2.45</m>, we get <m>1+M = \frac{11.7}{2.45}</m>, so <m>M = \frac{11.7}{2.45} - 1 = \frac{9.25}{2.45} \approx 3.776</m>.  Using <m>P(3) = 4.52</m>:
+          <md>
+            <mrow>\frac{11.7}{1 + 3.776e^{-3k}} &amp;= 4.52</mrow>
+            <mrow>1 + 3.776e^{-3k} &amp;= \frac{11.7}{4.52} \approx 2.589</mrow>
+            <mrow>e^{-3k} &amp;= \frac{1.589}{3.776} \approx 0.421</mrow>
+            <mrow>k &amp;= -\frac{1}{3}\ln(0.421) \approx 0.289.</mrow>
+          </md>
+        </p>
+      </solution>
     </task>
     <task workspace="8cm" xml:id="act-exp-temp-pop-logistic-exact-task-1">
       <statement>
@@ -44,7 +54,16 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Using <m>P(t) = \dfrac{11.7}{1 + 3.776e^{-0.289t}}</m>, we compute:
+          <m>P(0) \approx 2.45</m>, <m>P(2) \approx 3.75</m>, <m>P(4) \approx 5.34</m>, <m>P(6) \approx 7.02</m>, <m>P(8) \approx 8.51</m>.
+          The average rates of change are:
+          <m>AV_{[0,2]} \approx 0.650</m>, <m>AV_{[2,4]} \approx 0.796</m>, <m>AV_{[4,6]} \approx 0.836</m>, <m>AV_{[6,8]} \approx 0.747</m> thousand animals per year.
+          These represent the average rate at which the population grows on each interval.  The population grows most rapidly on <m>[4,6]</m>, which makes sense since the midpoint between the asymptotes (<m>0</m> and <m>11.7</m>) is <m>5.85</m>, which falls in this interval.
+        </p>
+        <image width="50%" source="solution-images/Activity3.6.4b.png"/>
+      </solution>
     </task>
     <task workspace="8cm" xml:id="act-exp-temp-pop-logistic-exact-task-2">
       <statement>
@@ -54,7 +73,18 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Setting <m>P(t) = 10</m>:
+          <md>
+            <mrow>\frac{11.7}{1 + 3.776e^{-0.289t}} &amp;= 10</mrow>
+            <mrow>1 + 3.776e^{-0.289t} &amp;= 1.17</mrow>
+            <mrow>3.776e^{-0.289t} &amp;= 0.17</mrow>
+            <mrow>e^{-0.289t} &amp;= \frac{0.17}{3.776} \approx 0.04503</mrow>
+            <mrow>t &amp;= -\frac{\ln(0.04503)}{0.289} \approx 10.74 \text{ years.}</mrow>
+          </md>
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

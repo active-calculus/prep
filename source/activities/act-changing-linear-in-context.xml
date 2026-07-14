@@ -28,7 +28,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <md>f(t) = 28750 + 825t.</md>
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-changing-linear-in-context-task-1">
       <statement>
@@ -38,7 +42,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The slope is <m>-465</m> people per year.  This means the town's population
+          decreases by 465 people each year.
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-changing-linear-in-context-task-2">
       <statement>
@@ -48,7 +57,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <md>p(t) = \frac{32\pi}{3} - 1.2t.</md>
+          The tank empties when <m>p(t) = 0</m>, i.e., <m>t = \frac{32\pi}{3 \cdot 1.2} \approx 27.9</m> minutes.
+          A reasonable domain is <m>[0, 27.9]</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-changing-linear-in-context-task-3">
       <statement>
@@ -58,7 +73,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Since <m>q(t) = 0.65t</m> is a linear function with slope <m>0.65</m>, the water
+          level rises at a constant rate of <m>0.65</m> feet per minute.
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-changing-linear-in-context-task-4">
       <statement>
@@ -68,7 +88,18 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The slope is <m>\frac{4600 - 10200}{10-5} = \frac{-5600}{5} = -1120</m> dollars per year.
+          Using the point <m>(5, 10200)</m>:
+          <md>
+            <mrow>C - 10200 &amp;= -1120(t-5)</mrow>
+            <mrow>L(t) &amp;= 15800 - 1120t.</mrow>
+          </md>
+          The car reaches zero value when <m>t \approx 14.1</m>, so a reasonable domain is
+          <m>[0, 14.1]</m>.  The slope means the car loses <m>\$1120</m> in value each year.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

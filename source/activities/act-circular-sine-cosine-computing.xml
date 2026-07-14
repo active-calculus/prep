@@ -27,7 +27,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Using <m>x^2 + \left(-\frac{3}{4}\right)^2 = 1</m>, we solve for <m>x = -\frac{\sqrt{7}}{4} \approx -0.66143</m> (negative since in Quadrant III).
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-circular-sine-cosine-computing-task-1">
       <statement>
@@ -37,7 +41,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>\sin(2 \text{ rad}) \approx 0.90929</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-circular-sine-cosine-computing-task-2">
       <statement>
@@ -47,7 +55,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>\cos(-3.05 \text{ rad}) \approx -0.99581</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-circular-sine-cosine-computing-task-3">
       <statement>
@@ -57,7 +69,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          If <m>\sin(t) = \frac{1}{2}</m> and <m>t</m> is in Quadrant II, then <m>t = \frac{5\pi}{6}</m> and <m>\cos(t) = -\frac{\sqrt{3}}{2}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-circular-sine-cosine-computing-task-4">
       <statement>
@@ -67,7 +83,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Using <m>\sin^2(t) + \cos^2(t) = 1</m>, we get <m>\sin(t) = -\sqrt{1 - 0.49} = -\sqrt{0.51} \approx -0.71414</m> (negative since in Quadrant III).
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-circular-sine-cosine-computing-task-5">
       <statement>
@@ -77,7 +97,16 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <md>
+            AV_{[0.1,0.2]} = \frac{\sin(0.2) - \sin(0.1)}{0.2 - 0.1} \approx \frac{0.19867 - 0.09983}{0.1} \approx 0.98836
+          </md>
+          <md>
+            AV_{[0.8,0.9]} = \frac{\sin(0.9) - \sin(0.8)}{0.9 - 0.8} \approx \frac{0.78333 - 0.71736}{0.1} \approx 0.65971
+          </md>
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-circular-sine-cosine-computing-task-6">
       <statement>
@@ -87,7 +116,16 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <md>
+            AV_{[0.1,0.2]} = \frac{\cos(0.2) - \cos(0.1)}{0.2 - 0.1} \approx \frac{0.98007 - 0.99500}{0.1} \approx -0.14938
+          </md>
+          <md>
+            AV_{[0.8,0.9]} = \frac{\cos(0.9) - \cos(0.8)}{0.9 - 0.8} \approx \frac{0.62161 - 0.69671}{0.1} \approx -0.75097
+          </md>
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

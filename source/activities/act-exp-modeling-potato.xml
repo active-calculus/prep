@@ -31,7 +31,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The numerical value of <m>F(0)</m> is <m>68^\circ</m>, because the potato begins at room temperature.  Therefore, <m>F(0) = a - b(0.98)^0 = a - b = 68</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-exp-modeling-potato-task-1">
       <statement>
@@ -44,7 +48,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The long-range behavior of <m>F(t)</m> should reflect the potato approaching the oven temperature of <m>350^\circ</m>.  The expression <m>(0.98)^t</m> approaches zero as <m>t</m> gets large, so <m>F(t) \to a</m>.  Therefore <m>a = 350^\circ</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="7cm" xml:id="act-exp-modeling-potato-task-2">
       <statement>
@@ -54,7 +62,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The value of <m>b</m> is <m>a - 68 = 350 - 68 = 282^\circ</m>, since we established that <m>a - b = 68</m> and <m>a = 350</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-exp-modeling-potato-task-3">
       <statement>
@@ -70,7 +82,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>F(t) = 350 - 282(0.98)^t</m> is shown below.  The potato reaches <m>325</m> degrees after about <m>120</m> minutes of baking in the <m>350</m> degree oven.
+        </p>
+        <image width="50%" source="solution-images/Activity3.2.4.png"/>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-exp-modeling-potato-task-4">
       <statement>
@@ -80,7 +97,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          We can view <m>F(t) = a - b(0.98)^t</m> as a transformation of the parent function <m>f(t) = (0.98)^t</m> by first stretching <m>f</m> vertically by a factor of <m>b</m>, then reflecting over the <m>t</m>-axis, and finally shifting vertically up by <m>a</m> units.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

@@ -71,7 +71,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From the graph, <m>q(0) = 2</m> and <m>p(2) = 1</m>, so <m>p(q(0)) = 1</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="2cm" xml:id="act-changing-composite-tables-graphs-task-1">
       <statement>
@@ -81,7 +85,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From the graph, <m>p(0) = -\frac{1}{2}</m> and <m>q\!\left(-\frac{1}{2}\right) = 2</m>,
+          so <m>q(p(0)) = 2</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="2cm" xml:id="act-changing-composite-tables-graphs-task-2">
       <statement>
@@ -89,7 +98,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From the graph, <m>p(-1) = -1</m>, so <m>(p \circ p)(-1) = p(p(-1)) = p(-1) = -1</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="2cm" xml:id="act-changing-composite-tables-graphs-task-3">
       <statement>
@@ -99,7 +112,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From the table, <m>g(2) = 0</m> and <m>f(0) = 6</m>, so <m>(f \circ g)(2) = 6</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="2cm" xml:id="act-changing-composite-tables-graphs-task-4">
       <statement>
@@ -109,7 +126,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From the table, <m>f(3) = 4</m> and <m>g(4) = 2</m>, so <m>(g \circ f)(3) = 2</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="2cm" xml:id="act-changing-composite-tables-graphs-task-5">
       <statement>
@@ -119,7 +140,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From the table, <m>f(0) = 6</m>, but <m>g(6)</m> is not defined in the table,
+          so <m>g(f(0))</m> is undefined.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-composite-tables-graphs-task-6">
       <statement>
@@ -129,7 +155,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          We need <m>f(g(x)) = 4</m>, which requires <m>g(x) = 1</m> or <m>g(x) = 3</m>
+          (since <m>f(1)=4</m> and <m>f(3)=4</m> from the table).  From the table,
+          <m>g(0) = 1</m> and <m>g(1) = 3</m>, so <m>f(g(x)) = 4</m> for <m>x = 0</m>
+          and <m>x = 1</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-composite-tables-graphs-task-7">
       <statement>
@@ -139,7 +172,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          We need <m>q(p(x)) = 1</m>, which (from the graph of <m>q</m>) requires
+          <m>p(x) = -\frac{4}{3}</m> or <m>p(x) = 2</m>.  From the graph of <m>p</m>,
+          <m>p(x) = 2</m> at <m>x = 2</m> and at <m>x \approx -2.5</m>; there are no
+          <m>x</m>-values for which <m>p(x) = -\frac{4}{3}</m>.  So <m>q(p(x)) = 1</m>
+          for <m>x = 2</m> and <m>x \approx -2.5</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

@@ -27,7 +27,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <md>
+            <mrow>r(t) &amp;= p(q(t)) = p(t^2 - 1)</mrow>
+            <mrow>&amp;= 3(t^2 - 1) - 4</mrow>
+            <mrow>&amp;= 3t^2 - 7.</mrow>
+          </md>
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-changing-composite-task-1">
       <statement>
@@ -37,7 +45,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          In the introductory example, the inner function <m>g(t) = 3t-4</m> is linear
+          and the outer function <m>f(x) = x^2 - 1</m> is quadratic.  In part (a), the
+          roles are reversed: the inner function <m>q(t) = t^2-1</m> is quadratic and the
+          outer function <m>p(x) = 3x-4</m> is linear.
+        </p>
+      </solution>
     </task>
     <task workspace="7cm" xml:id="PA-changing-composite-task-2">
       <statement>
@@ -47,7 +62,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <md>q(s(z)) = \left(\frac{1}{z+4}\right)^2 - 1 = \frac{1}{(z+4)^2} - 1.</md>
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="PA-changing-composite-task-3">
       <statement>
@@ -57,7 +76,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          One natural decomposition: <m>f(x) = \sqrt{x}</m> and <m>g(t) = 2t^2 + 5</m>,
+          so that <m>f(g(t)) = \sqrt{2t^2 + 5} = h(t)</m>.
+        </p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

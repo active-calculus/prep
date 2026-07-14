@@ -34,7 +34,20 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          At <m>t = 0</m>, the tank is full and the height of the water is <m>8</m> m.
+          At <m>t = 1</m> minute, <m>0.5</m> m of water has drained and the height is <m>7.5</m> m.
+          At <m>t = 2</m> minutes, <m>1</m> m of water has drained and the height is <m>7</m> m.
+        </p>
+        <p>
+          The tank has <m>8</m> m of water (depth), which is <m>16</m> half-meters, with one
+          half-meter draining each minute.  Thus it will take <m>16</m> minutes for the tank
+          to drain completely.  The linear height model
+          <md>h = q(t) = 8 - 0.5t</md>
+          gives <m>q(t) = 0</m> when <m>t = 16</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-changing-functions-spherical-tank-draining-task-1">
       <statement>
@@ -44,7 +57,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The domain of each model is determined by the time it takes the tank to drain.
+          Assuming the tank begins draining at <m>t = 0</m> minutes and is empty at
+          <m>t = 16</m> minutes, the domain of both models is <m>0 \le t \le 16</m>,
+          or equivalently <m>[0, 16]</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-changing-functions-spherical-tank-draining-task-2">
       <statement>
@@ -54,7 +74,19 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          When the tank is full, the depth of the water equals the diameter of the tank,
+          <m>2 \times 4 = 8</m> m.  The volume of water in the full tank equals the volume
+          of the sphere:
+          <md>\frac{4}{3}\pi (4)^3 = \frac{256\pi}{3} \approx 268 \text{ m}^3.</md>
+        </p>
+        <p>
+          The range of the volume model is <m>0 \le V \le \frac{256\pi}{3}</m>, going from
+          completely empty to completely full.  The range of the height model is likewise
+          <m>0 \le h \le 8</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-changing-functions-spherical-tank-draining-task-3">
       <statement>
@@ -66,7 +98,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The graph of <m>V = p(t) = \frac{256\pi}{3} - \frac{\pi}{24}t^2(24-t)</m> on <m>[0,16]</m> is a curve that decreases from <m>V(0) = \frac{256\pi}{3} \approx 268</m> cubic meters down to <m>V(16) = 0</m>. The curve is concave down for small <m>t</m> (volume decreasing rapidly as the full, wide sphere loses water) and concave up near <m>t = 16</m> (volume decreasing more slowly as the narrow bottom empties). The domain is <m>[0, 16]</m> minutes and the range is <m>\left[0, \frac{256\pi}{3}\right]</m> cubic meters.</p>
+      
+        <image width="50%" source="solution-images/Activity1.2.2.png"/>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-changing-functions-spherical-tank-draining-task-4">
       <statement>
@@ -76,7 +112,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The model <m>V = p(t)</m> differs from the abstract function <m>y = r(x)</m>
+          in its domain and range.  The model's domain is restricted to <m>[0, 16]</m>
+          and its range to <m>\left[0, \frac{256\pi}{3}\right]</m> by the physical context.
+          The abstract function has an unrestricted domain and an unrestricted range.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-changing-functions-spherical-tank-draining-task-5">
       <statement>
@@ -86,7 +129,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The height function should be linear and decreasing, because the height decreases
+          by the same amount (<m>0.5</m> m) every minute.  The formula is
+          <md>q(t) = 8 - 0.5t.</md>
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

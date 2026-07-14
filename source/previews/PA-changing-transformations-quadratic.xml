@@ -36,7 +36,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Changing <m>a</m> shifts the graph of <m>f</m> vertically: positive values of
+          <m>a</m> shift it up, and negative values shift it down.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-changing-transformations-quadratic-task-1">
       <statement>
@@ -53,7 +58,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Changing <m>b</m> shifts the graph of <m>f</m> horizontally: positive values of
+          <m>b</m> shift it to the right, and negative values shift it to the left.
+        </p>
+      </solution>
     </task>
     <task workspace="4.5cm" xml:id="PA-changing-transformations-quadratic-task-2">
       <statement>
@@ -71,7 +81,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The value <m>c</m> vertically stretches or compresses the graph of <m>f</m>:
+          when <m>|c| \gt 1</m> the graph is stretched away from the <m>x</m>-axis,
+          and when <m>0 \lt |c| \lt 1</m> it is compressed toward the <m>x</m>-axis.
+          When <m>c = -1</m>, the graph of <m>p</m> is a perfect reflection of the graph
+          of <m>f</m> across the <m>x</m>-axis.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-changing-transformations-quadratic-task-3">
       <statement>
@@ -86,7 +104,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The same three effects hold for any choice of <m>f</m>: adding <m>a</m> shifts
+          the graph vertically, replacing <m>x</m> with <m>x - b</m> shifts it horizontally,
+          and multiplying by <m>c</m> stretches, compresses, or reflects it vertically.
+          The shape of the particular function <m>f</m> changes, but the roles of
+          <m>a</m>, <m>b</m>, and <m>c</m> remain the same.
+        </p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

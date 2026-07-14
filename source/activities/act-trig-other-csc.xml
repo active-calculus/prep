@@ -224,7 +224,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The csc values are reciprocals of sin: Q1-Q2: <m>u, 2, \sqrt{2}, \frac{2\sqrt{3}}{3}, 1, \frac{2\sqrt{3}}{3}, \sqrt{2}, 2, u</m>; Q3-Q4: <m>-2, -\sqrt{2}, -\frac{2\sqrt{3}}{3}, -1, -\frac{2\sqrt{3}}{3}, -\sqrt{2}, -2, u</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="2cm" xml:id="act-trig-other-csc-task-1">
       <statement>
@@ -234,7 +238,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Since <m>\csc(t) = 1/\sin(t)</m>, the cosecant function is positive wherever sine is positive, that is, in quadrants I and II, and negative wherever sine is negative, that is, in quadrants III and IV.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-trig-other-csc-task-2">
       <statement>
@@ -244,7 +252,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The cosecant function has vertical asymptotes wherever <m>\sin(t) = 0</m>, which occurs at every integer multiple of <m>\pi</m>: <m>t = 0, \pm\pi, \pm 2\pi, \ldots</m>  At these values <m>\csc(t) = 1/\sin(t)</m> is undefined (division by zero).
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-trig-other-csc-task-3">
       <statement>
@@ -254,7 +266,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The domain of the cosecant function is all real numbers except integer multiples of <m>\pi</m>.  The range is <m>(-\infty, -1] \cup [1, \infty)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="1cm" xml:id="act-trig-other-csc-task-4">
       <statement>
@@ -264,7 +280,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <image width="50%" source="solution-images/Activity4.5.3.png"/>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-trig-other-csc-task-5">
       <statement>
@@ -274,7 +292,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The period of the cosecant function is <m>2\pi</m> radians.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

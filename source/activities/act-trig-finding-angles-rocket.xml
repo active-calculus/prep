@@ -36,7 +36,25 @@
       <p/>
     </answer>
     <solution>
-      <p/>
+      <p>
+        When the rocket is <m>3000</m>' off the ground, the right triangle has legs <m>3000</m> and <m>4000</m> and hypotenuse <m>5000</m>.  The camera angle is <m>\theta_0 = \arctan\!\left(\dfrac{3000}{4000}\right) = \arccos\!\left(\dfrac{4}{5}\right) \approx 0.644</m> radians.
+      </p>
+      <p>
+        For general height <m>h</m>, <m>\theta(h) = \arctan\!\left(\dfrac{h}{4000}\right)</m>.  Using the table of values below (with angles in radians):
+      </p>
+      <tabular>
+        <row header="yes" bottom="minor">
+          <cell><m>h</m> (feet)</cell>
+          <cell>3000</cell><cell>3500</cell><cell>5000</cell><cell>5500</cell><cell>7000</cell><cell>7500</cell>
+        </row>
+        <row>
+          <cell><m>\theta(h)</m></cell>
+          <cell>0.644</cell><cell>0.719</cell><cell>0.896</cell><cell>0.942</cell><cell>1.050</cell><cell>1.080</cell>
+        </row>
+      </tabular>
+      <p>
+        The average rates of change are: <m>AV_{[3000,3500]} \approx \frac{0.075}{500} = 1.5 \times 10^{-4}</m> rad/ft; <m>AV_{[5000,5500]} \approx \frac{0.046}{500} = 9.2 \times 10^{-5}</m> rad/ft; <m>AV_{[7000,7500]} \approx \frac{0.030}{500} = 6 \times 10^{-5}</m> rad/ft.  The camera angle is increasing at a decreasing rate as the rocket climbs higher.
+      </p>
     </solution>
   </activity>
 </worksheet>

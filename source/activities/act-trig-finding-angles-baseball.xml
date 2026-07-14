@@ -30,7 +30,15 @@
       <p/>
     </answer>
     <solution>
-      <p/>
+      <p>
+        Place home plate at the origin, first base at <m>(90, 0)</m>, second base at <m>(90, 90)</m>, and third base at <m>(0, 90)</m>.  The third baseman is at <m>(0, 80)</m> (10 feet from third base toward home plate).
+      </p>
+      <p>
+        <em>Throwing to first base.</em>  The straight-line distance is <m>\sqrt{90^2 + 80^2} = 10\sqrt{145}</m> feet.  The angle the throw makes with the first base line is <m>\arctan\!\left(\dfrac{80}{90}\right) = \arctan\!\left(\dfrac{8}{9}\right) \approx 41.6^{\circ}</m>, and with the third base line it is <m>\arctan\!\left(\dfrac{90}{80}\right) = \arctan\!\left(\dfrac{9}{8}\right) \approx 48.4^{\circ}</m>.
+      </p>
+      <p>
+        <em>Throwing to second base.</em>  The displacement from <m>(0, 80)</m> to second base at <m>(90, 90)</m> is <m>(90, 10)</m>, so the distance is <m>\sqrt{90^2 + 10^2} = 10\sqrt{82}</m> feet.  The angle with the first base line is <m>\arctan\!\left(\dfrac{10}{90}\right) = \arctan\!\left(\dfrac{1}{9}\right) \approx 6.3^{\circ}</m>, and with the third base line it is approximately <m>83.7^{\circ}</m>.
+      </p>
     </solution>
   </activity>
 </worksheet>

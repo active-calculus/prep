@@ -151,7 +151,24 @@
       <p/>
     </answer>
     <solution>
-      <p/>
+      <tabular>
+        <row header="yes" bottom="medium">
+          <cell><m>f(x)</m></cell>
+          <cell><m>\lim_{x \to \infty} f(x)</m></cell>
+          <cell><m>\lim_{x \to -\infty} f(x)</m></cell>
+        </row>
+        <row bottom="minor"><cell><m>e^x</m></cell><cell><m>\infty</m></cell><cell><m>0</m></cell></row>
+        <row bottom="minor"><cell><m>e^{-x}</m></cell><cell><m>0</m></cell><cell><m>\infty</m></cell></row>
+        <row bottom="minor"><cell><m>\ln(x)</m></cell><cell><m>\infty</m></cell><cell>not defined</cell></row>
+        <row bottom="minor"><cell><m>x</m></cell><cell><m>\infty</m></cell><cell><m>-\infty</m></cell></row>
+        <row bottom="minor"><cell><m>x^2</m></cell><cell><m>\infty</m></cell><cell><m>\infty</m></cell></row>
+        <row bottom="minor"><cell><m>x^3</m></cell><cell><m>\infty</m></cell><cell><m>-\infty</m></cell></row>
+        <row bottom="minor"><cell><m>x^4</m></cell><cell><m>\infty</m></cell><cell><m>\infty</m></cell></row>
+        <row bottom="minor"><cell><m>\frac{1}{x}</m></cell><cell><m>0</m></cell><cell><m>0</m></cell></row>
+        <row bottom="minor"><cell><m>\frac{1}{x^2}</m></cell><cell><m>0</m></cell><cell><m>0</m></cell></row>
+        <row><cell><m>\sin(x)</m></cell><cell>no limit</cell><cell>no limit</cell></row>
+      </tabular>
+      <p>Note: <m>\ln(x)</m> is undefined for <m>x \le 0</m>, so <m>\lim_{x \to -\infty} \ln(x)</m> does not exist.</p>
     </solution>
   </activity>
 </worksheet>

@@ -34,7 +34,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The square end has side length <m>x</m> inches and the length of the package is <m>y</m> inches.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-polynomial-applications-postal-task-1">
       <statement>
@@ -44,7 +46,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The girth is the perimeter of the square end: <m>4x</m>.  The constraint is that girth plus length is at most <m>120</m> inches.  To maximize volume we use the entire allowance, giving the constraint equation <m>4x + y = 120</m>.</p>
+      </solution>
     </task>
     <task workspace="2cm" xml:id="act-poly-polynomial-applications-postal-task-2">
       <statement>
@@ -54,7 +58,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Solving for <m>y</m>: <m>y = 120 - 4x</m>.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-polynomial-applications-postal-task-3">
       <statement>
@@ -64,7 +70,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The volume of the rectangular box with square end of side <m>x</m> and length <m>y</m> is <m>V = x^2 y</m>.  Substituting <m>y = 120 - 4x</m>:
+        <me>
+          V(x) = x^2(120 - 4x) = 4x^2(30 - x).
+        </me>
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-polynomial-applications-postal-task-4">
       <statement>
@@ -74,13 +86,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>We need both <m>x &gt; 0</m> and <m>y = 120 - 4x &gt; 0</m>, which gives <m>x &lt; 30</m>.  So the domain of <m>V</m> in context is <m>(0, 30)</m>.</p>
+      </solution>
     </task>
     <answer>
       <p/>
     </answer>
     <solution>
-      <p/>
+      <p>
+        With a square end of side <m>x</m> and length <m>y = 120 - 4x</m>, the volume is <m>V(x) = x^2(120 - 4x) = 4x^2(30-x)</m> for <m>x \in (0, 30)</m>.
+      </p>
     </solution>
   </activity>
 </worksheet>

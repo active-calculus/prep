@@ -35,7 +35,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Using the points <m>(0, 1951)</m> and <m>(7, 1555)</m>, the slope is
+          <m>\frac{1555-1951}{7-0} = \frac{-396}{7} \approx -56.6</m> m<m>^2</m>/year.
+          Since <m>t=0</m> gives <m>A = 1951</m>, the model is:
+          <md>f(t) = 1951 - \frac{396}{7} t \approx 1951 - 56.6t.</md>
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-linear-Kilimanjaro-task-1">
       <statement>
@@ -45,7 +52,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The slope <m>\approx -56.6</m> m<m>^2</m>/year means the ice cover decreases by
+          about 56.6 square meters per year.  The <m>A</m>-intercept of <m>1951</m> m<m>^2</m>
+          represents the ice cover in the year 2000 (<m>t=0</m>).
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-changing-linear-Kilimanjaro-task-2">
       <statement>
@@ -57,7 +70,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <md>f(17) \approx 1951 - 56.6(17) \approx 989 \text{ m}^2.</md>
+          In the year 2017, the model predicts that the ice field near the summit of
+          Mt. Kilimanjaro will have an area of approximately 989 square meters.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-linear-Kilimanjaro-task-3">
       <statement>
@@ -68,7 +87,16 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Setting <m>f(t) = 0</m>:
+          <md>
+            <mrow>0 &amp;\approx 1951 - 56.6t</mrow>
+            <mrow>t &amp;\approx \frac{1951}{56.6} \approx 34.5.</mrow>
+          </md>
+          The model predicts the ice will vanish around the year 2034.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-linear-Kilimanjaro-task-4">
       <statement>
@@ -80,7 +108,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          A reasonable domain is <m>0 \le t \le 34.5</m> (from the year 2000 until the ice
+          disappears).  The corresponding range is <m>0 \le A \le 1951</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

@@ -31,7 +31,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Using the right triangle with the <m>25^\circ</m> angle, the opposite side is <m>h</m> and the adjacent side is <m>x</m>, so <m>\tan(25^\circ) = \dfrac{h}{x}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="2.5cm" xml:id="act-trig-tangent-mountain-task-1">
       <statement>
@@ -41,7 +45,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Using the right triangle with the <m>19^\circ</m> angle, the opposite side is <m>h</m> and the adjacent side is <m>x + 1000</m>, so <m>\tan(19^\circ) = \dfrac{h}{x+1000}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-trig-tangent-mountain-task-2">
       <statement>
@@ -51,7 +59,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          From (a), <m>h = x\tan(25^\circ)</m>.  From (b), <m>h = (x+1000)\tan(19^\circ)</m>.  Setting equal:
+          <md>
+            <mrow>x\tan(25^\circ) &amp;= (x+1000)\tan(19^\circ)</mrow>
+            <mrow>x\tan(25^\circ) - x\tan(19^\circ) &amp;= 1000\tan(19^\circ)</mrow>
+            <mrow>x(\tan(25^\circ) - \tan(19^\circ)) &amp;= 1000\tan(19^\circ)</mrow>
+            <mrow>x &amp;= \dfrac{1000\tan(19^\circ)}{\tan(25^\circ) - \tan(19^\circ)}.</mrow>
+          </md>
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-trig-tangent-mountain-task-3">
       <statement>
@@ -61,7 +79,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The exact value is <m>x = \dfrac{1000\tan(19^\circ)}{\tan(25^\circ) - \tan(19^\circ)}</m>.  Numerically, <m>x \approx 3412.527</m> feet.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-trig-tangent-mountain-task-4">
       <statement>
@@ -71,7 +93,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Using <m>h = x\tan(25^\circ)</m> with <m>x \approx 3412.527</m>: <m>h \approx 3412.527 \cdot \tan(25^\circ) \approx 1591.287</m> feet.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-trig-tangent-mountain-task-5">
       <statement>
@@ -81,7 +107,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          If the initial measurements were taken from <m>78</m> feet above sea level, the peak of the hill is approximately <m>1591.287 + 78 \approx 1669</m> feet above sea level.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

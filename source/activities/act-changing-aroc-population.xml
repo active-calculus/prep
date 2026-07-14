@@ -79,7 +79,24 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          For Kent County, the population in 1990 was 500,631 and in 2010 was 602,622, so
+          <md>
+            <mrow>AV_{[1990,2010]} &amp;= \frac{602{,}622 - 500{,}631}{2010 - 1990}</mrow>
+            <mrow>&amp;= \frac{101{,}991}{20}</mrow>
+            <mrow>&amp;\approx 5099.55 \text{ people per year.}</mrow>
+          </md>
+        </p>
+        <p>
+          For Ottawa County, the population in 1990 was 187,768 and in 2010 was 263,801, so
+          <md>
+            <mrow>AV_{[1990,2010]} &amp;= \frac{263{,}801 - 187{,}768}{2010 - 1990}</mrow>
+            <mrow>&amp;= \frac{76{,}033}{20}</mrow>
+            <mrow>&amp;\approx 3801.65 \text{ people per year.}</mrow>
+          </md>
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-aroc-population-task-1">
       <statement>
@@ -89,7 +106,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The units on <m>AV_{[1990,2010]}</m> for both counties are people per year.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-aroc-population-task-2">
       <statement>
@@ -99,7 +120,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Between 1990 and 2010, the population of Ottawa County grew by an average of
+          approximately 3801.65 people per year.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-changing-aroc-population-task-3">
       <statement>
@@ -110,7 +136,19 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          For Kent County on <m>[2000,2010]</m>:
+          <md>AV_{[2000,2010]} = \frac{602{,}622 - 574{,}336}{10} = \frac{28{,}286}{10} \approx 2828.6 \text{ people per year.}</md>
+          For Ottawa County on <m>[2000,2010]</m>:
+          <md>AV_{[2000,2010]} = \frac{263{,}801 - 238{,}313}{10} = \frac{25{,}488}{10} = 2548.8 \text{ people per year.}</md>
+          Kent County had a greater average rate of change during <m>[2000,2010]</m>.
+          In both counties, the population increased in every decade from 1960 to 2010,
+          so the average rate of change was positive on every decade interval for both counties.
+        </p>
+      
+        <image width="50%" source="solution-images/Kent-Pop-and-Ottawa-Pop.png"/>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-changing-aroc-population-task-4">
       <statement>
@@ -120,7 +158,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Using the most recent decade's rate of change as a guide, Ottawa County grew at
+          <m>2548.8</m> people per year from 2000 to 2010.  Projecting this rate forward
+          eight years from 2010:
+          <md>263{,}801 + 8 \cdot 2548.8 \approx 284{,}191 \text{ people.}</md>
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

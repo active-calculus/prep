@@ -27,25 +27,37 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>30^\circ = \frac{\pi}{6}</m> radians <m>\approx 0.524</m> radians.
+        </p>
+      </solution>
     </task>
     <task workspace="3.25cm" xml:id="act-circular-unit-circle-radians-degrees-task-1">
       <statement>
-        <p><m>\frac{2\pi}{3}</m> radians 
+        <p><m>\frac{2\pi}{3}</m> radians
 		          </p>
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>\frac{2\pi}{3}</m> radians <m>= 120^\circ</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3.25cm" xml:id="act-circular-unit-circle-radians-degrees-task-2">
       <statement>
-        <p><m>\frac{5\pi}{4}</m> radians 
+        <p><m>\frac{5\pi}{4}</m> radians
 		          </p>
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>\frac{5\pi}{4}</m> radians <m>= 225^\circ</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3.25cm" xml:id="act-circular-unit-circle-radians-degrees-task-3">
       <statement>
@@ -55,7 +67,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>240^\circ = \frac{4\pi}{3}</m> radians <m>\approx 4.189</m> radians.
+        </p>
+      </solution>
     </task>
     <task workspace="3.25cm" xml:id="act-circular-unit-circle-radians-degrees-task-4">
       <statement>
@@ -65,7 +81,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>17^\circ = \frac{17\pi}{180}</m> radians <m>\approx 0.297</m> radians.
+        </p>
+      </solution>
     </task>
     <task workspace="3.25cm" xml:id="act-circular-unit-circle-radians-degrees-task-5">
       <statement>
@@ -74,7 +94,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>2</m> radians <m>= \frac{360}{\pi}^\circ \approx 114^\circ</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

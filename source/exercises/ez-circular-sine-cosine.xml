@@ -87,7 +87,7 @@
             <p>
               <m>t</m> in quadrant IV such that <m>\sin(t) = -\frac{\sqrt{3}}{2}</m>
             </p>
-          </li>          
+          </li>
         </ol>
       </p>
 
@@ -99,7 +99,15 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li><p><m>\sin\!\left(-\frac{11\pi}{4}\right) = \sin\!\left(\frac{5\pi}{4}\right) = -\frac{\sqrt{2}}{2}</m></p></li>
+          <li><p><m>\cos\!\left(\frac{29\pi}{6}\right) = \cos\!\left(\frac{5\pi}{6}\right) = -\frac{\sqrt{3}}{2}</m></p></li>
+          <li><p><m>\cos\!\left(\frac{17\pi}{3}\right) = \cos\!\left(\frac{5\pi}{3}\right) = \frac{1}{2}</m></p></li>
+          <li><p><m>\sin(47\pi) = 0</m></p></li>
+          <li><p><m>\cos(-113\pi) = \cos(113\pi) = (-1)^{113} = -1</m></p></li>
+          <li><p><m>t = \frac{7\pi}{6}</m></p></li>
+          <li><p><m>t = \frac{5\pi}{3}</m></p></li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -153,7 +161,38 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              Yes, <m>\cos(t+2\pi) = \cos(t)</m> is true because the function has a periodicity of <m>2\pi</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Yes, <m>\sin(t-\pi) = -\sin(t)</m> is true because a shift of <m>\pi</m> around the unit circle is equivalent to making the argument negative, and <m>\sin</m> is an odd function.  Also, graphically, <m>\sin</m> gives the <m>y</m>-coordinate of points on the unit circle, and shifting the argument by <m>\pm\pi</m> essentially reflects the point across the <m>x</m>-axis, changing the sign of the <m>y</m>-coordinate.
+            </p>
+          </li>
+          <li>
+            <p>
+              No, <m>\cos\!\left(t - \frac{3\pi}{2}\right) \ne \sin(t)</m>.  For example, <m>\cos\!\left(\frac{\pi}{2} - \frac{3\pi}{2}\right) = \cos(-\pi) = -1</m> while <m>\sin\!\left(\frac{\pi}{2}\right) = 1</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Yes, <m>\sin^2(t) = 1 - \cos^2(t)</m>, because of the Fundamental Trigonometric Identity.
+            </p>
+          </li>
+          <li>
+            <p>
+              No, <m>\sin(t) + \cos(t) \ne 1</m>.  For example, <m>\sin\!\left(\frac{\pi}{3}\right) + \cos\!\left(\frac{\pi}{3}\right) = \frac{1 + \sqrt{3}}{2} \ne 1</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              No, <m>\sin(t) + \sin\!\left(\frac{\pi}{2}\right) \ne \cos(t)</m>.  For example, <m>\sin\!\left(\frac{\pi}{4}\right) + \sin\!\left(\frac{\pi}{2}\right) = \frac{\sqrt{2} + 2}{2}</m> while <m>\cos\!\left(\frac{\pi}{4}\right) = \frac{\sqrt{2}}{2}</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>

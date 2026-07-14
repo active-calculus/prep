@@ -42,7 +42,13 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        With <m>\cos(\beta) = -\frac{12}{13}</m> and <m>\beta</m> in quadrant II, the Pythagorean identity gives <m>\sin(\beta) = \frac{5}{13}</m> (positive in QII).  The remaining values are:
+        <me>
+          \sec(\beta) = -\frac{13}{12}, \quad \csc(\beta) = \frac{13}{5}, \quad \tan(\beta) = -\frac{5}{12}, \quad \cot(\beta) = -\frac{12}{5}.
+        </me>
+      </p>
+      <p>
+        If <m>\beta</m> lies in quadrant III, then <m>\cos(\beta)</m> is still <m>-\frac{12}{13}</m> but now <m>\sin(\beta) = -\frac{5}{13}</m> (negative in QIII).  So <m>\sec(\beta) = -\frac{13}{12}</m> (unchanged), <m>\csc(\beta) = -\frac{13}{5}</m>, <m>\tan(\beta) = \frac{5}{12}</m>, and <m>\cot(\beta) = \frac{12}{5}</m>.
       </p>
     </solution>
   </exercise>
@@ -86,7 +92,28 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              <m>f(t) = 5\sec\!\left(t - \frac{\pi}{2}\right) + 3</m>: The parent <m>\sec(t)</m> has period <m>2\pi</m>, domain all reals except <m>\frac{\pi}{2} + j\pi</m>, range <m>(-\infty,-1]\cup[1,\infty)</m>.  Shifting by <m>\frac{\pi}{2}</m> moves the asymptotes to <m>t = j\pi</m>.  The vertical stretch by <m>5</m> and shift by <m>3</m> give range <m>(-\infty,-2]\cup[8,\infty)</m>.  Period remains <m>2\pi</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>g(t) = -\frac{1}{3}\csc(2t) - 4</m>: The horizontal compression by <m>2</m> gives period <m>\pi</m> and moves asymptotes to all multiples of <m>\frac{\pi}{2}</m> (i.e., <m>t = \frac{j\pi}{2}</m> for any integer <m>j</m>), so the domain is all reals except multiples of <m>\frac{\pi}{2}</m>.  The factor <m>-\frac{1}{3}</m> and vertical shift <m>-4</m> give range <m>(-\infty, -\frac{13}{3}]\cup[-\frac{11}{3},\infty)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>h(t) = -7\tan\!\left(t + \frac{\pi}{4}\right) + 1</m>: The parent <m>\tan(t)</m> has period <m>\pi</m>, asymptotes at <m>\frac{\pi}{2}+j\pi</m>, range all reals.  The horizontal shift moves asymptotes to <m>t = \frac{\pi}{4} + j\pi</m>.  Domain is all reals except <m>\frac{\pi}{4}+j\pi</m>.  Range remains all reals.  Period remains <m>\pi</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>j(t) = \frac{1}{2}\cot(4t) - 2</m>: The horizontal compression by <m>4</m> gives period <m>\frac{\pi}{4}</m> and moves asymptotes to <m>t = \frac{j\pi}{4}</m>.  Domain is all reals except <m>\frac{j\pi}{4}</m>.  Range remains all reals.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -146,7 +173,15 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        In the right triangle, the horizontal leg has length <m>\sqrt{1-x^2}</m> by the Pythagorean Theorem.
+        <ol marker="a." cols="2">
+          <li><p><m>\sin(\theta) = x</m></p></li>
+          <li><p><m>\sec(\theta) = \dfrac{1}{\sqrt{1-x^2}}</m></p></li>
+          <li><p><m>\csc(\theta) = \dfrac{1}{x}</m></p></li>
+          <li><p><m>\tan(\theta) = \dfrac{x}{\sqrt{1-x^2}}</m></p></li>
+          <li><p><m>\cos(\arcsin(x)) = \cos(\theta) = \sqrt{1-x^2}</m></p></li>
+          <li><p><m>\cot(\arcsin(x)) = \cot(\theta) = \dfrac{\sqrt{1-x^2}}{x}</m></p></li>
+        </ol>
       </p>
     </solution>
   </exercise>

@@ -31,7 +31,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>10^x \cdot 10^y = 10^{x+y}</m>
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-exp-log-properties-task-1">
       <statement>
@@ -41,7 +45,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>\log_{10}10^x = x</m> and <m>\log_{10}10^y = y</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-exp-log-properties-task-2">
       <statement>
@@ -52,7 +60,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The first equal sign holds because <m>10^x \cdot 10^y = 10^{x+y}</m> by the rule for multiplying exponentials with the same base.  The second equal sign holds because <m>\log_{10}(10^A) = A</m> for any real number <m>A</m>.  The third equal sign holds because <m>x = \log_{10}(10^x)</m> and <m>y = \log_{10}(10^y)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-exp-log-properties-task-3">
       <statement>
@@ -64,7 +76,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Since <m>a = 10^x</m> and <m>b = 10^y</m>, we have <m>ab = 10^x \cdot 10^y</m>.  Our work in (c) shows that <m>\log_{10}(10^x \cdot 10^y) = \log_{10}(10^x) + \log_{10}(10^y)</m>.  With <m>\log_{10}(10^x) = \log_{10}(a)</m> and <m>\log_{10}(10^y) = \log_{10}(b)</m>, it follows that <m>\log_{10}(ab) = \log_{10}(a) + \log_{10}(b)</m>.
+        </p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

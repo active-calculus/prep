@@ -30,7 +30,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Multiplying numerator and denominator by <m>\dfrac{1}{x^2}</m>:
+        <md>
+          <mrow>r(x) &amp;= \frac{3x^2 - 5x + 1}{7x^2 + 2x - 11} \cdot \frac{\frac{1}{x^2}}{\frac{1}{x^2}}</mrow>
+          <mrow>&amp;= \frac{3 - \frac{5}{x} + \frac{1}{x^2}}{7 + \frac{2}{x} - \frac{11}{x^2}}.</mrow>
+        </md>
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-rational-long-term-1-task-1">
       <statement>
@@ -45,7 +52,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>As <m>x \to \infty</m>, the terms <m>\frac{5}{x}</m>, <m>\frac{1}{x^2}</m>, <m>\frac{2}{x}</m>, and <m>\frac{11}{x^2}</m> all approach <m>0</m>.  Therefore
+        <me>
+          \lim_{x \to \infty} r(x) = \frac{3 - 0 + 0}{7 + 0 - 0} = \frac{3}{7}.
+        </me>
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-poly-rational-long-term-1-task-2">
       <statement>
@@ -58,7 +71,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>For the same reason, as <m>x \to -\infty</m> the terms with <m>x</m> in the denominator all approach <m>0</m>, so
+        <me>
+          \lim_{x \to -\infty} r(x) = \frac{3}{7}.
+        </me>
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-poly-rational-long-term-1-task-3">
       <statement>
@@ -68,13 +87,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The graph of <m>r</m> approaches the horizontal line <m>y = \dfrac{3}{7}</m> as <m>x \to \pm\infty</m>.  This line is called a <em>horizontal asymptote</em> of <m>r</m>.  The limits found in (b) and (c) say that far to the left and far to the right of the origin, <m>r(x)</m> gets arbitrarily close to <m>\dfrac{3}{7}</m>.</p>
+      </solution>
     </task>
     <answer>
       <p/>
     </answer>
     <solution>
-      <p/>
+      <p>
+        Multiplying by <m>\frac{1/x^2}{1/x^2}</m> gives <m>r(x) = \frac{3 - 5/x + 1/x^2}{7 + 2/x - 11/x^2}</m>.  Since the terms with <m>x</m> in the denominator vanish as <m>x \to \pm\infty</m>, both limits equal <m>\frac{3}{7}</m>, the ratio of the leading coefficients.  The horizontal asymptote is <m>y = \frac{3}{7}</m>.
+      </p>
     </solution>
   </activity>
 </worksheet>

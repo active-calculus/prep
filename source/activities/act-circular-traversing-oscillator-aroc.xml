@@ -179,7 +179,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <ul>
+            <li><m>AV_{[2,2.25]} = \frac{9.913 - 8.00}{2.25 - 2} = \frac{1.913}{0.25} \approx 7.652</m> inches/sec</li>
+            <li><m>AV_{[2.25,2.5]} = \frac{11.536 - 9.913}{2.5 - 2.25} = \frac{1.623}{0.25} \approx 6.492</m> inches/sec</li>
+            <li><m>AV_{[2.5,2.75]} = \frac{12.619 - 11.536}{2.75 - 2.5} = \frac{1.083}{0.25} \approx 4.332</m> inches/sec</li>
+            <li><m>AV_{[2.75,3]} = \frac{13.000 - 12.619}{3.00 - 2.75} = \frac{0.381}{0.25} \approx 1.524</m> inches/sec</li>
+          </ul>
+          The weight is always moving in the same direction (away from the wall) on the interval <m>[2,3]</m>, but is slowing down.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-circular-traversing-oscillator-aroc-task-1">
       <statement>
@@ -189,7 +199,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The greatest (steepest) negative rates of change occur near the midline where the function is decreasing.  Examples include intervals such as <m>[0, 0.25]</m>, <m>[3.75, 4.00]</m>, and <m>[4.00, 4.25]</m>.  These occur near the midline where the function crosses from above to below (or vice versa), meaning the weight is moving most rapidly toward the equilibrium position.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-circular-traversing-oscillator-aroc-task-2">
       <statement>
@@ -199,7 +213,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function is decreasing from each peak to each trough.  Examples of longest such intervals are <m>[3,5]</m>, <m>[7,9]</m>, and <m>[11,13]</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-circular-traversing-oscillator-aroc-task-3">
       <statement>
@@ -208,7 +226,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The intervals on which <m>f</m> is concave up include <m>[0,2]</m>, <m>[4,6]</m>, <m>[8,10]</m>, and <m>[12,14]</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-circular-traversing-oscillator-aroc-task-4">
       <statement>
@@ -218,7 +240,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          On intervals that are decreasing and concave up, the weight is moving toward the wall, but at a decreasing rate (slowing down).
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-circular-traversing-oscillator-aroc-task-5">
       <statement>
@@ -228,7 +254,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          At the highest and lowest points, the function has the smallest rates of change.  Near the midline, the function has its greatest rates of change.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

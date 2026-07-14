@@ -28,7 +28,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>f(t) = \sin(t)</m> is decreasing on the interval <m>\left[\frac{\pi}{2}, \frac{3\pi}{2}\right]</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-sine-cosine-incr-CCU-task-1">
       <statement>
@@ -39,7 +43,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>f(t) = \sin(t)</m> is decreasing and concave down on the interval <m>\left[\frac{\pi}{2}, \pi\right]</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-sine-cosine-incr-CCU-task-2">
       <statement>
@@ -50,7 +58,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>g(t) = \cos(t)</m> is increasing on the interval <m>[\pi, 2\pi]</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-sine-cosine-incr-CCU-task-3">
       <statement>
@@ -61,7 +73,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>g(t) = \cos(t)</m> is increasing and concave up on the interval <m>\left[\pi, \frac{3\pi}{2}\right]</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3.5cm" xml:id="act-sine-cosine-incr-CCU-task-4">
       <statement>
@@ -71,7 +87,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The average rate of change of <m>g(t) = \cos(t)</m> is greater on the interval <m>\left[\frac{3\pi}{2}, \frac{3\pi}{2} + 0.1\right]</m> because <m>g(t)</m> has a steeper slope near <m>\frac{3\pi}{2}</m> (a zero crossing) than near <m>\pi</m> (a minimum).
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-sine-cosine-incr-CCU-task-5">
       <statement>
@@ -81,7 +101,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The most rapid average rates of change on both graphs occur near the zero crossing points (where the function crosses the midline).
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-sine-cosine-incr-CCU-task-6">
       <statement>
@@ -91,7 +115,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The function <m>g(t) = \cos(t)</m> is negative on quadrants II and III.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

@@ -92,9 +92,13 @@
       </p>
     </answer>
     <solution>
-      <p>
-        Exercise Solution
-      </p>
+      <p><ol marker="a."><li><p>The full volume is <m>V = \frac{1}{3}\pi(3)^2(2) = 6\pi \approx 18.85</m> cubic feet. At a constant fill rate of <m>0.75</m> cu ft/min, the tank fills in <m>\frac{6\pi}{0.75} = 8\pi \approx 25.1</m> minutes.</p></li><li><p>The graph of <m>V = f(t)</m> is a straight line from <m>(0,0)</m> to <m>(8\pi, 6\pi)</m> (constant rate). The graph of <m>h = g(t)</m> is a concave-down increasing curve from <m>(0,0)</m> to <m>(8\pi, 2)</m>: since the cone widens as it fills, equal volumes of water raise the height by smaller and smaller amounts.</p></li><li><p>The domain of <m>h = g(t)</m> is <m>[0, 8\pi]</m> minutes and the range is <m>[0, 2]</m> feet.</p></li><li><p>The model <m>h = g(t) = \left(\frac{t}{\pi}\right)^{1/3}</m> has domain <m>[0, 8\pi]</m> and range <m>[0,2]</m>. The abstract function <m>y = p(t) = \left(\frac{t}{\pi}\right)^{1/3}</m> has domain <m>[0, \infty)</m> and range <m>[0, \infty)</m>. The model is the abstract function restricted to the physical scenario.</p></li></ol></p>
+    
+        <sidebyside widths="45% 45%">
+          <image source="solution-images/Section1.2Problem7bVolumeVStime.png"/>
+          <image source="solution-images/Section1.2Problem7bDepthVStime.png"/>
+        </sidebyside>
+        <image width="50%" source="solution-images/Section1.2Problem7dModelGraph.png"/>
     </solution>
   </exercise>
 
@@ -141,9 +145,7 @@
       </p>
     </answer>
     <solution>
-      <p>
-        Exercise Solution
-      </p>
+      <p><ol marker="a."><li><p>The values of <m>v(2)</m> and <m>v(7)</m> can be read directly from the graph at <m>t = 2</m> and <m>t = 7</m>, respectively.</p></li><li><p>Any time the graph of <m>v</m> crosses or touches the horizontal line <m>v = 3</m> gives a time when the velocity equals exactly <m>3</m> ft/s. Read these times from the graph.</p></li><li><p>On the interval <m>[4,5]</m>, examine whether the graph is positive (walking forward), negative (walking backward), or zero (stationary), and whether the velocity is increasing or decreasing.</p></li><li><p>The distance traveled is proportional to the area under the velocity curve (or its absolute value). Compare the areas under the graph on <m>[1,3]</m> and on <m>[6,8]</m> to determine which interval has greater total distance.</p></li></ol></p>
     </solution>
   </exercise>
 
@@ -216,9 +218,7 @@
       </p>
     </answer>
     <solution>
-      <p>
-        Exercise Solution
-      </p>
+      <p><ol marker="a."><li><p>No, <m>G</m> cannot be viewed as a function of <m>D</m>. At <m>D = 100</m>, there are two recorded values (<m>G = 1.5</m> before refueling and <m>G = 10.0</m> after), and similarly at <m>D = 300</m>. A function must assign exactly one output to each input.</p></li><li><p>The fuel economy appears to be constant. Between <m>D = 0</m> and <m>D = 100</m>, the car used <m>4.5 - 1.5 = 3.0</m> gallons for <m>100</m> miles, giving <m>100/3 \approx 33.3</m> mpg. The same rate holds for subsequent segments.</p></li><li><p>At <m>D = 100</m>, the driver added <m>10.0 - 1.5 = 8.5</m> gallons. At <m>D = 300</m>, the driver added <m>11.0 - 4.0 = 7.0</m> gallons. So the driver put the most gas in the tank at <m>D = 100</m> miles.</p></li></ol></p>
     </solution>
   </exercise>
 

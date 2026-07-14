@@ -26,7 +26,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>g(t)</m> is a vertical stretch of <m>f</m> by a factor of 3, with amplitude 3, midline <m>y=0</m>, and period <m>2\pi</m>.  <m>h(t)</m> is a vertical shrink by a factor of <m>\frac{1}{4}</m> combined with a reflection over the <m>x</m>-axis, with amplitude <m>\frac{1}{4}</m>, midline <m>y=0</m>, and period <m>2\pi</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="PA-circular-sinusoidal-task-1">
       <statement>
@@ -34,7 +38,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>g(t)</m> is a horizontal translation of <m>f</m> by <m>\pi</m> units to the right (equivalently, a reflection over the <m>x</m>-axis due to periodicity), with amplitude 1, midline <m>y=0</m>, and period <m>2\pi</m>.  <m>h(t)</m> is a horizontal translation <m>\frac{\pi}{2}</m> units to the left, with amplitude 1, midline <m>y=0</m>, and period <m>2\pi</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="PA-circular-sinusoidal-task-2">
       <statement>
@@ -42,7 +50,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>g(t)</m> is a vertical translation of <m>f</m> by 4 units up, with amplitude 1, midline <m>y=4</m>, and period <m>2\pi</m>.  <m>h(t)</m> is a vertical translation 2 units down, with amplitude 1, midline <m>y=-2</m>, and period <m>2\pi</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="PA-circular-sinusoidal-task-3">
       <statement>
@@ -50,7 +62,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>g(t)</m> is a vertical stretch by a factor of 3, followed by a horizontal shift <m>\pi</m> units to the right, and a vertical shift 4 units up.  Due to the periodicity, it is also accurate to say that <m>g(t)</m> is reflected over the <m>x</m>-axis, stretched by a factor of 3, and shifted vertically up 4 units.  <m>g(t)</m> has amplitude 3, midline <m>y=4</m>, and period <m>2\pi</m>.
+        </p>
+        <p>
+          <m>h(t)</m> is a reflection over the <m>x</m>-axis, followed by a vertical shrink by a factor of <m>\frac{1}{4}</m>, then a horizontal shift <m>\frac{\pi}{2}</m> units to the left, and a vertical shift 2 units down.  Due to the periodicity, it is also accurate to say that <m>h(t)</m> is shifted <m>\frac{\pi}{2}</m> units to the right, shrunk by a factor of <m>\frac{1}{4}</m>, and shifted 2 units down.  <m>h(t)</m> has amplitude <m>\frac{1}{4}</m>, midline <m>y=-2</m>, and period <m>2\pi</m>.
+        </p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

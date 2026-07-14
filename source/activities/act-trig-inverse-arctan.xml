@@ -27,7 +27,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The domain of the arctangent function is all real numbers <m>(-\infty, \infty)</m>, and the range is the open interval <m>\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-trig-inverse-arctan-task-1">
       <statement>
@@ -37,7 +41,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>\arctan(-\sqrt{3}) = -\frac{\pi}{3}</m>, <m>\arctan(-1) = -\frac{\pi}{4}</m>, <m>\arctan(0) = 0</m>, and <m>\arctan\!\left(\frac{1}{\sqrt{3}}\right) = \frac{\pi}{6}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="1cm" xml:id="act-trig-inverse-arctan-task-2">
       <statement>
@@ -51,7 +59,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <image width="50%" source="solution-images/Activity4.3.4c.png"/>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-trig-inverse-arctan-task-3">
       <statement>
@@ -61,7 +71,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          As <m>t</m> increases without bound, <m>\arctan(t)</m> approaches <m>\frac{\pi}{2}</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

@@ -34,12 +34,16 @@
     <task workspace="5cm" xml:id="act-circular-unit-circle-special-triangles-task-0">
       <statement>
         <p>
-						For the <m>45^\circ</m>-<m>45^\circ</m>-<m>90^\circ</m> triangle with legs of length <m>x</m> and <m>y</m> and hypotenuse of length <m>1</m>, what does the fact that the triangle is isosceles tell us about the relationship between <m>x</m> and <m>y</m>?  What are their exact values?  
+						For the <m>45^\circ</m>-<m>45^\circ</m>-<m>90^\circ</m> triangle with legs of length <m>x</m> and <m>y</m> and hypotenuse of length <m>1</m>, what does the fact that the triangle is isosceles tell us about the relationship between <m>x</m> and <m>y</m>?  What are their exact values?
 					</p>
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Because a <m>45^\circ</m>-<m>45^\circ</m>-<m>90^\circ</m> triangle is isosceles, the sides <m>x</m> and <m>y</m> must be equal.  From the Pythagorean theorem, <m>\sqrt{x^2 + y^2} = 1</m>, which reduces to <m>\sqrt{2x^2} = 1</m>, giving <m>x = y = \frac{\sqrt{2}}{2}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-circular-unit-circle-special-triangles-task-1">
       <statement>
@@ -49,7 +53,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          When the <m>30^\circ</m>-<m>60^\circ</m>-<m>90^\circ</m> triangle is reflected across the <m>x</m>-axis, the outer perimeter of the resulting shape forms an equilateral triangle where all three interior angles are <m>60^\circ</m> and all sides have the same length, 1 unit.  This gives us the insight that side <m>y</m> must have a length equal to half of one unit: <m>y = \frac{1}{2}</m>.  Side <m>x</m> is determined from the Pythagorean theorem: <m>x = \frac{\sqrt{3}}{2}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-circular-unit-circle-special-triangles-task-2">
       <statement>
@@ -59,7 +67,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          When a <m>30^\circ</m>-<m>60^\circ</m>-<m>90^\circ</m> triangle is constructed such that the angle between the hypotenuse and the <m>x</m>-side is <m>60^\circ</m>, the sides are <m>y = \frac{\sqrt{3}}{2}</m> and <m>x = \frac{1}{2}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-circular-unit-circle-special-triangles-task-3">
       <statement>
@@ -86,7 +98,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The coordinates of the point at <m>\theta = \frac{\pi}{6}</m> on the unit circle are <m>\left( \frac{\sqrt{3}}{2}, \frac{1}{2} \right)</m>.  The coordinates at <m>\theta = \frac{\pi}{4}</m> are <m>\left( \frac{\sqrt{2}}{2}, \frac{\sqrt{2}}{2} \right)</m>.  The coordinates at <m>\theta = \frac{\pi}{3}</m> are <m>\left( \frac{1}{2}, \frac{\sqrt{3}}{2} \right)</m>.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

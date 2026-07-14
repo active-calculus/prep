@@ -86,7 +86,10 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        There is more than one possible correct answer.  If we take the points to indicate a period of <m>1.0</m> and midpoint at <m>y = 2</m>, with an anchor point at <m>(0, 2)</m>, a formula is
+        <md>
+          g(x) = \sin(2\pi x) + 2.
+        </md>
       </p>
     </solution>
   </exercise>
@@ -108,7 +111,10 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        Assuming the period is <m>365</m> days, the amplitude is approximately <m>3.17545</m> hours, the midline is at <m>y = 12.18405</m>, and the maximum occurs at day <m>t = 172</m> (with the minimum at day <m>355</m>).  Using the maximum as an anchor point, the duration of daylight is
+        <md>
+          s(t) = 3.17545\cos\!\left(\frac{2\pi}{365}(t - 172)\right) + 12.18405.
+        </md>
       </p>
     </solution>
   </exercise>
@@ -116,7 +122,7 @@
 <exercise xml:id="ez-circular-sinusoidal-horiz-reflection">
     <statement>
       <p>
-        We now understand the effects of the transformation <m>h(t) = f(kt)</m> where <m>k \gt 0</m> for a given function <m>f</m>.  Our goal is to understand what happens when <m>k \lt 0</m>.  
+        We now understand the effects of the transformation <m>h(t) = f(kt)</m> where <m>k \gt 0</m> for a given function <m>f</m>.  Our goal is to understand what happens when <m>k \lt 0</m>.
       </p>
 
       <p>
@@ -161,7 +167,38 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              The graphs of <m>f(t) = 2t - 1</m> and <m>g(t) = -2t - 1</m> have lines that are reflected across the <m>y</m>-axis.
+            </p>
+          </li>
+          <li>
+            <p>
+              For any function <m>p</m>, the function <m>q(t) = p(-t)</m> is a reflection of <m>p</m> across the <m>y</m>-axis.
+            </p>
+          </li>
+          <li>
+            <p>
+              The graph of <m>y = \sin(-3t)</m> is a graph of <m>y = \sin(t)</m> first horizontally scaled by a factor of <m>\frac{1}{3}</m> and then reflected across the <m>y</m>-axis.
+            </p>
+          </li>
+          <li>
+            <p>
+              The graph of <m>y = \cos(-3t)</m> is a graph of <m>y = \cos(t)</m> first horizontally scaled by a factor of <m>\frac{1}{3}</m> and then reflected across the <m>y</m>-axis.  Since <m>\cos</m> is symmetric across the <m>y</m>-axis, <m>y = \cos(-3t)</m> appears identical to <m>y = \cos(3t)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              For any function <m>p(t)</m>, the graph of <m>q(t) = p(kt)</m> with <m>k \lt 0</m> is equivalent to the graph of <m>p(t)</m> scaled horizontally by a factor of <m>\frac{1}{|k|}</m> and then reflected across the <m>y</m>-axis.
+            </p>
+          </li>
+          <li>
+            <p>
+              The graphs <m>\sin(-t)</m> and <m>\sin(t)</m> are related such that <m>\sin(-t) = -\sin(t)</m>, while <m>\cos(-t) = \cos(t)</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>

@@ -105,9 +105,9 @@
       </p>
     </answer>
     <solution>
-      <p>
-        Exercise Solution
-      </p>
+      <p><ol marker="a."><li><p><m>AV_{[0,5]} = \frac{44.74 - 37.00}{5} = 1.548</m> <degree/>F/min; <m>AV_{[5,10]} = \frac{50.77 - 44.74}{5} = 1.206</m> <degree/>F/min; <m>AV_{[10,15]} = \frac{55.47 - 50.77}{5} = 0.940</m> <degree/>F/min. For example, on the interval <m>[0,5]</m>, the temperature of the soda is increasing on average by <m>1.548</m> degrees Fahrenheit for each additional minute.</p></li><li><p>Change on <m>[10,20]</m>: <m>59.12 - 50.77 = 8.35</m> <degree/>F. Change on <m>[25,35]</m>: <m>65.92 - 61.97 = 3.95</m> <degree/>F. There is more total change on <m>[10,20]</m>.</p></li><li><p>The soda's temperature is changing most rapidly at the beginning (when <m>t</m> is smallest), and the rate of change decreases over time as the soda approaches room temperature.</p></li><li><p>The rate of change on <m>[30,35]</m> is <m>AV_{[30,35]} = \frac{65.92 - 64.19}{5} = 0.346</m> <degree/>F/min. Extending this trend by <m>2</m> minutes: <m>F(37) \approx 65.92 + 2(0.346) \approx 66.6</m> <degree/>F.</p></li></ol></p>
+    
+        <image width="50%" source="solution-images/T-deg-F-vs-t-minutes.png"/>
     </solution>
   </exercise>
 
@@ -171,9 +171,7 @@
       </p>
     </answer>
     <solution>
-      <p>
-        Exercise Solution
-      </p>
+      <p><ol marker="a."><li><p>Read from the graph: describe behavior on each interval. Where the graph rises steeply, the car moves quickly; where flat, the car is stopped; where the slope is gentler, the car moves more slowly.</p></li><li><p>From the graph: <m>AV_{[3,4]} = \frac{s(4)-s(3)}{1}</m>, <m>AV_{[4,6]} = \frac{s(6)-s(4)}{2}</m>, <m>AV_{[5,8]} = \frac{s(8)-s(5)}{3}</m>, each in thousands of feet per minute.</p></li><li><p>On the graph, sketch line segments connecting <m>(3, s(3))</m> to <m>(4, s(4))</m>, <m>(4, s(4))</m> to <m>(6, s(6))</m>, and <m>(5, s(5))</m> to <m>(8, s(8))</m>; their slopes represent the respective average velocities.</p></li><li><p>An average velocity of <m>5000</m> ft/min requires a slope of <m>5</m> on the graph. Examine whether any secant line connecting two points on the graph achieves this slope.</p></li><li><p>If the position graph is always non-decreasing, the car never goes in reverse. Reverse motion would correspond to a portion of the graph with negative slope (decreasing <m>s</m>).</p></li></ol></p>
     </solution>
   </exercise>
 
@@ -215,9 +213,7 @@
       </p>
     </answer>
     <solution>
-      <p>
-        Exercise Solution
-      </p>
+      <p><ol marker="a."><li><p>As the conical tank fills, the cone widens, so equal amounts of water produce smaller increases in height. Therefore <m>h = g(t)</m> is increasing but at a decreasing rate (concave down).</p></li><li><p>Using <m>g(t) = (t/\pi)^{1/3}</m>: <m>g(0)=0</m>, <m>g(2)=(2/\pi)^{1/3}\approx 0.860</m>, <m>g(4)=(4/\pi)^{1/3}\approx 1.084</m>, <m>g(6)=(6/\pi)^{1/3}\approx 1.240</m>. Thus <m>AV_{[0,2]}\approx 0.430</m> ft/min, <m>AV_{[2,4]}\approx 0.112</m> ft/min, <m>AV_{[4,6]}\approx 0.078</m> ft/min.</p></li><li><p>Yes. For intervals <m>[0,b]</m> starting at <m>t=0</m>: <m>AV_{[0,b]} = g(b)/b = (1/\pi)^{1/3} b^{-2/3}</m>. Setting this equal to <m>2</m> gives <m>b^{2/3} = (1/\pi)^{1/3}/2</m>, so <m>b = (1/(8\pi))^{1/2} = 1/(2\sqrt{\pi}\,) \approx 0.282</m> min. The interval <m>[0, 1/(2\sqrt{\pi})]</m> gives <m>AV = 2</m> ft/min.</p></li><li><p>Since <m>V = f(t) = 0.75t</m> is linear with constant slope <m>0.75</m>, the average rate of change of volume is always <m>0.75</m> cu ft/min on every interval, including <m>[0,2]</m>, <m>[2,4]</m>, and <m>[4,6]</m>.</p></li></ol></p>
     </solution>
   </exercise>
 

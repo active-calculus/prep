@@ -33,7 +33,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Since depth can't be negative and can't exceed the tank's diameter of <m>8</m> m,
+          the values of <m>h</m> that make sense are <m>0 \le h \le 8</m>.
+          The corresponding values of <m>V</m> range from <m>0</m> (empty tank) to
+          <m>f(8) = \frac{256\pi}{3}</m> (full tank), so <m>0 \le V \le \frac{256\pi}{3}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3.5cm" xml:id="act-changing-functions-spherical-tank-task-1">
       <statement>
@@ -43,7 +50,16 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The domain of <m>f</m> in context is <m>[0, 8]</m>, since the water depth
+          can range from <m>0</m> m (empty) to <m>8</m> m (full diameter).
+          The range is <m>\left[0, \frac{256\pi}{3}\right]</m>.
+          Since volumes are non-negative, the codomain can be taken as <m>[0, \infty)</m>,
+          or more broadly as all real numbers if we consider the abstract formula
+          without physical constraints.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-functions-spherical-tank-task-2">
       <statement>
@@ -54,7 +70,19 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <md>
+            <mrow>f(2) &amp;= \frac{\pi}{3}(4)(10) = \frac{40\pi}{3} \approx 41.9 \text{ m}^3</mrow>
+            <mrow>f(4) &amp;= \frac{\pi}{3}(16)(8) = \frac{128\pi}{3} \approx 134.0 \text{ m}^3</mrow>
+            <mrow>f(8) &amp;= \frac{\pi}{3}(64)(4) = \frac{256\pi}{3} \approx 268.1 \text{ m}^3</mrow>
+          </md>
+          These give the volume of water when the depth is <m>2</m>, <m>4</m>, and <m>8</m>
+          meters respectively.  The value <m>f(8) = \frac{256\pi}{3}</m> equals the volume
+          of a sphere of radius <m>4</m>, confirming that the tank is completely full when
+          <m>h = 8</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-changing-functions-spherical-tank-task-3">
       <statement>
@@ -64,7 +92,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Neither claim is valid.  The domain of <m>f</m> is <m>[0, 8]</m>, so
+          <m>h = 9</m> is outside the domain — the water cannot be <m>9</m> m deep in a
+          tank whose diameter is only <m>8</m> m.  Similarly, <m>f(13)</m> falls outside the
+          domain, and the negative value it produces is further evidence that the formula
+          should not be applied beyond <m>h = 8</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-functions-spherical-tank-task-4">
       <statement>
@@ -74,7 +110,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          No.  The maximum value of <m>f</m> on its domain <m>[0, 8]</m> is
+          <m>f(8) = \frac{256\pi}{3} \approx 268.1</m> m<m>^3</m>, which is less than
+          <m>300</m>.  The tank simply cannot hold <m>300</m> cubic meters of water.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

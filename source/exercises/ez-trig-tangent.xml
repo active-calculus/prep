@@ -63,7 +63,7 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        The ramp makes a <m>4^\circ</m> angle with the ground and rises <m>3</m> feet.  Its length is <m>\frac{3}{\sin(4^\circ)} \approx 43.0</m> feet.  It meets the sidewalk approximately <m>\frac{3}{\tan(4^\circ)} \approx 42.9</m> feet from the porch.  The slope is <m>\frac{3}{42.9} \approx 0.0699</m>.
       </p>
     </solution>
   </exercise>
@@ -105,7 +105,23 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              With the kite at <m>170</m> feet elevation and elevation angle <m>40^\circ</m>, the horizontal distance is <m>\frac{170}{\tan(40^\circ)} \approx 202.6</m> feet.
+            </p>
+          </li>
+          <li>
+            <p>
+              The string length is <m>\frac{170}{\sin(40^\circ)} \approx 264.5</m> feet.
+            </p>
+          </li>
+          <li>
+            <p>
+              With the same string length and elevation angle <m>50^\circ</m>, the kite height is <m>264.5\sin(50^\circ) \approx 202.6</m> feet.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -127,7 +143,7 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        At angle <m>36^\circ</m>, the plane's horizontal distance is <m>\frac{2400}{\tan(36^\circ)} \approx 3301</m> feet.  Two seconds later at <m>41^\circ</m>, the distance is <m>\frac{2400}{\tan(41^\circ)} \approx 2759</m> feet.  The plane traveled <m>3301 - 2759 \approx 542</m> feet in <m>2</m> seconds, giving a speed of approximately <m>271</m> feet per second, or about <m>185</m> miles per hour.
       </p>
     </solution>
   </exercise>

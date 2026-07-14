@@ -28,7 +28,15 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          First compute <m>s(1.5) = 64 - 16(1.5-1)^2 = 60</m> and
+          <m>s(2.5) = 64 - 16(2.5-1)^2 = 28</m>.  Then
+          <md>
+            <mrow>AV_{[1.5,2.5]} &amp;= \frac{s(2.5)-s(1.5)}{2.5-1.5} = \frac{28-60}{1} = -32.</mrow>
+          </md>
+        </p>
+      </solution>
     </task>
     <task workspace="2.5cm" xml:id="PA-changing-aroc-task-1">
       <statement>
@@ -39,7 +47,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The units are feet per second.  The value <m>AV_{[1.5,2.5]} = -32</m> means that
+          between <m>t = 1.5</m> and <m>t = 2.5</m> seconds, the ball's height decreases
+          at an average rate of <m>32</m> feet per second.
+        </p>
+      </solution>
     </task>
     <task workspace="2cm" xml:id="PA-changing-aroc-task-2">
       <statement>
@@ -60,7 +74,16 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Without additional context specifying when the ball is launched or lands, the
+          domain and range of the model are not fully determined by the equation alone.
+          The formula <m>s(t) = 64 - 16(t-1)^2</m> is a classical free-fall equation,
+          and negative values of <m>t</m> or <m>s</m> are not necessarily unphysical.
+        </p>
+      
+        <image width="50%" source="solution-images/PreviewActivity1.3.1c.png"/>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-changing-aroc-task-3">
       <statement>
@@ -74,7 +97,19 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The slope is <m>m = AV_{[1.5,2.5]} = -32</m>.  Using the point <m>(1.5, 60)</m>
+          to find the vertical intercept:
+          <md>
+            <mrow>60 &amp;= -32(1.5) + b</mrow>
+            <mrow>b &amp;= 108.</mrow>
+          </md>
+          The equation of the line is <m>y = -32t + 108</m>.
+        </p>
+      
+        <image width="50%" source="solution-images/PreviewActivity1.3.1d.png"/>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-changing-aroc-task-4">
       <statement>
@@ -85,7 +120,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>AV_{[1.5,2.5]}</m> is the slope of the secant line connecting the points
+          <m>(1.5, s(1.5))</m> and <m>(2.5, s(2.5))</m> on the graph of <m>s</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="PA-changing-aroc-task-5">
       <statement>
@@ -96,7 +136,32 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <em>Interval <m>[0.25, 0.75]</m>:</em>
+          <m>s(0.25) = 55</m>, <m>s(0.75) = 63</m>, so
+          <md>AV_{[0.25,0.75]} = \frac{63-55}{0.5} = 16 \text{ ft/sec.}</md>
+          The secant line through <m>(0.25, 55)</m> with slope <m>16</m> is <m>y = 16t + 51</m>.
+        </p>
+        <p>
+          <em>Interval <m>[0.5, 1.5]</m>:</em>
+          <m>s(0.5) = 60</m> and <m>s(1.5) = 60</m>, so
+          <md>AV_{[0.5,1.5]} = \frac{60-60}{1} = 0 \text{ ft/sec.}</md>
+          The secant line is the horizontal line <m>y = 60</m>.
+        </p>
+        <p>
+          <em>Interval <m>[1, 3]</m>:</em>
+          <m>s(1) = 64</m>, <m>s(3) = 0</m>, so
+          <md>AV_{[1,3]} = \frac{0-64}{2} = -32 \text{ ft/sec.}</md>
+          The secant line through <m>(3, 0)</m> with slope <m>-32</m> is <m>y = -32t + 96</m>.
+        </p>
+      
+        <sidebyside widths="28% 28% 28%">
+          <image source="solution-images/PreviewActivity1.3.1fi.png"/>
+          <image source="solution-images/PreviewActivity1.3.1fii.png"/>
+          <image source="solution-images/PreviewActivity1.3.1fiii.png"/>
+        </sidebyside>
+      </solution>
     </task>
   </exploration>
 </worksheet>

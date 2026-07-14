@@ -71,7 +71,41 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              <m>r(x) = \dfrac{-19(x+11.3)^2(x-15.1)(x-17.3)}{41(x+5.7)(x+11.3)(x-8.4)(x-15.1)}</m>.  Both <m>(x+11.3)</m> and <m>(x-15.1)</m> appear in both numerator and denominator, so they cancel.  The reduced form is <m>\dfrac{-19(x+11.3)(x-17.3)}{41(x+5.7)(x-8.4)}</m>.
+              <ul>
+                <li><p><em>Horizontal asymptote:</em> <m>y = -\dfrac{19}{41}</m> (same degree after cancellation).</p></li>
+                <li><p><em>Vertical asymptotes:</em> <m>x = -5.7</m> and <m>x = 8.4</m>.</p></li>
+                <li><p><em>Zero:</em> <m>x = 17.3</m> (the factor <m>x+11.3</m> in reduced numerator gives <m>x=-11.3</m>, but that is a hole).</p></li>
+                <li><p><em>Holes:</em> at <m>x = -11.3</m> (hole value <m>0</m>, since <m>x+11.3=0</m> makes reduced numerator zero) and at <m>x = 15.1</m>.</p></li>
+              </ul>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>s(x) = \dfrac{-29(x^2-16)(x^2+99)(x-53)}{101(x^2-4)(x-13)^2(x+104)}</m>.  Factor: numerator <m>= -29(x-4)(x+4)(x^2+99)(x-53)</m>; denominator <m>= 101(x-2)(x+2)(x-13)^2(x+104)</m>.  No common factors.
+              <ul>
+                <li><p><em>Horizontal asymptote:</em> <m>y = -\dfrac{29}{101}</m> (degree 5 over degree 5).</p></li>
+                <li><p><em>Vertical asymptotes:</em> <m>x = 2</m>, <m>x = -2</m>, <m>x = 13</m>, <m>x = -104</m>.</p></li>
+                <li><p><em>Zeros:</em> <m>x = 4</m>, <m>x = -4</m>, <m>x = 53</m> (note <m>x^2+99 &gt; 0</m> always).</p></li>
+                <li><p><em>Holes:</em> none.</p></li>
+              </ul>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>u(x) = \dfrac{-71(x^2-13x+36)(x-58.4)(x+78.2)}{83(x+58.4)(x-78.2)(x^2-12x+27)}</m>.  Factor: <m>x^2-13x+36 = (x-4)(x-9)</m> and <m>x^2-12x+27 = (x-3)(x-9)</m>.  The factor <m>(x-9)</m> cancels.
+              <ul>
+                <li><p><em>Horizontal asymptote:</em> <m>y = -\dfrac{71}{83}</m> (degree 4 over degree 4).</p></li>
+                <li><p><em>Vertical asymptotes:</em> <m>x = -58.4</m>, <m>x = 78.2</m>, <m>x = 3</m>.</p></li>
+                <li><p><em>Zeros:</em> <m>x = 4</m>, <m>x = 58.4</m>, <m>x = -78.2</m>.</p></li>
+                <li><p><em>Hole:</em> at <m>x = 9</m>.</p></li>
+              </ul>
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -120,7 +154,38 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              We need <m>b = -\dfrac{3}{7}</m> (horizontal asymptote) and <m>a = \dfrac{5}{2}</m> (vertical asymptote).  Then <m>r(0) = \dfrac{k}{0 - \frac{5}{2}} - \dfrac{3}{7} = -\dfrac{2k}{5} - \dfrac{3}{7} = 4</m>, so <m>-\dfrac{2k}{5} = \dfrac{31}{7}</m> and <m>k = -\dfrac{155}{14}</m>.  Thus <m>r(x) = -\dfrac{155/14}{x - 5/2} - \dfrac{3}{7}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              We need: numerator degree greater than denominator degree (no horizontal asymptote); zeros at <m>x=-5</m> and <m>x=3</m>; single vertical asymptote at <m>x=-1</m>; and the correct end behavior.  The function
+              <me>
+                s(x) = -\frac{(x+5)(x-3)}{x+1}
+              </me>
+              satisfies all criteria: as <m>x \to \infty</m>, <m>s(x) \to -\infty</m> (since <m>-(+)(+)/(+) \to -\infty</m>); as <m>x \to -\infty</m>, <m>s(x) \to +\infty</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Zeros only at <m>x=-4</m> and <m>x=-2</m>, with <m>x=-2</m> having even multiplicity (no sign change), VAs at <m>x=1</m> and <m>x=5</m>, hole at <m>x=4</m>.  One formula:
+              <me>
+                u(x) = \frac{(x+4)(x+2)^2(x-4)}{(x-1)(x-5)(x-4)}.
+              </me>
+            </p>
+          </li>
+          <li>
+            <p>
+              Reading from the graph: zeros near <m>x=-1</m> and <m>x=5</m>, vertical asymptotes near <m>x=3</m> and <m>x=8</m>, a hole near <m>x=10</m>, and a horizontal asymptote near <m>y=0</m>.  One formula consistent with the graph is
+              <me>
+                w(x) = -\frac{(x+2)(x-5)(x-10)}{5(x-3)(x-8)(x-10)}.
+              </me>
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -163,7 +228,40 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              <m>r(x) = -\dfrac{3}{x-4} + 5</m>.  Domain: <m>x \neq 4</m>.  Range: <m>r \neq 5</m>.  The graph passes the horizontal line test, so an inverse exists.  Solving <m>y = -\dfrac{3}{x-4}+5</m> for <m>x</m>: <m>y-5 = -\dfrac{3}{x-4}</m>, so <m>x-4 = -\dfrac{3}{y-5}</m> and <m>x = 4 - \dfrac{3}{y-5}</m>.  Thus
+              <me>
+                r^{-1}(x) = 4 - \frac{3}{x-5}.
+              </me>
+              Domain of <m>r^{-1}</m>: <m>x \neq 5</m>.  Range of <m>r^{-1}</m>: <m>r^{-1} \neq 4</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>s(x) = \dfrac{4-3x}{7x-2}</m>.  Domain: <m>x \neq \dfrac{2}{7}</m>.  Range: <m>s \neq -\dfrac{3}{7}</m>.  The graph passes the horizontal line test.  Solving <m>y = \dfrac{4-3x}{7x-2}</m> for <m>x</m>: <m>y(7x-2) = 4-3x</m>, so <m>7xy + 3x = 4+2y</m>, giving <m>x = \dfrac{2y+4}{7y+3}</m>.  Thus
+              <me>
+                s^{-1}(x) = \frac{2x+4}{7x+3}.
+              </me>
+              Domain of <m>s^{-1}</m>: <m>x \neq -\dfrac{3}{7}</m>.  Range of <m>s^{-1}</m>: <m>s^{-1} \neq \dfrac{2}{7}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>u(x) = \dfrac{2x-1}{(x-1)^2}</m>.  Domain: <m>x \neq 1</m>.  This function fails the horizontal line test (not monotone), so it has no inverse function.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>w(x) = \dfrac{11}{(x+4)^3} - 7</m>.  Domain: <m>x \neq -4</m>.  Range: <m>w \neq -7</m>.  The graph passes the horizontal line test.  Solving for <m>x</m>: <m>y+7 = \dfrac{11}{(x+4)^3}</m>, so <m>(x+4)^3 = \dfrac{11}{y+7}</m> and <m>x = -4 + \sqrt[3]{\dfrac{11}{y+7}}</m>.  Thus
+              <me>
+                w^{-1}(x) = -4 + \sqrt[3]{\frac{11}{x+7}}.
+              </me>
+              Domain of <m>w^{-1}</m>: <m>x \neq -7</m>.  Range of <m>w^{-1}</m>: <m>w^{-1} \neq -4</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -211,7 +309,33 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              <m>r(x) = \dfrac{x^2-16}{x+4} = \dfrac{(x-4)(x+4)}{x+4}</m>.  At <m>x = -4</m>, both numerator and denominator are zero.  After cancellation, <m>r(x) = x-4</m> for <m>x \neq -4</m>.  Near <m>x = -4</m>, the values approach <m>-4-4 = -8</m> (e.g., <m>r(-3.9) \approx -7.9</m>).  So the graph has a <em>hole</em> at <m>(-4, -8)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>s(x) = \dfrac{(x-2)^2(x+3)}{x^2-5x-6} = \dfrac{(x-2)^2(x+3)}{(x-6)(x+1)}</m>.  The denominator zeros are <m>x = 6</m> and <m>x = -1</m>; neither equals a numerator zero.  There are <em>no holes</em>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>u(x) = \dfrac{(x-2)^3(x+3)}{(x^2-5x-6)(x-7)} = \dfrac{(x-2)^3(x+3)}{(x-6)(x+1)(x-7)}</m>.  The denominator zeros <m>x=6</m>, <m>x=-1</m>, <m>x=7</m> share no factors with the numerator.  There are <em>no holes</em>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>w(x) = \dfrac{x^2+x-6}{(x^2+5x+6)(x+3)} = \dfrac{(x+3)(x-2)}{(x+2)(x+3)^2}</m>.  One factor of <m>(x+3)</m> cancels, leaving <m>\dfrac{x-2}{(x+2)(x+3)}</m>.  At <m>x=-3</m>, the original is <m>0/0</m> and the reduced form still has <m>(x+3)</m> in the denominator, so <m>x=-3</m> is a <em>vertical asymptote</em>, not a hole.  There are <em>no holes</em>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <em>False.</em>  Part (d) provides a counterexample: at <m>x=-3</m>, both <m>p(-3)=0</m> and <m>q(-3)=0</m>, yet the graph has a vertical asymptote rather than a hole.  A hole occurs only when the factor cancels completely in the reduced form.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -264,7 +388,38 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              <m>A(x) = \dfrac{f(x)-f(1)}{x-1} = \dfrac{x^2-1}{x-1}</m>, which is a ratio of polynomials and hence a rational function.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>A</m> is undefined at <m>x = 1</m> (divides by zero).  Domain: all real numbers except <m>x = 1</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Factoring: <m>A(x) = \dfrac{(x+1)(x-1)}{x-1} = x+1</m> for <m>x \neq 1</m>.  Near <m>x=1</m>, <m>A(x) \to 2</m>.  So <m>A</m> has a <em>hole</em> at <m>(1, 2)</m>, not a vertical asymptote.
+            </p>
+          </li>
+          <li>
+            <p>
+              As <m>x \to 1</m>, <m>A(x) = x+1 \to 2</m>.  The average rate of change of <m>f(x)=x^2</m> on <m>[1,x]</m> approaches <m>2</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              For <m>g(x) = x^3</m>: <m>B(x) = \dfrac{x^3-1}{x-1} = \dfrac{(x-1)(x^2+x+1)}{x-1} = x^2+x+1</m> for <m>x \neq 1</m>.  This is a rational function.  Domain: <m>x \neq 1</m>.  Hole at <m>(1, 3)</m> (since <m>1^2+1+1=3</m>).  As <m>x \to 1</m>, <m>B(x) \to 3</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              For <m>h(x) = x^4</m>: <m>C(x) = \dfrac{x^4-1}{x-1} = \dfrac{(x-1)(x^3+x^2+x+1)}{x-1} = x^3+x^2+x+1</m> for <m>x \neq 1</m>.  This is a rational function.  Domain: <m>x \neq 1</m>.  Hole at <m>(1, 4)</m>.  As <m>x \to 1</m>, <m>C(x) \to 4</m>.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>

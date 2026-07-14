@@ -34,7 +34,12 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          At a speed of 60 miles per hour, the car consumes 0.04 gallons of fuel
+          for each mile traveled.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-combining-context-task-1">
       <statement>
@@ -47,7 +52,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>g(60) = \frac{1}{f(60)} = \frac{1}{0.04} = 25</m> miles per gallon.
+          The function <m>g</m> measures the car's fuel economy in miles per gallon
+          at a given speed.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-combining-context-task-2">
       <statement>
@@ -60,7 +71,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <m>h(60) = 60 \cdot f(60) = 60 \cdot 0.04 = 2.4</m> gallons per hour.
+          The units follow from: miles/hour <m>\times</m> gallons/mile = gallons/hour.
+          The function <m>h</m> measures the rate at which the car consumes fuel
+          (in gallons per hour) at a given speed.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-changing-combining-context-task-3">
       <statement>
@@ -70,7 +88,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          All three convey information about fuel consumption at 60 mph, but with
+          different units and perspectives: <m>f(60) = 0.04</m> gives gallons per mile,
+          <m>g(60) = 25</m> gives miles per gallon, and <m>h(60) = 2.4</m> gives
+          gallons per hour.  They describe the same phenomenon from different angles.
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-changing-combining-context-task-4">
       <statement>
@@ -84,7 +109,14 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          <md>AV_{[60,70]} = \frac{f(70)-f(60)}{70-60} = \frac{0.045 - 0.04}{10} = 0.0005
+          \ \frac{\text{gal/mi}}{\text{mph}}.</md>
+          This measures how much the car's fuel consumption rate (in gallons per mile)
+          increases per additional mile per hour of speed.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

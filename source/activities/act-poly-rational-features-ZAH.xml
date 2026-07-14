@@ -27,7 +27,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Factor: <m>f(x) = \dfrac{x(x-1)(x-5)}{(x+1)(x-1)}</m>.  The factor <m>(x-1)</m> cancels, giving the reduced form <m>\dfrac{x(x-5)}{x+1}</m>.  
+        <ul>
+          <li><p><em>Domain:</em> all reals except <m>x = 1</m> and <m>x = -1</m>.</p></li>
+          <li><p><em>Zeros:</em> <m>x = 0</m> and <m>x = 5</m> (where reduced numerator is zero and <m>x \neq -1, 1</m>).</p></li>
+          <li><p><em>Vertical asymptote:</em> <m>x = -1</m> (denominator zero, numerator nonzero in reduced form).</p></li>
+          <li><p><em>Hole:</em> at <m>x = 1</m>; hole value <m>\frac{1(1-5)}{1+1} = -2</m>, so hole at <m>(1, -2)</m>.</p></li>
+          <li><p><em>Horizontal asymptote:</em> none (reduced form has degree 2 over degree 1; there is an oblique asymptote <m>y = x - 6</m>).</p></li>
+        </ul>
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-poly-rational-features-ZAH-task-1">
       <statement>
@@ -37,7 +47,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The numerator <m>x^2+1 &gt; 0</m> always; the only real zero of the numerator is <m>x = 7</m>.  The denominator zeros: <m>x = 1</m> from <m>(x-1)</m>; <m>x^2+4 &gt; 0</m> always.  No common factors.
+        <ul>
+          <li><p><em>Domain:</em> all reals except <m>x = 1</m>.</p></li>
+          <li><p><em>Zero:</em> <m>x = 7</m>.</p></li>
+          <li><p><em>Vertical asymptote:</em> <m>x = 1</m>.</p></li>
+          <li><p><em>Holes:</em> none.</p></li>
+          <li><p><em>Horizontal asymptote:</em> <m>y = \dfrac{11}{23}</m> (degree 3 over degree 3, ratio of leading coefficients).</p></li>
+        </ul>
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-poly-rational-features-ZAH-task-2">
       <statement>
@@ -47,7 +67,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Factor: <m>h(x) = \dfrac{(x-2)(x-6)}{(x-6)(x+3)}</m>.  The factor <m>(x-6)</m> cancels.
+        <ul>
+          <li><p><em>Domain:</em> all reals except <m>x = 6</m> and <m>x = -3</m>.</p></li>
+          <li><p><em>Zero:</em> <m>x = 2</m>.</p></li>
+          <li><p><em>Vertical asymptote:</em> <m>x = -3</m>.</p></li>
+          <li><p><em>Hole:</em> at <m>x = 6</m>; hole value <m>\dfrac{6-2}{6+3} = \dfrac{4}{9}</m>, so hole at <m>\left(6,\, \dfrac{4}{9}\right)</m>.</p></li>
+          <li><p><em>Horizontal asymptote:</em> <m>y = 1</m> (same degree, leading coefficients both <m>1</m>).</p></li>
+        </ul>
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-poly-rational-features-ZAH-task-3">
       <statement>
@@ -57,7 +87,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>Factor: <m>q(x) = \dfrac{(x-2)(x-3)(x+3)}{(x-3)(x^2+4)}</m>.  The factor <m>(x-3)</m> cancels; <m>x^2+4 &gt; 0</m> always.
+        <ul>
+          <li><p><em>Domain:</em> all reals except <m>x = 3</m>.</p></li>
+          <li><p><em>Zeros:</em> <m>x = 2</m> and <m>x = -3</m>.</p></li>
+          <li><p><em>Vertical asymptotes:</em> none (the only denominator zero <m>x=3</m> is a hole).</p></li>
+          <li><p><em>Hole:</em> at <m>x = 3</m>; hole value <m>\dfrac{(3-2)(3+3)}{3^2+4} = \dfrac{6}{13}</m>, so hole at <m>\left(3,\, \dfrac{6}{13}\right)</m>.</p></li>
+          <li><p><em>Horizontal asymptote:</em> <m>y = 1</m> (degree 3 over degree 3).</p></li>
+        </ul>
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-poly-rational-features-ZAH-task-4">
       <statement>
@@ -67,7 +107,17 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The factor <m>(x+1)</m> cancels.
+        <ul>
+          <li><p><em>Domain:</em> all reals except <m>x = -1</m>, <m>x = 4</m>, and <m>x = 5</m>.</p></li>
+          <li><p><em>Zeros:</em> <m>x = 2</m> and <m>x = 3</m>.</p></li>
+          <li><p><em>Vertical asymptotes:</em> <m>x = 4</m> and <m>x = 5</m>.</p></li>
+          <li><p><em>Hole:</em> at <m>x = -1</m>; hole value <m>\dfrac{19(-1-2)(-1-3)^2}{17(-1-4)^2(-1-5)} = \dfrac{19(-3)(16)}{17(25)(-6)} = \dfrac{-912}{-2550} = \dfrac{152}{425}</m>, so hole at <m>\left(-1,\, \dfrac{152}{425}\right)</m>.</p></li>
+          <li><p><em>Horizontal asymptote:</em> <m>y = \dfrac{19}{17}</m> (degree 4 over degree 4).</p></li>
+        </ul>
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-poly-rational-features-ZAH-task-5">
       <statement>
@@ -77,13 +127,25 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The numerator is always <m>1 \neq 0</m>, and the denominator <m>x^2+1 &gt; 0</m> always.
+        <ul>
+          <li><p><em>Domain:</em> all real numbers.</p></li>
+          <li><p><em>Zeros:</em> none.</p></li>
+          <li><p><em>Vertical asymptotes:</em> none.</p></li>
+          <li><p><em>Holes:</em> none.</p></li>
+          <li><p><em>Horizontal asymptote:</em> <m>y = 0</m> (degree 0 over degree 2).</p></li>
+        </ul>
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>
     </answer>
     <solution>
-      <p/>
+      <p>
+        Factor numerator and denominator, cancel common factors, then identify: zeros (numerator zero in reduced form), vertical asymptotes (denominator zero in reduced form), holes (cancelled factors), horizontal asymptote (degree comparison of leading terms).
+      </p>
     </solution>
   </activity>
 </worksheet>

@@ -65,7 +65,28 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        <ol marker="a.">
+          <li>
+            <p>
+              The soda's initial temperature is <m>41^\circ</m> Fahrenheit.  Since <m>F(0) = ab^0 + c = a + c</m>, we have <m>a + c = 41</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The soda's long-term temperature is the room temperature, <m>72^\circ</m>.  Since <m>0 \lt b \lt 1</m>, the term <m>ab^t \to 0</m> as <m>t \to \infty</m>, so <m>F(t) \to c</m>.  Thus <m>c = 72</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Using <m>a + c = 41</m> and <m>c = 72</m>, we find <m>a = 41 - 72 = -31</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              With <m>b = 0.931</m>, the soda's temperature after <m>10</m> minutes is <m>F(10) = -31(0.931)^{10} + 72 \approx 56.8^\circ</m> Fahrenheit.
+            </p>
+          </li>
+        </ol>
       </p>
     </solution>
   </exercise>
@@ -118,7 +139,7 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        Each function has the form <m>ab^t + c</m>, where <m>b \gt 0</m>.  For the function <m>p(t)</m> (upper left graph), <m>a \gt 0</m>, <m>0 \lt b \lt 1</m>, and <m>c \lt 0</m>.  For the function <m>q(t)</m> (upper right graph), <m>a \lt 0</m>, <m>0 \lt b \lt 1</m>, and <m>c</m> appears to be close to zero.  For the function <m>r(t)</m> (lower left graph), <m>a \gt 0</m>, <m>b \gt 1</m>, and <m>c \gt 0</m>.  Finally, for <m>s(t)</m> (lower right graph), <m>a \lt 0</m>, <m>b \gt 1</m>, and <m>c \gt 0</m>.
       </p>
     </solution>
   </exercise>
@@ -140,7 +161,10 @@
     </answer>
     <solution>
       <p>
-        Exercise Solution
+        Assuming a cooling law of the form <m>C(t) = ab^t + c</m>, we use <m>C(0) = 95</m>, <m>C(10) = 80</m>, and end behavior <m>C(t) \to 0</m> as <m>t \to \infty</m> (so <m>c = 0</m>).  From <m>C(0) = a = 95</m> and <m>C(10) = 95b^{10} = 80</m>, we find <m>b = (80/95)^{1/10} \approx 0.983</m>.  So <m>C(t) = 95(0.983)^t</m>.
+      </p>
+      <p>
+        Converting to Fahrenheit: <m>F(t) = \frac{9}{5}C(t) + 32 = \frac{9}{5}(95(0.983)^t) + 32 = 171(0.983)^t + 32</m>.  The cooling law has the same basic <m>ab^t + c</m> form in either temperature scale.  The coefficient <m>c</m> happens to be zero in the Celsius scale and <m>32</m> in the Fahrenheit scale, reflecting the different zero points of the two scales.
       </p>
     </solution>
   </exercise>

@@ -18,3 +18,4 @@ codechat_config.yaml
 settings.json
 logs
 .cache
+latex/

@@ -27,7 +27,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <image width="50%" source="solution-images/PrevAct5.3.1.png"/>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-poly-polynomial-applications-task-1">
       <statement>
@@ -37,7 +39,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>After cutting <m>x \times x</m> squares from each corner, the base of the box has dimensions <m>(12 - 2x)</m> by <m>(18 - 2x)</m>, and the height of the box is <m>x</m>.  Thus
+        <me>
+          V(x) = (12-2x)(18-2x)x = 4(6-x)(9-x)x.
+        </me>
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-poly-polynomial-applications-task-2">
       <statement>
@@ -47,7 +55,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p><m>V</m> is a cubic (degree 3) polynomial.</p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="PA-poly-polynomial-applications-task-3">
       <statement>
@@ -57,7 +67,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>The shorter side of the cardboard is <m>12</m> inches.  Cutting squares of size <m>x</m> from both ends of the short side removes <m>2x</m> inches, so we need <m>12 - 2x &gt; 0</m>, i.e., <m>x &lt; 6</m>.  The first value of <m>x</m> that makes it impossible to form a box is <m>x = 6</m>.</p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="PA-poly-polynomial-applications-task-4">
       <statement>
@@ -67,7 +79,9 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>From <m>V(x) = 4x(6-x)(9-x)</m>, the zeros are <m>x = 0</m>, <m>x = 6</m>, and <m>x = 9</m>.  In the context of the physical problem, we need <m>x &gt; 0</m> and <m>x &lt; 6</m> (so that both pairs of opposite sides of the base remain positive), giving domain <m>(0, 6)</m>.</p>
+      </solution>
     </task>
   </exploration>
 </worksheet>

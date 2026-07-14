@@ -30,7 +30,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The degree is <m>1 + 2 + 2 + 1 = 6</m>.  We add the exponents from each factor: <m>(x+1520)^1(x^2+10000)^1(x-3471)^2(x-9738)^1</m> contributes degrees <m>1+2+2+1=6</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-polynomials-sign-chart-task-1">
       <statement>
@@ -40,7 +44,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The factor <m>(x^2 + 10000)</m> is always positive for all real <m>x</m>, since <m>x^2 \ge 0</m> so <m>x^2 + 10000 \ge 10000 \gt 0</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="3cm" xml:id="act-poly-polynomials-sign-chart-task-2">
       <statement>
@@ -50,7 +58,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The real zeros are <m>x = -1520</m>, <m>x = 3471</m>, and <m>x = 9738</m>.  (The factor <m>x^2+10000</m> has no real zeros since <m>x^2 = -10000</m> has no real solution.)
+        </p>
+      </solution>
     </task>
     <task workspace="8cm" xml:id="act-poly-polynomials-sign-chart-task-3">
       <statement>
@@ -60,7 +72,16 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The constant <m>4692 \gt 0</m>, and <m>(x^2+10000) \gt 0</m> always, and <m>(x-3471)^2 \ge 0</m> always (no sign change at <m>x=3471</m>).  The sign is thus determined by <m>(x+1520)</m> and <m>(x-9738)</m>:
+          <ul>
+            <li><p><m>x \lt -1520</m>: <m>(x+1520) \lt 0</m> and <m>(x-9738) \lt 0</m>, product is positive: <m>p \gt 0</m>.</p></li>
+            <li><p><m>-1520 \lt x \lt 9738</m> (and <m>x \ne 3471</m>): <m>(x+1520) \gt 0</m> and <m>(x-9738) \lt 0</m>: <m>p \lt 0</m>. (At <m>x=3471</m>, <m>p=0</m> and the sign does not change.)</p></li>
+            <li><p><m>x \gt 9738</m>: both factors positive: <m>p \gt 0</m>.</p></li>
+          </ul>
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-poly-polynomials-sign-chart-task-4">
       <statement>
@@ -70,7 +91,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          The graph is positive (above the <m>x</m>-axis) for <m>x \lt -1520</m>, crosses zero at <m>x=-1520</m> (passes through), touches zero at <m>x=3471</m> (bounce, even multiplicity), remains negative until <m>x=9738</m>, then crosses zero and becomes positive.  The leading term <m>4692 x^6</m> means both ends go to <m>+\infty</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="4cm" xml:id="act-poly-polynomials-sign-chart-task-5">
       <statement>
@@ -80,7 +105,11 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>
+          Using a graphing utility, the zeros at <m>x=-1520</m>, <m>3471</m>, and <m>9738</m> are spread over a large <m>x</m>-range, making it challenging to see all features at once.  It is difficult to tell from the graph that <m>x=3471</m> is a bounce point (touching zero without crossing) unless the scale is set appropriately.
+        </p>
+      </solution>
     </task>
     <answer>
       <p/>

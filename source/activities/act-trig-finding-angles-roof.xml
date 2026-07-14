@@ -28,7 +28,9 @@
       <p/>
     </answer>
     <solution>
-      <p/>
+      <p>
+        The angle of the roof with the horizontal is <m>\arctan\!\left(\dfrac{7}{12}\right) \approx 30.26^{\circ}</m> (exactly <m>\arctan\!\left(\frac{7}{12}\right)</m> radians).  Alternatively, this angle equals <m>\arcsin\!\left(\dfrac{7}{\sqrt{193}}\right) = \arccos\!\left(\dfrac{12}{\sqrt{193}}\right)</m>.  The angle at the peak of the roof is formed by the two sloping surfaces; since each makes an angle of <m>\arctan\!\left(\frac{7}{12}\right)</m> with the horizontal, the ridge angle is <m>180^{\circ} - 2\arctan\!\left(\frac{7}{12}\right) \approx 119.5^{\circ}</m>.
+      </p>
     </solution>
   </activity>
 </worksheet>

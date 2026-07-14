@@ -27,7 +27,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>We need: a factor <m>(x+2)</m> in the denominator for the vertical asymptote at <m>x=-2</m>; a factor <m>(x-1)</m> in the numerator for the zero at <m>x=1</m>; the factor <m>(x-5)</m> in <em>both</em> numerator and denominator for the hole at <m>x=5</m>; and a ratio of leading coefficients of <m>-3</m> for the horizontal asymptote <m>y=-3</m>.  One such function is
+        <me>
+          r(x) = \frac{-3(x-1)(x-5)}{(x+2)(x-5)}.
+        </me>
+        </p>
+      </solution>
     </task>
     <task workspace="4.5cm" xml:id="act-poly-rational-formula-task-1">
       <statement>
@@ -37,7 +43,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>We need: exactly one factor <m>(x+4)</m> in the denominator for the vertical asymptote; the other two denominator factors must introduce no new real zeros (e.g., <m>x^2+1</m>); and ratio of leading coefficients <m>\frac{3}{7}</m>.  One such function is
+        <me>
+          u(x) = \frac{3x(x^2+3)}{7(x+4)(x^2+1)}.
+        </me>
+        Both numerator and denominator have degree <m>3</m>, there is exactly one vertical asymptote at <m>x=-4</m>, and the horizontal asymptote is <m>y = \frac{3}{7}</m>.</p>
+      </solution>
     </task>
     <task workspace="0.1cm" xml:id="act-poly-rational-formula-task-2">
       <statement>
@@ -49,7 +61,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>From the graph, <m>w</m> appears to have zeros at <m>x = -4</m> and at <m>x = 5</m> (with even multiplicity, since <m>w(x) &gt; 0</m> for other <m>x &gt; 3</m>), and vertical asymptotes at <m>x = -1</m> and <m>x = 3</m>.  One formula consistent with these features is
+        <me>
+          w(x) = \frac{9(x+4)(x-5)^2}{50(x+1)^2(x-3)}.
+        </me>
+        </p>
+      </solution>
     </task>
     <task workspace="5cm" xml:id="act-poly-rational-formula-task-3">
       <statement>
@@ -62,7 +80,13 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>From the sign chart, the function has zeros at <m>x = -4</m> and <m>x = 5</m>, vertical asymptotes at <m>x = -1</m> and <m>x = 3</m>, no horizontal asymptote, and the behavior shown in the chart requires the numerator degree to exceed the denominator degree.  One formula is
+        <me>
+          z(x) = -\frac{(x+4)(x-5)^2}{(x+1)(x-3)}.
+        </me>
+        </p>
+      </solution>
     </task>
     <task workspace="6cm" xml:id="act-poly-rational-formula-task-4">
       <statement>
@@ -72,13 +96,21 @@
       </statement>
       <hint/>
       <answer/>
-      <solution/>
+      <solution>
+        <p>We need: two factors that cancel for the holes; two denominator factors that don't cancel for the VAs; two remaining numerator factors for the zeros; and equal numerator/denominator degree for the HA.  One formula is
+        <me>
+          f(x) = \frac{(x-1)(x+1)(x+2)(x-2)}{(x-1)(x+1)(x-3)(x+3)}.
+        </me>
+        After simplification, <m>f(x) = \dfrac{(x+2)(x-2)}{(x-3)(x+3)}</m>.  This has holes at <m>\left(-1,\dfrac{3}{8}\right)</m> and <m>\left(1,\dfrac{3}{8}\right)</m>, vertical asymptotes at <m>x = 3</m> and <m>x = -3</m>, zeros at <m>x = 2</m> and <m>x = -2</m>, and horizontal asymptote <m>y = 1</m>.</p>
+      </solution>
     </task>
     <answer>
       <p/>
     </answer>
     <solution>
-      <p/>
+      <p>
+        Sample answers: (a) <m>r(x)=-3(x-1)(x-5)/[(x+2)(x-5)]</m>; (b) <m>u(x)=3x(x^2+3)/[7(x+4)(x^2+1)]</m>; (c) based on graph features; (d) based on sign chart; (e) <m>f(x)=(x-1)(x+1)(x+2)(x-2)/[(x-1)(x+1)(x-3)(x+3)]</m>.
+      </p>
     </solution>
   </activity>
 </worksheet>
