@@ -1,7 +1,7 @@
 # Active Prelude to Calculus
 Repository for the PreTeXt source for Active Prelude to Calculus.
 
-Active Prelude to Calculus is available from https://www.activecalculus.org/prep. 
+Active Prelude to Calculus is available from https://www.activecalculus.org/apc. 
 
 # quickstart instructions
 1. Clone this repository.
