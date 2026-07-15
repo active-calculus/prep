@@ -36,13 +36,13 @@
 
 	<subsection><title>Introduction</title>
   		<p>
-		    Certain naturally occurring phenomena eventually repeat themselves, especially when the phenomenon is somehow connected to a circle.  For example, suppose that you are taking a ride on a ferris wheel and we consider your height, <m>h</m>, above the ground and how your height changes in tandem with the distance, <m>d</m>, that you have traveled around the wheel.  In <xref ref="F-traversing-ferris-wheel-animation">Figure</xref> we see a snapshot of this situation, which is available as a full animation<fn>Used with permission from Illuminations by the National Council of Teachers of Mathematics. All rights reserved.</fn> at <url href="http://gvsu.edu/s/0Dt">http://gvsu.edu/s/0Dt</url>.
+		    Certain naturally occurring phenomena eventually repeat themselves, especially when the phenomenon is somehow connected to a circle.  For example, suppose that you are taking a ride on a ferris wheel and we consider your height, <m>h</m>, above the ground and how your height changes in tandem with the distance, <m>d</m>, that you have traveled around the wheel.  In <xref ref="F-traversing-ferris-wheel-animation">Figure</xref> we see a snapshot of this situation, which is available as a full animation<fn>Used with permission from Illuminations by the National Council of Teachers of Mathematics. All rights reserved.</fn> <url href="https://www.nctm.org/Classroom-Resources/Illuminations/Interactives/Investigating-Functions-with-a-Ferris-Wheel-Distance-vs-Height/">here</url>.
   		</p>
 
   		<figure xml:id="F-traversing-ferris-wheel-animation">
-  			<caption>A snapshot of the motion of a cab moving around a ferris wheel.  
+  			<caption>A snapshot of the motion of a cab moving around a ferris wheel.
 			Reprinted with permission from Illuminations by the National Council of Teachers of Mathematics. All rights reserved.</caption>
-  			<image width="95%" source="images/traversing-ferris-wheel-animation"><description><p>A snapshot of the motion of a cab moving around a ferris wheel.  
+  			<image width="95%" source="images/traversing-ferris-wheel-animation"><description><p>A snapshot of the motion of a cab moving around a ferris wheel.
 			Reprinted with permission from Illuminations by the National Council of Teachers of Mathematics. All rights reserved.</p>
   			</description></image>
   		</figure>
@@ -69,7 +69,7 @@
 		</figure>
 
 	<p>
-		Note that we know the exact heights of certain points.  Since the circle has circumference <m>C = 24</m>, we know that <m>24 = 2\pi r</m> and therefore <m>r = \frac{12}{\pi} \approx 3.82</m>.  Hence, the point where <m>d = 6</m> (located <m>1/4</m> of the way along the circle) is at a height of <m>h = \frac{12}{\pi} \approx 3.82</m>.  Doubling this value, the point where <m>d = 12</m> has height <m>h = \frac{24}{\pi} \approx 7.64</m>.  Other heights, such as those that correspond to <m>d = 3</m> and <m>d = 15</m> (identified on the figure by the green line segments) are not obvious from the circle's radius, but can be estimated from the grid in <xref ref="F-traversing-first-example">Figure</xref> as <m>h \approx 1.1</m> (for <m>d = 3</m>) and <m>h \approx 6.5</m> (for <m>d = 15</m>).  Using all of these observations along with the symmetry of the circle, we can determine the other entries in <xref ref="T-traversing-first-example-1">Table</xref>.   
+		Note that we know the exact heights of certain points.  Since the circle has circumference <m>C = 24</m>, we know that <m>24 = 2\pi r</m> and therefore <m>r = \frac{12}{\pi} \approx 3.82</m>.  Hence, the point where <m>d = 6</m> (located <m>1/4</m> of the way along the circle) is at a height of <m>h = \frac{12}{\pi} \approx 3.82</m>.  Doubling this value, the point where <m>d = 12</m> has height <m>h = \frac{24}{\pi} \approx 7.64</m>.  Other heights, such as those that correspond to <m>d = 3</m> and <m>d = 15</m> (identified on the figure by the green line segments) are not obvious from the circle's radius, but can be estimated from the grid in <xref ref="F-traversing-first-example">Figure</xref> as <m>h \approx 1.1</m> (for <m>d = 3</m>) and <m>h \approx 6.5</m> (for <m>d = 15</m>).  Using all of these observations along with the symmetry of the circle, we can determine the other entries in <xref ref="T-traversing-first-example-1">Table</xref>.
 	</p>
 
 			<table xml:id="T-traversing-first-example-1">
@@ -100,7 +100,7 @@
 				      <cell><m>3.82</m></cell>
 				      <cell><m>1.1</m></cell>
 				      <cell><m>0</m></cell>
-				    </row>				    			    
+				    </row>
 				</tabular>
 			</table>
 
@@ -136,9 +136,9 @@
 				      <cell><m>3.82</m></cell>
 				      <cell><m>1.1</m></cell>
 				      <cell><m>0</m></cell>
-				    </row>				    			    
+				    </row>
 				</tabular>
-			</table>	
+			</table>
 
 	<p>
 		  It is apparent that each point on the circle corresponds to one and only one height, and thus we can view the height of a point as a function of the distance the point has traversed around the circle, say <m>h = f(d)</m>.  Using the data from the two tables and connecting the points in an intuitive way, we get the graph shown in <xref ref="F-traversing-first-example-graph">Figure</xref>.
@@ -151,7 +151,7 @@
 	</figure>
 
 	<p>
-		The function <m>h = f(d)</m> we have been discussing is an example of what we will call a <em>circular function</em>.  <idx><h>circular function</h></idx> Indeed, it is apparent that if we 
+		The function <m>h = f(d)</m> we have been discussing is an example of what we will call a <em>circular function</em>.  <idx><h>circular function</h></idx> Indeed, it is apparent that if we
 		<ul>
 			<li>
 				<p>
@@ -202,7 +202,7 @@
 		</sidebyside>
 
 	<p>
-		We assume that the point traversing the circle starts at <m>P</m> in <xref ref="F-circular-functions-properties-circle">Figure</xref>.  Its height is initially <m>y = m + a</m>, and then its height decreases to <m>y = m</m> as we traverse to <m>Q</m>.  Continuing, the point's height falls to <m>y = m - a</m> at <m>R</m>, and then rises back to <m>y = m</m> at <m>S</m>, and eventually back up to <m>y = m+a</m> at the top of the circle.  If we plot these heights continuously as a function of distance, <m>d</m>, traversed around the circle, we get the curve shown at right in <xref ref="F-act-circular-functions-properties-graph">Figure</xref>.  This curve has several important features for which we introduce important terminology. 
+		We assume that the point traversing the circle starts at <m>P</m> in <xref ref="F-circular-functions-properties-circle">Figure</xref>.  Its height is initially <m>y = m + a</m>, and then its height decreases to <m>y = m</m> as we traverse to <m>Q</m>.  Continuing, the point's height falls to <m>y = m - a</m> at <m>R</m>, and then rises back to <m>y = m</m> at <m>S</m>, and eventually back up to <m>y = m+a</m> at the top of the circle.  If we plot these heights continuously as a function of distance, <m>d</m>, traversed around the circle, we get the curve shown at right in <xref ref="F-act-circular-functions-properties-graph">Figure</xref>.  This curve has several important features for which we introduce important terminology.
 	</p>
 
 
@@ -262,7 +262,7 @@
   	<p>
   		First, in <xref ref="F-circular-traversing-aroc-eighth">Figure</xref>, we consider points <m>P</m>, <m>Q</m>, and <m>R</m> where <m>Q</m> results from traversing <m>1/8</m> of the circumference from <m>P</m>, and <m>R</m> <m>1/8</m> of the circumference from <m>Q</m>.  In particular, we note that the distance <m>d_1</m> along the circle from <m>P</m> to <m>Q</m> is the same as the distance <m>d_2</m> along the circle from <m>Q</m> to <m>R</m>, and thus <m>d_1 = d_2</m>.  At the same time, it is apparent from the geometry of the circle that the change in height <m>h_1</m> from <m>P</m> to <m>Q</m> is greater than the change in height <m>h_2</m> from <m>Q</m> to <m>R</m>, so <m>h_1 \gt h_2</m>.  Thus, we can say that
   		<me>
-  			AV_{[P,Q]} = \frac{h_1}{d_1} \gt \frac{h_2}{d_2} = AV_{[Q,R]} 
+  			AV_{[P,Q]} = \frac{h_1}{d_1} \gt \frac{h_2}{d_2} = AV_{[Q,R]}
   		</me>.
   	</p>
 
@@ -284,7 +284,7 @@
   		<me>
   			AV_{[P,Q]} \approx 1 \text{ and } AV_{[R,S]} \approx 0
    		</me>.
-   		This information tells us that a circular function appears to change most rapidly for points near its midline and to change least rapidly for points near its highest and lowest values.  
+   		This information tells us that a circular function appears to change most rapidly for points near its midline and to change least rapidly for points near its highest and lowest values.
   	</p>
 
   	<p>
