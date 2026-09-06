@@ -36,50 +36,51 @@
   </li>
   <li>
     <p>
-      Is the model valid for determining the number of chirps one should hear when the outside temperature is <m>35^\circ F</m>?  Why or why not?
+      If the outside temperature is <m>35^\circ F</m>, how many chirps per minute should we expect to hear?
     </p>
-    <p>
-      <choiceInput name="c1" inline><shortDescription>yes or no</shortDescription>
-        <choice>Yes</choice>
-        <choice>No</choice>
-      </choiceInput> because
-      <choiceInput name="c2" inline><shortDescription>reason part 1</shortDescription>
+    <p sectionWideCheckWork>
+      <answer name="chirps2"><shortDescription>chirps per minute at 35 degrees Fahrenheit</shortDescription> -20</answer>chirps per minute
+    </p>
+    <p sectionWideCheckWork colorAnswersSeparately>
+      This suggests the model <answer><choiceInput name="c1" inline><shortDescription>is or isn't</shortDescription>
+        <choice>is</choice>
+        <choice credit="1">is not</choice>
+      </choiceInput></answer> valid for determining the number of chirps when the outside temperature is <m>35^\circ F</m> because
+      <answer><choiceInput name="c2" inline><shortDescription>reason part 1</shortDescription>
         <choice>we can find a value of <m>N</m> which makes <m>T</m> equal 35,</choice>
         <choice>we can't find a value of <m>N</m> which makes <m>T</m> equal 35,</choice>
-        <choice><m>T</m> adds a quarter of the number of chirps per minute to <m>40</m>,</choice>
-      </choiceInput> and
-      <choiceInput name="c3" inline><shortDescription>reason part 2</shortDescription>
-        <choice><m>N=-20</m>.</choice>
-        <choice><m>N=20</m>.</choice>
-        <choice>crickets can't chirp a negative number of times per minute.</choice>
-      </choiceInput>
-      <answer><shortDescription>correct explanation</shortDescription>
-    <award><when>$c1.selectedIndex=2 and $c2.selectedIndices=3 and $c3.selectedIndices=3</when></award>
-    </answer>
+        <choice credit="1">crickets can't chirp a negative number of times per minute.</choice>
+      </choiceInput></answer>
     </p>
 
   </li>
   <li>
     <p>
-      Suppose that in the morning an observer hears <m>65</m> chirps per minute, and several hours later hears <m>75</m> chirps per minute.  How much has the temperature risen between observations?
+      Suppose that in the morning an observer hears <m>65</m> chirps per minute, and several hours later hears <m>75</m> chirps per minute.  
     </p>
-    <p>
-      <mathInput name="changetemp" labelPosition="right"><label><m>^\circ F</m></label></mathInput> <answer><award><when>$changetemp=2.5</when></award></answer>
+    <p sectionWideCheckWork>
+      <answer name="changetemp"><label>How much has the temperature risen between observations?</label>2.5</answer><m>^\circ F</m>
     </p>
     <hint>
-      <div sectionWideCheckWork forceIndividualAnswerColoring>
       <p>
-      What temperature corresponds to <m>65</m> chirps per minute? <answer weight="0"><shortDescription>temperature at 65 chirps per minute</shortDescription>56.25</answer><m>^\circ F</m>
+        <mathInput name="tempatchirps65" forAnswer="$hintanswer1">
+          <label>What temperature corresponds to <m>65</m> chirps per minute?</label>
+        </mathInput><m>^\circ F</m> <answer name="hintanswer1" weight="0">
+        <award><when>$tempatchirps65=56.25</when></award>
+      </answer>
       </p>
       <p>
-      What temperature corresponds to <m>75</m> chirps per minute? <answer weight="0"><shortDescription>temperature at 75 chirps per minute</shortDescription>58.75</answer><m>^\circ F</m>
+        <mathInput name="tempatchirps75" forAnswer="$hintanswer2">
+          <label>What temperature corresponds to <m>75</m> chirps per minute?</label>
+        </mathInput><m>^\circ F</m> <answer name="hintanswer2" weight="0">
+        <award><when>$tempatchirps75 = 58.75</when></award>
+      </answer>
       </p>
-      </div>
     </hint>
   </li>
 
   <li>
-    <div sectionWideCheckWork forceIndividualAnswerColoring>
+    <div sectionWideCheckWork colorAnswersSeparately>
     <p>
       Dolbear's Law is known to be accurate for temperatures from <m>50^\circ</m> to <m>85^\circ</m>.
     </p>
