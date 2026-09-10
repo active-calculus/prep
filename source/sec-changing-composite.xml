@@ -115,7 +115,7 @@
   <subsection xml:id="subsec-changing-composite-in-context">
   	<title>Composing functions in context</title>
 	<p>
-		Recall Dolbear's function, <m>T = D(N) = 40 + 0.25N</m>, that relates the number of chirps per minute from a snowy cricket to the Fahrenheit temperature, <m>T</m>.  We earlier established that <m>D</m> has a domain of <m>[40,160]</m> and a corresponding range of <m>[50,85]</m>.  In what follows, we replace <m>T</m> with <m>F</m> to emphasize that temperature is measured in Fahrenheit degrees.
+		Recall Dolbear's function, <m>T = D(N) = 40 + 0.25N</m>, that relates the number of chirps per minute from a snowy cricket to the Fahrenheit temperature, <m>T</m>.  We earlier established that <m>D</m> has a domain of <m>[40,180]</m> and a corresponding range of <m>[50,85]</m>.  In what follows, we replace <m>T</m> with <m>F</m> to emphasize that temperature is measured in Fahrenheit degrees.
 	</p>
 
 	<p>

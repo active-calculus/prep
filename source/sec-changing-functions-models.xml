@@ -160,7 +160,7 @@
 		</definition>
 
 		<p>
-			For the Dolbear function <m>D(N) = 40 + 0.25N</m> in the context of modeling temperature as a function of the number of cricket chirps per minute, the domain of the function is <m>A = [40,180]</m><fn>The notation <q><m>[40,180]</m></q> means <q>the collection of all real numbers <m>x</m> that satisfy <m>40 \le x \le 80</m></q> and is sometimes called <q>interval notation</q>.</fn> and the codomain is <q>all Fahrenheit temperatures</q>.  The codomain of a function is the collection of <em>possible</em> outputs, which we distinguish from the collection of <em>actual</em> ouputs.
+			For the Dolbear function <m>D(N) = 40 + 0.25N</m> in the context of modeling temperature as a function of the number of cricket chirps per minute, the domain of the function is <m>A = [40,180]</m><fn>The notation <q><m>[40,180]</m></q> means <q>the collection of all real numbers <m>x</m> that satisfy <m>40 \le x \le 180</m></q> and is sometimes called <q>interval notation</q>.</fn> and the codomain is <q>all Fahrenheit temperatures</q>.  The codomain of a function is the collection of <em>possible</em> outputs, which we distinguish from the collection of <em>actual</em> ouputs.
 		</p>
 
 		<definition xml:id="def-function-range">
