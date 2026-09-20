@@ -84,17 +84,17 @@
     </p>
   </li>
   <li>
-    <p sectionWideCheckWork forceIndividualAnswerColoring>
+    <p sectionWideCheckWork colorAnswersSeparately>
       When does the water balloon land on the ground? <br/>
-      <answer><label><m>t=</m></label>5</answer><choiceInput inline><shortDescription>units of t</shortDescription><choice>feet</choice><choice>meters</choice><choice credit="1">seconds</choice><choice>minutes</choice><choice>feet per minute</choice><choice>meters per second</choice></choiceInput>
+      <answer><label><m>t=</m></label>5</answer><answer><choiceInput inline><shortDescription>units of t</shortDescription><choice>feet</choice><choice>meters</choice><choice credit="1">seconds</choice><choice>minutes</choice><choice>feet per minute</choice><choice>meters per second</choice></choiceInput></answer>
     </p>
-    <p sectionWideCheckWork forceIndividualAnswerColoring>
+    <p sectionWideCheckWork colorAnswersSeparately>
       What is the average velocity of the water balloon in the final second before it lands? <br/>
-      <answer><label><m>AV_{[a,b]}=</m></label>-25</answer><choiceInput inline><shortDescription>units of AV</shortDescription><choice>feet</choice><choice>meters</choice><choice>seconds</choice><choice>minutes</choice><choice>feet per minute</choice><choice credit="1">meters per second</choice></choiceInput>
+      <answer><label><m>AV_{[a,b]}=</m></label>-25</answer><answer><choiceInput inline><shortDescription>units of AV</shortDescription><choice>feet</choice><choice>meters</choice><choice>seconds</choice><choice>minutes</choice><choice>feet per minute</choice><choice credit="1">meters per second</choice></choiceInput></answer>
     </p>
-    <p sectionWideCheckWork forceIndividualAnswerColoring>
+    <p sectionWideCheckWork colorAnswersSeparately>
       What is the average velocity of the water balloon on the interval <m>[4.9,5]</m>? <br/>
-      <answer><label><m>AV_{[4.9,5]}=</m></label>-29.5</answer><choiceInput inline><shortDescription>units of AV</shortDescription><choice>feet</choice><choice>meters</choice><choice>seconds</choice><choice>minutes</choice><choice>feet per minute</choice><choice credit="1">meters per second</choice></choiceInput>
+      <answer><label><m>AV_{[4.9,5]}=</m></label>-29.5</answer><answer><choiceInput inline><shortDescription>units of AV</shortDescription><choice>feet</choice><choice>meters</choice><choice>seconds</choice><choice>minutes</choice><choice>feet per minute</choice><choice credit="1">meters per second</choice></choiceInput></answer>
     </p>
   </li>
 </ol>
