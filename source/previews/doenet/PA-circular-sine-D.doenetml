@@ -21,7 +21,8 @@
     <point>(cos($anglelist[$k]),sin($anglelist[$k]))</point>
   </repeatForSequence>
 
-  <mathList name="tsEnt">$listEnt</mathList>
+  <!-- <mathList name="tsEnt">$listEnt</mathList> -->
+  <mathList name="tsEnt"><convertSetToList>{$listEnt}</convertSetToList></mathList>
   <number name="ans">-sqrt(3)/2</number>
 
   <repeatForSequence name="bools" from="1" to="16" valueName="n">
@@ -91,6 +92,10 @@
 
 </setup>
 
+ <p>
+			If we consider the unit circle, start at <m>t = 0</m>, and traverse the circle counterclockwise, we may view the height, <m>h</m>, of the traversing point as a function of the angle, <m>t</m>, in radians.  From there, we can plot the resulting <m>(t,h)</m> ordered pairs and connect them to generate the circular function <m>f(t)</m> pictured in the following figure.  This function tracks the height of a point traversing the unit circle, so that <m>h=f(t)</m> is the height of the point at angle <m>t</m>.
+		</p>
+
 <sideBySide widths="40% 60%">
   <graph xMin="-1.5" xMax="1.5" yMin="-1.5" yMax="1.5" displayXAxisTicks="false" displayYAxisTicks="false" fixAxes yLabelAlignment="right">
     <shortDescription>graph of a unit circle and moveable point on the circle</shortDescription>
@@ -155,8 +160,8 @@
     <p>
       Complete the following table with the exact values of <m>h</m> that correspond to the stated inputs.
     </p>
-    <tabular bottom="minor" top="minor">
-        <row bottom="minor" halign="center">
+    <tabular bottomBorder="minor" topBorder="minor">
+        <row bottomBorder="minor" halign="center">
           <cell><m>t</m></cell>
           <cell><m>0</m></cell>
           <cell><m>$anglelist[1]</m></cell>
@@ -164,7 +169,7 @@
           <cell><m>$anglelist[3]</m></cell>
           <cell><m>$anglelist[4]</m></cell>
         </row>
-        <row halign="center" bottom="major">
+        <row halign="center" bottomBorder="major">
           <cell><m>h</m></cell>
           <cell><answer><mathInput minWidth="40"><shortDescription>value of h</shortDescription></mathInput>0</answer></cell>
           <cell><answer><mathInput minWidth="40"><shortDescription>value of h</shortDescription></mathInput>$plist[1][2]</answer></cell>
@@ -172,7 +177,7 @@
           <cell><mathInput minWidth="40" disabled><shortDescription>value of h</shortDescription><conditionalContent condition="$fpiover3.creditAchieved=1">$plist[3][2]</conditionalContent></mathInput></cell>
           <cell><answer><mathInput minWidth="40"><shortDescription>value of h</shortDescription></mathInput>$plist[4][2]</answer></cell>
         </row>
-        <row bottom="minor" halign="center">
+        <row bottomBorder="minor" halign="center">
           <cell><m>t</m></cell>
           <cell><m>$anglelist[5]</m></cell>
           <cell><m>$anglelist[6]</m></cell>
@@ -180,7 +185,7 @@
           <cell><m>$anglelist[8]</m></cell>
           <cell><m>$anglelist[9]</m></cell>
         </row>
-        <row halign="center" bottom="major">
+        <row halign="center" bottomBorder="major">
           <cell><m>h</m></cell>
           <cell><answer><mathInput minWidth="40"><shortDescription>value of h</shortDescription></mathInput>$plist[5][2]</answer></cell>
           <cell><answer><mathInput minWidth="40"><shortDescription>value of h</shortDescription></mathInput>$plist[6][2]</answer></cell>
@@ -188,7 +193,7 @@
           <cell><answer><mathInput minWidth="40"><shortDescription>value of h</shortDescription></mathInput>$plist[8][2]</answer></cell>
           <cell><answer><mathInput minWidth="40"><shortDescription>value of h</shortDescription></mathInput>$plist[9][2]</answer></cell>
         </row>
-        <row bottom="minor" halign="center">
+        <row bottomBorder="minor" halign="center">
           <cell><m>t</m></cell>
           <cell><m>$anglelist[10]</m></cell>
           <cell><m>$anglelist[11]</m></cell>
@@ -196,7 +201,7 @@
           <cell><m>$anglelist[13]</m></cell>
           <cell><m>$anglelist[14]</m></cell>
         </row>
-        <row halign="center" bottom="major">
+        <row halign="center" bottomBorder="major">
           <cell><m>h</m></cell>
           <cell><answer><mathInput minWidth="40"><shortDescription>value of h</shortDescription></mathInput>$plist[10][2]</answer></cell>
           <cell><answer><mathInput minWidth="40"><shortDescription>value of h</shortDescription></mathInput>$plist[11][2]</answer></cell>
@@ -204,7 +209,7 @@
           <cell><answer><mathInput minWidth="40"><shortDescription>value of h</shortDescription></mathInput>$plist[13][2]</answer></cell>
           <cell><answer><mathInput minWidth="40"><shortDescription>value of h</shortDescription></mathInput>$plist[14][2]</answer></cell>
         </row>
-        <row bottom="minor" halign="center">
+        <row bottomBorder="minor" halign="center">
           <cell><m>t</m></cell>
           <cell><m>$anglelist[15]</m></cell>
           <cell><m>$anglelist[16]</m></cell>
@@ -212,7 +217,7 @@
           <cell></cell>
           <cell></cell>
         </row>
-        <row halign="center" bottom="major">
+        <row halign="center" bottomBorder="major">
           <cell><m>h</m></cell>
           <cell><answer><mathInput minWidth="40"><shortDescription>value of h</shortDescription></mathInput>$plist[15][2]</answer></cell>
           <cell><answer><mathInput minWidth="40"><shortDescription>value of h</shortDescription></mathInput>$plist[16][2]</answer></cell>
@@ -228,11 +233,11 @@
     </p>
     <p>
       What is the exact value of <m>f\left(\frac{11\pi}{4}\right)?</m><br/>
-      <answer><label><m>f\left(\frac{11\pi}{4}\right)=</m></label>-sqrt(2)/2</answer>
+      <answer><label><m>f\left(\frac{11\pi}{4}\right)=</m></label>sqrt(2)/2</answer>
     </p>
     <p>
       What is the exact value of <m>f\left(\frac{14\pi}{3}\right)?</m><br/>
-      <answer><label><m>f\left(\frac{14\pi}{3}\right)=</m></label>-sqrt(3)/2</answer>
+      <answer><label><m>f\left(\frac{14\pi}{3}\right)=</m></label>sqrt(3)/2</answer>
     </p>
   </li>
   <li>
