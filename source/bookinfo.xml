@@ -52,5 +52,6 @@
   <!-- here inside the rename element. -->
   <rename element="worksheet" xml:lang="en-US">&#8193;</rename>
 
-  <doenetml version="0.7.21-dev.343" />
+  <doenetml version="0.7" />
+  <!-- replaced <doenetml version="0.7.21-dev.343" /> on 9.22.26 to address the change Duane announced -->
 </docinfo>
