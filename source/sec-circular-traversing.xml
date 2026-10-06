@@ -307,7 +307,7 @@
   		</li>
   		<li>
   			<p>
-  				Circular functions have several standard features.  The function has a <em>midline</em> that is the line for which half the points on the curve lie above the line and half the points on the curve lie below.  A circular function's <em>amplitude</em> is the maximum deviation of the function value from the midline; the amplitude corresponds to the radius of the circle that generates the function.  Circular functions also repeat themselves, and we call the smallest value of <m>p</m> for which <m>f(x+p) = f(x)</m> for all <m>x</m> the period of the function.  The period of a circular function corresponds to the circumference of the circle that generates the function.
+  				Circular functions have several standard features.  The function has a <em>midline</em> that is the line for which half the points on the curve lie above the line and half the points on the curve lie below.  A circular function's <em>amplitude</em> is the maximum deviation of the function value from the midline; the amplitude corresponds to the radius of the circle that generates the function.  Circular functions also repeat themselves, and we call the smallest value of <m>p</m> for which <m>f(x+p) = f(x)</m> for all <m>x</m> the <em>period</em> of the function.  The period of a circular function corresponds to the circumference of the circle that generates the function.
   			</p>
   		</li>
   		<li>
