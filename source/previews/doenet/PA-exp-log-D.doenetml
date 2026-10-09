@@ -20,100 +20,100 @@
 </p>
 
 <ol marker="a.">
-  <li sectionWideCheckWork forceIndividualAnswerColoring>
+  <li sectionWideCheckWork colorAnswersSeparately>
     <p>
       Complete the following table to generate certain values of <m>P</m>.
     </p>
     <tabular width="100%" halign="center" valign="top">
-      <row header="true" bottom="medium">
-        <cell right="minor"><m>t</m></cell>
-        <cell halign="right"><m>y = 10^t</m></cell>
-        <cell halign="left"></cell>
+      <row header="true" bottomBorder="medium">
+        <cell endBorder="minor"><m>t</m></cell>
+        <cell halign="end"><m>y = 10^t</m></cell>
+        <cell halign="start"></cell>
       </row>
-      <row bottom="minor">
-        <cell right="minor"><m>-3</m></cell>
-        <cell halign="right"><m>10^{-3}</m></cell>
-        <cell halign="left"><m>=</m><mathInput disabled><shortDescription>decimal value of P of t</shortDescription><number>10^(-3)</number></mathInput></cell>
+      <row bottomBorder="minor">
+        <cell endBorder="minor"><m>-3</m></cell>
+        <cell halign="end"><m>10^{-3}</m></cell>
+        <cell halign="start"><m>=</m><mathInput disabled><shortDescription>decimal value of P of t</shortDescription><number>10^(-3)</number></mathInput></cell>
       </row>
-      <row bottom="minor">
-        <cell right="minor"><m>-2</m></cell>
-        <cell halign="right"><answer symbolicEquality><mathInput name="Pneg2"><shortDescription>value of P of t</shortDescription></mathInput>10^(-2)</answer></cell>
-        <cell halign="left"><m>=</m><mathInput disabled><shortDescription>decimal value of P of t</shortDescription><description>Enter something in the first box that has the same form as in the first row, <m>10^{-3}</m>, and the decimal value will fill in this second box automatically.</description><number>$Pneg2</number></mathInput></cell>
+      <row bottomBorder="minor">
+        <cell endBorder="minor"><m>-2</m></cell>
+        <cell halign="end"><answer symbolicEquality><mathInput name="Pneg2"><shortDescription>value of P of t</shortDescription></mathInput>10^(-2)</answer></cell>
+        <cell halign="start"><m>=</m><mathInput disabled><shortDescription>decimal value of P of t</shortDescription><description>Enter something in the first box that has the same form as in the first row, <m>10^{-3}</m>, and the decimal value will fill in this second box automatically.</description><number>$Pneg2</number></mathInput></cell>
       </row>
-      <row bottom="minor">
-        <cell right="minor"><m>-1</m></cell>
-        <cell halign="right"><answer symbolicEquality><mathInput name="Pneg1"><shortDescription>value of P of t</shortDescription></mathInput>10^(-1)</answer></cell>
-        <cell halign="left"><m>=</m><mathInput disabled><shortDescription>decimal value of P of t</shortDescription><description>Enter something in the first box that has the same form as in the first row, <m>10^{-3}</m>, and the decimal value will fill in this second box automatically.</description><number>$Pneg1</number></mathInput></cell>
+      <row bottomBorder="minor">
+        <cell endBorder="minor"><m>-1</m></cell>
+        <cell halign="end"><answer symbolicEquality><mathInput name="Pneg1"><shortDescription>value of P of t</shortDescription></mathInput>10^(-1)</answer></cell>
+        <cell halign="start"><m>=</m><mathInput disabled><shortDescription>decimal value of P of t</shortDescription><description>Enter something in the first box that has the same form as in the first row, <m>10^{-3}</m>, and the decimal value will fill in this second box automatically.</description><number>$Pneg1</number></mathInput></cell>
       </row>
-      <row bottom="minor">
-        <cell right="minor"><m>0</m></cell>
-        <cell halign="right"><answer symbolicEquality><mathInput name="P0"><shortDescription>value of P of t</shortDescription></mathInput>10^(0)</answer></cell>
-        <cell halign="left"><m>=</m><mathInput disabled><shortDescription>decimal value of P of t</shortDescription><description>Enter something in the first box that has the same form as in the first row, <m>10^{-3}</m>, and the decimal value will fill in this second box automatically.</description><number>$P0</number></mathInput></cell>
+      <row bottomBorder="minor">
+        <cell endBorder="minor"><m>0</m></cell>
+        <cell halign="end"><answer symbolicEquality><mathInput name="P0"><shortDescription>value of P of t</shortDescription></mathInput>10^(0)</answer></cell>
+        <cell halign="start"><m>=</m><mathInput disabled><shortDescription>decimal value of P of t</shortDescription><description>Enter something in the first box that has the same form as in the first row, <m>10^{-3}</m>, and the decimal value will fill in this second box automatically.</description><number>$P0</number></mathInput></cell>
       </row>
-      <row bottom="minor">
-        <cell right="minor"><m>1</m></cell>
-        <cell halign="right"><answer symbolicEquality><mathInput name="P1"><shortDescription>value of P of t</shortDescription></mathInput>10^(1)</answer></cell>
-        <cell halign="left"><m>=</m><mathInput disabled><shortDescription>decimal value of P of t</shortDescription><description>Enter something in the first box that has the same form as in the first row, <m>10^{-3}</m>, and the decimal value will fill in this second box automatically.</description><number>$P1</number></mathInput></cell>
+      <row bottomBorder="minor">
+        <cell endBorder="minor"><m>1</m></cell>
+        <cell halign="end"><answer symbolicEquality><mathInput name="P1"><shortDescription>value of P of t</shortDescription></mathInput>10^(1)</answer></cell>
+        <cell halign="start"><m>=</m><mathInput disabled><shortDescription>decimal value of P of t</shortDescription><description>Enter something in the first box that has the same form as in the first row, <m>10^{-3}</m>, and the decimal value will fill in this second box automatically.</description><number>$P1</number></mathInput></cell>
       </row>
-      <row bottom="minor">
-        <cell right="minor"><m>2</m></cell>
-        <cell halign="right"><answer symbolicEquality><mathInput name="P2"><shortDescription>value of P of t</shortDescription></mathInput>10^(2)</answer></cell>
-        <cell halign="left"><m>=</m><mathInput disabled><shortDescription>decimal value of P of t</shortDescription><description>Enter something in the first box that has the same form as in the first row, <m>10^{-3}</m>, and the decimal value will fill in this second box automatically.</description><number>$P2</number></mathInput></cell>
+      <row bottomBorder="minor">
+        <cell endBorder="minor"><m>2</m></cell>
+        <cell halign="end"><answer symbolicEquality><mathInput name="P2"><shortDescription>value of P of t</shortDescription></mathInput>10^(2)</answer></cell>
+        <cell halign="start"><m>=</m><mathInput disabled><shortDescription>decimal value of P of t</shortDescription><description>Enter something in the first box that has the same form as in the first row, <m>10^{-3}</m>, and the decimal value will fill in this second box automatically.</description><number>$P2</number></mathInput></cell>
       </row>
-      <row bottom="minor">
-        <cell right="minor"><m>0</m></cell>
-        <cell halign="right"><answer symbolicEquality><mathInput name="P3"><shortDescription>value of P of t</shortDescription></mathInput>10^(3)</answer></cell>
-        <cell halign="left"><m>=</m><mathInput disabled><shortDescription>decimal value of P of t</shortDescription><description>Enter something in the first box that has the same form as in the first row, <m>10^{-3}</m>, and the decimal value will fill in this second box automatically.</description><number>$P3</number></mathInput></cell>
+      <row bottomBorder="minor">
+        <cell endBorder="minor"><m>3</m></cell>
+        <cell halign="end"><answer symbolicEquality><mathInput name="P3"><shortDescription>value of P of t</shortDescription></mathInput>10^(3)</answer></cell>
+        <cell halign="start"><m>=</m><mathInput disabled><shortDescription>decimal value of P of t</shortDescription><description>Enter something in the first box that has the same form as in the first row, <m>10^{-3}</m>, and the decimal value will fill in this second box automatically.</description><number>$P3</number></mathInput></cell>
       </row>
 
     </tabular>
   </li>
-  <li sectionWideCheckWork forceIndividualAnswerColoring>
+  <li sectionWideCheckWork colorAnswersSeparately>
     <p>
       We can see that the function <m>P(t)</m> has an inverse function because each <answer><choiceInput inline><shortDescription>output or input</shortDescription><choice>input</choice><choice credit="1">output</choice></choiceInput></answer> of <m>P(t)</m> can be reversed to find a singular <answer><choiceInput inline><shortDescription>output or input</shortDescription><choice credit="1">input</choice><choice>output</choice></choiceInput></answer>; the function <m>P(t)</m> passes the <answer><choiceInput inline><shortDescription>test for inverses</shortDescription><choice>Vertical Line Test</choice><choice credit="1">Horizontal Line Test</choice></choiceInput></answer>. We know this happens because <m>P(t)</m> is <answer><choiceInput inline><shortDescription>behavior of P</shortDescription><choice>sometimes increasing</choice><choice>sometimes decreasing</choice><choice credit="1">always increasing</choice><choice>always decreasing</choice></choiceInput></answer> and so <m>P(t)</m> can't return to the same output value for a different input of <m>t</m>.
     </p>
   </li>
-  <li sectionWideCheckWork forceIndividualAnswerColoring>
+  <li sectionWideCheckWork colorAnswersSeparately>
     <p>
       Since <m>P</m> has an inverse function, we know there exists some other function, say <m>L</m>, such that writing <q><m>y = P(t)</m></q> says the exact same thing as writing <q><m>t = L(y)</m></q>.  In words, where <m>P</m> produces the result of raising <m>10</m> to a given power, the function <m>L</m> reverses this process and instead tells us the power to which we need to raise <m>10</m>, given a desired result.  Complete the following table to generate a collection of values of <m>L</m>.
     </p>
     <tabular width="60%" halign="center" valign="top">
-      <row header="true" bottom="medium">
-        <cell right="minor"><m>y</m></cell>
+      <row header="true" bottomBorder="medium">
+        <cell endBorder="minor"><m>y</m></cell>
         <cell halign="center"><m>t=L(y)</m></cell>
       </row>
       <row>
-        <cell right="minor"><m>10^{-3}</m></cell>
+        <cell endBorder="minor"><m>10^{-3}</m></cell>
         <cell halign="center"><answer symbolicEquality><mathInput name="Lneg3"><shortDescription>value of L of y</shortDescription><description>The input to <m>P(t)</m> which resulted in the output <m>y</m> that appears on the left.</description></mathInput>-3</answer></cell>
       </row>
       <row>
-        <cell right="minor"><m>10^{-2}</m></cell>
+        <cell endBorder="minor"><m>10^{-2}</m></cell>
         <cell halign="center"><answer symbolicEquality><mathInput name="Lneg2"><shortDescription>value of L of y</shortDescription><description>The input to <m>P(t)</m> which resulted in the output <m>y</m> that appears on the left.</description></mathInput>-2</answer></cell>
       </row>
       <row>
-        <cell right="minor"><m>10^{-1}</m></cell>
+        <cell endBorder="minor"><m>10^{-1}</m></cell>
         <cell halign="center"><answer symbolicEquality><mathInput name="Lneg1"><shortDescription>value of L of y</shortDescription><description>The input to <m>P(t)</m> which resulted in the output <m>y</m> that appears on the left.</description></mathInput>-1</answer></cell>
       </row>
       <row>
-        <cell right="minor"><m>10^{0}</m></cell>
+        <cell endBorder="minor"><m>10^{0}</m></cell>
         <cell halign="center"><answer symbolicEquality><mathInput name="L0"><shortDescription>value of L of y</shortDescription><description>The input to <m>P(t)</m> which resulted in the output <m>y</m> that appears on the left.</description></mathInput>0</answer></cell>
       </row>
       <row>
-        <cell right="minor"><m>10^{1}</m></cell>
+        <cell endBorder="minor"><m>10^{1}</m></cell>
         <cell halign="center"><answer symbolicEquality><mathInput name="L1"><shortDescription>value of L of y</shortDescription><description>The input to <m>P(t)</m> which resulted in the output <m>y</m> that appears on the left.</description></mathInput>1</answer></cell>
       </row>
       <row>
-        <cell right="minor"><m>10^{2}</m></cell>
+        <cell endBorder="minor"><m>10^{2}</m></cell>
         <cell halign="center"><answer symbolicEquality><mathInput name="L2"><shortDescription>value of L of y</shortDescription><description>The input to <m>P(t)</m> which resulted in the output <m>y</m> that appears on the left.</description></mathInput>2</answer></cell>
       </row>
       <row>
-        <cell right="minor"><m>10^{3}</m></cell>
+        <cell endBorder="minor"><m>10^{3}</m></cell>
         <cell halign="center"><answer symbolicEquality><mathInput name="L3"><shortDescription>value of L of y</shortDescription><description>The input to <m>P(t)</m> which resulted in the output <m>y</m> that appears on the left.</description></mathInput>3</answer></cell>
       </row>
     </tabular>
 
   </li>
-  <li sectionWideCheckWork forceIndividualAnswerColoring>
+  <li sectionWideCheckWork colorAnswersSeparately>
     <p>
       <answer><choiceInput inline><label>The domain of <m>P(t)=10^t</m> is</label><choice><m>[0,\infty)</m></choice><choice><m>(0,\infty)</m></choice><choice credit="1"><m>(-\infty,\infty)</m></choice></choiceInput></answer> because <answer><choiceInput inline><label>you can raise <m>10</m> to</label><choice>any number <m>0</m> and greater</choice><choice>any positive number</choice><choice credit="1">any number</choice></choiceInput></answer>.  <answer><choiceInput inline><label>The range of <m>P(t)</m> is </label><choice><m>[0,\infty)</m></choice><choice credit="1"><m>(0,\infty)</m></choice><choice><m>(-\infty,\infty)</m></choice></choiceInput></answer> because <answer><choiceInput inline><label>the result of raising <m>10</m> to any power is always </label><choice>a number <m>0</m> and greater</choice><choice credit="1">a positive number</choice><choice>some number</choice></choiceInput></answer>.
     </p>
