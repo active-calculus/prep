@@ -30,5 +30,5 @@
   <numbering>
     <projects distinct="yes" />
   </numbering>
-  <webwork server="https://webwork-ptx.aimath.org" />
+  <webwork server="https://webwork.runestone.academy" />
 </publication>

@@ -14,7 +14,7 @@
     <exercise-reading statement="no" hint="no" answer="no" solution="no"/>
     <exercise-worksheet statement="yes" hint="no" answer="no" solution="no" />
   </common>
-  <webwork server="https://webwork-ptx.aimath.org" />
+  <webwork server="https://webwork.runestone.academy" />
   <numbering>
     <divisions level="2"/>
     <projects distinct="yes" />
