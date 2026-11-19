@@ -36,7 +36,7 @@
       <answer name="Iof2" symbolicEquality><label><m>I(2)=</m></label><description>The amount in the account after 2 years earning <m>8 \%</m> interest. Recall that this can be calculated by <m>1.08\cdot \big(1.08\cdot 20000\big)=1.08^2\cdot 20000</m>.</description><number>1.08^2*20000</number></answer>
     </p>
     <p>
-      <answer name="Iof3" allowedErrorInNumbers=".01" allowedErrorIsAbsolute><label><m>I(3)=</m></label><description>The amount in the account after 3 years earning <m>8 \%</m> interest. Recall that this can be calculated by <m>1.08\cdot \big(1.08^2\cdot 20000\big)=1.08^3\cdot 20000</m>.</description><number>1.08^3*20000</number></answer>
+      <answer name="Iof3" symbolicEquality><label><m>I(3)=</m></label><description>The amount in the account after 3 years earning <m>8 \%</m> interest. Recall that this can be calculated by <m>1.08\cdot \big(1.08^2\cdot 20000\big)=1.08^3\cdot 20000</m>.</description><number>1.08^3*20000</number></answer>
     </p>
   </li>
   <li>
@@ -92,7 +92,7 @@
     <p>
       Complete the sentence with some observations about the behavior of the two functions.
     </p>
-    <p sectionWideCheckWork forceIndividualAnswerColoring>
+    <p sectionWideCheckWork colorAnswersSeparately>
     Even though both functions had the same form, <answer><choiceInput inline><shortDescription>form of the functions</shortDescription><choice><m>20000t+b</m></choice><choice><m>20000t^2+bt+c</m></choice><choice credit="1"><m>b^t\cdot 20000</m></choice><choice><m>20000\cos(bt)+c</m></choice></choiceInput></answer>, the function <m>I(t)</m> is <answer><choiceInput inline><shortDescription>behavior of I of t</shortDescription><choice credit="1">getting larger</choice><choice>getting smaller</choice><choice>staying the same</choice></choiceInput></answer> year after year and <m>V(t)</m> is <answer><choiceInput inline><shortDescription>behavior of V of t</shortDescription><choice>getting larger</choice><choice credit="1">getting smaller</choice><choice>staying the same</choice></choiceInput></answer>. At the end of <m>20</m> years, the account earning interest is worth <answer><choiceInput inline><shortDescription>amount in I of t</shortDescription><choice> around <m>\$ 50000</m></choice><choice credit="1">over <m>\$ 90000</m></choice><choice>a couple thousand dollars</choice></choiceInput></answer>, while the car that depreciates is worth maybe <answer><choiceInput inline><shortDescription>amount in I of t</shortDescription><choice> around <m>\$ 50000</m></choice><choice>over <m>\$ 90000</m></choice><choice credit="1">a couple thousand dollars</choice></choiceInput></answer>.
     </p>
     <p>
