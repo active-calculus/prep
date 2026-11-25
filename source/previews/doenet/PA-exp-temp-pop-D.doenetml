@@ -29,9 +29,19 @@
     </p>
     <p>
       Determine the exact value of <m>k</m>. <br/>
-      <answer><label><m>k=</m></label><description>The exact value means that answer should have <m>e</m> or <m>\ln</m> in it.</description><award symbolicEquality>-ln(6/7)/20</award><award symbolicEquality>-1/20*ln(6/7)</award><award symbolicEquality>ln(6/7)*(-1/20)</award><award symbolicEquality>ln(6/7)*(1/-20)</award><award symbolicEquality>(-ln(6/7))/20</award><award symbolicEquality>ln(6/7)/(-20)</award><award name="anotsimplified" credit="0">-ln(6/7)/20</award><award name="adecimal" credit="0" allowedErrorInNumbers=".01" allowedErrorIsAbsolute>-ln(6/7)/20</award></answer>
+      <answer>
+        <label><m>k=</m></label>
+        <description>The exact value means that answer should have <m>e</m> or <m>\ln</m> in it.</description>
+        <award symbolicEquality simplifyOnCompare="numbers">-ln(6/7)/20</award>
+        <!-- <award symbolicEquality>-1/20*ln(6/7)</award>
+        <award symbolicEquality>ln(6/7)*(-1/20)</award>
+        <award symbolicEquality>ln(6/7)*(1/-20)</award>
+        <award symbolicEquality>(-ln(6/7))/20</award>
+        <award symbolicEquality>ln(6/7)/(-20)</award>
+        <award name="anotsimplified" credit="0">-ln(6/7)/20</award> -->
+        <award name="adecimal" credit="0" allowedErrorInNumbers=".01" allowedErrorIsAbsolute>-ln(6/7)/20</award></answer>
     </p>
-    <feedback condition="$anotsimplified">You are doing the right thing, but your answer isn't simplified enough, yet. Evaluate any additions and subtractions, and put any fractions of whole numbers into lowest terms.</feedback>
+    <!-- <feedback condition="$anotsimplified">You are doing the right thing, but your answer isn't simplified enough, yet. Evaluate any additions and subtractions, and put any fractions of whole numbers into lowest terms.</feedback> -->
     <feedback condition="$adecimal">Your answer is close but it is not the exact value. Do not enter a decimal approximation.  Your answer should have <m>\ln</m> in it.</feedback>
   </aside>
   <aside><title>b.</title>
